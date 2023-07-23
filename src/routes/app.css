@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --small-font: 1rem;
+  --medium-font: 1.125rem;
+  --tiny-font: 0.8rem;
+}
+
+body[data-theme="light"] {
+  /* LIGHT COLORS */
+  --bg-color: #fff;
+  --font-color: #000;
+  --secondary-font-color: #555;
+  --inverted-font-color: #fff;
+  --border-color: #ddd;
+  --shadow-color: #ccc;
+  --accent-color: #003a4c;
+  --tag-color: #eef0f2;
+  --tag-font-color: var(--secondary-font-color);
+  --code-border-color: transparent;
+  --code-bg-color: #222;
+  --inline-code-color: var(--secondary-font-color);
+  --h2-color: var(--accent-color);
+}
+
+body[data-theme="dark"] {
+  /* DARK COLORS */
+  --bg-color: #222223;
+  --font-color: #fff;
+  --secondary-font-color: #999;
+  --inverted-font-color: #fff;
+  --border-color: #333;
+  --shadow-color: transparent;
+  --accent-color: #d14613;
+  --tag-color: #404040;
+  --tag-font-color: var(--inverted-font-color);
+  --code-border-color: var(--border-color);
+  --code-bg-color: #111;
+  --inline-code-color: #333;
+  --h2-color: skyblue;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  overflow-y: scroll;
+  font-size: var(--medium-font);
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+
+a {
+  color: inherit;
+  text-underline-offset: 0.1rem;
+  outline-color: var(--accent-color);
+}
+
+p {
+  margin-block: 0.75rem;
+}
+
+strong {
+  font-weight: 600;
+}
+
+h1 {
+  font-weight: 600;
+  margin-block: 1rem 1.5rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-weight: 600;
+  margin-block: 0.5rem;
+  line-height: 1.2;
+  color: var(--h2-color);
+}
+
+h3 {
+  margin-top: 1.5rem;
+}
+
+:is(ol, ul):not(.no-bullets) {
+  margin-left: 2rem;
+}
+
+:is(ol, ul):not(.no-bullets) li + li {
+  margin-block: 0.5rem;
+}
+
+:is(ol, ul).no-bullets {
+  list-style-type: none;
+}
+
+summary {
+  cursor: pointer;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline-color: var(--accent-color);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.visually-hidden {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  left: -100000px;
+  overflow: hidden;
+}
+
+.tag {
+  font-size: var(--tiny-font);
+  background-color: var(--tag-color);
+  color: var(--tag-font-color);
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

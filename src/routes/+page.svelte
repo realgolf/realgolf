@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<svelte:head>
+    <title>Golf Games</title>
+</svelte:head>
+
+<h1>Golf Games</h1>
+
+<p><a href="/exact">Exact</a></p>
+<p><a href="/4winning">4 Winning</a></p>
+
+<p><a href="/imprint">Imprint</a></p>
