@@ -59,6 +59,23 @@
     }
   }
 
+  let clickedCellsCount = 0; // Variable, um die Anzahl der angeklickten Zellen zu zählen
+
+  // Funktion zum Ermitteln des Gewinners mit den meisten Punkten
+  function findWinner(): string {
+    let maxPoints = -Infinity;
+    let winner = "";
+
+    for (const team of teams) {
+      if (team.points > maxPoints) {
+        maxPoints = team.points;
+        winner = team.color;
+      }
+    }
+
+    return winner;
+  }
+
   function handleClick(event: MouseEvent) {
     const targetId = (event.target as HTMLElement).id;
     const match = targetId.match(/row(\d+)-(\d+)/);
@@ -87,9 +104,15 @@
           }
 
           updatePointsDisplay();
+          clickedCellsCount++;
         }
         changeTeam();
       }
+    }
+
+    if (clickedCellsCount === 40) {
+      const winner = findWinner();
+      alert(`The winner is ${winner}!`);
     }
   }
 
