@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>MoinJulian - Imprint</title>
+  <title>Golf Games - Imprint</title>
 </svelte:head>
 
 <h1>Imprint</h1>

@@ -5,12 +5,18 @@
   import "./app.css";
 </script>
 
+<svelte:head>
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon16x16.png" />
+
+  <title>Golf Games</title>
+</svelte:head>
+
 <div class="wrapper">
   <main>
     <div class="themetoggler">
       <ThemeToggler />
     </div>
-    {#if $page.url.pathname !== '/'}
+    {#if $page.url.pathname !== "/"}
       <GoBack />
     {/if}
     <slot />
