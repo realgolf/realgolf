@@ -1,38 +1,22 @@
-# create-svelte
+# Description
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+    Welcome to "Golf Games" - your ultimate destination for golf fun and
+    challenges! Discover two captivating golf games: "4Winning" and "Exact",
+    guaranteed to put your skills to the test and take you on exciting
+    adventures.
 
-## Creating a project
+## 4 Winning
 
-If you're seeing this, you've probably already done this step. Congrats!
+    4 Winning is the first exicting game, which goal is to get 4 in a row, you
+    can connect them vertikal, horizontal and diagonal, as soon a team gets four
+    in a row, a message will be displayed. The game allways shows the current
+    team and gives an option to switch the team, you can take the field from
+    your oponent, so the game is more exciting. 
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Exact
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+    Exact is the second game I developed, the goal of the game is to get as many
+    points with 40 shots, so 20 shots per team, after the 40 shots, the team
+    with the most points will be displayed. You can see the amount of points per
+    field at the left hand side of the game board, there's no limit of how often
+    a field can get hit.
