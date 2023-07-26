@@ -42,8 +42,11 @@
     { color: "red", data: [], points: 0 },
     { color: "blue", data: [], points: 0 },
     { color: "green", data: [], points: 0 },
-    { color: "orange", data: [], points: 0 },
+    {color: "orange", data: [], points: 0},
   ];
+
+  let userInput: number = 20;
+  let clickedCellsCount = 0; // Variable, um die Anzahl der angeklickten Zellen zu zählen
 
   let currentTeamIndex = 0;
   let currentTeam = teams[currentTeamIndex];
@@ -64,8 +67,6 @@
         .join("<br>");
     }
   }
-
-  let clickedCellsCount = 0; // Variable, um die Anzahl der angeklickten Zellen zu zählen
 
   // Funktion zum Ermitteln des Gewinners mit den meisten Punkten
   function findWinner(): string {
@@ -116,9 +117,15 @@
       }
     }
 
-    if (clickedCellsCount === 40) {
+    if (clickedCellsCount === userInput * 4) {
       const winner = findWinner();
-      alert(`The winner is ${winner}!`);
+      const confirmed = confirm(
+        `The winner is ${winner}! Do you want to play again?`
+      );
+
+      if (confirmed) {
+        resetGame();
+      }
     }
   }
 
@@ -127,6 +134,27 @@
     if (teamTurnDisplay) {
       teamTurnDisplay.innerHTML = `Current Team Turn: ${color}`;
     }
+  }
+
+  function resetGame() {
+    for (let team of teams) {
+      team.data = [];
+      team.points = 0;
+    }
+
+    userInput = 20;
+    clickedCellsCount = 0;
+    currentTeamIndex = 0;
+    currentTeam = teams[currentTeamIndex];
+    color = currentTeam.color;
+
+    const cells = document.querySelectorAll(".meters");
+    cells.forEach((cell) => {
+      (cell as HTMLElement).style.backgroundColor = "";
+    });
+
+    updatePointsDisplay();
+    updateTeamTurn();
   }
 
   onMount(() => {
@@ -145,8 +173,22 @@
 
 <h1>4 Players</h1>
 
-<p id="team_turn_display">Current Team Turn: {currentTeam.color}</p>
+<p>
+  Enter the amount of shots per team: <input
+    bind:value={userInput}
+    type="number"
+    name="shots"
+    id="shots"
+  />
+</p>
 
+<p>
+  You have played {clickedCellsCount} of {userInput * 4} shots, so you have
+  {userInput * 4 - clickedCellsCount} shots left.
+</p>
+
+<p id="team_turn_display">Current Team Turn: {currentTeam.color}</p>
+<button on:click={resetGame}>Restart</button>
 <button on:click={changeTeam}>Switch Team</button>
 
 <div id="points_display" />
@@ -174,13 +216,17 @@
 </table>
 
 <style>
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
   .meters,
   .points {
     flex: 0 0 25%;
     box-sizing: border-box;
     border: 5px solid var(--border-color);
-    min-width: calc(90vw / 15);
-    height: calc(50vh / 8);
+    min-width: calc(80vw / 15);
+    height: calc(30vh / 8);
     text-align: center;
   }
 
@@ -191,5 +237,13 @@
   button {
     cursor: pointer;
     border: 5px solid var(--border-color);
+  }
+
+  input {
+    color: var(--font-color);
+    background-color: var(--bg-color);
+    border: 2px solid var(--border-color);
+    box-shadow: none;
+    font-size: var(--medium-font);
   }
 </style>

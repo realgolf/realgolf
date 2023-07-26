@@ -20,8 +20,14 @@
 
   <ol>
     <li>Bronze: Only the lenght of the shot applies</li>
-    <li>Silver: The number of meters and the lateral deviation apply. - lateral deviation gets choosed by the players</li>
-    <li>Gold: Fields can only be played after prior announcement. The rest is like Silver</li>
+    <li>
+      Silver: The number of meters and the lateral deviation apply. - lateral
+      deviation gets choosed by the players
+    </li>
+    <li>
+      Gold: Fields can only be played after prior announcement. The rest is like
+      Silver
+    </li>
     <li>Platinum: Like gold, all with a club.</li>
   </ol>
 </div>
@@ -35,28 +41,10 @@
   </ol>
 </div>
 
-<div>
-  <h2>Further information:</h2>
-
-  <p>
-    This game is for golfers who want to train a different way, you only need a
-    kind of trackman or a simulator to determine the exact length. After you
-    have determined the length with your trackman (or the like), you can do that
-    with this Click length labeled field in the respective game. The games
-    automatically change the teams or the players through.
-    <br />
-    <b>Have fun playing</b>
-    <br />
-    <a href="https://www.trackman.com/" target="_blank"
-      >Here you could buy a trackman. (Very expensive!)</a
-    >
-  </p>
-</div>
-
 <style lang="scss">
   div {
     display: block;
-    p,
+
     ol {
       margin-left: 4vw;
       line-break: auto;
