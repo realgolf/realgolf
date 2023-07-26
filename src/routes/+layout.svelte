@@ -1,4 +1,5 @@
 <script>
+  import { page } from "$app/stores";
   import GoBack from "$lib/components/GoBack.svelte";
   import ThemeToggler from "../lib/components/ThemeToggler.svelte";
   import "./app.css";
@@ -8,8 +9,10 @@
   <main>
     <div class="themetoggler">
       <ThemeToggler />
-      <GoBack />
     </div>
+    {#if $page.url.pathname !== '/'}
+      <GoBack />
+    {/if}
     <slot />
   </main>
 </div>
