@@ -9,5 +9,3 @@
 <h1>Golf Games</h1>
 
 <Describtion />
-
-<p><a href="/imprint">Imprint</a></p>
