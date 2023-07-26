@@ -48,6 +48,8 @@
 
 <style>
   main {
-    max-width: 48vw;
+    max-width: 40rem;
+    /*margin-inline: auto;*/
+    padding-inline: 1rem;
   }
 </style>
