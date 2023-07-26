@@ -68,11 +68,12 @@
     },
   ];
 
-  let colors: string[] = ["red", "blue"];
+  let colors: string[] = ["red", "blue", "green"];
   let color = colors[0];
   let teams: Team[] = [
     { color: "red", data: [] },
     { color: "blue", data: [] },
+    { color: "green", data: [] },
   ];
 
   let currentTeamIndex = 0;
@@ -200,10 +201,10 @@
 </script>
 
 <svelte:head>
-  <title>4 winning - 2 Players</title>
+  <title>4 winning - 3 Players</title>
 </svelte:head>
 
-<h1>2 Players</h1>
+<h1>3 Players</h1>
 
 <p id="team_turn_display">Current Team Turn: {currentTeam.color}</p>
 
