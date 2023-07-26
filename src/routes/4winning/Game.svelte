@@ -72,8 +72,8 @@
     },
   ];
 
-  let color = teams[0].color;
   let currentTeamIndex = 0;
+  let color = teams[currentTeamIndex].color;
   let currentTeam = teams[currentTeamIndex];
 
   function changeTeam() {
@@ -187,12 +187,34 @@
       }
 
       if (isWinningCombination) {
-        alert(`Team ${currentTeam.color} wins!`);
-        return true;
+        const confirmed = confirm(
+          `Team ${currentTeam.color} wins!Do you want to restart the game?`
+        );
+
+        if (confirmed) {
+          restartGame();
+        }
       }
     }
 
     return false;
+  }
+
+  function restartGame() {
+    teams.forEach((team) => {
+      team.data = [];
+    });
+
+    const cells = document.querySelectorAll(".meters");
+    cells.forEach((cell) => {
+      (cell as HTMLElement).style.backgroundColor = "";
+    });
+
+    currentTeamIndex = 0;
+    currentTeam = teams[currentTeamIndex];
+    color = currentTeam.color;
+    changeTeam();
+    updateTeamTurn();
   }
 
   onMount(() => {
