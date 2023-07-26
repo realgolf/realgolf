@@ -13,6 +13,4 @@
   ];
 </script>
 
-<h1>Exact</h1>
-
 <Game {teams} />

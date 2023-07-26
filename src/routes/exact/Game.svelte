@@ -157,7 +157,7 @@
 </script>
 
 <svelte:head>
-  <title>Exact - 2 Players</title>
+  <title>Exact - {teams.length} Players</title>
 </svelte:head>
 
 <h1>{teams.length} Players</h1>
@@ -172,7 +172,8 @@
 </p>
 
 <p>
-  You have played {clickedCellsCount} of {userInput * teams.length} shots, so you have
+  You have played {clickedCellsCount} of {userInput * teams.length} shots, so you
+  have
   {userInput * teams.length - clickedCellsCount} shots left.
 </p>
 
