@@ -1,4 +1,3 @@
-<!-- NearestToTheChoice.svelte -->
 <script lang="ts">
   let distanceChoosen: number = 40;
 
