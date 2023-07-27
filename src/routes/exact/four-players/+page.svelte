@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Game from "../Game.svelte";
+  import Exact from "$lib/components/Exact.svelte";
 
   interface Team {
     color: string;
@@ -15,4 +15,4 @@
   ];
 </script>
 
-<Game {teams} />
+<Exact {teams} />

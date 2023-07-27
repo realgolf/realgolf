@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Game from "../Game.svelte";
+  import FourWinning from "$lib/components/FourWinning.svelte";
 
   interface Team {
     color: string;
@@ -14,4 +14,4 @@
   ];
 </script>
 
-<Game {teams} />
+<FourWinning {teams} />
