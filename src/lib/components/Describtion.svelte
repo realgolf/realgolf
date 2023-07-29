@@ -9,36 +9,57 @@
   <h2>4 Winning</h2>
 
   <p>
-    4 Winning is the first exicting game, which goal is to get 4 in a row, you
-    can connect them vertikal, horizontal and diagonal, as soon a team gets four
-    in a row, a message will be displayed. The game allways shows the current
-    team and gives an option to switch the team, you can take the field from
-    your oponent, so the game is more exciting. Please read the rules and levels
-    of the game at <a href="/4winning">4 Winning</a>
+    4 Winning is the first thrilling game I have developed. The goal of this
+    game is to achieve a sequence of four in a row, which can be formed either
+    vertically, horizontally, or diagonally. Once a team successfully
+    accomplishes four in a row, a message will be displayed to acknowledge their
+    victory. Throughout the game, the current team is always shown, and players
+    have the option to switch teams. Furthermore, an intriguing aspect of the
+    game is the ability to take fields from your opponent, adding to the
+    excitement and competitiveness. For complete rules and various levels of the
+    game, please refer to the page on <a href="/4winning">4 Winning</a>.
+    <br />
+    <b>Enjoy playing this captivating game!</b>
   </p>
 
   <h2>Exact</h2>
 
   <p>
-    Exact is the second game I developed, the goal of the game is to get as many
-    points with a fixed number of shots (you can modify at teh beginning or
-    during the game, the standard is 20 shots per team), the number you enter is
-    multiplied by 2 to get the shots overall, after the (for example) 40 shots,
-    the team with the most points will be displayed. You can see the amount of
-    points per field at the left hand side of the game board, there's no limit
-    of how often a field can get hit. Plaese read the rules and levels of the
-    game at <a href="/exact">Exact</a>.
+    Exact is the second game I have developed. The objective of the game is to
+    score as many points within a fixed number of shots. You have the
+    flexibility to modify the number of shots at the beginning or during the
+    game; the standard is 20 shots per team. The number you enter will be
+    multiplied by 2 to determine the total number of shots. After the specified
+    number of shots (e.g., 40 shots), the team with the highest points will be
+    declared the winner. The amount of points per field is displayed on the
+    left-hand side of the game board, and there is no limit to how many times a
+    field can be hit. For detailed rules and game levels, please refer to the
+    page on <a href="/exact">Exact</a>.
+    <br />
+    <b>Enjoy playing this thrilling game!</b>
+  </p>
+
+  <h2>Precision</h2>
+
+  <p>
+    Precision is the third game I have developed. The objective of the game is
+    to get as close to the targets as possible. For every meter you miss the
+    target, you will receive a deduction of one point. The winner of the game is
+    the player with the highest points at the end. The game concludes when only
+    one player has points remaining. You can observe the distance you need to
+    shoot and the current team, along with the remaining points for each team.
+    The game will only end if all teams have zero points except for one. For
+    detailed rules, please refer to the page on <a href="/precision"
+      >Precision</a
+    >.
+    <br /> <b>Enjoy playing this exciting game!</b>
   </p>
 
   <h2>Further information:</h2>
 
   <p>
     You will need a kind of trackman or a simulator to determine the exact
-    length. After you have determined the length with your trackman (or like),
-    you can click on the field label with the disctance you hit. The games
-    updtae evrything automaticly so you don't have to think of anythink.
-    <br />
-    <b>Have fun playing</b>
+    length.
     <br />
     <a href="https://www.trackman.com/" target="_blank"
       >Here you could buy a trackman. (Very expensive!)</a
