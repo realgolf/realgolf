@@ -26,12 +26,6 @@
       and etiquette of the game, as well as the guidelines of the club.
       <br />
       <br />
-      "Precision" can also be played in teams. Points can be aggregated for the entire
-      team to determine the winner. Each player in a team contributes 100 points
-      to the team's overall score. Regardless of the number of players in a team,
-      the baseline for points is set by the team with the most players.
-      <br />
-      <br />
       You can make the game more interesting by introducing additional challenges,
       such as playing in different weather conditions or on various terrains. Whether
       you are a novice or an experienced golfer, "Precision" offers an exciting opportunity
@@ -51,12 +45,6 @@
       <li><a href="/precision/players/two-players">Two players</a></li>
       <li><a href="/precision/players/three-players">Three players</a></li>
       <li><a href="/precision/players/four-players">Four players</a></li>
-    </ol>
-    <h3>Team games:</h3>
-    <ol>
-      <li><a href="/precision/teams/two-teams">Two Teams</a></li>
-      <li><a href="/precision/teams/three-teams">Three Teams</a></li>
-      <li><a href="/precision/teams/four-teams">Four Teams</a></li>
     </ol>
   </div>
 </main>
