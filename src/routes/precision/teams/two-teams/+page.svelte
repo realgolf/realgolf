@@ -1,5 +1,6 @@
 <script lang="ts">
   import { afterUpdate, onMount } from "svelte";
+  import { get, writable } from "svelte/store";
 
   interface Team {
     color: string;
@@ -10,7 +11,7 @@
 
   let point: number = 100;
 
-  let teams = [
+  let teams: Team[] = [
     { color: "red", points: point, distance: 0, teamSize: 1 },
     { color: "blue", points: point, distance: 0, teamSize: 1 },
   ];
@@ -74,6 +75,14 @@
   afterUpdate(() => {
     updatePointsDisplay();
   });
+
+  // Reactive statement to update points based on the largest team size
+  $: {
+    const largestTeamSize = Math.max(...teams.map((t) => t.teamSize));
+    teams.forEach((team) => {
+      team.points = largestTeamSize * 100;
+    });
+  }
 </script>
 
 <svelte:head>
@@ -83,10 +92,6 @@
 <h1>{teams.length} Teams</h1>
 
 <div id="error_message" />
-
-{#each teams as t}
-  <p>{t.color} points {t.points}.</p>
-{/each}
 
 <p>Meters to play:</p>
 <ol>
