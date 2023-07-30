@@ -68,12 +68,28 @@
     MetersToPlay = generateRandomNumber();
   }
 
+  function checkTeamSize() {
+    const error_display = document.querySelector("#error_message");
+    const hasZeroPlayers = teams.some((t) => t.teamSize === 0);
+
+    if (hasZeroPlayers) {
+      if (error_display) {
+        error_display.textContent = "A team needs a minimum of one player!";
+      }
+    } else {
+      if (error_display) {
+        error_display.textContent = "";
+      }
+    }
+  }
+
   onMount(() => {
     updatePointsDisplay();
   });
 
   afterUpdate(() => {
     updatePointsDisplay();
+    checkTeamSize();
   });
 
   // Reactive statement to update points based on the largest team size
