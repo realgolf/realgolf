@@ -52,12 +52,12 @@
       <li><a href="/precision/players/three-players">Three players</a></li>
       <li><a href="/precision/players/four-players">Four players</a></li>
     </ol>
-    <h3>Team games:</h3>
+    <!-- <h3>Team games:</h3>
     <ol>
       <li><a href="/precision/teams/two-teams">Two Teams</a></li>
       <li><a href="/precision/teams/three-teams">Three Teams</a></li>
       <li><a href="/precision/teams/four-teams">Four Teams</a></li>
-    </ol>
+    </ol> -->
   </div>
 </main>
 

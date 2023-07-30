@@ -1,9 +1,9 @@
 <main>
   <b>
     Welcome to "Golf Games" - your ultimate destination for golf fun and
-    challenges! Discover two captivating golf games: "4Winning" and "Exact",
-    guaranteed to put your skills to the test and take you on exciting
-    adventures.
+    challenges! Discover three captivating golf games: "4Winning", "Exact" and
+    "Precision", guaranteed to put your skills to the test and take you on
+    exciting adventures. Tested and developed in cooperation with golf trainers.
   </b>
 
   <h2>4 Winning</h2>
@@ -52,7 +52,8 @@
     detailed rules, please refer to the page on <a href="/precision"
       >Precision</a
     >.
-    <br /> <b>Enjoy playing this exciting game!</b>
+    <br />
+    <b>Enjoy playing this exciting game!</b>
   </p>
 
   <h2>Further information:</h2>
