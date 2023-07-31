@@ -20,13 +20,3 @@
     with the most points will be displayed. You can see the amount of points per
     field at the left hand side of the game board, there's no limit of how often
     a field can get hit.
-
-## Precision
-
-    Precision is the third game I have developed. The objective of the game is
-    to get as close to the targets as possible. For every meter you miss the
-    target, you will receive a deduction of one point. The winner of the game is
-    the player with the highest points at the end. The game concludes when only
-    one player has points remaining. You can observe the distance you need to
-    shoot and the current team, along with the remaining points for each team.
-    The game will only end if all teams have zero points except for one.
