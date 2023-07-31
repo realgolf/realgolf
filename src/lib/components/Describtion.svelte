@@ -39,7 +39,7 @@
     <b>Enjoy playing this thrilling game!</b>
   </p>
 
-  <h2>Precision</h2>
+  <!-- <h2>Precision</h2>
 
   <p>
     Precision is the third game I have developed. The objective of the game is
@@ -54,7 +54,7 @@
     >.
     <br />
     <b>Enjoy playing this exciting game!</b>
-  </p>
+  </p> -->
 
   <h2>Further information:</h2>
 
