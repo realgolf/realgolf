@@ -13,7 +13,7 @@
   let team = teams[0];
 
   function generateRandomNumber(): number {
-    const randomNumber: number = Math.random() * (100 - 10) + 10;
+    const randomNumber: number = Math.random() * (150 - 10) + 10;
     const roundedNumber: number = Math.ceil(randomNumber);
     return roundedNumber;
   }
@@ -30,6 +30,10 @@
   }
 
   function changeTeam() {
+    MetersToPlay = generateRandomNumber();
+    for (let team of teams) {
+      team.distance = 0;
+    }
     team = team === teams[0] ? teams[1] : teams[0];
   }
 
