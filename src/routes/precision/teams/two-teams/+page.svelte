@@ -17,7 +17,7 @@
   let team = teams[0];
 
   function generateRandomNumber(): number {
-    const randomNumber: number = Math.random() * (100 - 10) + 10;
+    const randomNumber: number = Math.random() * (150 - 10) + 10;
     const roundedNumber: number = Math.ceil(randomNumber);
     return roundedNumber;
   }
@@ -49,10 +49,22 @@
     }
   }
 
-  function changeTeam() {
-    team = team === teams[0] ? teams[1] : teams[0];
+  function UpdatePoints() {
+    if (teams[0].teamSize > teams[1].teamSize) {
+      teams[0].points = teams[0].points * teams[0].teamSize;
+      teams[1].points = teams[1].points * teams[0].teamSize;
+      updatePointsDisplay();
+    } else if (teams[1].teamSize > teams[0].teamSize) {
+      teams[0].points = teams[0].points * teams[1].teamSize;
+      teams[1].points = teams[1].points * teams[1].teamSize;
+      updatePointsDisplay();
+    }
   }
 
+  function changeTeam() {
+    MetersToPlay = generateRandomNumber();
+    team = team === teams[0] ? teams[1] : teams[0];
+  }
   function deductPoints() {
     const difference: number = MetersToPlay - team.distance;
     const pointsToDeduct = Math.abs(difference);
@@ -80,15 +92,6 @@
 
     team = teams[0];
     MetersToPlay = generateRandomNumber();
-  }
-
-  $: {
-    let oldPoint = point;
-    if (teams[0].teamSize > teams[1].teamSize) {
-      point = teams[0].teamSize * oldPoint;
-    } else if (teams[1].teamSize > teams[0].teamSize) {
-      point = teams[1].teamSize * oldPoint;
-    }
   }
 
   onMount(() => {
@@ -123,6 +126,9 @@
       <input bind:value={t.teamSize} type="number" />
     </li>
   {/each}
+  <li>
+    <button on:click={UpdatePoints}>Update Team size</button>
+  </li>
 </ol>
 
 <ol>
