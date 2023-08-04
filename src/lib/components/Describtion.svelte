@@ -47,9 +47,9 @@
     target, you will receive a deduction of one point. The winner of the game is
     the player with the highest points at the end. The game concludes when only
     one player has points remaining. You can observe the distance you need to
-    shoot and the current team, along with the remaining points for each team.
-    The game will only end if all teams have zero points except for one. For
-    detailed rules, please refer to the page on <a href="/precision"
+    shoot and the current player, along with the remaining points for each
+    player. The game will only end if all players have zero points except for
+    one. For detailed rules, please refer to the page on <a href="/precision"
       >Precision</a
     >.
     <br />
