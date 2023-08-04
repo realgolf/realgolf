@@ -1,9 +1,17 @@
+# Golf
+
+## Website
+
+[Golf Games](https://golf.moinjulian.com)
+
 # Description
 
     Welcome to "Golf Games" - your ultimate destination for golf fun and
     challenges! Discover two captivating golf games: "4Winning" and "Exact",
     guaranteed to put your skills to the test and take you on exciting
     adventures.
+
+# Games
 
 ## 4 Winning
 
@@ -29,3 +37,9 @@
     the player with the highest points at the end. The game concludes when only
     one player has points remaining. You can observe the distance you need to
     shoot and the current team, along with the remaining points for each team.
+
+# Copyright
+
+This website is copyright under the MIT License
+
+[MIT](/LICENSE)
