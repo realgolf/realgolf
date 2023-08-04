@@ -10,7 +10,9 @@
     distance: number;
   }
 
-  let team = teams[0];
+  let currentTeamIndex = 0;
+  let color = teams[currentTeamIndex].color;
+  let currentTeam = teams[currentTeamIndex];
 
   function generateRandomNumber(): number {
     const randomNumber: number = Math.random() * (150 - 10) + 10;
@@ -34,13 +36,15 @@
     for (let team of teams) {
       team.distance = 0;
     }
-    team = team === teams[0] ? teams[1] : teams[0];
+    currentTeamIndex = (currentTeamIndex + 1) % teams.length;
+    currentTeam = teams[currentTeamIndex];
+    color = currentTeam.color;
   }
 
   function deductPoints() {
-    const difference: number = MetersToPlay - team.distance;
+    const difference: number = MetersToPlay - currentTeam.distance;
     const pointsToDeduct = Math.abs(difference);
-    team.points -= pointsToDeduct;
+    currentTeam.points -= pointsToDeduct;
     changeTeam();
     checkWinner();
   }
@@ -62,7 +66,9 @@
       team.points = point;
     }
 
-    team = teams[0];
+    currentTeamIndex = 0;
+    color = teams[currentTeamIndex].color;
+    currentTeam = teams[currentTeamIndex];
     MetersToPlay = generateRandomNumber();
   }
 
@@ -90,7 +96,7 @@
 
 <ol>
   {#each teams as t, index}
-    {#if t === team}
+    {#if t === currentTeam}
       <p>Distance Played by {t.color}:</p>
       <input type="number" bind:value={t.distance} />
       <br />
