@@ -13,7 +13,7 @@
     <GoBack />
   {/if}
   {#if $page.url.pathname === "/"}
-    <a href="/imprint">Imprint</a>
+    <a href="/imprint"><Fa icon={faSection} /></a>
   {/if}
 </nav>
 
