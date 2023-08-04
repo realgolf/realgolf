@@ -42,9 +42,9 @@
     <h2>Game modes</h2>
     <h3>Single player games:</h3>
     <ol>
-      <li><a href="/precision/players/two-players">Two players</a></li>
-      <li><a href="/precision/players/three-players">Three players</a></li>
-      <li><a href="/precision/players/four-players">Four players</a></li>
+      <li><a href="/precision/two-players">Two players</a></li>
+      <li><a href="/precision/three-players">Three players</a></li>
+      <li><a href="/precision/four-players">Four players</a></li>
     </ol>
   </div>
 </main>

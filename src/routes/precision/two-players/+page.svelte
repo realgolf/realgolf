@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Precision from "$lib/components/Precision-Players.svelte";
+  import Precision from "$lib/components/Precision.svelte";
 
   let point = 100;
 
@@ -12,7 +12,6 @@
   let teams: Team[] = [
     { color: "red", points: point, distance: 0 },
     { color: "blue", points: point, distance: 0 },
-    { color: "green", points: point, distance: 0 },
   ];
 </script>
 
