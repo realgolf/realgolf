@@ -102,7 +102,6 @@
     {#if t === currentTeam}
       <p>Distance Played by {t.color}:</p>
       <input type="number" bind:value={t.distance} />
-      <br />
       <button on:click={deductPoints}>Enter</button>
     {/if}
   {/each}
@@ -118,5 +117,6 @@
     background-color: var(--border-color);
     color: var(--font-color);
     font-size: var(--medium-font);
+    margin: 3rem 0rem;
   }
 </style>

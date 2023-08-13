@@ -130,3 +130,7 @@ label {
 p {
   margin-bottom: 0.5rem;
 }
+
+.no-bullets {
+  list-style: none;
+}
