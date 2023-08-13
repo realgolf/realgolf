@@ -47,9 +47,16 @@
   </p>
 </div>
 
-<style>
+<style lang="scss">
   main {
     display: flex;
     flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+    }
   }
 </style>
