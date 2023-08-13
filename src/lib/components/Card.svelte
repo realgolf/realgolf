@@ -16,7 +16,7 @@
     padding: 50px 50px;
     border-radius: 5px;
     border: 1px solid var(--border-color);
-    margin: 30px 30px;
+    margin: 15px 30px;
     &:hover {
       cursor: pointer;
     }
