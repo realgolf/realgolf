@@ -1,5 +1,5 @@
 import { login_user } from "$lib/server/login";
-import { fail, type Actions } from "@sveltejs/kit";
+import { fail, type Actions, redirect } from "@sveltejs/kit";
 import { cookie_options } from "$lib/server/utils";
 
 export const actions: Actions = {
@@ -11,7 +11,7 @@ export const actions: Actions = {
     const user_data = await login_user(email, password);
 
     if ("error" in user_data) {
-      return fail(40, { email, error: user_data.error });
+      return fail(400, { email, error: user_data.error });
     } else {
       const { token, user } = user_data;
 
@@ -19,6 +19,7 @@ export const actions: Actions = {
       event.cookies.set("email", user.email, cookie_options);
       event.cookies.set("name", user.name, cookie_options);
 
+      throw redirect(308, "/dashboard");
       return { email, user };
     }
   },
