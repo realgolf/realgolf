@@ -26,7 +26,10 @@
 		"@fortawesome/free-regular-svg-icons": "^6.4.0",
 		"@fortawesome/free-solid-svg-icons": "^6.4.0",
 		"@types/bcrypt": "^5.0.0",
+		"@types/jsonwebtoken": "^9.0.2",
 		"bcrypt": "^5.1.0",
+		"jsonwebtoken": "^9.0.1",
+		"mongoose": "^7.4.3",
 		"sass": "^1.63.6"
 	}
 }
