@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>SvelteKit Authentication with MongoDB</title>
+  <title>Golf Games</title>
 </svelte:head>
 
 <h1>Golf Games</h1>

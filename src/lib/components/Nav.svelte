@@ -35,13 +35,18 @@
       text: "Login",
       protected: false,
     },
+    {
+      path: "/imprint",
+      text: "Imprint",
+      protected: false,
+    },
   ];
 </script>
 
 <nav>
   <ul>
     {#each links as link}
-      {#if link.path == "/" || link.protected === logged_in}
+      {#if link.path == "/" || link.path == "/imprint"  || link.protected === logged_in}
         <li>
           <a href={link.path}>
             {link.text}
