@@ -28,7 +28,7 @@ body[data-theme="light"] {
 }
 
 body[data-theme="dark"] {
-  /* DARK COLORS */
+  /* DARK COLORS  */
   --bg-color: #222223;
   --font-color: #fff;
   --secondary-font-color: #999;

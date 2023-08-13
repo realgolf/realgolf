@@ -1,5 +1,6 @@
 <script lang="ts">
   import { afterUpdate, onMount } from "svelte";
+  import GoBack from "./GoBack.svelte";
 
   let rows = [
     {
@@ -159,6 +160,8 @@
 <svelte:head>
   <title>Exact - {teams.length} Players</title>
 </svelte:head>
+
+<GoBack />
 
 <h1>{teams.length} Players</h1>
 

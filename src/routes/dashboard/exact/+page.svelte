@@ -36,9 +36,9 @@
   <div>
     <h2>Game modes</h2>
     <ol>
-      <li><a href="/exact/two-players">Two players / teams</a></li>
-      <li><a href="/exact/three-players">Three players / teams</a></li>
-      <li><a href="/exact/four-players">Four players / teams</a></li>
+      <li><a href="/dashboard/exact/two-players">Two players / teams</a></li>
+      <li><a href="/dashboard/exact/three-players">Three players / teams</a></li>
+      <li><a href="/dashboard/exact/four-players">Four players / teams</a></li>
     </ol>
   </div>
 </main>

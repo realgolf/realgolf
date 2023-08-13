@@ -1,5 +1,6 @@
 <script lang="ts">
   import { afterUpdate, onMount } from "svelte";
+  import GoBack from "./GoBack.svelte";
 
   export let teams: Team[];
   export let point: number;
@@ -84,6 +85,8 @@
 <svelte:head>
   <title>Precision - {teams.length} Players</title>
 </svelte:head>
+
+<GoBack />
 
 <h1>{teams.length} Players</h1>
 

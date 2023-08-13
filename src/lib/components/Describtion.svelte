@@ -1,11 +1,4 @@
 <main>
-  <b>
-    Welcome to "Golf Games" - your ultimate destination for golf fun and
-    challenges! Discover three captivating golf games: "4Winning", "Exact" and
-    "Precision", guaranteed to put your skills to the test and take you on
-    exciting adventures. Tested and developed in cooperation with golf trainers.
-  </b>
-
   <h2>4 Winning</h2>
 
   <p>
@@ -17,7 +10,8 @@
     have the option to switch teams. Furthermore, an intriguing aspect of the
     game is the ability to take fields from your opponent, adding to the
     excitement and competitiveness. For complete rules and various levels of the
-    game, please refer to the page on <a href="/4winning">4 Winning</a>.
+    game, please refer to the page on <a href="/dashboard/4winning">4 Winning</a
+    >.
     <br />
     <b>Enjoy playing this captivating game!</b>
   </p>
@@ -34,7 +28,7 @@
     declared the winner. The amount of points per field is displayed on the
     left-hand side of the game board, and there is no limit to how many times a
     field can be hit. For detailed rules and game levels, please refer to the
-    page on <a href="/exact">Exact</a>.
+    page on <a href="/dashboard/exact">Exact</a>.
     <br />
     <b>Enjoy playing this thrilling game!</b>
   </p>
@@ -49,8 +43,8 @@
     one player has points remaining. You can observe the distance you need to
     shoot and the current player, along with the remaining points for each
     player. The game will only end if all players have zero points except for
-    one. For detailed rules, please refer to the page on <a href="/precision"
-      >Precision</a
+    one. For detailed rules, please refer to the page on <a
+      href="/dashboard/precision">Precision</a
     >.
     <br />
     <b>Enjoy playing this exciting game!</b>
