@@ -25,6 +25,8 @@
 	"dependencies": {
 		"@fortawesome/free-regular-svg-icons": "^6.4.0",
 		"@fortawesome/free-solid-svg-icons": "^6.4.0",
+		"@types/bcrypt": "^5.0.0",
+		"bcrypt": "^5.1.0",
 		"sass": "^1.63.6"
 	}
 }
