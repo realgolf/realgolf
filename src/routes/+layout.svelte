@@ -1,25 +1,20 @@
-<script>
+<script lang="ts">
   import Nav from "$lib/components/Nav.svelte";
-  import "./app.css";
+  import "$lib/css/app.css";
+  import type { LayoutData } from "./$types";
+  export let data: LayoutData;
 </script>
 
-<svelte:head>
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon16x16.png" />
+<Nav logged_in={!!data.name && !!data.email} />
 
-  <title>Golf Games</title>
-</svelte:head>
-
-<div class="wrapper">
-  <Nav />
-  <main>
-    <slot />
-  </main>
-</div>
+<main>
+  <slot />
+</main>
 
 <style>
-  .wrapper {
-    margin-top: 1rem;
-    margin-inline: auto;
+  main {
+    max-width: 40rem;
+    /* margin-inline: auto; */
     padding-inline: 1rem;
   }
 </style>
