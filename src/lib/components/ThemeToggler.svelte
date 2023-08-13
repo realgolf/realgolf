@@ -31,11 +31,13 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    background-color: var(--nav-color);
   }
 
   button :global(svg) {
     position: absolute;
     transition: opacity 250ms linear, rotate 250ms linear;
+    color: var(--font-color);
   }
 
   :global(body[data-theme="dark"] .sun),

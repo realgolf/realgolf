@@ -1,26 +1,75 @@
-<script>
-  import { page } from "$app/stores";
-  import GoBack from "$lib/components/GoBack.svelte";
-  import ThemeToggler from "$lib/components/ThemeToggler.svelte";
+<script lang="ts">
+  import ThemeToggler from "./ThemeToggler.svelte";
 
-  import Fa from "svelte-fa";
-  import { faSection } from "@fortawesome/free-solid-svg-icons";
+  export let logged_in = false;
+
+  type link = {
+    path: string;
+    text: string;
+    protected: boolean;
+  };
+
+  const links: link[] = [
+    {
+      path: "/",
+      text: "Home",
+      protected: false,
+    },
+    {
+      path: "/dashboard",
+      text: "Dashboard",
+      protected: true,
+    },
+    {
+      path: "/account",
+      text: "Account",
+      protected: true,
+    },
+    {
+      path: "/register",
+      text: "Register",
+      protected: false,
+    },
+    {
+      path: "/login",
+      text: "Login",
+      protected: false,
+    },
+    {
+      path: "/imprint",
+      text: "Imprint",
+      protected: false,
+    },
+  ];
 </script>
 
 <nav>
-  <ThemeToggler />
-  {#if $page.url.pathname !== "/"}
-    <GoBack />
-  {/if}
-  {#if $page.url.pathname === "/"}
-    <a href="/imprint"><Fa icon={faSection} /></a>
-  {/if}
+  <ul>
+    {#each links as link}
+      {#if link.path == "/" || link.path == "/imprint"  || link.protected === logged_in}
+        <li>
+          <a href={link.path}>
+            {link.text}
+          </a>
+        </li>
+      {/if}
+    {/each}
+    <li>
+      <ThemeToggler />
+    </li>
+  </ul>
 </nav>
 
 <style>
   nav {
+    padding-block: 1.25rem;
+    background-color: var(--nav-color);
+  }
+  ul {
+    list-style-type: none;
     display: flex;
-    text-align: left;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
   }
 </style>

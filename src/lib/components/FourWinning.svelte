@@ -1,5 +1,6 @@
 <script lang="ts">
   import { onMount } from "svelte";
+  import GoBack from "./GoBack.svelte";
 
   export let teams: Team[];
 
@@ -225,6 +226,8 @@
 <svelte:head>
   <title>Exact - {teams.length} Players</title>
 </svelte:head>
+
+<GoBack />
 
 <h1>{teams.length} Players</h1>
 

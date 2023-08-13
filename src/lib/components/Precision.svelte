@@ -1,5 +1,6 @@
 <script lang="ts">
   import { afterUpdate, onMount } from "svelte";
+  import GoBack from "./GoBack.svelte";
 
   export let teams: Team[];
   export let point: number;
@@ -85,6 +86,8 @@
   <title>Precision - {teams.length} Players</title>
 </svelte:head>
 
+<GoBack />
+
 <h1>{teams.length} Players</h1>
 
 <div id="points_display" />
@@ -99,7 +102,6 @@
     {#if t === currentTeam}
       <p>Distance Played by {t.color}:</p>
       <input type="number" bind:value={t.distance} />
-      <br />
       <button on:click={deductPoints}>Enter</button>
     {/if}
   {/each}
@@ -115,5 +117,6 @@
     background-color: var(--border-color);
     color: var(--font-color);
     font-size: var(--medium-font);
+    margin: 3rem 0rem;
   }
 </style>
