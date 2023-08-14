@@ -26,6 +26,10 @@
     <input type="password" id="password_input" name="password" />
   </div>
   <div>
+    <label for="password_input">Verify Password</label>
+    <input type="password" id="password_input" name="password_verify" />
+  </div>
+  <div>
     <label for="name_input">Name</label>
     <input
       type="text"
