@@ -1,4 +1,8 @@
-import { change_email, change_name } from "$lib/server/account";
+import {
+  change_email,
+  change_name,
+  change_password,
+} from "$lib/server/account";
 import { cookie_options } from "$lib/server/utils";
 import { fail, type Actions } from "@sveltejs/kit";
 
@@ -32,5 +36,23 @@ export const actions: Actions = {
     const message = `Your new email is ${email}`;
 
     return { email, message };
+  },
+  password: async (event) => {
+    const data = await event.request.formData();
+    const password = data.get("password") as string;
+    const verified_password = password;
+    const update = await change_password(
+      event.cookies,
+      password,
+      verified_password
+    );
+
+    if ("error" in update) {
+      return fail(400, { error: update.error });
+    }
+
+    const message = `Your password got changed`;
+
+    return { message };
   },
 };

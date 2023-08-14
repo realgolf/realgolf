@@ -5,6 +5,7 @@ import bcrypt from "bcrypt";
 export async function register_user(
   email: string,
   password: string,
+  verified_password: string,
   name: string
 ): Promise<{ error: string }> {
   const email_error = await verify_email(email);
@@ -13,7 +14,7 @@ export async function register_user(
     return { error: email_error };
   }
 
-  const password_error = verify_password(password);
+  const password_error = verify_password(password, verified_password);
 
   if (password_error) {
     return { error: password_error };
@@ -59,9 +60,13 @@ export async function verify_email(email: string): Promise<string> {
   return "";
 }
 
-export function verify_password(password: string): string {
+export function verify_password(password: string, verified_password: string): string {
   if (!password) {
     return "Pasword is required.";
+  }
+
+  if (password !== verified_password) {
+    return "The passwords must be identical."
   }
 
   if (password.length < 8) {

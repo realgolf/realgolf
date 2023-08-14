@@ -40,6 +40,20 @@
   <button aria-label="update email">Update</button>
 </form>
 
+<form
+  action="?/password"
+  method="POST"
+  autocomplete="off"
+  class="update-form"
+  use:enhance
+>
+  <div>
+    <label for="password_input">Password</label>
+    <input type="password" id="password_input" name="password" value="" />
+  </div>
+  <button aria-label="update password">Update</button>
+</form>
+
 {#if form?.message}
   <p class="success">
     {form.message}
