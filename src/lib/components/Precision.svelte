@@ -95,6 +95,8 @@
 
 <div id="points_display" />
 
+<button on:click={resetGame}>Reset Game</button>
+
 <label for="range">Choose range:</label>
 <input type="text" name="range" bind:value={range} />
 
@@ -123,6 +125,10 @@
     background-color: var(--border-color);
     color: var(--font-color);
     font-size: var(--medium-font);
+    margin: 15px 0;
+  }
+
+  button {
     margin: 15px 0;
   }
 </style>
