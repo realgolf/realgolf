@@ -1,6 +1,7 @@
 <script lang="ts">
   import { afterUpdate, onMount } from "svelte";
   import GoBack from "./GoBack.svelte";
+  import { writable } from "svelte/store";
 
   let rows = [
     {
@@ -38,6 +39,27 @@
     points: number;
   }
 
+  let pointsByTeam: Record<string, any> = {};
+  teams.forEach((team) => {
+    pointsByTeam[team.color] = writable(team.points);
+  });
+
+  // Schritt 2: Punkte und Farben aus dem localStorage bei onMount laden
+  onMount(() => {
+    updatePointsDisplay();
+    updateTeamTurn();
+
+    const storedData = localStorage.getItem(`exact_${teams.length}_data`);
+    if (storedData !== null) {
+      const parsedData = JSON.parse(storedData);
+      teams.forEach((team) => {
+        if (parsedData[team.color]) {
+          pointsByTeam[team.color].set(parsedData[team.color].points);
+        }
+      });
+    }
+  });
+
   let userInput: number = 20;
   let clickedCellsCount = 0;
   let currentTeamIndex = 0;
@@ -54,9 +76,17 @@
   function updatePointsDisplay() {
     const display = document.querySelector("#points_display");
     if (display) {
-      display.innerHTML = teams
-        .map((t) => `${t.color} team points: ${t.points}`)
+      let displayContent = teams
+        .map((team) => {
+          const storedData = localStorage.getItem(`exact_${teams.length}_data`);
+          const parsedData = storedData ? JSON.parse(storedData) : {};
+          const points = parsedData[team.color]
+            ? parsedData[team.color].points
+            : team.points;
+          return `${team.color} team points: ${points}`;
+        })
         .join("<br>");
+      display.innerHTML = displayContent;
     }
   }
 
@@ -86,19 +116,27 @@
         clickedCell.style.backgroundColor = color;
         let team = teams.find((t) => t.color === color);
         if (team) {
-          team.data.push(index);
+          pointsByTeam[color].update((currentPoints: number) => {
+            let newPoints = currentPoints;
+            if (rowNumber >= 1 && rowNumber <= 6) {
+              newPoints += 1;
+            } else if (rowNumber === 7) {
+              newPoints += 2;
+            } else if (rowNumber === 8) {
+              newPoints += 3;
+            } else if (rowNumber === 9) {
+              newPoints += 5;
+            } else if (rowNumber === 10) {
+              newPoints -= 1;
+            }
 
-          if (rowNumber >= 1 && rowNumber <= 6) {
-            team.points += 1;
-          } else if (rowNumber === 7) {
-            team.points += 2;
-          } else if (rowNumber === 8) {
-            team.points += 3;
-          } else if (rowNumber === 9) {
-            team.points += 5;
-          } else if (rowNumber === 10) {
-            team.points -= 1;
-          }
+            const storedData = localStorage.getItem(`exact_${teams.length}_data`);
+            let parsedData = storedData ? JSON.parse(storedData) : {};
+
+            parsedData[color] = { points: newPoints };
+            localStorage.setItem(`exact_${teams.length}_data`, JSON.stringify(parsedData)); // Im localStorage speichern
+            return newPoints;
+          });
 
           updatePointsDisplay();
           clickedCellsCount++;
@@ -127,9 +165,11 @@
   }
 
   function resetGame() {
+    localStorage.removeItem(`exact_${teams.length}_data`);
     for (let team of teams) {
       team.data = [];
       team.points = 0;
+      pointsByTeam[team.color].set(0); // Setzen Sie die Punkte für jedes Team auf 0 im Store
     }
 
     userInput = 20;
