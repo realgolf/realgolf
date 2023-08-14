@@ -87,13 +87,18 @@
   function HandleEvent(outerIndex: number, innerIndex: number) {
     const cellId = `row${outerIndex + 1}-${innerIndex}`;
     const cell = document.getElementById(cellId);
+
     if (cell) {
       cell.style.backgroundColor = color;
       const Id = `${outerIndex + 1}-${innerIndex}`;
       currentTeam.data.push(Id);
+
+      // Aktualisieren der teams-Variablen im Local Storage
+      localStorage.setItem(`team_${teams.length}`, JSON.stringify(teams));
+
+      checkWin();
+      changeTeam();
     }
-    checkWin();
-    changeTeam();
   }
 
   function updateTeamTurn() {
@@ -202,6 +207,8 @@
   }
 
   function restartGame() {
+    localStorage.removeItem(`team_${teams.length}`);
+
     teams.forEach((team) => {
       team.data = [];
     });
@@ -218,8 +225,62 @@
     updateTeamTurn();
   }
 
-  onMount(() => {
+  function restartGame_Btn() {
+    localStorage.removeItem(`team_${teams.length}`);
+
+    teams.forEach((team) => {
+      team.data = [];
+    });
+
+    const cells = document.querySelectorAll(".meters");
+    cells.forEach((cell) => {
+      (cell as HTMLElement).style.backgroundColor = "";
+    });
+
+    currentTeamIndex = 0;
+    currentTeam = teams[currentTeamIndex];
+    color = currentTeam.color;
+    //changeTeam();
     updateTeamTurn();
+  }
+
+  let isMounted = false;
+
+  onMount(() => {
+    console.log(isMounted);
+    if (!isMounted) {
+      const storedTeams = localStorage.getItem(`team_${teams.length}`);
+
+      if (!storedTeams) {
+        // Speichere die teams-Variable im Local Storage
+        localStorage.setItem(`team_${teams.length}`, JSON.stringify(teams));
+
+        // Weise die initialisierte teams-Variable zu
+        teams = teams;
+      } else {
+        // Lade die teams-Variable aus dem Local Storage
+        teams = JSON.parse(storedTeams);
+
+        // Wiederherstellen der Farben der Felder basierend auf den gespeicherten Daten
+        teams.forEach((team) => {
+          team.data.forEach((id) => {
+            console.log(id);
+            const cell = document.getElementById(`row${id}`);
+            if (cell) {
+              cell.style.backgroundColor = team.color;
+            }
+          });
+        });
+      }
+
+      isMounted = true; // Markiere, dass der Hook ausgeführt wurde
+
+      console.log(isMounted);
+
+      // Aktualisiere das aktuelle Team und den Anzeigetext
+      currentTeamIndex = 0;
+      updateTeamTurn();
+    }
   });
 </script>
 
@@ -234,6 +295,7 @@
 <p id="team_turn_display">Current Team Turn: {currentTeam.color}</p>
 
 <button on:click={changeTeam}>Switch Team</button>
+<button on:click={restartGame_Btn}>Restart Game</button>
 
 <table>
   {#each rows as { side, data }, outerIndex}
