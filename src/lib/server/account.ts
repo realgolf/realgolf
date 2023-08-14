@@ -1,7 +1,8 @@
 import type { Cookies } from "@sveltejs/kit";
 import { authenticate } from "./authenticate";
-import { verify_email, verify_name } from "./register";
+import { verify_email, verify_name, verify_password } from "./register";
 import { User_Model } from "./models";
+import bcrypt from "bcrypt";
 
 export async function change_name(
   cookies: Cookies,
@@ -70,6 +71,44 @@ export async function change_email(
   try {
     await user.save();
     return { email };
+  } catch (err) {
+    return { error: err as string };
+  }
+}
+
+export async function change_password(
+  cookies: Cookies,
+  password: string,
+  verified_password: string
+): Promise<{ error: string } | { password: string }> {
+  const auth = authenticate(cookies);
+
+  if (!auth) {
+    return { error: "You are not authenticated" };
+  }
+
+  const { id } = auth;
+
+  const password_error = await verify_password(password, verified_password);
+
+  if (password_error) {
+    return { error: password_error };
+  }
+
+  const user = await User_Model.findOne({ _id: id });
+
+  if (!user) {
+    return { error: "User could not be found" };
+  }
+
+  const saltRounds = 10;
+  const hashed_password = await bcrypt.hash(password, saltRounds);
+
+  user.password = hashed_password;
+
+  try {
+    await user.save();
+    return { password };
   } catch (err) {
     return { error: err as string };
   }
