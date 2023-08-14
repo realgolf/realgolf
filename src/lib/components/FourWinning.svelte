@@ -94,7 +94,10 @@
       currentTeam.data.push(Id);
 
       // Aktualisieren der teams-Variablen im Local Storage
-      localStorage.setItem(`team_${teams.length}`, JSON.stringify(teams));
+      localStorage.setItem(
+        `4winning_team_${teams.length}`,
+        JSON.stringify(teams)
+      );
 
       checkWin();
       changeTeam();
@@ -207,7 +210,7 @@
   }
 
   function restartGame() {
-    localStorage.removeItem(`team_${teams.length}`);
+    localStorage.removeItem(`4winning_team_${teams.length}`);
 
     teams.forEach((team) => {
       team.data = [];
@@ -226,7 +229,7 @@
   }
 
   function restartGame_Btn() {
-    localStorage.removeItem(`team_${teams.length}`);
+    localStorage.removeItem(`4winning_team_${teams.length}`);
 
     teams.forEach((team) => {
       team.data = [];
@@ -249,11 +252,14 @@
   onMount(() => {
     console.log(isMounted);
     if (!isMounted) {
-      const storedTeams = localStorage.getItem(`team_${teams.length}`);
+      const storedTeams = localStorage.getItem(`4winning_team_${teams.length}`);
 
       if (!storedTeams) {
         // Speichere die teams-Variable im Local Storage
-        localStorage.setItem(`team_${teams.length}`, JSON.stringify(teams));
+        localStorage.setItem(
+          `4winning_team_${teams.length}`,
+          JSON.stringify(teams)
+        );
 
         // Weise die initialisierte teams-Variable zu
         teams = teams;
