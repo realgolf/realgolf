@@ -2,19 +2,27 @@
   import { afterUpdate, onMount } from "svelte";
   import GoBack from "./GoBack.svelte";
 
-  export let teams: Team[];
-  export let point: number;
-
   interface Team {
     color: string;
     points: number;
     distance: number;
+    shots: number;
   }
+
+  let point = 100;
+
+  let teams: Team[] = [
+    {
+      color: "red",
+      points: point,
+      distance: 0,
+      shots: 0,
+    },
+  ];
 
   let range: number = 150;
 
   let currentTeamIndex = 0;
-  let color = teams[currentTeamIndex].color;
   let currentTeam = teams[currentTeamIndex];
 
   function generateRandomNumber(): number {
@@ -34,54 +42,52 @@
     }
   }
 
-  function changeTeam() {
-    MetersToPlay = generateRandomNumber();
-    for (let team of teams) {
-      team.distance = 0;
+  function updateNumberofClicks() {
+    const display = document.querySelector("#number_clicks");
+    if (display) {
+      display.innerHTML = teams
+        .map((t) => `Number of shots played ${t.shots}`)
+        .join("<br>");
     }
-    currentTeamIndex = (currentTeamIndex + 1) % teams.length;
-    currentTeam = teams[currentTeamIndex];
-    color = currentTeam.color;
   }
 
   function deductPoints() {
     const difference: number = MetersToPlay - currentTeam.distance;
     const pointsToDeduct = Math.abs(difference);
     currentTeam.points -= pointsToDeduct;
-    changeTeam();
-    checkWinner();
+    calculateShots();
+    MetersToPlay = generateRandomNumber();
+    if (currentTeam.points <= 0) {
+      alert(`You have played ${currentTeam.shots}`);
+      resetGame();
+    }
   }
 
-  function checkWinner() {
-    const teamsWithPoints = teams.filter((t) => t.points > 0);
-    if (teamsWithPoints.length === 1) {
-      const winner = teamsWithPoints[0].color;
-      const confirmed = confirm(`The winner is Team ${winner}!`);
-
-      if (confirmed) {
-        resetGame();
-      }
-    }
+  function calculateShots() {
+    teams.forEach((team) => {
+      team.shots = team.shots += 1;
+      teams = teams;
+    });
   }
 
   function resetGame() {
     for (let team of teams) {
       team.points = point;
+      team.shots = 0;
     }
 
     range = 150;
-    currentTeamIndex = 0;
-    color = teams[currentTeamIndex].color;
-    currentTeam = teams[currentTeamIndex];
     MetersToPlay = generateRandomNumber();
   }
 
   onMount(() => {
     updatePointsDisplay();
+    updateNumberofClicks();
   });
 
   afterUpdate(() => {
     updatePointsDisplay();
+    updateNumberofClicks();
   });
 </script>
 
@@ -95,9 +101,13 @@
 
 <div id="points_display" />
 
+{#each teams as team}
+  <p id="number_clicks">Number of shots played: {team.shots}</p>
+{/each}
+
 <button on:click={resetGame}>Reset Game</button>
 
-<label for="range">Choose range:</label>
+<p>Choose range:</p>
 <input type="text" name="range" bind:value={range} />
 
 <p>Meters to play:</p>

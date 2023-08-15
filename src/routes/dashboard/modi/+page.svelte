@@ -49,6 +49,7 @@
   <h2 id="precision">Precision</h2>
 
   <ol class="no-bullets">
+    <li><a href="/dashboard/precision/one-player">One player</a></li>
     <li><a href="/dashboard/precision/two-players">Two players</a></li>
     <li><a href="/dashboard/precision/three-players">Three players</a></li>
     <li><a href="/dashboard/precision/four-players">Four players</a></li>
