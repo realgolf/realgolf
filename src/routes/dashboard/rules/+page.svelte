@@ -17,9 +17,9 @@
   <details>
     <summary>Table of Contains</summary>
     <ul class="no-bullets">
-        <li><a href="#4-winning">4 Winning</a></li>
-        <li><a href="#exact">Exact</a></li>
-        <li><a href="#precision">Precision</a></li>
+      <li><a href="#4-winning">4 Winning</a></li>
+      <li><a href="#exact">Exact</a></li>
+      <li><a href="#precision">Precision</a></li>
     </ul>
   </details>
 
