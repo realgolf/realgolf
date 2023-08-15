@@ -99,8 +99,45 @@
         JSON.stringify(teams)
       );
 
+      FieldClickedFourTimes(outerIndex, innerIndex);
       checkWin();
       changeTeam();
+    }
+  }
+
+  let hitCounts: Record<string, number> = {};
+
+  function FieldClickedFourTimes(outerIndex: number, innerIndex: number) {
+    const cellId = `row${outerIndex + 1}-${innerIndex}`;
+    const cell = document.getElementById(cellId);
+    if (cell) {
+      const teamColor = currentTeam.color;
+      const cellKey = `${teamColor}_${cellId}`;
+
+      if (!hitCounts[cellKey]) {
+        hitCounts[cellKey] = 1;
+      } else {
+        hitCounts[cellKey] += 1;
+        console.log(hitCounts);
+      }
+
+      if (hitCounts[cellKey] === 4) {
+        FourTimesWin(cellId, teamColor);
+      }
+    }
+  }
+
+  function FourTimesWin(cellId: string, teamColor: string) {
+    const confirmed = confirm(
+      `Cell ${cellId} has been hit four times by ${teamColor} team!`
+    );
+
+    if (confirmed) {
+      const confirmed2 = confirm(`Do you want to restart the game?`);
+
+      if (confirmed2) {
+        restartGame();
+      }
     }
   }
 
@@ -221,6 +258,8 @@
       (cell as HTMLElement).style.backgroundColor = "";
     });
 
+    hitCounts = {};
+
     currentTeamIndex = 0;
     currentTeam = teams[currentTeamIndex];
     color = currentTeam.color;
@@ -239,6 +278,8 @@
     cells.forEach((cell) => {
       (cell as HTMLElement).style.backgroundColor = "";
     });
+
+    hitCounts = {};
 
     currentTeamIndex = 0;
     currentTeam = teams[currentTeamIndex];
