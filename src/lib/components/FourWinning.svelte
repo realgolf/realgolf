@@ -360,6 +360,14 @@
               cell.style.backgroundColor = currentTeam.color;
               changeTeam();
             }
+          } else if (distance >= 38 && distance <= 58) {
+            let rowIndex = Math.floor((distance - 38) / 3);
+            let cell = document.getElementById(`row3-${rowIndex}`);
+
+            if (cell) {
+              cell.style.backgroundColor = currentTeam.color;
+              changeTeam();
+            }
           } else {
             alert("An unexpected error occured.");
           }
