@@ -34,7 +34,8 @@
             existingBlueTeam.data = blueTeam.data;
           }
         }
-        console.log(redTeam, blueTeam);
+        let new_teams = [redTeam, blueTeam];
+        console.log(new_teams);
       }
     }
   }
