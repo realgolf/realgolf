@@ -28,11 +28,11 @@ export async function change_name(
     return { error: "User could not found" };
   }
 
-  if (user.name === name) {
+  if (user.user.name === name) {
     return { error: "You already have this name." };
   }
 
-  user.name = name;
+  user.user.name = name;
 
   try {
     await user.save();
@@ -66,7 +66,7 @@ export async function change_email(
     return { error: "User could not found" };
   }
 
-  user.email = email;
+  user.user.email = email;
 
   try {
     await user.save();
@@ -104,7 +104,7 @@ export async function change_password(
   const saltRounds = 10;
   const hashed_password = await bcrypt.hash(password, saltRounds);
 
-  user.password = hashed_password;
+  user.user.password = hashed_password;
 
   try {
     await user.save();
