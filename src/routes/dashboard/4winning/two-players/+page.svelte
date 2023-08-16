@@ -45,6 +45,9 @@
         console.log(teams);
         console.log("Form object:", form);
       }
+    } else {
+      let error = "There is no game data!";
+      alert(error);
     }
   }
 </script>
