@@ -6,13 +6,14 @@ const User_Schema = new mongoose.Schema({
     password: { type: String, require: true },
     name: { type: String, require: true },
   },
-  games: {
-    id: { type: Number },
-    state: {
-      teams: { type: String },
-      data: { type: Object },
+  games: [
+    {
+      id: { type: String, require: true, unique: true },
+      state: {
+        teams: { type: String },
+      },
     },
-  },
+  ],
 });
 
 export const User_Model = mongoose.model("User", User_Schema);

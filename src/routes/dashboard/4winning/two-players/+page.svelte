@@ -1,6 +1,9 @@
 <script lang="ts">
+  import { enhance } from "$app/forms";
   import FourWinning from "$lib/components/FourWinning.svelte";
+  import type { ActionData } from "./$types";
 
+  let form: ActionData;
   interface Team {
     color: string;
     data: string[];
@@ -36,6 +39,11 @@
         }
         let new_teams = [redTeam, blueTeam];
         console.log(new_teams);
+
+        // Hier aktualisiere den Wert von teams, wenn du das möchtest
+        teams = new_teams;
+        console.log(teams);
+        console.log("Form object:", form);
       }
     }
   }
@@ -43,4 +51,14 @@
 
 <FourWinning {teams} />
 
-<button on:click={saveToDataBase}>Save in Database</button>
+<button on:click={saveToDataBase}>Extract data for database.</button>
+
+<form method="POST" autocomplete="off" use:enhance>
+  <input
+    type="text"
+    name="team_data"
+    id="team_data"
+    value={JSON.stringify(teams)}
+  />
+  <button>Push to Database</button>
+</form>
