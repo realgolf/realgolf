@@ -2,6 +2,10 @@
   import { onMount } from "svelte";
   import GoBack from "./GoBack.svelte";
 
+  /**
+   * Declared all variables
+   */
+
   export let teams: Team[];
 
   interface Team {
@@ -77,12 +81,22 @@
   let color = teams[currentTeamIndex].color;
   let currentTeam = teams[currentTeamIndex];
 
+  /**
+   * This function changes the team
+   */
+
   function changeTeam() {
     currentTeamIndex = (currentTeamIndex + 1) % teams.length;
     currentTeam = teams[currentTeamIndex];
     color = currentTeam.color;
     updateTeamTurn();
   }
+
+  /**
+   * This function handles the click event for each field
+   * @param outerIndex
+   * @param innerIndex
+   */
 
   function HandleEvent(outerIndex: number, innerIndex: number) {
     const cellId = `row${outerIndex + 1}-${innerIndex}`;
@@ -104,6 +118,12 @@
       changeTeam();
     }
   }
+
+  /**
+   * This function checks if a field got hit four times
+   * @param outerIndex
+   * @param innerIndex
+   */
 
   let hitCounts: Record<string, number> = {};
 
@@ -127,6 +147,12 @@
     }
   }
 
+  /**
+   * This function outputs the winning team for the FieldClickedFourTimes function
+   * @param cellId
+   * @param teamColor
+   */
+
   function FourTimesWin(cellId: string, teamColor: string) {
     const confirmed = confirm(
       `Cell ${cellId} has been hit four times by ${teamColor} team!`
@@ -141,12 +167,20 @@
     }
   }
 
+  /**
+   * This function updates the Team Turn display
+   */
+
   function updateTeamTurn() {
     const teamTurnDisplay = document.getElementById("team_turn_display");
     if (teamTurnDisplay) {
       teamTurnDisplay.innerHTML = `Current Team Turn: ${color}`;
     }
   }
+
+  /**
+   * This function generates all the win combinations for the four in a row
+   */
 
   function generateWinCombinations(): {
     cells: { outerIndex: number; innerIndex: number }[];
@@ -214,6 +248,10 @@
     return combinations;
   }
 
+  /**
+   * This function check if a team has won
+   */
+
   const winCombinations = generateWinCombinations();
 
   function checkWin() {
@@ -246,7 +284,17 @@
     return false;
   }
 
+  /**
+   * The next to function restart the game, without reloading the page.
+   */
+
   function restartGame() {
+    let input = document.getElementById("distance") as HTMLInputElement;
+
+    if (input) {
+      input.value = "";
+    }
+
     localStorage.removeItem(`4winning_team_${teams.length}`);
 
     teams.forEach((team) => {
@@ -268,6 +316,12 @@
   }
 
   function restartGame_Btn() {
+    let input = document.getElementById("distance") as HTMLInputElement;
+
+    if (input) {
+      input.value = "";
+    }
+
     localStorage.removeItem(`4winning_team_${teams.length}`);
 
     teams.forEach((team) => {
@@ -286,6 +340,162 @@
     color = currentTeam.color;
     //changeTeam();
     updateTeamTurn();
+  }
+
+  /**
+   * This function is for the input field, to input the distance.
+   */
+
+  function handleClick() {
+    let input = document.getElementById("distance") as HTMLInputElement;
+
+    if (input) {
+      let distanceStr = input.value.trim();
+
+      if (distanceStr !== "") {
+        let distance = parseFloat(distanceStr);
+
+        if (!isNaN(distance)) {
+          if (distance >= 10 && distance <= 23) {
+            let rowIndex = Math.floor((distance - 10) / 2);
+            let cell = document.getElementById(`row1-${rowIndex}`);
+            let Id = `1-${rowIndex}`;
+
+            if (cell) {
+              cell.style.backgroundColor = currentTeam.color;
+              currentTeam.data.push(Id);
+              localStorage.setItem(
+                `4winning_team_${teams.length}`,
+                JSON.stringify(teams)
+              );
+
+              checkWin();
+              changeTeam();
+            }
+          } else if (distance >= 24 && distance <= 37) {
+            let rowIndex = Math.floor((distance - 24) / 2);
+            let cell = document.getElementById(`row2-${rowIndex}`);
+            let Id = `2-${rowIndex}`;
+
+            if (cell) {
+              cell.style.backgroundColor = currentTeam.color;
+              currentTeam.data.push(Id);
+              localStorage.setItem(
+                `4winning_team_${teams.length}`,
+                JSON.stringify(teams)
+              );
+
+              checkWin();
+              changeTeam();
+            }
+          } else if (distance >= 38 && distance <= 58) {
+            let rowIndex = Math.floor((distance - 38) / 3);
+            let cell = document.getElementById(`row3-${rowIndex}`);
+            let Id = `3-${rowIndex}`;
+
+            if (cell) {
+              cell.style.backgroundColor = currentTeam.color;
+              currentTeam.data.push(Id);
+              localStorage.setItem(
+                `4winning_team_${teams.length}`,
+                JSON.stringify(teams)
+              );
+
+              checkWin();
+              changeTeam();
+            }
+          } else if (distance >= 59 && distance <= 79) {
+            let rowIndex = Math.floor((distance - 59) / 3);
+            let cell = document.getElementById(`row4-${rowIndex}`);
+            let Id = `4-${rowIndex}`;
+
+            if (cell) {
+              cell.style.backgroundColor = currentTeam.color;
+              currentTeam.data.push(Id);
+              localStorage.setItem(
+                `4winning_team_${teams.length}`,
+                JSON.stringify(teams)
+              );
+
+              checkWin();
+              changeTeam();
+            }
+          } else if (distance >= 80 && distance <= 100) {
+            let rowIndex = Math.floor((distance - 80) / 3);
+            let cell = document.getElementById(`row5-${rowIndex}`);
+            let Id = `5-${rowIndex}`;
+
+            if (cell) {
+              cell.style.backgroundColor = currentTeam.color;
+              currentTeam.data.push(Id);
+              localStorage.setItem(
+                `4winning_team_${teams.length}`,
+                JSON.stringify(teams)
+              );
+
+              checkWin();
+              changeTeam();
+            }
+          } else if (distance >= 101 && distance <= 121) {
+            let rowIndex = Math.floor((distance - 101) / 3);
+            let cell = document.getElementById(`row6-${rowIndex}`);
+            let Id = `6-${rowIndex}`;
+
+            if (cell) {
+              cell.style.backgroundColor = currentTeam.color;
+              currentTeam.data.push(Id);
+              localStorage.setItem(
+                `4winning_team_${teams.length}`,
+                JSON.stringify(teams)
+              );
+
+              checkWin();
+              changeTeam();
+            }
+          } else if (distance >= 122 && distance <= 142) {
+            let rowIndex = Math.floor((distance - 122) / 3);
+            let cell = document.getElementById(`row7-${rowIndex}`);
+            let Id = `7-${rowIndex}`;
+
+            if (cell) {
+              cell.style.backgroundColor = currentTeam.color;
+              currentTeam.data.push(Id);
+              localStorage.setItem(
+                `4winning_team_${teams.length}`,
+                JSON.stringify(teams)
+              );
+
+              checkWin();
+              changeTeam();
+            }
+          } else if (distance >= 143 && distance <= 163) {
+            let rowIndex = Math.floor((distance - 142) / 3);
+            let cell = document.getElementById(`row8-${rowIndex}`);
+            let Id = `8-${rowIndex}`;
+
+            if (cell) {
+              cell.style.backgroundColor = currentTeam.color;
+              currentTeam.data.push(Id);
+              localStorage.setItem(
+                `4winning_team_${teams.length}`,
+                JSON.stringify(teams)
+              );
+
+              checkWin();
+              changeTeam();
+            }
+          } else {
+            alert("An unexpected error occured.");
+          }
+
+          console.log(distance);
+        } else {
+          alert("Invalid input. Please enter a valid number.");
+        }
+      } else {
+        alert("You need to enter a number.");
+      }
+    }
   }
 
   let isMounted = false;
@@ -343,6 +553,10 @@
 
 <button on:click={changeTeam}>Switch Team</button>
 <button on:click={restartGame_Btn}>Restart Game</button>
+
+<p>You can also enter the distance you have played here:</p>
+<input type="number" name="distance" id="distance" />
+<button on:click={handleClick}>Submit</button>
 
 <table>
   {#each rows as { side, data }, outerIndex}
