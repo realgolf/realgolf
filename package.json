@@ -30,6 +30,6 @@
 		"bcrypt": "^5.1.1",
 		"jsonwebtoken": "^9.0.1",
 		"mongoose": "^7.4.3",
-		"sass": "^1.63.6"
+		"sass": "^1.66.0"
 	}
 }
