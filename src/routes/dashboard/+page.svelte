@@ -26,6 +26,7 @@
   <Card link="/dashboard/rules" title="Rules" />
   <Card link="/dashboard/modi" title="Modi" />
   <Card link="/dashboard/levels" title="Levels" />
+  <Card link="/dashboard/games" title="Games" />
 </main>
 
 <div>
