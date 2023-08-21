@@ -40,15 +40,13 @@
   }
 
   let pointsByTeam: Record<string, any> = {};
+  let shotsPlayed: number = 0;
+
   teams.forEach((team) => {
     pointsByTeam[team.color] = writable(team.points);
   });
 
-  // Schritt 2: Punkte und Farben aus dem localStorage bei onMount laden
   onMount(() => {
-    updatePointsDisplay();
-    updateTeamTurn();
-
     const storedData = localStorage.getItem(`exact_${teams.length}_data`);
     if (storedData !== null) {
       const parsedData = JSON.parse(storedData);
@@ -57,11 +55,17 @@
           pointsByTeam[team.color].set(parsedData[team.color].points);
         }
       });
+      shotsPlayed = parsedData["red"].shots;
+      clickedCellsCount = shotsPlayed; // Update clickedCellsCount as well
+      console.log(shotsPlayed);
     }
+
+    updatePointsDisplay();
+    updateTeamTurn();
   });
 
   let userInput: number = 20;
-  let clickedCellsCount = 0;
+  let clickedCellsCount: number = 0; // Initialize clickedCellsCount
   let currentTeamIndex = 0;
   let currentTeam = teams[currentTeamIndex];
   let color = currentTeam.color;
@@ -154,7 +158,7 @@
             );
             let parsedData = storedData ? JSON.parse(storedData) : {};
 
-            parsedData[color] = { points: newPoints };
+            parsedData[color] = { points: newPoints, shots: clickedCellsCount };
             localStorage.setItem(
               `exact_${teams.length}_data`,
               JSON.stringify(parsedData)
