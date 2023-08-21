@@ -75,3 +75,9 @@
   />
   <button>Push to Database</button>
 </form>
+
+<style>
+  button {
+    margin-top: 2rem;
+  }
+</style>
