@@ -1,6 +1,5 @@
 <script lang="ts">
   export let data;
-  console.log(data)
 </script>
 
 <svelte:head>
@@ -11,8 +10,7 @@
   <h1>Games:</h1>
   {#each data.games as game}
     <div>
-      <h2>Game ID: {game.id}</h2>
-      <p>Teams: {game.teams}</p>
+      <h2>{game.teams}</h2>
       <p>Data: {game.data}</p>
     </div>
   {/each}
