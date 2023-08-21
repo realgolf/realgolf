@@ -4,5 +4,16 @@ export async function load(event): Promise<any> {
   const email = event.cookies.get("email");
 
   const user = await User_Model.findOne({ "user.email": email });
-  console.log(user?.games);
+
+  if (!user) {
+    return { status: 400, error: new Error("User could not be found") };
+  } else {
+    const games = user.games.map((game) => {
+      const gameCopy = JSON.parse(JSON.stringify(game));
+      delete gameCopy._id; // Remove the _id field
+      return gameCopy;
+    });
+    console.log({ games });
+    return { games };
+  }
 }
