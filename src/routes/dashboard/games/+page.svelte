@@ -1,7 +1,7 @@
 <script lang="ts">
   import { enhance } from "$app/forms";
   import GoBack from "$lib/components/GoBack.svelte";
-    import { stringify } from "uuid";
+  import { stringify } from "uuid";
 
   export let data;
 
@@ -28,9 +28,9 @@
   <title>Golf Games - Games</title>
 </svelte:head>
 
-<h1>Games:</h1>
-
 <GoBack />
+
+<h1>Games</h1>
 
 {#if data.games && data.games.length > 0}
   {#if copyStatus === "success"}
@@ -63,6 +63,7 @@
     }
     p {
       border: 3px solid var(--border-color);
+      overflow-wrap: break-word; /* Erzwingt Wortumbrüche */
     }
   }
 </style>

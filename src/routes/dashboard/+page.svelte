@@ -22,41 +22,27 @@
   Card labeled <b>Levels</b>.
 </p>
 
+<h3>But most important enjoy the games and have fun!</h3>
+
 <main>
   <Card link="/dashboard/rules" title="Rules" />
   <Card link="/dashboard/modi" title="Modi" />
   <Card link="/dashboard/levels" title="Levels" />
   <Card link="/dashboard/games" title="Games" />
+  <Card link="/dashboard/info" title="Info" />
 </main>
-
-<div>
-  <h2>Further information:</h2>
-
-  <p>
-    The games are for golfers who want to train a different way, you only need a
-    kind of trackman or a simulator to determine the exact length. After you
-    have determined the length with your trackman (or the like). You can click
-    the Field with number you played or enter the number in the input Field.
-    <br />
-    <b>Have fun playing</b>
-  </p>
-
-  <p>
-    A list of some things that can be used can be found <a
-      href="/dashboard/tools">here</a
-    >.
-  </p>
-</div>
 
 <style lang="scss">
   main {
     display: flex;
     flex-direction: row;
-    justify-items: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
+    flex-wrap: wrap; /* Elemente unterhalb der Breite umbrechen */
+
     @media screen and (max-width: 767px) {
       flex-direction: column;
-      justify-items: center;
+      justify-content: center;
       align-items: center;
     }
   }

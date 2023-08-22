@@ -3,11 +3,11 @@
   export let link: string;
 </script>
 
-<div class="card">
-  <a href={link}>
+<a class="card" href={link}>
+  <div>
     <h3>{title}</h3>
-  </a>
-</div>
+  </div>
+</a>
 
 <style lang="scss">
   .card {
@@ -20,6 +20,9 @@
     &:hover {
       cursor: pointer;
       box-shadow: 10px 10px 20px var(--border-color);
+    }
+    h3 {
+      text-align: center;
     }
   }
 </style>
