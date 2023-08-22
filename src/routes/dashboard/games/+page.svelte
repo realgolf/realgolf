@@ -1,6 +1,7 @@
 <script lang="ts">
   import { enhance } from "$app/forms";
   import GoBack from "$lib/components/GoBack.svelte";
+    import { stringify } from "uuid";
 
   export let data;
 
@@ -54,11 +55,14 @@
     width: 90vw;
     padding: 50px 50px;
     border-radius: 5px;
-    border: 1px solid var(--border-color);
+    border: 3px solid var(--border-color);
     margin-right: auto;
     margin-bottom: 20px;
     button {
       margin: 10px 0px;
+    }
+    p {
+      border: 3px solid var(--border-color);
     }
   }
 </style>
