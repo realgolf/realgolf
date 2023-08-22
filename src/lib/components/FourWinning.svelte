@@ -272,7 +272,7 @@
 
       if (isWinningCombination) {
         const confirmed = confirm(
-          `Team ${currentTeam.color} wins!Do you want to restart the game?`
+          `Team ${currentTeam.color} wins! Do you want to restart the game?`
         );
 
         if (confirmed) {
