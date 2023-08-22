@@ -19,6 +19,7 @@
     margin: 15px 30px;
     &:hover {
       cursor: pointer;
+      box-shadow: 10px 10px 20px var(--border-color);
     }
   }
 </style>
