@@ -63,6 +63,7 @@
     }
     p {
       border: 3px solid var(--border-color);
+      overflow-wrap: break-word; /* Erzwingt Wortumbrüche */
     }
   }
 </style>
