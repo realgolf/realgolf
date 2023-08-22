@@ -3,11 +3,11 @@
   export let link: string;
 </script>
 
-<div class="card">
-  <a href={link}>
+<a href={link}>
+  <div class="card">
     <h3>{title}</h3>
-  </a>
-</div>
+  </div>
+</a>
 
 <style lang="scss">
   .card {
