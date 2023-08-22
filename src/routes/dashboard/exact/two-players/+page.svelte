@@ -23,19 +23,27 @@
     console.log(localStorageData);
 
     if (localStorageData) {
-      const parsedData = JSON.parse(localStorageData);
-      teams = Object.keys(parsedData).map((color) => ({
-        color,
-        data: parsedData[color].shots,
-        points: parsedData[color].points,
-      }));
+      teams = JSON.parse(localStorageData);
       console.log(teams);
     }
+  }
+
+  function saveToLS() {
+    let gameData = document.getElementById("game") as HTMLInputElement;
+    console.log(gameData.value);
+
+    localStorage.setItem("exact_2_data", gameData.value);
+
+    location.reload();
   }
 </script>
 
 <Exact {teams} />
 
+<p>Paste the data you got from <a href="/dashboard/games">Games</a> here:</p>
+<input type="text" id="game" name="game" />
+<button on:click={saveToLS}>Submit</button>
+<br />
 <button on:click={saveToDataBase}>Extract data for database.</button>
 
 <form method="POST" autocomplete="off" use:enhance>
