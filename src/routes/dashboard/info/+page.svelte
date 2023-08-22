@@ -1,8 +1,14 @@
+<script>
+  import GoBack from "$lib/components/GoBack.svelte";
+</script>
+
 <svelte:head>
   <title>Golf Games - Info</title>
 </svelte:head>
 
-<h2>Information:</h2>
+<GoBack />
+
+<h1>Info</h1>
 
 <p>
   The games are for golfers who want to train a different way, you only need a
