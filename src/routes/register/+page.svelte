@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-  <title>Register</title>
+  <title>Golf Games - Register</title>
 </svelte:head>
 
 <h1>Register</h1>
@@ -40,12 +40,6 @@
   </div>
   <button>Register</button>
 </form>
-
-{#if form?.message}
-  <p class="success">
-    {form?.message}
-  </p>
-{/if}
 
 {#if form?.error}
   <p class="error">

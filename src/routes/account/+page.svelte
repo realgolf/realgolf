@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-  <title>Account</title>
+  <title>Golf Games - Account</title>
 </svelte:head>
 
 <h1>Account</h1>

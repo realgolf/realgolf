@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <title>Rules</title>
+  <title>Golf Games - Rules</title>
 </svelte:head>
 
 <GoBack />

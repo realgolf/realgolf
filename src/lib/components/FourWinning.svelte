@@ -542,7 +542,7 @@
 </script>
 
 <svelte:head>
-  <title>Exact - {teams.length} Players</title>
+  <title>4 Winning - {teams.length} Players</title>
 </svelte:head>
 
 <GoBack />

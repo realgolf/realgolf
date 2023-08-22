@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Golf Games - Info</title>
+</svelte:head>
+
 <h2>Information:</h2>
 
 <p>
