@@ -7,11 +7,9 @@
 <main>
   <p>
     <b>
-      Welcome to "Golf Games" - your ultimate destination for golf fun and
-      challenges! Discover three captivating golf games: "4 Winning", "Exact"
-      and "Precision", guaranteed to put your skills to the test and take you on
-      exciting adventures. Tested and developed in cooperation with golf
-      trainers.
+      Welcome to "Golf Games" - your ultimate destination for golf challenges!
+      Discover "4 Winning", "Exact", and "Precision" - captivating golf
+      experiences tested with trainers.
     </b>
   </p>
   <br />
