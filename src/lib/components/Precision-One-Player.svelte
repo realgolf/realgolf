@@ -92,7 +92,7 @@
 </script>
 
 <svelte:head>
-  <title>Precision - {teams.length} Players</title>
+  <title>Precision - {teams.length} Player</title>
 </svelte:head>
 
 <GoBack />
