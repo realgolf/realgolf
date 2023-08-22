@@ -13,7 +13,6 @@ export async function load(event): Promise<any> {
       delete gameCopy._id; // Remove the _id field
       return gameCopy;
     });
-    console.log({ games });
     return { games };
   }
 }
