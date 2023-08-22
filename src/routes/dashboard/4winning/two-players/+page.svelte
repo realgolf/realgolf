@@ -50,12 +50,24 @@
       alert(error);
     }
   }
+
+  function saveToLS() {
+    let gameData = document.getElementById("game") as HTMLInputElement;
+    console.log(gameData.value);
+
+    localStorage.setItem("4winning_team_2", gameData.value);
+
+    location.reload();
+  }
 </script>
 
 <FourWinning {teams} />
 
+<p>Paste the data you got from <a href="/dashboard/games">Games</a> here:</p>
+<input type="text" id="game" name="game" />
+<button on:click={saveToLS}>Submit</button>
+<br />
 <button on:click={saveToDataBase}>Extract data for database.</button>
-
 <form method="POST" autocomplete="off" use:enhance>
   <input
     type="text"
