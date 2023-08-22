@@ -1,4 +1,7 @@
 <script lang="ts">
+  import { enhance } from "$app/forms";
+  import GoBack from "$lib/components/GoBack.svelte";
+
   export let data;
 
   let copyStatus: string | null = null;
@@ -24,8 +27,11 @@
   <title>Golf Games - Games</title>
 </svelte:head>
 
+<h1>Games:</h1>
+
+<GoBack />
+
 {#if data.games && data.games.length > 0}
-  <h1>Games:</h1>
   {#if copyStatus === "success"}
     <p class="success">Copy successful</p>
   {:else if copyStatus === "error"}
@@ -34,7 +40,6 @@
   {#each data.games as game}
     <div>
       <h2>{game.teams}</h2>
-      <p class="success">Data:</p>
       <p>{game.data}</p>
       <button on:click={() => copyData(game.data)}>Copy Data</button>
     </div>
@@ -52,8 +57,8 @@
     border: 1px solid var(--border-color);
     margin-right: auto;
     margin-bottom: 20px;
-    p {
-      margin-top: 10px;
+    button {
+      margin: 10px 0px;
     }
   }
 </style>
