@@ -1,9 +1,31 @@
 <script lang="ts">
   import { enhance } from "$app/forms";
+  import { onMount } from "svelte";
   import type { ActionData, PageData } from "./$types";
+  import Fa from "svelte-fa";
+  import { faEye } from "@fortawesome/free-solid-svg-icons";
 
   export let form: ActionData;
   export let data: PageData;
+
+  onMount(() => {
+    const passwordInput = document.getElementById(
+      "password_input"
+    ) as HTMLInputElement;
+    const toggleButton = document.getElementById("toggle_password");
+
+    if (toggleButton && passwordInput) {
+      toggleButton.addEventListener("click", function (event) {
+        event.preventDefault(); // Prevent form submission
+
+        if (passwordInput.type === "password") {
+          passwordInput.type = "text";
+        } else {
+          passwordInput.type = "password";
+        }
+      });
+    }
+  });
 </script>
 
 <svelte:head>
@@ -51,7 +73,13 @@
     <label for="password_input">Password</label>
     <input type="password" id="password_input" name="password" value="" />
   </div>
-  <button aria-label="update password">Update</button>
+
+  <div>
+    <button id="toggle_password" type="button"
+      ><Fa id="eye_icon" icon={faEye} /></button
+    >
+    <button aria-label="update password">Update</button>
+  </div>
 </form>
 
 {#if form?.message}
