@@ -42,6 +42,7 @@
     <div>
       <h2>{game.teams}</h2>
       <p>{game.data}</p>
+      <p class="error">Please only paste the data in {game.teams}!</p>
       <button on:click={() => copyData(game.data)}>Copy Data</button>
     </div>
   {/each}
@@ -63,6 +64,7 @@
     }
     p {
       border: 3px solid var(--border-color);
+      max-width: max-content;
       overflow-wrap: break-word; /* Erzwingt Wortumbrüche */
     }
   }
