@@ -92,12 +92,12 @@
 </script>
 
 <svelte:head>
-  <title>Precision - {teams.length} Players</title>
+  <title>Precision - {teams.length} Player</title>
 </svelte:head>
 
 <GoBack />
 
-<h1>{teams.length} Players</h1>
+<h1>{teams.length} Player</h1>
 
 <div id="points_display" />
 

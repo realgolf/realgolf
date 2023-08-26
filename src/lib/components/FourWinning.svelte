@@ -272,7 +272,7 @@
 
       if (isWinningCombination) {
         const confirmed = confirm(
-          `Team ${currentTeam.color} wins!Do you want to restart the game?`
+          `Team ${currentTeam.color} wins! Do you want to restart the game?`
         );
 
         if (confirmed) {
@@ -542,7 +542,7 @@
 </script>
 
 <svelte:head>
-  <title>Exact - {teams.length} Players</title>
+  <title>4 Winning - {teams.length} Players</title>
 </svelte:head>
 
 <GoBack />

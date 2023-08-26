@@ -28,7 +28,7 @@ async function get_user(
     return { error: "Please enter a valid email." };
   }
 
-  const user = await User_Model.findOne({ email });
+  const user = await User_Model.findOne({ "user.email": email });
 
   if (!user) {
     return { error: "Email could not be found." };
@@ -38,15 +38,17 @@ async function get_user(
     return { error: "Password is required." };
   }
 
-  const password_is_correct = await bcrypt.compare(password, user.password);
+  const password_is_correct = await bcrypt.compare(
+    password,
+    user.user.password
+  );
 
   if (!password_is_correct) {
     return { error: "Password is not correct." };
   }
 
   const id = user._id.toString();
-
-  const name = user.name;
+  const name = user.user.name;
 
   return { id, email, name };
 }

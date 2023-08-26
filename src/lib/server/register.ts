@@ -30,9 +30,11 @@ export async function register_user(
   const hashed_password = await bcrypt.hash(password, saltRounds);
 
   const user = new User_Model({
-    email,
-    password: hashed_password,
-    name,
+    user: {
+      email,
+      password: hashed_password,
+      name,
+    },
   });
 
   try {
@@ -51,7 +53,9 @@ export async function verify_email(email: string): Promise<string> {
     return "Please enter a valid email.";
   }
 
-  const previous_user = await User_Model.findOne({ email });
+  const previous_user = await User_Model.findOne({ "user.email": email });
+
+  console.log("New user:", email, "Old user:", previous_user);
 
   if (previous_user) {
     return "There is already an account with this email.";
@@ -60,13 +64,16 @@ export async function verify_email(email: string): Promise<string> {
   return "";
 }
 
-export function verify_password(password: string, verified_password: string): string {
+export function verify_password(
+  password: string,
+  verified_password: string
+): string {
   if (!password) {
     return "Pasword is required.";
   }
 
   if (password !== verified_password) {
-    return "The passwords must be identical."
+    return "The passwords must be identical.";
   }
 
   if (password.length < 8) {

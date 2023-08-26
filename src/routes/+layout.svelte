@@ -5,6 +5,10 @@
   export let data: LayoutData;
 </script>
 
+<svelte:head>
+  <link rel="icon" href="/favicon16x16.png" />
+</svelte:head>
+
 <Nav logged_in={!!data.name && !!data.email} />
 
 <main>

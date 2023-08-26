@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <title>Modi</title>
+  <title>Golf Games - Modi</title>
 </svelte:head>
 
 <GoBack />

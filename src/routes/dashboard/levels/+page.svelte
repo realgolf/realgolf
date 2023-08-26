@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <title>Levels</title>
+  <title>Golf Games - Levels</title>
 </svelte:head>
 
 <GoBack />
