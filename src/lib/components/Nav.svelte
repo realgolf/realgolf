@@ -1,55 +1,77 @@
 <script lang="ts">
+  import {
+    faHouse,
+    faKey,
+    faLock,
+    faSection,
+    faTh,
+    faUser,
+    type IconDefinition,
+  } from "@fortawesome/free-solid-svg-icons";
   import ThemeToggler from "./ThemeToggler.svelte";
+  import { page } from "$app/stores";
+  import Fa from "svelte-fa";
 
   export let logged_in = false;
 
   type link = {
     path: string;
-    text: string;
-    protected: boolean;
+    icon: IconDefinition;
+    name: string;
+    secured: boolean;
   };
 
   const links: link[] = [
     {
       path: "/",
-      text: "Home",
-      protected: false,
+      icon: faHouse,
+      name: "Home",
+      secured: false,
     },
     {
       path: "/dashboard",
-      text: "Dashboard",
-      protected: true,
+      icon: faTh,
+      name: "Dashboard",
+      secured: true,
     },
     {
       path: "/account",
-      text: "Account",
-      protected: true,
+      icon: faUser,
+      name: "Account",
+      secured: true,
     },
     {
       path: "/register",
-      text: "Register",
-      protected: false,
+      icon: faLock,
+      name: "Register",
+      secured: false,
     },
     {
       path: "/login",
-      text: "Login",
-      protected: false,
+      icon: faKey,
+      name: "Login",
+      secured: false,
     },
     {
       path: "/imprint",
-      text: "Imprint",
-      protected: false,
+      icon: faSection,
+      name: "Imprint",
+      secured: false,
     },
   ];
 </script>
 
 <nav>
   <ul>
-    {#each links as link}
-      {#if link.path == "/" || link.path == "/imprint" || link.protected === logged_in}
-        <li>
-          <a href={link.path}>
-            {link.text}
+    {#each links as { path, icon, secured, name }}
+      {#if path == "/" || path == "/imprint" || secured === logged_in}
+        <li
+          class:current={$page.url.pathname === path ||
+            $page.url.pathname.startsWith(path + "/")}
+        >
+          <a href={path}>
+            <Fa {icon} />
+            <span class="name">{name}</span>
           </a>
         </li>
       {/if}
@@ -88,6 +110,34 @@
 
       &:hover::before {
         width: 100%;
+      }
+    }
+
+    li.current::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -0.15rem;
+      height: 0.1rem;
+      border-radius: 100vw;
+    }
+
+    li:not(.current) .name {
+      /* visually hidden */
+      position: absolute;
+      left: -100000px;
+    }
+
+    @media (max-width: 38rem) {
+      nav {
+        padding-block: 0.5rem;
+      }
+
+      li:not(.current) .name {
+        /* visually hidden */
+        position: absolute;
+        left: -100000px;
       }
     }
   }
