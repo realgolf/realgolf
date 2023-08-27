@@ -45,6 +45,6 @@ shoot and the current team, along with the remaining points for each team.
 
 ## Copyright
 
-This website is copyright under the MIT License
+All Rights Reserved
 
-[MIT](/LICENSE)
+[ALL RIGHTS RESERVED](/LICENSE.md)
