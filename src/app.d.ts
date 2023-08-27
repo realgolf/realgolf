@@ -1,12 +1,12 @@
+// See https://kit.svelte.dev/docs/types#app
+// for information about these interfaces
 declare global {
-  type user = {
-    id: string;
-    email: string;
-    name: string;
-  };
-  type auth = {
-    id: string;
-  };
+	namespace App {
+		// interface Error {}
+		// interface Locals {}
+		// interface PageData {}
+		// interface Platform {}
+	}
 }
 
 export {};
