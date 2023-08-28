@@ -14,7 +14,8 @@
 	let teams: Team[] = [
 		{ color: 'red', data: [] },
 		{ color: 'blue', data: [] },
-		{ color: 'green', data: [] }
+		{ color: 'green', data: [] },
+		{ color: 'orange', data: [] }
 	];
 
 	let rows: Row[] = [
@@ -273,7 +274,7 @@
 	 */
 
 	function FourTimesWin(cellId: string, teamColor: string) {
-		const confirmed = confirm(`Zelle ${cellId} wurde viermal vom Team ${teamColor} getroffen!`);
+		const confirmed = confirm(`Cell ${cellId} has been hit four times by ${teamColor} team!`);
 
 		if (confirmed) {
 			const confirmed2 = confirm(`Möchten Sie das Spiel neu starten?`);
@@ -312,7 +313,7 @@
 
 <GoBack />
 
-<h1>3 Spieler</h1>
+<h1>4 Spieler</h1>
 
 <p id="team_turn_display">Aktuelles Team am Zug: {currentTeam.color}</p>
 <button on:click={changeTeam}>Team wechseln</button>
