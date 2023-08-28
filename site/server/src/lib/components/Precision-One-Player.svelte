@@ -46,7 +46,7 @@
     const display = document.querySelector("#number_clicks");
     if (display) {
       display.innerHTML = teams
-        .map((t) => `Number of shots played ${t.shots}`)
+        .map((t) => `Number of shots played ${t.shots} shots`)
         .join("<br>");
     }
   }
