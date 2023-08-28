@@ -1,10 +1,13 @@
 <script>
 	import Card from '$lib/components/Card.svelte';
+	import GoBack from '$lib/components/GoBack.svelte';
 </script>
 
 <svelte:head>
 	<title>Golf Games Offline - Precision</title>
 </svelte:head>
+
+<GoBack />
 
 <h1>Precision</h1>
 
