@@ -43,6 +43,7 @@
 
 		<main>
 			<Card link="/games/4winning/two-players" title="2 Teams" />
+			<Card link="/games/4winning/three-players" title="3 Teams" />
 		</main>
 	</div>
 </main>
