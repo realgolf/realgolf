@@ -8,4 +8,23 @@
 
 <h1>Games</h1>
 
-<Card link="/games/4winning" title="4 Winning" />
+<main>
+	<Card link="/games/4winning" title="4 Winning" />
+	<Card link="/games/exact" title="Exact" />
+</main>
+
+<style lang="scss">
+	main {
+		display: flex;
+		flex-direction: row;
+		justify-content: left;
+		align-items: left;
+		flex-wrap: wrap; /* Elemente unterhalb der Breite umbrechen */
+
+		@media screen and (max-width: 767px) {
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+</style>
