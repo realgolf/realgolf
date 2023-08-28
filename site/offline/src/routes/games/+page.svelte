@@ -11,6 +11,7 @@
 <main>
 	<Card link="/games/4winning" title="4 Winning" />
 	<Card link="/games/exact" title="Exact" />
+	<Card link="/games/precision" title="Precision" />
 </main>
 
 <style lang="scss">
