@@ -2,7 +2,8 @@
 
 ## Website
 
-[Golf Games](https://golf.moinjulian.com)
+[Golf Games](https://golf.moinjulian.com) **Has a user authentication**    
+[Golf Games Offline](https://offline.golf.moinjulian.com) **Works completely offline**
 
 ## Description
 
@@ -11,18 +12,13 @@ challenges! Discover two captivating golf games: "4Winning" and "Exact",
 guaranteed to put your skills to the test and take you on exciting
 adventures.
 
-## BackEnd
+## Versions
 
-This site has an BackEnd made with MongoDB to store user data and make an user 
-authentication, you need to create an Account, to use all function of this site.
-You can easily create an account, by just going to register and then enter your 
-email, a password and you Name and click on register. Once you are registered you 
-can go to login and login with you email and pasword, once you have completed this 
-you will be logged in for exactly one day. After you have logged in you can open the 
-dashboard and play all three games descript below. You can change you Email and Name 
-in the Account tab once logged in, as well as logout, you can always access the Home 
-as well as the Imprint tab, the register and login tab as only visble while logged out, 
-as well as the account and dashboard tab is only seeable while your are logged in.
+There are two different versions of this game, the first version is the Server Version,
+which has a BackEnd and a user authentication, the second version is a full offline working
+version, the whole site is cached on the first load and can then be used without any network
+connection, so you can play the games on ships, planes or any where even if you don't have a
+network connection.
 
 ## Games
 
