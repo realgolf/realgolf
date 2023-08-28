@@ -46,7 +46,7 @@
         console.log("Form object:", form);
       }
     } else {
-      let error = "There is no game data!";
+      let error = "Es gibt keine Spiel Daten!";
       alert(error);
     }
   }
