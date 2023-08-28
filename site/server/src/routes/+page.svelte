@@ -20,4 +20,11 @@
   </p>
   <br />
   <p>If you already got an account you can log in <a href="/login">here</a>.</p>
+  <br />
+  <p>
+    The offline version can be played here: <a
+      href="https://offlien.golf.moinjulian.com">Golf Games Offline</a
+    >, you need an network connection for the first load and then all the data
+    is cached so you can play it without an network connection.
+  </p>
 </main>
