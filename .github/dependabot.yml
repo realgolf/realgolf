@@ -5,11 +5,19 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "site/en/server/" # Location of package manifests
+  - package-ecosystem: "npm"
+    directory: "site/en/server/"
     schedule:
       interval: "daily"
- - package-ecosystem: "npm" # See documentation for possible values
-    directory: "site/en/offline/" # Location of package manifests
+  - package-ecosystem: "npm"
+    directory: "site/en/offline/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "site/de/server/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "site/de/offline/"
     schedule:
       interval: "daily"
