@@ -1,5 +1,10 @@
 <script lang="ts">
-	import { faHouse, faSection, type IconDefinition } from '@fortawesome/free-solid-svg-icons';
+	import {
+		faGolfBallTee,
+		faHouse,
+		faSection,
+		type IconDefinition
+	} from '@fortawesome/free-solid-svg-icons';
 	import ThemeToggler from './ThemeToggler.svelte';
 	import { page } from '$app/stores';
 	import Fa from 'svelte-fa';
@@ -20,6 +25,11 @@
 			path: '/imprint',
 			name: 'Imprint',
 			icon: faSection
+		},
+		{
+			path: '/games',
+			name: 'Games',
+			icon: faGolfBallTee
 		}
 	];
 </script>
