@@ -9,7 +9,15 @@ updates:
     directory: "site/en/server/" # Location of package manifests
     schedule:
       interval: "daily"
- - package-ecosystem: "npm" # See documentation for possible values
+  - package-ecosystem: "npm" # See documentation for possible values
     directory: "site/en/offline/" # Location of package manifests
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "site/de/server/" # Location of package manifests
+    schedule:
+      interval: "daily"
+ - package-ecosystem: "npm" # See documentation for possible values
+    directory: "site/de/offline/" # Location of package manifests
     schedule:
       interval: "daily"
