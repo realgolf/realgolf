@@ -2,7 +2,7 @@
 
 ## Website
 
-[Golf Games](https://golf.moinjulian.com) **Has a user authentication**
+[Golf Games](https://golf.moinjulian.com) **Has a user authentication**    
 [Golf Games Offline](https://offline.golf.moinjulian.com) **Works completely offline**
 
 ## Description
