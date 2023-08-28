@@ -312,7 +312,7 @@
 
 <GoBack />
 
-<h1>2 Players</h1>
+<h1>3 Players</h1>
 
 <p id="team_turn_display">Current Team Turn: {currentTeam.color}</p>
 <button on:click={changeTeam}>Switch Team</button>
