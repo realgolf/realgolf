@@ -42,7 +42,7 @@
 	<div>
 		<h2>Modi</h2>
 
-		<main>
+		<main class="cards">
 			<Card link="/games/4winning/two-players" title="2 Teams" />
 			<Card link="/games/4winning/three-players" title="3 Teams" />
 			<Card link="/games/4winning/four-players" title="4 Teams" />
@@ -51,7 +51,7 @@
 </main>
 
 <style lang="scss">
-	main {
+	.cards {
 		display: flex;
 		flex-direction: row;
 		justify-content: left;
