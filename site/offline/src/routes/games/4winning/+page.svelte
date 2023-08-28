@@ -1,3 +1,7 @@
+<script lang="ts">
+	import Card from '$lib/components/Card.svelte';
+</script>
+
 <svelte:head>
 	<title>Golf Games Offline - 4 Winning</title>
 </svelte:head>
@@ -37,8 +41,8 @@
 	<div>
 		<h2>Modi</h2>
 
-		<ul class="no-bullets">
-			<li><a href="/games/4winning/two-players">Two Players</a></li>
-		</ul>
+		<main>
+			<Card link="/games/4winning/two-players" title="2 Teams" />
+		</main>
 	</div>
 </main>
