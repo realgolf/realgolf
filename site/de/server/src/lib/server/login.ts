@@ -35,7 +35,7 @@ async function get_user(
   }
 
   if (!password) {
-    return { error: "Password ist erforderlich." };
+    return { error: "Passwort ist erforderlich." };
   }
 
   const password_is_correct = await bcrypt.compare(
