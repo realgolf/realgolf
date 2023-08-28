@@ -13,10 +13,11 @@
     { color: "red", data: [] },
     { color: "blue", data: [] },
     { color: "green", data: [] },
+    { color: "orange", data: [] },
   ];
 
   function saveToDataBase() {
-    let localStorageData = localStorage.getItem("4winning_team_3");
+    let localStorageData = localStorage.getItem("4winning_team_4");
 
     if (localStorageData) {
       const parsedData = JSON.parse(localStorageData);
@@ -25,6 +26,7 @@
         const redTeam = parsedData.find((team) => team.color === "red");
         const blueTeam = parsedData.find((team) => team.color === "blue");
         const greenTeam = parsedData.find((team) => team.color === "green");
+        const orangeTeam = parsedData.find((team) => team.color === "orange");
 
         if (redTeam) {
           const existingRedTeam = teams.find((t) => t.color === "red");
@@ -47,7 +49,14 @@
           }
         }
 
-        let new_teams = [redTeam, blueTeam, greenTeam];
+        if (orangeTeam) {
+          const existingOrangeTeam = teams.find((t) => t.color === "orange");
+          if (existingOrangeTeam) {
+            existingOrangeTeam.data = orangeTeam.data;
+          }
+        }
+
+        let new_teams = [redTeam, blueTeam, greenTeam, orangeTeam];
         console.log(new_teams);
 
         // Hier aktualisiere den Wert von teams, wenn du das möchtest
@@ -65,7 +74,7 @@
     let gameData = document.getElementById("game") as HTMLInputElement;
     console.log(gameData.value);
 
-    localStorage.setItem("4winning_team_3", gameData.value);
+    localStorage.setItem("4winning_team_4", gameData.value);
 
     location.reload();
   }
