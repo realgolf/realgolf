@@ -162,6 +162,7 @@
 			team.data = [];
 			team.points = 0;
 			pointsByTeam[team.color].set(0);
+			lastRowNumbers[team.color] = null;
 		}
 
 		userInput = 20;
