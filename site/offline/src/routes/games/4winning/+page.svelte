@@ -31,10 +31,8 @@
 		<ul class="no-bullets">
 			<li><b>Bronze:</b> Only the lenght of the shot applies</li>
 			<li><b>Silver:</b> The number of meters and the lateral deviation apply.</li>
-			<li>
-				<b>Gold:</b> Fields can only be played after prior announcement. Platinum: Like gold, all with
-				a club.
-			</li>
+			<li><b>Gold:</b> Fields can only be played after prior announcement.</li>
+			<li><b>Platinum: </b>Like gold, all with one club.</li>
 		</ul>
 	</div>
 
