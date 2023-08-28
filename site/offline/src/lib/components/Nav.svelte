@@ -22,14 +22,14 @@
 			icon: faHouse
 		},
 		{
-			path: '/imprint',
-			name: 'Imprint',
-			icon: faSection
-		},
-		{
 			path: '/games',
 			name: 'Games',
 			icon: faGolfBallTee
+		},
+		{
+			path: '/imprint',
+			name: 'Imprint',
+			icon: faSection
 		}
 	];
 </script>
