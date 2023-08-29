@@ -3,6 +3,7 @@
 ## Website
 
 [Golf Games](https://golf.moinjulian.com) **Has a user authentication**    
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9fff7034-450c-4bd0-81aa-7ae843fe89b0/deploy-status)](https://app.netlify.com/sites/golf-games/deploys)
 [Golf Games Offline](https://offline.golf.moinjulian.com) **Works completely offline**
 
 ## Description
