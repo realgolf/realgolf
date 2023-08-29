@@ -305,7 +305,6 @@
 		currentTeamIndex = 0;
 		currentTeam = teams[currentTeamIndex];
 		color = currentTeam.color;
-		//changeTeam();
 		updateTeamTurn();
 	}
 </script>
