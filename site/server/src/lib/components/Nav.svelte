@@ -4,6 +4,7 @@
     faKey,
     faLock,
     faPlaneSlash,
+    faQuestionCircle,
     faSection,
     faTh,
     faUser,
@@ -54,6 +55,12 @@
       secured: false,
     },
     {
+      path: "/faq",
+      icon: faQuestionCircle,
+      name: "FAQ",
+      secured: false,
+    },
+    {
       path: "/imprint",
       icon: faSection,
       name: "Imprint",
@@ -65,7 +72,7 @@
 <nav>
   <ul>
     {#each links as { path, icon, secured, name }}
-      {#if path == "/" || path == "/imprint" || secured === logged_in}
+      {#if path == "/" || path == "/imprint" || path == "/faq" || secured === logged_in}
         <li
           class:current={$page.url.pathname === path ||
             $page.url.pathname.startsWith(path + "/")}
@@ -77,12 +84,6 @@
         </li>
       {/if}
     {/each}
-    <li class="plane">
-      <a href="https://golf-offline.moinjulian.com" target="_blank">
-        <Fa icon={faPlaneSlash} />
-        <span class="name">Offline</span>
-      </a>
-    </li>
     <li>
       <ThemeToggler />
     </li>
@@ -132,17 +133,6 @@
         bottom: -0.15rem;
         height: 0.1rem;
         border-radius: 100vw;
-      }
-
-      .plane:hover {
-        line-break: none;
-        display: block;
-        a {
-          display: block;
-          span {
-            display: block;
-          }
-        }
       }
 
       li:not(.current) .name {
