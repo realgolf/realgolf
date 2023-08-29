@@ -23,6 +23,7 @@
   <br />
   <p>
     The offline version can be played here: <a
+      target="_blank"
       href="https://golf-offline.moinjulian.com">Golf Games Offline</a
     >, you need an network connection for the first load and then all the data
     is cached so you can play it without an network connection.
