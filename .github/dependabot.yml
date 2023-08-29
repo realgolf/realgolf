@@ -6,18 +6,10 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "site/en/server/"
+    directory: "site/server/"
     schedule:
       interval: "daily"
   - package-ecosystem: "npm"
-    directory: "site/en/offline/"
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "site/de/server/"
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "site/de/offline/"
+    directory: "site/offline/"
     schedule:
       interval: "daily"
