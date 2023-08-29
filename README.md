@@ -1,5 +1,31 @@
 # Golf Games
 
+## Table of Contents
+
+- [Golf Games](#golf-games)
+  - [Table of Contents](#table-of-contents)
+  - [Sites](#sites)
+  - [What is Golf Games](#what-is-golf-games)
+  - [Why did I decide to develop Golf Games?](#why-did-i-decide-to-develop-golf-games)
+  - [Versions](#versions)
+  - [What is Golf games about?](#what-is-golf-games-about)
+    - [4 Winning](#4-winning)
+    - [Exact](#exact)
+- [FAQ](#faq)
+  - [How can I create an account to play the games?](#how-can-i-create-an-account-to-play-the-games)
+  - [Are the games free to play?](#are-the-games-free-to-play)
+  - [Can I contribute new Games to the project?](#can-i-contribute-new-games-to-the-project)
+  - [How can I report bugs or suggest new features?](#how-can-i-report-bugs-or-suggest-new-features)
+  - [Is the project open source?](#is-the-project-open-source)
+  - [How often are new updates or features added?](#how-often-are-new-updates-or-features-added)
+  - [Can I play the offline version on all devices?](#can-i-play-the-offline-version-on-all-devices)
+  - [What programming languages are used in the project?](#what-programming-languages-are-used-in-the-project)
+  - [Can I change my Password after registration?](#can-i-change-my-password-after-registration)
+  - [Is my Personal Information safe and secure?](#is-my-personal-information-safe-and-secure)
+  - [Further Questions](#further-questions)
+- [Credits](#credits)
+- [Copyright](#copyright)
+
 ## Sites
 
 [Golf Games](https://golf.moinjulian.com) **Has a user authentication**
@@ -116,11 +142,11 @@ This means you can enjoy the games on various devices without worrying about a n
 
 Our project is built using a combination of powerful technologies:
 
-- **Frontend Development**: We utilize the JavaScript Full Stack Framework, [SvelteKit](https://kit.svelte.dev), 
-    along with TypeScript and Sass for crafting engaging and dynamic user interfaces.
+- **Frontend Development**: We utilize the JavaScript Full Stack Framework, [SvelteKit](https://kit.svelte.dev),
+  along with TypeScript and Sass for crafting engaging and dynamic user interfaces.
 
-- **Backend Development**: For the server-side aspect, we've harnessed the capabilities of [MongoDB](https://www.mongodb.com) 
-    to securely store user data and ensure smooth interactions.
+- **Backend Development**: For the server-side aspect, we've harnessed the capabilities of [MongoDB](https://www.mongodb.com)
+  to securely store user data and ensure smooth interactions.
 
 This versatile tech stack empowers us to create a seamless user experience and a robust backend infrastructure.
 
@@ -130,8 +156,8 @@ Absolutely! You have the flexibility to change your password at any time. Here's
 
 1. **Navigate to Account Settings:** Log in to your account and go to the "Account" tab.
 
-2. **Update Password:** In the "Account" section, you'll find an option to change your password. 
-    Simply enter your new password in the designated input field.
+2. **Update Password:** In the "Account" section, you'll find an option to change your password.
+   Simply enter your new password in the designated input field.
 
 3. **Save Changes:** After entering your new password, click on the "Update" button to save your changes.
 
@@ -141,18 +167,18 @@ By following these steps, you can easily update your password and keep your acco
 
 Absolutely. We take the security and privacy of your personal information seriously. Here's how we ensure your data is safe:
 
-- **Password Protection:** Your password is not stored in clear text on our servers. 
-    It's securely hashed to protect its confidentiality.
+- **Password Protection:** Your password is not stored in clear text on our servers.
+  It's securely hashed to protect its confidentiality.
 
-- **Limited Access:** Your password and personal information are not viewable by any team member. 
-    We implement strict access controls to ensure only authorized personnel can handle sensitive data.
+- **Limited Access:** Your password and personal information are not viewable by any team member.
+  We implement strict access controls to ensure only authorized personnel can handle sensitive data.
 
 We are committed to maintaining the highest standards of security to safeguard your personal information.
 
 ### Further Questions
 
-If you have any additional questions, don't hesitate to reach out to us. 
-Simply send an email to [info@moinjulian.com](mailto:info@moinjulian.com) with your question. 
+If you have any additional questions, don't hesitate to reach out to us.
+Simply send an email to [info@moinjulian.com](mailto:info@moinjulian.com) with your question.
 We'll respond promptly and may even consider adding your question to this FAQ to help other users.
 
 ## Credits
@@ -176,5 +202,5 @@ We'll respond promptly and may even consider adding your question to this FAQ to
 
 ## Copyright
 
-All Rights Reserved
+All Rights Reserved  
 [ALL RIGHTS RESERVED](/LICENSE.md)
