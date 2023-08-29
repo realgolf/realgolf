@@ -1,7 +1,9 @@
 <script lang="ts">
 	import {
+	faGlobe,
 		faGolfBallTee,
 		faHouse,
+		faPlaneSlash,
 		faSection,
 		type IconDefinition
 	} from '@fortawesome/free-solid-svg-icons';
@@ -44,6 +46,12 @@
 				</a>
 			</li>
 		{/each}
+		<li class="plane">
+			<a href="https://golf.moinjulian.com" target="_blank">
+				<Fa icon={faGlobe} />
+				<span class="name">Offline</span>
+			</a>
+		</li>
 		<li>
 			<ThemeToggler />
 		</li>
@@ -81,6 +89,17 @@
 			}
 		}
 
+		.plane:hover {
+			line-break: none;
+			display: block;
+			a {
+				display: block;
+				span {
+					display: block;
+				}
+			}
+		}
+
 		li.current::after {
 			content: '';
 			position: absolute;
@@ -93,8 +112,9 @@
 
 		li:not(.current) .name {
 			/* visually hidden */
-			position: absolute;
-			left: -100000px;
+			// position: absolute;
+			// left: -100000px;
+			display: none;
 		}
 
 		@media (max-width: 38rem) {
@@ -104,8 +124,9 @@
 
 			li:not(.current) .name {
 				/* visually hidden */
-				position: absolute;
-				left: -100000px;
+				// position: absolute;
+				// left: -100000px;
+				display: block;
 			}
 		}
 	}
