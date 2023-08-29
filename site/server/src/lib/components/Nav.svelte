@@ -3,6 +3,7 @@
     faHouse,
     faKey,
     faLock,
+    faPlaneSlash,
     faSection,
     faTh,
     faUser,
@@ -76,6 +77,12 @@
         </li>
       {/if}
     {/each}
+    <li class="plane">
+      <a href="https://golf-offline.moinjulian.com" target="_blank">
+        <Fa icon={faPlaneSlash} />
+        <span class="name">Offline</span>
+      </a>
+    </li>
     <li>
       <ThemeToggler />
     </li>
@@ -123,10 +130,22 @@
       border-radius: 100vw;
     }
 
+    .plane:hover {
+      line-break: none;
+      display: block;
+      a {
+        display: block;
+        span {
+          display: block;
+        }
+      }
+    }
+
     li:not(.current) .name {
       /* visually hidden */
-      position: absolute;
-      left: -100000px;
+      // position: absolute;
+      // left: -100000px;
+      display: none;
     }
 
     @media (max-width: 38rem) {
@@ -136,8 +155,9 @@
 
       li:not(.current) .name {
         /* visually hidden */
-        position: absolute;
-        left: -100000px;
+        // position: absolute;
+        // left: -100000px;
+        display: none;
       }
     }
   }
