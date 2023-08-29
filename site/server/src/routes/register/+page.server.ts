@@ -24,7 +24,6 @@ export const actions: Actions = {
     } else {
       const message = "Registration successful! You can now login.";
       throw redirect(308, "/login");
-      // return { user, message };
     }
   },
 };
