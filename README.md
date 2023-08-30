@@ -11,6 +11,7 @@
   - [What is Golf games about?](#what-is-golf-games-about)
     - [4 Winning](#4-winning)
     - [Exact](#exact)
+    - [Precision](#precision)
 - [FAQ](#faq)
   - [How can I create an account to play the games?](#how-can-i-create-an-account-to-play-the-games)
   - [Are the games free to play?](#are-the-games-free-to-play)
@@ -72,6 +73,13 @@ deviation you are allowed to play in one of the diffrent modes you can play the 
 Exact is a game which goal it is to play exact as possible to a few numbers, for example every tens give 3 points
 and all numbers with twice the same number are giving 3 Points, 100 meters gives 5 points, everything above 100 and
 below 5 gives -1 Points.
+
+### Precision
+
+Precision is the third game I have developed. The objective of the game is to get as close to the targets as possible.
+For every meter you miss the target, you will receive a deduction of one point. The winner of the game is the player
+with the highest points at the end. The game concludes when only one player has points remaining. You can observe the
+distance you need to shoot and the current team, along with the remaining points for each team.
 
 ## FAQ
 
