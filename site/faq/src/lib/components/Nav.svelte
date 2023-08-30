@@ -1,9 +1,14 @@
 <script lang="ts">
 	import {
-		faGolfBallTee,
 		faHouse,
+		faKey,
+		faLock,
+		faPlaneUp,
+		faQuestionCircle,
 		faSection,
 		faServer,
+		faTh,
+		faUser,
 		type IconDefinition
 	} from '@fortawesome/free-solid-svg-icons';
 	import ThemeToggler from './ThemeToggler.svelte';
@@ -12,45 +17,43 @@
 
 	type link = {
 		path: string;
-		name: string;
 		icon: IconDefinition;
+		target: string;
+		name: string;
 	};
 
-	let links: link[] = [
+	const links: link[] = [
 		{
 			path: '/',
-			name: 'Home',
-			icon: faHouse
+			icon: faQuestionCircle,
+			target: '_self',
+			name: 'FAQ'
 		},
 		{
-			path: '/games',
-			name: 'Games',
-			icon: faGolfBallTee
+			path: 'https://golf.moinjulian.com',
+			icon: faServer,
+			target: '_blank',
+			name: 'Server'
 		},
 		{
-			path: '/imprint',
-			name: 'Imprint',
-			icon: faSection
+			path: 'https://golf-offline.moinjulian.com',
+			icon: faPlaneUp,
+			target: '_blank',
+			name: 'Offline'
 		}
 	];
 </script>
 
 <nav>
 	<ul>
-		{#each links as { path, name, icon }}
-			<li class:current={$page.url.pathname === path || $page.url.pathname.startsWith(path + '/')}>
-				<a href={path}>
+		{#each links as { path, icon, target, name }}
+			<li>
+				<a href={path} {target}>
 					<Fa {icon} />
 					<span class="name">{name}</span>
 				</a>
 			</li>
 		{/each}
-		<li class="plane">
-			<a href="https://golf.moinjulian.com" target="_blank">
-				<Fa icon={faServer} />
-				<span class="name">Server</span>
-			</a>
-		</li>
 		<li>
 			<ThemeToggler />
 		</li>
@@ -89,35 +92,6 @@
 
 				&:hover::before {
 					width: 100%;
-				}
-			}
-
-			.plane:hover {
-				line-break: none;
-				display: block;
-				a {
-					display: block;
-					span {
-						display: block;
-					}
-				}
-			}
-
-			li.current::after {
-				content: '';
-				position: absolute;
-				left: 0;
-				right: 0;
-				bottom: -0.15rem;
-				height: 0.1rem;
-				border-radius: 100vw;
-			}
-
-			li:not(.current) .name {
-				display: none;
-
-				@media (max-width: 38rem) {
-					display: none;
 				}
 			}
 		}

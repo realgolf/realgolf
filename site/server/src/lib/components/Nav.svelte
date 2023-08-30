@@ -3,8 +3,6 @@
     faHouse,
     faKey,
     faLock,
-    faPlaneSlash,
-    faQuestionCircle,
     faSection,
     faTh,
     faUser,
@@ -52,12 +50,6 @@
       path: "/login",
       icon: faKey,
       name: "Login",
-      secured: false,
-    },
-    {
-      path: "/faq",
-      icon: faQuestionCircle,
-      name: "FAQ",
       secured: false,
     },
     {
