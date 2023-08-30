@@ -2,6 +2,7 @@
 	import {
 		faGolfBallTee,
 		faHouse,
+		faQuestionCircle,
 		faSection,
 		faServer,
 		type IconDefinition
@@ -49,6 +50,12 @@
 			<a href="https://golf.moinjulian.com" target="_blank">
 				<Fa icon={faServer} />
 				<span class="name">Server</span>
+			</a>
+		</li>
+		<li class="plane">
+			<a href="https://golf-faq.moinjulian.com" target="_blank">
+				<Fa icon={faQuestionCircle} />
+				<span class="name">FAQ</span>
 			</a>
 		</li>
 		<li>
