@@ -81,7 +81,7 @@
     <li class="plane">
       <a href="https://golf-offline.moinjulian.com" target="_blank">
         <Fa icon={faPlaneUp} />
-        <span class="name">Server</span>
+        <span class="name">Offline</span>
       </a>
     </li>
     <li class="plane">
