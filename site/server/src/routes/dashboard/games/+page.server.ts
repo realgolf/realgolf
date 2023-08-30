@@ -19,7 +19,7 @@ export async function load(event): Promise<any> {
 }
 
 export const actions: Actions = {
-  default: async (event) => {
+  delete_all: async (event) => {
     const email = event.cookies.get("email");
 
     try {
@@ -48,6 +48,19 @@ export const actions: Actions = {
         status: 500,
         error: "Error saving game",
       };
+    }
+  },
+  delete_game: async (event) => {
+    const email = event.cookies.get("email");
+    const user = await User_Model.findOne({ "user.email": email });
+    const data = await event.request.formData();
+    const id = data.get("id") as string;
+    const games = user?.games;
+
+    if (games) {
+      const updatedGames = games.filter((game) => game.id !== id);
+      user.games = updatedGames;
+      await user.save();
     }
   },
 };
