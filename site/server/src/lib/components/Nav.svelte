@@ -3,7 +3,6 @@
     faHouse,
     faKey,
     faLock,
-    faPlaneSlash,
     faQuestionCircle,
     faSection,
     faTh,
