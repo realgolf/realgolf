@@ -3,9 +3,9 @@
     faHouse,
     faKey,
     faLock,
+    faPlaneUp,
     faQuestionCircle,
     faSection,
-    faServer,
     faTh,
     faUser,
     type IconDefinition,
@@ -79,8 +79,8 @@
       {/if}
     {/each}
     <li class="plane">
-      <a href="https://golf.moinjulian.com" target="_blank">
-        <Fa icon={faServer} />
+      <a href="https://golf-offline.moinjulian.com" target="_blank">
+        <Fa icon={faPlaneUp} />
         <span class="name">Server</span>
       </a>
     </li>
