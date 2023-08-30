@@ -40,7 +40,7 @@
 
 <h1>Games</h1>
 
-<form method="POST" use:enhance autocomplete="off">
+<form action="?/delete_all" method="POST" use:enhance autocomplete="off">
   <button>Delete All</button>
 </form>
 
@@ -64,6 +64,10 @@
       <p>{game.data}</p>
       <p class="error">Please only paste the data in {game.teams}!</p>
       <button on:click={() => copyData(game.data)}>Copy Data</button>
+      <form action="?/delete_game" method="POST" autocomplete="off" use:enhance>
+        <input class="hidden" type="text" name="id" value={game.id} />
+        <button>Delete Game</button>
+      </form>
     </div>
   {/each}
 {:else}
@@ -86,6 +90,10 @@
       border: 3px solid var(--border-color);
       max-width: max-content;
       overflow-wrap: break-word; /* Erzwingt Wortumbrüche */
+    }
+
+    .hidden {
+      display: none;
     }
   }
 </style>
