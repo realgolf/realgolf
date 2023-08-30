@@ -1,4 +1,5 @@
 import { User_Model } from "$lib/server/models";
+import type { Actions } from "@sveltejs/kit";
 
 export async function load(event): Promise<any> {
   const email = event.cookies.get("email");
@@ -16,3 +17,37 @@ export async function load(event): Promise<any> {
     return { games };
   }
 }
+
+export const actions: Actions = {
+  default: async (event) => {
+    const email = event.cookies.get("email");
+
+    try {
+      const user = await User_Model.findOne({ "user.email": email });
+
+      if (!user) {
+        return {
+          status: 404,
+          error: "User not found",
+        };
+      }
+
+      user.games = [];
+
+      console.log(user);
+
+      await user.save();
+
+      return {
+        status: 200,
+        message: "Games deleted succesfully",
+      };
+    } catch (error) {
+      console.error(error);
+      return {
+        status: 500,
+        error: "Error saving game",
+      };
+    }
+  },
+};

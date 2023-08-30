@@ -2,8 +2,10 @@
   import { enhance } from "$app/forms";
   import GoBack from "$lib/components/GoBack.svelte";
   import { stringify } from "uuid";
+  import type { ActionData } from "./$types.js";
 
   export let data;
+  export let form: ActionData;
 
   let copyStatus: string | null = null;
 
@@ -22,6 +24,12 @@
       copyStatus = "";
     }, 2000);
   }
+
+  let showMessage = true;
+
+  setTimeout(() => {
+    showMessage = false;
+  }, 20000);
 </script>
 
 <svelte:head>
@@ -31,6 +39,18 @@
 <GoBack />
 
 <h1>Games</h1>
+
+<form method="POST" use:enhance autocomplete="off">
+  <button>Delete All</button>
+</form>
+
+{#if showMessage == true && form?.message}
+  <p class="success">{form?.message}</p>
+{/if}
+
+{#if showMessage == true && form?.error}
+  <p class="error">{form?.error}</p>
+{/if}
 
 {#if data.games && data.games.length > 0}
   {#if copyStatus === "success"}
