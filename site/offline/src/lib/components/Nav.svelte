@@ -1,10 +1,9 @@
 <script lang="ts">
 	import {
-		faGlobe,
 		faGolfBallTee,
 		faHouse,
-		faPlaneSlash,
 		faSection,
+		faServer,
 		type IconDefinition
 	} from '@fortawesome/free-solid-svg-icons';
 	import ThemeToggler from './ThemeToggler.svelte';
@@ -48,7 +47,7 @@
 		{/each}
 		<li class="plane">
 			<a href="https://golf.moinjulian.com" target="_blank">
-				<Fa icon={faGlobe} />
+				<Fa icon={faServer} />
 				<span class="name">Server</span>
 			</a>
 		</li>
