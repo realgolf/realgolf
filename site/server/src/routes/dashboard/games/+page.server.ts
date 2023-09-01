@@ -76,7 +76,6 @@ export const actions: Actions = {
 
       if (game) {
         game.name = name;
-        console.log(game.name);
         await user.save();
       }
     }
