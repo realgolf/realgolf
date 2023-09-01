@@ -9,6 +9,7 @@ const User_Schema = new mongoose.Schema({
   games: [
     {
       id: { type: String },
+      name: { type: String },
       teams: { type: String },
       data: { type: String },
     },
