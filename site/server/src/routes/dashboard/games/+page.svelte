@@ -103,7 +103,7 @@
           name="name"
           id="name"
           class="headline"
-          value={game.name}
+          bind:value={game.name}
         />
         <input class="hidden" type="text" name="id" value={game.id} />
         <button>Update Name</button>
