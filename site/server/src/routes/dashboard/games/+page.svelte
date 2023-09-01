@@ -4,7 +4,6 @@
   import { teams } from "./teams";
   import type { ActionData } from "./$types.js";
   import GoBack from "$lib/components/GoBack.svelte";
-  import "./game.scss";
 
   export let data;
   export let form: ActionData;
@@ -115,3 +114,59 @@
 {:else}
   <p class="error">No games found for the selected team.</p>
 {/if}
+
+<style lang="scss">
+  div {
+    background-color: var(--nav-color);
+    width: 90vw;
+    padding: 50px 50px;
+    border-radius: 5px;
+    border: 3px solid var(--border-color);
+    margin-right: auto;
+    margin-bottom: 20px;
+
+    button {
+      margin: 10px 0px;
+    }
+
+    p {
+      border: 3px solid var(--border-color);
+      max-width: max-content;
+      overflow-wrap: break-word; /* Erzwingt Wortumbrüche */
+    }
+
+    .headline {
+      margin-block: 0.5rem;
+      line-height: 1.2;
+      color: var(--h2-color);
+    }
+
+    .hidden {
+      display: none;
+    }
+  }
+
+  label {
+    font-size: var(--medium-font);
+  }
+
+  select {
+    color: var(--font-color);
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    border-radius: 0.25rem;
+    background: none;
+    margin-bottom: 1.5rem;
+    text-align: center;
+
+    padding: 0.4rem 0.8rem;
+    background-color: var(--accent-color);
+    cursor: pointer;
+
+    &:focus {
+      outline: 0.1rem solid var(--font-color);
+      outline-offset: 0.2rem;
+    }
+  }
+</style>
