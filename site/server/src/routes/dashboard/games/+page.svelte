@@ -12,12 +12,30 @@
   let filteredGames: string | any[] = [];
 
   const teams = [
-    "4winning_2_teams",
-    "exact_2_teams",
-    "4winning_3_teams",
-    "exact_3_teams",
-    "4winning_4_teams",
-    "exact_4_teams",
+    {
+      teams: "4winning_2_teams",
+      name: "4 Winning 2 Teams",
+    },
+    {
+      teams: "4winning_3_teams",
+      name: "4 Winning 3 Teams",
+    },
+    {
+      teams: "4winning_4_teams",
+      name: "4 Winning 4 Teams",
+    },
+    {
+      teams: "exact_2_teams",
+      name: "Exact 2 Teams",
+    },
+    {
+      teams: "exact_3_teams",
+      name: "Exact 3 Teams",
+    },
+    {
+      teams: "exact_4_teams",
+      name: "Exact 4 Teams",
+    },
   ];
 
   onMount(() => {
@@ -83,8 +101,8 @@
 <label for="teamSelect">Select a Team:</label>
 <select id="teamSelect" bind:value={selectedTeam} on:change={filterGames}>
   <option value="">All Teams</option>
-  {#each teams as team (team)}
-    <option value={team}>{team}</option>
+  {#each teams as team}
+    <option value={team.teams}>{team.name}</option>
   {/each}
 </select>
 
