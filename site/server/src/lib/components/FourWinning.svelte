@@ -138,7 +138,6 @@
         hitCounts[cellKey] = 1;
       } else {
         hitCounts[cellKey] += 1;
-        console.log(hitCounts);
       }
 
       if (hitCounts[cellKey] === 4) {
@@ -486,8 +485,6 @@
           } else {
             alert("An unexpected error occured.");
           }
-
-          console.log(distance);
         } else {
           alert("Invalid input. Please enter a valid number.");
         }
@@ -500,7 +497,6 @@
   let isMounted = false;
 
   onMount(() => {
-    console.log(isMounted);
     if (!isMounted) {
       const storedTeams = localStorage.getItem(`4winning_team_${teams.length}`);
 
@@ -520,7 +516,6 @@
         // Wiederherstellen der Farben der Felder basierend auf den gespeicherten Daten
         teams.forEach((team) => {
           team.data.forEach((id) => {
-            console.log(id);
             const cell = document.getElementById(`row${id}`);
             if (cell) {
               cell.style.backgroundColor = team.color;
@@ -530,8 +525,6 @@
       }
 
       isMounted = true; // Markiere, dass der Hook ausgeführt wurde
-
-      console.log(isMounted);
 
       // Aktualisiere das aktuelle Team und den Anzeigetext
       currentTeamIndex = 0;

@@ -1,12 +1,33 @@
 <script lang="ts">
+  import { afterUpdate, onMount } from "svelte";
   import { enhance } from "$app/forms";
-  import GoBack from "$lib/components/GoBack.svelte";
-  import { stringify } from "uuid";
+  import { teams } from "./teams";
   import type { ActionData } from "./$types.js";
-  import { faGlobeAmericas } from "@fortawesome/free-solid-svg-icons";
+  import GoBack from "$lib/components/GoBack.svelte";
 
   export let data;
   export let form: ActionData;
+
+  let selectedTeam = "";
+  let filteredGames: string | any[] = [];
+
+  onMount(() => {
+    filteredGames = data.games;
+  });
+
+  afterUpdate(() => {
+    filterGames();
+  });
+
+  function filterGames() {
+    if (selectedTeam === "") {
+      filteredGames = data.games;
+    } else {
+      filteredGames = data.games.filter(
+        (game: { teams: string }) => game.teams === selectedTeam
+      );
+    }
+  }
 
   let copyStatus: string | null = null;
 
@@ -15,7 +36,6 @@
       .writeText(gameData)
       .then(() => {
         copyStatus = "success";
-        console.log("Data copied to clipboard");
       })
       .catch((error) => {
         copyStatus = "error";
@@ -55,13 +75,21 @@
   <p class="error">{form?.error}</p>
 {/if}
 
-{#if data.games && data.games.length > 0}
+<label for="teamSelect">Select a Team:</label>
+<select id="teamSelect" bind:value={selectedTeam} on:change={filterGames}>
+  <option value="">All Teams</option>
+  {#each teams as team}
+    <option value={team.teams}>{team.name}</option>
+  {/each}
+</select>
+
+{#if filteredGames.length > 0}
   {#if copyStatus === "success"}
     <p class="success">Copy successful</p>
   {:else if copyStatus === "error"}
     <p class="error">Copy failed</p>
   {/if}
-  {#each data.games as game}
+  {#each filteredGames as game (game.id)}
     <div>
       <form action="?/rename" method="POST" use:enhance>
         <input
@@ -69,7 +97,7 @@
           name="name"
           id="name"
           class="headline"
-          value={game.name}
+          bind:value={game.name}
         />
         <input class="hidden" type="text" name="id" value={game.id} />
         <button>Update Name</button>
@@ -84,7 +112,7 @@
     </div>
   {/each}
 {:else}
-  <p class="error">No games found.</p>
+  <p class="error">No games found for the selected team.</p>
 {/if}
 
 <style lang="scss">
@@ -96,9 +124,11 @@
     border: 3px solid var(--border-color);
     margin-right: auto;
     margin-bottom: 20px;
+
     button {
       margin: 10px 0px;
     }
+
     p {
       border: 3px solid var(--border-color);
       max-width: max-content;
@@ -113,6 +143,30 @@
 
     .hidden {
       display: none;
+    }
+  }
+
+  label {
+    font-size: var(--medium-font);
+  }
+
+  select {
+    color: var(--font-color);
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    border-radius: 0.25rem;
+    background: none;
+    margin-bottom: 1.5rem;
+    text-align: center;
+
+    padding: 0.4rem 0.8rem;
+    background-color: var(--accent-color);
+    cursor: pointer;
+
+    &:focus {
+      outline: 0.1rem solid var(--font-color);
+      outline-offset: 0.2rem;
     }
   }
 </style>

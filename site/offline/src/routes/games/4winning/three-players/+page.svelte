@@ -257,7 +257,6 @@
 				hitCounts[cellKey] = 1;
 			} else {
 				hitCounts[cellKey] += 1;
-				console.log(hitCounts);
 			}
 
 			if (hitCounts[cellKey] === 4) {

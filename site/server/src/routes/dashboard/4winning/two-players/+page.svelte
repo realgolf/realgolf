@@ -38,12 +38,9 @@
           }
         }
         let new_teams = [redTeam, blueTeam];
-        console.log(new_teams);
 
         // Hier aktualisiere den Wert von teams, wenn du das möchtest
         teams = new_teams;
-        console.log(teams);
-        console.log("Form object:", form);
       }
     } else {
       let error = "There is no game data!";
@@ -53,7 +50,6 @@
 
   function saveToLS() {
     let gameData = document.getElementById("game") as HTMLInputElement;
-    console.log(gameData.value);
 
     localStorage.setItem("4winning_team_2", gameData.value);
 

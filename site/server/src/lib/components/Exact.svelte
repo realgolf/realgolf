@@ -57,7 +57,6 @@
       });
       shotsPlayed = parsedData["red"].shots;
       clickedCellsCount = shotsPlayed; // Update clickedCellsCount as well
-      console.log(shotsPlayed);
     }
 
     updatePointsDisplay();
