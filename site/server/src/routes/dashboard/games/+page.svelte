@@ -3,6 +3,7 @@
   import GoBack from "$lib/components/GoBack.svelte";
   import { stringify } from "uuid";
   import type { ActionData } from "./$types.js";
+  import { faGlobeAmericas } from "@fortawesome/free-solid-svg-icons";
 
   export let data;
   export let form: ActionData;
@@ -39,6 +40,8 @@
 <GoBack />
 
 <h1>Games</h1>
+
+<h2>You have saved: {data.games.length} games in the database.</h2>
 
 <form action="?/delete_all" method="POST" use:enhance autocomplete="off">
   <button>Delete All</button>
