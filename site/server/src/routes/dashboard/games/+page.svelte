@@ -60,7 +60,17 @@
   {/if}
   {#each data.games as game}
     <div>
-      <h2>{game.teams}</h2>
+      <form action="?/rename" method="POST" use:enhance>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="headline"
+          value={game.name}
+        />
+        <input class="hidden" type="text" name="id" value={game.id} />
+        <button>Update Name</button>
+      </form>
       <p>{game.data}</p>
       <p class="error">Please only paste the data in {game.teams}!</p>
       <button on:click={() => copyData(game.data)}>Copy Data</button>
@@ -90,6 +100,12 @@
       border: 3px solid var(--border-color);
       max-width: max-content;
       overflow-wrap: break-word; /* Erzwingt Wortumbrüche */
+    }
+
+    .headline {
+      margin-block: 0.5rem;
+      line-height: 1.2;
+      color: var(--h2-color);
     }
 
     .hidden {
