@@ -17,8 +17,6 @@ export const actions: Actions = {
         body: JSON.stringify({ error: "Invalid team_data JSON" }),
       };
     }
-
-    console.log("Received team_data on server:", team_data);
     const email = event.cookies.get("email");
 
     try {
@@ -47,7 +45,6 @@ export const actions: Actions = {
 
       // Save the user with the new game
       await user.save();
-      console.log(user);
 
       return {
         status: 200,

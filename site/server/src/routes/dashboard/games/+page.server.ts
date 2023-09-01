@@ -34,8 +34,6 @@ export const actions: Actions = {
 
       user.games = [];
 
-      console.log(user);
-
       await user.save();
 
       return {

@@ -41,7 +41,6 @@
       .writeText(gameData)
       .then(() => {
         copyStatus = "success";
-        console.log("Data copied to clipboard");
       })
       .catch((error) => {
         copyStatus = "error";
