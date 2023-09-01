@@ -39,7 +39,8 @@ export const actions: Actions = {
       if (user.games) {
         user.games.push({
           id: gameId,
-          teams: "Exact 4 Teams",
+          name: "Exact 4 Teams",
+          teams: "exact_4_teams",
           data: JSON.stringify(team_data),
         });
       }

@@ -63,4 +63,22 @@ export const actions: Actions = {
       await user.save();
     }
   },
+  rename: async (event) => {
+    const email = event.cookies.get("email");
+    const user = await User_Model.findOne({ "user.email": email });
+    const data = await event.request.formData();
+    const id = data.get("id") as string;
+    const name = (data.get("name") as string)?.trim();
+    const games = user?.games;
+
+    if (games) {
+      const game = games.find((game) => game.id === id);
+
+      if (game) {
+        game.name = name;
+        console.log(game.name);
+        await user.save();
+      }
+    }
+  },
 };
