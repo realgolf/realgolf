@@ -90,7 +90,7 @@
   <p class="error">{form?.error}</p>
 {/if}
 
-<label for="search">Search a game by team, name or date:</label>
+<label for="search">Search a game by name or date:</label>
 <input type="search" id="search" bind:value={searchTerm} />
 <p class="error">Please search in the following format: YYYY-MM-DD</p>
 
