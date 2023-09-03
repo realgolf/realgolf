@@ -34,12 +34,19 @@ export const actions: Actions = {
       // Generate a unique ID for the game
       const gameId = uuidv4();
 
+      const today = new Date();
+      const year = today.getFullYear();
+      const month = (today.getMonth() + 1).toString().padStart(2, "0");
+      const day = today.getDate().toString().padStart(2, "0");
+      const formattedDate = `${year}-${month}-${day}`;
+
       // Add the game to the user
       if (user.games) {
         user.games.push({
           id: gameId,
           name: "Exact 3 Teams",
           teams: "exact_3_teams",
+          date: formattedDate,
           data: JSON.stringify(team_data),
         });
       }
