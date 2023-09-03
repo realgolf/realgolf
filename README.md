@@ -1,32 +1,5 @@
 # Golf Games
 
-## Table of Contents
-
-- [Golf Games](#golf-games)
-  - [Table of Contents](#table-of-contents)
-  - [Sites](#sites)
-  - [What is Golf Games](#what-is-golf-games)
-  - [Why did I decide to develop Golf Games?](#why-did-i-decide-to-develop-golf-games)
-  - [Versions](#versions)
-  - [What is Golf games about?](#what-is-golf-games-about)
-    - [4 Winning](#4-winning)
-    - [Exact](#exact)
-    - [Precision](#precision)
-- [FAQ](#faq)
-  - [How can I create an account to play the games?](#how-can-i-create-an-account-to-play-the-games)
-  - [Are the games free to play?](#are-the-games-free-to-play)
-  - [Can I contribute new Games to the project?](#can-i-contribute-new-games-to-the-project)
-  - [How can I report bugs or suggest new features?](#how-can-i-report-bugs-or-suggest-new-features)
-  - [Is the project open source?](#is-the-project-open-source)
-  - [How often are new updates or features added?](#how-often-are-new-updates-or-features-added)
-  - [Can I play the offline version on all devices?](#can-i-play-the-offline-version-on-all-devices)
-  - [What programming languages are used in the project?](#what-programming-languages-are-used-in-the-project)
-  - [Can I change my Password after registration?](#can-i-change-my-password-after-registration)
-  - [Is my Personal Information safe and secure?](#is-my-personal-information-safe-and-secure)
-  - [Further Questions](#further-questions)
-- [Credits](#credits)
-- [Copyright](#copyright)
-
 ## Sites
 
 [Golf Games](https://golf.moinjulian.com) **Has a user authentication**
