@@ -4,30 +4,45 @@
   import { teams } from "./teams";
   import type { ActionData } from "./$types.js";
   import GoBack from "$lib/components/GoBack.svelte";
-
   export let data;
   export let form: ActionData;
 
   let selectedTeam = "";
+  let searchTerm = "";
   let filteredGames: string | any[] = [];
 
   onMount(() => {
     filteredGames = data.games;
   });
 
-  afterUpdate(() => {
-    filterGames();
-  });
-
-  function filterGames() {
-    if (selectedTeam === "") {
-      filteredGames = data.games;
-    } else {
+  // Funktion zum Filtern von Spielen basierend auf Suchbegriff und ausgewähltem Team
+  function applyFilters(searchTerm: string) {
+    if (searchTerm !== "") {
+      filteredGames = data.games.filter(
+        (game: { name: string | any[]; date: string | any[] }) => {
+          return (
+            game.name.includes(searchTerm) || game.date.includes(searchTerm)
+          );
+        }
+      );
+    } else if (selectedTeam !== "") {
       filteredGames = data.games.filter(
         (game: { teams: string }) => game.teams === selectedTeam
       );
+    } else {
+      filteredGames = data.games; // Keine Filter, zeige alle Spiele
     }
   }
+
+  // Ereignishandler für die Änderung des ausgewählten Teams
+  function handleTeamChange() {
+    applyFilters(searchTerm); // Filter zurücksetzen
+  }
+
+  // Nach dem Update, die Filter anwenden
+  afterUpdate(() => {
+    applyFilters(searchTerm);
+  });
 
   let copyStatus: string | null = null;
 
@@ -75,14 +90,12 @@
   <p class="error">{form?.error}</p>
 {/if}
 
-<form action="?/search" class="search" method="POST">
-  <label for="search">Search a game by team, name or date:</label>
-  <input type="search" id="seach" name="search" />
-  <button>Search</button>
-</form>
+<label for="search">Search a game by team, name or date:</label>
+<input type="search" id="search" bind:value={searchTerm} />
+<p class="error">Please search in the following format: YYYY-MM-DD</p>
 
 <label for="teamSelect">Select a Team:</label>
-<select id="teamSelect" bind:value={selectedTeam} on:change={filterGames}>
+<select id="teamSelect" bind:value={selectedTeam} on:change={handleTeamChange}>
   <option value="">All Teams</option>
   {#each teams as team}
     <option value={team.teams}>{team.name}</option>
@@ -108,6 +121,7 @@
         <input class="hidden" type="text" name="id" value={game.id} />
         <button>Update Name</button>
       </form>
+      <p>Create at {game.date}</p>
       <p>{game.data}</p>
       <p class="error">Please only paste the data in {game.teams}!</p>
       <button on:click={() => copyData(game.data)}>Copy Data</button>
@@ -118,7 +132,7 @@
     </div>
   {/each}
 {:else}
-  <p class="error">No games found for the selected team.</p>
+  <p class="error">No games found for this search.</p>
 {/if}
 
 <style lang="scss">
