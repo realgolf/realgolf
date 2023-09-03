@@ -11,6 +11,7 @@ const User_Schema = new mongoose.Schema({
       id: { type: String },
       name: { type: String },
       teams: { type: String },
+      date: { type: String },
       data: { type: String },
     },
   ],

@@ -75,6 +75,12 @@
   <p class="error">{form?.error}</p>
 {/if}
 
+<form action="?/search" class="search" method="POST">
+  <label for="search">Search a game by team, name or date:</label>
+  <input type="search" id="seach" name="search" />
+  <button>Search</button>
+</form>
+
 <label for="teamSelect">Select a Team:</label>
 <select id="teamSelect" bind:value={selectedTeam} on:change={filterGames}>
   <option value="">All Teams</option>
