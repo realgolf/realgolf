@@ -8,6 +8,9 @@
 [Golf Games Offline](https://golf-offline.moinjulian.com/) **Works completly offline**
 [![Netlify Status](https://api.netlify.com/api/v1/badges/19d0eee9-9289-4fa4-979d-299aebeffe8b/deploy-status)](https://app.netlify.com/sites/offline-golf-games/deploys)
 
+[Golf Games FAQ](https://golf-faq.moinjulian.com/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/257a1b18-4e7c-47f6-8103-9213c79b0f6f/deploy-status)](https://app.netlify.com/sites/faq-golf-games/deploys)
+
 ## What is Golf Games
 
 Golf Games are all my games I've developed in the context of golf, the first version was
