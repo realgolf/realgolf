@@ -18,7 +18,7 @@
 </div>
 
 <div class:card_hover={!showNormal} class:hidden={showNormal}>
-  <h4>{title}</h4>
+  <h3>{title}</h3>
   {#if title == "Rules"}
     <p>Here you can see all rules for all three games.</p>
   {:else if title == "Modi"}
@@ -37,30 +37,68 @@
 </div>
 
 <style lang="scss">
-  .card_normal {
-    background-color: var(--nav-color);
-    width: max-content;
-    padding: 50px 50px;
-    border-radius: 5px;
-    border: 1px solid var(--border-color);
-    margin: 15px 30px;
-    &:hover {
-      cursor: pointer;
-      box-shadow: 10px 10px 20px var(--border-color);
-    }
-    h3 {
-      text-align: center;
-    }
-  }
-  .card_hover {
-    background-color: var(--nav-color);
-    width: 20rem;
-    padding: 50px 50px;
-    border-radius: 5px;
-    border: 1px solid var(--border-color);
-    margin: 15px 30px;
-    text-decoration: none;
-  }
+	.card_normal {
+		background-color: var(--nav-color);
+		padding: 50px 50px;
+		border-radius: 5px;
+		border: 1px solid var(--border-color);
+		margin: 15px;
+    text-align: center;
+		&:hover {
+			cursor: pointer;
+			box-shadow: 10px 10px 20px var(--border-color);
+		}
+		h3 {
+			text-align: center;
+		}
+	}
+
+	/* Auf Desktop: Karten nehmen die gesamte Breite ein */
+	@media (min-width: 768px) {
+		.card_normal {
+			width: calc(
+				40vw
+			); /* Abzug von 30px Marge, um sicherzustellen, dass die Karten die gesamte Breite einnehmen */
+		}
+	}
+
+	/* Auf Handy: Karten sind 90vw breit */
+	@media (max-width: 767px) {
+		.card_normal {
+			width: 80vw;
+		}
+	}
+	.card_hover {
+		background-color: var(--nav-color);
+		padding: 50px 50px;
+		border-radius: 5px;
+		border: 1px solid var(--border-color);
+		margin: 15px;
+    text-align: center;
+		&:hover {
+			cursor: pointer;
+			box-shadow: 10px 10px 20px var(--border-color);
+		}
+		h3 {
+			text-align: center;
+		}
+	}
+
+	/* Auf Desktop: Karten nehmen die gesamte Breite ein */
+	@media (min-width: 768px) {
+		.card_hover {
+			width: calc(
+				40vw
+			); /* Abzug von 30px Marge, um sicherzustellen, dass die Karten die gesamte Breite einnehmen */
+		}
+	}
+
+	/* Auf Handy: Karten sind 90vw breit */
+	@media (max-width: 767px) {
+		.card_hover {
+			width: 80vw;
+		}
+	}
 
   button {
     margin-top: 10px;
