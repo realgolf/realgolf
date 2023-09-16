@@ -43,6 +43,7 @@
 		border-radius: 5px;
 		border: 1px solid var(--border-color);
 		margin: 15px;
+    text-align: center;
 		&:hover {
 			cursor: pointer;
 			box-shadow: 10px 10px 20px var(--border-color);
@@ -73,6 +74,7 @@
 		border-radius: 5px;
 		border: 1px solid var(--border-color);
 		margin: 15px;
+    text-align: center;
 		&:hover {
 			cursor: pointer;
 			box-shadow: 10px 10px 20px var(--border-color);
