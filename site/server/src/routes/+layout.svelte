@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-  <link rel="icon" href="/favicon16x16.png" />
+  <link rel="icon" href="/golf.PNG" />
 </svelte:head>
 
 <LoadProgress />
