@@ -1,5 +1,6 @@
 <script lang="ts">
   import {
+    faGear,
     faHouse,
     faKey,
     faLock,
@@ -37,9 +38,9 @@
       secured: true,
     },
     {
-      path: "/account",
-      icon: faUser,
-      name: "Account",
+      path: "/settings",
+      icon: faGear,
+      name: "Settings",
       secured: true,
     },
     {
