@@ -1,5 +1,7 @@
 <script lang="ts">
   export let data;
+
+  console.log(data.auth);
 </script>
 
 <svelte:head>
@@ -17,7 +19,7 @@
     </b>
   </p>
   <br />
-  {#if data.auth == true}
+  {#if data.auth == "true"}
     <p>
       If you don't have an account, that is no problem you can easily create one <a
         href="/register">here</a
