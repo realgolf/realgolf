@@ -29,58 +29,62 @@
 </script>
 
 <svelte:head>
-  <title>Golf Games - Account</title>
+  <title>Golf Games - Settings</title>
 </svelte:head>
 
-<h1>Account</h1>
+<h1>Settings</h1>
 
-<form
-  action="?/name"
-  method="POST"
-  autocomplete="off"
-  class="update-form"
-  use:enhance
->
-  <div>
-    <label for="name_input">Name</label>
-    <input type="text" id="name_input" name="name" value={data.name} />
-  </div>
-  <button aria-label="update name">Update</button>
-</form>
+<div id="account">
+  <h2>Account</h2>
 
-<form
-  action="?/email"
-  method="POST"
-  autocomplete="off"
-  class="update-form"
-  use:enhance
->
-  <div>
-    <label for="email_input">Email</label>
-    <input type="email" id="email_input" name="email" value={data.email} />
-  </div>
-  <button aria-label="update email">Update</button>
-</form>
+  <form
+    action="?/name"
+    method="POST"
+    autocomplete="off"
+    class="update-form"
+    use:enhance
+  >
+    <div>
+      <label for="name_input">Name</label>
+      <input type="text" id="name_input" name="name" value={data.name} />
+    </div>
+    <button aria-label="update name">Update</button>
+  </form>
 
-<form
-  action="?/password"
-  method="POST"
-  autocomplete="off"
-  class="update-form"
-  use:enhance
->
-  <div>
-    <label for="password_input">Password</label>
-    <input type="password" id="password_input" name="password" value="" />
-  </div>
+  <form
+    action="?/email"
+    method="POST"
+    autocomplete="off"
+    class="update-form"
+    use:enhance
+  >
+    <div>
+      <label for="email_input">Email</label>
+      <input type="email" id="email_input" name="email" value={data.email} />
+    </div>
+    <button aria-label="update email">Update</button>
+  </form>
 
-  <div>
-    <button id="toggle_password" type="button"
-      ><Fa id="eye_icon" icon={faEye} /></button
-    >
-    <button aria-label="update password">Update</button>
-  </div>
-</form>
+  <form
+    action="?/password"
+    method="POST"
+    autocomplete="off"
+    class="update-form"
+    use:enhance
+  >
+    <div>
+      <label for="password_input">Password</label>
+      <input type="password" id="password_input" name="password" value="" />
+    </div>
+
+    <div>
+      <button id="toggle_password" type="button"
+        ><Fa id="eye_icon" icon={faEye} /></button
+      >
+      <button aria-label="update password">Update</button>
+    </div>
+  </form>
+</div>
 
 {#if form?.message}
   <p class="success">
