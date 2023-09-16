@@ -3,6 +3,6 @@ export async function load(event) {
   console.log(auth);
 
   if (auth) {
-    return { auth: true };
+    return { auth };
   }
 }
