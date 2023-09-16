@@ -19,7 +19,7 @@
     </b>
   </p>
   <br />
-  {#if data.auth == "true"}
+  {#if !data.auth}
     <p>
       If you don't have an account, that is no problem you can easily create one <a
         href="/register">here</a
