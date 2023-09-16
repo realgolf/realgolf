@@ -34,6 +34,7 @@
 
 <style lang="scss">
   main {
+    width: 90vw;
     display: flex;
     flex-direction: row;
     justify-content: left;
