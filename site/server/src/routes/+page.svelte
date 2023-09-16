@@ -1,3 +1,7 @@
+<script lang="ts">
+  export let data;
+</script>
+
 <svelte:head>
   <title>Golf Games</title>
 </svelte:head>
@@ -13,14 +17,18 @@
     </b>
   </p>
   <br />
-  <p>
-    If you don't have an account, that is no problem you can easily create one <a
-      href="/register">here</a
-    >.
-  </p>
-  <br />
-  <p>If you already got an account you can log in <a href="/login">here</a>.</p>
-  <br />
+  {#if data.auth == true}
+    <p>
+      If you don't have an account, that is no problem you can easily create one <a
+        href="/register">here</a
+      >.
+    </p>
+    <br />
+    <p>
+      If you already got an account you can log in <a href="/login">here</a>.
+    </p>
+    <br />
+  {/if}
   <p>
     The offline version can be played here: <a
       target="_blank"
