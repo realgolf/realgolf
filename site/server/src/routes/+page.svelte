@@ -35,12 +35,14 @@
     You can play the offline version of the game <a
       target="_blank"
       href="https://golf-offline.moinjulian.com">here</a
-    >. You will need a network connection for the initial load, but after that, all
-    the data will be cached, allowing you to play without an internet connection.
+    >. You will need a network connection for the initial load, but after that,
+    all the data will be cached, allowing you to play without an internet
+    connection.
   </p>
 
   <p>
     If you have any questions, please visit our <a
+      target="_blank"
       href="https://golf-faq.moinjulian.com">FAQ</a
     >
     section first to see if your question has already been answered. If you cannot
