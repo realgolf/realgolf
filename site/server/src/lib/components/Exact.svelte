@@ -2,6 +2,11 @@
   import { afterUpdate, onMount } from "svelte";
   import GoBack from "./GoBack.svelte";
   import { writable } from "svelte/store";
+  import { changeTeam } from "$lib/scripts/Exact/changeTeam";
+  import { updateTeamTurn } from "$lib/scripts/Exact/updateTeamTurn";
+  import { updatePointsDisplay } from "$lib/scripts/Exact/UpdatePointsDisplay";
+  import { findWinner } from "$lib/scripts/Exact/findWinner";
+  import { resetGame } from "$lib/scripts/Exact/resetGame";
 
   let rows = [
     {
@@ -59,8 +64,8 @@
       clickedCellsCount = shotsPlayed; // Update clickedCellsCount as well
     }
 
-    updatePointsDisplay();
-    updateTeamTurn();
+    updatePointsDisplay(teams);
+    updateTeamTurn(color);
   });
 
   let userInput: number = 20;
@@ -68,46 +73,6 @@
   let currentTeamIndex = 0;
   let currentTeam = teams[currentTeamIndex];
   let color = currentTeam.color;
-
-  function changeTeam() {
-    currentTeamIndex = (currentTeamIndex + 1) % teams.length;
-    currentTeam = teams[currentTeamIndex];
-    color = currentTeam.color;
-    updateTeamTurn();
-  }
-
-  function updatePointsDisplay() {
-    const display = document.querySelector("#points_display");
-    if (display) {
-      let displayContent = teams
-        .map((team) => {
-          const storedData = localStorage.getItem(`exact_${teams.length}_data`);
-          const parsedData = storedData ? JSON.parse(storedData) : {};
-          const points = parsedData[team.color]
-            ? parsedData[team.color].points
-            : team.points;
-          return `${team.color} team points: ${points}`;
-        })
-        .join("<br>");
-      display.innerHTML = displayContent;
-    }
-  }
-
-  function findWinner(): string {
-    let maxPoints = -Infinity;
-    let winner = "";
-
-    for (const team of teams) {
-      if (team.points > maxPoints) {
-        maxPoints = team.points;
-        winner = team.color;
-      }
-    }
-
-    return winner;
-  }
-
-  let lastRowNumbers: Record<string, number | null> = {};
 
   function handleClick(event: MouseEvent) {
     const targetId = (event.target as HTMLElement).id;
@@ -165,62 +130,42 @@
             return newPoints;
           });
 
-          updatePointsDisplay();
+          updatePointsDisplay(teams);
           clickedCellsCount++;
         }
-        changeTeam();
+        changeTeam(currentTeam, currentTeamIndex, color, teams);
       }
     }
 
     if (clickedCellsCount === userInput * teams.length) {
-      const winner = findWinner();
+      const winner = findWinner(teams);
       const confirmed = confirm(
         `The winner is ${winner}! Do you want to play again?`
       );
 
       if (confirmed) {
-        resetGame();
+        resetGame(
+          teams,
+          pointsByTeam,
+          userInput,
+          clickedCellsCount,
+          currentTeamIndex,
+          currentTeam,
+          color
+        );
       }
     }
   }
 
-  function updateTeamTurn() {
-    const teamTurnDisplay = document.getElementById("team_turn_display");
-    if (teamTurnDisplay) {
-      teamTurnDisplay.innerHTML = `Current Team Turn: ${color}`;
-    }
-  }
-
-  function resetGame() {
-    localStorage.removeItem(`exact_${teams.length}_data`);
-    for (let team of teams) {
-      team.data = [];
-      team.points = 0;
-      pointsByTeam[team.color].set(0); // Setzen Sie die Punkte für jedes Team auf 0 im Store
-    }
-
-    userInput = 20;
-    clickedCellsCount = 0;
-    currentTeamIndex = 0;
-    currentTeam = teams[currentTeamIndex];
-    color = currentTeam.color;
-
-    const cells = document.querySelectorAll(".meters");
-    cells.forEach((cell) => {
-      (cell as HTMLElement).style.backgroundColor = "";
-    });
-
-    updatePointsDisplay();
-    updateTeamTurn();
-  }
+  let lastRowNumbers: Record<string, number | null> = {};
 
   onMount(() => {
-    updatePointsDisplay();
-    updateTeamTurn();
+    updatePointsDisplay(teams);
+    updateTeamTurn(color);
   });
 
   afterUpdate(() => {
-    updateTeamTurn();
+    updateTeamTurn(color);
   });
 </script>
 
@@ -248,8 +193,23 @@
 </p>
 
 <p id="team_turn_display">Current Team Turn: {currentTeam.color}</p>
-<button on:click={resetGame}>Restart</button>
-<button on:click={changeTeam}>Switch Team</button>
+<button
+  on:click={() =>
+    resetGame(
+      teams,
+      pointsByTeam,
+      userInput,
+      clickedCellsCount,
+      currentTeamIndex,
+      currentTeam,
+      color
+    )}>Restart</button
+>
+<button
+  on:click={() => changeTeam(currentTeam, currentTeamIndex, teams, color)}
+>
+  Switch Team
+</button>
 
 <div id="points_display" />
 
