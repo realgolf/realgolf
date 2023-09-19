@@ -4,11 +4,8 @@
     faHouse,
     faKey,
     faLock,
-    faPlaneUp,
-    faQuestionCircle,
     faSection,
     faTh,
-    faUser,
     type IconDefinition,
   } from "@fortawesome/free-solid-svg-icons";
   import ThemeToggler from "./ThemeToggler.svelte";
@@ -79,18 +76,6 @@
         </li>
       {/if}
     {/each}
-    <li class="plane">
-      <a href="https://golf-offline.moinjulian.com" target="_blank">
-        <Fa icon={faPlaneUp} />
-        <span class="name">Offline</span>
-      </a>
-    </li>
-    <li class="plane">
-      <a href="https://golf-faq.moinjulian.com" target="_blank">
-        <Fa icon={faQuestionCircle} />
-        <span class="name">FAQ</span>
-      </a>
-    </li>
     <li>
       <ThemeToggler />
     </li>
@@ -129,17 +114,6 @@
 
         &:hover::before {
           width: 100%;
-        }
-      }
-
-      .plane:hover {
-        line-break: none;
-        display: block;
-        a {
-          display: block;
-          span {
-            display: block;
-          }
         }
       }
 
