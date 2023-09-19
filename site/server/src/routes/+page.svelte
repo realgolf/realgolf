@@ -41,7 +41,7 @@
 
   <p>
     If you have any questions, please visit our <a
-      href="golf-faq.moinjulian.com">FAQ</a
+      href="https://golf-faq.moinjulian.com">FAQ</a
     >
     section first to see if your question has already been answered. If you cannot
     find a solution or answer to your question, please do not hesitate to contact
