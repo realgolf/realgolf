@@ -38,4 +38,12 @@
     >, you need an network connection for the first load and then all the data
     is cached so you can play it without an network connection.
   </p>
+  <p>
+    If you have any questions please visit the <a
+      href="https://golf-faq.moinjulian.com">FAQ</a
+    >first, to check if your question got already asked, if you can't find an
+    solution or answer to your question don't hesitate to reach out to us, by
+    sending an email to
+    <a href="mailto:info@moinjulian.com">info@moinjulian.com</a>
+  </p>
 </main>
