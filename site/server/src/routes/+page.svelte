@@ -32,18 +32,21 @@
     <br />
   {/if}
   <p>
-    The offline version can be played here: <a
+    You can play the offline version of the game <a
       target="_blank"
-      href="https://golf-offline.moinjulian.com">Golf Games Offline</a
-    >, you need an network connection for the first load and then all the data
-    is cached so you can play it without an network connection.
+      href="https://golf-offline.moinjulian.com">here</a
+    >
+    . You will need a network connection for the initial load, but after that, all
+    the data will be cached, allowing you to play without an internet connection.
   </p>
+
   <p>
-    If you have any questions please visit the <a
-      href="https://golf-faq.moinjulian.com">FAQ</a
-    >first, to check if your question got already asked, if you can't find an
-    solution or answer to your question don't hesitate to reach out to us, by
-    sending an email to
-    <a href="mailto:info@moinjulian.com">info@moinjulian.com</a>
+    If you have any questions, please visit our <a
+      href="golf-faq.moinjulian.com">FAQ</a
+    >
+    section first to see if your question has already been answered. If you cannot
+    find a solution or answer to your question, please do not hesitate to contact
+    us by sending an email to
+    <a href="mailto:info@moinjulian.com">info@moinjulian.com</a>.
   </p>
 </main>
