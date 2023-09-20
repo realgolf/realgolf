@@ -69,7 +69,7 @@
           class:current={$page.url.pathname === path ||
             $page.url.pathname.startsWith(path + "/")}
         >
-          <a href={path}>
+          <a href={path} title={name}>
             <Fa {icon} />
             <span class="name">{name}</span>
           </a>
