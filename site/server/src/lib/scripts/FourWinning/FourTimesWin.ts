@@ -9,7 +9,7 @@ export function FourTimesWin(
   cellId: string,
   teamColor: string,
   teams: Team[],
-  hitCounts: {},
+  hitCounts: Record<string, number>,
   currentTeam: Team,
   currentTeamIndex: number,
   color: string

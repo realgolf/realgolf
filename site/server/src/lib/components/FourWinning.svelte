@@ -6,8 +6,11 @@
   import { FourTimesWin } from "$lib/scripts/FourWinning/FourTimesWin";
   import { restartGame } from "$lib/scripts/FourWinning/restartGame";
   import { winCombinations } from "$lib/scripts/FourWinning/generateWinCombinations";
+  import { FieldClickedFourTimes } from "$lib/scripts/FourWinning/FieldClickedFourTimes";
 
   export let teams: Team[];
+
+  let hitCounts: Record<string, number> = {};
 
   interface Team {
     color: string;
@@ -103,44 +106,17 @@
         JSON.stringify(teams)
       );
 
-      FieldClickedFourTimes(outerIndex, innerIndex);
+      FieldClickedFourTimes(
+        outerIndex,
+        innerIndex,
+        currentTeam,
+        hitCounts,
+        teams,
+        currentTeamIndex,
+        color
+      );
       checkWin();
       changeTeam(currentTeam, currentTeamIndex, teams, color);
-    }
-  }
-
-  /**
-   * This function checks if a field got hit four times
-   * @param outerIndex
-   * @param innerIndex
-   */
-
-  let hitCounts: Record<string, number> = {};
-
-  function FieldClickedFourTimes(outerIndex: number, innerIndex: number) {
-    const cellId = `row${outerIndex + 1}-${innerIndex}`;
-    const cell = document.getElementById(cellId);
-    if (cell) {
-      const teamColor = currentTeam.color;
-      const cellKey = `${teamColor}_${cellId}`;
-
-      if (!hitCounts[cellKey]) {
-        hitCounts[cellKey] = 1;
-      } else {
-        hitCounts[cellKey] += 1;
-      }
-
-      if (hitCounts[cellKey] === 4) {
-        FourTimesWin(
-          cellId,
-          teamColor,
-          teams,
-          hitCounts,
-          currentTeam,
-          currentTeamIndex,
-          color
-        );
-      }
     }
   }
 
