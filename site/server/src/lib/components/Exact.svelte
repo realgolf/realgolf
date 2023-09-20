@@ -91,6 +91,7 @@
         currentTeam,
         currentTeamIndex
       );
+      changeTeam(currentTeam, currentTeamIndex, color, teams);
     }
 
     if (clickedCellsCount === userInput * teams.length) {

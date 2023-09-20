@@ -66,6 +66,5 @@ export function ifMatch(
       updatePointsDisplay(teams);
       clickedCellsCount++;
     }
-    changeTeam(currentTeam, currentTeamIndex, color, teams);
   }
 }
