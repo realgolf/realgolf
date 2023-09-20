@@ -15,7 +15,7 @@
   }
   export let teams: Team[];
 
-  function changeTeam() {
+  export function changeTeam() {
     currentTeamIndex = (currentTeamIndex + 1) % teams.length;
     currentTeam = teams[currentTeamIndex];
     color = currentTeam.color;
