@@ -2,8 +2,6 @@
   import { onMount } from "svelte";
   import GoBack from "./GoBack.svelte";
   import { updateTeamTurn } from "$lib/scripts/FourWinning/updateTeamTurn";
-  import { FourTimesWin } from "$lib/scripts/FourWinning/FourTimesWin";
-  import { restartGame } from "$lib/scripts/FourWinning/restartGame";
   import { winCombinations } from "$lib/scripts/FourWinning/generateWinCombinations";
   import { FieldClickedFourTimes } from "$lib/scripts/FourWinning/FieldClickedFourTimes";
   import { checkWin } from "$lib/scripts/FourWinning/checkWin";
