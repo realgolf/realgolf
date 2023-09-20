@@ -1,4 +1,4 @@
-import { changeTeam } from "./changeTeam";
+import { changeTeam } from "$lib/components/Exact.svelte";
 import { checkWin } from "./checkWin";
 import { winCombinations } from "./generateWinCombinations";
 
@@ -44,7 +44,7 @@ export function handleClick(
               currentTeamIndex,
               color
             );
-            changeTeam(currentTeam, currentTeamIndex, teams, color);
+            changeTeam();
           }
         } else if (distance >= 24 && distance <= 37) {
           let rowIndex = Math.floor((distance - 24) / 2);
@@ -67,7 +67,7 @@ export function handleClick(
               currentTeamIndex,
               color
             );
-            changeTeam(currentTeam, currentTeamIndex, teams, color);
+            changeTeam();
           }
         } else if (distance >= 38 && distance <= 58) {
           let rowIndex = Math.floor((distance - 38) / 3);
@@ -90,7 +90,7 @@ export function handleClick(
               currentTeamIndex,
               color
             );
-            changeTeam(currentTeam, currentTeamIndex, teams, color);
+            changeTeam();
           }
         } else if (distance >= 59 && distance <= 79) {
           let rowIndex = Math.floor((distance - 59) / 3);
@@ -113,7 +113,7 @@ export function handleClick(
               currentTeamIndex,
               color
             );
-            changeTeam(currentTeam, currentTeamIndex, teams, color);
+            changeTeam();
           }
         } else if (distance >= 80 && distance <= 100) {
           let rowIndex = Math.floor((distance - 80) / 3);
@@ -136,7 +136,7 @@ export function handleClick(
               currentTeamIndex,
               color
             );
-            changeTeam(currentTeam, currentTeamIndex, teams, color);
+            changeTeam();
           }
         } else if (distance >= 101 && distance <= 121) {
           let rowIndex = Math.floor((distance - 101) / 3);
@@ -159,7 +159,7 @@ export function handleClick(
               currentTeamIndex,
               color
             );
-            changeTeam(currentTeam, currentTeamIndex, teams, color);
+            changeTeam();
           }
         } else if (distance >= 122 && distance <= 142) {
           let rowIndex = Math.floor((distance - 122) / 3);
@@ -182,7 +182,7 @@ export function handleClick(
               currentTeamIndex,
               color
             );
-            changeTeam(currentTeam, currentTeamIndex, teams, color);
+            changeTeam();
           }
         } else if (distance >= 143 && distance <= 163) {
           let rowIndex = Math.floor((distance - 142) / 3);
@@ -205,7 +205,7 @@ export function handleClick(
               currentTeamIndex,
               color
             );
-            changeTeam(currentTeam, currentTeamIndex, teams, color);
+            changeTeam();
           }
         } else {
           alert("An unexpected error occured.");

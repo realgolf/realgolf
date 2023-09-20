@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang="ts" context="module">
   import { afterUpdate, onMount } from "svelte";
   import GoBack from "./GoBack.svelte";
   import { writable } from "svelte/store";
@@ -36,7 +36,7 @@
     { points: "-1 Point", data: ["<5", ">100"] },
   ];
 
-  export let teams: Team[];
+  export let teams: Team[] = [];
 
   interface Team {
     color: string;
@@ -47,7 +47,7 @@
   let pointsByTeam: Record<string, any> = {};
   let shotsPlayed: number = 0;
 
-  function changeTeam() {
+  export function changeTeam() {
     currentTeamIndex = (currentTeamIndex + 1) % teams.length;
     currentTeam = teams[currentTeamIndex];
     color = currentTeam.color;

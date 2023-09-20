@@ -1,5 +1,4 @@
 import { updatePointsDisplay } from "./UpdatePointsDisplay";
-import { changeTeam } from "./changeTeam";
 
 export function ifMatch(
   match: string[],
