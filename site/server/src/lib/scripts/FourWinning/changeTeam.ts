@@ -8,11 +8,10 @@ interface Team {
 export function changeTeam(
   currentTeam: Team,
   currentTeamIndex: number,
-  teams: Team[],
-  color: string
+  teams: Team[]
 ) {
   currentTeamIndex = (currentTeamIndex + 1) % teams.length;
   currentTeam = teams[currentTeamIndex];
-  color = currentTeam.color;
-  updateTeamTurn(color);
+  updateTeamTurn(currentTeam.color); // Update the color using the new currentTeam
+  return currentTeam; // Return the updated currentTeam
 }

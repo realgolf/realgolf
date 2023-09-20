@@ -62,7 +62,7 @@
         currentTeamIndex,
         color
       );
-      changeTeam(currentTeam, currentTeamIndex, teams, color);
+      currentTeam = changeTeam(currentTeam, currentTeamIndex, teams);
     }
   }
 
@@ -115,7 +115,7 @@
 
 <p id="team_turn_display">Current Team Turn: {currentTeam.color}</p>
 
-<button on:click={() => changeTeam(currentTeam, currentTeamIndex, teams, color)}
+<button on:click={() => currentTeam = changeTeam(currentTeam, currentTeamIndex, teams)}
   >Switch Team</button
 >
 <button
