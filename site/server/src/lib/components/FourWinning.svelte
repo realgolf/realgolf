@@ -1,7 +1,6 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import GoBack from "./GoBack.svelte";
-  import { changeTeam } from "$lib/scripts/FourWinning/changeTeam";
   import { updateTeamTurn } from "$lib/scripts/FourWinning/updateTeamTurn";
   import { FourTimesWin } from "$lib/scripts/FourWinning/FourTimesWin";
   import { restartGame } from "$lib/scripts/FourWinning/restartGame";
@@ -17,6 +16,13 @@
     data: string[];
   }
   export let teams: Team[];
+
+  function changeTeam() {
+    currentTeamIndex = (currentTeamIndex + 1) % teams.length;
+    currentTeam = teams[currentTeamIndex];
+    color = currentTeam.color;
+    updateTeamTurn(color);
+  }
 
   let hitCounts: Record<string, number> = {};
 
@@ -62,7 +68,7 @@
         currentTeamIndex,
         color
       );
-      currentTeam = changeTeam(currentTeam, currentTeamIndex, teams);
+      changeTeam();
     }
   }
 
@@ -115,9 +121,7 @@
 
 <p id="team_turn_display">Current Team Turn: {currentTeam.color}</p>
 
-<button on:click={() => currentTeam = changeTeam(currentTeam, currentTeamIndex, teams)}
-  >Switch Team</button
->
+<button on:click={changeTeam}>Switch Team</button>
 <button
   on:click={() =>
     restartGame_Btn(teams, hitCounts, currentTeam, currentTeamIndex, color)}
