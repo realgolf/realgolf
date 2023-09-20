@@ -2,7 +2,6 @@
   import { afterUpdate, onMount } from "svelte";
   import GoBack from "./GoBack.svelte";
   import { writable } from "svelte/store";
-  import { changeTeam } from "$lib/scripts/Exact/changeTeam";
   import { updateTeamTurn } from "$lib/scripts/Exact/updateTeamTurn";
   import { updatePointsDisplay } from "$lib/scripts/Exact/UpdatePointsDisplay";
   import { findWinner } from "$lib/scripts/Exact/findWinner";
@@ -48,6 +47,13 @@
   let pointsByTeam: Record<string, any> = {};
   let shotsPlayed: number = 0;
 
+  function changeTeam() {
+    currentTeamIndex = (currentTeamIndex + 1) % teams.length;
+    currentTeam = teams[currentTeamIndex];
+    color = currentTeam.color;
+    updateTeamTurn(color);
+  }
+
   teams.forEach((team) => {
     pointsByTeam[team.color] = writable(team.points);
   });
@@ -91,7 +97,7 @@
         currentTeam,
         currentTeamIndex
       );
-      changeTeam(currentTeam, currentTeamIndex, color, teams);
+      changeTeam();
     }
 
     if (clickedCellsCount === userInput * teams.length) {
@@ -162,11 +168,7 @@
       color
     )}>Restart</button
 >
-<button
-  on:click={() => changeTeam(currentTeam, currentTeamIndex, teams, color)}
->
-  Switch Team
-</button>
+<button on:click={changeTeam}> Switch Team </button>
 
 <div id="points_display" />
 
