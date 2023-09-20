@@ -1,6 +1,8 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import GoBack from "./GoBack.svelte";
+  import { changeTeam } from "$lib/scripts/FourWinning/changeTeam";
+  import { updateTeamTurn } from "$lib/scripts/FourWinning/updateTeamTurn";
 
   /**
    * Declared all variables
@@ -82,17 +84,6 @@
   let currentTeam = teams[currentTeamIndex];
 
   /**
-   * This function changes the team
-   */
-
-  function changeTeam() {
-    currentTeamIndex = (currentTeamIndex + 1) % teams.length;
-    currentTeam = teams[currentTeamIndex];
-    color = currentTeam.color;
-    updateTeamTurn();
-  }
-
-  /**
    * This function handles the click event for each field
    * @param outerIndex
    * @param innerIndex
@@ -115,7 +106,7 @@
 
       FieldClickedFourTimes(outerIndex, innerIndex);
       checkWin();
-      changeTeam();
+      changeTeam(currentTeam, currentTeamIndex, teams, color);
     }
   }
 
@@ -163,17 +154,6 @@
       if (confirmed2) {
         restartGame();
       }
-    }
-  }
-
-  /**
-   * This function updates the Team Turn display
-   */
-
-  function updateTeamTurn() {
-    const teamTurnDisplay = document.getElementById("team_turn_display");
-    if (teamTurnDisplay) {
-      teamTurnDisplay.innerHTML = `Current Team Turn: ${color}`;
     }
   }
 
@@ -310,8 +290,8 @@
     currentTeamIndex = 0;
     currentTeam = teams[currentTeamIndex];
     color = currentTeam.color;
-    changeTeam();
-    updateTeamTurn();
+    changeTeam(currentTeam, currentTeamIndex, teams, color);
+    updateTeamTurn(color);
   }
 
   function restartGame_Btn() {
@@ -337,7 +317,7 @@
     currentTeamIndex = 0;
     currentTeam = teams[currentTeamIndex];
     color = currentTeam.color;
-    updateTeamTurn();
+    updateTeamTurn(color);
   }
 
   /**
@@ -368,7 +348,7 @@
               );
 
               checkWin();
-              changeTeam();
+              changeTeam(currentTeam, currentTeamIndex, teams, color);
             }
           } else if (distance >= 24 && distance <= 37) {
             let rowIndex = Math.floor((distance - 24) / 2);
@@ -384,7 +364,7 @@
               );
 
               checkWin();
-              changeTeam();
+              changeTeam(currentTeam, currentTeamIndex, teams, color);
             }
           } else if (distance >= 38 && distance <= 58) {
             let rowIndex = Math.floor((distance - 38) / 3);
@@ -400,7 +380,7 @@
               );
 
               checkWin();
-              changeTeam();
+              changeTeam(currentTeam, currentTeamIndex, teams, color);
             }
           } else if (distance >= 59 && distance <= 79) {
             let rowIndex = Math.floor((distance - 59) / 3);
@@ -416,7 +396,7 @@
               );
 
               checkWin();
-              changeTeam();
+              changeTeam(currentTeam, currentTeamIndex, teams, color);
             }
           } else if (distance >= 80 && distance <= 100) {
             let rowIndex = Math.floor((distance - 80) / 3);
@@ -432,7 +412,7 @@
               );
 
               checkWin();
-              changeTeam();
+              changeTeam(currentTeam, currentTeamIndex, teams, color);
             }
           } else if (distance >= 101 && distance <= 121) {
             let rowIndex = Math.floor((distance - 101) / 3);
@@ -448,7 +428,7 @@
               );
 
               checkWin();
-              changeTeam();
+              changeTeam(currentTeam, currentTeamIndex, teams, color);
             }
           } else if (distance >= 122 && distance <= 142) {
             let rowIndex = Math.floor((distance - 122) / 3);
@@ -464,7 +444,7 @@
               );
 
               checkWin();
-              changeTeam();
+              changeTeam(currentTeam, currentTeamIndex, teams, color);
             }
           } else if (distance >= 143 && distance <= 163) {
             let rowIndex = Math.floor((distance - 142) / 3);
@@ -480,7 +460,7 @@
               );
 
               checkWin();
-              changeTeam();
+              changeTeam(currentTeam, currentTeamIndex, teams, color);
             }
           } else {
             alert("An unexpected error occured.");
@@ -528,7 +508,7 @@
 
       // Aktualisiere das aktuelle Team und den Anzeigetext
       currentTeamIndex = 0;
-      updateTeamTurn();
+      updateTeamTurn(color);
     }
   });
 </script>
@@ -543,7 +523,9 @@
 
 <p id="team_turn_display">Current Team Turn: {currentTeam.color}</p>
 
-<button on:click={changeTeam}>Switch Team</button>
+<button on:click={() => changeTeam(currentTeam, currentTeamIndex, teams, color)}
+  >Switch Team</button
+>
 <button on:click={restartGame_Btn}>Restart Game</button>
 
 <p>You can also enter the distance you have played here:</p>
