@@ -3,10 +3,8 @@
   import GoBack from "./GoBack.svelte";
   import { changeTeam } from "$lib/scripts/FourWinning/changeTeam";
   import { updateTeamTurn } from "$lib/scripts/FourWinning/updateTeamTurn";
-
-  /**
-   * Declared all variables
-   */
+  import { FourTimesWin } from "$lib/scripts/FourWinning/FourTimesWin";
+  import { restartGame } from "$lib/scripts/FourWinning/restartGame";
 
   export let teams: Team[];
 
@@ -132,27 +130,15 @@
       }
 
       if (hitCounts[cellKey] === 4) {
-        FourTimesWin(cellId, teamColor);
-      }
-    }
-  }
-
-  /**
-   * This function outputs the winning team for the FieldClickedFourTimes function
-   * @param cellId
-   * @param teamColor
-   */
-
-  function FourTimesWin(cellId: string, teamColor: string) {
-    const confirmed = confirm(
-      `Cell ${cellId} has been hit four times by ${teamColor} team!`
-    );
-
-    if (confirmed) {
-      const confirmed2 = confirm(`Do you want to restart the game?`);
-
-      if (confirmed2) {
-        restartGame();
+        FourTimesWin(
+          cellId,
+          teamColor,
+          teams,
+          hitCounts,
+          currentTeam,
+          currentTeamIndex,
+          color
+        );
       }
     }
   }
@@ -255,43 +241,12 @@
         );
 
         if (confirmed) {
-          restartGame();
+          restartGame(teams, hitCounts, currentTeam, currentTeamIndex, color);
         }
       }
     }
 
     return false;
-  }
-
-  /**
-   * The next to function restart the game, without reloading the page.
-   */
-
-  function restartGame() {
-    let input = document.getElementById("distance") as HTMLInputElement;
-
-    if (input) {
-      input.value = "";
-    }
-
-    localStorage.removeItem(`4winning_team_${teams.length}`);
-
-    teams.forEach((team) => {
-      team.data = [];
-    });
-
-    const cells = document.querySelectorAll(".meters");
-    cells.forEach((cell) => {
-      (cell as HTMLElement).style.backgroundColor = "";
-    });
-
-    hitCounts = {};
-
-    currentTeamIndex = 0;
-    currentTeam = teams[currentTeamIndex];
-    color = currentTeam.color;
-    changeTeam(currentTeam, currentTeamIndex, teams, color);
-    updateTeamTurn(color);
   }
 
   function restartGame_Btn() {
