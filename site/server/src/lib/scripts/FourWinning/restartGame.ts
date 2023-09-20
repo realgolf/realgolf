@@ -1,4 +1,4 @@
-import { changeTeam } from "./changeTeam";
+import { changeTeam } from "$lib/components/FourWinning.svelte";
 import { updateTeamTurn } from "./updateTeamTurn";
 
 interface Team {
