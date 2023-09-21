@@ -2,7 +2,7 @@
 	import LoadProgress from '$lib/components/LoadProgress.svelte';
 	import Nav from '$lib/components/Nav.svelte';
 	import ScrollUp from '$lib/components/ScrollUp.svelte';
-	import '$lib/css/app.css';
+	import '$lib/scss/app.scss';
 </script>
 
 <svelte:head>
