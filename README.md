@@ -3,13 +3,13 @@
 ## Sites
 
 [Golf Games](https://golf.moinjulian.com) **Has a user authentication**
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9fff7034-450c-4bd0-81aa-7ae843fe89b0/deploy-status)](https://app.netlify.com/sites/golf-games/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9f34722f-3f33-4d50-a478-f4d0bff08140/deploy-status)](https://app.netlify.com/sites/golf-games/deploys)
 
 [Golf Games Offline](https://golf-offline.moinjulian.com/) **Works completly offline**
-[![Netlify Status](https://api.netlify.com/api/v1/badges/19d0eee9-9289-4fa4-979d-299aebeffe8b/deploy-status)](https://app.netlify.com/sites/offline-golf-games/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a1c45214-92e5-4ebd-b41e-79c3bd8877fe/deploy-status)](https://app.netlify.com/sites/golf-games-offline/deploys)
 
 [Golf Games FAQ](https://golf-faq.moinjulian.com/)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/257a1b18-4e7c-47f6-8103-9213c79b0f6f/deploy-status)](https://app.netlify.com/sites/faq-golf-games/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e8a1d7e8-8ec1-423e-955e-36fffe72b840/deploy-status)](https://app.netlify.com/sites/golf-games-faq/deploys)
 
 ## What is Golf Games
 
