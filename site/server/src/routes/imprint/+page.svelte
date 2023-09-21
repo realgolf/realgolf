@@ -74,6 +74,7 @@
   become aware of legal violations, we will remove such content immediately.
 </p>
 
-<p>Copyright © 2023 MoinJulian</p>
+<p>Copyright © 2023 Julian Hammer</p>
+<p>All Rights Reserved</p>
 
 <p>Germany 04.07.23</p>
