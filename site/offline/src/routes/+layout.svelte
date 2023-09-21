@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Nav from '$lib/components/Nav.svelte';
-	import ThemeToggler from '$lib/components/ThemeToggler.svelte';
 	import '$lib/scss/app.scss';
 </script>
 
