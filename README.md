@@ -186,5 +186,7 @@ We'll respond promptly and may even consider adding your question to this FAQ to
 
 ## Copyright
 
-All Rights Reserved  
-[ALL RIGHTS RESERVED](/LICENSE.md)
+Copyright 2023 Julian Hammer
+
+MIT License
+[MIT](/LICENSE.md)
