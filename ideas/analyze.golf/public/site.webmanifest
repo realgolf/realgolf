@@ -1,0 +1,28 @@
+{
+  "start_url": "/",
+  "name": "Analyze.Golf",
+  "short_name": "Analyze.Golf",
+  "description":"A browser based golf swing analyzer. No video upload or server integration required.",
+  "short_description":"A browser based golf swing analyzer",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
