@@ -189,4 +189,4 @@ We'll respond promptly and may even consider adding your question to this FAQ to
 Copyright 2023 Julian Hammer
 
 License
-[All rights reserved(/LICENSE.md)
+[All rights reserved](/LICENSE.md)
