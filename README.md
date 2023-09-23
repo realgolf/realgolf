@@ -188,5 +188,5 @@ We'll respond promptly and may even consider adding your question to this FAQ to
 
 Copyright 2023 Julian Hammer
 
-MIT License
-[MIT](/LICENSE.md)
+License    
+[All rights reserved](/LICENSE.md)
