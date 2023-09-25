@@ -1,7 +1,6 @@
 # Golf Games
 
-## Lines of code written 
-
+![Static Badge](https://img.shields.io/badge/License-All_Rights_Reserved-red)
 ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fghloc.vercel.app%2Fapi%2Fmoinjulian%2Fgolf%2Fbadge)
 
 ## Sites
