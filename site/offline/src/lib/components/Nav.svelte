@@ -10,6 +10,7 @@
 	import ThemeToggler from './ThemeToggler.svelte';
 	import { page } from '$app/stores';
 	import Fa from 'svelte-fa';
+	import Dropdownmenu from './Dropdownmenu.svelte';
 
 	type link = {
 		path: string;
@@ -60,6 +61,9 @@
 		</li>
 		<li>
 			<ThemeToggler />
+		</li>
+		<li>
+			<Dropdownmenu />
 		</li>
 	</ul>
 </nav>
