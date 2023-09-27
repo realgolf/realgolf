@@ -13,3 +13,7 @@ updates:
     directory: "site/offline/"
     schedule:
       interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "site/faq/"
+    schedule:
+      interval: "daily"
