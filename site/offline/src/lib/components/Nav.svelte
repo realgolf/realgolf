@@ -47,18 +47,6 @@
 				</a>
 			</li>
 		{/each}
-		<li class="plane">
-			<a href="https://golf.moinjulian.com" target="_blank">
-				<Fa icon={faServer} />
-				<span class="name">Server</span>
-			</a>
-		</li>
-		<li class="plane">
-			<a href="https://golf-faq.moinjulian.com" target="_blank">
-				<Fa icon={faQuestionCircle} />
-				<span class="name">FAQ</span>
-			</a>
-		</li>
 		<li>
 			<ThemeToggler />
 		</li>
@@ -101,17 +89,6 @@
 
 				&:hover::before {
 					width: 100%;
-				}
-			}
-
-			.plane:hover {
-				line-break: none;
-				display: block;
-				a {
-					display: block;
-					span {
-						display: block;
-					}
 				}
 			}
 
