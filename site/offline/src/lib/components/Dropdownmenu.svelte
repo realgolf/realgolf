@@ -38,8 +38,7 @@
 			<a href="https://golf-faq.moinjulian.com">FAQ</a>
 		</div>
 		<div class="copyright row">
-			<p>© 2023</p>
-			<p>Julian Hammer</p>
+			<p>© 2023 Julian Hammer</p>
 			<p>All rights reserved</p>
 		</div>
 	</div>
