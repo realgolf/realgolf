@@ -20,6 +20,7 @@
 			<a href="/">Home</a>
 		</div>
 		<div class="games row border-bottom">
+			<h3>Games</h3>
 			<a href="/games/4winning">4 Winning</a>
 			<a href="/games/exact">Exact</a>
 			<a href="/games/precision">Precision</a>
