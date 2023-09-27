@@ -44,7 +44,6 @@
 {/if}
 
 <style lang="scss">
-	/* Basic styling for the dropdown */
 	.dropdown {
 		position: relative;
 		display: inline-block;
