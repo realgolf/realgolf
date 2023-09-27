@@ -23,16 +23,6 @@
 			path: '/',
 			name: 'Home',
 			icon: faHouse
-		},
-		{
-			path: '/games',
-			name: 'Games',
-			icon: faGolfBallTee
-		},
-		{
-			path: '/imprint',
-			name: 'Imprint',
-			icon: faSection
 		}
 	];
 </script>
@@ -47,9 +37,6 @@
 				</a>
 			</li>
 		{/each}
-		<li>
-			<ThemeToggler />
-		</li>
 		<li>
 			<Dropdownmenu />
 		</li>
@@ -69,9 +56,10 @@
 			list-style-type: none;
 			display: flex;
 			flex-wrap: wrap;
-			justify-content: right;
+			justify-content: space-between;
 			gap: 1.25rem;
 			margin-right: 20px;
+			margin-left: 20px;
 			a {
 				position: relative;
 				text-decoration: none;

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { faBars } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
+	import ThemeToggler from './ThemeToggler.svelte';
 
 	let isOpen = false;
 
@@ -35,10 +36,14 @@
 			<a href="https://golf.moinjulian.com">Server</a>
 			<a href="https://golf-faq.moinjulian.com">FAQ</a>
 		</div>
-		<div class="copyright row">
+		<div class="copyright row border-bottom">
 			<p><a href="/imprint">Imprint</a></p>
 			<p>© 2023 Julian Hammer</p>
 			<p>All rights reserved</p>
+		</div>
+		<div class="row">
+			<h3>Settings</h3>
+			<p><ThemeToggler /></p>
 		</div>
 	</div>
 {/if}
