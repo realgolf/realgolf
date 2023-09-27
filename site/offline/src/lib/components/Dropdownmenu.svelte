@@ -30,14 +30,13 @@
 			<a href="/games/exact">Exact</a>
 			<a href="/games/precision">Precision</a>
 		</div>
-		<div class="all row border-bottom">
-			<a href="/imprint">Imprint</a>
-		</div>
 		<div class="external-links row border-bottom">
+			<h3>External Links</h3>
 			<a href="https://golf.moinjulian.com">Server</a>
 			<a href="https://golf-faq.moinjulian.com">FAQ</a>
 		</div>
 		<div class="copyright row">
+			<p><a href="/imprint">Imprint</a></p>
 			<p>© 2023 Julian Hammer</p>
 			<p>All rights reserved</p>
 		</div>
@@ -110,7 +109,6 @@
 
 		.home,
 		.games,
-		.all,
 		.external-links {
 			padding-top: 10px;
 			padding-bottom: 10px;
