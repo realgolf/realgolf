@@ -33,9 +33,14 @@
 		<div class="all row border-bottom">
 			<a href="/imprint">Imprint</a>
 		</div>
-		<div class="external-links row">
+		<div class="external-links row border-bottom">
 			<a href="https://golf.moinjulian.com">Server</a>
 			<a href="https://golf-faq.moinjulian.com">FAQ</a>
+		</div>
+		<div class="copyright row">
+			<p>© 2023</p>
+			<p>Julian Hammer</p>
+			<p>All rights reserved</p>
 		</div>
 	</div>
 {/if}
@@ -48,8 +53,8 @@
 	}
 
 	button {
-		width: 1.5rem;
-		height: 1.5rem;
+		width: 2rem;
+		height: 2rem;
 		padding: 0;
 		display: flex;
 		align-items: center;
@@ -74,7 +79,7 @@
 
 		background-color: var(--nav-color);
 
-		min-width: 200px;
+		min-width: 300px;
 		max-width: 10vw;
 		text-align: left;
 
