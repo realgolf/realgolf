@@ -81,8 +81,9 @@
 			list-style-type: none;
 			display: flex;
 			flex-wrap: wrap;
-			justify-content: center;
+			justify-content: right;
 			gap: 1.25rem;
+			margin-right: 20px;
 			a {
 				position: relative;
 				text-decoration: none;
