@@ -79,6 +79,9 @@
 
 		background-color: var(--nav-color);
 
+		height: 100%;
+		overflow-y: auto;
+
 		min-width: 300px;
 		max-width: 10vw;
 		text-align: left;
