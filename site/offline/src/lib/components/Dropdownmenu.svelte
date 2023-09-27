@@ -16,13 +16,15 @@
 </div>
 {#if isOpen}
 	<div class="dropdown-content">
-		<a href="/">Home</a>
-		<div class="games row">
+		<div class="home row border-bottom">
+			<a href="/">Home</a>
+		</div>
+		<div class="games row border-bottom">
 			<a href="/games/4winning">4 Winning</a>
 			<a href="/games/exact">Exact</a>
 			<a href="/games/precision">Precision</a>
 		</div>
-		<div class="all row">
+		<div class="all row border-bottom">
 			<a href="/imprint">Imprint</a>
 		</div>
 		<div class="external-links row">
@@ -58,29 +60,36 @@
 
 	.dropdown-content {
 		position: absolute;
-		background-color: var(--nav-color);
-		min-width: 160px;
 		z-index: 1;
 		display: block;
 		right: 0;
 		left: auto;
-		padding-right: 30px;
-		height: max-content;
+
+		background-color: var(--nav-color);
+
+		min-width: 200px;
 		text-align: left;
 
-		.games {
-			border-top: 2px solid var(--border-color);
-			padding-bottom: 3px;
-			border-bottom: 2px solid var(--border-color);
-		}
+		border: 2px solid var(--border-color);
+		border-radius: 3px;
 
-		.external-links {
-			padding-bottom: 3px;
+		.border-bottom {
+			border-bottom: 2px solid var(--border-color);
 		}
 
 		.row {
 			display: flex;
 			flex-direction: column;
+			padding-right: 30px;
+			padding-left: 15px;
+		}
+
+		.home,
+		.games,
+		.all,
+		.external-links {
+			padding-top: 10px;
+			padding-bottom: 10px;
 		}
 	}
 </style>
