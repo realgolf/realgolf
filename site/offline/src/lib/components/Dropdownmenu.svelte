@@ -71,6 +71,7 @@
 		text-align: left;
 
 		border: 2px solid var(--border-color);
+		border-right: none;
 		border-radius: 3px;
 
 		.border-bottom {
