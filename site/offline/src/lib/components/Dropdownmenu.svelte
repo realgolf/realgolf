@@ -53,8 +53,8 @@
 	}
 
 	button {
-		width: 2rem;
-		height: 2rem;
+		width: 1.5rem;
+		height: 1.5rem;
 		padding: 0;
 		display: flex;
 		align-items: center;
