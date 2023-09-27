@@ -7,6 +7,10 @@
 	function toggleDropdown() {
 		isOpen = !isOpen;
 	}
+
+	function closeDropDown() {
+		isOpen = false;
+	}
 </script>
 
 <div class="dropdown">
@@ -16,6 +20,7 @@
 </div>
 {#if isOpen}
 	<div class="dropdown-content">
+		<button class="close-button" on:click={closeDropDown}>x</button>
 		<div class="home row border-bottom">
 			<a href="/">Home</a>
 		</div>
@@ -64,16 +69,26 @@
 		z-index: 1;
 		display: block;
 		right: 0;
+		top: 0;
 		left: auto;
 
 		background-color: var(--nav-color);
 
 		min-width: 200px;
+		max-width: 10vw;
 		text-align: left;
 
 		border: 2px solid var(--border-color);
 		border-right: none;
 		border-radius: 3px;
+
+		.close-button {
+			margin: 10px;
+
+			&:hover {
+				background-color: var(--label-color);
+			}
+		}
 
 		.border-bottom {
 			border-bottom: 2px solid var(--border-color);
