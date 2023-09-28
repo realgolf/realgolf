@@ -24,13 +24,15 @@
 
 	function getPagePath() {
 		const path = currentPagePath;
+		if (path === '/') {
+			return '<strong>Home</strong>';
+		}
+
 		const pathParts = path.split('/').filter((part) => part !== '');
-		let breadcrumbPath = '';
+		let breadcrumbPath = 'Home';
 
 		for (let i = 0; i < pathParts.length; i++) {
-			if (i > 0) {
-				breadcrumbPath += ' / ';
-			}
+			breadcrumbPath += ' / ';
 			if (i === pathParts.length - 1) {
 				breadcrumbPath += `<strong>${capitalizeFirstLetter(pathParts[i])}</strong>`;
 			} else {
@@ -38,7 +40,7 @@
 			}
 		}
 
-		return breadcrumbPath || '<strong>Home</strong>';
+		return breadcrumbPath;
 	}
 </script>
 
