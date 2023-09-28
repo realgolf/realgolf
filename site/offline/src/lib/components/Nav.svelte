@@ -33,9 +33,9 @@
 
 		for (let i = 0; i < pathParts.length; i++) {
 			const pathBefore = '/' + pathParts.slice(0, i + 1).join('/');
-			breadcrumbPath += ` / <a href="${pathBefore}" style="text-decoration: none;">${capitalizeFirstLetter(
-				pathParts[i]
-			)}</a>`;
+			breadcrumbPath += ` / <a href="${pathBefore}" style="text-decoration: none;">${
+				i === pathParts.length - 1 ? '<strong>' : ''
+			}${capitalizeFirstLetter(pathParts[i])}${i === pathParts.length - 1 ? '</strong>' : ''}</a>`;
 		}
 
 		return breadcrumbPath;
