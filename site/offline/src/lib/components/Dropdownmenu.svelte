@@ -1,8 +1,17 @@
 <script lang="ts">
-	import { faBars } from '@fortawesome/free-solid-svg-icons';
+	import {
+		faBars,
+		faBullseye,
+		faChessBoard,
+		faCrosshairs,
+		faGavel,
+		faHouse,
+		faServer
+	} from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
 	import ThemeToggler from './ThemeToggler.svelte';
 	import { onDestroy, onMount } from 'svelte';
+	import { faQuestionCircle } from '@fortawesome/free-regular-svg-icons';
 
 	let isOpen = false;
 	let blurBackground = false;
@@ -44,19 +53,19 @@
 	<div class="dropdown-content">
 		<button class="close-button" on:click={closeDropdown}>x</button>
 		<div class="home row border-bottom">
-			<a href="/">Home</a>
+			<a href="/"><span><Fa icon={faHouse} /></span>Home</a>
 		</div>
 		<div class="games row border-bottom">
-			<a href="/games/4winning">4 Winning</a>
-			<a href="/games/exact">Exact</a>
-			<a href="/games/precision">Precision</a>
+			<a href="/games/4winning"><span><Fa icon={faChessBoard} /></span>4 Winning</a>
+			<a href="/games/exact"><span><Fa icon={faBullseye} /></span>Exact</a>
+			<a href="/games/precision"><span><Fa icon={faCrosshairs} /></span>Precision</a>
 		</div>
 		<div class="external-links row border-bottom">
-			<a href="https://golf.moinjulian.com">Server</a>
-			<a href="https://golf-faq.moinjulian.com">FAQ</a>
+			<a href="https://golf.moinjulian.com"><span><Fa icon={faServer} /></span>Server</a>
+			<a href="https://golf-faq.moinjulian.com"><span><Fa icon={faQuestionCircle} /></span>FAQ</a>
 		</div>
 		<div class="copyright row border-bottom">
-			<p><a href="/imprint">Imprint</a></p>
+			<p><a href="/imprint"><Fa icon={faGavel} /> Imprint</a></p>
 			<p>© 2023 Julian Hammer</p>
 			<p>All rights reserved</p>
 		</div>
@@ -112,7 +121,7 @@
 
 		font-size: var(--small-font);
 
-		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+		box-shadow: 0px 0px 10px var(--shadow-color);
 
 		background-color: var(--nav-color);
 
@@ -125,6 +134,14 @@
 		border: 2px solid var(--border-color);
 		border-right: none;
 		border-radius: 0.75rem;
+
+		a {
+			text-decoration: none;
+
+			span {
+				margin-right: 0.5rem;
+			}
+		}
 
 		.close-button {
 			margin: 10px;
