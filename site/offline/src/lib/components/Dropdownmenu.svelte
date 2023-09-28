@@ -98,7 +98,9 @@
 		left: 0;
 		width: 100%;
 		height: 100%;
-		backdrop-filter: blur(2px);
+		// backdrop-filter: blur(2px);
+		background-color: grey;
+		opacity: 50%;
 		z-index: 998;
 		display: block;
 	}
