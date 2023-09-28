@@ -120,7 +120,7 @@
 		height: 100%;
 		overflow-y: auto;
 
-		min-width: 250px;
+		max-width: 250px;
 		text-align: left;
 
 		border: 2px solid var(--border-color);
