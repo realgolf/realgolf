@@ -16,23 +16,29 @@
 		}
 	];
 
-	$: currentPage = $page.url.pathname;
+	$: currentPagePath = $page.url.pathname;
 
 	function capitalizeFirstLetter(string: string) {
 		return string.charAt(0).toUpperCase() + string.slice(1);
 	}
 
 	function getPagePath() {
-		const path = currentPage;
-		const pathParts = path.split('/').filter((part) => part !== ''); // Remove empty parts
+		const path = currentPagePath;
+		const pathParts = path.split('/').filter((part) => part !== '');
 		let breadcrumbPath = '';
 
-		// Construct the breadcrumb path
 		for (let i = 0; i < pathParts.length; i++) {
-			breadcrumbPath += '/' + capitalizeFirstLetter(pathParts[i]);
+			if (i > 0) {
+				breadcrumbPath += ' / ';
+			}
+			if (i === pathParts.length - 1) {
+				breadcrumbPath += `<strong>${capitalizeFirstLetter(pathParts[i])}</strong>`;
+			} else {
+				breadcrumbPath += capitalizeFirstLetter(pathParts[i]);
+			}
 		}
 
-		return breadcrumbPath || '/';
+		return breadcrumbPath || '<strong>Home</strong>';
 	}
 </script>
 
@@ -43,7 +49,7 @@
 				<a href={path}>
 					<Fa {icon} />
 				</a>
-				<span>{getPagePath()}</span>
+				<span>{@html getPagePath()}</span>
 			</li>
 		{/each}
 		<li>
@@ -86,6 +92,12 @@
 
 				&:hover::before {
 					width: 100%;
+				}
+			}
+
+			li {
+				span {
+					margin-left: 15px;
 				}
 			}
 		}
