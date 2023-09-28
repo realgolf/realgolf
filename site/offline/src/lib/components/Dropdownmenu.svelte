@@ -2,6 +2,7 @@
 	import { faBars } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
 	import ThemeToggler from './ThemeToggler.svelte';
+	import { onDestroy, onMount } from 'svelte';
 
 	let isOpen = false;
 
@@ -9,19 +10,36 @@
 		isOpen = !isOpen;
 	}
 
-	function closeDropDown() {
+	function closeDropdown() {
 		isOpen = false;
 	}
+
+	onMount(() => {
+		window.addEventListener('click', (event) => {
+			if (
+				event.target instanceof Element &&
+				!event.target.closest('.dropdown') &&
+				!event.target.closest('.dropdown-button') &&
+				!event.target.closest('.dropdown-content')
+			) {
+				closeDropdown();
+			}
+		});
+
+		onDestroy(() => {
+			window.removeEventListener('click', closeDropdown);
+		});
+	});
 </script>
 
 <div class="dropdown">
-	<button class="dropdown-button" on:click={toggleDropdown}>
+	<button class="dropdown-button" on:click|stopPropagation={toggleDropdown}>
 		<Fa icon={faBars} />
 	</button>
 </div>
 {#if isOpen}
 	<div class="dropdown-content">
-		<button class="close-button" on:click={closeDropDown}>x</button>
+		<button class="close-button" on:click={closeDropdown}>x</button>
 		<div class="home row border-bottom">
 			<a href="/">Home</a>
 		</div>
