@@ -98,6 +98,7 @@
 			li {
 				span {
 					margin-left: 15px;
+					white-space: nowrap;
 				}
 			}
 		}
