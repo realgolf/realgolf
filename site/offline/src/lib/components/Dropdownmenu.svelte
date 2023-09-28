@@ -5,9 +5,11 @@
 	import { onDestroy, onMount } from 'svelte';
 
 	let isOpen = false;
+	let blurBackground = false;
 
 	function toggleDropdown() {
 		isOpen = !isOpen;
+		blurBackground = isOpen;
 	}
 
 	function closeDropdown() {
@@ -38,6 +40,7 @@
 	</button>
 </div>
 {#if isOpen}
+	<div class="blurry-background" />
 	<div class="dropdown-content">
 		<button class="close-button" on:click={closeDropdown}>x</button>
 		<div class="home row border-bottom">
@@ -89,9 +92,20 @@
 		color: var(--font-color);
 	}
 
+	.blurry-background {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		backdrop-filter: blur(2px);
+		z-index: 998;
+		display: block;
+	}
+
 	.dropdown-content {
 		position: absolute;
-		z-index: 1;
+		z-index: 999;
 		display: block;
 		right: 0;
 		top: 0;
