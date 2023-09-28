@@ -29,7 +29,7 @@
 		}
 
 		const pathParts = path.split('/').filter((part) => part !== '');
-		let breadcrumbPath = 'Home';
+		let breadcrumbPath = '<a href="/" style="text-decoration: none;">Home</a>';
 
 		for (let i = 0; i < pathParts.length; i++) {
 			breadcrumbPath += ' / ';
@@ -51,7 +51,7 @@
 				<a href={path}>
 					<Fa {icon} />
 				</a>
-				<span>{@html getPagePath()}</span>
+				<span class="no-line">{@html getPagePath()}</span>
 			</li>
 		{/each}
 		<li>
