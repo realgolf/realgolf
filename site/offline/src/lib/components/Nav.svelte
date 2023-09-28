@@ -24,9 +24,15 @@
 
 	function getPagePath() {
 		const path = currentPage;
-		const pathParts = path.split('/');
-		const pathAfterFirstSlash = pathParts[1] || '';
-		return capitalizeFirstLetter(pathAfterFirstSlash);
+		const pathParts = path.split('/').filter((part) => part !== ''); // Remove empty parts
+		let breadcrumbPath = '';
+
+		// Construct the breadcrumb path
+		for (let i = 0; i < pathParts.length; i++) {
+			breadcrumbPath += '/' + capitalizeFirstLetter(pathParts[i]);
+		}
+
+		return breadcrumbPath || '/';
 	}
 </script>
 
