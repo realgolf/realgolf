@@ -5,6 +5,7 @@
 		faChessBoard,
 		faCrosshairs,
 		faGavel,
+		faGolfBall,
 		faHouse,
 		faServer
 	} from '@fortawesome/free-solid-svg-icons';
@@ -56,6 +57,7 @@
 			<a href="/"><span><Fa icon={faHouse} /></span>Home</a>
 		</div>
 		<div class="games row border-bottom">
+			<a href="/games"><span><Fa icon={faGolfBall} /></span>Games</a>
 			<a href="/games/4winning"><span><Fa icon={faChessBoard} /></span>4 Winning</a>
 			<a href="/games/exact"><span><Fa icon={faBullseye} /></span>Exact</a>
 			<a href="/games/precision"><span><Fa icon={faCrosshairs} /></span>Precision</a>
@@ -133,7 +135,8 @@
 
 		border: 2px solid var(--border-color);
 		border-right: none;
-		border-radius: 0.75rem;
+		border-top-left-radius: 0.75rem;
+		border-bottom-left-radius: 0.75rem;
 
 		a {
 			text-decoration: none;

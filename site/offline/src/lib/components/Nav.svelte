@@ -1,40 +1,37 @@
 <script lang="ts">
-	import {
-		faGolfBallTee,
-		faHouse,
-		faQuestionCircle,
-		faSection,
-		faServer,
-		type IconDefinition
-	} from '@fortawesome/free-solid-svg-icons';
-	import ThemeToggler from './ThemeToggler.svelte';
-	import { page } from '$app/stores';
+	import { faHouse, type IconDefinition } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
 	import Dropdownmenu from './Dropdownmenu.svelte';
+	import { page } from '$app/stores';
 
 	type link = {
 		path: string;
-		name: string;
 		icon: IconDefinition;
 	};
 
 	let links: link[] = [
 		{
 			path: '/',
-			name: 'Home',
 			icon: faHouse
 		}
 	];
+
+	$: currentPage = $page;
+
+	function getPagePath() {
+		const path = currentPage.url.pathname;
+		return path.startsWith('/') ? path.substring(1) : path;
+	}
 </script>
 
 <nav>
 	<ul>
-		{#each links as { path, name, icon }}
-			<li class:current={$page.url.pathname === path || $page.url.pathname.startsWith(path + '/')}>
+		{#each links as { path, icon }}
+			<li>
 				<a href={path}>
 					<Fa {icon} />
-					<span class="name">{name}</span>
 				</a>
+				<span>{getPagePath()}</span>
 			</li>
 		{/each}
 		<li>
@@ -77,24 +74,6 @@
 
 				&:hover::before {
 					width: 100%;
-				}
-			}
-
-			li.current::after {
-				content: '';
-				position: absolute;
-				left: 0;
-				right: 0;
-				bottom: -0.15rem;
-				height: 0.1rem;
-				border-radius: 100vw;
-			}
-
-			li:not(.current) .name {
-				display: none;
-
-				@media (max-width: 38rem) {
-					display: none;
 				}
 			}
 		}
