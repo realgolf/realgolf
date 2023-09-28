@@ -47,13 +47,11 @@
 			<a href="/">Home</a>
 		</div>
 		<div class="games row border-bottom">
-			<h3>Games</h3>
 			<a href="/games/4winning">4 Winning</a>
 			<a href="/games/exact">Exact</a>
 			<a href="/games/precision">Precision</a>
 		</div>
 		<div class="external-links row border-bottom">
-			<h3>External Links</h3>
 			<a href="https://golf.moinjulian.com">Server</a>
 			<a href="https://golf-faq.moinjulian.com">FAQ</a>
 		</div>
@@ -62,8 +60,7 @@
 			<p>© 2023 Julian Hammer</p>
 			<p>All rights reserved</p>
 		</div>
-		<div class="row">
-			<h3>Settings</h3>
+		<div class="row theme-toggler">
 			<p><ThemeToggler /></p>
 		</div>
 	</div>
@@ -150,7 +147,9 @@
 
 		.home,
 		.games,
-		.external-links {
+		.external-links,
+		.copyright,
+		.theme-toggler {
 			padding-top: 10px;
 			padding-bottom: 10px;
 		}
