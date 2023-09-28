@@ -99,7 +99,7 @@
 		width: 100%;
 		height: 100%;
 		// backdrop-filter: blur(2px);
-		background-color: grey;
+		background-color: rgba(110, 118, 129, 0.4);
 		opacity: 50%;
 		z-index: 998;
 		display: block;
@@ -113,12 +113,14 @@
 		top: 0;
 		left: auto;
 
+		font-size: var(--small-font);
+
 		background-color: var(--nav-color);
 
 		height: 100%;
 		overflow-y: auto;
 
-		min-width: 320px;
+		min-width: 250px;
 		text-align: left;
 
 		border: 2px solid var(--border-color);

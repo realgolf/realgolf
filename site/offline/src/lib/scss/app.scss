@@ -5,6 +5,12 @@
 	scroll-behavior: smooth;
 }
 
+:root {
+	--small-font: 1rem;
+	--medium-font: 1.125rem;
+	--tiny-font: 0.8rem;
+}
+
 body[data-theme='light'] {
 	/* LIGHT COLORS */
 	--accent-color: rgb(211, 59, 3);
