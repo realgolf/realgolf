@@ -118,13 +118,12 @@
 		height: 100%;
 		overflow-y: auto;
 
-		min-width: 300px;
-		max-width: 10vw;
+		min-width: 320px;
 		text-align: left;
 
 		border: 2px solid var(--border-color);
 		border-right: none;
-		border-radius: 3px;
+		border-radius: 0.75rem;
 
 		.close-button {
 			margin: 10px;
