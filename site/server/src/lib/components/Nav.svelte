@@ -47,9 +47,17 @@
           pathParts[i]
         )}</a>`;
       } else {
-        breadcrumbPath += ` <span style="color: darkgrey;">/</span> <a href="/${pathBefore}" style="text-decoration: none;">${capitalizeFirstLetter(
-          pathParts[i]
-        )}</a>`;
+        if (pathBefore.startsWith("/dashboard/")) {
+          breadcrumbPath += ` <span style="color: darkgrey;">/</span> Dashboard`;
+          const afterDashboard = pathBefore.substring("/dashboard/".length);
+          breadcrumbPath += ` <a href="/dashboard/${afterDashboard}" style="text-decoration: none;">${capitalizeFirstLetter(
+            pathParts[i]
+          )}</a>`;
+        } else {
+          breadcrumbPath += ` <span style="color: darkgrey;">/</span> <a href="/${pathBefore}" style="text-decoration: none;">${capitalizeFirstLetter(
+            pathParts[i]
+          )}</a>`;
+        }
       }
     }
 
