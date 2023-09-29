@@ -27,12 +27,14 @@
   <h2 id="4-winning">4 Winning</h2>
 
   <ol class="no-bullets">
-    <li><a href="/dashboard/4winning/two-players">Two players / teams</a></li>
     <li>
-      <a href="/dashboard/4winning/three-players">Three players / teams</a>
+      <a href="/dashboard/modi/4winning-two-players">Two players / teams</a>
     </li>
     <li>
-      <a href="/dashboard/4winning/four-players">Four players / teams</a>
+      <a href="/dashboard/modi/4winning-three-players">Three players / teams</a>
+    </li>
+    <li>
+      <a href="/dashboard/modi/4winning-four-players">Four players / teams</a>
     </li>
   </ol>
 
