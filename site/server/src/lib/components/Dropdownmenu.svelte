@@ -23,6 +23,8 @@
   import { onDestroy, onMount } from "svelte";
   import { faQuestionCircle } from "@fortawesome/free-regular-svg-icons";
 
+  export let auth: string | undefined;
+
   let isOpen = false;
   let blurBackground = false;
 
@@ -65,39 +67,46 @@
     <div class="home row border-bottom">
       <a href="/"><span><Fa icon={faHouse} /></span>Home</a>
     </div>
-    <div class="logged-out row border-bottom">
-      <a href="/register"><span><Fa icon={faLock} /></span>Register</a>
-      <a href="/login"><span><Fa icon={faKey} /></span>Login</a>
-    </div>
-    <div class="logged-in row border-bottom">
-      <a href="/dashboard"><span><Fa icon={faTh} /></span>Dashboard</a>
-      <a href="/dashboard/settings"><span><Fa icon={faGear} /></span>Settings</a
-      >
-    </div>
-    <div class="modi row border-bottom">
-      <a href="/dashboard/modi" title="Game modes"
-        ><span><Fa icon={faGamepad} /></span>Modi</a
-      >
-      <div class="sublink row">
-        <a href="/dashboard/4winning"
-          ><span><Fa icon={faChessBoard} /></span>4 Winning</a
-        >
-        <a href="/dashboard/exact"><span><Fa icon={faBullseye} /></span>Exact</a
-        >
-        <a href="/dashboard/precision"
-          ><span><Fa icon={faCrosshairs} /></span>Precision</a
+    {#if !auth}
+      <div class="logged-out row border-bottom">
+        <a href="/register"><span><Fa icon={faLock} /></span>Register</a>
+        <a href="/login"><span><Fa icon={faKey} /></span>Login</a>
+      </div>
+    {/if}
+    {#if auth}
+      <div class="logged-in row border-bottom">
+        <a href="/dashboard"><span><Fa icon={faTh} /></span>Dashboard</a>
+        <a href="/dashboard/settings"
+          ><span><Fa icon={faGear} /></span>Settings</a
         >
       </div>
-    </div>
-    <div class="games row border-bottom">
-      <a href="/dashboard/games"><span><Fa icon={faSave} /></span>Games</a>
-      <a href="/dashboard/info"><span><Fa icon={faInfoCircle} /></span>Info</a>
-      <a href="/dashboard/levels"
-        ><span><Fa icon={faChartLine} /></span>Levels</a
-      >
-      <a href="/dashboard/rules"><span><Fa icon={faBook} /></span>Rules</a>
-      <a href="/dashboard/tools"><span><Fa icon={faWrench} /></span>Tools</a>
-    </div>
+      <div class="modi row border-bottom">
+        <a href="/dashboard/modi" title="Game modes"
+          ><span><Fa icon={faGamepad} /></span>Modi</a
+        >
+        <div class="sublink row">
+          <a href="/dashboard/4winning"
+            ><span><Fa icon={faChessBoard} /></span>4 Winning</a
+          >
+          <a href="/dashboard/exact"
+            ><span><Fa icon={faBullseye} /></span>Exact</a
+          >
+          <a href="/dashboard/precision"
+            ><span><Fa icon={faCrosshairs} /></span>Precision</a
+          >
+        </div>
+      </div>
+      <div class="games row border-bottom">
+        <a href="/dashboard/games"><span><Fa icon={faSave} /></span>Games</a>
+        <a href="/dashboard/info"><span><Fa icon={faInfoCircle} /></span>Info</a
+        >
+        <a href="/dashboard/levels"
+          ><span><Fa icon={faChartLine} /></span>Levels</a
+        >
+        <a href="/dashboard/rules"><span><Fa icon={faBook} /></span>Rules</a>
+        <a href="/dashboard/tools"><span><Fa icon={faWrench} /></span>Tools</a>
+      </div>
+    {/if}
     <div class="external-links row border-bottom">
       <a href="https://golf-offline.moinjulian.com"
         ><span><Fa icon={faPlaneUp} /></span>Offline</a

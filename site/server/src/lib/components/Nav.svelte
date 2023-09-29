@@ -7,6 +7,8 @@
   import Dropdownmenu from "./Dropdownmenu.svelte";
   import { page } from "$app/stores";
 
+  export let auth: string | undefined;
+
   type link = {
     path: string;
     icon: IconDefinition;
@@ -88,7 +90,7 @@
       </li>
     {/each}
     <li>
-      <Dropdownmenu />
+      <Dropdownmenu {auth} />
     </li>
   </ul>
 </nav>
