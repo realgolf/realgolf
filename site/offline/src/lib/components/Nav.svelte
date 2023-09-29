@@ -1,65 +1,67 @@
 <script lang="ts">
-	import {
-		faGolfBallTee,
-		faHouse,
-		faQuestionCircle,
-		faSection,
-		faServer,
-		type IconDefinition
-	} from '@fortawesome/free-solid-svg-icons';
-	import ThemeToggler from './ThemeToggler.svelte';
-	import { page } from '$app/stores';
+	import { faHouse, type IconDefinition } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
+	import Dropdownmenu from './Dropdownmenu.svelte';
+	import { page } from '$app/stores';
 
 	type link = {
 		path: string;
-		name: string;
 		icon: IconDefinition;
 	};
 
 	let links: link[] = [
 		{
 			path: '/',
-			name: 'Home',
 			icon: faHouse
-		},
-		{
-			path: '/games',
-			name: 'Games',
-			icon: faGolfBallTee
-		},
-		{
-			path: '/imprint',
-			name: 'Imprint',
-			icon: faSection
 		}
 	];
+
+	$: currentPagePath = $page.url.pathname;
+
+	function capitalizeFirstLetter(string: string) {
+		return string.charAt(0).toUpperCase() + string.slice(1);
+	}
+
+	function getPagePath() {
+		const path = currentPagePath;
+		if (path === '/') {
+			return '<strong>Home</strong>';
+		}
+
+		const pathParts = path.split('/').filter((part) => part !== '');
+		let breadcrumbPath = '<a href="/" style="text-decoration: none;">Home</a>';
+
+		for (let i = 0; i < pathParts.length; i++) {
+			const pathBefore = '/' + pathParts.slice(0, i + 1).join('/');
+			const isLastSegment = i === pathParts.length - 1;
+
+			if (isLastSegment) {
+				breadcrumbPath += ` <span style="color: darkgrey;">/</span> <strong>${capitalizeFirstLetter(
+					pathParts[i]
+				)}</strong>`;
+			} else {
+				breadcrumbPath += ` <span style="color: darkgrey;">/</span> <a href="${pathBefore}" style="text-decoration: none;">${capitalizeFirstLetter(
+					pathParts[i]
+				)}</a>`;
+			}
+		}
+
+		return breadcrumbPath;
+	}
 </script>
 
 <nav>
 	<ul>
-		{#each links as { path, name, icon }}
-			<li class:current={$page.url.pathname === path || $page.url.pathname.startsWith(path + '/')}>
+		{#each links as { path, icon }}
+			<li>
 				<a href={path}>
 					<Fa {icon} />
-					<span class="name">{name}</span>
 				</a>
+				<span class="no-line">{@html getPagePath()}</span>
 			</li>
 		{/each}
-		<li class="plane">
-			<a href="https://golf.moinjulian.com" target="_blank">
-				<Fa icon={faServer} />
-				<span class="name">Server</span>
-			</a>
-		</li>
-		<li class="plane">
-			<a href="https://golf-faq.moinjulian.com" target="_blank">
-				<Fa icon={faQuestionCircle} />
-				<span class="name">FAQ</span>
-			</a>
-		</li>
 		<li>
-			<ThemeToggler />
+			<Dropdownmenu />
 		</li>
 	</ul>
 </nav>
@@ -77,8 +79,10 @@
 			list-style-type: none;
 			display: flex;
 			flex-wrap: wrap;
-			justify-content: center;
+			justify-content: space-between;
 			gap: 1.25rem;
+			margin-right: 20px;
+			margin-left: 20px;
 			a {
 				position: relative;
 				text-decoration: none;
@@ -99,32 +103,10 @@
 				}
 			}
 
-			.plane:hover {
-				line-break: none;
-				display: block;
-				a {
-					display: block;
-					span {
-						display: block;
-					}
-				}
-			}
-
-			li.current::after {
-				content: '';
-				position: absolute;
-				left: 0;
-				right: 0;
-				bottom: -0.15rem;
-				height: 0.1rem;
-				border-radius: 100vw;
-			}
-
-			li:not(.current) .name {
-				display: none;
-
-				@media (max-width: 38rem) {
-					display: none;
+			li {
+				span {
+					margin-left: 15px;
+					white-space: nowrap;
 				}
 			}
 		}

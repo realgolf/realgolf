@@ -5,16 +5,11 @@
 	scroll-behavior: smooth;
 }
 
-/* :root {
-    --accent-color: rgb(211, 59, 3);
-    --highlight-color: yellow;
-    --error-color: rgb(230, 20, 20);
-    --background-color: #131317;
-    --nav-color: #202028;
-    --font-color: #fff;
-    --label-color: #aaa;
-    --border-color: #333;
-  } */
+:root {
+	--small-font: 1rem;
+	--medium-font: 1.125rem;
+	--tiny-font: 0.8rem;
+}
 
 body[data-theme='light'] {
 	/* LIGHT COLORS */
@@ -27,6 +22,7 @@ body[data-theme='light'] {
 	--label-color: #777;
 	--border-color: #ccc;
 	--h2-color: var(--accent-color);
+	--shadow-color: rgba(0, 0, 0, 0.5);
 }
 
 body[data-theme='dark'] {
@@ -40,6 +36,7 @@ body[data-theme='dark'] {
 	--label-color: #aaa;
 	--border-color: #333;
 	--h2-color: skyblue;
+	--shadow-color: rgba(255, 255, 255, 0.5);
 }
 
 body {

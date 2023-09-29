@@ -1,9 +1,9 @@
 <script lang="ts">
   import { enhance } from "$app/forms";
   import { onMount } from "svelte";
-  import type { ActionData, PageData } from "./$types";
   import Fa from "svelte-fa";
   import { faEye } from "@fortawesome/free-solid-svg-icons";
+  import type { ActionData, PageData } from "../$types";
 
   export let form: ActionData;
   export let data: PageData;
