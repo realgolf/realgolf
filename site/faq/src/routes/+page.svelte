@@ -1,20 +1,15 @@
 <script lang="ts">
-	let openDetails: { open: boolean } | null = null; // Variable to track the open <details> element
+	let openDetails: { open: boolean } | null = null;
 
-	// Function to handle the toggle event
 	function handleToggle(event: { target: any }) {
 		const details = event.target;
 
 		if (details.open) {
 			if (openDetails) {
-				// Close the previously open details
 				openDetails.open = false;
 			}
-
-			// Set the current details as the open one
 			openDetails = details;
 		} else {
-			// Details element is closed
 			openDetails = null;
 		}
 	}
