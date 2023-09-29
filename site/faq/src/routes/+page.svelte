@@ -213,18 +213,24 @@
 </details>
 
 <style lang="scss">
+	h1 {
+		text-align: center;
+	}
+
 	details {
-		border: 1px solid var(--border-color);
-		border-radius: 8px;
-		margin-bottom: 1rem;
+		border-top: 1px solid var(--border-color);
+		padding: 1rem 0;
 		transition: background-color 0.3s ease;
 
 		summary {
 			font-weight: 600;
 			line-height: 1.2rem;
-			color: var(--h2-color);
 			padding: 0.5rem 1.5rem;
 			cursor: pointer;
+
+			&:hover {
+				color: var(--h2-color);
+			}
 		}
 
 		div {
@@ -233,10 +239,6 @@
 			.faq-list {
 				padding-left: 1.5em;
 			}
-		}
-
-		&:hover {
-			background-color: var(--nav-color);
 		}
 	}
 </style>
