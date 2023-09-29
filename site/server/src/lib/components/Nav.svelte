@@ -31,6 +31,10 @@
       return "<strong>Home</strong>";
     }
 
+    if (path === "/dashboard") {
+      return "<strong>Dashboard</strong>";
+    }
+
     const pathParts = path.split("/").filter((part) => part !== "");
     let breadcrumbPath = "";
 
