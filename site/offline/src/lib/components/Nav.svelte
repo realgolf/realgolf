@@ -21,6 +21,7 @@
 	function capitalizeFirstLetter(string: string) {
 		return string.charAt(0).toUpperCase() + string.slice(1);
 	}
+
 	function getPagePath() {
 		const path = currentPagePath;
 		if (path === '/') {
@@ -35,9 +36,11 @@
 			const isLastSegment = i === pathParts.length - 1;
 
 			if (isLastSegment) {
-				breadcrumbPath += ` / <strong>${capitalizeFirstLetter(pathParts[i])}</strong>`;
+				breadcrumbPath += ` <span style="color: darkgrey;">/</span> <strong>${capitalizeFirstLetter(
+					pathParts[i]
+				)}</strong>`;
 			} else {
-				breadcrumbPath += ` / <a href="${pathBefore}" style="text-decoration: none;">${capitalizeFirstLetter(
+				breadcrumbPath += ` <span style="color: darkgrey;">/</span> <a href="${pathBefore}" style="text-decoration: none;">${capitalizeFirstLetter(
 					pathParts[i]
 				)}</a>`;
 			}
