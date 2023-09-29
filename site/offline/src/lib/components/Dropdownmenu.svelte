@@ -58,9 +58,11 @@
 		</div>
 		<div class="games row border-bottom">
 			<a href="/games"><span><Fa icon={faGolfBall} /></span>Games</a>
-			<a href="/games/4winning"><span><Fa icon={faChessBoard} /></span>4 Winning</a>
-			<a href="/games/exact"><span><Fa icon={faBullseye} /></span>Exact</a>
-			<a href="/games/precision"><span><Fa icon={faCrosshairs} /></span>Precision</a>
+			<div class="sublinks row">
+				<a href="/games/4winning"><span><Fa icon={faChessBoard} /></span>4 Winning</a>
+				<a href="/games/exact"><span><Fa icon={faBullseye} /></span>Exact</a>
+				<a href="/games/precision"><span><Fa icon={faCrosshairs} /></span>Precision</a>
+			</div>
 		</div>
 		<div class="external-links row border-bottom">
 			<a href="https://golf.moinjulian.com"><span><Fa icon={faServer} /></span>Server</a>
@@ -144,6 +146,10 @@
 			span {
 				margin-right: 0.5rem;
 			}
+		}
+
+		.sublinks {
+			margin-right: 0.5rem;
 		}
 
 		.close-button {
