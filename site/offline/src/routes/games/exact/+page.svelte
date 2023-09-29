@@ -43,9 +43,9 @@
 		<h2>Modi</h2>
 
 		<main class="cards">
-			<Card link="/games/exact/two-players" title="2 Teams" />
-			<Card link="/games/exact/three-players" title="3 Teams" />
-			<Card link="/games/exact/four-players" title="4 Teams" />
+			<Card link="/games/exact/two-players" title="2 Players" />
+			<Card link="/games/exact/three-players" title="3 Players" />
+			<Card link="/games/exact/four-players" title="4 Players" />
 		</main>
 	</div>
 </main>
