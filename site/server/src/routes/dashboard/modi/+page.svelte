@@ -41,11 +41,15 @@
   <h2 id="exact">Exact</h2>
 
   <ol class="no-bullets">
-    <li><a href="/dashboard/exact/two-players">Two players / teams</a></li>
     <li>
-      <a href="/dashboard/exact/three-players">Three players / teams</a>
+      <a href="/dashboard/exact/exact-two-players">Two players / teams</a>
     </li>
-    <li><a href="/dashboard/exact/four-players">Four players / teams</a></li>
+    <li>
+      <a href="/dashboard/exact/exact-three-players">Three players / teams</a>
+    </li>
+    <li>
+      <a href="/dashboard/exact/exact-four-players">Four players / teams</a>
+    </li>
   </ol>
 
   <h2 id="precision">Precision</h2>
