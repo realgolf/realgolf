@@ -99,7 +99,7 @@
       <a href="/dashboard/tools"><span><Fa icon={faWrench} /></span>Tools</a>
     </div>
     <div class="external-links row border-bottom">
-      <a href="https://golf.moinjulian.com"
+      <a href="https://golf-offline.moinjulian.com"
         ><span><Fa icon={faPlaneUp} /></span>Offline</a
       >
       <a href="https://golf-faq.moinjulian.com"
