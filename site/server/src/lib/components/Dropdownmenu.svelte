@@ -71,7 +71,8 @@
     </div>
     <div class="logged-in row border-bottom">
       <a href="/dashboard"><span><Fa icon={faTh} /></span>Dashboard</a>
-      <a href="/settings"><span><Fa icon={faGear} /></span>Settings</a>
+      <a href="/dashboard/settings"><span><Fa icon={faGear} /></span>Settings</a
+      >
     </div>
     <div class="modi row border-bottom">
       <a href="/dashboard/modi" title="Game modes"
