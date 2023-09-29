@@ -42,28 +42,28 @@
 
   <ol class="no-bullets">
     <li>
-      <a href="/dashboard/exact/exact-two-players">Two players / teams</a>
+      <a href="/dashboard/modi/exact-two-players">Two players / teams</a>
     </li>
     <li>
-      <a href="/dashboard/exact/exact-three-players">Three players / teams</a>
+      <a href="/dashboard/modi/exact-three-players">Three players / teams</a>
     </li>
     <li>
-      <a href="/dashboard/exact/exact-four-players">Four players / teams</a>
+      <a href="/dashboard/modi/exact-four-players">Four players / teams</a>
     </li>
   </ol>
 
   <h2 id="precision">Precision</h2>
 
   <ol class="no-bullets">
-    <li><a href="/dashboard/precision/precision-one-player">One player</a></li>
+    <li><a href="/dashboard/modi/precision-one-player">One player</a></li>
     <li>
-      <a href="/dashboard/precision/precision-two-players">Two players</a>
+      <a href="/dashboard/modi/precision-two-players">Two players</a>
     </li>
     <li>
-      <a href="/dashboard/precision/precision-three-players">Three players</a>
+      <a href="/dashboard/modi/precision-three-players">Three players</a>
     </li>
     <li>
-      <a href="/dashboard/precision/precision-four-players">Four players</a>
+      <a href="/dashboard/modi/precision-four-players">Four players</a>
     </li>
   </ol>
 </main>
