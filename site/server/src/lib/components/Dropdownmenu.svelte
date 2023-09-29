@@ -64,6 +64,21 @@
       <a href="/dashboard"><span><Fa icon={faTh} /></span>Dashboard</a>
       <a href="/settings"><span><Fa icon={faGear} /></span>Settings</a>
     </div>
+    <div class="modi row border-bottom">
+      <a href="/dashboard/modi" title="Game modes">Modi</a>
+      <div class="sublink row">
+        <a href="/dashboard/4winning">4 Winning</a>
+        <a href="/dashboard/exact">Exact</a>
+        <a href="/dashboard/precision">Precision</a>
+      </div>
+    </div>
+    <div class="games row border-bottom">
+      <a href="/dashboard/games">Games</a>
+      <a href="/dashboard/info">Info</a>
+      <a href="/dashboard/levels">Levels</a>
+      <a href="/dashboard/rules">Rules</a>
+      <a href="/dashboard/tools">Tools</a>
+    </div>
     <div class="external-links row border-bottom">
       <a href="https://golf.moinjulian.com"
         ><span><Fa icon={faPlaneUp} /></span>Offline</a
@@ -174,7 +189,10 @@
     .home,
     .external-links,
     .copyright,
+    .modi,
+    .games,
     .logged-out,
+    .logged-in,
     .theme-toggler {
       padding-top: 10px;
       padding-bottom: 10px;
