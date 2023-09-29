@@ -1,9 +1,8 @@
 <script lang="ts">
-	import { faBars, faGavel, faHouse, faServer } from '@fortawesome/free-solid-svg-icons';
+	import { faBars, faGavel, faHouse, faPlaneUp, faServer } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
 	import ThemeToggler from './ThemeToggler.svelte';
 	import { onDestroy, onMount } from 'svelte';
-	import { faQuestionCircle } from '@fortawesome/free-regular-svg-icons';
 
 	let isOpen = false;
 	let blurBackground = false;
@@ -49,7 +48,7 @@
 		</div>
 		<div class="external-links row border-bottom">
 			<a href="https://golf.moinjulian.com"><span><Fa icon={faServer} /></span>Server</a>
-			<a href="https://golf-faq.moinjulian.com"><span><Fa icon={faQuestionCircle} /></span>FAQ</a>
+			<a href="https://golf-offline.moinjulian.com"><span><Fa icon={faPlaneUp} /></span>Offline</a>
 		</div>
 		<div class="copyright row border-bottom">
 			<p><a href="/imprint"><Fa icon={faGavel} /> Imprint</a></p>
