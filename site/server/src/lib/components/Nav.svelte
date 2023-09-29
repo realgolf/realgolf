@@ -35,6 +35,14 @@
       return "<strong>Dashboard</strong>";
     }
 
+    if (path === "/login") {
+      return "<strong>Login</strong>";
+    }
+
+    if (path === "/register") {
+      return "<strong>Register</strong>";
+    }
+
     const pathParts = path.split("/").filter((part) => part !== "");
     let breadcrumbPath = "";
 
