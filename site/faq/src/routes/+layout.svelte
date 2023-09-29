@@ -21,7 +21,7 @@
 <style>
 	main {
 		max-width: 40rem;
-		/* margin-inline: auto; */
+		margin-inline: auto;
 		padding-inline: 1rem;
 	}
 </style>
