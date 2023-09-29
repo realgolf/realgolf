@@ -23,7 +23,7 @@
   import { onDestroy, onMount } from "svelte";
   import { faQuestionCircle } from "@fortawesome/free-regular-svg-icons";
 
-  export let auth: string | undefined;
+  export let isLoggedIn: string | undefined;
 
   let isOpen = false;
   let blurBackground = false;
@@ -38,7 +38,7 @@
   }
 
   onMount(() => {
-    window.addEventListener("click", (event) => {
+    const clickHandler = (event: any) => {
       if (
         event.target instanceof Element &&
         !event.target.closest(".dropdown") &&
@@ -47,10 +47,12 @@
       ) {
         closeDropdown();
       }
-    });
+    };
+
+    window.addEventListener("click", clickHandler);
 
     onDestroy(() => {
-      window.removeEventListener("click", closeDropdown);
+      window.removeEventListener("click", clickHandler);
     });
   });
 </script>
@@ -67,13 +69,13 @@
     <div class="home row border-bottom">
       <a href="/"><span><Fa icon={faHouse} /></span>Home</a>
     </div>
-    {#if !auth}
+    {#if !isLoggedIn}
       <div class="logged-out row border-bottom">
         <a href="/register"><span><Fa icon={faLock} /></span>Register</a>
         <a href="/login"><span><Fa icon={faKey} /></span>Login</a>
       </div>
     {/if}
-    {#if auth}
+    {#if isLoggedIn}
       <div class="logged-in row border-bottom">
         <a href="/dashboard"><span><Fa icon={faTh} /></span>Dashboard</a>
         <a href="/dashboard/settings"

@@ -9,6 +9,8 @@
 
   export let auth: string | undefined;
 
+  $: isLoggedIn = auth;
+
   type link = {
     path: string;
     icon: IconDefinition;
@@ -90,7 +92,7 @@
       </li>
     {/each}
     <li>
-      <Dropdownmenu {auth} />
+      <Dropdownmenu {isLoggedIn} />
     </li>
   </ul>
 </nav>
