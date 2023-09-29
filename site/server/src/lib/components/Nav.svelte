@@ -32,18 +32,22 @@
     }
 
     const pathParts = path.split("/").filter((part) => part !== "");
-    let breadcrumbPath = '<a href="/" style="text-decoration: none;">Home</a>';
+    let breadcrumbPath = "";
 
     for (let i = 0; i < pathParts.length; i++) {
-      const pathBefore = "/" + pathParts.slice(0, i + 1).join("/");
+      const pathBefore = pathParts.slice(0, i + 1).join("/");
       const isLastSegment = i === pathParts.length - 1;
 
       if (isLastSegment) {
         breadcrumbPath += ` <span style="color: darkgrey;">/</span> <strong>${capitalizeFirstLetter(
           pathParts[i]
         )}</strong>`;
+      } else if (i === 0) {
+        breadcrumbPath += ` <a href="/${pathBefore}" style="text-decoration: none;">${capitalizeFirstLetter(
+          pathParts[i]
+        )}</a>`;
       } else {
-        breadcrumbPath += ` <span style="color: darkgrey;">/</span> <a href="${pathBefore}" style="text-decoration: none;">${capitalizeFirstLetter(
+        breadcrumbPath += ` <span style="color: darkgrey;">/</span> <a href="/${pathBefore}" style="text-decoration: none;">${capitalizeFirstLetter(
           pathParts[i]
         )}</a>`;
       }
