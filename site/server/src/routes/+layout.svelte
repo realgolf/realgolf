@@ -14,7 +14,7 @@
 <LoadProgress />
 <ScrollUp />
 
-<Nav logged_in={!!data.name && !!data.email} />
+<Nav auth={data.auth} />
 
 <main>
   <slot />

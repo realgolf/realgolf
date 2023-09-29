@@ -8,8 +8,10 @@ export const load: LayoutServerLoad = async (event) => {
     throw error(500, "Database connection failed");
   }
 
+  const auth = event.cookies.get("auth-token");
+
   const name = event.cookies.get("name") ?? "";
   const email = event.cookies.get("email") ?? "";
 
-  return { name, email };
+  return { name, email, auth };
 };
