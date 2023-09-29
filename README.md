@@ -4,10 +4,7 @@
 ![Commits](https://img.shields.io/github/commit-activity/y/moinjulian/golf?label=Commits&style=flat-square)
 ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fghloc.vercel.app%2Fapi%2Fmoinjulian%2Fgolf%2Fbadge)   
 ![Recent Pull Requests](https://img.shields.io/github/issues-pr/moinjulian/golf)
-![Closed Pull Requests](https://img.shields.io/github/issues-pr-closed-raw/moinjulian/golf)
 ![Open Issues](https://img.shields.io/github/issues-raw/moinjulian/golf)
-![Closed Issues](https://img.shields.io/github/issues-closed-raw/moinjulian/golf)
-
 
 ## Sites
 
