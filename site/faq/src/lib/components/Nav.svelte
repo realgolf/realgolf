@@ -1,61 +1,67 @@
 <script lang="ts">
-	import {
-		faHouse,
-		faKey,
-		faLock,
-		faPlaneUp,
-		faQuestionCircle,
-		faSection,
-		faServer,
-		faTh,
-		faUser,
-		type IconDefinition
-	} from '@fortawesome/free-solid-svg-icons';
-	import ThemeToggler from './ThemeToggler.svelte';
-	import { page } from '$app/stores';
+	import { faHouse, type IconDefinition } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
+	import Dropdownmenu from './Dropdownmenu.svelte';
+	import { page } from '$app/stores';
 
 	type link = {
 		path: string;
 		icon: IconDefinition;
-		target: string;
-		name: string;
 	};
 
-	const links: link[] = [
+	let links: link[] = [
 		{
 			path: '/',
-			icon: faQuestionCircle,
-			target: '_self',
-			name: 'FAQ'
-		},
-		{
-			path: 'https://golf.moinjulian.com',
-			icon: faServer,
-			target: '_blank',
-			name: 'Server'
-		},
-		{
-			path: 'https://golf-offline.moinjulian.com',
-			icon: faPlaneUp,
-			target: '_blank',
-			name: 'Offline'
+			icon: faHouse
 		}
 	];
+
+	$: currentPagePath = $page.url.pathname;
+
+	function capitalizeFirstLetter(string: string) {
+		return string.charAt(0).toUpperCase() + string.slice(1);
+	}
+
+	function getPagePath() {
+		const path = currentPagePath;
+		if (path === '/') {
+			return '<strong>Home</strong>';
+		}
+
+		const pathParts = path.split('/').filter((part) => part !== '');
+		let breadcrumbPath = '<a href="/" style="text-decoration: none;">Home</a>';
+
+		for (let i = 0; i < pathParts.length; i++) {
+			const pathBefore = '/' + pathParts.slice(0, i + 1).join('/');
+			const isLastSegment = i === pathParts.length - 1;
+
+			if (isLastSegment) {
+				breadcrumbPath += ` <span style="color: darkgrey;">/</span> <strong>${capitalizeFirstLetter(
+					pathParts[i]
+				)}</strong>`;
+			} else {
+				breadcrumbPath += ` <span style="color: darkgrey;">/</span> <a href="${pathBefore}" style="text-decoration: none;">${capitalizeFirstLetter(
+					pathParts[i]
+				)}</a>`;
+			}
+		}
+
+		return breadcrumbPath;
+	}
 </script>
 
 <nav>
 	<ul>
-		{#each links as { path, icon, target, name }}
+		{#each links as { path, icon }}
 			<li>
-				<a href={path} {target}>
+				<a href={path}>
 					<Fa {icon} />
-					<span class="name">{name}</span>
 				</a>
+				<span class="no-line">{@html getPagePath()}</span>
 			</li>
 		{/each}
 		<li>
-			<ThemeToggler />
+			<Dropdownmenu />
 		</li>
 	</ul>
 </nav>
@@ -73,8 +79,10 @@
 			list-style-type: none;
 			display: flex;
 			flex-wrap: wrap;
-			justify-content: center;
+			justify-content: space-between;
 			gap: 1.25rem;
+			margin-right: 20px;
+			margin-left: 20px;
 			a {
 				position: relative;
 				text-decoration: none;
@@ -92,6 +100,13 @@
 
 				&:hover::before {
 					width: 100%;
+				}
+			}
+
+			li {
+				span {
+					margin-left: 15px;
+					white-space: nowrap;
 				}
 			}
 		}
