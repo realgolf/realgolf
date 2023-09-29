@@ -1,27 +1,10 @@
-<script lang="ts">
-	let openDetails: { open: boolean } | null = null;
-
-	function handleToggle(event: { target: any }) {
-		const details = event.target;
-
-		if (details.open) {
-			if (openDetails) {
-				openDetails.open = false;
-			}
-			openDetails = details;
-		} else {
-			openDetails = null;
-		}
-	}
-</script>
-
 <svelte:head>
 	<title>Golf Games - FAQ</title>
 </svelte:head>
 
 <h1>FAQ</h1>
 
-<details on:toggle={handleToggle}>
+<details>
 	<summary>How can I create an account to play the games?</summary>
 	<div>
 		<p>
@@ -52,7 +35,7 @@
 	</div>
 </details>
 
-<details on:toggle={handleToggle}>
+<details>
 	<summary>Are the games free to play?</summary>
 	<div>
 		<p>
@@ -63,7 +46,7 @@
 	</div>
 </details>
 
-<details on:toggle={handleToggle}>
+<details>
 	<summary>Can I contribute new Games to the project?</summary>
 	<div>
 		<p>
@@ -91,7 +74,7 @@
 	</div>
 </details>
 
-<details on:toggle={handleToggle}>
+<details>
 	<summary>How can I report bugs or suggest new features?</summary>
 	<div>
 		<p>
@@ -111,7 +94,7 @@
 	</div>
 </details>
 
-<details on:toggle={handleToggle}>
+<details>
 	<summary>Is the project open source?</summary>
 	<div>
 		<p>
@@ -122,7 +105,7 @@
 	</div>
 </details>
 
-<details on:toggle={handleToggle}>
+<details>
 	<summary>How often are new updates or features added?</summary>
 	<div>
 		<p>
@@ -133,7 +116,7 @@
 	</div>
 </details>
 
-<details on:toggle={handleToggle}>
+<details>
 	<summary>Can I play the offline version on all devices?</summary>
 	<div>
 		<p>
@@ -145,7 +128,7 @@
 	</div>
 </details>
 
-<details on:toggle={handleToggle}>
+<details>
 	<summary>What programming languages are used in the project?</summary>
 	<div>
 		<p>Our project is built using a combination of powerful technologies:</p>
@@ -169,7 +152,7 @@
 	</div>
 </details>
 
-<details on:toggle={handleToggle}>
+<details>
 	<summary> Can I change my Password after registration? </summary>
 	<div>
 		<p>Absolutely! You have the flexibility to change your password at any time. Here's how:</p>
@@ -193,7 +176,7 @@
 	</div>
 </details>
 
-<details on:toggle={handleToggle}>
+<details>
 	<summary> Is my Personal Information safe and secure? </summary>
 	<div>
 		<p>
@@ -218,7 +201,7 @@
 	</div>
 </details>
 
-<details on:toggle={handleToggle}>
+<details>
 	<summary>Further Questions</summary>
 	<div>
 		<p>
