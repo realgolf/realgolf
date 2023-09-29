@@ -80,31 +80,33 @@
           ><span><Fa icon={faGear} /></span>Settings</a
         >
       </div>
-    {/if}
-    <div class="modi row border-bottom">
-      <a href="/dashboard/modi" title="Game modes"
-        ><span><Fa icon={faGamepad} /></span>Modi</a
-      >
-      <div class="sublink row">
-        <a href="/dashboard/4winning"
-          ><span><Fa icon={faChessBoard} /></span>4 Winning</a
+      <div class="modi row border-bottom">
+        <a href="/dashboard/modi" title="Game modes"
+          ><span><Fa icon={faGamepad} /></span>Modi</a
         >
-        <a href="/dashboard/exact"><span><Fa icon={faBullseye} /></span>Exact</a
-        >
-        <a href="/dashboard/precision"
-          ><span><Fa icon={faCrosshairs} /></span>Precision</a
-        >
+        <div class="sublink row">
+          <a href="/dashboard/4winning"
+            ><span><Fa icon={faChessBoard} /></span>4 Winning</a
+          >
+          <a href="/dashboard/exact"
+            ><span><Fa icon={faBullseye} /></span>Exact</a
+          >
+          <a href="/dashboard/precision"
+            ><span><Fa icon={faCrosshairs} /></span>Precision</a
+          >
+        </div>
       </div>
-    </div>
-    <div class="games row border-bottom">
-      <a href="/dashboard/games"><span><Fa icon={faSave} /></span>Games</a>
-      <a href="/dashboard/info"><span><Fa icon={faInfoCircle} /></span>Info</a>
-      <a href="/dashboard/levels"
-        ><span><Fa icon={faChartLine} /></span>Levels</a
-      >
-      <a href="/dashboard/rules"><span><Fa icon={faBook} /></span>Rules</a>
-      <a href="/dashboard/tools"><span><Fa icon={faWrench} /></span>Tools</a>
-    </div>
+      <div class="games row border-bottom">
+        <a href="/dashboard/games"><span><Fa icon={faSave} /></span>Games</a>
+        <a href="/dashboard/info"><span><Fa icon={faInfoCircle} /></span>Info</a
+        >
+        <a href="/dashboard/levels"
+          ><span><Fa icon={faChartLine} /></span>Levels</a
+        >
+        <a href="/dashboard/rules"><span><Fa icon={faBook} /></span>Rules</a>
+        <a href="/dashboard/tools"><span><Fa icon={faWrench} /></span>Tools</a>
+      </div>
+    {/if}
     <div class="external-links row border-bottom">
       <a href="https://golf-offline.moinjulian.com"
         ><span><Fa icon={faPlaneUp} /></span>Offline</a
