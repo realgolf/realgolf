@@ -9,7 +9,6 @@
 		faHouse,
 		faServer
 	} from '@fortawesome/free-solid-svg-icons';
-	import { faGithub } from '@fortawesome/free-brands-svg-icons';
 	import Fa from 'svelte-fa';
 	import ThemeToggler from './ThemeToggler.svelte';
 	import { onDestroy, onMount } from 'svelte';
