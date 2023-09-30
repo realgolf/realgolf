@@ -18,7 +18,9 @@
 </div>
 
 <div class:card_hover={!showNormal} class:hidden={showNormal}>
-  <h3>{title}</h3>
+  <a href={link}>
+    <h3>{title}</h3>
+  </a>
   {#if title == "Rules"}
     <p>Here you can see all rules for all three games.</p>
   {:else if title == "Modi"}
