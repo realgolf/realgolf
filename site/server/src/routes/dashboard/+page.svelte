@@ -9,7 +9,15 @@
   <title>Golf Games - Dashboard</title>
 </svelte:head>
 
-<h2>Welcome {data.name}</h2>
+<h2>Dashboard</h2>
+
+<p>
+  <b>
+    {data.name} welcome to "Golf Games" - your ultimate destination for golf challenges!
+    Discover "4 Winning", "Exact", and "Precision" - captivating golf experiences
+    tested with trainers.
+  </b>
+</p>
 
 <p class="success">
   You can find all the games in the <b>Modi</b> Card below.
