@@ -14,6 +14,8 @@
 [Golf Games Offline](https://golf-offline.moinjulian.com/) **Works completly offline**
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a1c45214-92e5-4ebd-b41e-79c3bd8877fe/deploy-status)](https://app.netlify.com/sites/golf-games-offline/deploys)
 
+## Dashboard
+
 <img src="./images/dashboard.png" alt="Dashboard Image" width="818" height="412">
 
 ## What is Golf Games
