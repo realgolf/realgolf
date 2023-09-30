@@ -1,8 +1,8 @@
 # Golf Games
 
-![Static Badge](https://img.shields.io/badge/License-All_Rights_Reserved-red)   
+![Static Badge](https://img.shields.io/badge/License-All_Rights_Reserved-red)  
 ![Commits](https://img.shields.io/github/commit-activity/y/moinjulian/golf?label=Commits&style=flat-square)
-![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fghloc.vercel.app%2Fapi%2Fmoinjulian%2Fgolf%2Fbadge)   
+![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fghloc.vercel.app%2Fapi%2Fmoinjulian%2Fgolf%2Fbadge)  
 ![Recent Pull Requests](https://img.shields.io/github/issues-pr/moinjulian/golf)
 ![Open Issues](https://img.shields.io/github/issues-raw/moinjulian/golf)
 
@@ -13,6 +13,14 @@
 
 [Golf Games Offline](https://golf-offline.moinjulian.com/) **Works completly offline**
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a1c45214-92e5-4ebd-b41e-79c3bd8877fe/deploy-status)](https://app.netlify.com/sites/golf-games-offline/deploys)
+
+## Dashboard
+
+<img src="./images/dashboard.png" alt="Dashboard Image" width="818" height="412">
+
+## Games Tab
+
+<img src="./images/games.png" alt="Dashboard Image" width="818" height="412">
 
 ## What is Golf Games
 
@@ -191,5 +199,5 @@ We'll respond promptly and may even consider adding your question to this FAQ to
 
 Copyright 2023 Julian Hammer
 
-License    
+License  
 [All rights reserved](/LICENSE.md)
