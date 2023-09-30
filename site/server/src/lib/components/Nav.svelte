@@ -45,6 +45,10 @@
       return "<strong>Register</strong>";
     }
 
+    if (path === "/faq") {
+      return "<strong>FAQ</strong>";
+    }
+
     const pathParts = path.split("/").filter((part) => part !== "");
     let breadcrumbPath = "";
 

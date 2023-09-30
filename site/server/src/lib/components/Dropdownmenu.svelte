@@ -111,7 +111,7 @@
       <a href="https://golf-offline.moinjulian.com"
         ><span><Fa icon={faPlaneUp} /></span>Offline</a
       >
-      <a href="https://golf-faq.moinjulian.com"
+      <a href="/faq"
         ><span><Fa icon={faQuestionCircle} /></span>FAQ</a
       >
     </div>

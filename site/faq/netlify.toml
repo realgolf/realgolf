@@ -1,4 +1,0 @@
-[build]
-  command = "npm run build" 
-  publish = "site/faq/build" 
-  base = "site/faq" 

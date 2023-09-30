@@ -66,7 +66,7 @@
 		</div>
 		<div class="external-links row border-bottom">
 			<a href="https://golf.moinjulian.com"><span><Fa icon={faServer} /></span>Server</a>
-			<a href="https://golf-faq.moinjulian.com"><span><Fa icon={faQuestionCircle} /></span>FAQ</a>
+			<a href="https://golf.moinjulian.com/faq"><span><Fa icon={faQuestionCircle} /></span>FAQ</a>
 		</div>
 		<div class="copyright row border-bottom">
 			<p><a href="/imprint"><Fa icon={faGavel} /> Imprint</a></p>
