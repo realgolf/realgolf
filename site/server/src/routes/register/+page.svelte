@@ -43,7 +43,7 @@
 
 <h1>Register</h1>
 
-<form method="POST" autocomplete="off">
+<form method="POST" autocomplete="off" use:enhance>
   <div>
     <label for="email_input">Email</label>
     <input
