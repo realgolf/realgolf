@@ -28,7 +28,7 @@
   <p>
     You can play the offline version of the game <a
       target="_blank"
-      href="https://golf-offline.moinjulian.com">here</a
+      href="https://golf.moinjulian.com/offline">here</a
     >. You will need a network connection for the initial load, but after that,
     all the data will be cached, allowing you to play without an internet
     connection.
@@ -37,7 +37,7 @@
   <p>
     If you have any questions, please visit our <a
       target="_blank"
-      href="https://golf-faq.moinjulian.com">FAQ</a
+      href="https://golf.moinjulian.com/faq">FAQ</a
     >
     section first to see if your question has already been answered. If you cannot
     find a solution or answer to your question, please do not hesitate to contact
