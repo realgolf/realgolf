@@ -9,6 +9,7 @@
 		faHouse,
 		faServer
 	} from '@fortawesome/free-solid-svg-icons';
+	import { faGithub } from '@fortawesome/free-brands-svg-icons';
 	import Fa from 'svelte-fa';
 	import ThemeToggler from './ThemeToggler.svelte';
 	import { onDestroy, onMount } from 'svelte';
@@ -72,6 +73,9 @@
 			<p><a href="/imprint"><Fa icon={faGavel} /> Imprint</a></p>
 			<p>© 2023 Julian Hammer</p>
 			<p>All rights reserved</p>
+			<p>
+				<a class="underline" href="https://github.com/MoinJulian/Golf">GitHub</a>
+			</p>
 		</div>
 		<div class="row theme-toggler">
 			<p><ThemeToggler /></p>
@@ -146,6 +150,10 @@
 			span {
 				margin-right: 0.5rem;
 			}
+		}
+
+		.underline {
+			text-decoration: underline !important;
 		}
 
 		.sublinks {
