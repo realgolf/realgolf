@@ -20,7 +20,7 @@
   } from "@fortawesome/free-solid-svg-icons";
   import Fa from "svelte-fa";
   import ThemeToggler from "./ThemeToggler.svelte";
-  import { onDestroy, onMount } from "svelte";
+  import { afterUpdate, onDestroy, onMount } from "svelte";
   import { faQuestionCircle } from "@fortawesome/free-regular-svg-icons";
 
   export let isLoggedIn: string | undefined;
@@ -37,7 +37,7 @@
     isOpen = false;
   }
 
-  onMount(() => {
+  function initiliazeMenu() {
     const clickHandler = (event: any) => {
       if (
         event.target instanceof Element &&
@@ -54,7 +54,11 @@
     onDestroy(() => {
       window.removeEventListener("click", clickHandler);
     });
-  });
+  }
+
+  onMount(initiliazeMenu);
+
+  afterUpdate(initiliazeMenu);
 </script>
 
 <div class="dropdown">
