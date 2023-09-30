@@ -111,14 +111,19 @@
       <a href="https://golf-offline.moinjulian.com"
         ><span><Fa icon={faPlaneUp} /></span>Offline</a
       >
-      <a href="/faq"
-        ><span><Fa icon={faQuestionCircle} /></span>FAQ</a
-      >
+      <a href="/faq"><span><Fa icon={faQuestionCircle} /></span>FAQ</a>
     </div>
     <div class="copyright row border-bottom">
       <p><a href="/imprint"><Fa icon={faGavel} /> Imprint</a></p>
       <p>© 2023 Julian Hammer</p>
       <p>All rights reserved</p>
+      <p>
+        <a
+          class="underline"
+          target="_blank"
+          href="https://github.com/MoinJulian/Golf">GitHub</a
+        >
+      </p>
     </div>
     <div class="row theme-toggler">
       <p><ThemeToggler /></p>
@@ -193,6 +198,10 @@
       span {
         margin-right: 0.5rem;
       }
+    }
+
+    .underline {
+      text-decoration: underline !important;
     }
 
     .close-button {

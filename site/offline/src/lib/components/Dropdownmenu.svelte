@@ -72,6 +72,9 @@
 			<p><a href="/imprint"><Fa icon={faGavel} /> Imprint</a></p>
 			<p>© 2023 Julian Hammer</p>
 			<p>All rights reserved</p>
+			<p>
+				<a class="underline" target="_blank" href="https://github.com/MoinJulian/Golf">GitHub</a>
+			</p>
 		</div>
 		<div class="row theme-toggler">
 			<p><ThemeToggler /></p>
@@ -146,6 +149,10 @@
 			span {
 				margin-right: 0.5rem;
 			}
+		}
+
+		.underline {
+			text-decoration: underline !important;
 		}
 
 		.sublinks {
