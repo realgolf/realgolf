@@ -1,7 +1,3 @@
-<script lang="ts">
-  export let data;
-</script>
-
 <svelte:head>
   <title>Golf Games</title>
 </svelte:head>
@@ -17,22 +13,22 @@
     </b>
   </p>
   <br />
-  {#if !data.auth}
-    <p>
-      If you don't have an account, that is no problem you can easily create one <a
-        href="/register">here</a
-      >.
-    </p>
-    <br />
-    <p>
-      If you already got an account you can log in <a href="/login">here</a>.
-    </p>
-    <br />
-  {/if}
+
+  <p>
+    If you don't have an account, that is no problem you can easily create one <a
+      href="/register">here</a
+    >.
+  </p>
+  <br />
+  <p>
+    If you already got an account you can log in <a href="/login">here</a>.
+  </p>
+  <br />
+
   <p>
     You can play the offline version of the game <a
       target="_blank"
-      href="https://golf-offline.moinjulian.com">here</a
+      href="https://golf.moinjulian.com/offline">here</a
     >. You will need a network connection for the initial load, but after that,
     all the data will be cached, allowing you to play without an internet
     connection.
@@ -41,7 +37,7 @@
   <p>
     If you have any questions, please visit our <a
       target="_blank"
-      href="https://golf-faq.moinjulian.com">FAQ</a
+      href="https://golf.moinjulian.com/faq">FAQ</a
     >
     section first to see if your question has already been answered. If you cannot
     find a solution or answer to your question, please do not hesitate to contact
