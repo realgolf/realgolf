@@ -16,11 +16,11 @@
 
 ## Dashboard
 
-<img src="./images/dashboard.png" alt="Dashboard Image" width="818" height="412">
+![Dashboard](./images/dashboard.png)
 
 ## Games Tab
 
-<img src="./images/games.png" alt="Dashboard Image" width="818" height="412">
+![Games Tab](./images/games.png)
 
 ## What is Golf Games
 
