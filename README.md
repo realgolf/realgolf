@@ -18,6 +18,10 @@
 
 <img src="./images/dashboard.png" alt="Dashboard Image" width="818" height="412">
 
+## Games Tab
+
+<img src="./images/games.png" alt="Dashboard Image" width="818" height="412">
+
 ## What is Golf Games
 
 Golf Games are all my games I've developed in the context of golf, the first version was
