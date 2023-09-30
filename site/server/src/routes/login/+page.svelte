@@ -34,7 +34,7 @@
 
 <h1>Login</h1>
 
-<form method="POST" autocomplete="off" use:enhance>
+<form method="POST" autocomplete="off">
   <div>
     <label for="email_input">Email</label>
     <input
