@@ -73,7 +73,7 @@
 			<p>© 2023 Julian Hammer</p>
 			<p>All rights reserved</p>
 			<p>
-				<a class="underline" href="https://github.com/MoinJulian/Golf">GitHub</a>
+				<a class="underline" target="_blank" href="https://github.com/MoinJulian/Golf">GitHub</a>
 			</p>
 		</div>
 		<div class="row theme-toggler">
