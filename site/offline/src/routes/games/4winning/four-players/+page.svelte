@@ -1,6 +1,4 @@
 <script lang="ts">
-	import GoBack from '$lib/components/GoBack.svelte';
-
 	interface Team {
 		color: string;
 		data: string[];
@@ -309,8 +307,6 @@
 		updateTeamTurn();
 	}
 </script>
-
-<GoBack />
 
 <h1>4 Players</h1>
 
