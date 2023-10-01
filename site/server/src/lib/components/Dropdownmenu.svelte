@@ -177,6 +177,17 @@
     border-top-left-radius: 0.75rem;
     border-bottom-left-radius: 0.75rem;
 
+    animation: slideRightToLeft 0.3s ease-in-out;
+
+    @keyframes slideRightToLeft {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+
     a {
       text-decoration: none;
 
