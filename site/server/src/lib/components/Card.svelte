@@ -48,6 +48,12 @@
   @media (max-width: 767px) {
     .card_normal {
       width: 80vw;
+
+      .description {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+      }
     }
   }
 </style>
