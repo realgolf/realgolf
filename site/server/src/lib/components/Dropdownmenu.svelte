@@ -38,7 +38,7 @@
   }
 
   onMount(() => {
-    window.addEventListener("click", (event) => {
+    function closeDropdownOnClick(event: any) {
       if (
         event.target instanceof Element &&
         !event.target.closest(".dropdown") &&
@@ -47,7 +47,10 @@
       ) {
         closeDropdown();
       }
-    });
+    }
+
+    window.addEventListener("click", closeDropdownOnClick);
+    window.addEventListener("touchend", closeDropdownOnClick);
 
     onDestroy(() => {
       window.removeEventListener("click", closeDropdown);
