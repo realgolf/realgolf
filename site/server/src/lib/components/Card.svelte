@@ -1,6 +1,7 @@
 <script lang="ts">
   export let title: string;
   export let link: string;
+  export let description: string;
 
   let showNormal = true;
   let showHover = false;
@@ -11,11 +12,12 @@
   }
 </script>
 
-<div class:card_normal={!showHover} class:hidden={showHover}>
-  <a href={link}>
+<a href={link} class="card_normal">
+  <div>
     <h3>{title}</h3>
-  </a>
-</div>
+    <p>{description}</p>
+  </div>
+</a>
 
 <style lang="scss">
   .card_normal {
