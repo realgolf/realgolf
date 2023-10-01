@@ -2,14 +2,6 @@
   export let title: string;
   export let link: string;
   export let description: string;
-
-  let showNormal = true;
-  let showHover = false;
-
-  function toggleDetails() {
-    showNormal = !showNormal;
-    showHover = !showHover;
-  }
 </script>
 
 <a href={link} class="card_normal">
