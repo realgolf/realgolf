@@ -1,6 +1,5 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import GoBack from "./GoBack.svelte";
 
   /**
    * Declared all variables
@@ -536,8 +535,6 @@
 <svelte:head>
   <title>4 Winning - {teams.length} Players</title>
 </svelte:head>
-
-<GoBack />
 
 <h1>{teams.length} Players</h1>
 
