@@ -148,7 +148,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    // backdrop-filter: blur(2px);
     background-color: rgba(110, 118, 129, 0.4);
     opacity: 50%;
     z-index: 998;
