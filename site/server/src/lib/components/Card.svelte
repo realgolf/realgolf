@@ -19,17 +19,19 @@
     border: 1px solid var(--border-color);
     margin: 15px;
     text-align: center;
+    text-decoration: none;
+
     &:hover {
       cursor: pointer;
       box-shadow: 10px 10px 20px var(--border-color);
     }
     h3 {
       text-align: center;
+      text-decoration: underline;
     }
 
     .description {
       text-align: left;
-      text-decoration: none !important;
     }
   }
 
