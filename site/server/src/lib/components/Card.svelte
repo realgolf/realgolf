@@ -40,9 +40,7 @@
   /* Auf Desktop: Karten nehmen die gesamte Breite ein */
   @media (min-width: 768px) {
     .card_normal {
-      width: calc(
-        40vw
-      ); /* Abzug von 30px Marge, um sicherzustellen, dass die Karten die gesamte Breite einnehmen */
+      width: calc(40vw);
     }
   }
 
