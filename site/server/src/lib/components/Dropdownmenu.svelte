@@ -85,13 +85,13 @@
           ><span><Fa icon={faGamepad} /></span>Modi</a
         >
         <div class="sublink row">
-          <a href="/dashboard/4winning"
+          <a href="/dashboard/modi#4-winning"
             ><span><Fa icon={faChessBoard} /></span>4 Winning</a
           >
-          <a href="/dashboard/exact"
+          <a href="/dashboard/modi#exact"
             ><span><Fa icon={faBullseye} /></span>Exact</a
           >
-          <a href="/dashboard/precision"
+          <a href="/dashboard/modi#precision"
             ><span><Fa icon={faCrosshairs} /></span>Precision</a
           >
         </div>
