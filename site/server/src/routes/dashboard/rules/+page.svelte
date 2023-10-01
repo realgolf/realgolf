@@ -1,12 +1,6 @@
-<script lang="ts">
-  import GoBack from "$lib/components/GoBack.svelte";
-</script>
-
 <svelte:head>
   <title>Golf Games - Rules</title>
 </svelte:head>
-
-<GoBack />
 
 <h1>Rules</h1>
 
