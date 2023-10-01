@@ -1,12 +1,6 @@
-<script>
-  import GoBack from "$lib/components/GoBack.svelte";
-</script>
-
 <svelte:head>
   <title>Golf Games - Levels</title>
 </svelte:head>
-
-<GoBack />
 
 <h1>Levels</h1>
 

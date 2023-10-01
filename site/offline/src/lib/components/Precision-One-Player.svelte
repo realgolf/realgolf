@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { afterUpdate, onMount } from 'svelte';
-	import GoBack from './GoBack.svelte';
 
 	interface Team {
 		color: string;
@@ -90,8 +89,6 @@
 <svelte:head>
 	<title>Precision - {teams.length} Player</title>
 </svelte:head>
-
-<GoBack />
 
 <h1>{teams.length} Player</h1>
 

@@ -3,7 +3,6 @@
   import { enhance } from "$app/forms";
   import { teams } from "./teams";
   import type { ActionData } from "./$types.js";
-  import GoBack from "$lib/components/GoBack.svelte";
   export let data;
   export let form: ActionData;
 
@@ -71,8 +70,6 @@
 <svelte:head>
   <title>Golf Games - Games</title>
 </svelte:head>
-
-<GoBack />
 
 <h1>Games</h1>
 

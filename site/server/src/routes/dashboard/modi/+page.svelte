@@ -1,12 +1,6 @@
-<script>
-  import GoBack from "$lib/components/GoBack.svelte";
-</script>
-
 <svelte:head>
   <title>Golf Games - Modi</title>
 </svelte:head>
-
-<GoBack />
 
 <h1>Modi</h1>
 
