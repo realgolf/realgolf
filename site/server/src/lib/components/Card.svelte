@@ -37,19 +37,23 @@
     }
   }
 
-  /* Auf Desktop: Karten nehmen die gesamte Breite ein */
+  /* On Desktop: Cards are 40vw */
   @media (min-width: 768px) {
     .card_normal {
-      width: calc(
-        40vw
-      ); /* Abzug von 30px Marge, um sicherzustellen, dass die Karten die gesamte Breite einnehmen */
+      width: calc(40vw);
     }
   }
 
-  /* Auf Handy: Karten sind 90vw breit */
+  /* On phone: Cards are 80vw */
   @media (max-width: 767px) {
     .card_normal {
       width: 80vw;
+
+      .description {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+      }
     }
   }
 </style>
