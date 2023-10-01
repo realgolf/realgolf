@@ -1,5 +1,4 @@
 <script lang="ts">
-	import GoBack from '$lib/components/GoBack.svelte';
 	import { afterUpdate, onMount } from 'svelte';
 	import { writable } from 'svelte/store';
 
@@ -190,8 +189,6 @@
 <svelte:head>
 	<title>Exact - {teams.length} Players</title>
 </svelte:head>
-
-<GoBack />
 
 <h1>{teams.length} Players</h1>
 
