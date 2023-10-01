@@ -38,7 +38,7 @@
   }
 
   onMount(() => {
-    window.addEventListener("click", (event) => {
+    function closeDropdownOnClick(event: any) {
       if (
         event.target instanceof Element &&
         !event.target.closest(".dropdown") &&
@@ -47,7 +47,10 @@
       ) {
         closeDropdown();
       }
-    });
+    }
+
+    window.addEventListener("click", closeDropdownOnClick);
+    window.addEventListener("touchend", closeDropdownOnClick);
 
     onDestroy(() => {
       window.removeEventListener("click", closeDropdown);
@@ -145,7 +148,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    // backdrop-filter: blur(2px);
     background-color: rgba(110, 118, 129, 0.4);
     opacity: 50%;
     z-index: 998;
