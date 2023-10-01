@@ -15,7 +15,7 @@
 <a href={link} class="card_normal">
   <div>
     <h3>{title}</h3>
-    <p>{description}</p>
+    <p class="description">{description}</p>
   </div>
 </a>
 
@@ -33,6 +33,11 @@
     }
     h3 {
       text-align: center;
+    }
+
+    .description {
+      text-align: left;
+      text-decoration: none !important;
     }
   }
 
