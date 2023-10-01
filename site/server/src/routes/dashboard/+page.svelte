@@ -33,11 +33,32 @@
 <h3>But most important enjoy the games and have fun!</h3>
 
 <main>
-  <Card link="/dashboard/rules" title="Rules" />
-  <Card link="/dashboard/modi" title="Modi" />
-  <Card link="/dashboard/levels" title="Levels" />
-  <Card link="/dashboard/games" title="Games" />
-  <Card link="/dashboard/info" title="Info" />
+  <Card
+    link="/dashboard/rules"
+    title="Rules"
+    description="Here you can see all rules for all three games."
+  />
+  <Card
+    link="/dashboard/modi"
+    title="Modi"
+    description="Here you can find all game modes you can play, just click on the link for
+  the game you want to play."
+  />
+  <Card
+    link="/dashboard/levels"
+    title="Levels"
+    description="Some extra variation, if the games are to easy for you."
+  />
+  <Card
+    link="/dashboard/games"
+    title="Games"
+    description="Here you can find all games you have saved in the database."
+  />
+  <Card
+    link="/dashboard/info"
+    title="Info"
+    description="Just some random further information."
+  />
 </main>
 
 <style lang="scss">
