@@ -1,12 +1,6 @@
-<script>
-  import GoBack from "$lib/components/GoBack.svelte";
-</script>
-
 <svelte:head>
   <title>Tools</title>
 </svelte:head>
-
-<GoBack />
 
 <h1>Tools</h1>
 
