@@ -25,5 +25,9 @@
     max-width: 40rem;
     /* margin-inline: auto; */
     padding-inline: 1rem;
+
+    @media screen and (max-width: 767px) {
+      margin-bottom: 20px;
+    }
   }
 </style>
