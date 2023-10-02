@@ -1,6 +1,7 @@
 # Golf Games
 
-![Static Badge](https://img.shields.io/badge/License-All_Rights_Reserved-red)  
+![Static Badge](https://img.shields.io/badge/License-All_Rights_Reserved-red)
+[![CodeQL](https://github.com/MoinJulian/Golf/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)](https://github.com/MoinJulian/Golf/actions/workflows/github-code-scanning/codeql)    
 ![Recent Pull Requests](https://img.shields.io/github/issues-pr/moinjulian/golf)
 ![Open Issues](https://img.shields.io/github/issues-raw/moinjulian/golf)
 
