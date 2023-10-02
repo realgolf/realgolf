@@ -73,8 +73,8 @@
           <li>
             <strong>Email Us:</strong> You can also share your ideas via email
             to
-            <a href="mailto:info@moinjulian.com">info@moinjulian.com</a>. We
-            welcome your suggestions and will eagerly explore each one.
+            <a href="mailto:support@moinjulian.com">support@moinjulian.com</a>.
+            We welcome your suggestions and will eagerly explore each one.
           </li>
         </ul>
         <p>
@@ -97,7 +97,7 @@
             >GitHub repository</a
           >
           and label it with "bug." Alternatively, you can send an email to
-          <a href="mailto:info@moinjulian.com">info@moinjulian.com</a>.
+          <a href="mailto:support@moinjulian.com">support@moinjulian.com</a>.
         </p>
         <p>
           To suggest new features, you can also open an issue on our <a
@@ -106,7 +106,7 @@
           >
           and label it with "feature." You can also send your suggestions via email
           to
-          <a href="mailto:info@moinjulian.com">info@moinjulian.com</a>.
+          <a href="mailto:support@moinjulian.com">support@moinjulian.com</a>.
         </p>
       </div>
     </details>
@@ -248,8 +248,8 @@
       <div>
         <p>
           If you have any additional questions, don't hesitate to reach out to
-          us. Simply send an email to <a href="mailto:info@moinjulian.com"
-            >info@moinjulian.com</a
+          us. Simply send an email to <a href="mailto:support@moinjulian.com"
+            >support@moinjulian.com</a
           > with your question. We'll respond promptly and may even consider adding
           your question to this FAQ to help other users.
         </p>

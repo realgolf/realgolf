@@ -32,7 +32,7 @@ Your creative input is highly valued! If you have exciting new game ideas, we en
 - **Open an Issue on GitHub:** Feel free to open an Issue on our [GitHub](https://github.com/MoinJulian/Golf/issues) repository and label it with "game".
   Your idea will be reviewed and considered by our team.
 
-- **Email Us:** You can also share your ideas via email to [info@moinjulian.com](mailto:info@moinjulian.com).
+- **Email Us:** You can also share your ideas via email to [support@moinjulian.com](mailto:support@moinjulian.com).
   We welcome your suggestions and will eagerly explore each one.
 
 For your valuable contributions, your name will be recognized in our [Contributors.md](/Contributors.md) file.
@@ -42,10 +42,10 @@ Let's create amazing experiences together!
 ## How can I report bugs or suggest new features?
 
 To report bugs, you can open an Issue on our [GitHub repository](https://github.com/MoinJulian/Golf/issues) and
-label it with "bug." Alternatively, you can send an email to [info@moinjulian.com](mailto:info@moinjulian.com).
+label it with "bug." Alternatively, you can send an email to [support@moinjulian.com](mailto:support@moinjulian.com).
 
 To suggest new features, you can also open an issue on our [GitHub repository](https://github.com/MoinJulian/Golf/issues)
-and label it with "feature." You can also send your suggestions via email to [info@moinjulian.com](mailto:info@moinjulian.com).
+and label it with "feature." You can also send your suggestions via email to [support@moinjulian.com](mailto:support@moinjulian.com).
 
 ## Is the project open source?
 
@@ -103,5 +103,5 @@ We are committed to maintaining the highest standards of security to safeguard y
 ## Further Questions
 
 If you have any additional questions, don't hesitate to reach out to us.
-Simply send an email to [info@moinjulian.com](mailto:info@moinjulian.com) with your question.
+Simply send an email to [support@moinjulian.com](mailto:support@moinjulian.com) with your question.
 We'll respond promptly and may even consider adding your question to this FAQ to help other users.

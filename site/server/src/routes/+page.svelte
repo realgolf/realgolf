@@ -42,6 +42,6 @@
     section first to see if your question has already been answered. If you cannot
     find a solution or answer to your question, please do not hesitate to contact
     us by sending an email to
-    <a href="mailto:info@moinjulian.com">info@moinjulian.com</a>.
+    <a href="mailto:support@moinjulian.com">support@moinjulian.com</a>.
   </p>
 </main>
