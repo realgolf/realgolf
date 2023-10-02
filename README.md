@@ -31,10 +31,10 @@ which is a JavaScript Framework and the full stack Verison of [Svelte](https://s
 
 ## Further Informations
 
-[FAQ](./readme/FAQ.md)
-[Why did I decide to develop Golf Games](./readme/why-did-I-decide-to-develop-golf-games.md)
-[Credits](./readme/Credits.md)
-[Versions](./readme/Versions.md)
+[FAQ](./readme/FAQ.md)  
+[Why did I decide to develop Golf Games](./readme/why-did-I-decide-to-develop-golf-games.md)  
+[Credits](./readme/Credits.md)  
+[Versions](./readme/Versions.md)  
 [What is Golf Games About?](./readme/What-is-Golf-Games-about.md)
 
 ## Copyright
