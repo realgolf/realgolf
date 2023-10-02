@@ -1,8 +1,8 @@
 <script lang="ts">
-  import Fa from "svelte-fa";
-  import { faMoon } from "@fortawesome/free-solid-svg-icons";
-  import { faSun } from "@fortawesome/free-regular-svg-icons";
   import { THEMES } from "$lib/shared/config";
+  import { faSun } from "@fortawesome/free-regular-svg-icons";
+  import { faMoon } from "@fortawesome/free-solid-svg-icons";
+  import Fa from "svelte-fa";
 
   function set_theme(theme: string) {
     if (!Object.values(THEMES).includes(theme)) return;
