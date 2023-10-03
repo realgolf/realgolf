@@ -1,11 +1,11 @@
 <script lang="ts">
+  import { page } from "$app/stores";
   import {
-    faHouse,
-    type IconDefinition,
+      faHouse,
+      type IconDefinition,
   } from "@fortawesome/free-solid-svg-icons";
   import Fa from "svelte-fa";
   import Dropdownmenu from "./Dropdownmenu.svelte";
-  import { page } from "$app/stores";
 
   export let auth: string | undefined;
 
@@ -47,6 +47,10 @@
 
     if (path === "/faq") {
       return "<strong>FAQ</strong>";
+    }
+
+    if (path === "/imprint") {
+      return "<strong>Imprint</strong>";
     }
 
     const pathParts = path.split("/").filter((part) => part !== "");
