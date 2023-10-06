@@ -14,7 +14,8 @@
     { color: "blue", data: [] },
   ];
 
-  function saveToDataBase() {
+  function saveToDatabaseAndSubmitForm(event: { preventDefault: () => void }) {
+    event.preventDefault();
     let localStorageData = localStorage.getItem("4winning_team_2");
 
     if (localStorageData) {
@@ -37,10 +38,23 @@
             existingBlueTeam.data = blueTeam.data;
           }
         }
+
         let new_teams = [redTeam, blueTeam];
 
         // Hier aktualisiere den Wert von teams, wenn du das möchtest
         teams = new_teams;
+
+        // Daten in das Eingabefeld setzen
+        const team_data = document.getElementById(
+          "team_data"
+        ) as HTMLInputElement;
+        if (team_data) {
+          team_data.value = JSON.stringify(new_teams);
+        }
+
+        // Das Formular absenden
+        const form = document.querySelector("form") as HTMLFormElement;
+        form.submit();
       }
     } else {
       let error = "There is no game data!";
@@ -63,7 +77,6 @@
 <input type="text" id="game" name="game" />
 <button on:click={saveToLS}>Submit</button>
 <br />
-<button on:click={saveToDataBase}>Extract data for database.</button>
 <form method="POST" autocomplete="off" use:enhance>
   <input
     type="text"
@@ -71,7 +84,7 @@
     id="team_data"
     value={JSON.stringify(teams)}
   />
-  <button>Push to Database</button>
+  <button on:click={saveToDatabaseAndSubmitForm}>Save to Database</button>
 </form>
 
 <style>
