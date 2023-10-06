@@ -1,8 +1,8 @@
 <script lang="ts">
-  import { afterUpdate, onMount } from "svelte";
   import { enhance } from "$app/forms";
-  import { teams } from "./teams";
+  import { afterUpdate, onMount } from "svelte";
   import type { ActionData } from "./$types.js";
+  import { teams } from "./teams";
   export let data;
   export let form: ActionData;
 
@@ -20,7 +20,10 @@
       filteredGames = data.games.filter(
         (game: { name: string | any[]; date: string | any[] }) => {
           return (
-            game.name.includes(searchTerm) || game.date.includes(searchTerm)
+            game.name.includes(searchTerm) ||
+            new Date(game.date as string)
+              .toLocaleDateString()
+              .includes(searchTerm)
           );
         }
       );
@@ -89,7 +92,10 @@
 
 <label for="search">Search a game by name or date:</label>
 <input type="search" id="search" bind:value={searchTerm} />
-<p class="error">Please search in the following format: YYYY-MM-DD</p>
+<p class="error">
+  You can search by dates by the following terms: DD/MM/YYYY or just by Year,
+  Month or Day, to get all values with this parameters
+</p>
 
 <label for="teamSelect">Select a Team:</label>
 <select id="teamSelect" bind:value={selectedTeam} on:change={handleTeamChange}>
@@ -118,7 +124,7 @@
         <input class="hidden" type="text" name="id" value={game.id} />
         <button>Update Name</button>
       </form>
-      <p>Create at {game.date}</p>
+      <p>Created at the {new Date(game.date).toLocaleDateString()}</p>
       <p>{game.data}</p>
       <p class="error">Please only paste the data in {game.teams}!</p>
       <button on:click={() => copyData(game.data)}>Copy Data</button>
