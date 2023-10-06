@@ -15,12 +15,24 @@
     { color: "orange", data: [], points: 0 },
   ];
 
-  function saveToDataBase() {
+  function saveToDatabaseAndSubmitForm() {
     // Extract data from localStorage
     const localStorageData = localStorage.getItem("exact_4_data");
 
     if (localStorageData) {
       teams = JSON.parse(localStorageData);
+
+      // Daten in das Eingabefeld setzen
+      const team_data = document.getElementById(
+        "team_data"
+      ) as HTMLInputElement;
+      if (team_data) {
+        team_data.value = JSON.stringify(teams);
+      }
+
+      // Das Formular absenden
+      const form = document.querySelector("form") as HTMLFormElement;
+      form.submit();
     }
   }
 
@@ -39,7 +51,6 @@
 <input type="text" id="game" name="game" />
 <button on:click={saveToLS}>Submit</button>
 <br />
-<button on:click={saveToDataBase}>Extract data for database.</button>
 
 <form method="POST" autocomplete="off" use:enhance>
   <input
@@ -48,7 +59,7 @@
     id="team_data"
     value={JSON.stringify(teams)}
   />
-  <button>Push to Database</button>
+  <button on:click={saveToDatabaseAndSubmitForm}>Push to Database</button>
 </form>
 
 <style>
