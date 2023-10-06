@@ -14,7 +14,7 @@
     { color: "blue", data: [] },
   ];
 
-  function saveToDatabaseAndSubmitForm(event: { preventDefault: () => void }) {
+  function saveToDatabaseAndSubmitForm(event: any) {
     event.preventDefault();
     let localStorageData = localStorage.getItem("4winning_team_2");
 
@@ -73,22 +73,28 @@
 
 <FourWinning {teams} />
 
-<p>Paste the data you got from <a href="/dashboard/games">Games</a> here:</p>
-<input type="text" id="game" name="game" />
-<button on:click={saveToLS}>Submit</button>
+<div class="ls">
+  <p>Paste the data you got from <a href="/dashboard/games">Games</a> here:</p>
+  <input type="text" id="game" name="game" />
+  <button on:click={saveToLS}>Submit</button>
+</div>
 <br />
-<form method="POST" autocomplete="off" use:enhance>
-  <input
-    type="text"
-    name="team_data"
-    id="team_data"
-    value={JSON.stringify(teams)}
-  />
-  <button on:click={saveToDatabaseAndSubmitForm}>Save to Database</button>
-</form>
+<div class="database">
+  <form method="POST" autocomplete="off" use:enhance>
+    <input
+      type="text"
+      name="team_data"
+      id="team_data"
+      value={JSON.stringify(teams)}
+    />
+    <button on:click={saveToDatabaseAndSubmitForm}>Save to Database</button>
+  </form>
+</div>
 
-<style>
-  button {
-    margin-top: 2rem;
+<style lang="scss">
+  .ls {
+    button {
+      margin-top: 1.5rem;
+    }
   }
 </style>
