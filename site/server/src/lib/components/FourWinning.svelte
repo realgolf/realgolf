@@ -133,6 +133,8 @@
       const teamColor = currentTeam.color;
       const cellKey = `${teamColor}_${cellId}`;
 
+      console.log(hitCounts[cellKey]);
+
       if (!hitCounts[cellKey]) {
         hitCounts[cellKey] = 1;
       } else {
@@ -530,6 +532,18 @@
       updateTeamTurn();
     }
   });
+
+  function showNumberofClicks(
+    outerIndex: number,
+    innerIndex: number,
+    color: string
+  ) {
+    const cellId = `row${outerIndex + 1}-${innerIndex}`;
+    const teamColor = color;
+    const cellKey = `${teamColor}_${cellId}`;
+
+    return JSON.stringify(hitCounts[cellKey]);
+  }
 </script>
 
 <svelte:head>
@@ -559,6 +573,7 @@
             on:click={() => HandleEvent(outerIndex, innerIndex)}
           >
             {value}
+            <span>{showNumberofClicks(outerIndex, innerIndex, "red")}</span>
           </td>
         {/each}
         <td class="points">{side}</td>
