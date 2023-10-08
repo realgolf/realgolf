@@ -1,32 +1,32 @@
 {
-  "theme_color": "#202028",
-  "background_color": "#131317",
-  "display": "fullscreen",
-  "scope": "/",
-  "start_url": "/",
-  "name": "Golf Games Offline",
-  "short_name": "Golf Offline",
-  "description": "Welcome to \"Golf Games Offline\" - your ultimate     destination for golf challenges! Discover \"4 Winning\", \"Exact\", and     \"Precision\" - captivating golf experiences tested with trainers.",
-  "icons": [
-    {
-      "src": "/manifest/icon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/manifest/icon-256x256.png",
-      "sizes": "256x256",
-      "type": "image/png"
-    },
-    {
-      "src": "/manifest/icon-384x384.png",
-      "sizes": "384x384",
-      "type": "image/png"
-    },
-    {
-      "src": "/manifest/icon-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ]
+    "theme_color": "#202028",
+    "background_color": "#131317",
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Golf Games Offline",
+    "short_name": "Golf Offline",
+    "description": "Welcome to \"Golf Games Offline\" - your ultimate     destination for golf challenges! Discover \"4 Winning\", \"Exact\", and     \"Precision\" - captivating golf experiences tested with trainers.",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
 }
