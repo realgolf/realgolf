@@ -96,7 +96,7 @@
       </div>
     {/if}
     <div class="external-links row border-bottom">
-      <a href="https://golf-offline.moinjulian.com"
+      <a href="https://offline.golf.moinjulian.com"
         ><span><Fa icon={faPlaneUp} /></span>Offline</a
       >
       <a href="/faq"><span><Fa icon={faQuestionCircle} /></span>FAQ</a>
