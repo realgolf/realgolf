@@ -14,7 +14,7 @@
 		{
 			color: 'red',
 			points: point,
-			distance: 0,
+			distance: null as unknown as number,
 			shots: 0
 		}
 	];
@@ -112,7 +112,11 @@
 	{#each teams as t, index}
 		{#if t === currentTeam}
 			<p>Distance Played by {t.color}:</p>
-			<input type="number" bind:value={t.distance} />
+			<input
+				placeholder="Please enter the distance you have played as a number"
+				type="number"
+				bind:value={t.distance}
+			/>
 			<button on:click={deductPoints}>Enter</button>
 		{/if}
 	{/each}
