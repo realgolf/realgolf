@@ -15,7 +15,8 @@
     { color: "green", data: [] },
   ];
 
-  function saveToDataBase() {
+  function saveToDatabaseAndSubmitForm(event: any) {
+    event.preventDefault();
     let localStorageData = localStorage.getItem("4winning_team_3");
 
     if (localStorageData) {
@@ -51,6 +52,18 @@
 
         // Hier aktualisiere den Wert von teams, wenn du das möchtest
         teams = new_teams;
+
+        // Daten in das Eingabefeld setzen
+        const team_data = document.getElementById(
+          "team_data"
+        ) as HTMLInputElement;
+        if (team_data) {
+          team_data.value = JSON.stringify(new_teams);
+        }
+
+        // Das Formular absenden
+        const form = document.querySelector("form") as HTMLFormElement;
+        form.submit();
       }
     } else {
       let error = "There is no game data!";
@@ -70,24 +83,28 @@
 
 <FourWinning {teams} />
 
-<p>Paste the data you got from <a href="/dashboard/games">Games</a> here:</p>
-<input type="text" id="game" name="game" />
-<button on:click={saveToLS}>Submit</button>
+<div class="ls">
+  <p>Paste the data you got from <a href="/dashboard/games">Games</a> here:</p>
+  <input type="text" id="game" name="game" />
+  <button on:click={saveToLS}>Submit</button>
+</div>
 <br />
-<button on:click={saveToDataBase}>Extract data for database.</button>
+<div class="database">
+  <form method="POST" autocomplete="off" use:enhance>
+    <input
+      type="text"
+      name="team_data"
+      id="team_data"
+      value={JSON.stringify(teams)}
+    />
+    <button on:click={saveToDatabaseAndSubmitForm}>Save to Database</button>
+  </form>
+</div>
 
-<form method="POST" autocomplete="off" use:enhance>
-  <input
-    type="text"
-    name="team_data"
-    id="team_data"
-    value={JSON.stringify(teams)}
-  />
-  <button>Push to Database</button>
-</form>
-
-<style>
-  button {
-    margin-top: 2rem;
+<style lang="scss">
+  .ls {
+    button {
+      margin-top: 1.5rem;
+    }
   }
 </style>

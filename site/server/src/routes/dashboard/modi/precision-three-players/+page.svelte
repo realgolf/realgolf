@@ -10,9 +10,9 @@
   }
 
   let teams: Team[] = [
-    { color: "red", points: point, distance: 0 },
-    { color: "blue", points: point, distance: 0 },
-    { color: "green", points: point, distance: 0 },
+    { color: "red", points: point, distance: null as unknown as number },
+    { color: "blue", points: point, distance: null as unknown as number },
+    { color: "green", points: point, distance: null as unknown as number },
   ];
 </script>
 
