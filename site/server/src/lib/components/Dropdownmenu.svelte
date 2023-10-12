@@ -1,11 +1,9 @@
 <script lang="ts">
+  import { faQuestionCircle } from "@fortawesome/free-regular-svg-icons";
   import {
     faBars,
     faBook,
-    faBullseye,
     faChartLine,
-    faChessBoard,
-    faCrosshairs,
     faGamepad,
     faGavel,
     faGear,
@@ -18,10 +16,9 @@
     faTh,
     faWrench,
   } from "@fortawesome/free-solid-svg-icons";
+  import { onDestroy, onMount } from "svelte";
   import Fa from "svelte-fa";
   import ThemeToggler from "./ThemeToggler.svelte";
-  import { onDestroy, onMount } from "svelte";
-  import { faQuestionCircle } from "@fortawesome/free-regular-svg-icons";
 
   export let auth: string | undefined;
 
@@ -61,6 +58,7 @@
 <div class="dropdown">
   <button class="dropdown-button" on:click|stopPropagation={toggleDropdown}>
     <Fa icon={faBars} />
+    <span class="description">Menu</span>
   </button>
 </div>
 {#if isOpen}
@@ -96,7 +94,7 @@
       </div>
     {/if}
     <div class="external-links row border-bottom">
-      <a href="https://golf-offline.moinjulian.com"
+      <a href="https://offline.golf.moinjulian.com"
         ><span><Fa icon={faPlaneUp} /></span>Offline</a
       >
       <a href="/faq"><span><Fa icon={faQuestionCircle} /></span>FAQ</a>
@@ -126,18 +124,22 @@
   }
 
   button {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: max-content;
+    height: max-content;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     position: relative;
     background-color: var(--nav-color);
+
+    span .description {
+      font-size: var(--tiny-font);
+    }
   }
 
   button :global(svg) {
-    position: absolute;
     transition: opacity 250ms linear, rotate 250ms linear;
     color: var(--font-color);
   }
