@@ -8,7 +8,8 @@
 		faGavel,
 		faGolfBall,
 		faHouse,
-		faServer
+		faServer,
+		faShip
 	} from '@fortawesome/free-solid-svg-icons';
 	import { onDestroy, onMount } from 'svelte';
 	import Fa from 'svelte-fa';
@@ -63,6 +64,7 @@
 				<a href="/games/4winning"><span><Fa icon={faChessBoard} /></span>4 Winning</a>
 				<a href="/games/exact"><span><Fa icon={faBullseye} /></span>Exact</a>
 				<a href="/games/precision"><span><Fa icon={faCrosshairs} /></span>Precision</a>
+				<a href="/games/Sinking-Ships"><span><Fa icon={faShip} /></span>Sinking Ships</a>
 			</div>
 		</div>
 		<div class="external-links row border-bottom">
