@@ -1,47 +1,62 @@
 <script lang="ts">
-	const board = [
+	import { onMount } from 'svelte';
+
+	interface Board {
+		letter: string;
+		numbers: string[];
+	}
+
+	let currentTeam = 'red';
+	let displayTeam = currentTeam.charAt(0).toUpperCase() + currentTeam.slice(1);
+
+	onMount(() => {
+		let displayTeamColor = document.getElementById('letter') as HTMLElement;
+		displayTeamColor.style.backgroundColor = currentTeam;
+	});
+
+	const board: Board[] = [
 		{
-			letter: '',
-			numbers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+			letter: `${displayTeam}`,
+			numbers: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
 		},
 		{
-			letter: 'A',
+			letter: 'A <br> <small>0-19 meter</small>',
 			numbers: ['', '', '', '', '', '', '', '', '', '']
 		},
 		{
-			letter: 'B',
+			letter: 'B <br> <small>20-39 meter</small>',
 			numbers: ['', '', '', '', '', '', '', '', '', '']
 		},
 		{
-			letter: 'C',
+			letter: 'C <br> <small>40-59 meter</small>',
 			numbers: ['', '', '', '', '', '', '', '', '', '']
 		},
 		{
-			letter: 'D',
+			letter: 'D <br> <small>60-79 meter</small>',
 			numbers: ['', '', '', '', '', '', '', '', '', '']
 		},
 		{
-			letter: 'E',
+			letter: 'E <br> <small>80-99 meter</small>',
 			numbers: ['', '', '', '', '', '', '', '', '', '']
 		},
 		{
-			letter: 'F',
+			letter: 'F <br> <small>100-119 meter</small>',
 			numbers: ['', '', '', '', '', '', '', '', '', '']
 		},
 		{
-			letter: 'G',
+			letter: 'G <br> <small>120-139 meter</small>',
 			numbers: ['', '', '', '', '', '', '', '', '', '']
 		},
 		{
-			letter: 'H',
+			letter: 'H <br> <small>140-159 meter</small>',
 			numbers: ['', '', '', '', '', '', '', '', '', '']
 		},
 		{
-			letter: 'I',
+			letter: 'I <br> <small>160-179 meter</small>',
 			numbers: ['', '', '', '', '', '', '', '', '', '']
 		},
 		{
-			letter: 'J',
+			letter: 'J <br> <small>180-199 meter</small>',
 			numbers: ['', '', '', '', '', '', '', '', '', '']
 		}
 	];
@@ -57,7 +72,7 @@
 	{#each board as { letter, numbers }}
 		<tbody>
 			<tr>
-				<td class="points">{letter}</td>
+				<td class="points" id="letter">{@html letter}</td>
 				{#each numbers as number}
 					<td class="meters">{number}</td>
 				{/each}
@@ -72,12 +87,16 @@
 		margin-right: auto;
 	}
 
+	#letter {
+		background-color: transparent;
+	}
+
 	.meters,
 	.points {
 		flex: 0 0 25%;
 		box-sizing: border-box;
+		min-width: calc(80vw / 11);
 		border: 5px solid var(--border-color);
-		min-width: calc(80vw / 15);
 		height: calc(30vh / 8);
 		text-align: center;
 	}
