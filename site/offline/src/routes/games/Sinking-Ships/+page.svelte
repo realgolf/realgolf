@@ -1,3 +1,7 @@
+<script lang="ts">
+	import Card from '$lib/components/Card.svelte';
+</script>
+
 <svelte:head>
 	<title>Golf Games Offline - Sinking Ships</title>
 </svelte:head>
@@ -45,10 +49,16 @@
 
 	<div>
 		<h2>Modi</h2>
+
+		<main class="cards">
+			<Card link="/games/Sinking-Ships/two-players" title="Two Players" />
+			<!-- <Card link="/games/Sinking-Ships/three-players" title="Three Players" />
+			<Card link="/games/Sinking-Ships/four-players" title="Four Players" /> -->
+		</main>
 	</div>
 </main>
 
-<!-- <style lang="scss">
+<style lang="scss">
 	.cards {
 		display: flex;
 		flex-direction: row;
@@ -62,4 +72,4 @@
 			align-items: center;
 		}
 	}
-</style> -->
+</style>
