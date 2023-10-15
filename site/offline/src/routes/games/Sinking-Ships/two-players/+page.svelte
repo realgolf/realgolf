@@ -1,22 +1,41 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { afterUpdate, onMount } from 'svelte';
+
+	interface Team {
+		color: string;
+		data: number[];
+	}
+
+	let teams: Team[] = [
+		{ color: 'red', data: [] },
+		{ color: 'blue', data: [] }
+	];
+
+	let currentTeamIndex = 0;
+	let currentTeam = teams[currentTeamIndex];
+	let color = currentTeam.color;
+
+	function displayCurrentTeam() {
+		let displayTeamColor = document.getElementById('letter') as HTMLElement;
+		displayTeamColor.style.backgroundColor = color;
+	}
+
+	onMount(() => {
+		displayCurrentTeam();
+	});
+
+	afterUpdate(() => {
+		displayCurrentTeam();
+	});
 
 	interface Board {
 		letter: string;
 		numbers: string[];
 	}
 
-	let currentTeam = 'red';
-	let displayTeam = currentTeam.charAt(0).toUpperCase() + currentTeam.slice(1);
-
-	onMount(() => {
-		let displayTeamColor = document.getElementById('letter') as HTMLElement;
-		displayTeamColor.style.backgroundColor = currentTeam;
-	});
-
 	const board: Board[] = [
 		{
-			letter: `${displayTeam}`,
+			letter: `Curent Team Color`,
 			numbers: [
 				'1 <br> <small>0-19 meter</small>',
 				'2 <br> <small>20-39 meter</small>',
@@ -72,16 +91,11 @@
 		}
 	];
 
-	interface Team {
-		color: string;
-		data: number[];
-		points: number;
+	function changeTeam() {
+		currentTeamIndex = (currentTeamIndex + 1) % teams.length;
+		currentTeam = teams[currentTeamIndex];
+		color = currentTeam.color;
 	}
-
-	let teams: Team[] = [
-		{ color: 'red', data: [], points: 0 },
-		{ color: 'blue', data: [], points: 0 }
-	];
 
 	function handleClick(event: MouseEvent) {
 		const targetId = (event.target as HTMLElement).id;
@@ -91,11 +105,11 @@
 			let clickedCell: HTMLElement | null = document.getElementById(targetId);
 
 			if (clickedCell) {
-				clickedCell.style.backgroundColor = teams[0].color;
+				clickedCell.style.backgroundColor = currentTeam.color;
+				changeTeam();
+				displayCurrentTeam();
 			}
 		}
-
-		console.log(match);
 	}
 </script>
 
