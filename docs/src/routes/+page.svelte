@@ -28,5 +28,6 @@
 
 	section {
 		margin-top: 1rem;
+		margin-inline: 2rem;
 	}
 </style>
