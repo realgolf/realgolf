@@ -71,6 +71,32 @@
 			numbers: ['', '', '', '', '', '', '', '', '', '']
 		}
 	];
+
+	interface Team {
+		color: string;
+		data: number[];
+		points: number;
+	}
+
+	let teams: Team[] = [
+		{ color: 'red', data: [], points: 0 },
+		{ color: 'blue', data: [], points: 0 }
+	];
+
+	function handleClick(event: MouseEvent) {
+		const targetId = (event.target as HTMLElement).id;
+		const match = targetId.match(/row(\d+)-(\d+)/);
+
+		if (match) {
+			let clickedCell: HTMLElement | null = document.getElementById(targetId);
+
+			if (clickedCell) {
+				clickedCell.style.backgroundColor = teams[0].color;
+			}
+		}
+
+		console.log(match);
+	}
 </script>
 
 <svelte:head>
@@ -80,12 +106,17 @@
 <h1>Sinking Ships - 2 Players</h1>
 
 <table>
-	{#each board as { letter, numbers }}
-		<tbody>
+	{#each board as { letter, numbers }, outerIndex}
+		<tbody id={`row${outerIndex + 1}`}>
 			<tr>
 				<td class="points" id="letter">{@html letter}</td>
-				{#each numbers as number}
-					<td class="meters">{@html number}</td>
+				{#each numbers as value, innerIndex}
+					<td
+						class="meters"
+						id={`row${outerIndex + 1}-${innerIndex}`}
+						style="background-color: {teams[outerIndex]};"
+						on:click={handleClick}>{@html value}</td
+					>
 				{/each}
 			</tr>
 		</tbody>
