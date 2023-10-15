@@ -22,5 +22,11 @@
 		"typescript": "^5.0.0",
 		"vite": "^4.4.2"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@fortawesome/free-regular-svg-icons": "^6.4.2",
+		"@fortawesome/free-solid-svg-icons": "^6.4.2",
+		"sass": "^1.69.3",
+		"svelte-fa": "^3.0.4"
+	}
 }
