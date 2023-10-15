@@ -20,8 +20,7 @@
 
 <style>
 	main {
-		max-width: 40rem;
-		/* margin-inline: auto; */
+		width: 100vw;
 		padding-inline: 1rem;
 
 		@media screen and (max-width: 767px) {
