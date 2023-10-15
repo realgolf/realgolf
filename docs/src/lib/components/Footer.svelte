@@ -6,8 +6,6 @@
 	<div class="content">
 		<section class="parts">
 			<GetStarted />
-			<GetStarted />
-			<GetStarted />
 		</section>
 
 		<section class="info">

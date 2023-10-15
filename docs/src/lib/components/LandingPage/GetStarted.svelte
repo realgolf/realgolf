@@ -1,12 +1,17 @@
 <div class="column">
 	<h3>Get started</h3>
-	<a href="">Create an Account</a>
-	<a href="">Preparation for the Games</a>
+	<a href="/create-an-account">Create an Account</a>
+	<a href="/preparation-for-the-games">Preparation for the Games</a>
 </div>
 
-<style>
+<style lang="scss">
 	.column {
 		display: flex;
 		flex-direction: column;
+		padding: 2rem;
+
+		a {
+			font-size: 1rem;
+		}
 	}
 </style>
