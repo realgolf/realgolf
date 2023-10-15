@@ -73,7 +73,8 @@
 <style lang="scss">
 	nav {
 		padding-block: 1.25rem;
-		background-color: var(--nav-color);
+		background-color: var(--background-color);
+		border-bottom: 1px solid var(--border-color);
 
 		@media (max-width: 38rem) {
 			padding-block: 0.5rem;
