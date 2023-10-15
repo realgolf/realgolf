@@ -1,14 +1,27 @@
+<script>
+	import GetStarted from './LandingPage/GetStarted.svelte';
+</script>
+
 <footer>
 	<div class="content">
-		<p>This is the Documentation for the Golf Games</p>
-		<p><a href="https://golf.moinjulian.com">The Games</a></p>
-		<p>
-			This documentation are Open-Source, so you are very welcome to make a contribution towards
-			improving this documentation
-		</p>
-		<a href="https://github.com/moinjulian/golf">
-			<button>Make a contribution</button>
-		</a>
+		<section class="parts">
+			<GetStarted />
+			<GetStarted />
+			<GetStarted />
+		</section>
+
+		<section class="info">
+			<div class="contribution">
+				<h4>Help us make these docs great!</h4>
+				<p class="grey">
+					This documentation are Open-Source. See something that's wrong or unclear? Submit a pull
+					request or create an Issue.
+				</p>
+				<a href="https://github.com/moinjulian/golf">
+					<button>Make a contribution</button>
+				</a>
+			</div>
+		</section>
 	</div>
 </footer>
 
@@ -19,10 +32,36 @@
 		margin-top: 2rem;
 		display: flex;
 		justify-content: center;
-		align-items: center;
+		align-items: left;
+		flex-direction: column;
 
 		.content {
 			padding: 3rem 4rem;
+
+			.parts {
+				display: flex;
+				flex-direction: row;
+			}
+
+			.info {
+				padding: 2rem;
+				display: flex;
+				flex-direction: row;
+
+				.contribution {
+					max-width: 25vw;
+				}
+
+				button {
+					background-color: var(--background-color);
+					border: 1px solid var(--accent-color);
+				}
+			}
+		}
+
+		.grey {
+			color: grey;
+			font-size: 0.9rem;
 		}
 	}
 </style>
