@@ -1,5 +1,4 @@
 <script lang="ts">
-	import GetStarted from '$lib/components/LandingPage/GetStarted.svelte';
 </script>
 
 <svelte:head>
@@ -11,10 +10,6 @@
 	<p class="grey">Help for wherever you are on your Golf Games journey.</p>
 </div>
 
-<section>
-	<GetStarted />
-</section>
-
 <style lang="scss">
 	.heading {
 		width: 100vw;
@@ -24,10 +19,5 @@
 		}
 
 		border-bottom: 1px solid var(--border-color);
-	}
-
-	section {
-		margin-top: 1rem;
-		margin-inline: 2rem;
 	}
 </style>
