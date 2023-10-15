@@ -17,7 +17,18 @@
 	const board: Board[] = [
 		{
 			letter: `${displayTeam}`,
-			numbers: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+			numbers: [
+				'1 <br> <small>0-19 meter</small>',
+				'2 <br> <small>20-39 meter</small>',
+				'3 <br> <small>40-59 meter</small>',
+				'4 <br> <small>60-79 meter</small>',
+				'5 <br> <small>80-99 meter</small>',
+				'6 <br> <small>100-119 meter</small>',
+				'7 <br> <small>120-139 meter</small>',
+				'8 <br> <small>140-159 meter</small>',
+				'9 <br> <small>160-179 meter</small>',
+				'10 <br> <small>180-199 meter</small>'
+			]
 		},
 		{
 			letter: 'A <br> <small>0-19 meter</small>',
@@ -74,7 +85,7 @@
 			<tr>
 				<td class="points" id="letter">{@html letter}</td>
 				{#each numbers as number}
-					<td class="meters">{number}</td>
+					<td class="meters">{@html number}</td>
 				{/each}
 			</tr>
 		</tbody>
