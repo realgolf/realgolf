@@ -23,7 +23,8 @@
 
 <style>
 	main {
-		width: 100vw;
+		width: 80em;
+		margin-inline: auto;
 		padding-inline: 1rem;
 
 		@media screen and (max-width: 767px) {
