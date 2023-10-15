@@ -12,12 +12,9 @@
 
 <style lang="scss">
 	.heading {
-		width: 100vw;
 		.grey {
 			color: grey;
 			font-size: 1.5rem;
 		}
-
-		border-bottom: 1px solid var(--border-color);
 	}
 </style>
