@@ -1,4 +1,6 @@
 <script>
+	import { faCodePullRequest } from '@fortawesome/free-solid-svg-icons';
+	import Fa from 'svelte-fa';
 	import GetStarted from './LandingPage/GetStarted.svelte';
 </script>
 
@@ -8,6 +10,7 @@
 			<GetStarted />
 		</section>
 
+		<h3>Help and Support</h3>
 		<section class="info">
 			<div class="contribution">
 				<h4>Help us make these docs great!</h4>
@@ -16,7 +19,7 @@
 					request or create an Issue.
 				</p>
 				<a href="https://github.com/moinjulian/golf">
-					<button>Make a contribution</button>
+					<button><span><Fa icon={faCodePullRequest} /></span>Make a contribution</button>
 				</a>
 			</div>
 		</section>
@@ -26,7 +29,8 @@
 <style lang="scss">
 	footer {
 		width: 100vw;
-		background-color: var(--nav-color);
+		background-color: var(--background-color);
+		border-top: 1px solid var(--border-color);
 		margin-top: 2rem;
 		display: flex;
 		justify-content: center;
@@ -45,6 +49,7 @@
 				padding: 2rem;
 				display: flex;
 				flex-direction: row;
+				border-top: 1px solid var(--border-color);
 
 				.contribution {
 					max-width: 25vw;
@@ -60,6 +65,10 @@
 		.grey {
 			color: grey;
 			font-size: 0.9rem;
+		}
+
+		span {
+			margin-right: 0.5rem;
 		}
 	}
 </style>
