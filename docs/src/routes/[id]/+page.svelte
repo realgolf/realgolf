@@ -66,7 +66,7 @@
 		position: fixed;
 		top: 0;
 		height: 100vh;
-		transform: translateX(38rem);
+		transform: translateX(78rem);
 		overflow-y: auto;
 
 		display: flex;
