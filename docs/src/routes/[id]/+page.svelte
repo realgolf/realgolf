@@ -5,8 +5,6 @@
 	$: toc = data.toc;
 	$: html_code = data.html_code;
 	$: title = data.attributes.title;
-	$: updated = data.attributes.updated?.toLocaleDateString();
-	$: published = data.attributes.published.toLocaleDateString();
 </script>
 
 <svelte:head>
@@ -17,12 +15,6 @@
 	{title}
 </h1>
 
-<div class="dates">
-	<div>Published: {published}</div>
-	{#if updated}
-		<div>Updated: {updated}</div>
-	{/if}
-</div>
 
 {#if toc.length > 0}
 	<details class="toc">
@@ -52,11 +44,6 @@
 </article>
 
 <style lang="scss">
-	.dates {
-		margin-top: -0.5rem;
-		font-size: var(--small-font);
-		color: var(--secondary-font-color);
-	}
 
 	.toc {
 		margin-top: 1rem;
