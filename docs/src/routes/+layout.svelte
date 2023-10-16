@@ -12,23 +12,23 @@
 
 <LoadProgress />
 <ScrollUp />
-
 <Nav />
 
-<main>
-	<slot />
-</main>
+<div class="wrapper">
+	<main>
+		<slot />
+	</main>
+</div>
 
 <Footer />
 
 <style>
-	main {
-		width: 80em;
+	.wrapper {
+		max-width: 80rem;
 		margin-inline: auto;
 		padding-inline: 1rem;
-
-		@media screen and (max-width: 767px) {
-			margin-bottom: 20px;
-		}
+	}
+	main {
+		padding-block: 1rem 2rem;
 	}
 </style>
