@@ -1,8 +1,7 @@
 <script lang="ts">
 	import { faHouse, type IconDefinition } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
-	// import Dropdownmenu from './Dropdownmenu.svelte';
-	import { page } from '$app/stores';
+// import Dropdownmenu from './Dropdownmenu.svelte';
 	import ThemeToggler from './ThemeToggler.svelte';
 
 	type link = {
@@ -16,39 +15,6 @@
 			icon: faHouse
 		}
 	];
-
-	$: currentPagePath = $page.url.pathname;
-
-	function capitalizeFirstLetter(string: string) {
-		return string.charAt(0).toUpperCase() + string.slice(1);
-	}
-
-	function getPagePath() {
-		const path = currentPagePath;
-		if (path === '/') {
-			return '<strong>Home</strong>';
-		}
-
-		const pathParts = path.split('/').filter((part) => part !== '');
-		let breadcrumbPath = '<a href="/" style="text-decoration: none;">Home</a>';
-
-		for (let i = 0; i < pathParts.length; i++) {
-			const pathBefore = '/' + pathParts.slice(0, i + 1).join('/');
-			const isLastSegment = i === pathParts.length - 1;
-
-			if (isLastSegment) {
-				breadcrumbPath += ` <span style="color: darkgrey;">/</span> <strong>${capitalizeFirstLetter(
-					pathParts[i]
-				)}</strong>`;
-			} else {
-				breadcrumbPath += ` <span style="color: darkgrey;">/</span> <a href="${pathBefore}" style="text-decoration: none;">${capitalizeFirstLetter(
-					pathParts[i]
-				)}</a>`;
-			}
-		}
-
-		return breadcrumbPath;
-	}
 </script>
 
 <nav>
@@ -58,7 +24,6 @@
 				<a href={path}>
 					<Fa {icon} />
 				</a>
-				<span class="no-line">{@html getPagePath()}</span>
 			</li>
 		{/each}
 		<li>
@@ -105,13 +70,6 @@
 
 				&:hover::before {
 					width: 100%;
-				}
-			}
-
-			li {
-				span {
-					margin-left: 15px;
-					white-space: nowrap;
 				}
 			}
 		}
