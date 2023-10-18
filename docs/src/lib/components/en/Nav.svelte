@@ -11,7 +11,7 @@
 
 	let links: link[] = [
 		{
-			path: '/',
+			path: '/en',
 			icon: faHouse
 		}
 	];
