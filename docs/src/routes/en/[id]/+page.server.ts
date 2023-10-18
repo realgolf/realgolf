@@ -9,7 +9,7 @@ import {
 import { compose } from '$lib/shared/util';
 import { error } from '@sveltejs/kit';
 import fm from 'front-matter';
-import type { posts } from '../types';
+import type { posts } from '../../types';
 
 const posts_record = import.meta.glob('/src/data/*.md', {
 	as: 'raw',
