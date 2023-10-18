@@ -1,5 +1,5 @@
 ---
-title: Create an Account
+title: About Accounts
 ---
 
 **This Information only applies to the [Server version](https://golf.moinjulian.com)**
@@ -16,7 +16,3 @@ There are two methods to create an account:
 2. **Start Page Option:**
    - On the start page, locate two buttons: "Login" and "Register".
    - To create an account, select the "Register" button.
-
-## Where do I sign up
-
-## Where do I login
