@@ -1,8 +1,8 @@
 <script lang="ts">
-	import Footer from '$lib/components/Footer.svelte';
 	import LoadProgress from '$lib/components/LoadProgress.svelte';
-	import Nav from '$lib/components/Nav.svelte';
 	import ScrollUp from '$lib/components/ScrollUp.svelte';
+	import Footer from '$lib/components/en/Footer.svelte';
+	import Nav from '$lib/components/en/Nav.svelte';
 	import '$lib/scss/app.scss';
 </script>
 

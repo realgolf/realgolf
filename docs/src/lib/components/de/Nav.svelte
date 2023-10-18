@@ -2,7 +2,7 @@
 	import { faHouse, type IconDefinition } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
 // import Dropdownmenu from './Dropdownmenu.svelte';
-	import ThemeToggler from './ThemeToggler.svelte';
+	import ThemeToggler from '../ThemeToggler.svelte';
 
 	type link = {
 		path: string;

@@ -1,13 +1,13 @@
 <script>
+	import GetStarted from "$lib/components/en/Footer/GetStarted.svelte";
 	import { faCodePullRequest } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
-	import GetStarted from './Footer/GetStarted.svelte';
 </script>
 
 <footer>
 	<div class="content">
 		<section class="parts">
-			<GetStarted />
+			<GetStarted></GetStarted>
 		</section>
 
 		<h3>Help and Support</h3>
