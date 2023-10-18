@@ -13,7 +13,7 @@
 		<h3>Hilfe und Support</h3>
 		<section class="info">
 			<div class="contribution">
-				<h4>Helfe uns diese Dokumentationen zu verbessern!</h4>
+				<h4>Helfen Sie uns diese Dokumentationen zu verbessern!</h4>
 				<p class="grey">
 					Diese Dokumentationen sind Open-Source. Haben Sie etwas gesehen was falsch oder unklar
 					ist? Reichen Sie eine Pull Request ein oder erstellen Sie ein Issue.
