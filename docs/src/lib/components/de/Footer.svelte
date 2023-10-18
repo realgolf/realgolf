@@ -1,5 +1,5 @@
 <script>
-	import GetStarted from "$lib/components/en/Footer/GetStarted.svelte";
+	import GetStarted from '$lib/components/de/Footer/GetStarted.svelte';
 	import { faCodePullRequest } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
 </script>
@@ -7,19 +7,19 @@
 <footer>
 	<div class="content">
 		<section class="parts">
-			<GetStarted></GetStarted>
+			<GetStarted />
 		</section>
 
-		<h3>Help and Support</h3>
+		<h3>Hilfe und Support</h3>
 		<section class="info">
 			<div class="contribution">
-				<h4>Help us make these docs great!</h4>
+				<h4>Helfe uns diese Dokumentationen zu verbessern!</h4>
 				<p class="grey">
-					This documentation are Open-Source. See something that's wrong or unclear? Submit a pull
-					request or create an Issue.
+					Diese Dokumentationen sind Open-Source. Haben Sie etwas gesehen was falsch oder unklar
+					ist? Reichen Sie eine Pull Request ein oder erstellen Sie ein Issue.
 				</p>
 				<a href="https://github.com/moinjulian/golf">
-					<button><span><Fa icon={faCodePullRequest} /></span>Make a contribution</button>
+					<button><span><Fa icon={faCodePullRequest} /></span>Machen Sie einen Beitrag</button>
 				</a>
 			</div>
 		</section>
