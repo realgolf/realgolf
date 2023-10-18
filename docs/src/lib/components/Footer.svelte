@@ -1,7 +1,7 @@
 <script>
 	import { faCodePullRequest } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
-	import GetStarted from './LandingPage/GetStarted.svelte';
+	import GetStarted from './Footer/GetStarted.svelte';
 </script>
 
 <footer>
