@@ -51,3 +51,9 @@ There are three things required for an Password to be valid:
 2. You will need to verify your entered Password, the first and second Password have to be exactly identical
 3. The minimum Password length is 8 symbols
    - You can enter what ever you want
+
+## Login
+
+After you have create Account be **Registration** you can login using your Email Address and Password you have entered previously
+
+**Please note that when you forget your Password you won't be able to Login again**
