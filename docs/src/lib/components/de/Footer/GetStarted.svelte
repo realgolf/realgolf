@@ -1,7 +1,7 @@
 <div class="column">
 	<h3>Erste Schritte</h3>
-	<a href="/en/about-accounts">Über Accounts</a>
-	<a href="/en/preparation-for-the-games">Vorbereitung für die Spiele</a>
+	<a href="/de/about-accounts">Über Accounts</a>
+	<a href="/de/preparation-for-the-games">Vorbereitung für die Spiele</a>
 </div>
 
 <style lang="scss">
