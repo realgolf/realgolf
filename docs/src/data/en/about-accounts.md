@@ -40,7 +40,7 @@ There are three things required for an Email to be valid:
 1. Entering an Email is required and you won't be able to register without
 2. The email has to match our email regexp
    - Which is `/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/`
-   - For Example username@moinjulian.com
+   - For Example `username@moinjulian.com`
 3. The entered Email as to be unique and can not match with an Email already registered on our database
 
 ### Password
