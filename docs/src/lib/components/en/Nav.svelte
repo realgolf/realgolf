@@ -2,8 +2,8 @@
 	import { faHouse, type IconDefinition } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
 // import Dropdownmenu from './Dropdownmenu.svelte';
-	import ThemeToggler from '../ThemeToggler.svelte';
-
+	import ChooseLanguage from '../ChooseLanguage.svelte';
+	
 	type link = {
 		path: string;
 		icon: IconDefinition;
@@ -27,7 +27,7 @@
 			</li>
 		{/each}
 		<li>
-			<ThemeToggler />
+			<ChooseLanguage />
 		</li>
 		<!-- <li>
 			<Dropdownmenu />

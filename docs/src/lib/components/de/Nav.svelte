@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { faHouse, type IconDefinition } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
+	import ChooseLanguage from '../ChooseLanguage.svelte';
 	// import Dropdownmenu from './Dropdownmenu.svelte';
 
 	type link = {
@@ -25,6 +26,9 @@
 				</a>
 			</li>
 		{/each}
+		<li>
+			<ChooseLanguage />
+		</li>
 		<!-- <li>
 			<Dropdownmenu />
 		</li> -->
