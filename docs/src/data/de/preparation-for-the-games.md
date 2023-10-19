@@ -1,5 +1,5 @@
 ---
-title: Preparation for the Games
+title: Vorbereitug für die Spiele
 ---
 
-Here you can fnd evryting you will need to play the games
+Hier können Sie alles finden was Sie zum spielen der Spiele brauchen
