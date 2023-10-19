@@ -54,6 +54,6 @@ There are three things required for an Password to be valid:
 
 ## Login
 
-After you have create Account be **Registration** you can login using your Email Address and Password you have entered previously
+After you have created an Account via **Registration** you can login using your Email Adress and Password you have entered previously
 
 **Please note that when you forget your Password you won't be able to Login again**
