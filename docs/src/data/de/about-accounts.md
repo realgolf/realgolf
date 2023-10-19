@@ -1,59 +1,59 @@
 ---
-title: About Accounts
+title: Über Accounts
 ---
 
-**This Information only applies to the [Server version](https://golf.moinjulian.com)**
+**Diese Informationen treffen nur auf die [Server version](https://golf.moinjulian.com) zu**
 
-## Where to go
+## Wohin
 
-There are two methods to create an account:
+Es gibt zwei methoden eienn Account zu erstellen:
 
 1. **Menu Option:**
 
-   - Open the right-hand menu in the navigation bar.
-   - You will find two distinct options: "Register" and "Login".
+   - Öffnen Sie das Menu auf der rechten Seite der navigations Leiste.
+   - Sie werden dort zwei Optionen finden: "Register" und "Login".
 
-2. **Start Page Option:**
-   - On the start page, you will find two Setences one to login and one to register
-   - To create an account, select the "Register" button.
+2. **Startseiten Option:**
+   - Auf der Startseite werden Sie zwei Sätze lesen können, eine zum Regestrieren und einen zum Einloggen
+   - Um eine Account zu erstellen klicken Sie auf den Link bei dem Register Satz.
 
 ## Registration
 
-To register you will need to enter three Informations:
+Um sich anzumelden müssen Sie folgende Information eingeben:
 
 1. Name
-2. Password
+2. Passwort
 3. Email
 
 ### Name
 
-There are two things required for a Name to be valid:
+Es gibt zwei Sachen die für den Namen erforderlich sind um gültig zu sein:
 
-1. Entering a Name is required and you won't be able to register without
-2. The entered Name must have a minimum length of two Letters
-   - You can't use a Name which is a single Symbol long
+1. Einen Namen anzugeben ist erforderlich und Sie sind nicht in der Lage sich ohne Namen zu registrieren
+2. Die Länge des Namen muss mindestens zwei Zeichen betragen
+   - Es ist daher nicht möglich einen Namen mit weniger als zwei Zeichen zunutzen
 
 ### Email
 
-There are three things required for an Email to be valid:
+Es gibt drei Sachen dir für die Email erforderlich sind um gültig zu sein:
 
-1. Entering an Email is required and you won't be able to register without
-2. The email has to match our email regexp
-   - Which is `/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/`
-   - For Example username@moinjulian.com
-3. The entered Email as to be unique and can not match with an Email already registered on our database
+1. Eine Email einzugeben ist erforderlich und Sie sind nicht in der Lage sich ohne Email zu registrieren
+2. Die Email muss dem Format unseres Email regexp ensprechen
+   - Also: `/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/`
+   - Zum Beispiel `username@moinjulian.com`
+3. Die eingegeben Email muss einzigartig sein und darf nicht vorher auf unserer Datenbank registriert worden sein
 
-### Password
+### Passwort
 
-There are three things required for an Password to be valid:
+Es gibt drei Sachen dir für das Passwort erforderlich sind um gültig zu sein:
 
-1. Entering an Password is required and you won't be able to register without
-2. You will need to verify your entered Password, the first and second Password have to be exactly identical
-3. The minimum Password length is 8 symbols
-   - You can enter what ever you want
+1. Ein Passwort einzugeben ist erforderlich und Sie sind nicht in der Lage sich ohne Passwort zu registrieren
+2. Sie werden Ihr Passwort bestätigen müssen, das erste und zweite Passwort müssen exact gleich sein
+3. Die minimale Passwort Länge beträgt 8 Zeichen
+   - Ihr Passwort muss keine weiteren Bediegungen befolgen
 
 ## Login
 
-After you have create Account be **Registration** you can login using your Email Address and Password you have entered previously
+Nachdem Sie ein Account erstellt haben können Sie sich mit Ihrer Email Adresse und Ihrem Passwort anmelden, welches Sie vorher eingeben haben
 
-**Please note that when you forget your Password you won't be able to Login again**
+**Bitte haben Sie verständnis, dass wenn Sie Ihr Passwort vergessen Sie sich nicht mehr Anmelden können**

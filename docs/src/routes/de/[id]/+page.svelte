@@ -16,7 +16,7 @@
 
 {#if toc.length > 0}
 	<details class="toc">
-		<summary>Table of Contents</summary>
+		<summary>Inhaltsverzeichnis</summary>
 		<ol>
 			{#each toc as item}
 				<li>
