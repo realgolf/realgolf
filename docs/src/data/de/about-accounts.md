@@ -39,8 +39,15 @@ Es gibt drei Sachen dir für die Email erforderlich sind um gültig zu sein:
 
 1. Eine Email einzugeben ist erforderlich und Sie sind nicht in der Lage sich ohne Email zu registrieren
 2. Die Email muss dem Format unseres Email regexp ensprechen
-   - Also: `/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/`
+
+   - Also:
+
+     - ```typescript
+       export const email_regexp = /^[a-z0-9.*%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
+       ```
+
    - Zum Beispiel `username@moinjulian.com`
+
 3. Die eingegeben Email muss einzigartig sein und darf nicht vorher auf unserer Datenbank registriert worden sein
 
 ### Passwort
