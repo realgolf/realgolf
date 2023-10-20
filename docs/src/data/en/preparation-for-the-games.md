@@ -4,10 +4,27 @@ title: Preparation for the Games
 
 **This information applies to all games**
 
-## What you will need
+## Requirements
 
-You will need an devices to detect the eaxct length of the shot you have played, which means you will need something like an Simulator or an range finder e.g. Trackman.
+To perform the necessary measurements, you will need the following equipment:
 
-## What you need to do
+- A device capable of accurately measuring shot distances, such as a simulator or a range finder (e.g. Trackman).
 
-You will need to setup the range finder, so it detectes the ball, the most important parameters are total/carry distance and the lateral deviation (when you play the [Silver level](https://golf.moinjulian.com/dashboard/levels))
+**Additionally, you'll require the following items:**
+
+- A set of golf clubs.
+- At least one golf ball.
+
+## Procedure
+
+Follow these steps to set up and utilize the range finder to capture crucial shot parameters, including those applicable when playing at the [Silver level](https://golf.moinjulian.com/dashboard/levels) and above:
+
+1. **Equipment Setup:**
+
+   - Ensure your range finder is correctly configured and operational.
+   - Verify its ability to accurately detect the golf ball.
+
+2. **Key Parameters:**
+   - Pay particular attention to the following essential parameters:
+     - **Total/Carry Distance:** You can decide if the total distance traveled by the ball or its carry distance is important.
+     - **Lateral Deviation:** When playing the [Silver level](https://golf.moinjulian.com/dashboard/levels) or above you need to include the lateral deviation and it will get harder to hit a Field of your choice.
