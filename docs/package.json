@@ -26,7 +26,12 @@
 	"dependencies": {
 		"@fortawesome/free-regular-svg-icons": "^6.4.2",
 		"@fortawesome/free-solid-svg-icons": "^6.4.2",
+		"front-matter": "^4.0.2",
+		"he": "^1.2.0",
+		"markdown-it": "^13.0.2",
+		"mathjax": "^3.2.2",
 		"sass": "^1.69.3",
+		"shiki": "^0.14.5",
 		"svelte-fa": "^3.0.4"
 	}
 }
