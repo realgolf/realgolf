@@ -28,6 +28,7 @@
 		margin-inline: auto;
 		padding-inline: 1rem;
 	}
+
 	main {
 		padding-block: 1rem 2rem;
 	}
