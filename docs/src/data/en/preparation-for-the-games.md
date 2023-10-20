@@ -2,4 +2,8 @@
 title: Preparation for the Games
 ---
 
-Here you can fnd evryting you will need to play the games
+**This information applies to all games**
+
+## What you will need
+
+You will need an devices to detect the eaxct length of the shot you have played, which means you will need something like an Simulator or an range finder e.g. Trackman.
