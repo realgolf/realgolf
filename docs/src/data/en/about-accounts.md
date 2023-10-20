@@ -64,3 +64,17 @@ There are three things required for an Password to be valid:
 After you have created an Account via **Registration** you can login using your Email Adress and Password you have entered previously
 
 **Please note that when you forget your Password you won't be able to Login again**
+
+## Settings
+
+In the Dropdown Menu on the right hand site of the Naigation bar in the top, you can find the Settings tab, while you are logged in, click on it to open the Settings
+
+### What you can do in the Settings
+
+#### Changing Information
+
+Your personl information like "Name", "Email" and "Password" can be changed in the Settings
+
+#### Logout
+
+You can also find an button to Logout in the Settings, click on it to Logout (you will need to reproduce the [Login Steps](#login) descript above to login again)
