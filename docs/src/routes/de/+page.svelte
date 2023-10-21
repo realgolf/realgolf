@@ -7,7 +7,7 @@
 
 <div class="heading">
 	<h1>Golf Games Dokumentation</h1>
-	<p class="grey">Hilfe zu jeder Phase deiner Golf Games Reise..</p>
+	<p class="grey">Hilfe zu jeder Phase deiner Golf Games Reise.</p>
 </div>
 
 <style lang="scss">
