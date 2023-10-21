@@ -59,8 +59,23 @@ Es gibt drei Sachen dir für das Passwort erforderlich sind um gültig zu sein:
 3. Die minimale Passwort Länge beträgt 8 Zeichen
    - Ihr Passwort muss keine weiteren Bediegungen befolgen
 
-## Login
+## Anmeldung
 
 Nachdem Sie ein Account erstellt haben können Sie sich mit Ihrer Email Adresse und Ihrem Passwort anmelden, welches Sie vorher eingeben haben
 
 **Bitte haben Sie verständnis, dass wenn Sie Ihr Passwort vergessen Sie sich nicht mehr Anmelden können**
+
+## Einstellungen
+
+In dem Dropdown Menu auf der rechten Seite der Navigations Bar oben am Bildschirmrand, finden Sie ein Einstellungen tab, während Sie eingeloggt sind., clicke Sie darauf um zu den Einstellungen zukommen
+
+### Was Sie in den Einstellungen tun können:
+
+#### Persöhnliche Information ändern
+
+Ihre persöhnlichen Informationen wie "Name", "Email" und "Passwort" können in den Einstellungen geändert werden
+
+#### Logout
+
+You can also find an button to Logout in the Settings, click on it to Logout (you will need to reproduce the [Login Steps](#login) descript above to login again)
+Sie könne außerdem einen Knopf zum Abmelden in den Einstellungen finden, drücke Sie darauf um sich abzumelden (Sie müssen dann die [Anmelde Schritte](#anmeldung) wie oben beschrieben widerholen)
