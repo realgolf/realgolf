@@ -9,11 +9,3 @@ updates:
     directory: "site/server/"
     schedule:
       interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "site/offline/"
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "site/faq/"
-    schedule:
-      interval: "daily"
