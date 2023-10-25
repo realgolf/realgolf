@@ -1,8 +1,8 @@
 <script lang="ts">
   import { page } from "$app/stores";
   import {
-      faHouse,
-      type IconDefinition,
+    faHouse,
+    type IconDefinition,
   } from "@fortawesome/free-solid-svg-icons";
   import Fa from "svelte-fa";
   import Dropdownmenu from "./Dropdownmenu.svelte";
@@ -51,6 +51,10 @@
 
     if (path === "/imprint") {
       return "<strong>Imprint</strong>";
+    }
+
+    if (path === "/rules") {
+      return "<strong>Rules</strong>";
     }
 
     const pathParts = path.split("/").filter((part) => part !== "");
