@@ -158,6 +158,7 @@
 
   .dropdown-content {
     position: absolute;
+    position: fixed;
     z-index: 999;
     display: block;
     right: 0;
