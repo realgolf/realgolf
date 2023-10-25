@@ -31,7 +31,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    background-color: var(--nav-color);
+    background-color: inherit;
   }
 
   button :global(svg) {
