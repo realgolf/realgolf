@@ -14,7 +14,7 @@
 
   <p>
     <b>
-      {data.name} welcome to "Golf Games" - your ultimate destination for golf challenges!
+      Welcome to "Golf Games" {data.name} - your ultimate destination for golf challenges!
       Discover "4 Winning", "Exact", and "Precision" - captivating golf experiences
       tested with trainers.
     </b>
