@@ -1,3 +1,76 @@
+<script lang="ts">
+  import Card from "$lib/components/Card.svelte";
+
+  let fourwinning = [
+    {
+      link: "/dashboard/modi/4Winning/Two-Players",
+      title: "Two Players",
+      description:
+        "This version of 4Winning can be played with Two Players,  Red and  Blue",
+    },
+    {
+      link: "/dashboard/modi/4Winning/Three-Players",
+      title: "Three Players",
+      description:
+        "This version of 4Winning can be played with Three Players, Red, Blue and Green",
+    },
+    {
+      link: "/dashboard/modi/4Winning/Four-Players",
+      title: "Four Players",
+      description:
+        "This version of 4Winning can be played with Four Players, Red, Blue, Green and Orange",
+    },
+  ];
+
+  let exact = [
+    {
+      link: "/dashboard/modi/Exact/Two-Players",
+      title: "Two Players",
+      description:
+        "This version of Exact can be played with Two Players,  Red and  Blue",
+    },
+    {
+      link: "/dashboard/modi/Exact/Three-Players",
+      title: "Three Players",
+      description:
+        "This version of Exact can be played with Three Players, Red, Blue and Green",
+    },
+    {
+      link: "/dashboard/modi/Exact/Four-Players",
+      title: "Four Players",
+      description:
+        "This version of Exact can be played with Four Players, Red, Blue, Green and Orange",
+    },
+  ];
+
+  let precision = [
+    {
+      link: "/dashboard/modi/Precision/One-Player",
+      title: "One Player",
+      description:
+        "This version of Precision can be played with One Player, Red",
+    },
+    {
+      link: "/dashboard/modi/Precision/Two-Players",
+      title: "Two Players",
+      description:
+        "This version of Precision can be played with Two Players, Red, Blue ",
+    },
+    {
+      link: "/dashboard/modi/Precision/Three-Players",
+      title: "Three Players",
+      description:
+        "This version of Precision can be played with Three Players, Red, Blue and Green",
+    },
+    {
+      link: "/dashboard/modi/Precision/Four-Players",
+      title: "Four Players",
+      description:
+        "This version of Precision can be played with Four Players, Red, Blue, Green and Orange",
+    },
+  ];
+</script>
+
 <svelte:head>
   <title>Golf Games - Modi</title>
 </svelte:head>
@@ -18,46 +91,52 @@
     </ul>
   </details>
 
-  <h2 id="4-winning">4 Winning</h2>
+  <div class="modi">
+    <h2 id="4-winning">4 Winning</h2>
 
-  <ol class="no-bullets">
-    <li>
-      <a href="/dashboard/modi/4Winning/Two-Players">Two players / teams</a>
-    </li>
-    <li>
-      <a href="/dashboard/modi/4Winning/Three-Players">Three players / teams</a>
-    </li>
-    <li>
-      <a href="/dashboard/modi/4Winning/Four-Players">Four players / teams</a>
-    </li>
-  </ol>
+    <div class="modis">
+      {#each fourwinning as { link, title, description }}
+        <Card {link} {title} {description} />
+      {/each}
+    </div>
 
-  <h2 id="exact">Exact</h2>
+    <h2 id="exact">Exact</h2>
 
-  <ol class="no-bullets">
-    <li>
-      <a href="/dashboard/modi/Exact/Two-Players">Two players / teams</a>
-    </li>
-    <li>
-      <a href="/dashboard/modi/Exact/Three-Players">Three players / teams</a>
-    </li>
-    <li>
-      <a href="/dashboard/modi/Exact/Four-Players">Four players / teams</a>
-    </li>
-  </ol>
+    <div class="modis">
+      {#each exact as { link, title, description }}
+        <Card {link} {title} {description} />
+      {/each}
+    </div>
 
-  <h2 id="precision">Precision</h2>
+    <h2 id="precision">Precision</h2>
 
-  <ol class="no-bullets">
-    <li><a href="/dashboard/modi/Precision/One-player">One player</a></li>
-    <li>
-      <a href="/dashboard/modi/Precision/Two-players">Two players</a>
-    </li>
-    <li>
-      <a href="/dashboard/modi/Precision/Three-players">Three players</a>
-    </li>
-    <li>
-      <a href="/dashboard/modi/Precision/Four-players">Four players</a>
-    </li>
-  </ol>
+    <div class="modis">
+      {#each precision as { link, title, description }}
+        <Card {link} {title} {description} />
+      {/each}
+    </div>
+  </div>
 </main>
+
+<style lang="scss">
+  .modi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90vw;
+  }
+
+  .modis {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+</style>
