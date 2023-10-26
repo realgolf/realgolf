@@ -6,8 +6,8 @@
 
   const setTheme = (theme: string) => {
     if (!Object.values(THEMES).includes(theme)) return;
-    localStorage.setItem("theme", theme);
     document.body.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
     currentTheme = theme;
   };
 
@@ -20,7 +20,7 @@
       .matches
       ? THEMES.DARK
       : THEMES.LIGHT;
-    setTheme(systemTheme);
+    setTheme("system");
   };
 
   onMount(() => {
@@ -29,26 +29,22 @@
       document.body.setAttribute("data-theme", savedTheme);
       currentTheme = savedTheme;
     } else {
-      const prefers_dark = window.matchMedia(
-        "(prefers-color-scheme: dark)"
-      ).matches;
-      const theme = prefers_dark ? THEMES.DARK : THEMES.LIGHT;
+      const prefers_dark = window.matchMedia("(prefers-color-scheme: dark)");
+      const theme = prefers_dark.matches ? THEMES.DARK : THEMES.LIGHT;
       setTheme(theme);
     }
   });
 </script>
 
-{#if currentTheme === THEMES.DARK}
-  <button
-    on:click={() => toggleTheme(THEMES.LIGHT)}
-    aria-label="Switch to Light theme">Light</button
-  >
-{:else if currentTheme === THEMES.LIGHT}
-  <button
-    on:click={() => toggleTheme(THEMES.DARK)}
-    aria-label="Switche to Dark theme">Dark</button
-  >
-{/if}
+<button
+  on:click={() => toggleTheme(THEMES.LIGHT)}
+  aria-label="Switch to Light theme">Light</button
+>
+
+<button
+  on:click={() => toggleTheme(THEMES.DARK)}
+  aria-label="Switche to Dark theme">Dark</button
+>
 
 <button on:click={toggleSystemTheme} aria-label="Use System theme"
   >System theme</button
