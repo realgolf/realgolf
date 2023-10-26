@@ -1,48 +1,55 @@
 <script lang="ts">
   import { THEMES } from "$lib/shared/config";
-  import { faSun } from "@fortawesome/free-regular-svg-icons";
-  import { faMoon } from "@fortawesome/free-solid-svg-icons";
-  import Fa from "svelte-fa";
+  import { onMount } from "svelte";
 
-  function set_theme(theme: string) {
+  let currentTheme: string;
+
+  const setTheme = (theme: string) => {
     if (!Object.values(THEMES).includes(theme)) return;
     localStorage.setItem("theme", theme);
     document.body.setAttribute("data-theme", theme);
-  }
+    currentTheme = theme;
+  };
 
-  function toggle_theme(): void {
-    const current_theme = document.body.getAttribute("data-theme");
-    const theme = current_theme === THEMES.LIGHT ? THEMES.DARK : THEMES.LIGHT;
-    set_theme(theme);
-  }
+  const toggleTheme = (theme: string) => {
+    setTheme(theme);
+  };
+
+  const toggleSystemTheme = () => {
+    const systemTheme = window.matchMedia("(prefers-color-scheme: dark)")
+      .matches
+      ? THEMES.DARK
+      : THEMES.LIGHT;
+    setTheme(systemTheme);
+  };
+
+  onMount(() => {
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) {
+      document.body.setAttribute("data-theme", savedTheme);
+      currentTheme = savedTheme;
+    } else {
+      const prefers_dark = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+      ).matches;
+      const theme = prefers_dark ? THEMES.DARK : THEMES.LIGHT;
+      setTheme(theme);
+    }
+  });
 </script>
 
-<button on:click={toggle_theme} aria-label="Toggle theme">
-  <Fa icon={faMoon} class="moon" />
-  <Fa icon={faSun} class="sun" />
-</button>
+{#if currentTheme === THEMES.DARK}
+  <button
+    on:click={() => toggleTheme(THEMES.LIGHT)}
+    aria-label="Switch to Light theme">Light</button
+  >
+{:else if currentTheme === THEMES.LIGHT}
+  <button
+    on:click={() => toggleTheme(THEMES.DARK)}
+    aria-label="Switche to Dark theme">Dark</button
+  >
+{/if}
 
-<style>
-  button {
-    width: 1.5rem;
-    height: 1.5rem;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    background-color: inherit;
-  }
-
-  button :global(svg) {
-    position: absolute;
-    transition: opacity 250ms linear, rotate 250ms linear;
-    color: var(--font-color);
-  }
-
-  :global(body[data-theme="dark"] .sun),
-  :global(body[data-theme="light"] .moon) {
-    opacity: 0;
-    rotate: 45deg;
-  }
-</style>
+<button on:click={toggleSystemTheme} aria-label="Use System theme"
+  >System theme</button
+>
