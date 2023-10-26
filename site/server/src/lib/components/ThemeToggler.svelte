@@ -36,16 +36,22 @@
   });
 </script>
 
-<button
-  on:click={() => toggleTheme(THEMES.LIGHT)}
-  aria-label="Switch to Light theme">Light</button
->
+{#if currentTheme == THEMES.DARK || currentTheme == THEMES.SYSTEM}
+  <button
+    on:click={() => toggleTheme(THEMES.LIGHT)}
+    aria-label="Switch to Light theme">Light</button
+  >
+{/if}
 
-<button
-  on:click={() => toggleTheme(THEMES.DARK)}
-  aria-label="Switche to Dark theme">Dark</button
->
+{#if currentTheme == THEMES.LIGHT || currentTheme == THEMES.SYSTEM}
+  <button
+    on:click={() => toggleTheme(THEMES.DARK)}
+    aria-label="Switche to Dark theme">Dark</button
+  >
+{/if}
 
-<button on:click={toggleSystemTheme} aria-label="Use System theme"
-  >System theme</button
->
+{#if currentTheme != THEMES.SYSTEM}
+  <button on:click={toggleSystemTheme} aria-label="Use System theme"
+    >System theme</button
+  >
+{/if}
