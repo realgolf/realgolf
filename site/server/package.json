@@ -12,6 +12,7 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.27.0",
+		"@types/he": "^1.2.2",
 		"@types/uuid": "^9.0.6",
 		"prettier": "^2.8.8",
 		"prettier-plugin-svelte": "^2.10.1",
@@ -29,9 +30,14 @@
 		"@types/bcrypt": "^5.0.1",
 		"@types/jsonwebtoken": "^9.0.4",
 		"bcrypt": "^5.1.1",
+		"front-matter": "^4.0.2",
+		"he": "^1.2.0",
 		"jsonwebtoken": "^9.0.2",
+		"markdown-it": "^13.0.2",
+		"mathjax": "^3.2.2",
 		"mongoose": "^7.6.3",
 		"sass": "^1.69.4",
+		"shiki": "^0.14.5",
 		"uuid": "^9.0.1"
 	}
 }
