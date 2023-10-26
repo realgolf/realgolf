@@ -36,8 +36,8 @@
   <div class="modi">
     <div class="modis">
       <Card
-        link="/dashboard/rules"
-        title="Rules"
+        link="/dashboard/game-rules"
+        title="Game Rules"
         description="Here you can see all rules for all three games."
       />
 
