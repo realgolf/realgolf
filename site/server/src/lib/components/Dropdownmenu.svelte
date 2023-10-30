@@ -18,7 +18,6 @@
   } from "@fortawesome/free-solid-svg-icons";
   import { onDestroy, onMount } from "svelte";
   import Fa from "svelte-fa";
-  import ThemeToggler from "./ThemeToggler.svelte";
 
   export let auth: string | undefined;
 
@@ -107,9 +106,6 @@
           href="https://github.com/MoinJulian/Golf">GitHub</a
         >
       </p>
-    </div>
-    <div class="row theme-toggler">
-      <p><ThemeToggler /></p>
     </div>
   </div>
 {/if}
@@ -215,8 +211,7 @@
     .copyright,
     .games,
     .logged-out,
-    .logged-in,
-    .theme-toggler {
+    .logged-in {
       padding-top: 10px;
       padding-bottom: 10px;
     }

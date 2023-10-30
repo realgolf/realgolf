@@ -1,8 +1,9 @@
 <script lang="ts">
   import { enhance } from "$app/forms";
+  import ThemeToggler from "$lib/components/ThemeToggler.svelte";
+  import { faEye } from "@fortawesome/free-solid-svg-icons";
   import { onMount } from "svelte";
   import Fa from "svelte-fa";
-  import { faEye } from "@fortawesome/free-solid-svg-icons";
   import type { ActionData, PageData } from "../$types";
 
   export let form: ActionData;
@@ -84,23 +85,27 @@
       <button aria-label="update password">Update</button>
     </div>
   </form>
+
+  {#if form?.message}
+    <p class="success">
+      {form.message}
+    </p>
+  {/if}
+
+  {#if form?.error}
+    <p class="error">
+      {form.error}
+    </p>
+  {/if}
+
+  <form action="/logout" method="POST" class="logout-form" use:enhance>
+    <button>Logout</button>
+  </form>
 </div>
 
-{#if form?.message}
-  <p class="success">
-    {form.message}
-  </p>
-{/if}
-
-{#if form?.error}
-  <p class="error">
-    {form.error}
-  </p>
-{/if}
-
-<form action="/logout" method="POST" class="logout-form" use:enhance>
-  <button>Logout</button>
-</form>
+<div id="preferences">
+  <p><ThemeToggler /></p>
+</div>
 
 <style>
   .update-form {
