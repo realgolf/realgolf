@@ -1,48 +1,69 @@
 <script lang="ts">
   import { THEMES } from "$lib/shared/config";
-  import { faSun } from "@fortawesome/free-regular-svg-icons";
-  import { faMoon } from "@fortawesome/free-solid-svg-icons";
-  import Fa from "svelte-fa";
+  import { capitalizeFirstLetter } from "$lib/shared/utils";
+  import { onMount } from "svelte";
 
-  function set_theme(theme: string) {
+  let currentTheme: string;
+  let displayTheme: string;
+
+  const setTheme = (theme: string) => {
     if (!Object.values(THEMES).includes(theme)) return;
-    localStorage.setItem("theme", theme);
     document.body.setAttribute("data-theme", theme);
-  }
+    localStorage.setItem("theme", theme);
+    currentTheme = theme;
+    displayTheme = capitalizeFirstLetter(currentTheme);
+  };
 
-  function toggle_theme(): void {
-    const current_theme = document.body.getAttribute("data-theme");
-    const theme = current_theme === THEMES.LIGHT ? THEMES.DARK : THEMES.LIGHT;
-    set_theme(theme);
-  }
+  const toggleTheme = (theme: string) => {
+    setTheme(theme);
+  };
+
+  const toggleSystemTheme = () => {
+    const systemTheme = window.matchMedia("(prefers-color-scheme: dark)")
+      .matches
+      ? THEMES.DARK
+      : THEMES.LIGHT;
+    setTheme("system");
+  };
+
+  onMount(() => {
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) {
+      document.body.setAttribute("data-theme", savedTheme);
+      currentTheme = savedTheme;
+      displayTheme = capitalizeFirstLetter(currentTheme);
+    } else {
+      const prefers_dark = window.matchMedia("(prefers-color-scheme: dark)");
+      const theme = prefers_dark.matches ? THEMES.DARK : THEMES.LIGHT;
+      setTheme(theme);
+    }
+  });
 </script>
 
-<button on:click={toggle_theme} aria-label="Toggle theme">
-  <Fa icon={faMoon} class="moon" />
-  <Fa icon={faSun} class="sun" />
-</button>
+{#if currentTheme !== "system"}
+  <p>You are currently using the <strong>{displayTheme}</strong> theme</p>
+{:else}
+  <p>
+    You are currently using your <strong>{displayTheme}</strong> preferences
+  </p>
+{/if}
 
-<style>
-  button {
-    width: 1.5rem;
-    height: 1.5rem;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    background-color: var(--nav-color);
-  }
+{#if currentTheme == THEMES.DARK || currentTheme == THEMES.SYSTEM}
+  <button
+    on:click={() => toggleTheme(THEMES.LIGHT)}
+    aria-label="Switch to Light theme">Light</button
+  >
+{/if}
 
-  button :global(svg) {
-    position: absolute;
-    transition: opacity 250ms linear, rotate 250ms linear;
-    color: var(--font-color);
-  }
+{#if currentTheme == THEMES.LIGHT || currentTheme == THEMES.SYSTEM}
+  <button
+    on:click={() => toggleTheme(THEMES.DARK)}
+    aria-label="Switche to Dark theme">Dark</button
+  >
+{/if}
 
-  :global(body[data-theme="dark"] .sun),
-  :global(body[data-theme="light"] .moon) {
-    opacity: 0;
-    rotate: 45deg;
-  }
-</style>
+{#if currentTheme != THEMES.SYSTEM}
+  <button on:click={toggleSystemTheme} aria-label="Use System theme"
+    >System theme</button
+  >
+{/if}

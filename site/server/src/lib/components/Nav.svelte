@@ -1,5 +1,6 @@
 <script lang="ts">
   import { page } from "$app/stores";
+  import { capitalizeFirstLetter } from "$lib/shared/utils";
   import {
     faHouse,
     type IconDefinition,
@@ -22,10 +23,6 @@
   ];
 
   $: currentPagePath = $page.url.pathname;
-
-  function capitalizeFirstLetter(string: string) {
-    return string.charAt(0).toUpperCase() + string.slice(1);
-  }
 
   function getPagePath() {
     const path = currentPagePath;
