@@ -72,6 +72,7 @@
     currentTeamIndex = (currentTeamIndex + 1) % teams.length;
     currentTeam = teams[currentTeamIndex];
     color = currentTeam.color;
+    clickedCellsCount = clickedCellsCount + 1;
     updateTeamTurn();
   }
 
