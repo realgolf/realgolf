@@ -37,6 +37,34 @@ body[data-theme="dark"] {
   --h2-color: skyblue;
 }
 
+body[data-theme="system"] {
+  @media (prefers-color-scheme: dark) {
+    /* DARK COLORS  */
+    --accent-color: rgb(211, 59, 3);
+    --highlight-color: yellow;
+    --error-color: rgb(230, 20, 20);
+    --background-color: #131317;
+    --nav-color: #202028;
+    --font-color: #fff;
+    --label-color: #aaa;
+    --border-color: #333;
+    --h2-color: skyblue;
+  }
+
+  @media (prefers-color-scheme: light) {
+    /* LIGHT COLORS */
+    --accent-color: rgb(211, 59, 3);
+    --highlight-color: #d4a300;
+    --error-color: rgb(230, 20, 20);
+    --background-color: #fff;
+    --nav-color: #f0f0f0;
+    --font-color: #333;
+    --label-color: #777;
+    --border-color: #ccc;
+    --h2-color: var(--accent-color);
+  }
+}
+
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
