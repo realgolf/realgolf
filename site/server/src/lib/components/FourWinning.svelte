@@ -137,12 +137,14 @@
 
       if (!hitCounts[cellKey]) {
         hitCounts[cellKey] = 1;
+        showNumberofClicks(hitCounts);
       } else {
         hitCounts[cellKey] += 1;
+        showNumberofClicks(hitCounts);
       }
 
       if (hitCounts[cellKey] === 4) {
-        FourTimesWin(cellId, teamColor);
+        FourTimesWin(cellId, teamColor, hitCounts);
       }
     }
   }
@@ -153,7 +155,12 @@
    * @param teamColor
    */
 
-  function FourTimesWin(cellId: string, teamColor: string) {
+  function FourTimesWin(
+    cellId: string,
+    teamColor: string,
+    hitCounts: number | Record<string, number>
+  ) {
+    showNumberofClicks(hitCounts);
     const confirmed = confirm(
       `Cell ${cellId} has been hit four times by ${teamColor} team!`
     );
@@ -533,16 +540,11 @@
     }
   });
 
-  function showNumberofClicks(
-    outerIndex: number,
-    innerIndex: number,
-    color: string
-  ) {
-    const cellId = `row${outerIndex + 1}-${innerIndex}`;
-    const teamColor = color;
-    const cellKey = `${teamColor}_${cellId}`;
+  let numberOfClicks: string;
 
-    return JSON.stringify(hitCounts[cellKey]);
+  function showNumberofClicks(hitCounts: number | Record<string, number>) {
+    numberOfClicks = JSON.stringify(hitCounts);
+    return numberOfClicks;
   }
 </script>
 
@@ -573,7 +575,6 @@
             on:click={() => HandleEvent(outerIndex, innerIndex)}
           >
             {value}
-            <span>{showNumberofClicks(outerIndex, innerIndex, "red")}</span>
           </td>
         {/each}
         <td class="points">{side}</td>
@@ -581,6 +582,12 @@
     </tbody>
   {/each}
 </table>
+
+{#if numberOfClicks !== undefined}
+  <div class="on-left">
+    <span>{numberOfClicks}</span>
+  </div>
+{/if}
 
 <style>
   .meters,
