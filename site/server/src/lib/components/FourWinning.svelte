@@ -583,11 +583,14 @@
   {/each}
 </table>
 
-{#if numberOfClicks !== undefined}
-  <div class="on-left">
-    <span>{numberOfClicks}</span>
-  </div>
-{/if}
+<details>
+  <summary>Number Clicks for each Field</summary>
+  {#if numberOfClicks == undefined}
+    <p>You first need to hit a field at leats one time</p>
+  {:else}
+    {numberOfClicks}
+  {/if}
+</details>
 
 <style>
   .meters,
