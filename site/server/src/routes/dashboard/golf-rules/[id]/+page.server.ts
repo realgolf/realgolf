@@ -1,24 +1,24 @@
 import {
-	add_ids_to_headings,
-	get_table_of_contents,
-	highlight_code,
-	render_formulas,
-	render_markdown,
-	transform_external_links,
+  add_ids_to_headings,
+  get_table_of_contents,
+  highlight_code,
+  render_formulas,
+  render_markdown,
+  transform_external_links,
 } from "$lib/markdown";
 import { compose } from "$lib/shared/util";
 import { error } from "@sveltejs/kit";
 import fm from "front-matter";
 import type { posts } from "../types";
 
-const posts_record = import.meta.glob("/src/data/*.md", {
+const posts_record = import.meta.glob("/src/lib/data/dashboard/golf-rules/*.md", {
   as: "raw",
   eager: true,
 });
 
 export const load = async (event: { params: { id: any } }) => {
   const id = event.params.id;
-  const path = `/src/data/${id}.md`;
+  const path = `/src/lib/data/dashboard/golf-rules/${id}.md`;
 
   if (!(path in posts_record)) {
     throw error(404, "There is no Site with this ID");
