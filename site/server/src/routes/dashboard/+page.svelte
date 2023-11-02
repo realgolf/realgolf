@@ -42,19 +42,26 @@
       />
 
       <Card
+        link="/dashboard/golf-rules"
+        title="Golf Rules"
+        description="Here you can find all Golf Rules at one place - This are the rules from the 'Deutscher Golf Verband'"
+      />
+
+      <Card
         link="/dashboard/modi"
         title="Modi"
         description="Here you can find all game modes you can play, just click on the link for
 the game you want to play."
       />
+    </div>
 
+    <div class="modis">
       <Card
         link="/dashboard/levels"
         title="Levels"
         description="Some extra variation, if the games are to easy for you."
       />
-    </div>
-    <div class="modis">
+
       <Card
         link="/dashboard/games"
         title="Games"
@@ -65,12 +72,6 @@ the game you want to play."
         link="/dashboard/info"
         title="Info"
         description="Just some random further information."
-      />
-
-      <Card
-        link="/dashboard/settings"
-        title="Settings"
-        description="Here you can change your Email, Username and Password"
       />
     </div>
   </div>
