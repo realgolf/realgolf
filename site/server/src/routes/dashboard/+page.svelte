@@ -44,7 +44,7 @@
       <Card
         link="/dashboard/golf-rules"
         title="Golf Rules"
-        description="Here you can find all Golf Rules at one place - This are the rules from the 'Deutscher Golf Verband'"
+        description="Here you can find all Golf Rules at one place - This are the rules from the 'Deutscher Golf Verband', please note that this rules are written in German"
       />
 
       <Card
