@@ -99,6 +99,23 @@
   </form>
 </div>
 
+<div class="measurement">
+  <form
+    action="?/measurement"
+    method="POST"
+    class="measurement-form"
+    use:enhance
+  >
+    <label for="measurement-unit">Select your prefered Measurement Unit:</label>
+    <select id="measurement-unit" name="measurement-unit">
+      <option value="yards">Yards</option>
+      <option value="meters">Meters</option>
+    </select>
+    <br />
+    <button aria-label="update password">Update</button>
+  </form>
+</div>
+
 <div id="preferences">
   <p><ThemeToggler /></p>
 </div>
@@ -116,5 +133,25 @@
   }
   .logout-form {
     margin-top: 1.5rem;
+  }
+
+  select {
+    color: var(--font-color);
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    border-radius: 0.25rem;
+    background: none;
+    margin-bottom: 1.5rem;
+    text-align: center;
+
+    padding: 0.4rem 0.8rem;
+    background-color: var(--accent-color);
+    cursor: pointer;
+
+    &:focus {
+      outline: 0.1rem solid var(--font-color);
+      outline-offset: 0.2rem;
+    }
   }
 </style>
