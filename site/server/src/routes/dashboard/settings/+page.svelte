@@ -35,6 +35,18 @@
 
 <h1>Settings</h1>
 
+{#if form?.message}
+  <p class="success">
+    {form.message}
+  </p>
+{/if}
+
+{#if form?.error}
+  <p class="error">
+    {form.error}
+  </p>
+{/if}
+
 <div id="account">
   <h2>Account</h2>
 
@@ -85,27 +97,15 @@
       <button aria-label="update password">Update</button>
     </div>
   </form>
-
-  {#if form?.message}
-    <p class="success">
-      {form.message}
-    </p>
-  {/if}
-
-  {#if form?.error}
-    <p class="error">
-      {form.error}
-    </p>
-  {/if}
-
-  <form action="/logout" method="POST" class="logout-form" use:enhance>
-    <button>Logout</button>
-  </form>
 </div>
 
 <div id="preferences">
   <p><ThemeToggler /></p>
 </div>
+
+<form action="/logout" method="POST" class="logout-form" use:enhance>
+  <button>Logout</button>
+</form>
 
 <style>
   .update-form {
