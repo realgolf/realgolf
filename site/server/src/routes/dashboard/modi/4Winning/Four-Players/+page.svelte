@@ -1,9 +1,10 @@
 <script lang="ts">
   import { enhance } from "$app/forms";
   import FourWinning from "$lib/components/FourWinning.svelte";
-  import type { ActionData } from "./$types";
 
-  let form: ActionData;
+  export let data: any;
+  let measurement_unit = data.measurement_unit;
+
   interface Team {
     color: string;
     data: string[];
@@ -90,7 +91,7 @@
   }
 </script>
 
-<FourWinning {teams} />
+<FourWinning {teams} {measurement_unit} />
 
 <div class="ls">
   <p>Paste the data you got from <a href="/dashboard/games">Games</a> here:</p>
