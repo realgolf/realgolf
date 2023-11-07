@@ -129,7 +129,7 @@ export async function change_measurement(cookies: Cookies, measurement_unit: str
     return { error: "User could not be found" };
   }
 
-  user.user.measuremt_units = measurement_unit;
+  user.user.measurement_units = measurement_unit;
 
   try {
     await user.save();
