@@ -3,6 +3,7 @@
 
   export let teams: Team[];
   export let point: number;
+  export let measurement_unit: string | undefined;
 
   interface Team {
     color: string;
@@ -97,7 +98,7 @@
 <label for="range">Choose range:</label>
 <input type="text" name="range" bind:value={range} />
 
-<p>Meters to play:</p>
+<p>{measurement_unit} to play:</p>
 <ol>
   <li class="success">{MetersToPlay}</li>
 </ol>

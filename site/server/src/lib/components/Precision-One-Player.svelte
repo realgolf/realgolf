@@ -1,6 +1,8 @@
 <script lang="ts">
   import { afterUpdate, onMount } from "svelte";
 
+  export let measurement_unit: string | undefined;
+
   interface Team {
     color: string;
     points: number;
@@ -107,7 +109,7 @@
 <p>Choose range:</p>
 <input type="text" name="range" bind:value={range} />
 
-<p>Meters to play:</p>
+<p>{measurement_unit} to play:</p>
 <ol>
   <li class="success">{MetersToPlay}</li>
 </ol>

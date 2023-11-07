@@ -3,6 +3,9 @@
 
   let point = 100;
 
+  export let data;
+  let measurement_unit = data.measurement_unit;
+
   interface Team {
     color: string;
     points: number;
@@ -15,4 +18,4 @@
   ];
 </script>
 
-<Precision {teams} {point} />
+<Precision {teams} {point} {measurement_unit} />
