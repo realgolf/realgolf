@@ -1,3 +1,8 @@
+<script lang="ts">
+  export let data;
+  let measurement_unit = data.measurement_unit;
+</script>
+
 <svelte:head>
   <title>Golf Games - Levels</title>
 </svelte:head>
@@ -21,7 +26,7 @@
   <ol class="no-bullets">
     <li><b>Bronze:</b> Only the lenght of the shot applies</li>
     <li>
-      <b>Silver:</b> The number of meters and the lateral deviation apply.
+      <b>Silver:</b> The number of {measurement_unit} and the lateral deviation apply.
     </li>
     <li><b>Gold:</b> Fields can only be played after prior announcement.</li>
     <li><b>Platinum:</b> Like gold, all with a club.</li>
@@ -32,8 +37,8 @@
   <ol class="no-bullets">
     <li><b>Bronze:</b> Only the lenght of the shot applies</li>
     <li>
-      <b>Silver:</b> The number of meters and the lateral deviation apply. - lateral
-      deviation gets choosed by the players
+      <b>Silver:</b> The number of {measurement_unit} and the lateral deviation apply.
+      - lateral deviation gets choosed by the players
     </li>
     <li>
       <b>Gold:</b> Fields can only be played after prior announcement. The rest is
