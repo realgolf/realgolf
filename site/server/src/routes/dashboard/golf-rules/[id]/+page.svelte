@@ -12,11 +12,11 @@
   <title>Golf Games Docs | {title}</title>
 </svelte:head>
 
+<GoBack />
+
 <h1>
   {title}
 </h1>
-
-<GoBack />
 
 {#if toc.length > 0}
   <details class="toc">
