@@ -10,9 +10,9 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
 	"devDependencies": {
-		"@types/he": "^1.2.2",
 		"@sveltejs/adapter-auto": "^2.1.1",
 		"@sveltejs/kit": "^1.27.3",
+		"@types/he": "^1.2.2",
 		"@types/uuid": "^9.0.7",
 		"prettier": "^2.8.8",
 		"prettier-plugin-svelte": "^2.10.1",
@@ -35,9 +35,9 @@
 		"jsonwebtoken": "^9.0.2",
 		"markdown-it": "^13.0.2",
 		"mathjax": "^3.2.2",
-		"shiki": "^0.14.5",
 		"mongoose": "^8.0.0",
 		"sass": "^1.69.5",
+		"shiki": "^0.14.5",
 		"uuid": "^9.0.1"
 	}
 }
