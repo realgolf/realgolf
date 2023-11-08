@@ -6,6 +6,7 @@ const User_Schema = new mongoose.Schema({
     password: { type: String, require: true },
     name: { type: String, require: true },
     measurement_units: { type: String, required: true, default: "meters" },
+    theme: { type: String, required: true, default: "system" },
   },
   games: [
     {
