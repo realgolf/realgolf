@@ -106,7 +106,7 @@
   <p>Your currently saved Theme is: {capitalizeFirstLetter(data.theme)}</p>
   <form action="?/theme" method="POST" class="theme-form">
     <label for="theme-settings">Select your prefered Theme Setting:</label>
-    <select id="theme-settings" name="theme-settings">
+    <select id="theme-settings" name="theme-settings" bind:value={data.theme}>
       <option value="dark">Dark</option>
       <option value="light">Light</option>
       <option value="system">System</option>
