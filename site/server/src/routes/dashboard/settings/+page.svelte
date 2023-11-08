@@ -1,13 +1,14 @@
 <script lang="ts">
   import { enhance } from "$app/forms";
   import ThemeToggler from "$lib/components/ThemeToggler.svelte";
+  import { capitalizeFirstLetter } from "$lib/shared/utils";
   import { faEye } from "@fortawesome/free-solid-svg-icons";
   import { onMount } from "svelte";
   import Fa from "svelte-fa";
-  import type { ActionData, PageData } from "../$types";
+  import type { ActionData } from "../$types";
 
   export let form: ActionData;
-  export let data: PageData;
+  export let data;
 
   onMount(() => {
     const passwordInput = document.getElementById(
@@ -100,6 +101,11 @@
 </div>
 
 <div class="measurement">
+  <p>
+    Your current measurement unit is : {capitalizeFirstLetter(
+      data.measurement_unit
+    )}
+  </p>
   <form
     action="?/measurement"
     method="POST"
@@ -112,7 +118,7 @@
       <option value="meters">Meters</option>
     </select>
     <br />
-    <button aria-label="update password">Update</button>
+    <button aria-label="update Measurement Unit">Update</button>
   </form>
 </div>
 

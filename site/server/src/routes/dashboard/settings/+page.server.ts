@@ -4,8 +4,20 @@ import {
   change_name,
   change_password,
 } from "$lib/server/account";
+import { User_Model } from "$lib/server/models";
 import { cookie_options } from "$lib/server/utils";
 import { fail, type Actions } from "@sveltejs/kit";
+import type { PageServerLoad } from "../$types";
+
+export const load: PageServerLoad = async (event) => {
+  const email = event.cookies.get("email");
+
+  const user = await User_Model.findOne({ "user.email": email });
+
+  let measurement_unit = user?.user?.measurement_units as string;
+
+  return { measurement_unit };
+};
 
 export const actions: Actions = {
   name: async (event) => {
@@ -68,7 +80,6 @@ export const actions: Actions = {
 
     const message = `Your measurement unit got changed`;
 
-    return { message };
+    return { message, measurement_unit };
   },
 };
-
