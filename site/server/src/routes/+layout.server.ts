@@ -2,8 +2,6 @@ import { connect_to_db } from "$lib/server/db";
 import { error } from "@sveltejs/kit";
 import type { LayoutServerLoad } from "./$types";
 
-export const prerender = true;
-
 export const load: LayoutServerLoad = async (event) => {
   const connection = await connect_to_db();
   if (!connection) {
