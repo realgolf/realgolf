@@ -9,4 +9,9 @@
       >Die Grundlagen des Spiels</a
     >
   </li>
+  <li>
+    <a href="/dashboard/golf-rules/spielen-der-runde-und-eines-loches"
+      >Spielen der Runde und eines Loches
+    </a>
+  </li>
 </ol>
