@@ -93,7 +93,11 @@
   </p>
   <form action="?/measurement" method="POST" class="measurement-form">
     <label for="measurement-unit">Select your prefered Measurement Unit:</label>
-    <select id="measurement-unit" name="measurement-unit">
+    <select
+      id="measurement-unit"
+      name="measurement-unit"
+      bind:value={data.measurement_unit}
+    >
       <option value="yards">Yards</option>
       <option value="meters">Meters</option>
     </select>
