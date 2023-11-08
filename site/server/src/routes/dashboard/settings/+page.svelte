@@ -87,7 +87,7 @@
 
 <div class="measurement">
   <p>
-    Your current measurement unit is : {capitalizeFirstLetter(
+    Your current measurement unit is: {capitalizeFirstLetter(
       data.measurement_unit
     )}
   </p>
