@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Golf Rules</title>
+</svelte:head>
+
 <h1>Dies sind die offiziellen Golf Regeln des DGV (Deutscher Golf Verband)</h1>
 <b>This Site and all subpages are writtin in German</b>
 
