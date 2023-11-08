@@ -1,5 +1,12 @@
-<h1>This are the official Golf Rules</h1>
+<h1>Dies sind die offiziellen Golf Regeln des DGV (Deutscher Golf Verband)</h1>
+<b>This Site and all subpages are writtin in German</b>
 
-<h2>You can find all official Rules here</h2>
+<h2>Sie können alle Regeln hier nachlesen</h2>
 
-<a href="/dashboard/golf-rules/basics-of-the-game">Basics of the Game</a>
+<ol>
+  <li>
+    <a href="/dashboard/golf-rules/die-grundlangen-des-spiels"
+      >Die Grundlagen des Spiels</a
+    >
+  </li>
+</ol>
