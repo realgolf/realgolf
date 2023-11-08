@@ -1,8 +1,11 @@
 <script lang="ts">
+  import { capitalizeFirstLetter } from "$lib/shared/utils";
   import { afterUpdate, onMount } from "svelte";
 
   export let teams: Team[];
   export let point: number;
+  export let measurement_unit: string;
+  let capitalizedMeasurementUnit = capitalizeFirstLetter(measurement_unit);
 
   interface Team {
     color: string;
@@ -97,7 +100,7 @@
 <label for="range">Choose range:</label>
 <input type="text" name="range" bind:value={range} />
 
-<p>Meters to play:</p>
+<p>{capitalizedMeasurementUnit} to play:</p>
 <ol>
   <li class="success">{MetersToPlay}</li>
 </ol>

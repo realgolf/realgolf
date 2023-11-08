@@ -1,5 +1,6 @@
 import {
   change_email,
+  change_measurement,
   change_name,
   change_password,
 } from "$lib/server/account";
@@ -55,4 +56,19 @@ export const actions: Actions = {
 
     return { message };
   },
+  measurement: async (event) => {
+    const data = await event.request.formData();
+    const measurement_unit = data.get("measurement-unit") as string;
+
+    const update = await change_measurement(event.cookies, measurement_unit);
+
+    if ("error" in update) {
+      return fail(400, { error: update.error });
+    }
+
+    const message = `Your measurement unit got changed`;
+
+    return { message };
+  },
 };
+

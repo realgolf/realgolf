@@ -1,3 +1,10 @@
+<script lang="ts">
+  import { removeLastLetter } from "$lib/shared/utils.js";
+
+  export let data;
+  let measurement_unit = data.measurement_unit as string;
+</script>
+
 <svelte:head>
   <title>Golf Games - Rules</title>
 </svelte:head>
@@ -50,9 +57,11 @@
     shot, the deviation of the ball from the target distance is measured.
     <br />
     <br />
-    Precision is measured by the deviation in meters from the target distance. The
-    closer the ball is to the specified distance, the fewer points will be deducted.
-    It follows a deduction of 1 point per meter deviation from the target.
+    Precision is measured by the deviation in {measurement_unit} from the target
+    distance. The closer the ball is to the specified distance, the fewer points
+    will be deducted. It follows a deduction of 1 point per {removeLastLetter(
+      measurement_unit
+    )} deviation from the target.
     <br />
     <br />
     At the end of the game, the player who has retained the highest score out of
