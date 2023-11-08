@@ -159,3 +159,15 @@ p {
 .no-bullets {
   list-style: none;
 }
+
+:is(ol, ul):not(.no-bullets) {
+  margin-left: 2rem;
+}
+
+:is(ol, ul):not(.no-bullets) li + li {
+  margin-block: 0.5rem;
+}
+
+:is(ol, ul).no-bullets {
+  list-style-type: none;
+}
