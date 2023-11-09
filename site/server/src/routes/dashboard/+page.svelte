@@ -66,6 +66,12 @@ the game you want to play."
         title="Info"
         description="Just some random further information."
       />
+
+      <Card
+        link="/dashboard/settings"
+        title="Settings"
+        description="Here you can edit your Account settings"
+      />
     </div>
   </div>
 </main>
