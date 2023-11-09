@@ -1,4 +1,5 @@
 import { connect_to_db } from "$lib/server/db";
+import { User_Model } from "$lib/server/models";
 import { error } from "@sveltejs/kit";
 import type { LayoutServerLoad } from "./$types";
 
@@ -13,5 +14,16 @@ export const load: LayoutServerLoad = async (event) => {
   const name = event.cookies.get("name") ?? "";
   const email = event.cookies.get("email") ?? "";
 
-  return { name, email, auth };
+  const user = await User_Model.findOne({ "user.email": email });
+
+  if (!user) {
+    return {
+      status: 404,
+      error: "User not found",
+    };
+  }
+
+  let theme = user.user?.theme;
+
+  return { name, email, auth, theme };
 };

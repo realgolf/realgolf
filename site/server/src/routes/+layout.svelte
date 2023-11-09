@@ -3,8 +3,16 @@
   import Nav from "$lib/components/Nav.svelte";
   import ScrollUp from "$lib/components/ScrollUp.svelte";
   import "$lib/scss/app.scss";
-  import type { LayoutData } from "./$types";
-  export let data: LayoutData;
+  import { onMount } from "svelte";
+  export let data;
+
+  onMount(() => {
+    let theme = data.theme as string;
+    if (theme === undefined) {
+      theme = "system";
+    }
+    localStorage.setItem("theme", theme);
+  });
 </script>
 
 <svelte:head>
