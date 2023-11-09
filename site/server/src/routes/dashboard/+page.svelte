@@ -70,7 +70,7 @@ the game you want to play."
       <Card
         link="/dashboard/settings"
         title="Settings"
-        description="Here you can change your Email, Username and Password"
+        description="Here you can edit your Account settings"
       />
     </div>
   </div>

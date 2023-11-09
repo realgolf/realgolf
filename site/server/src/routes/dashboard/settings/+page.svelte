@@ -1,6 +1,4 @@
 <script lang="ts">
-  import { enhance } from "$app/forms";
-  import ThemeToggler from "$lib/components/ThemeToggler.svelte";
   import { capitalizeFirstLetter } from "$lib/shared/utils";
   import { faEye } from "@fortawesome/free-solid-svg-icons";
   import { onMount } from "svelte";
@@ -51,13 +49,7 @@
 <div id="account">
   <h2>Account</h2>
 
-  <form
-    action="?/name"
-    method="POST"
-    autocomplete="off"
-    class="update-form"
-    use:enhance
-  >
+  <form action="?/name" method="POST" autocomplete="off" class="update-form">
     <div>
       <label for="name_input">Name</label>
       <input type="text" id="name_input" name="name" value={data.name} />
@@ -65,13 +57,7 @@
     <button aria-label="update name">Update</button>
   </form>
 
-  <form
-    action="?/email"
-    method="POST"
-    autocomplete="off"
-    class="update-form"
-    use:enhance
-  >
+  <form action="?/email" method="POST" autocomplete="off" class="update-form">
     <div>
       <label for="email_input">Email</label>
       <input type="email" id="email_input" name="email" value={data.email} />
@@ -84,7 +70,6 @@
     method="POST"
     autocomplete="off"
     class="update-form"
-    use:enhance
   >
     <div>
       <label for="password_input">Password</label>
@@ -106,14 +91,13 @@
       data.measurement_unit
     )}
   </p>
-  <form
-    action="?/measurement"
-    method="POST"
-    class="measurement-form"
-    use:enhance
-  >
+  <form action="?/measurement" method="POST" class="measurement-form">
     <label for="measurement-unit">Select your prefered Measurement Unit:</label>
-    <select id="measurement-unit" name="measurement-unit">
+    <select
+      id="measurement-unit"
+      name="measurement-unit"
+      bind:value={data.measurement_unit}
+    >
       <option value="yards">Yards</option>
       <option value="meters">Meters</option>
     </select>
@@ -123,10 +107,20 @@
 </div>
 
 <div id="preferences">
-  <p><ThemeToggler /></p>
+  <p>Your currently saved Theme is: {capitalizeFirstLetter(data.theme)}</p>
+  <form action="?/theme" method="POST" class="theme-form">
+    <label for="theme-settings">Select your prefered Theme Setting:</label>
+    <select id="theme-settings" name="theme-settings" bind:value={data.theme}>
+      <option value="dark">Dark</option>
+      <option value="light">Light</option>
+      <option value="system">System</option>
+    </select>
+    <br />
+    <button aria-label="update Theme">Update</button>
+  </form>
 </div>
 
-<form action="/logout" method="POST" class="logout-form" use:enhance>
+<form action="/logout" method="POST" class="logout-form">
   <button>Logout</button>
 </form>
 

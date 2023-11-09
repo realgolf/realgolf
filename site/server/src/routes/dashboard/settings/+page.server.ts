@@ -3,6 +3,7 @@ import {
   change_measurement,
   change_name,
   change_password,
+  change_theme,
 } from "$lib/server/account";
 import { User_Model } from "$lib/server/models";
 import { cookie_options } from "$lib/server/utils";
@@ -15,8 +16,9 @@ export const load: PageServerLoad = async (event) => {
   const user = await User_Model.findOne({ "user.email": email });
 
   let measurement_unit = user?.user?.measurement_units as string;
+  let theme = user?.user?.theme as string;
 
-  return { measurement_unit };
+  return { measurement_unit, theme };
 };
 
 export const actions: Actions = {
@@ -81,5 +83,19 @@ export const actions: Actions = {
     const message = `Your measurement unit got changed`;
 
     return { message, measurement_unit };
+  },
+  theme: async (event) => {
+    const data = await event.request.formData();
+    const theme_settings = data.get("theme-settings") as string;
+
+    const update = await change_theme(event.cookies, theme_settings);
+
+    if ("error" in update) {
+      return fail(400, { error: update.error });
+    }
+
+    const message = `Your theme settings got changed`;
+
+    return { message, theme_settings };
   },
 };
