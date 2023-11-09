@@ -12,7 +12,13 @@
     const passwordInput = document.getElementById(
       "password_input"
     ) as HTMLInputElement;
+    const passwordInputDelete = document.getElementById(
+      "password_input_delete"
+    ) as HTMLInputElement;
     const toggleButton = document.getElementById("toggle_password");
+    const togglePasswordDelete = document.getElementById(
+      "toggle_password_delete"
+    ) as HTMLInputElement;
 
     if (toggleButton && passwordInput) {
       toggleButton.addEventListener("click", function (event) {
@@ -22,6 +28,18 @@
           passwordInput.type = "text";
         } else {
           passwordInput.type = "password";
+        }
+      });
+    }
+
+    if (togglePasswordDelete && passwordInputDelete) {
+      togglePasswordDelete.addEventListener("click", function (event) {
+        event.preventDefault(); // Prevent form submission
+
+        if (passwordInputDelete.type === "password") {
+          passwordInputDelete.type = "text";
+        } else {
+          passwordInputDelete.type = "password";
         }
       });
     }
@@ -120,6 +138,25 @@
   </form>
 </div>
 
+<div class="delete-account">
+  <h2 class="error">
+    Caution, this will delete your account forverer, which is a really long time
+  </h2>
+  <form action="?/delete_account" method="POST" class="delete_account_form">
+    <div>
+      <label for="password_input">Password</label>
+      <input
+        type="password"
+        id="password_input_delete"
+        name="password"
+        value=""
+      />
+    </div>
+    <br />
+    <button aria-label="delete Account">Delete Account</button>
+  </form>
+</div>
+
 <form action="/logout" method="POST" class="logout-form">
   <button>Logout</button>
 </form>
@@ -133,6 +170,10 @@
   }
   .logout-form {
     margin-top: 1.5rem;
+  }
+
+  .error {
+    font-size: var(--medium-font);
   }
 
   select {
