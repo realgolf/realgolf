@@ -10,7 +10,6 @@
 ## Sites
 
 [Golf Games](https://golf.moinjulian.com)   
-[Golf Games Offline](https://offline.golf.moinjulian.com/)
 
 ## Dashboard
 
