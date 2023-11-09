@@ -6,9 +6,11 @@
   import { onMount } from "svelte";
   export let data;
 
-  let theme = data.theme as string;
-
   onMount(() => {
+    let theme = data.theme as string;
+    if (theme === undefined) {
+      theme = "system";
+    }
     localStorage.setItem("theme", theme);
   });
 </script>
