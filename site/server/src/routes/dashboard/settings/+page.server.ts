@@ -4,6 +4,7 @@ import {
   change_name,
   change_password,
   change_theme,
+  delete_account,
 } from "$lib/server/account";
 import { User_Model } from "$lib/server/models";
 import { cookie_options } from "$lib/server/utils";
@@ -97,5 +98,19 @@ export const actions: Actions = {
     const message = `Your theme settings got changed`;
 
     return { message, theme_settings };
+  },
+  delete_account: async (event) => {
+    const data = await event.request.formData();
+    const password = data.get("password_input_delete") as string;
+
+    const update = await delete_account(event.cookies, password);
+
+    if ("error" in update) {
+      return fail(400, { error: update.error });
+    }
+
+    const message = update.message;
+
+    return { message };
   },
 };

@@ -166,3 +166,26 @@ export async function change_theme(cookies: Cookies, theme: string) {
     return { error: err as string };
   }
 }
+
+export async function delete_account(cookies: Cookies, password: string) {
+  const email = cookies.get("email");
+  const user = await User_Model.findOne({ "user.email": email });
+
+  const saltRounds = 10;
+  const hashed_password = await bcrypt.hash(password, saltRounds);
+
+  if (user && hashed_password == user?.user?.password) {
+    await User_Model.deleteOne({ "user.email": email });
+    return { message: "The user got deleted" };
+  }
+
+  if (!user) {
+    return { error: "User could not be found" };
+  }
+
+  try {
+    return {};
+  } catch (err) {
+    return { error: err as string };
+  }
+}

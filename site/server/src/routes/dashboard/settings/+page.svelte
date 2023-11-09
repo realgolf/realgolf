@@ -148,7 +148,7 @@
       <input
         type="password"
         id="password_input_delete"
-        name="password"
+        name="password_input_delete"
         value=""
       />
     </div>
