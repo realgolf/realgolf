@@ -66,12 +66,6 @@ the game you want to play."
         title="Info"
         description="Just some random further information."
       />
-
-      <Card
-        link="/dashboard/settings"
-        title="Settings"
-        description="Here you can change your Email, Username and Password"
-      />
     </div>
   </div>
 </main>
