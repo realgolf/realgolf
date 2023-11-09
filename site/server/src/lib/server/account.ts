@@ -167,25 +167,25 @@ export async function change_theme(cookies: Cookies, theme: string) {
   }
 }
 
-export async function delete_account(cookies: Cookies, password: string) {
-  const email = cookies.get("email");
-  const user = await User_Model.findOne({ "user.email": email });
+export async function delete_account(cookies: Cookies) {
+  const auth = authenticate(cookies);
 
-  const saltRounds = 10;
-  const hashed_password = await bcrypt.hash(password, saltRounds);
-
-  if (user && hashed_password == user?.user?.password) {
-    await User_Model.deleteOne({ "user.email": email });
-    return { message: "The user got deleted" };
+  if (!auth) {
+    return { error: "You are not authenticated" };
   }
+
+  const { id } = auth;
+
+  const user = await User_Model.findOne({ _id: id });
 
   if (!user) {
     return { error: "User could not be found" };
   }
 
   try {
-    return {};
+    await User_Model.deleteOne({ _id: id });
+    return { message: "The user got deleted", account_deleted: true };
   } catch (err) {
-    return { error: err as string };
+    return { error: err as string, account_deleted: false };
   }
 }

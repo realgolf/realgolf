@@ -8,7 +8,7 @@ import {
 } from "$lib/server/account";
 import { User_Model } from "$lib/server/models";
 import { cookie_options } from "$lib/server/utils";
-import { fail, type Actions } from "@sveltejs/kit";
+import { fail, redirect, type Actions } from "@sveltejs/kit";
 import type { PageServerLoad } from "../$types";
 
 export const load: PageServerLoad = async (event) => {
@@ -103,10 +103,14 @@ export const actions: Actions = {
     const data = await event.request.formData();
     const password = data.get("password_input_delete") as string;
 
-    const update = await delete_account(event.cookies, password);
+    const update = await delete_account(event.cookies);
 
     if ("error" in update) {
       return fail(400, { error: update.error });
+    }
+
+    if (update.account_deleted == true) {
+      throw redirect(301, "/logout");
     }
 
     const message = update.message;
