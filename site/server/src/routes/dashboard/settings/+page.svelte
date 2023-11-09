@@ -126,6 +126,15 @@
     Caution, this will delete your account forverer, which is a really long time
   </h2>
   <form action="?/delete_account" method="POST" class="delete_account_form">
+    <div>
+      <label for="password_input">Password</label>
+      <input
+        type="password"
+        id="password_input"
+        name="password_delete_account"
+        value=""
+      />
+    </div>
     <button aria-label="delete Account">Delete Account</button>
   </form>
 </div>

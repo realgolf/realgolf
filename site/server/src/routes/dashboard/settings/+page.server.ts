@@ -101,9 +101,9 @@ export const actions: Actions = {
   },
   delete_account: async (event) => {
     const data = await event.request.formData();
-    const password = data.get("password_input_delete") as string;
+    const password = data.get("password_delete_account") as string;
 
-    const update = await delete_account(event.cookies);
+    const update = await delete_account(event.cookies, password);
 
     if ("error" in update) {
       return fail(400, { error: update.error });

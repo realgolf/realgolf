@@ -167,8 +167,9 @@ export async function change_theme(cookies: Cookies, theme: string) {
   }
 }
 
-export async function delete_account(cookies: Cookies) {
+export async function delete_account(cookies: Cookies, password: string) {
   const auth = authenticate(cookies);
+  let verified_password = password;
 
   if (!auth) {
     return { error: "You are not authenticated" };
@@ -182,10 +183,26 @@ export async function delete_account(cookies: Cookies) {
     return { error: "User could not be found" };
   }
 
-  try {
-    await User_Model.deleteOne({ _id: id });
-    return { message: "The user got deleted", account_deleted: true };
-  } catch (err) {
-    return { error: err as string, account_deleted: false };
+  const password_error = verify_password(password, verified_password);
+
+  if (password_error) {
+    console.log(password_error);
+    return { error: password_error };
+  }
+
+  const password_is_correct = await bcrypt.compare(
+    password,
+    user.user?.password as string
+  );
+
+  if (password_is_correct) {
+    try {
+      await User_Model.deleteOne({ _id: id });
+      return { message: "The user got deleted", account_deleted: true };
+    } catch (err) {
+      return { error: err as string, account_deleted: false };
+    }
+  } else {
+    return { error: "The passwords did not match", account_deleted: false };
   }
 }
