@@ -123,7 +123,7 @@
 
 <div class="delete-account">
   <h2 class="error">
-    Caution, this will delete your account forverer, which is a really long time
+    Caution, this will delete your Account forever (a long time).
   </h2>
   <form action="?/delete_account" method="POST" class="delete_account_form">
     <div>
