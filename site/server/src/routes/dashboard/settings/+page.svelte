@@ -125,7 +125,7 @@
   </div>
 
   <div class="delete-account">
-    <h2 class="error">Your Account will be lost forever! (a ling time!)</h2>
+    <h2 class="error">Your Account will be lost forever! (a long time!)</h2>
     <form action="?/delete_account" method="POST" class="delete_account_form">
       <div>
         <label for="password_input">Password</label>
@@ -142,6 +142,43 @@
 
   <form action="/logout" method="POST" class="logout-form">
     <button>Logout</button>
+      <option value="yards">Yards</option>
+      <option value="meters">Meters</option>
+    </select>
+    <br />
+    <button aria-label="update Measurement Unit">Update</button>
+  </form>
+</div>
+
+<div id="preferences">
+  <p>Your currently saved Theme is: {capitalizeFirstLetter(data.theme)}</p>
+  <form action="?/theme" method="POST" class="theme-form">
+    <label for="theme-settings">Select your prefered Theme Setting:</label>
+    <select id="theme-settings" name="theme-settings" bind:value={data.theme}>
+      <option value="dark">Dark</option>
+      <option value="light">Light</option>
+      <option value="system">System</option>
+    </select>
+    <br />
+    <button aria-label="update Theme">Update</button>
+  </form>
+</div>
+
+<div class="delete-account">
+  <h2 class="error">
+    Your Account will be lost forever! (a long time!)
+  </h2>
+  <form action="?/delete_account" method="POST" class="delete_account_form">
+    <div>
+      <label for="password_input">Password</label>
+      <input
+        type="password"
+        id="password_input"
+        name="password_delete_account"
+        value=""
+      />
+    </div>
+    <button aria-label="delete Account">Delete Account</button>
   </form>
 </main>
 
