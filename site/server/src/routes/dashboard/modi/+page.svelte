@@ -1,7 +1,13 @@
 <script lang="ts">
   import Card from "$lib/components/Card.svelte";
 
-  let fourwinning = [
+  interface Card {
+    link: string;
+    title: string;
+    description: string;
+  }
+
+  let fourwinning: Card[] = [
     {
       link: "/dashboard/modi/4Winning/Two-Players",
       title: "Two Players",
@@ -22,7 +28,7 @@
     },
   ];
 
-  let exact = [
+  let exact: Card[] = [
     {
       link: "/dashboard/modi/Exact/Two-Players",
       title: "Two Players",
@@ -43,7 +49,7 @@
     },
   ];
 
-  let precision = [
+  let precision: Card[] = [
     {
       link: "/dashboard/modi/Precision/One-Player",
       title: "One Player",
@@ -67,6 +73,15 @@
       title: "Four Players",
       description:
         "This version of Precision can be played with Four Players, Red, Blue, Green and Orange",
+    },
+  ];
+
+  let sinking_ships: Card[] = [
+    {
+      link: "/dashboard/modi/Sinking-Ships/Two-Players",
+      title: "Two Players",
+      description:
+        "This version of Sinking Ships can be played with Two Players, Red, Blue",
     },
   ];
 </script>
@@ -115,6 +130,14 @@
         <Card {link} {title} {description} />
       {/each}
     </div>
+  </div>
+
+  <h2 id="sinking-ships">Sinking Ships</h2>
+
+  <div class="modis">
+    {#each sinking_ships as { link, title, description }}
+      <Card {link} {title} {description} />
+    {/each}
   </div>
 </main>
 
