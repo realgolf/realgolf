@@ -112,6 +112,7 @@ input {
 
 button {
   padding: 0.4rem 0.8rem;
+  margin: 0.4rem 0rem;
   background-color: var(--accent-color);
   cursor: pointer;
 }
@@ -123,7 +124,7 @@ button:focus {
 
 input {
   padding: 0.4rem;
-  width: 100%;
+  width: 40rem;
   border: 0.1rem solid #555;
 }
 
