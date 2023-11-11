@@ -1,6 +1,9 @@
 <script lang="ts">
   import { capitalizeFirstLetter } from "$lib/shared/utils";
   import { first_row, rows } from "./scripts/table";
+  export let data;
+
+  let measurement_unit = data.measurement_unit;
 
   interface Team {
     color: string;
@@ -58,7 +61,9 @@
     <tr>
       <td class="points">{side}</td>
       {#each data as item, j (j)}
-        <td class="meters">{item}</td>
+        <td class="meters"
+          >{item + " " + capitalizeFirstLetter(measurement_unit)}</td
+        >
       {/each}
     </tr>
   {/each}
@@ -70,9 +75,14 @@
     flex: 0 0 25%;
     box-sizing: border-box;
     border: 5px solid var(--border-color);
-    min-width: calc(90vw / 15);
+    min-width: calc(100% / 15);
     height: calc(50vh / 8);
     text-align: center;
+  }
+
+  .points {
+    color: black;
+    background-color: darkgray;
   }
 
   .meters:hover {
