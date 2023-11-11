@@ -47,3 +47,9 @@
     <li><b>Platinum:</b> Like gold, all with a club.</li>
   </ol>
 </main>
+
+<style lang="scss">
+  main {
+    max-width: 40rem;
+  }
+</style>

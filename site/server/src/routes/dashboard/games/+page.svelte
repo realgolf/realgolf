@@ -76,69 +76,84 @@
 
 <h1>Games</h1>
 
-<h2>You have saved: {data.games.length} games in the database.</h2>
+<main>
+  <h2>You have saved: {data.games.length} games in the database.</h2>
 
-<form action="?/delete_all" method="POST" use:enhance autocomplete="off">
-  <button>Delete All</button>
-</form>
+  <form action="?/delete_all" method="POST" use:enhance autocomplete="off">
+    <button>Delete All</button>
+  </form>
 
-{#if showMessage == true && form?.message}
-  <p class="success">{form?.message}</p>
-{/if}
-
-{#if showMessage == true && form?.error}
-  <p class="error">{form?.error}</p>
-{/if}
-
-<label for="search">Search a game by name or date:</label>
-<input type="search" id="search" bind:value={searchTerm} />
-<p class="error">
-  You can search by dates by the following terms: DD/MM/YYYY or just by Year,
-  Month or Day, to get all values with this parameters
-</p>
-
-<label for="teamSelect">Select a Team:</label>
-<select id="teamSelect" bind:value={selectedTeam} on:change={handleTeamChange}>
-  <option value="">All Teams</option>
-  {#each teams as team}
-    <option value={team.teams}>{team.name}</option>
-  {/each}
-</select>
-
-{#if filteredGames.length > 0}
-  {#if copyStatus === "success"}
-    <p class="success">Copy successful</p>
-  {:else if copyStatus === "error"}
-    <p class="error">Copy failed</p>
+  {#if showMessage == true && form?.message}
+    <p class="success">{form?.message}</p>
   {/if}
-  {#each filteredGames as game (game.id)}
-    <div>
-      <form action="?/rename" method="POST" use:enhance>
-        <input
-          type="text"
-          name="name"
-          id="name"
-          class="headline"
-          bind:value={game.name}
-        />
-        <input class="hidden" type="text" name="id" value={game.id} />
-        <button>Update Name</button>
-      </form>
-      <p>Created at the {new Date(game.date).toLocaleDateString()}</p>
-      <p>{game.data}</p>
-      <p class="error">Please only paste the data in {game.teams}!</p>
-      <button on:click={() => copyData(game.data)}>Copy Data</button>
-      <form action="?/delete_game" method="POST" autocomplete="off" use:enhance>
-        <input class="hidden" type="text" name="id" value={game.id} />
-        <button>Delete Game</button>
-      </form>
-    </div>
-  {/each}
-{:else}
-  <p class="error">No games found for this search.</p>
-{/if}
+
+  {#if showMessage == true && form?.error}
+    <p class="error">{form?.error}</p>
+  {/if}
+
+  <label for="search">Search a game by name or date:</label>
+  <input type="search" id="search" bind:value={searchTerm} />
+  <p class="error">
+    You can search by dates by the following terms: DD/MM/YYYY or just by Year,
+    Month or Day, to get all values with this parameters
+  </p>
+
+  <label for="teamSelect">Select a Team:</label>
+  <select
+    id="teamSelect"
+    bind:value={selectedTeam}
+    on:change={handleTeamChange}
+  >
+    <option value="">All Teams</option>
+    {#each teams as team}
+      <option value={team.teams}>{team.name}</option>
+    {/each}
+  </select>
+
+  {#if filteredGames.length > 0}
+    {#if copyStatus === "success"}
+      <p class="success">Copy successful</p>
+    {:else if copyStatus === "error"}
+      <p class="error">Copy failed</p>
+    {/if}
+    {#each filteredGames as game (game.id)}
+      <div>
+        <form action="?/rename" method="POST" use:enhance>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="headline"
+            bind:value={game.name}
+          />
+          <input class="hidden" type="text" name="id" value={game.id} />
+          <button>Update Name</button>
+        </form>
+        <p>Created at the {new Date(game.date).toLocaleDateString()}</p>
+        <p>{game.data}</p>
+        <p class="error">Please only paste the data in {game.teams}!</p>
+        <button on:click={() => copyData(game.data)}>Copy Data</button>
+        <form
+          action="?/delete_game"
+          method="POST"
+          autocomplete="off"
+          use:enhance
+        >
+          <input class="hidden" type="text" name="id" value={game.id} />
+          <button>Delete Game</button>
+        </form>
+      </div>
+    {/each}
+  {:else}
+    <p class="error">No games found for this search.</p>
+  {/if}
+</main>
 
 <style lang="scss">
+  main {
+    max-width: 40rem;
+  }
+
   div {
     background-color: var(--nav-color);
     width: 90vw;

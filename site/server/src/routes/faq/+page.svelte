@@ -259,6 +259,11 @@
 </main>
 
 <style lang="scss">
+  main {
+    max-width: 40rem;
+    margin-inline: auto;
+  }
+
   h1 {
     text-align: center;
   }

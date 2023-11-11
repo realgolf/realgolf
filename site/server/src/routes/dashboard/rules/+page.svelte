@@ -82,3 +82,9 @@
     Let's play "Precision" and find out who achieves the highest score at the end!
   </p>
 </main>
+
+<style lang="scss">
+  main {
+    max-width: 40rem;
+  }
+</style>
