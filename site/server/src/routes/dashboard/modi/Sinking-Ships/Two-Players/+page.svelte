@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { first_row, rows } from "./table";
+  import { first_row, rows } from "./scripts/table";
 </script>
 
 <svelte:head>
