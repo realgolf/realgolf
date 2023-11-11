@@ -37,10 +37,10 @@
 </script>
 
 <svelte:head>
-  <title>Sinking Ships- 2 Teas</title>
+  <title>Sinking Ships- 2 Teams</title>
 </svelte:head>
 
-<h1>2 Teas</h1>
+<h1>2 Teams</h1>
 
 <button on:click={changeTeam}>Change Team</button>
 <table>
