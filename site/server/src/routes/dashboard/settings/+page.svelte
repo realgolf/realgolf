@@ -12,6 +12,7 @@
     const passwordInput = document.getElementById(
       "password_input"
     ) as HTMLInputElement;
+
     const toggleButton = document.getElementById("toggle_password");
 
     if (toggleButton && passwordInput) {
@@ -120,6 +121,24 @@
   </form>
 </div>
 
+<div class="delete-account">
+  <h2 class="error">
+    Your Account will be lost forever! (a long time!)
+  </h2>
+  <form action="?/delete_account" method="POST" class="delete_account_form">
+    <div>
+      <label for="password_input">Password</label>
+      <input
+        type="password"
+        id="password_input"
+        name="password_delete_account"
+        value=""
+      />
+    </div>
+    <button aria-label="delete Account">Delete Account</button>
+  </form>
+</div>
+
 <form action="/logout" method="POST" class="logout-form">
   <button>Logout</button>
 </form>
@@ -133,6 +152,10 @@
   }
   .logout-form {
     margin-top: 1.5rem;
+  }
+
+  .error {
+    font-size: var(--medium-font);
   }
 
   select {

@@ -4,10 +4,11 @@ import {
   change_name,
   change_password,
   change_theme,
+  delete_account,
 } from "$lib/server/account";
 import { User_Model } from "$lib/server/models";
 import { cookie_options } from "$lib/server/utils";
-import { fail, type Actions } from "@sveltejs/kit";
+import { fail, redirect, type Actions } from "@sveltejs/kit";
 import type { PageServerLoad } from "../$types";
 
 export const load: PageServerLoad = async (event) => {
@@ -97,5 +98,23 @@ export const actions: Actions = {
     const message = `Your theme settings got changed`;
 
     return { message, theme_settings };
+  },
+  delete_account: async (event) => {
+    const data = await event.request.formData();
+    const password = data.get("password_delete_account") as string;
+
+    const update = await delete_account(event.cookies, password);
+
+    if ("error" in update) {
+      return fail(400, { error: update.error });
+    }
+
+    if (update.account_deleted == true) {
+      throw redirect(301, "/logout");
+    }
+
+    const message = update.message;
+
+    return { message };
   },
 };
