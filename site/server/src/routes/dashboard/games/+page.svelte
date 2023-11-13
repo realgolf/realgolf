@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { enhance } from "$app/forms";
   import { afterUpdate, onMount } from "svelte";
   import type { ActionData } from "./$types.js";
   import { teams } from "./teams";
@@ -78,7 +77,7 @@
 
 <h2>You have saved: {data.games.length} games in the database.</h2>
 
-<form action="?/delete_all" method="POST" use:enhance autocomplete="off">
+<form action="?/delete_all" method="POST" autocomplete="off">
   <button>Delete All</button>
 </form>
 
@@ -113,7 +112,7 @@
   {/if}
   {#each filteredGames as game (game.id)}
     <div>
-      <form action="?/rename" method="POST" use:enhance>
+      <form action="?/rename" method="POST">
         <input
           type="text"
           name="name"
@@ -128,7 +127,7 @@
       <p>{game.data}</p>
       <p class="error">Please only paste the data in {game.teams}!</p>
       <button on:click={() => copyData(game.data)}>Copy Data</button>
-      <form action="?/delete_game" method="POST" autocomplete="off" use:enhance>
+      <form action="?/delete_game" method="POST" autocomplete="off">
         <input class="hidden" type="text" name="id" value={game.id} />
         <button>Delete Game</button>
       </form>
