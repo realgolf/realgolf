@@ -55,11 +55,13 @@ export const actions: Actions = {
   },
   password: async (event) => {
     const data = await event.request.formData();
-    const password = data.get("password") as string;
-    const verified_password = password;
+    const current_password = data.get("current_password") as string;
+    const new_password = data.get("new_password") as string;
+    const verified_password = data.get("confirm_password") as string;
     const update = await change_password(
       event.cookies,
-      password,
+      current_password,
+      new_password,
       verified_password
     );
 
@@ -109,7 +111,7 @@ export const actions: Actions = {
       return fail(400, { error: update.error });
     }
 
-    if (update.account_deleted == true) {
+    if (update.account_deleted) {
       throw redirect(301, "/logout");
     }
 
