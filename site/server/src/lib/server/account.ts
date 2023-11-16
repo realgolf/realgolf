@@ -99,31 +99,25 @@ export async function change_password(
 
   if (!valid_current_password) {
     return { error: "Invalid current password" };
-  } else if(    new_password == current_password) {
+  } else if (new_password == current_password) {
+    return { error: "New password cannot be the same as the old one" };
+  } else if (new_password == verified_password) {
+    const password_error = verify_password(new_password, verified_password);
 
-      return { error: "New password cannot be the same as the old one" };
-    } else if (new_password == verified_password) {
-        const password_error =  verify_password(
-          new_password,
-          verified_password
-        );
-
-        if (password_error) {
-          return { error: password_error };
-        }
-
-        if (!user) {
-          return { error: "User could not be found" };
-        }
-
-        const saltRounds = 10;
-        const hashed_password = await bcrypt.hash(new_password, saltRounds);
-
-        user.user.password = hashed_password;
-      } else {
-        return { error: "Passwords do not match" };
-      }
+    if (password_error) {
+      return { error: password_error };
     }
+
+    if (!user) {
+      return { error: "User could not be found" };
+    }
+
+    const saltRounds = 10;
+    const hashed_password = await bcrypt.hash(new_password, saltRounds);
+
+    user.user.password = hashed_password;
+  } else {
+    return { error: "Passwords do not match" };
   }
 
   try {
