@@ -9,20 +9,39 @@
   export let data;
 
   onMount(() => {
-    const passwordInput = document.getElementById(
-      "password_input"
+    const newPasswordInput = document.getElementById(
+      "new_password_input"
+    ) as HTMLInputElement;
+    const currentPasswordInput = document.getElementById(
+      "current_password_input"
+    ) as HTMLInputElement;
+    const confirmPasswordInput = document.getElementById(
+      "confirm_password_input"
     ) as HTMLInputElement;
 
     const toggleButton = document.getElementById("toggle_password");
 
-    if (toggleButton && passwordInput) {
+    if (
+      toggleButton &&
+      newPasswordInput &&
+      currentPasswordInput &&
+      confirmPasswordInput
+    ) {
       toggleButton.addEventListener("click", function (event) {
         event.preventDefault(); // Prevent form submission
 
-        if (passwordInput.type === "password") {
-          passwordInput.type = "text";
+        if (
+          newPasswordInput.type === "password" &&
+          currentPasswordInput.type === "password" &&
+          confirmPasswordInput.type === "password"
+        ) {
+          newPasswordInput.type = "text";
+          currentPasswordInput.type = "text";
+          confirmPasswordInput.type = "text";
         } else {
-          passwordInput.type = "password";
+          newPasswordInput.type = "password";
+          currentPasswordInput.type = "password";
+          confirmPasswordInput.type = "password";
         }
       });
     }
@@ -75,7 +94,33 @@
     >
       <div>
         <label for="password_input">Password</label>
-        <input type="password" id="password_input" name="password" value="" />
+        <div>
+          <label for="current_password_input">Current Password</label>
+          <input
+            type="password"
+            id="current_password_input"
+            name="current_password"
+            value=""
+          />
+        </div>
+        <div>
+          <label for="new_password_input">New Password</label>
+          <input
+            type="password"
+            id="new_password_input"
+            name="new_password"
+            value=""
+          />
+        </div>
+        <div>
+          <label for="confirm_password_input">Confirm Password</label>
+          <input
+            type="password"
+            id="confirm_password_input"
+            name="confirm_password"
+            value=""
+          />
+        </div>
       </div>
 
       <div>

@@ -78,9 +78,10 @@ export async function change_email(
 
 export async function change_password(
   cookies: Cookies,
-  password: string,
+  current_password: string,
+  new_password: string,
   verified_password: string
-): Promise<{ error: string } | { password: string }> {
+): Promise<{ error: string } | { new_password: string }> {
   const auth = authenticate(cookies);
 
   if (!auth) {
@@ -89,26 +90,39 @@ export async function change_password(
 
   const { id } = auth;
 
-  const password_error = await verify_password(password, verified_password);
-
-  if (password_error) {
-    return { error: password_error };
-  }
-
   const user = await User_Model.findOne({ _id: id });
 
-  if (!user) {
-    return { error: "User could not be found" };
+  const valid_current_password = (await bcrypt.compare(
+    current_password,
+    user.user.password
+  )) as unknown as boolean;
+
+  if (!valid_current_password) {
+    return { error: "Invalid current password" };
+  } else if (new_password == current_password) {
+    return { error: "New password cannot be the same as the old password" };
+  } else if (new_password == verified_password) {
+    const password_error = verify_password(new_password, verified_password);
+
+    if (password_error) {
+      return { error: password_error };
+    }
+
+    if (!user) {
+      return { error: "User could not be found" };
+    }
+
+    const saltRounds = 10;
+    const hashed_password = await bcrypt.hash(new_password, saltRounds);
+
+    user.user.password = hashed_password;
+  } else {
+    return { error: "Passwords do not match" };
   }
-
-  const saltRounds = 10;
-  const hashed_password = await bcrypt.hash(password, saltRounds);
-
-  user.user.password = hashed_password;
 
   try {
     await user.save();
-    return { password };
+    return {new_password};
   } catch (err) {
     return { error: err as string };
   }
