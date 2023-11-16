@@ -100,7 +100,7 @@ export async function change_password(
   if (!valid_current_password) {
     return { error: "Invalid current password" };
   } else if (new_password == current_password) {
-    return { error: "New password cannot be the same as the old one" };
+    return { error: "New password cannot be the same as the old password" };
   } else if (new_password == verified_password) {
     const password_error = verify_password(new_password, verified_password);
 
