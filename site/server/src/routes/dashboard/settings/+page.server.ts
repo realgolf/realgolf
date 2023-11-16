@@ -60,8 +60,8 @@ export const actions: Actions = {
     const verified_password = data.get("confirm_password") as string;
     const update = await change_password(
       event.cookies,
-      new_password,
       current_password,
+      new_password,
       verified_password
     );
 
@@ -111,7 +111,7 @@ export const actions: Actions = {
       return fail(400, { error: update.error });
     }
 
-    if (update.account_deleted == true) {
+    if (update.account_deleted) {
       throw redirect(301, "/logout");
     }
 
