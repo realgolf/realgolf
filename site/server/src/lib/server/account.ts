@@ -81,7 +81,7 @@ export async function change_password(
   current_password: string,
   new_password: string,
   verified_password: string
-): Promise<{ error: string } | { password: string }> {
+): Promise<{ error: string } | { new_password: string }> {
   const auth = authenticate(cookies);
 
   if (!auth) {
@@ -92,10 +92,10 @@ export async function change_password(
 
   const user = await User_Model.findOne({ _id: id });
 
-  const valid_current_password = await bcrypt.compare(
+  const valid_current_password = (await bcrypt.compare(
     current_password,
     user.user.password
-  );
+  )) as unknown as boolean;
 
   if (!valid_current_password) {
     return { error: "Invalid current password" };
@@ -122,7 +122,7 @@ export async function change_password(
 
   try {
     await user.save();
-    return new_password;
+    return {new_password};
   } catch (err) {
     return { error: err as string };
   }
