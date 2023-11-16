@@ -55,11 +55,13 @@ export const actions: Actions = {
   },
   password: async (event) => {
     const data = await event.request.formData();
-    const password = data.get("password") as string;
-    const verified_password = password;
+    const current_password = data.get("current_password") as string;
+    const new_password = data.get("new_password") as string;
+    const verified_password = data.get("confirm_password") as string;
     const update = await change_password(
       event.cookies,
-      password,
+      new_password,
+      current_password,
       verified_password
     );
 
