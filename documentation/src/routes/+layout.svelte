@@ -6,10 +6,6 @@
 	import '$lib/scss/app.scss';
 </script>
 
-<svelte:head>
-  <link rel="icon" href="/golf.PNG" />
-</svelte:head>
-
 <LoadProgress />
 <ScrollUp />
 <Nav />
