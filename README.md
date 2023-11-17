@@ -13,11 +13,11 @@
 
 ## Dashboard
 
-![Dashboard](./images/dashboard.png)
+![Dashboard](./readme/images/dashboard.png)
 
 ## Games Tab
 
-![Games Tab](./images/games.png)
+![Games Tab](./readme/images/games.png)
 
 ## What is Golf Games
 
@@ -27,10 +27,10 @@ which is a JavaScript Framework and the full stack Verison of [Svelte](https://s
 
 ## Further Informations
 
-[FAQ](./readme/FAQ.md)  
-[Why did I decide to develop Golf Games](./readme/why-did-I-decide-to-develop-golf-games.md)  
-[Credits](./readme/Credits.md)  
-[What is Golf Games About?](./readme/What-is-Golf-Games-about.md)
+[FAQ](./readme/src/FAQ.md)  
+[Why did I decide to develop Golf Games](./readme/src/why-did-I-decide-to-develop-golf-games.md)  
+[Credits](./readme/src/Credits.md)  
+[What is Golf Games About?](./readme/src/What-is-Golf-Games-about.md)
 
 ## Copyright
 
