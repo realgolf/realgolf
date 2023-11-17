@@ -11,7 +11,6 @@
     faInfoCircle,
     faKey,
     faLock,
-    faPlaneUp,
     faSave,
     faTh,
     faWrench,
@@ -94,6 +93,9 @@
     {/if}
     <div class="external-links row border-bottom">
       <a href="/faq"><span><Fa icon={faQuestionCircle} /></span>FAQ</a>
+      <a href="https://docs.golf.moinjulian.com"
+        ><span><Fa icon={faBook} /></span>Documentation</a
+      >
     </div>
     <div class="copyright row border-bottom">
       <p><a href="/imprint"><Fa icon={faGavel} /> Imprint</a></p>
