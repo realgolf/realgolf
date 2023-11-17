@@ -7,6 +7,11 @@
 ![Recent Pull Requests](https://img.shields.io/github/issues-pr/moinjulian/golf)
 ![Open Issues](https://img.shields.io/github/issues-raw/moinjulian/golf)
 
+## Licensing
+
+The Games are Licensend under the [All Rights Reserved](/LICENSE.md) License  
+The Documentations are open source and Licensend under the [MIT](/documentation/LICENSE.md) License
+
 ## Sites
 
 [Golf Games](https://golf.moinjulian.com)
