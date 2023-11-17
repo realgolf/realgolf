@@ -1,2 +1,20 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+</script>
+
+<svelte:head>
+	<title>Offizielles Golf Regelwerk</title>
+</svelte:head>
+
+<div class="heading">
+	<h1>Offizielles Golf Regelwerk</h1>
+	<p class="grey">Diese Seite zeigt alle offiziellen Golf Regeln des DGV's</p>
+</div>
+
+<style lang="scss">
+	.heading {
+		.grey {
+			color: grey;
+			font-size: 1.5rem;
+		}
+	}
+</style>
