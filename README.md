@@ -13,6 +13,11 @@ The Games are Licensend under the [All Rights Reserved](/LICENSE.md) License.
 
 The Documentations and Golf Rules are open source and Licensend under the [MIT](/documentation/LICENSE.md) License.
 
+## Documentation
+
+The Documentation and any other Information about this Project can be found here:
+[Golf Games Documentation](https://docs.golf.moinjulian.com)
+
 ## Sites
 
 [Golf Games](https://golf.moinjulian.com)
