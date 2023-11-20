@@ -9,3 +9,7 @@ updates:
     directory: "site/server/"
     schedule:
       interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "documentation"
+    schedule:
+      interval: "daily"
