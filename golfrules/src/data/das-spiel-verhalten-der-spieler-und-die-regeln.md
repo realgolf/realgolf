@@ -106,7 +106,7 @@ verantwortlich, die Regeln auf sich anzuwenden.
   eines Orts zur Anwendung der Regeln.
 - Viele Regeln verlangen vom Spieler, eine Stelle, einen Punkt, eine Linie, einen
   Bereich oder einen anderen Ort nach den Regeln zu bestimmen, zum Beispiel
-  beim
+  beim:
   > Schätzen, wo ein Ball zuletzt die Grenze einer Penalty Area überquert hat,
   >
   > Schätzen oder Messen, wenn ein Ball bei einem Erleichterungsverfahren
@@ -169,3 +169,40 @@ Regeln vorgesehen anzuwenden.
 Im Lochspiel dürfen der Spieler und sein Gegner übereinkommen, wie ein
 Regelfall zu entscheiden ist, solange sie nicht absichtlich übereinkommen, die
 Regeln falsch anzuwenden (siehe Regel 20.1b(1)).
+
+#### (4) Strafen bei mehrfachem Regelverstoß. Verstößt ein Spieler gegen mehrere
+
+Regeln gleichzeitig oder verstößt mehrfach gegen dieselbe Regel, bevor
+etwas anderes geschieht (zum Beispiel das Ausführen eines Schlags oder das
+Feststellen des Regelverstoßes), hängt die Strafe davon ab, was der Spieler
+getan hat:
+
+- Verstöße aus nicht zusammenhängenden Handlungen. Der Spieler zieht sich
+  für jeden Regelverstoß die jeweilige Strafe zu.
+- Verstöße aus einer einzelnen Handlung oder zusammenhängenden
+  Handlungen. Der Spieler zieht sich nur eine Strafe zu; aber wenn die Handlung
+  oder die Handlungen gegen mehrere Regeln mit unterschiedlichen Strafen
+  verstießen, fällt die jeweils höhere Strafe an, zum Beispiel:
+
+  - Mehrfache Verstöße gegen ein Verfahren. Verstößt der Spieler mit einer
+    einzelnen Handlung oder zusammenhängenden Handlungen gegen
+    mehr als eine Anforderung zum Verfahren des Markierens, Aufnehmens,
+    Reinigens, Droppens, Zurücklegens oder Hinlegens eines Balls, bei dem
+    die Strafe ein Strafschlag ist, zum Beispiel das Aufnehmen des Balls ohne
+    Markieren oder das unerlaubte Reinigen des aufgenommenen Balls, zieht
+    sich der Spieler insgesamt einen Strafschlag zu.
+  - Fälschlich neu eingesetzten Ball vom falschen Ort spielen. Setzt ein Spieler
+    im Zählspiel unter Verstoß gegen Regel 6.3b einen Ball neu ein und spielt er
+    diesen Ball unter Verstoß gegen Regel 14.7a von einem falschen Ort, zieht
+    sich der Spieler insgesamt zwei Strafschläge zu.
+  - Gemeinsame Verfahrensverstöße und Verstöße zum Ersetzen /
+    falscher Ort. Verstößt der Spieler mit einer einzelnen Handlung oder
+    zusammenhängenden Handlungen im Zählspiel gegen eine oder mehrere
+    Anforderungen zum Verfahren, bei denen die Strafe ein Strafschlag ist und
+    verstößt er gleichzeitig gegen eine oder beide Regeln, indem er regelwidrig
+    einen Ball neu einsetzt und vom falschen Ort spielt, zieht sich er sich
+    insgesamt zwei Strafschläge zu.
+
+  **Aber:** Jeder Strafschlag, den sich ein Spieler bei einem Erleichterungsverfahren
+  zuzieht (zum Beispiel ein Strafschlag nach den Regeln 17.1, 18.1 und 19.2), fällt
+  immer zusätzlich zu jeder anderen Strafe an.
