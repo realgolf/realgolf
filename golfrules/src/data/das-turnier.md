@@ -160,7 +160,7 @@ oder das Lochspiel schenken:
 - Loch schenken. Dies ist zu jeder Zeit erlaubt, bevor das Loch beendet ist
   (siehe [Regel 6.5](#)), auch vor Beginn des Lochs.
 - Lochspiel schenken. Dies ist zu jeder Zeit erlaubt, bevor das Ergebnis des
-  Lochspiels feststeht (siehe [Regel 3.2a(3)](#) und [(4)](#)), auch vor Beginn des
+  Lochspiels feststeht (siehe [Regel 3.2a(3)](<#(3)-lochspiel-gewinnen.>) und [(4)](<#(4)-verlängerung-eines-geteilten-lochspiels.>)), auch vor Beginn des
   Lochspiels.
 
 #### (2) Wie geschenkt wird.
@@ -205,7 +205,7 @@ macht:
   auf der Scorekarte zu finden) Vorgabenschläge gewährt oder erhält.
   Wenden Spieler die Vorgabenschläge an einem Loch fälschlicherweise an, gilt
   das vereinbarte Ergebnis für das Loch, es sei denn, die Spieler berichtigen den
-  Fehler rechtzeitig (siehe [Regel 3.2d(3)](#3.2d-verantwortlichkeiten-von-spieler-und-gegner)).
+  Fehler rechtzeitig (siehe [Regel 3.2d(3)](<#(3)-kenntnis-über-den-spielstand-im-lochspiel.>)).
 
 ### 3.2d Verantwortlichkeiten von Spieler und Gegner
 
@@ -237,7 +237,7 @@ wird,
     vergleichbare Handlung ausführt (zum Beispiel das nächste Loch oder das
     Lochspiel schenkt) oder
   - am letzten Loch des Lochspiels, bevor das Ergebnis des Lochspiels
-    feststeht (siehe [Regel 3.2a(5)](#3.2a-ergebnis-des-lochs-und-des-lochspiels)).
+    feststeht (siehe [Regel 3.2a(5)](<#(5)-wann-ein-ergebnis-endgültig-ist.>)).
     Ausnahme – keine Strafe, wenn ohne Einfluss auf Ergebnis des Lochs: Es ist
     straflos, wenn der Spieler eine falsche Schlagzahl angibt, nachdem das Loch
     beendet ist und dies das Verständnis des Gegners, ob er das Loch gewonnen,
@@ -274,6 +274,26 @@ geeinigt haben
 
 - können sie den Spielstand des Lochspiels berichtigen, bevor einer der beiden
   Spieler schlägt, um das nächste Loch zu beginnen oder, wenn es sich um das
-  letzte Loch handelt, bevor das Ergebnis des Lochs endgültig ist (siehe [Regel 3.2a(5)](#3.2a-ergebnis-des-lochs-und-des-lochspiels)).
+  letzte Loch handelt, bevor das Ergebnis des Lochs endgültig ist (siehe [Regel 3.2a(5)](<#(5)-wann-ein-ergebnis-endgültig-ist.>)).
 - Wird der falsche Spielstand des Lochspiels nicht in diesem Zeitraum
   berichtigt, wird er zum gültigen Spielstand des Lochspiels.
+
+**Ausnahme – Spieler verlangt rechtzeitig eine Regelentscheidung:** Verlangt der
+Spieler rechtzeitig eine Regelentscheidung (siehe Regel 20.1b) und stellt sich
+heraus, dass der Gegner entweder (1) eine falsche Schlagzahl angegeben oder
+(2) versäumt hat, den Spieler über eine Strafe zu informieren, muss der falsche
+Spielstand des Lochspiels berichtigt werden.
+
+#### (4) Eigene Rechte und Interessen schützen.
+
+Spieler in einem Lochspiel sollten ihre eigenen Rechte und Interessen nach den Regeln wahren:
+
+- Glaubt oder weiß der Spieler, dass der Gegner sich für einen Regelverstoß eine
+  Strafe zugezogen hat, kann der Spieler für sich entscheiden, auf den Verstoß
+  zu reagieren oder ihn nicht zu beachten.
+- **Aber:** Kommen Spieler und Gegner absichtlich überein, einen Regelverstoß
+  oder eine ihnen bekannte anzuwendende Strafe außer acht zu lassen, sind
+  beide Spieler nach [Regel 1.3b](das-spiel-verhalten-der-spieler-und-die-regeln#1.3b-anwendung-der-regeln) disqualifiziert.
+- Sind Spieler und Gegner uneinig darüber, ob einer von ihnen gegen eine Regel
+  verstoßen hat, kann jeder der beiden seine Rechte schützen, indem er nach
+  Regel 20.1b eine Regelentscheidung verlangt.
