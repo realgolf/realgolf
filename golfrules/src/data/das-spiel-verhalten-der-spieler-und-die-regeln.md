@@ -49,7 +49,7 @@ das heißt,
   Ansicht gelangt, dass der Spieler ein schwerwiegendes Fehlverhalten begangen hat.
   Für ein Fehlverhalten des Spielers dürfen nur dann andere Strafen als
   die Disqualifikation verhängt werden, wenn diese Strafen als Teil der
-  Verhaltensvorschriften nach Regel 1.2b erlassen werden.
+  Verhaltensvorschriften nach [Regel 1.2b](#1.2b-verhaltensvorschriften) erlassen werden.
 
   ### 1.2b Verhaltensvorschriften
 
@@ -149,7 +149,7 @@ verantwortlich, die Regeln auf sich anzuwenden.
    Vorteil größer ist als der, bei dem nur ein Strafschlag verhängt wird.
 3. **Disqualifikation:** Sowohl im Lochspiel als auch im Zählspiel kann ein
    Spieler für bestimmte Handlungen oder Regelverstöße, einschließlich
-   schwerwiegenden Fehlverhaltens (siehe Regel 1.2), oder, wenn ein möglicher
+   schwerwiegenden Fehlverhaltens (siehe [Regel 1.2](#1.2-richtlinien-für-das-verhalten-von-spielern)), oder, wenn ein möglicher
    Vorteil zu groß ist, um das Spielergebnis als gültig anzuerkennen, für das
    Turnier disqualifiziert werden.
 
