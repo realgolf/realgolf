@@ -136,14 +136,18 @@
       const teamColor = currentTeam.color;
       const cellKey = `${teamColor}_${cellId}`;
 
+      console.log(hitCounts[cellKey]);
+
       if (!hitCounts[cellKey]) {
         hitCounts[cellKey] = 1;
+        showNumberofClicks(hitCounts);
       } else {
         hitCounts[cellKey] += 1;
+        showNumberofClicks(hitCounts);
       }
 
       if (hitCounts[cellKey] === 4) {
-        FourTimesWin(cellId, teamColor);
+        FourTimesWin(cellId, teamColor, hitCounts);
       }
     }
   }
@@ -154,7 +158,12 @@
    * @param teamColor
    */
 
-  function FourTimesWin(cellId: string, teamColor: string) {
+  function FourTimesWin(
+    cellId: string,
+    teamColor: string,
+    hitCounts: number | Record<string, number>
+  ) {
+    showNumberofClicks(hitCounts);
     const confirmed = confirm(
       `Cell ${cellId} has been hit four times by ${teamColor} team!`
     );
@@ -285,6 +294,13 @@
     return false;
   }
 
+  let numberOfClicks: string;
+
+  function showNumberofClicks(hitCounts: number | Record<string, number>) {
+    numberOfClicks = JSON.stringify(hitCounts);
+    return numberOfClicks;
+  }
+
   /**
    * The next to function restart the game, without reloading the page.
    */
@@ -308,7 +324,7 @@
     });
 
     hitCounts = {};
-
+    numberOfClicks = undefined as unknown as string;
     currentTeamIndex = 0;
     currentTeam = teams[currentTeamIndex];
     color = currentTeam.color;
@@ -335,7 +351,7 @@
     });
 
     hitCounts = {};
-
+    numberOfClicks = undefined as unknown as string;
     currentTeamIndex = 0;
     currentTeam = teams[currentTeamIndex];
     color = currentTeam.color;
@@ -569,6 +585,15 @@
     </tbody>
   {/each}
 </table>
+
+<details>
+  <summary>Number Clicks for each Field</summary>
+  {#if numberOfClicks == undefined}
+    <p>You first need to hit a field at leats one time</p>
+  {:else}
+    {numberOfClicks}
+  {/if}
+</details>
 
 <style>
   .meters,
