@@ -420,3 +420,17 @@ Netto-Turnier anzurechnen.
 Es ist straflos, wenn ein Spieler eine Scorekarte einreicht, in der die Ergebnisse
 fehlerhaft zusammengezählt oder die Vorgabenschläge falsch berücksichtigt
 sind.
+
+### 3.3c Nicht eingelocht
+
+Ein Spieler muss an jedem Loch einer Runde einlochen. Locht ein Spieler an einem
+Loch nicht ein
+
+- muss der Spieler diesen Fehler berichtigen, bevor er das nächste Loch beginnt
+  oder am letzten Loch der Runde, bevor er die Scorekarte einreicht.
+- Wird der Fehler nicht rechtzeitig berichtigt, ist der Spieler **disqualifiziert**.
+
+**Siehe Regeln 21.1, 21.2 und 21.3** (Regeln für andere Spielformen des Zählspiels
+(Stableford, Maximum Score und Par / Bogey), bei denen das Spielergebnis
+abweichend ermittelt wird und ein Spieler nicht disqualifiziert wird, wenn er nicht
+einlocht.
