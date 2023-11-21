@@ -1,11 +1,14 @@
 <script>
 	import { faCodePullRequest } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
+	import DieGrundlagenDesSpieles from './Footer/die-grundlagen-des-spieles.svelte';
 </script>
 
 <footer>
 	<div class="content">
-		<section class="parts"></section>
+		<section class="parts">
+			<DieGrundlagenDesSpieles></DieGrundlagenDesSpieles>
+		</section>
 
 		<h3>Hilfe und Support</h3>
 		<section class="info">
