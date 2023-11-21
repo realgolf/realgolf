@@ -2,11 +2,32 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta property="og:title" content="Golf Games Docs" />
+		<meta property="og:image" content="%sveltekit.assets%/golf.PNG" />
+		<meta name="description" content="This are the Documentation for the Golf Games" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" href="%sveltekit.assets%/golf.PNG" />
+		<link rel="manifest" href="%sveltekit.assets%/manifest/manifest.json" />
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="%sveltekit.assets%/manifest/apple-touch-icon-180x180.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="152x152"
+			href="%sveltekit.assets%/manifest/apple-touch-icon-152x152.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="120x120"
+			href="%sveltekit.assets%/manifest/apple-touch-icon-120x120.png"
+		/>
+
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
+		<script src="%sveltekit.assets%/darkmode.js"></script>
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>
