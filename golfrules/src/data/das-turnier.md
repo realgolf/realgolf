@@ -18,9 +18,9 @@ Regel 3 bestimmt die drei wesentlichen Bestandteile aller Golfturniere:
 
 #### (1) Lochspiel oder Zählspiel sind sehr unterschiedliche Spielformen:
 
-- Im Lochspiel (siehe Regel 3.2) spielen ein Spieler und ein Gegner gegeneinander
+- Im Lochspiel (siehe [Regel 3.2](#3.2-lochspiel)) spielen ein Spieler und ein Gegner gegeneinander
   auf der Grundlage gewonnener, verlorener oder geteilter Löcher.
-- In der Grundform des Zählspiels (siehe Regel 3.3) stehen alle Spieler im
+- In der Grundform des Zählspiels (siehe [Regel 3.3]()) stehen alle Spieler im
   Wettbewerb miteinander auf der Grundlage des Gesamtergebnisses jedes
   Spielers, das heißt, der Summe aller Schläge des Spielers (gespielte Schläge
   einschließlich Strafschläge) auf jedem Loch aller Runden.
@@ -34,10 +34,10 @@ zwei Spielformen in einer Runde kombiniert.
 
 #### (2) Andere Formen des Zählspiels.
 
-Regel 21 behandelt andere Spielformen
+[Regel 21](#) behandelt andere Spielformen
 des Zählspiels (Stableford, Maximum Score, Par / Bogey), bei denen die
 Spielergebnisse auf jeweils unterschiedliche Weise ermittelt werden. Die Regeln
-1-20 gelten für diese Spielformen mit den in Regel 21 genannten Änderungen.
+1-20 gelten für diese Spielformen mit den in [Regel 21](#) genannten Änderungen.
 
 ### 3.1b Wie Spieler gegeneinander antreten: einzelne Spieler oder Partner
 
@@ -47,9 +47,9 @@ gemeinsam als eine Partei.
 Die Regeln 1-20 beziehen sich grundsätzlich auf das Spiel einzelner Spieler; sie
 gelten aber auch:
 
-- in Turnieren mit Partnern (Vierer und Vierball), mit den in Regel 22 und 23
+- in Turnieren mit Partnern (Vierer und Vierball), mit den in [Regel 22](#) und [23](#)
   genannten Änderungen und
-- in Mannschaftsturnieren, mit den in Regel 24 genannten Änderungen.
+- in Mannschaftsturnieren, mit den in [Regel 24](#) genannten Änderungen.
 
 ### 3.1c Wie Spieler Ergebnisse erzielen: Brutto-Ergebnisse oder Netto-Ergebnisse
 
@@ -93,7 +93,7 @@ zu teilen und wird der Ball absichtlich von einer Person zu einem Zeitpunkt
 abgelenkt oder aufgehalten, an dem es unwahrscheinlich ist, dass der Ball
 eingelocht werden kann (zum Beispiel, wenn der Ball am Loch vorbei gerollt ist
 und von dort nicht zurückrollen wird), ist das Loch entschieden und der Spieler
-gewinnt das Loch (siehe Regel 11.2a, Ausnahme).
+gewinnt das Loch (siehe [Regel 11.2a](#), Ausnahme).
 
 #### (2) Loch teilen.
 
@@ -120,7 +120,7 @@ Ein Spieler gewinnt ein Lochspiel, wenn
 Ist das Lochspiel nach dem letzten Loch geteilt
 
 - wird es solange um jeweils ein Loch verlängert, bis ein Gewinner feststeht.
-  Siehe Regel 5.1 (ein verlängertes Lochspiel ist die Fortsetzung derselben
+  Siehe [Regel 5.1](#) (ein verlängertes Lochspiel ist die Fortsetzung derselben
   Runde und keine neue Runde),
 - werden die Löcher in der gleichen Reihenfolge gespielt wie in der Runde, es sei
   denn, die Spielleitung legt eine andere Reihenfolge fest.
@@ -158,9 +158,9 @@ oder das Lochspiel schenken:
     geschieht, den nächsten Schlag zu schenken und es unwahrscheinlich ist,
     dass der Ball eingelocht wird.
 - Loch schenken. Dies ist zu jeder Zeit erlaubt, bevor das Loch beendet ist
-  (siehe Regel 6.5), auch vor Beginn des Lochs.
+  (siehe [Regel 6.5](#)), auch vor Beginn des Lochs.
 - Lochspiel schenken. Dies ist zu jeder Zeit erlaubt, bevor das Ergebnis des
-  Lochspiels feststeht (siehe Regel 3.2a(3) und (4)), auch vor Beginn des
+  Lochspiels feststeht (siehe [Regel 3.2a(3)](#) und [(4)](#)), auch vor Beginn des
   Lochspiels.
 
 #### (2) Wie geschenkt wird.
@@ -175,7 +175,7 @@ Schenken gilt nur, wenn es unmissverständlich zum Ausdruck gebracht wird:
   Aussage oder Handlung des Spielers das Schenken des nächsten Schlags,
   des Lochs oder des Lochspiels darstellte, ist dies straflos und der Ball muss
   an seine ursprüngliche Stelle zurückgelegt werden (die, wenn nicht bekannt,
-  geschätzt werden muss) (siehe Regel 14.2).
+  geschätzt werden muss) (siehe [Regel 14.2](#)).
   Schenken ist endgültig und kann weder zurückgewiesen noch widerrufen werden.
 
 ### 3.2c Anwendung der Handicaps in Netto-Lochspielen
@@ -205,7 +205,7 @@ macht:
   auf der Scorekarte zu finden) Vorgabenschläge gewährt oder erhält.
   Wenden Spieler die Vorgabenschläge an einem Loch fälschlicherweise an, gilt
   das vereinbarte Ergebnis für das Loch, es sei denn, die Spieler berichtigen den
-  Fehler rechtzeitig (siehe Regel 3.2d(3)).
+  Fehler rechtzeitig (siehe [Regel 3.2d(3)](#3.2d-verantwortlichkeiten-von-spieler-und-gegner)).
 
 ### 3.2d Verantwortlichkeiten von Spieler und Gegner
 
@@ -237,7 +237,7 @@ wird,
     vergleichbare Handlung ausführt (zum Beispiel das nächste Loch oder das
     Lochspiel schenkt) oder
   - am letzten Loch des Lochspiels, bevor das Ergebnis des Lochspiels
-    feststeht (siehe Regel 3.2a(5)).
+    feststeht (siehe [Regel 3.2a(5)](#3.2a-ergebnis-des-lochs-und-des-lochspiels)).
     Ausnahme – keine Strafe, wenn ohne Einfluss auf Ergebnis des Lochs: Es ist
     straflos, wenn der Spieler eine falsche Schlagzahl angibt, nachdem das Loch
     beendet ist und dies das Verständnis des Gegners, ob er das Loch gewonnen,
@@ -274,7 +274,6 @@ geeinigt haben
 
 - können sie den Spielstand des Lochspiels berichtigen, bevor einer der beiden
   Spieler schlägt, um das nächste Loch zu beginnen oder, wenn es sich um das
-  letzte Loch handelt, bevor das Ergebnis des Lochs endgültig ist (siehe Regel
-  3.2a(5)).
+  letzte Loch handelt, bevor das Ergebnis des Lochs endgültig ist (siehe [Regel 3.2a(5)](#3.2a-ergebnis-des-lochs-und-des-lochspiels)).
 - Wird der falsche Spielstand des Lochspiels nicht in diesem Zeitraum
   berichtigt, wird er zum gültigen Spielstand des Lochspiels.
