@@ -294,6 +294,13 @@
     return false;
   }
 
+  let numberOfClicks: string;
+
+  function showNumberofClicks(hitCounts: number | Record<string, number>) {
+    numberOfClicks = JSON.stringify(hitCounts);
+    return numberOfClicks;
+  }
+
   /**
    * The next to function restart the game, without reloading the page.
    */
@@ -317,7 +324,7 @@
     });
 
     hitCounts = {};
-
+    numberOfClicks = undefined as unknown as string;
     currentTeamIndex = 0;
     currentTeam = teams[currentTeamIndex];
     color = currentTeam.color;
@@ -344,7 +351,7 @@
     });
 
     hitCounts = {};
-
+    numberOfClicks = undefined as unknown as string;
     currentTeamIndex = 0;
     currentTeam = teams[currentTeamIndex];
     color = currentTeam.color;
@@ -542,13 +549,6 @@
       updateTeamTurn();
     }
   });
-
-  let numberOfClicks: string;
-
-  function showNumberofClicks(hitCounts: number | Record<string, number>) {
-    numberOfClicks = JSON.stringify(hitCounts);
-    return numberOfClicks;
-  }
 </script>
 
 <svelte:head>
