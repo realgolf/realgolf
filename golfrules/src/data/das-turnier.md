@@ -297,3 +297,126 @@ Spieler in einem Lochspiel sollten ihre eigenen Rechte und Interessen nach den R
 - Sind Spieler und Gegner uneinig darüber, ob einer von ihnen gegen eine Regel
   verstoßen hat, kann jeder der beiden seine Rechte schützen, indem er nach
   Regel 20.1b eine Regelentscheidung verlangt.
+
+## 3.3 Zählspiel
+
+**Zweck:**
+Zählspiel hat besondere Regeln (vor allem bezüglich der Scorekarte und des
+Einlochens) denn:
+
+- Jeder Spieler spielt gegen alle anderen Spieler des Turniers, und
+- alle Spieler müssen nach den Regeln gleich behandelt werden.
+
+Nach der Runde müssen der Spieler und der Zähler (der das Ergebnis des Spielers
+aufschreibt) bestätigen, dass die Ergebnisse des Spielers für jedes Loch richtig
+sind und der Spieler muss die Scorekarte bei der Spielleitung einreichen.
+
+### 3.3a Gewinner im Zählspiel
+
+Der Spieler gewinnt das Zählspiel, der alle Runden mit dem niedrigsten
+Gesamtergebnis (gespielte Schläge einschließlich Strafschläge) beendet.
+In einem Netto-Turnier gewinnt der Spieler mit den wenigsten Netto-Schlägen.
+
+**Siehe „Offizielles Handbuch“, Leitlinien für die Spielleitung, Abschnitt 5A(6)** (Die
+Ausschreibung sollte besagen, wie bei Gleichstand entschieden wird).
+
+### 3.3b Ergebnisse im Zählspiel
+
+Die Ergebnisse eines Spielers werden vom Zähler auf der Scorekarte des Spielers
+eingetragen. Der Zähler wird entweder von der Spielleitung bestimmt oder vom
+Spieler auf eine von der Spielleitung gebilligte Weise ausgewählt.
+Der Spieler muss für die ganze Runde denselben Zähler haben, es sei denn, die
+Spielleitung genehmigt entweder vorher oder nachträglich den Wechsel des Zählers.
+
+#### (1) Verantwortlichkeit des Zählers: Eintragen und Bestätigen der Ergebnisse der Löcher auf der Scorekarte.
+
+Während der Runde sollte der Zähler nach jedem Loch
+die Anzahl der Schläge (gespielte Schläge einschließlich Strafschläge) mit dem
+Spieler abklären und dieses Brutto-Ergebnis auf der Scorekarte eintragen.
+Nach dem Ende der Runde
+
+- muss der Zähler die Ergebnisse der Löcher auf der Scorekarte bestätigen.
+- Hatte der Spieler mehr als einen Zähler, muss jeder Zähler die Ergebnisse für
+  die Löcher bestätigen, an denen er der Zähler war.
+
+#### (2) Verantwortlichkeit des Spielers: Ergebnisse der Löcher bestätigen und
+
+Scorekarte einreichen. Während der Runde sollte der Spieler seine Ergebnisse für
+jedes Loch im Auge behalten.
+Nach dem Ende der Runde
+
+- sollte der Spieler die von seinem Zähler eingetragenen Ergebnisse an jedem
+  Loch sorgfältig prüfen und alle offenen Fragen mit der Spielleitung klären.
+- muss der Spieler sicherstellen, dass der Zähler die Ergebnisse der Löcher auf
+  der Scorekarte bestätigt.
+- darf der Spieler ein vom Zähler eingetragenes Lochergebnis nicht ändern,
+  es sei denn, die Änderung erfolgt mit Zustimmung des Zählers oder
+  Genehmigung der Spielleitung.
+- muss der Spieler die Lochergebnisse auf der Scorekarte bestätigen und sie
+  unverzüglich bei der Spielleitung einreichen. Danach darf der Spieler die
+  Scorekarte nicht mehr abändern.
+  Verstößt der Spieler gegen eine der Bestimmungen aus Regel 3.3b, ist er
+  **disqualifiziert**.
+
+**Ausnahme – Es ist straflos, wenn der Verstoß durch den Zähler bedingt war, derseinen Pflichten nicht nachkam:**
+Es ist straflos, wenn die Spielleitung zu der Ansicht
+kommt, dass der Verstoß des Spielers gegen Regel 3.3b(2) dadurch verursacht
+wurde, dass der Zähler versäumte, seinen Pflichten nachzukommen (zum Beispiel
+wenn der Zähler sich mit der Scorekarte des Spielers entfernte oder sich entfernte,
+ohne die Scorekarte zu bestätigen) und dies vom Spieler nicht zu verhindern war.
+
+**Siehe „Offizielles Handbuch“, Leitlinien für die Spielleitung, Abschnitt 5A(5)**
+(Empfehlungen, wie der Zeitpunkt der Rückgabe einer Scorekarte festgelegt
+werden kann).
+
+#### (3) Falsches Ergebnis für das Loch.
+
+Reicht der Spieler eine Scorekarte mit einem falschen Ergebnis für ein Loch ein, gilt:
+
+- Eingetragenes Ergebnis höher als tatsächliches Ergebnis. Das eingetragene
+  höhere Ergebnis für das Loch gilt.
+
+- Eingetragenes Ergebnis niedriger als tatsächliches Ergebnis oder kein
+  eingetragenes Ergebnis. Der Spieler ist **disqualifiziert**.
+
+**Ausnahme – Unbekannte Strafe nicht berücksichtigt:** Ist ein oder sind mehrere
+Lochergebnisse des Spielers niedriger als die tatsächlichen Ergebnisse, weil
+ein oder mehrere Strafschläge nicht berücksichtigt worden sind, von denen der
+Spieler nichts wusste, bevor er die Scorekarte zurückgab, gilt:
+
+- Der Spieler ist nicht disqualifiziert.
+- Wird der Fehler vor Abschluss des Turniers festgestellt, berichtigt die
+  Spielleitung das Ergebnis des Spielers für dieses Loch oder diese Löcher,
+  **indem die fehlenden Strafschläge** hinzugerechnet werden.
+
+Diese Ausnahme ist nicht anwendbar:
+
+- wenn die unberücksichtigte Strafe die Disqualifikation ist oder
+- wenn dem Spieler mitgeteilt wurde, dass er sich möglicherweise eine
+  Strafe zugezogen hatte oder wenn er nicht sicher war, ob er sich eine
+  Strafe zugezogen hatte und dies nicht vor Rückgabe der Scorekarte mit der
+  Spielleitung geklärt hat.
+
+#### (4) Ergebnisse in Netto-Turnieren.
+
+Der Spieler ist dafür verantwortlich, dass sein
+Handicap auf der Scorekarte ausgewiesen wird. Reicht der Spieler eine Scorekarte
+ohne das richtige Handicap ein:
+
+- Handicap auf der Scorekarte zu hoch oder kein Handicap angegeben. Wirkt
+  sich dies auf die Anzahl der Vorgabenschläge aus, die der Spieler erhält, ist er
+  für die Netto-Wertung des Turniers disqualifiziert. Wirkt es sich nicht aus, ist
+  es straflos.
+- Handicap auf der Scorekarte zu niedrig. Dies ist straflos und das Netto-
+  Ergebnis des Spielers wird mit dem angegebenen niedrigeren Handicap
+  errechnet.
+
+#### (5) Spieler nicht verantwortlich für die Addition der Lochergebnisse und das Anrechnen des Handicaps.
+
+Die Spielleitung ist verantwortlich, die
+Lochergebnisse zusammenzuzählen und das Handicap des Spielers in einem
+Netto-Turnier anzurechnen.
+
+Es ist straflos, wenn ein Spieler eine Scorekarte einreicht, in der die Ergebnisse
+fehlerhaft zusammengezählt oder die Vorgabenschläge falsch berücksichtigt
+sind.
