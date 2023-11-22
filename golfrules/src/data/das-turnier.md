@@ -223,9 +223,11 @@ wird,
 - muss der Spieler die richtige Schlagzahl mitteilen,
 - wird ein Spieler, der die Frage seines Gegners nicht beantwortet, so
   behandelt, als hätte er eine falsche Schlagzahl genannt.
-  Der Spieler zieht sich die Grundstrafe (Lochverlust) zu, wenn er dem Gegner
-  die falsche Schlagzahl nennt, es sei denn, der Spieler berichtigt den Fehler
-  rechtzeitig:
+
+Der Spieler zieht sich die **_Grundstrafe (Lochverlust)_** zu, wenn er dem Gegner
+die falsche Schlagzahl nennt, es sei denn, der Spieler berichtigt den Fehler
+rechtzeitig:
+
 - Falsche Schlagzahl angeben, während ein Loch gespielt wird. Der Spieler
   muss seine richtige Schlagzahl mitteilen, bevor der Gegner erneut schlägt
   oder eine ähnliche Handlung vornimmt (zum Beispiel den nächsten Schlag
@@ -238,10 +240,11 @@ wird,
     Lochspiel schenkt) oder
   - am letzten Loch des Lochspiels, bevor das Ergebnis des Lochspiels
     feststeht (siehe [Regel 3.2a(5)](<#(5)-wann-ein-ergebnis-endgültig-ist.>)).
-    Ausnahme – keine Strafe, wenn ohne Einfluss auf Ergebnis des Lochs: Es ist
-    straflos, wenn der Spieler eine falsche Schlagzahl angibt, nachdem das Loch
-    beendet ist und dies das Verständnis des Gegners, ob er das Loch gewonnen,
-    geteilt oder verloren hat, nicht beeinflusst.
+
+**Ausnahme – keine Strafe, wenn ohne Einfluss auf Ergebnis des Lochs:** Es ist
+straflos, wenn der Spieler eine falsche Schlagzahl angibt, nachdem das Loch
+beendet ist und dies das Verständnis des Gegners, ob er das Loch gewonnen,
+geteilt oder verloren hat, nicht beeinflusst.
 
 #### (2) Dem Gegner Strafe mitteilen.
 
@@ -253,15 +256,16 @@ Zieht sich ein Spieler eine Strafe zu
 - Dies gilt auch dann, wenn der Spieler nichts von der Strafe weiß (da es
   von Spielern erwartet wird, dass sie bemerken, wenn sie gegen eine Regel
   verstoßen haben).
-  Wenn der Spieler dies versäumt und seinen Fehler nicht berichtigt, bevor der
-  Gegner erneut schlägt oder ähnliche Handlungen vornimmt, (zum Beispiel den
-  nächsten Schlag oder das Loch schenkt), zieht der Spieler sich die Grundstrafe
-  (Lochverlust) zu.
-  Ausnahme – keine Strafe, wenn der Gegner von der Strafe des Spielers wusste:
-  Wenn der Gegner die Strafe des Spielers kannte, weil er zum Beispiel gesehen
-  hat, wie der Spieler offensichtlich Erleichterung mit Strafschlag in Anspruch
-  genommen hat, ist es für den Spieler straflos, wenn er den Gegner nicht
-  unterrichtet.
+
+Wenn der Spieler dies versäumt und seinen Fehler nicht berichtigt, bevor der
+Gegner erneut schlägt oder ähnliche Handlungen vornimmt, (zum Beispiel den
+nächsten Schlag oder das Loch schenkt), zieht der Spieler sich die **_Grundstrafe (Lochverlust)_** zu.
+
+**Ausnahme – keine Strafe, wenn der Gegner von der Strafe des Spielers wusste:**
+Wenn der Gegner die Strafe des Spielers kannte, weil er zum Beispiel gesehen
+hat, wie der Spieler offensichtlich Erleichterung mit Strafschlag in Anspruch
+genommen hat, ist es für den Spieler straflos, wenn er den Gegner nicht
+unterrichtet.
 
 #### (3) Kenntnis über den Spielstand im Lochspiel.
 
@@ -293,7 +297,7 @@ Spieler in einem Lochspiel sollten ihre eigenen Rechte und Interessen nach den R
   zu reagieren oder ihn nicht zu beachten.
 - **Aber:** Kommen Spieler und Gegner absichtlich überein, einen Regelverstoß
   oder eine ihnen bekannte anzuwendende Strafe außer acht zu lassen, sind
-  beide Spieler nach [Regel 1.3b](das-spiel-verhalten-der-spieler-und-die-regeln#1.3b-anwendung-der-regeln) disqualifiziert.
+  beide Spieler nach [Regel 1.3b](das-spiel-verhalten-der-spieler-und-die-regeln#1.3b-anwendung-der-regeln) **_disqualifiziert_**.
 - Sind Spieler und Gegner uneinig darüber, ob einer von ihnen gegen eine Regel
   verstoßen hat, kann jeder der beiden seine Rechte schützen, indem er nach
   Regel 20.1b eine Regelentscheidung verlangt.
@@ -377,7 +381,7 @@ Reicht der Spieler eine Scorekarte mit einem falschen Ergebnis für ein Loch ein
   höhere Ergebnis für das Loch gilt.
 
 - Eingetragenes Ergebnis niedriger als tatsächliches Ergebnis oder kein
-  eingetragenes Ergebnis. Der Spieler ist **disqualifiziert**.
+  eingetragenes Ergebnis. Der Spieler ist **_disqualifiziert_**.
 
 **Ausnahme – Unbekannte Strafe nicht berücksichtigt:** Ist ein oder sind mehrere
 Lochergebnisse des Spielers niedriger als die tatsächlichen Ergebnisse, weil
@@ -387,7 +391,7 @@ Spieler nichts wusste, bevor er die Scorekarte zurückgab, gilt:
 - Der Spieler ist nicht disqualifiziert.
 - Wird der Fehler vor Abschluss des Turniers festgestellt, berichtigt die
   Spielleitung das Ergebnis des Spielers für dieses Loch oder diese Löcher,
-  **indem die fehlenden Strafschläge** hinzugerechnet werden.
+  **_indem die fehlenden Strafschläge_** hinzugerechnet werden.
 
 Diese Ausnahme ist nicht anwendbar:
 
@@ -405,7 +409,7 @@ ohne das richtige Handicap ein:
 
 - Handicap auf der Scorekarte zu hoch oder kein Handicap angegeben. Wirkt
   sich dies auf die Anzahl der Vorgabenschläge aus, die der Spieler erhält, ist er
-  für die Netto-Wertung des Turniers disqualifiziert. Wirkt es sich nicht aus, ist
+  für die Netto-Wertung des Turniers **_disqualifiziert_**. Wirkt es sich nicht aus, ist
   es straflos.
 - Handicap auf der Scorekarte zu niedrig. Dies ist straflos und das Netto-
   Ergebnis des Spielers wird mit dem angegebenen niedrigeren Handicap
@@ -428,9 +432,9 @@ Loch nicht ein
 
 - muss der Spieler diesen Fehler berichtigen, bevor er das nächste Loch beginnt
   oder am letzten Loch der Runde, bevor er die Scorekarte einreicht.
-- Wird der Fehler nicht rechtzeitig berichtigt, ist der Spieler **disqualifiziert**.
+- Wird der Fehler nicht rechtzeitig berichtigt, ist der Spieler **_disqualifiziert_**.
 
 **Siehe Regeln 21.1, 21.2 und 21.3** (Regeln für andere Spielformen des Zählspiels
 (Stableford, Maximum Score und Par / Bogey), bei denen das Spielergebnis
-abweichend ermittelt wird und ein Spieler nicht disqualifiziert wird, wenn er nicht
+abweichend ermittelt wird und ein Spieler nicht **_disqualifiziert_** wird, wenn er nicht
 einlocht.
