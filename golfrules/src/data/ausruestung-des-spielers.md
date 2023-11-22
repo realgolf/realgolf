@@ -201,3 +201,46 @@ Spieler zieht sich die **_Grundstrafe (zwei Strafschläge)_** für jedes Loch zu
 Verstoß vorlag, **_höchstens jedoch vier Strafschläge_** für die Runde (durch Addition
 von zwei Strafschlägen an jedem der beiden ersten Löcher, an denen ein Verstoß
 vorkam).
+
+### 4.1c Verfahren, um überzählige Schläger als „nicht mehr im Spiel“ befindlich zu erklären
+
+#### (1) Während der Runde.
+
+Wird ein Spieler sich während der Runde bewusst, gegen
+Regel 4.1b(1), (2) oder (3) verstoßen zu haben, indem er mehr als 14 Schläger
+mitführt oder einen Schlag mit dem Schläger eines anderen Spielers gemacht
+hat, muss der Spieler unverzüglich deutlich machen, welche Schläger sich für
+den Rest der Runde nicht mehr im Spiel befinden.
+Dies kann geschehen, indem er entweder
+
+- dies seinem Gegner im Lochspiel oder dem Zähler oder einem anderen Spieler
+  seiner Gruppe im Zählspiel mitteilt oder
+- indem er eine eindeutige Handlung vornimmt (zum Beispiel den Schläger
+  kopfüber in die Tasche steckt, ihn auf den Boden des Golfcarts legt oder ihn
+  einer anderen Person übergibt).
+
+Der Spieler darf für den Rest der Runde keinen Schlag mehr mit einem Schläger
+machen, der sich nicht mehr im Spiel befindet.
+
+Gehört ein aus dem Spiel genommener Schläger einem anderen Spieler, darf
+dieser andere Spieler den Schläger weiterhin benutzen.
+
+**_Strafe für Verstoß gegen Regel 4.1c(1): Disqualifikation._**
+
+#### (2) Vor der Runde.
+
+Wird einem Spieler kurz vor Beginn der Runde bewusst,
+versehentlich mehr als 14 Schläger mit sich zu führen, sollte er versuchen, die
+überzähligen Schläger zurückzulassen.
+
+**Aber:** Als straflose Wahlmöglichkeit darf der Spieler
+
+- vor Beginn der Runde jeden überzähligen Schläger nach dem Verfahren aus (1)
+  aus dem Spiel nehmen und
+- die überzähligen Schläger während der Runde behalten (sie jedoch nicht
+  benutzen); die Schläger zählen in diesem Fall nicht zur Höchstzahl von 14
+  Schlägern.
+
+Bringt ein Spieler absichtlich mehr als 14 Schläger zu seinem ersten Abschlag,
+und beginnt er die Runde, ohne die überzähligen Schläger zurückzulassen, gilt
+diese Möglichkeit nicht und Regel 4.1b(1) findet Anwendung.
