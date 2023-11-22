@@ -7,7 +7,7 @@
 <footer>
 	<div class="content">
 		<section class="parts">
-			<DieGrundlagenDesSpieles></DieGrundlagenDesSpieles>
+			<DieGrundlagenDesSpieles />
 		</section>
 
 		<h3>Hilfe und Support</h3>
@@ -16,8 +16,8 @@
 				<h4>Helfen Sie uns dieses Regelwerk besser zumachen!</h4>
 				<p class="grey">
 					Dieses Regelwerk is Open-Source. Sie haben was endeckt, dass falsch oder unklar ist?
-					Erstellen Sie eine Pull Request oder erstellen Sie ein Issue.
 				</p>
+				<p class="grey">Erstellen Sie eine Pull Request oder erstellen Sie ein Issue.</p>
 				<a href="https://github.com/moinjulian/golf">
 					<button><span><Fa icon={faCodePullRequest} /></span>Machen Sie ein Beitrag</button>
 				</a>
@@ -38,21 +38,21 @@
 		flex-direction: column;
 
 		.content {
-			padding: 3rem 4rem;
+			padding: 1rem 1rem;
 
 			.parts {
 				display: flex;
-				flex-direction: row;
+				flex-wrap: wrap;
 			}
 
 			.info {
-				padding: 2rem;
+				padding: 0.5rem;
 				display: flex;
 				flex-direction: row;
 				border-top: 1px solid var(--border-color);
 
 				.contribution {
-					max-width: 25vw;
+					max-width: 90vw;
 				}
 
 				button {
