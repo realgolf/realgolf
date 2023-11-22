@@ -1,0 +1,4 @@
+[build]
+base = "golfrules"
+command = "npm run build"
+publish = "golfrules/build"
