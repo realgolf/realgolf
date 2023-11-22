@@ -87,13 +87,13 @@ verantwortlich, die Regeln auf sich anzuwenden.
 
 - Von Spielern wird erwartet, zu erkennen, wann sie gegen eine Regel verstoßen
   haben und bei der Anwendung ihrer eigenen Strafen ehrlich zu sein.
-  > Weiß ein Spieler, dass er gegen eine Regel verstoßen hat, die eine Strafe
-  > nach sich zieht und versäumt er es absichtlich, die Strafe anzuwenden, ist
-  > der Spieler disqualifiziert.
-  > Vereinbaren zwei oder mehr Spieler absichtlich, eine ihnen bekannte Regel
-  > oder eine Strafe außer Acht zu lassen und hat einer von ihnen die Runde
-  > begonnen, sind sie disqualifiziert (auch wenn sie noch nicht nach der
-  > Übereinkunft gehandelt haben).
+  - Weiß ein Spieler, dass er gegen eine Regel verstoßen hat, die eine Strafe
+    nach sich zieht und versäumt er es absichtlich, die Strafe anzuwenden, ist
+    der Spieler **_disqualifiziert_**.
+  - Vereinbaren zwei oder mehr Spieler absichtlich, eine ihnen bekannte Regel
+    oder eine Strafe außer Acht zu lassen und hat einer von ihnen die Runde
+    begonnen, sind sie **_disqualifiziert_** (auch wenn sie noch nicht nach der
+    Übereinkunft gehandelt haben).
 - Ist es erforderlich, eine Tatfrage zu entscheiden, ist der Spieler dafür
   verantwortlich, nicht nur seine eigenen Kenntnisse des Sachverhalts
   zu berücksichtigen, sondern auch alle anderen in angemessener Weise
@@ -107,32 +107,37 @@ verantwortlich, die Regeln auf sich anzuwenden.
 - Viele Regeln verlangen vom Spieler, eine Stelle, einen Punkt, eine Linie, einen
   Bereich oder einen anderen Ort nach den Regeln zu bestimmen, zum Beispiel
   beim:
-  > Schätzen, wo ein Ball zuletzt die Grenze einer Penalty Area überquert hat,
-  >
-  > Schätzen oder Messen, wenn ein Ball bei einem Erleichterungsverfahren
-  > gedroppt oder gelegt wird oder
-  >
-  > Zurücklegen eines Balls an seine ursprüngliche Stelle (gleich ob die Stelle
-  > bekannt oder geschätzt ist).
-  > Solche Bestimmungen des Orts müssen zügig und sorgfältig durchgeführt
-  > werden, können häufig aber nicht präzise sein.
-  > Solange der Spieler unternimmt, was von ihm unter den gegebenen Umständen
-  > vernünftigerweise für eine genaue Bestimmung erwartet werden kann, wird eine
-  > vertretbare Entscheidung des Spielers anerkannt, selbst wenn sie sich nach dem
-  > Schlag durch Videobeweis oder andere Informationen als falsch herausstellt.
-  > Wird ein Spieler auf eine falsche Bestimmung aufmerksam, bevor der Schlag
-  > gemacht wird, muss diese berichtigt werden (siehe Regel 14.5).
-  ### 1.3c Strafen
-  #### (1) Handlungen, die Strafen nach sich ziehen. Eine Strafe fällt an, wenn der Spieler
-  oder sein Caddie gegen eine Regel verstoßen (siehe Regel 10.3c).
-  Eine Strafe fällt auch an, wenn
-  eine andere Person eine Handlung vornimmt, die bei Durchführung durch den
-  Spieler oder dessen Caddie ein Regelverstoß wäre und diese Person auf Bitte
-  des Spielers oder mit seiner Ermächtigung handelt oder
-  der Spieler sieht, wie eine andere Person seinen Ball oder Ausrüstung auf eine
-  Weise behandelt, die ein Verstoß gegen die Regeln wäre, wenn er oder sein
-  Caddie so handelten und er keine angemessenen Schritte unternimmt, diese
-  Handlung zu verhindern oder zu beenden.
+
+  - Schätzen, wo ein Ball zuletzt die Grenze einer Penalty Area überquert hat,
+  - Schätzen oder Messen, wenn ein Ball bei einem Erleichterungsverfahren
+    gedroppt oder gelegt wird oder
+
+  - Zurücklegen eines Balls an seine ursprüngliche Stelle (gleich ob die Stelle
+    bekannt oder geschätzt ist).
+
+- Solche Bestimmungen des Orts müssen zügig und sorgfältig durchgeführt
+  werden, können häufig aber nicht präzise sein.
+- Solange der Spieler unternimmt, was von ihm unter den gegebenen Umständen
+  vernünftigerweise für eine genaue Bestimmung erwartet werden kann, wird eine
+  vertretbare Entscheidung des Spielers anerkannt, selbst wenn sie sich nach dem
+  Schlag durch Videobeweis oder andere Informationen als falsch herausstellt.
+- Wird ein Spieler auf eine falsche Bestimmung aufmerksam, bevor der Schlag
+  gemacht wird, muss diese berichtigt werden (siehe Regel 14.5).
+
+### 1.3c Strafen
+
+#### (1) Handlungen, die Strafen nach sich ziehen.
+
+Eine Strafe fällt an, wenn der Spieler
+oder sein Caddie gegen eine Regel verstoßen (siehe Regel 10.3c).
+Eine Strafe fällt auch an, wenn
+eine andere Person eine Handlung vornimmt, die bei Durchführung durch den
+Spieler oder dessen Caddie ein Regelverstoß wäre und diese Person auf Bitte
+des Spielers oder mit seiner Ermächtigung handelt oder
+der Spieler sieht, wie eine andere Person seinen Ball oder Ausrüstung auf eine
+Weise behandelt, die ein Verstoß gegen die Regeln wäre, wenn er oder sein
+Caddie so handelten und er keine angemessenen Schritte unternimmt, diese
+Handlung zu verhindern oder zu beenden.
 
 #### (2) Strafmaß.
 
@@ -190,18 +195,18 @@ getan hat:
     Reinigens, Droppens, Zurücklegens oder Hinlegens eines Balls, bei dem
     die Strafe ein Strafschlag ist, zum Beispiel das Aufnehmen des Balls ohne
     Markieren oder das unerlaubte Reinigen des aufgenommenen Balls, zieht
-    sich der Spieler insgesamt einen Strafschlag zu.
+    sich der Spieler **_insgesamt einen Strafschlag_** zu.
   - Fälschlich neu eingesetzten Ball vom falschen Ort spielen. Setzt ein Spieler
     im Zählspiel unter Verstoß gegen Regel 6.3b einen Ball neu ein und spielt er
     diesen Ball unter Verstoß gegen Regel 14.7a von einem falschen Ort, zieht
-    sich der Spieler insgesamt zwei Strafschläge zu.
+    sich der Spieler **_insgesamt zwei Strafschläge_** zu.
   - Gemeinsame Verfahrensverstöße und Verstöße zum Ersetzen /
     falscher Ort. Verstößt der Spieler mit einer einzelnen Handlung oder
     zusammenhängenden Handlungen im Zählspiel gegen eine oder mehrere
     Anforderungen zum Verfahren, bei denen die Strafe ein Strafschlag ist und
     verstößt er gleichzeitig gegen eine oder beide Regeln, indem er regelwidrig
     einen Ball neu einsetzt und vom falschen Ort spielt, zieht sich er sich
-    insgesamt zwei Strafschläge zu.
+    **_insgesamt zwei Strafschläge_** zu.
 
   **Aber:** Jeder Strafschlag, den sich ein Spieler bei einem Erleichterungsverfahren
   zuzieht (zum Beispiel ein Strafschlag nach den Regeln 17.1, 18.1 und 19.2), fällt
