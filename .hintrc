@@ -10,6 +10,7 @@
           "text-underline-offset"
         ]
       }
-    ]
+    ],
+    "apple-touch-icons": "off"
   }
 }
