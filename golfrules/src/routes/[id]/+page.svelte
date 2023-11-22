@@ -50,53 +50,6 @@
 		}
 	}
 
-	.outer-toc {
-		opacity: 0;
-		pointer-events: none;
-
-		@media (min-width: 68rem) {
-			opacity: 1;
-			pointer-events: initial;
-		}
-
-		transition: opacity 250ms linear;
-		position: fixed;
-		top: 0;
-		height: 100vh;
-		transform: translateX(78rem);
-		overflow-y: auto;
-
-		display: flex;
-		align-items: center;
-		color: var(--secondary-font-color);
-
-		ol {
-			margin-left: 0;
-			padding-left: 2rem;
-			border-left: 1px solid var(--border-color);
-		}
-
-		a:hover {
-			color: var(--font-color);
-		}
-
-		&.long {
-			align-items: start;
-
-			li + li {
-				margin-block: 0;
-			}
-
-			ol {
-				padding-block: 1rem;
-				height: 100vh;
-				display: flex;
-				flex-direction: column;
-				justify-content: space-between;
-			}
-		}
-	}
-
 	article {
 		:global(h2) {
 			padding-top: 5rem;
