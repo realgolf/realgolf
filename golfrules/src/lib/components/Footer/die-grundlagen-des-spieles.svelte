@@ -3,8 +3,9 @@
 	<a href="/das-spiel-verhalten-der-spieler-und-die-regeln">
 		Regel 1 - Das Spiel, Verhalten der Spieler und die Regeln</a
 	>
-	<a href="/der-platz">Regel 2 – Der Platz</a>
+	<a href="/der-platz">Regel 2 - Der Platz</a>
 	<a href="/das-turnier">Regel 3 - Das Turnier</a>
+	<a href="/ausruestung-des-spielers">Regel 4 - Ausrüstung des Spielers</a>
 </div>
 
 <style lang="scss">
