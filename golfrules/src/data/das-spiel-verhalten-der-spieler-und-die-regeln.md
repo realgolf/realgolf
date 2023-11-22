@@ -51,10 +51,10 @@ das heißt,
   die Disqualifikation verhängt werden, wenn diese Strafen als Teil der
   Verhaltensvorschriften nach [Regel 1.2b](#1.2b-verhaltensvorschriften) erlassen werden.
 
-  ### 1.2b Verhaltensvorschriften
+### 1.2b Verhaltensvorschriften
 
-  Die Spielleitung hat das Recht, eigene Vorschriften für das Verhalten von Spielern in
-  einer Platzregel festzulegen.
+Die Spielleitung hat das Recht, eigene Vorschriften für das Verhalten von Spielern in
+einer Platzregel festzulegen.
 
 - Die Verhaltensvorschriften können Strafen, zum Beispiel einen Strafschlag oder
   die Grundstrafe für einen Verstoß gegen die Vorschriften beinhalten.
@@ -158,9 +158,9 @@ Handlung zu verhindern oder zu beenden.
    Vorteil zu groß ist, um das Spielergebnis als gültig anzuerkennen, für das
    Turnier disqualifiziert werden.
 
-#### (3) Keine Ermessensfreiheit zum Abändern von Strafen. Strafen sind nur wie in den
+#### (3) Keine Ermessensfreiheit zum Abändern von Strafen.
 
-Regeln vorgesehen anzuwenden.
+Strafen sind nur wie in den Regeln vorgesehen anzuwenden.
 
 - Weder ein Spieler noch die Spielleitung ist berechtigt, Strafen in anderer
   Weise anzuwenden und
