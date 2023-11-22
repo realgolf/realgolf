@@ -11,6 +11,12 @@
         ]
       }
     ],
-    "apple-touch-icons": "off"
+    "apple-touch-icons": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "document-title": "off"
+      }
+    ]
   }
 }
