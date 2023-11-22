@@ -143,5 +143,9 @@
 			font-size: var(--small-font);
 			white-space: nowrap;
 		}
+
+		:global(strong em) {
+			color: red;
+		}
 	}
 </style>
