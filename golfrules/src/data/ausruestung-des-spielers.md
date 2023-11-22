@@ -244,3 +244,72 @@ versehentlich mehr als 14 Schläger mit sich zu führen, sollte er versuchen, di
 Bringt ein Spieler absichtlich mehr als 14 Schläger zu seinem ersten Abschlag,
 und beginnt er die Runde, ohne die überzähligen Schläger zurückzulassen, gilt
 diese Möglichkeit nicht und Regel 4.1b(1) findet Anwendung.
+
+## 4.2 Bälle
+
+### 4.2a Beim Spielen der Runde zugelassene Bälle
+
+#### (1) Es muss ein zugelassener Ball gespielt werden.
+
+Ein Spieler muss bei jedem Schlag einen Ball benutzen, der den Anforderungen
+der Ausrüstungsregeln entspricht.
+Ein Spieler darf von jedem einen regelkonformen Ball für sein Spiel
+entgegennehmen, auch von einem anderen Spieler auf dem Platz.
+
+#### (2) Ein absichtlich veränderter Ball darf nicht gespielt werden. Ein Spieler darf
+
+keinen Ball schlagen, dessen Spieleigenschaften absichtlich verändert wurden,
+wie durch Abschürfen oder Erwärmen des Balls oder indem ein Fremdstoff
+aufgetragen wurde (ausgenommen zum Reinigen).
+
+**_Strafe für das Spielen eines Schlags unter Verstoß gegen Regel 4.2a: Disqualifikation._**
+
+### 4.2b Ball zerbricht beim Spielen des Lochs
+
+Wenn der Ball eines Spielers nach einem Schlag in Stücke bricht, ist dies straflos und
+der Schlag zählt nicht.
+Der Spieler muss einen anderen Ball von der Stelle spielen, an der dieser Schlag
+gemacht wurde (siehe Regel 14.6).
+
+**_Strafe für das Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 4.2b: Grundstrafe nach Regel 14.7a._**
+
+### 4.2c Ball wird beim Spielen eines Lochs eingekerbt oder zerspringt
+
+#### (1) Ball aufnehmen, um festzustellen, ob er eingekerbt ist oder einen Sprung hat.
+
+Hat ein Spieler einen nachvollziehbaren Grund zur Annahme, dass sein Ball beim
+Spielen des Lochs eingekerbt wurde oder einen Sprung hat
+
+- darf der Spieler den Ball aufnehmen, um ihn zu prüfen, aber
+- er muss die Lage des Balls vorher markieren und der Ball darf nicht gereinigt
+  werden (außer auf dem Grün), siehe Regel 14.1.
+
+Nimmt der Spieler den Ball ohne diesen nachvollziehbaren Grund auf (außer
+auf dem Grün, auf dem der Spieler den Ball nach Regel 13.1b aufnehmen darf),
+versäumt er die Lage des Balls vor dem Aufnehmen zu markieren oder reinigt ihn,
+wenn dies nicht zulässig ist, zieht er sich **_einen Strafschlag_** zu.
+
+Ergeben sich mehrere Regelverstöße mit einem Strafschlag aus einer einzelnen
+Handlung oder zusammenhängenden Handlungen, siehe Regel 1.3c(4).
+
+#### (2) Wann ein anderer Ball eingesetzt werden darf. Der Spieler darf nur dann einen
+
+anderen Ball neu einsetzen, wenn der ursprüngliche Ball deutlich sichtbar
+zersprungen oder eingekerbt ist und diese Beschädigung während des zu
+spielenden Lochs aufgetreten ist, aber er darf nicht ersetzt werden, wenn der Ball
+lediglich zerkratzt, abgeschürft oder seine Farbe beschädigt oder verfärbt ist.
+
+- Wenn der ursprüngliche Ball zersprungen oder eingekerbt ist, muss der
+  Spieler entweder einen anderen Ball oder den ursprünglichen Ball an die
+  ursprüngliche Stelle zurücklegen (siehe Regel 14.2).
+- Ist der ursprüngliche Ball nicht eingekerbt oder hat keinen Sprung, muss der
+  Spieler ihn an seine ursprüngliche Stelle zurücklegen (siehe Regel 14.2).
+
+Diese Regel verbietet es einem Spieler nicht, einen Ball nach einer anderen
+Regel neu einzusetzen oder die Bälle zwischen dem Spielen von zwei Löchern
+auszutauschen.
+
+**_Strafe für das Spielen eines fälschlich neu eingesetzten Balls oder für das Spielen vom falschen Ort unter Verstoß gegen Regel 4.2c: Grundstrafe nach Regel 6.3b oder 14.7a._**
+
+Ergeben sich mehrere Regelverstoße aus einer einzelnen Handlung oder
+zusammenhängenden Handlungen, siehe Regel 1.3c (4).
