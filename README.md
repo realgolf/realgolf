@@ -18,6 +18,12 @@ The Documentations and Golf Rules are open source and Licensend under the [MIT](
 The Documentation and any other Information about this Project can be found here:
 [Golf Games Documentation](https://docs.golf.moinjulian.com)
 
+## Milestones
+
+### Commit Milestone
+
+You can see the Commit Milestone [here](./Commit_Milestones.md).
+
 ## Sites
 
 [Golf Games](https://golf.moinjulian.com)
