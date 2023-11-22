@@ -98,3 +98,106 @@ Schläger darf für einen _Schlag_ verwendet werden.
   Schläger, dessen Spieleigenschaften während der Runde absichtlich verändert
   wurden, lediglich zu besitzen (ohne einen Schlag damit auszuführen).
 - **Aber:** Solch ein Schläger zählt zu der Höchstzahl von 14 Schlägern in Regel 4.1b(1).
+
+### 4.1b Höchstzahl von 14 Schlägern; Schläger während einer Runde gemeinsam benutzen, hinzufügen und ersetzen
+
+#### (1) Höchstzahl von 14 Schlägern. Ein Spieler darf
+
+- keine Runde mit mehr als 14 Schlägern beginnen oder
+- während der Runde nicht mehr als 14 Schläger haben.
+
+Beginnt ein Spieler die Runde mit weniger als 14 Schlägern, darf er während der
+Runde Schläger bis zu einer Höchstzahl von 14 Schlägern hinzufügen (siehe
+Regel 4.1b(4) für Einschränkungen dazu).
+
+Stellt der Spieler fest, dass er gegen diese Regel verstößt, indem er mehr als 14
+Schläger hat, muss er den oder die überzähligen Schläger sofort entsprechend
+Regel 4.1c(1) aus dem Spiel nehmen:
+
+- Hat der Spieler die Runde mit mehr als 14 Schlägern begonnen, darf er
+  wählen, welchen Schläger oder welche Schläger er als nicht mehr im Spiel
+  befindlich erklärt.
+- Hat der Spieler die überzähligen Schläger während der Runde hinzugefügt,
+  müssen diese als nicht mehr im Spiel befindlich erklärt werden.
+
+Nimmt der Spieler nach Beginn seiner Runde einen liegen gelassenen Schläger
+eines anderen Spielers auf oder wird ein Schläger versehentlich ohne sein
+Wissen in die Tasche gesteckt, wird dieser Schläger nicht auf die Höchstzahl von
+14 Schlägern angerechnet. (**Aber:** Der Schläger darf nicht benutzt werden).
+
+#### (2) Kein gemeinsames Benutzen von Schlägern.
+
+Ein Spieler ist auf die Schläger
+einschränkt, mit denen er die Runde begonnen hat oder die, wie in Absatz (1)
+erlaubt, hinzugefügt wurden:
+
+- Der Spieler darf keinen Schlag mit einem Schläger ausführen, der von einem
+  anderen Spieler eingesetzt wird, der auf dem Platz spielt (auch wenn der
+  andere Spieler in einer anderen Gruppe oder einem anderen Turnier spielt).
+- Stellt der Spieler fest, dass er durch einen Schlag mit dem Schläger eines
+  anderen Spielers gegen diese Regel verstoßen hat, muss er den Schläger
+  sofort entsprechend Regel 4.1c(1) als nicht mehr im Spiel befindlich erklären.
+
+**Siehe Regeln 22.5 und 23.7** (eingeschränkte Ausnahme in Spielformen mit
+Partnern, die Partnern das gemeinsame Benutzen von Schlägern erlauben, wenn
+sie zusammen nicht mehr als 14 Schläger haben).
+
+#### (3) Kein Ersatz verlorener oder beschädigter Schläger.
+
+Beginnt ein Spieler die Runde
+mit 14 Schlägern oder hat er Schläger bis zur Höchstzahl von 14 Schlägern
+hinzugefügt und verliert oder beschädigt einen der Schläger auf der Runde oder
+während das Spiel nach Regel 5.7a unterbrochen ist, darf der Spieler diesen
+Schläger nicht durch einen anderen ersetzen.
+
+**Ausnahme – Ersatz eines beschädigten Schlägers, wenn der Spieler die Beschädigung nicht verursacht hat:**
+Wird der Schläger eines Spielers auf der
+Runde oder während einer Spielunterbrechung (siehe Regel 4.1a(2)) durch einen
+äußeren Einfluss oder Naturkräfte oder durch eine andere Person, außer dem
+Spieler oder seinem Caddie, beschädigt:
+
+- darf der Spieler den beschädigten Schläger unter Beachtung von Regel 4.1b(4)
+  durch einen anderen Schläger ersetzen.
+- **Aber:** Wenn der Spieler so verfährt, muss er den beschädigten Schläger sofort
+  nach dem in Regel 4.1c(1) beschriebenen Verfahren aus dem Spiel nehmen.
+
+#### (4) Einschränkungen beim Hinzufügen oder Austauschen von Schlägern. Wird ein
+
+Schläger hinzugefügt oder ersetzt, wie in Absatz (1) oder Absatz (3) beschrieben,
+darf ein Spieler
+
+- das Spiel nicht unangemessen verzögern (siehe Regel 5.6a),
+- keinen Schläger von jemandem hinzufügen oder ausleihen, der auf dem Platz
+  spielt (auch wenn der andere Spieler in einer anderen Gruppe oder einem
+  anderen Turnier spielt) oder
+- keinen Schläger aus Einzelteilen herstellen, die während der Runde von
+  jemandem für den Spieler mitgeführt werden.
+
+**_Strafe für Verstoß gegen Regel 4.1b:_** Die Strafe wird in Abhängigkeit davon
+angewandt, wann dem Spieler der Regelverstoß bewusst wird:
+
+- Beim Spielen des Lochs. Die Strafe wird am Ende des Lochs angewandt, das
+  gerade gespielt wird. Im Lochspiel muss der Spieler das Loch beenden, das
+  Ergebnis dieses Lochs dem Spielstand des Lochspiels hinzurechnen und dann die
+  Strafe anwenden, um den Spielstand des Lochspiels entsprechend zu berichtigen.
+- Zwischen zwei Löchern. Die Strafe wird für das gerade beendete Loch angewandt,
+  nicht für das nächste Loch.
+
+**_Strafe im Lochspiel - Spielstand im Lochspiel durch Abzug eines Lochs verändert, Höchstzahl von zwei Löchern:_**
+
+- Dies ist eine Strafe zur Berichtigung des Spielstands, es ist nicht das gleiche wie
+  die Strafe des Lochverlusts.
+- Am Ende des Lochs, das gerade gespielt wird oder beendet wurde, wird der
+  Spielstand des Lochspiels durch den Abzug **_eines Lochs_** für jedes Loch, an dem
+  ein Regelverstoß vorlag, geändert, **_höchstens durch den Abzug von zwei Löchern_**
+  für die Runde.
+- Beispiel: Ein Spieler beginnt die Runde mit 15 Schlägern und spielt das dritte
+  Loch, als ihm der Verstoß bewusst wird. Er gewinnt das Loch und liegt im
+  Lochspiel „3 auf“. Der Spielstand wird höchstmöglich berichtigt, indem zwei
+  Löcher abgezogen werden und der Spieler nur noch „1 auf“ liegt.
+
+**_Strafen im Zählspiel - zwei Strafschläge, höchstens jedoch vier Strafschläge:_** Der
+Spieler zieht sich die **_Grundstrafe (zwei Strafschläge)_** für jedes Loch zu, an dem ein
+Verstoß vorlag, **_höchstens jedoch vier Strafschläge_** für die Runde (durch Addition
+von zwei Strafschlägen an jedem der beiden ersten Löcher, an denen ein Verstoß
+vorkam).
