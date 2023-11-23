@@ -120,3 +120,51 @@ Gruppe bleiben, es sei denn, die Spielleitung stimmt einem Wechsel vorher zu ode
 genehmigt ihn nachträglich.
 
 **_Strafe für Verstoß gegen Regel 5.4: Disqualifikation._**
+
+## 5.5 Üben auf der Runde oder während einer Spielunterbrechung
+
+### 5.5a Keine Übungsschläge beim Spielen eines Lochs
+
+Beim Spielen eines Lochs darf ein Spieler keinen Übungsschlag nach einem Ball auf
+dem Platz oder außerhalb des Platzes ausführen.
+Keine Übungsschläge sind
+
+- ein Übungsschwung ohne Absicht, einen Ball zu treffen,
+- Schlagen eines Balls zurück in den Übungsbereich oder zu einem anderen Spieler,
+  wenn dies ausschließlich aus Höflichkeit geschieht,
+- Schläge eines Spielers, um ein Loch zu beenden, dessen Ergebnis bereits
+  entschieden ist.
+
+### 5.5b Einschränkung von Übungsschlägen zwischen zwei Löchern
+
+Zwischen zwei Löchern darf ein Spieler keinen Übungsschlag ausführen.
+
+**Ausnahme – Wo der Spieler Putten oder Chippen üben darf:** Der Spieler darf Putten
+oder Chippen üben auf oder nahe
+
+- dem Grün des zuletzt gespielten Lochs, jedem Übungsgrün (siehe Regel 13.1e) und
+- dem Abschlag des nächsten Lochs.
+
+**Aber** diese Übungsschläge dürfen nicht aus einem Bunker ausgeführt werden und
+dürfen das Spiel nicht unangemessen verzögern (siehe Regel 5.6a).
+
+**Siehe „Offizielles Handbuch“, Leitlinien für die Spielleitung, Abschnitt 8, Musterplatzregel I-2**
+(Die Spielleitung darf eine Platzregel erlassen, die das Üben von
+Putts oder Chips auf oder nahe dem Grün des gerade beendeten Lochs untersagt).
+
+### 5.5c Üben während der Spielunterbrechung oder anderer Spielaussetzung
+
+Wenn das Spiel unterbrochen oder anderweitig nach Regel 5.7a ausgesetzt ist, darf
+ein Spieler keinen Übungsschlag spielen, **außer**
+
+- wie nach Regel 5.5b erlaubt,
+- überall außerhalb des Platzes und
+- überall auf dem Platz, wo es die Spielleitung erlaubt.
+
+Wird ein Lochspiel durch Übereinkunft der Spieler unterbrochen und wird es nicht am
+selben Tag fortgesetzt, dürfen die Spieler ohne Einschränkung auf dem Platz üben,
+bevor das Lochspiel fortgesetzt wird.
+
+**_Strafe für Verstoß gegen Regel 5.5: Grundstrafe._**
+
+Geschieht der Verstoß zwischen zwei Löchern, fällt die Strafe am nächsten Loch an.
