@@ -3,6 +3,9 @@
 	<a href="/spielen-des-balls/ballsuche-finden-und-identifizieren-des-balls">
 		Regel 7 - Ballsuche: Finden und Identifizieren des Balls</a
 	>
+	<a href="/spielen-des-balls/den-platz-spielen-wie-er-vorgefunden-wird"
+		>Regel 8 - Den Platz spielen, wie er vorgefunden wird</a
+	>
 </div>
 
 <style lang="scss">
