@@ -67,3 +67,41 @@ einschränkt oder erlaubt.
 
 - **_Strafe für ersten Verstoß: Grundstrafe_** (Anwendung am ersten Loch des Spielers).
 - **_Strafe für zweiten Verstoß: Disqualifikation._**
+
+## 5.3 Beginn und Ende einer Runde
+
+### 5.3a Beginn der Runde
+
+Die Runde eines Spielers beginnt, sobald der Spieler einen Schlag macht, um sein
+erstes Loch zu beginnen (siehe Regel 6.1a).
+Der Spieler muss zu seiner Startzeit (und nicht vorher) beginnen:
+
+- Dies bedeutet, dass der Spieler zu der von der Spielleitung bestimmten Startzeit
+  und am von ihr festgelegten Ort spielbereit sein muss.
+- Eine von der Spielleitung bestimmte Startzeit wird als die exakte Zeit behandelt
+  (zum Beispiel: 9 Uhr bedeutet 9:00:00 Uhr und nicht eine Zeit bis 9:01 Uhr).
+
+Verzögert sich die Startzeit aus einem Grund (zum Beispiel wegen des Wetters,
+langsamen Spiels anderer Spielergruppen oder wegen der Notwendigkeit einer
+Regelentscheidung eines Referees), liegt kein Verstoß gegen diese Regel vor, wenn der
+Spieler anwesend und spielbereit ist, sobald die Gruppe des Spielers starten kann.
+
+**_Strafe für Verstoß gegen Regel 5.3a: Disqualifikation_** **, außer** in den drei folgenden
+Fällen:
+
+1. **Ausnahme 1 – Der Spieler trifft spielbereit am Ort seines Starts, nicht mehr als fünf Minuten nach seiner Startzeit, ein:** Die **_Grundstrafe_** wird an seinem ersten Loch angerechnet.
+2. **Ausnahme 2 – Der Spieler schlägt nicht mehr als fünf Minuten zu früh ab:** Die **_Grundstrafe_** wird an seinem ersten Loch angerechnet.
+3. **Ausnahme 3 – Die Spielleitung stellt außergewöhnliche Umstände fest, die den Spieler davon abgehalten haben, rechtzeitig abzuspielen:** Es liegt kein Verstoß gegen diese Regel vor und ist straflos.
+
+### 5.3b Ende der Runde
+
+Die Runde eines Spielers endet
+
+- im Lochspiel, sobald das Ergebnis des Lochspiels nach Regel 3.2a(3) oder (4)
+  feststeht,
+
+- im Zählspiel, sobald der Spieler am letzten Loch einlocht (einschließlich
+  Berichtigen eines Fehlers, zum Beispiel nach den Regeln 6.1 oder 14.7b).
+
+**Siehe Regeln 21.1e, 21.2e, 21.3e und 23.3b** (Wann eine Runde in anderen Formen
+des Zählspiels und im Vierball beginnt und endet).
