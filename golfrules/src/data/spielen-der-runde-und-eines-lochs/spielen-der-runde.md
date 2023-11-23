@@ -267,3 +267,60 @@ Spielverzögerung durch den Spieler fällt unter Regel 5.6a, nicht unter diese R
 Unterbricht ein Spieler das Spiel aus einem Grund, der nach dieser Regel nicht
 erlaubt ist oder versäumt er es, wie verlangt die Spielleitung zu informieren, ist der
 Spieler **_disqualifiziert_**.
+
+### 5.7b Pflichten der Spieler bei Unterbrechung des Spiels durch die Spielleitung
+
+Es gibt zwei Arten von Spielunterbrechungen durch die Spielleitung, die jeweils
+unterschiedliche Anforderungen daran stellen, wann die Spieler das Spiel
+unterbrechen müssen:
+
+#### (1) Sofortige Spielunterbrechung (etwa bei unmittelbar drohender Gefahr).
+
+Ordnet die Spielleitung die sofortige Spielunterbrechung an, müssen alle Spieler sofort
+das Spiel unterbrechen und dürfen keinen weiteren Schlag ausführen, bevor die
+Spielleitung die Fortsetzung des Spiels anordnet.
+
+Die Spielleitung sollte eine eindeutige Vorgehensweise wählen, um die Spieler
+über die sofortige Spielunterbrechung zu unterrichten.
+
+#### (2) Spielunterbrechung aus sonstigen Gründen (etwa wegen Dunkelheit oder unbespielbaren Platzes).
+
+Unterbricht die Spielleitung das Spiel aus sonstigen Gründen, hängt das weitere Vorgehen davon ab,
+wo sich die einzelnen Gruppen befinden:
+
+- Zwischen zwei Löchern. Wenn alle Spieler der Gruppe sich zwischen zwei
+  Löchern befinden, müssen sie das Spiel unterbrechen und dürfen keinen
+  Schlag spielen, um das nächste Loch zu beginnen, bis die Spielleitung die
+  Fortsetzung des Spiels anordnet.
+- Während des Spiels eines Lochs. Wenn ein Spieler der Spielergruppe das Loch
+  begonnen hat, dürfen die Spieler wählen, ob sie das Spiel unterbrechen oder
+  das Loch zu Ende spielen.
+
+  - Den Spielern wird eine kurze Zeit zugestanden, um zu entscheiden, ob sie
+    das Spiel unterbrechen oder das Loch zu Ende spielen (üblicherweise nicht
+    mehr als zwei Minuten).
+  - Setzen die Spieler das Spiel des Lochs fort, dürfen sie das Loch beenden
+    oder vorher aufhören.
+  - Haben die Spieler das Loch beendet oder vor dem Ende des Lochs
+    aufgehört, dürfen sie keinen weiteren Schlag spielen, bevor die Spielleitung
+    die Fortsetzung des Spiels nach Regel 5.7c anordnet.
+
+  Wenn sich Spieler nicht einigen können, was zu tun ist:
+
+  - Lochspiel. Unterbricht der Gegner das Spiel, muss der Spieler ebenfalls das
+    Spiel unterbrechen und beide Spieler dürfen solange nicht weiterspielen,
+    bis die Spielleitung anordnet, das Spiel wiederaufzunehmen. Unterbricht
+    der Spieler das Spiel nicht, zieht er sich die Grundstrafe (Lochverlust) zu.
+  - Zählspiel. Jeder Spieler in der Gruppe darf entscheiden, sein Spiel zu
+    unterbrechen oder das Loch fortzusetzen, unabhängig davon, wozu die
+    anderen Spieler der Gruppe sich entscheiden, solange der Zähler des
+    Spielers bei ihm bleibt, um sein Ergebnis festzuhalten.
+
+**_Strafe für Verstoß gegen Regel 5.7b: Disqualifikation._**
+
+**Ausnahme – Es ist straflos, wenn die Spielleitung feststellt, dass das Versäumnis, das Spiel zu unterbrechen, gerechtfertigt war:**
+Es liegt kein Regelverstoß vor und es fällt keine Strafe an, wenn die Spielleitung entscheidet, dass berechtigte
+Gründe vorlagen und der Spieler es dadurch versäumte, das Spiel wie gefordert zu unterbrechen.
+
+**Siehe „Offizielles Handbuch“, Leitlinien für die Spielleitung, Abschnitt 8; Musterplatzregel J-1**
+(Empfohlene Methoden für die Spielleitung, um den Spielern die sofortige oder normale Unterbrechung anzuzeigen).
