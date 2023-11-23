@@ -242,3 +242,28 @@ Verstoß gegen diese Richtlinie festsetzen.
 
 **Siehe „Offizielles Handbuch“, Leitlinien für die Spielleitung, Abschnitt 5G**
 (Empfehlungen zum Inhalt der Richtlinien für die Spielgeschwindigkeit).
+
+## 5.7 Unterbrechung des Spiels; Wiederaufnahme des Spiels
+
+### 5.7a Wann Spieler das Spiel unterbrechen dürfen oder müssen
+
+Während einer Runde darf ein Spieler das Spiel nicht unterbrechen, **außer** in
+folgenden Fällen:
+
+- Unterbrechung durch die Spielleitung. Alle Spieler müssen das Spiel
+  unterbrechen, wenn die Spielleitung das Spiel aussetzt (siehe Regel 5.7b).
+- Unterbrechung des Spiels nach Absprache im Lochspiel. Spieler im Lochspiel
+  dürfen einvernehmlich aus jedem Grund das Spiel unterbrechen, **außer** sie
+  verzögern dadurch das Turnier. Vereinbaren sie, das Spiel zu unterbrechen
+  und einer der Spieler möchte danach das Spiel fortsetzen, ist die Vereinbarung
+  beendet und der andere Spieler muss das Spiel ebenfalls fortsetzen.
+- Einzelner Spieler unterbricht das Spiel wegen Blitzgefahr. Ein Spieler darf das
+  Spiel unterbrechen, wenn er begründet Blitzgefahr als gegeben ansieht, **aber**
+  er muss dies so bald wie möglich der Spielleitung mitteilen.
+
+Es ist als solches keine Spielunterbrechung, den Platz zu verlassen. Eine
+Spielverzögerung durch den Spieler fällt unter Regel 5.6a, nicht unter diese Regel.
+
+Unterbricht ein Spieler das Spiel aus einem Grund, der nach dieser Regel nicht
+erlaubt ist oder versäumt er es, wie verlangt die Spielleitung zu informieren, ist der
+Spieler **_disqualifiziert_**.
