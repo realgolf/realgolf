@@ -65,3 +65,27 @@ identifiziert werden:
 
 Ist der provisorische Ball des Spielers nicht von seinem ursprünglichen Ball zu
 unterscheiden, siehe Regel 18.3c(2).
+
+## 7.3 Ball zum Identifizieren aufnehmen
+
+Wenn ein Ball der Ball eines Spielers sein könnte, aber so wie er liegt nicht
+identifiziert werden kann
+
+- darf der Spieler den Ball aufnehmen, um ihn zu identifizieren (einschließlich durch
+  Drehen), **aber**
+- die Stelle des Balls muss zuerst markiert werden und der Ball darf nicht mehr als zur
+  Identifizierung erforderlich gereinigt werden (**außer** auf dem Grün), siehe Regel 14.1.
+
+Ist der aufgenommene Ball der Ball des Spielers oder der Ball eines anderen Spielers,
+muss er an seine ursprüngliche Stelle zurückgelegt werden (siehe Regel 14.2).
+
+Wenn der Spieler nach dieser Regel seinen Ball zum Identifizieren aufnimmt,
+obwohl es nicht vernünftigerweise erforderlich ist (außer auf dem Grün, auf dem der
+Spieler den Ball nach Regel 13.1b aufnehmen darf), es versäumt, die Stelle vor dem
+Aufnehmen zu markieren oder den Ball reinigt, obwohl es nicht erlaubt ist, zieht er
+sich **_einen Strafschlag_** zu.
+
+**_Strafe für das Spielen eines fälschlich neu eingesetzten Balls oder Spielen des Balls von einer falschen Stelle unter Verstoß gegen Regel 7.3: Grundstrafe nach Regel 6.3b oder 14.7a._**
+
+Ergeben sich mehrere Regelverstöße aus einer einzelnen Handlung oder von
+mehreren zusammenhängenden Handlungen, siehe Regel 1.3c(4).
