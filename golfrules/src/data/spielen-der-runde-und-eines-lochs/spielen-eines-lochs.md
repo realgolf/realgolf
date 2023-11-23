@@ -434,3 +434,20 @@ nachdem er den vorherigen Schlag gemacht hat und bevor jemand anders einen Ball 
   zu spielen (in diesem Fall ergibt sich die Spielfolge des Spielers, nachdem er
   sich zum Spielen eines provisorischen Balls entschieden hat, aus der Stelle,
   von der der vorherige Schlag gespielt wurde).
+
+## 6.5 Beenden eines Lochs
+
+Ein Spieler hat ein Loch beendet:
+
+- Im Lochspiel, sobald
+
+  - der Spieler einlocht oder der nächste Schlag des Spielers geschenkt wird oder
+  - das Ergebnis des Lochs entschieden ist (zum Beispiel, wenn der Gegner das
+    Loch schenkt, das Ergebnis des Gegners für das Loch niedriger ist als das, das
+    der Spieler möglicherweise erzielen könnte oder der Spieler oder der Gegner
+    sich die Grundstrafe (Lochverlust) zuzieht).
+
+- Im Zählspiel, sobald der Spieler nach Regel 3.3c einlocht.
+
+**Siehe Regeln 21.1b(1), 21.2b(1), 21.3b(1) und 23.3c** (Wann ein Spieler ein Loch in
+anderen Spielformen des Zählspiels oder im Vierball beendet hat.)
