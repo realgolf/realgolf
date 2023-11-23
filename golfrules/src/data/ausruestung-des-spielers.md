@@ -313,3 +313,172 @@ auszutauschen.
 
 Ergeben sich mehrere Regelverstoße aus einer einzelnen Handlung oder
 zusammenhängenden Handlungen, siehe Regel 1.3c (4).
+
+## 4.3 Gebrauch von Ausrüstung
+
+Regel 4.3 gilt für jede Art von Ausrüstung, die ein Spieler während einer Runde
+benutzen könnte, **mit Ausnahme** der Anforderung, dass ein Spieler mit zugelassenen
+Schlägern und Bällen spielen muss, was in den Regeln 4.1 und 4.2 festgelegt ist.
+Diese Regel betrifft nur die Weise, in der Ausrüstung gebraucht wird. Sie schränkt
+nicht die Ausrüstung ein, die ein Spieler während einer Runde bei sich haben darf.
+
+### 4.3a Zulässige und verbotene Verwendung von Ausrüstung
+
+Ein Spieler darf Ausrüstung nutzen, die ihm beim Spiel einer Runde behilflich ist, **es sei denn**,
+er verschafft sich einen möglichen Vorteil, indem er
+
+- Ausrüstung (außer einen Schläger oder einen Ball) benutzt, die künstlich die
+  Notwendigkeit einer Fertigkeit oder eines Urteilsvermögens überflüssig macht
+  oder reduziert, der wesentlicher Bestandteil der Herausforderung des Spiels ist
+  oder
+- Ausrüstung (einschließlich eines Schlägers oder eines Balls) bei der Ausführung
+  eines Schlags in regelwidriger Weise benutzt. „Regelwidrig“ ist eine grundlegend
+  zweckentfremdete Nutzung, die nicht üblicherweise als Teil des Spiels angesehen
+  wird.
+
+Diese Regel betrifft nicht die Anwendung einer anderen Regel, die die Handlungen
+einschränkt, die einem Spieler mit einem Schläger, einem Ball oder mit anderer
+
+Ausrüstung gestattet sind (zum Beispiel Hinlegen eines Schlägers oder eines
+anderen Gegenstands um dem Spieler beim Ausrichten zu helfen, siehe Regel
+10.2b(3)).
+Gängige Beispiele des Gebrauchs von Ausrüstung, die während der Runde eines
+Spielers nach dieser Regel zulässig und unzulässig sind:
+
+#### (1) Entfernungs- und Richtungsangaben
+
+- Zulässig: Entfernungs- oder Richtungsangaben (zum Beispiel durch ein
+  Entfernungsmessgerät oder durch einen Kompass) erhalten.
+- Unzulässig:
+  - Höhenunterschied messen oder
+  - Auswertung von Entfernungs- oder Richtungsangaben (zum Beispiel
+    Empfehlungen zur Spiellinie oder Schlägerwahl bezogen auf die Lage des
+    Balls des Spielers).
+
+**Siehe „Offizielles Handbuch“, Leitlinien für die Spielleitung, Abschnitt 8;**
+Musterplatzregel G-5 (Die Spielleitung darf eine Platzregel erlassen, die die
+Verwendung von Geräten zur Entfernungsmessung untersagt).
+
+#### (2) Angaben zu Wind- und anderen Wetterbedingungen
+
+- Zulässig:
+  - Wetterinformationen jeder Art (einschließlich Windgeschwindigkeit)
+    erhalten, die durch Wetterberichte verfügbar sind oder
+  - Temperatur und Luftfeuchtigkeit auf dem Platz messen.
+- Unzulässig:
+  - Windgeschwindigkeit auf dem Platz messen oder
+  - Einsatz eines künstlichen Gegenstands um Informationen über den Wind
+    zu erhalten (zum Beispiel Verwendung von Puder zur Bestimmung der
+    Windrichtung).
+
+#### (3) Informationen, die vor oder während der Runde erfasst wurden
+
+- Zulässig:
+  - Informationen verwenden, die vor Beginn der Runde erstellt wurden (zum
+    Beispiel Spielinformationen aus früheren Runden, Hinweise zum Schwung
+    oder Empfehlungen zur Schlägerwahl) oder
+  - Erfassen von Informationen über das Spiel oder physiologische
+    Informationen während der gerade gespielten Runde (zum Beispiel
+    Schlagentfernung, Spielstatistiken oder Herzfrequenz), um diese nach der
+    Runde auszuwerten.
+- Unzulässig:
+  - Verarbeitung oder Auswertung von Spielinformationen der Runde (zum
+    Beispiel Empfehlungen zur Schlägerwahl aufgrund von Schlaglängen auf
+    der Runde) oder
+  - Verwendung von physiologischen Informationen, die während der Runde
+    erfasst wurden.
+
+#### (4) Audio- und Videogeräte
+
+- Zulässig:
+  - Tonaufzeichnungen anhören oder Videos ansehen, die keinen Bezug
+    zu dem gespielten Turnier haben (zum Beispiel Nachrichten oder
+    Hintergrundmusik).
+  - Aber: Dabei sollte Rücksicht auf andere genommen werden (siehe Regel
+    1.2).
+- Unzulässig:
+  - Musik oder andere Tonaufzeichnungen anhören, um Ablenkungen
+    auszuschließen oder Hilfen für das Schwungtempo zu erhalten oder
+  - Videos ansehen, die das Spiel des Spielers oder anderer Spieler während
+    des Turniers zeigen, die den Spieler bei der Schlägerwahl, beim Schlag oder
+    beim Spiel während der Runde unterstützen können.
+
+Siehe „Offizielles Handbuch“, Leitlinien für die Spielleitung, Abschnitt 8;
+Musterplatzregel G-8 (Die Spielleitung darf eine Platzregel erlassen, die den
+Gebrauch von Audio- und Videogeräten während einer Runde verbietet oder
+einschränkt).
+
+#### (5) Handschuhe und Griffhilfen
+
+- Zulässig:
+  - Nutzung eines gewöhnlichen Handschuhs, der den Ausrüstungsregeln
+    entspricht,
+  - Nutzung von Harz, Puder und anderen befeuchtenden oder trocknenden
+    Mitteln oder
+  - wickeln eines Handtuchs oder Taschentuchs um den Griff.
+- Unzulässig:
+  - Nutzung eines Handschuhs, der nicht den Ausrüstungsregeln entspricht
+    oder
+  - Nutzung anderer Ausrüstung, die unangemessene Vorteile bei der
+    Griffhaltung oder -festigkeit bietet.
+
+#### (6) Dehnungsgeräte und Übungs- oder Schwunghilfen
+
+- Zulässig:
+  - Verwendung von Ausrüstung, die zum allgemeinen Dehnen entwickelt
+    wurde (nicht für einen Übungsschwung), gleich ob die Ausrüstung zum
+    Dehnen entwickelt wurde, zur Verwendung beim Golf (wie ein über die
+    Schultern gelegter Ausrichtungsstab) oder zu einem Zweck ohne Bezug
+    zum Golf (zum Beispiel Gummischlauch oder Teil eines Rohrs).
+- Unzulässig:
+  - Jegliche Art von Trainings- oder Schwunghilfe (zum Beispiel
+    Ausrichtungsstäbe oder schwere Schlägerhauben oder „Donut“) oder ein
+    unzulässiger Schläger, um einen Übungsschwung zu machen oder auf
+    jede Weise, die einen möglichen Vorteil verschafft, indem der Spieler Hilfe
+    bei der Vorbereitung auf oder für den Schlag erhält (zum Beispiel Hilfe zur
+    Schwungebene, zum Griff, zur Ausrichtung, Ballposition oder Haltung).
+
+Weitere Hinweise zur Verwendung der oben beschriebenen Ausrüstung und für
+andere Arten von Ausrüstung (zum Beispiel Bekleidung und Schuhe) finden sich in
+den Ausrüstungsregeln.
+
+Ist ein Spieler unsicher, ob er einen Ausrüstungsgegenstand auf eine besondere
+Weise verwenden darf, sollte er die Spielleitung um eine Entscheidung bitten (siehe
+Regel 20.2b).
+
+**Siehe „Offizielles Handbuch“, Leitlinien für die Spielleitung, Abschnitt 8;**
+**Musterplatzregel G-6** (Die Spielleitung darf eine Platzregel erlassen, die motorisierte
+Transportmittel während einer Runde verbietet).
+
+### 4.3b Aus medizinischen Gründen verwendete Ausrüstung
+
+#### (1) Medizinische Ausnahmeregelung.
+
+Ein Spieler verstößt nicht gegen Regel 4.3, wenn er Ausrüstung zur Milderung eines
+gesundheitlichen Problems nutzt, vorausgesetzt
+
+- der Spieler hat einen gesundheitlichen Grund, die Ausrüstung zu verwenden und
+- die Spielleitung entscheidet, dass der Einsatz dem Spieler keinen
+  ungebührlichen Vorteil gegenüber anderen Spielern verschafft.
+
+#### (2) Tape oder ähnliche Bandagen.
+
+Ein Spieler darf Tape oder ähnliche Bandagen aus jedem beliebigen medizinischen Anlass
+verwenden (zum Beispiel um eine Verletzung zu verhindern oder bei einer bestehenden Verletzung
+zu helfen), aber Tape oder Bandagen dürfen nicht
+
+- im Übermaß verwendet werden oder
+- dem Spieler mehr als aus medizinischem Grund notwendig helfen (es darf zum
+  Beispiel kein Gelenk stabilisiert werden, um dem Spieler beim Schwingen des
+  Schlägers zu helfen).
+
+Ist ein Spieler unsicher, ob und wie er Tape oder eine Bandage verwenden darf,
+sollte er die Spielleitung um eine Entscheidung bitten.
+
+**_Strafe für Verstoß gegen Regel 4.3:_**
+
+- **_Strafe für ersten Verstoß durch einzelne Handlung oder zusammenhängende Handlungen: Grundstrafe._**
+- **_Strafe für zweiten Verstoß ohne Bezug zum ersten Verstoß: Disqualifikation._**
+  Diese Strafe findet auch dann Anwendung, wenn die Art des Verstoßes sich
+  völlig von dem Verstoß oder den Verstößen unterscheidet, die zu der ersten
+  Strafe geführt haben.
