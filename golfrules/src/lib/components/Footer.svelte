@@ -2,12 +2,14 @@
 	import { faCodePullRequest } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
 	import DieGrundlagenDesSpieles from './Footer/die-grundlagen-des-spieles.svelte';
+	import SpielenDerRundeUndEinesLochs from './Footer/spielen-der-runde-und-eines-lochs.svelte';
 </script>
 
 <footer>
 	<div class="content">
 		<section class="parts">
 			<DieGrundlagenDesSpieles />
+			<SpielenDerRundeUndEinesLochs></SpielenDerRundeUndEinesLochs>
 		</section>
 
 		<h3>Hilfe und Support</h3>
