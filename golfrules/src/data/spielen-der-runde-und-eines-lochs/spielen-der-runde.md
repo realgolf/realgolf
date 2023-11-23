@@ -324,3 +324,32 @@ Gründe vorlagen und der Spieler es dadurch versäumte, das Spiel wie gefordert 
 
 **Siehe „Offizielles Handbuch“, Leitlinien für die Spielleitung, Abschnitt 8; Musterplatzregel J-1**
 (Empfohlene Methoden für die Spielleitung, um den Spielern die sofortige oder normale Unterbrechung anzuzeigen).
+
+### 5.7c Pflichten der Spieler bei Wiederaufnahme des Spiels
+
+#### (1) An welcher Stelle das Spiel wiederaufgenommen werden muss.
+
+Ein Spieler muss das Spiel an der Stelle wieder aufnehmen, an der er das Spiel an einem Loch
+unterbrochen hat oder, bei einer Spielunterbrechung zwischen zwei Löchern,
+auf dem nächsten Abschlag, auch wenn das Spiel an einem späteren Tag wieder
+aufgenommen wird.
+
+#### (2) Wann das Spiel wieder aufgenommen werden muss.
+
+Der Spieler muss spielbereit an dem in (1) beschriebenen Ort sein
+
+- Zu der von der Spielleitung zur Wiederaufnahme des Spiels festgesetzten Zeit
+  und
+- der Spieler muss das Spiel zu dieser Zeit (nicht vorher) fortsetzen.
+
+Wenn aus einem Grund das Spiel nur verspätet wiederaufgenommen werden
+kann (etwa weil die Spieler der Vordergruppe zunächst spielen müssen, um
+außer Reichweite zu sein), liegt kein Verstoß gegen diese Regel vor, wenn
+der Spieler zu dem Zeitpunkt anwesend und spielbereit ist, an dem die
+Spielergruppe des Spielers das Spiel wiederaufnehmen kann.
+
+**_Strafe für Verstoß gegen Regel 5.7c: Disqualifikation._**
+
+**Ausnahmen zur Disqualifikation bei Versäumnis, das Spiel rechtzeitig fortzusetzen:**
+Ausnahmen 1, 2 und 3 der Regel 5.3a und die Ausnahme der Regel 5.7b gelten auch
+hier.
