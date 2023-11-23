@@ -66,3 +66,76 @@ oder die Spiellinie zu verbessern).
 #### (5) Entfernen von Tau, Reif oder Wasser.
 
 **_Strafe für Verstoß gegen Regel 8.1a: Grundstrafe._**
+
+### 8.1b Erlaubte Handlungen
+
+Bei der Vorbereitung oder beim Ausführen eines Schlags ist es dem Spieler erlaubt,
+jede der folgenden Handlungen vorzunehmen und es ist straflos, auch wenn dadurch
+die Bedingungen, die den Schlag beeinflussen, verbessert werden:
+
+#### (1) Redlich mit angemessenen Handlungen nach dem Ball suchen,
+
+um ihn zu finden und zu identifizieren (siehe Regel 7.1a).
+
+#### (2) Angemessene Handlungen zum Entfernen loser hinderlicher Naturstoffe
+
+(siehe Regel 15.1) und beweglicher Hemmnisse (siehe Regel 15.2) vornehmen.
+
+#### (3) Angemessene Handlungen zum Markieren der Lage eines Balls
+
+und zum Aufnehmen und Zurücklegen des Balls nach den Regeln 14.1 und 14.2 vornehmen.
+
+#### (4) Leichtes Aufsetzen des Schlägers direkt vor oder hinter dem Ball.
+
+**Aber dies berechtigt nicht,**
+
+- den Schläger auf den Boden zu drücken oder
+- bei einem Ball in einem Bunker, den Sand direkt vor oder hinter dem Ball zu
+  berühren (siehe Regel 12.2b(1)).
+
+#### (5) Festes Aufsetzen der Füße,
+
+wenn der Stand eingenommen wird. Dies gilt auch, wenn die Füße in angemessenem Ausmaß
+in Sand oder losem Boden eingegraben werden.
+
+#### (6) Redlich Standposition beziehen,
+
+um durch angemessenes Vorgehen zum Ball zu gelangen und den Stand einzunehmen.
+
+**Aber:** Bei diesem Vorgehen
+
+- hat der Spieler keinen Anspruch auf einen üblichen Stand oder Schwung und
+- muss der Spieler möglichst schonend handeln, um sich in der besonderen
+  Situation regelgerecht zu verhalten.
+
+#### (7) Schlag ausführen oder den Rückschwung für einen Schlag,
+
+der anschließend gemacht wird.
+
+**Aber:** Liegt der Ball in einem Bunker, ist es nach Regel 12.2b(1) nicht erlaubt, den
+Sand im Rückschwung zu berühren.
+
+#### (8) Innerhalb des Abschlags
+
+- ein Tee in den Boden zu stecken oder auf den Boden zu legen (siehe Regel
+  6.2b(2)),
+- einen wachsenden oder befestigten natürlichen Gegenstand zu bewegen,
+  biegen oder brechen (siehe Regel 6.2b(3)) und
+- die Oberfläche des Bodens zu verändern, Sand oder Boden zu entfernen
+  oder niederzudrücken oder Tau, Reif oder Wasser zu entfernen (siehe Regel
+  6.2b(3)).
+
+#### (9) In einem Bunker zur Pflege des Platzes Sand einzuebnen, nachdem ein Ball
+
+aus dem Bunker gespielt wurde und außerhalb des Bunkers liegt (siehe Regel
+12.2b(3)).
+
+#### (10) Auf dem Grün Sand und loses Erdreich zu entfernen und Schäden auszubessern
+
+(siehe Regel 13.1c).
+
+#### (11) Einen natürlichen Gegenstand zu bewegen, um zu prüfen, ob er lose ist.
+
+**Aber:** Wird festgestellt, dass dieser Gegenstand wächst oder befestigt ist,
+muss er befestigt bleiben und soweit wie möglich in seine ursprüngliche Lage
+zurückgebracht werden.
