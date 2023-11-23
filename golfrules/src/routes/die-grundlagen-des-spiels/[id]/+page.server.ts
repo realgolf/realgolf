@@ -9,16 +9,16 @@ import {
 import { compose } from '$lib/shared/util';
 import { error } from '@sveltejs/kit';
 import fm from 'front-matter';
-import type { posts } from '../types';
+import type { posts } from '../../types';
 
-const posts_record = import.meta.glob('/src/data/*.md', {
+const posts_record = import.meta.glob('/src/data/die-grundlagen-des-spiels/*.md', {
 	as: 'raw',
 	eager: true
 });
 
 export const load = async (event: { params: { id: any } }) => {
 	const id = event.params.id;
-	const path = `/src/data/${id}.md`;
+	const path = `/src/data/die-grundlagen-des-spiels/${id}.md`;
 
 	if (!(path in posts_record)) {
 		throw error(404, 'There is no Site with this ID');
