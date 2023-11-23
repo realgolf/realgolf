@@ -287,3 +287,150 @@ wenn
 - er im Zählspiel zwei Bälle spielt, um einen möglicherweise schwerwiegenden
   Verstoß wegen Spielens vom falschen Ort zu berichtigen (siehe Regel 14.7b) oder
   wenn er unsicher ist, wie er regelgerecht vorgehen soll (siehe Regel 20.1c(3)).
+
+## 6.4 Spielfolge beim Spielen des Lochs
+
+> **Zweck:**
+> Regel 6.4 hat zum Inhalt, in welcher Spielfolge ein Loch zu spielen ist. Die
+> Spielfolge am Abschlag hängt davon ab, wer die Ehre hat, danach richtet sie sich
+> nach dem Ball, der am weitesten vom Loch entfernt ist.
+>
+> - Im Lochspiel ist die Spielfolge sehr wichtig. Wenn der Spieler außer der Reihe
+>   spielt, hat der Gegner das Recht, diesen Schlag für ungültig zu erklären und
+>   den Spieler noch einmal spielen zu lassen.
+> - Im Zählspiel ist Spielen außer der Reihe straflos und Spieler haben
+>   das Recht und werden ermutigt „Ready Golf“, das heißt in sicherer und
+>   verantwortungsbewusster Weise auch außer der Reihe zu spielen.
+
+### 6.4a Lochspiel
+
+#### (1) Spielfolge. Spieler und Gegner müssen in folgender Reihenfolge spielen:
+
+- Zu Beginn des ersten Lochs. Am ersten Loch wird die Ehre durch die von der
+  Spielleitung erstellte Startliste festgelegt oder, wenn es keine Startliste gibt,
+  durch Absprache oder durch ein Zufallsverfahren (wie das Werfen einer Münze).
+- Zu Beginn aller anderen Löcher.
+  - Der Spieler, der ein Loch gewinnt, hat die Ehre am nächsten Abschlag.
+  - War das Loch geteilt, behält der Spieler die Ehre, der sie am vorherigen
+    Abschlag hatte.
+  - Hat der Spieler rechtzeitig eine Regelentscheidung gefordert (siehe Regel
+    20.1b), die noch nicht durch die Spielleitung entschieden worden ist und
+    die die Ehre auf dem nächsten Loch beeinflussen könnte, wird die Ehre
+    durch Absprache oder ein Zufallsverfahren bestimmt.
+- Nachdem beide Spieler ein Loch begonnen haben.
+  - Der vom Loch weiter entfernte Ball muss zuerst gespielt werden.
+  - Sind die Bälle gleich weit vom Loch entfernt oder ist ihre jeweilige
+    Entfernung zum Loch unbekannt, wird durch Absprache oder durch ein
+    Zufallsverfahren bestimmt, welcher Ball zuerst gespielt wird.
+
+#### (2) Gegner darf den Schlag eines Spielers, der außerhalb der Reihe gespielt wurde, für ungültig erklären.
+
+Spielt der Spieler, wenn sein Gegner an der Reihe war, ist
+dies straflos, **aber** der Gegner darf den Schlag für ungültig erklären:
+
+- Dies muss unverzüglich erfolgen und bevor einer der Spieler einen weiteren
+  Schlag macht. Erklärt der Gegner den Schlag für ungültig, darf er dies nicht
+  widerrufen.
+- Erklärt der Gegner den Schlag für ungültig, muss der Spieler, sobald er an
+  der Reihe ist zu spielen, einen Ball von der Stelle spielen, von der der Schlag
+  gemacht wurde (siehe Regel 14.6).
+- Erklärt der Gegner den Schlag nicht für ungültig, zählt der Schlag und der Ball
+  ist im Spiel und muss gespielt werden, wie er liegt.
+
+**Ausnahme – Spielen außer der Reihe, um Zeit zu sparen:** Um Zeit zu sparen,
+
+- darf ein Spieler den Gegner bitten oder der Bitte des Gegners zustimmen,
+  außer der Reihe zu spielen.
+- Schlägt der Gegner dann außer der Reihe, hat der Spieler auf sein Recht
+  verzichtet, diesen Schlag für ungültig zu erklären.
+
+**Siehe Regel 23.6** (Spielfolge im Vierball)
+
+### 6.4b Zählspiel
+
+#### (1) Reguläre Spielfolge
+
+- Zu Beginn des ersten Lochs. Am ersten Abschlag wird die Ehre durch die von
+  der Spielleitung erstellte Startliste festgelegt oder, wenn es keine Startliste
+  gibt, durch Absprache oder nach einem Zufallsverfahren (wie das Werfen einer
+  Münze).
+- Zu Beginn aller anderen Löcher.
+  - Der Spieler der Gruppe mit dem niedrigsten Brutto-Ergebnis an einem Loch
+    hat die Ehre am nächsten Abschlag; der Spieler mit dem zweitniedrigsten
+    Brutto-Ergebnis sollte als nächster spielen, usw.
+  - Haben zwei oder mehr Spieler das gleiche Ergebnis an einem Loch, sollten
+    sie in derselben Reihenfolge spielen, wie am vorherigen Abschlag.
+  - Die Ehre richtet sich auch in einem Netto-Turnier nach dem Brutto-Ergebnis.
+- Nachdem alle Spieler ein Loch begonnen haben.
+  - Der vom Loch am weitesten entfernte Ball sollte zuerst gespielt werden.
+  - Sind zwei oder mehr Bälle gleich weit vom Loch entfernt oder ist ihre
+    jeweilige Entfernung zum Loch unbekannt, sollte durch Absprache oder ein
+    Zufallsverfahren festgelegt werden, welcher Ball zuerst gespielt wird.
+
+Es ist straflos, wenn ein Spieler außerhalb der Reihe spielt, **außer** zwei oder
+mehr Spieler vereinbaren, außerhalb der Reihe zu spielen, um einem von ihnen
+einen Vorteil zu verschaffen. In diesem Fall zieht sich jeder dieser Spieler die
+**_Grundstrafe (zwei Strafschläge)_** zu.
+
+#### (2) Spielen außer der Reihe in sicherheits- und verantwortungsbewusster Weise („Ready Golf“).
+
+Spielern ist es erlaubt und sie werden ermutigt, in sicherheits-
+und verantwortungsbewusster Weise außerhalb der Reihe zu spielen, wenn zum
+Beispiel
+
+- zwei oder mehr Spieler vereinbaren, der Einfachheit halber oder um Zeit zu
+  sparen, so zu spielen,
+- der Ball eines Spielers sehr nahe am Loch liegt und der Spieler den Ball
+  einlochen möchte,
+- ein einzelner Spieler spielbereit ist und vor dem anderen Spieler spielen kann,
+  der bei Einhaltung der normalen Spielfolge aus (1) an der Reihe wäre, sofern
+  der Spieler durch sein Spiel außer der Reihe keinen anderen Spieler gefährdet,
+  ablenkt oder stört.
+
+**Aber:** Wenn der Spieler, der nach (1) zu spielen an der Reihe ist, bereit und in der
+Lage ist, zu spielen und zu erkennen gibt, dass er zuerst spielen möchte, sollten
+andere Spieler grundsätzlich warten, bis der Spieler gespielt hat.
+Ein Spieler sollte nicht außer der Reihe spielen, um sich einen Vorteil gegenüber
+anderen Spielern zu verschaffen.
+
+### 6.4c Spielen eines provisorischen Balls oder anderen Balls vom Abschlag
+
+In diesem Fall spielen alle Spieler der Gruppe nach der Spielfolge zuerst ihren ersten
+Schlag an dem Loch, bevor ein Spieler den provisorischen oder einen anderen Ball
+vom Abschlag spielt.
+
+Spielen mehrere Spieler einen provisorischen oder anderen Ball vom Abschlag, gilt
+die ursprüngliche Spielfolge.
+
+Für einen außer der Reihe gespielten provisorischen oder anderen Ball siehe Regeln
+6.4a(2) und 6.4b.
+
+### 6.4d Wenn Spieler Erleichterung außerhalb des Abschlags in Anspruch nimmt oder einen provisorischen Ball außerhalb des Abschlags spielen möchte
+
+Die Spielfolge nach den Regeln 6.4a(1) und 6.4b(1) in diesen beiden Fällen ist:
+
+#### (1) Erleichterung in Anspruch nehmen, um einen Ball von anderer Stelle zu spielen, als der, an der er liegt.
+
+- Wenn ein Spieler bemerkt, dass er nach den Regeln Erleichterung mit Schlag
+  und Distanzverlust in Anspruch nehmen muss. Die Spielfolge des Spielers
+  richtet sich nach der Stelle, an der sein vorheriger Schlag gemacht wurde.
+- Wenn der Spieler die Wahl hat, den Ball zu spielen, wie er liegt oder
+  Erleichterung in Anspruch zu nehmen.
+  - Die Spielfolge richtet sich nach der Stelle, an der der ursprüngliche Ball
+    liegt (die, wenn nicht bekannt, geschätzt werden muss), siehe Regel 14.2.
+  - Dies gilt auch dann, wenn sich der Spieler bereits entschieden hat,
+    Erleichterung mit Schlag und Distanzverlust in Anspruch zu nehmen oder
+    von einer anderen Stelle als der zu spielen, an der der ursprüngliche Ball
+    liegt (zum Beispiel wenn der ursprüngliche Ball in einer Penalty Area liegt
+    oder für unspielbar gehalten wird).
+
+#### (2) Provisorischen Ball spielen.
+
+Nach der Spielfolge muss der Spieler einen provisorischen Ball unmittelbar spielen,
+nachdem er den vorherigen Schlag gemacht hat und bevor jemand anders einen Ball spielt, **außer**
+
+- zu Beginn eines Lochs vom Abschlag (siehe Regel 6.4c) oder
+- wenn der Spieler wartet, bevor er sich entscheidet, einen provisorischen Ball
+  zu spielen (in diesem Fall ergibt sich die Spielfolge des Spielers, nachdem er
+  sich zum Spielen eines provisorischen Balls entschieden hat, aus der Stelle,
+  von der der vorherige Schlag gespielt wurde).
