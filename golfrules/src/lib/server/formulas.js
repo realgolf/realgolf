@@ -1,3 +1,4 @@
+// @ts-ignore
 import mathjax from 'mathjax';
 
 const MathJax = await mathjax.init({
