@@ -3,6 +3,7 @@
 	import Fa from 'svelte-fa';
 	import DieGrundlagenDesSpieles from './Footer/die-grundlagen-des-spieles.svelte';
 	import SpielenDerRundeUndEinesLochs from './Footer/spielen-der-runde-und-eines-lochs.svelte';
+	import SpielenDesBalls from './Footer/spielen-des-balls.svelte';
 </script>
 
 <footer>
@@ -10,6 +11,7 @@
 		<section class="parts">
 			<DieGrundlagenDesSpieles />
 			<SpielenDerRundeUndEinesLochs></SpielenDerRundeUndEinesLochs>
+			<SpielenDesBalls></SpielenDesBalls>
 		</section>
 
 		<h3>Hilfe und Support</h3>
