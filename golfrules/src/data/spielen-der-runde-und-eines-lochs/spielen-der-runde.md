@@ -353,3 +353,55 @@ Spielergruppe des Spielers das Spiel wiederaufnehmen kann.
 **Ausnahmen zur Disqualifikation bei Versäumnis, das Spiel rechtzeitig fortzusetzen:**
 Ausnahmen 1, 2 und 3 der Regel 5.3a und die Ausnahme der Regel 5.7b gelten auch
 hier.
+
+### 5.7d Ball bei Spielunterbrechung aufnehmen; Ball zurücklegen und ersetzen bei Wiederaufnahme des Spiels
+
+### (1) Ball aufnehmen bei Spielunterbrechung oder bevor das Spiel fortgesetzt wird.
+
+Wird das Spiel eines Lochs nach dieser Regel unterbrochen, darf der Spieler die
+Lage seines Balls markieren und den Ball aufnehmen (siehe Regel 14.1).
+Entweder vor oder bei Wiederaufnahme des Spiels:
+
+- Wenn der Ball des Spielers während der Spielunterbrechung aufgenommen
+  wurde. Der Spieler muss den ursprünglichen Ball oder einen anderen Ball an
+  die ursprüngliche Stelle legen (die, wenn nicht bekannt, geschätzt werden
+  muss) (siehe Regel 14.2).
+- Wenn der Ball des Spielers während der Spielunterbrechung nicht
+  aufgenommen wurde. Der Spieler darf den Ball spielen, wie er liegt, oder er
+  darf die Lage des Balls markieren und ihn aufnehmen (siehe Regel 14.1) und
+  diesen oder einen anderen Ball an die ursprüngliche Stelle zurücklegen (siehe
+  Regel 14.2).
+
+In beiden Fällen gilt:
+
+- Wurde die Lage des Balls dadurch verändert, weil er aufgenommen wurde,
+  muss der Spieler diesen Ball oder einen anderen Ball zurücklegen, wie in Regel
+  14.2d verlangt.
+- Wird die Lage des Balls verändert, nachdem der Ball aufgenommen wurde und
+  bevor er zurückgelegt wird, gilt Regel 14.2d nicht:
+  - Der ursprüngliche Ball oder ein anderer Ball muss an die ursprüngliche
+    Stelle zurücklegt werden (die, wenn nicht bekannt, geschätzt werden muss)
+    (siehe Regel 14.2).
+  - Wurden die Lage oder andere Bedingungen, die den Schlag beeinflussen,
+    während dieser Zeit verschlechtert, gilt Regel 8.1d.
+
+### (2) Was zu tun ist, wenn der Ball oder der Ballmarker während einer Spielunterbrechung bewegt wird.
+
+Wenn der Ball oder Ballmarker des Spielers irgendwie vor der Wiederaufnahme des Spiels bewegt wird
+(einschließlich durch Naturkräfte), muss der Spieler entweder
+
+- den ursprünglichen Ball oder einen anderen Ball an die ursprüngliche Stelle
+  zurücklegen (die, wenn nicht bekannt, geschätzt werden muss), siehe Regel
+  14.2 oder
+- einen Ballmarker hinlegen, um diese ursprüngliche Stelle zu markieren
+  und dann den ursprünglichen Ball oder einen anderen Ball an diese Stelle
+  zurücklegen (siehe Regeln 14.1 und 14.2).
+
+Wurden für den Spieler die Bedingungen, die den Schlag beeinflussen,
+verschlechtert, während das Spiel ausgesetzt war, siehe Regel 8.1d.
+
+**_Strafe für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 5.7d:_**
+**_Grundstrafe nach Regel 14.7a._**
+
+Ergeben sich mehrfache Regelverstöße aus einer Handlung oder
+zusammenhängenden Handlungen, siehe Regel 1.3c(4).
