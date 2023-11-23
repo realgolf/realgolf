@@ -150,3 +150,140 @@ Erleichterung in Anspruch genommen wurde, darf der Spieler
 
 Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder
 zusammenhängende Handlungen, siehe Regel 1.3c(4).
+
+## 6.3 Beim Spielen eines Lochs benutzter Ball
+
+> **Zweck:**
+> Ein Loch wird mit aufeinanderfolgenden Schlägen vom Abschlag bis zum Grün und
+> ins Loch gespielt. Nachdem der Spieler abgeschlagen hat, wird normalerweise
+> von ihm erwartet, denselben Ball bis zur Beendigung des Lochs zu spielen.
+> Schlägt der Spieler nach einem falschen Ball oder einem neu eingesetzten Ball,
+> zieht er sich eine Strafe zu, wenn das Ersetzen nach den Regeln nicht erlaubt ist.
+
+### 6.3a Einlochen mit demselben Ball, der vom Abschlag gespielt wurde
+
+Dem Spieler ist es gestattet, jeden zugelassenen Ball zu Beginn eines Lochs
+vom Abschlag zu spielen und er darf Bälle zwischen dem Spiel von zwei Löchern
+austauschen.
+Der Spieler muss mit dem Ball, den er vom Abschlag gespielt hat, einlochen, **außer**
+
+- der Ball ist verloren oder ist im Aus oder
+- der Spieler setzt einen anderen Ball neu ein (unabhängig davon, ob dies erlaubt
+  ist oder nicht).
+
+Der Spieler sollte den zu spielenden Ball zur Identifizierung markieren (siehe Regel
+7.2).
+
+### 6.3b Einsetzen eines anderen Balls, während Loch gespielt wird
+
+#### (1) Wann es dem Spieler erlaubt ist und nicht erlaubt ist, einen anderen Ball neu einzusetzen.
+
+Bestimmte Regeln erlauben es dem Spieler, den von ihm benutzten
+Ball auszutauschen, um das Loch mit dem neu eingesetzten anderen Ball als Ball
+im Spiel zu spielen, während andere ihm dies nicht erlauben
+
+- Nimmt der Spieler nach einer Regel Erleichterung in Anspruch, einschließlich
+  Droppen oder Legen eines Balls (zum Beispiel, wenn ein Ball nicht im
+  Erleichterungsbereich liegen bleibt oder Erleichterung auf dem Grün in
+  Anspruch genommen wird), darf der Spieler entweder den ursprünglichen
+  oder einen anderen Ball verwenden (Regel 14.3a).
+- Beim erneuten Spielen von der Stelle, von der der vorherige Schlag gespielt
+  wurde, darf der Spieler entweder den ursprünglichen Ball oder einen anderen
+  Ball verwenden (Regel 14.6), während
+- der Spieler beim Zurücklegen an eine Stelle keinen Ball neu einsetzen darf
+  und, mit gewissen Ausnahmen, den ursprünglichen Ball verwenden muss
+  (Regel 14.2a).
+
+#### (2) Neu eingesetzter Ball wird Ball im Spiel.
+
+Setzt ein Spieler für den Ball im Spiel einen anderen Ball ein (siehe Regel 14.4)
+
+- ist der ursprüngliche Ball nicht länger im Spiel, auch wenn er auf dem Platz liegt.
+- Dies gilt auch, wenn der Spieler
+  - einen anderen Ball für den ursprünglichen Ball neu eingesetzt hat, obwohl
+    dies nach den Regeln nicht zulässig war (unabhängig davon, ob der Spieler
+    wusste, dass er einen Ball neu einsetzte oder nicht) oder
+  - den neu eingesetzten Ball (1) an einem falschen Ort, (2) auf falsche
+    Weise oder (3) unter Anwendung eines nicht anwendbaren Verfahrens
+    zurückgelegt, gedroppt oder hingelegt hatte.
+- Wie ein Fehler berichtigt werden kann, bevor der neu eingesetzte Ball gespielt
+  wird, siehe Regel 14.5.
+
+Wurde der ursprüngliche Ball des Spielers nicht gefunden und brachte der Spieler
+einen anderen Ball ins Spiel, um Erleichterung mit Schlag und Distanzverlust in
+Anspruch zu nehmen (siehe Regeln 17.1d, 18.1,18.2b 19.2a) oder, wie nach einer
+anwendbaren Regel erlaubt, wenn es bekannt oder so gut wie sicher ist, was mit
+dem Ball geschehen ist (siehe Regeln 6.3c, 9.6, 11.2c, 15.2b, 16.1e und 17.1c)
+
+- muss der Spieler das Spiel mit dem neu eingesetzten Ball fortsetzen.
+- Der Spieler darf den ursprünglichen Ball nicht spielen, auch wenn dieser vor
+  dem Ende der Suchzeit von drei Minuten auf dem Platz gefunden wird (siehe
+  Regel 18.2a(1)).
+
+#### (3) Schlag nach einem regelwidrig neu eingesetzten Ball.
+
+Wenn ein Spieler einen Schlag nach einem regelwidrig neu eingesetzten Ball ausführt
+
+- zieht der Spieler sich die **_Grundstrafe_** zu.
+- Im Zählspiel muss der Spieler das Loch mit dem regelwidrig neu eingesetzten
+  Ball beenden.
+
+Ergeben sich mehrere Regelverstöße aus einer einzelnen Handlung oder aus
+mehreren zusammenhängenden Handlungen, siehe Regel 1.3c(4).
+
+### 6.3c Falscher Ball
+
+#### (1) Nach falschem Ball schlagen.
+
+Ein Spieler darf nicht nach einem falschen Ball schlagen.
+Ausnahme – Ball bewegt sich im Wasser: Es ist straflos, wenn der Spieler nach
+einem falschen Ball schlägt, der sich im Wasser in einer Penalty Area oder in
+zeitweiligem Wasser bewegt:
+
+- Der Schlag zählt nicht und
+- der Spieler muss den Fehler nach den Regeln berichtigen, indem er den
+  richtigen Ball vom ursprünglichen Ort spielt oder indem er nach den Regeln
+  Erleichterung in Anspruch nimmt.
+
+**_Strafe für das Spielen eines falschen Balls unter Verstoß gegen Regel 6.3c(1): Grundstrafe._**
+
+Im Lochspiel
+
+- spielen Spieler und Gegner beim Spielen eines Lochs jeweils den Ball des
+  anderen, zieht sich derjenige **_die Grundstrafe (Lochverlust)_** zu, der zuerst
+  einen falschen Ball gespielt hat.
+- Ist nicht bekannt, welcher falsche Ball zuerst gespielt wurde, ist dies straflos
+  und das Loch muss mit den vertauschten Bällen zu Ende gespielt werden.
+
+Im Zählspiel
+
+muss der Spieler den Fehler nach den Regeln durch die Fortsetzung seines Spiels
+mit dem ursprünglichen Ball berichtigen, indem er diesen spielt, wie er liegt oder
+Erleichterung nach den Regeln in Anspruch nimmt:
+
+- Der Schlag nach dem falschen Ball und alle weiteren Schläge vor Berichtigung
+  des Fehlers (gespielte Schläge einschließlich Strafschläge, die nur beim
+  Spielen dieses Balls anfielen) zählen nicht.
+- Berichtigt der Spieler den Fehler nicht, bevor er schlägt, um das nächste Loch
+  zu beginnen oder, beim letzten Loch der Runde, bevor er seine Scorekarte
+  einreicht, ist er **_disqualifiziert_**.
+
+#### (2) Was zu tun ist, wenn der Ball des Spielers von einem anderen Spieler als falscher Ball gespielt wurde.
+
+Ist es bekannt oder so gut wie sicher, dass der Ball des
+Spielers von einem anderen Spieler als ein falscher Ball gespielt wurde, muss der
+Spieler den ursprünglichen oder einen anderen Ball an die ursprüngliche Stelle
+zurücklegen, (die, wenn nicht bekannt, geschätzt werden muss), siehe Regel 14.2.
+
+Dies gilt unabhängig davon, ob der ursprüngliche Ball gefunden wurde oder nicht.
+
+### 6.3d Wann ein Spieler mehr als einen Ball gleichzeitig spielen darf
+
+Ein Spieler darf nur dann gleichzeitig mehr als einen Ball an einem Loch spielen,
+wenn
+
+- er einen provisorischen Ball spielt (der entweder zum Ball im Spiel oder
+  aufgegeben wird, wie in Regel 18.3c vorgesehen) oder
+- er im Zählspiel zwei Bälle spielt, um einen möglicherweise schwerwiegenden
+  Verstoß wegen Spielens vom falschen Ort zu berichtigen (siehe Regel 14.7b) oder
+  wenn er unsicher ist, wie er regelgerecht vorgehen soll (siehe Regel 20.1c(3)).
