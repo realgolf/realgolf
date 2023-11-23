@@ -33,3 +33,36 @@ Sie gilt nicht für
   Ausmaß nach Regel 15 erlaubt oder
 - eine Handlung, während der Ball eines Spielers in Bewegung ist, siehe hierzu
   Regel 11.
+
+### 8.1a Unerlaubte Handlungen
+
+Mit **Ausnahme** der eingeschränkten Möglichkeiten, wie nach den Regeln 8.1b, c und
+d erlaubt, darf der Spieler keine der folgenden Handlungen vornehmen, sofern sie
+_die Bedingungen, die den Schlag beeinflussen, verbessern:_
+
+#### (1) Bewegen, Biegen oder Brechen eines
+
+- wachsenden oder befestigten natürlichen Gegenstands oder
+- _unbeweglichen Hemmnisses, Bestandteils des Platzes, einer Ausmarkierung_
+  oder
+- einer Abschlagmarkierung für den _Abschlag_, wenn ein Ball von diesem
+  _Abschlag_ gespielt wird.
+
+#### (2) Bewegen eines losen hinderlichen Naturstoffs oder eines beweglichen
+
+Hemmnisses an eine bestimmte Stelle (zum Beispiel, um einen Stand zu bauen
+oder die Spiellinie zu verbessern).
+
+#### (3) Verändern der Bodenoberfläche, einschließlich durch
+
+- Zurücklegen von Divots in ein Divotloch,
+- Entfernen oder Niederdrücken von Divots, die bereits zurückgelegt wurden
+  oder anderer bereits verlegter Rasensoden oder
+- indem Löcher, Vertiefungen oder Bodenunebenheiten geschaffen oder
+  beseitigt werden.
+
+#### (4) Entfernen oder Niederdrücken von Sand oder losem Erdreich.
+
+#### (5) Entfernen von Tau, Reif oder Wasser.
+
+**_Strafe für Verstoß gegen Regel 8.1a: Grundstrafe._**
