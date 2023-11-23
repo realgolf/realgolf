@@ -168,3 +168,77 @@ bevor das Lochspiel fortgesetzt wird.
 **_Strafe für Verstoß gegen Regel 5.5: Grundstrafe._**
 
 Geschieht der Verstoß zwischen zwei Löchern, fällt die Strafe am nächsten Loch an.
+
+## 5.6 Unangemessene Verzögerung; zügiges Spiel
+
+### 5.6a Unangemessene Verzögerung des Spiels
+
+Ein Spieler darf das Spiel weder beim Spielen eines Lochs noch zwischen zwei
+Löchern unangemessen verzögern.
+
+Aus bestimmten Gründen kann einem Spieler eine kurze Verzögerung erlaubt
+werden, zum Beispiel
+
+- wenn er Unterstützung eines Referees oder der Spielleitung benötigt,
+- wenn er sich verletzt oder erkrankt oder
+- wenn es einen anderen triftigen Grund gibt.
+
+**_Strafe für Verstoß gegen Regel 5.6a:_**
+
+- **_Strafe für ersten Verstoß: Ein Strafschlag._**
+- **_Strafe für zweiten Verstoß: Grundstrafe._**
+- **_Strafe für dritten Verstoß: Disqualifikation._**
+
+Verzögert ein Spieler das Spiel unangemessen zwischen zwei Löchern, fällt die
+Strafe am nächsten Loch an.
+
+### 5.6b Zügiges Spiel
+
+Eine Golfrunde soll zügig gespielt werden.
+
+Jedem Spieler sollte bewusst sein, dass sein Spieltempo auch die Dauer der Runde
+anderer Spieler beeinflussen kann. Das betrifft sowohl die Spieler der eigenen
+Gruppe als auch alle nachfolgenden Spieler auf der Runde.
+
+Spieler sollten schnelleren Gruppen das Durchspielen erlauben.
+
+#### (1) Empfehlungen zum Spieltempo.
+
+Die Spieler sollen ihre Runde zügig spielen, einschließlich der Zeit, die sie benötigen
+
+- jeden Schlag vorzubereiten und auszuführen,
+- für den Weg zwischen den Schlägen und
+- für den Weg nach Beendigung des Lochs zum nächsten Abschlag.
+
+Ein Spieler sollte sich im Voraus auf seinen nächsten Schlag vorbereiten und
+spielbereit sein, wenn er an der Reihe ist.
+
+Wenn der Spieler an der Reihe ist, zu spielen
+
+- wird empfohlen, dass er innerhalb von 40 Sekunden schlägt, nachdem er in
+  der Lage ist (oder sein sollte), ohne Störung oder Ablenkung zu spielen und
+- dabei sollte es für ihn gewöhnlich möglich sein, noch schneller zu spielen,
+  wozu er hiermit ermutigt wird.
+
+#### (2) Außerhalb der Reihenfolge spielen, um Zeit zu sparen.
+
+Abhängig von der jeweiligen Spielform gibt es Situationen, in denen
+Spieler außerhalb der Reihenfolge spielen dürfen, um den Spielfluss zu beschleunigen.
+
+- Im Lochspiel dürfen Spieler übereinkommen, dass einer von Ihnen außerhalb
+  der Reihenfolge spielt, um Zeit zu sparen (siehe Regel 6.4a).
+
+- Im Zählspiel dürfen Spieler auf sichere und verantwortungsvolle Weise „Ready
+  Golf“ spielen (siehe Regel 6.4b Ausnahme).
+
+#### (3) Richtlinien der Spielleitung für zügiges Spiel.
+
+Um schnelles Spiel zu fördern und durchzusetzen, sollte die Spielleitung
+eine Platzregel mit Richtlinien für die Spielgeschwindigkeit erlassen.
+
+Diese Richtlinie kann eine Höchstspielzeit für eine Runde, ein Loch, eine Reihe
+von Löchern oder für einen Schlag festlegen. Sie kann auch Strafen für einen
+Verstoß gegen diese Richtlinie festsetzen.
+
+**Siehe „Offizielles Handbuch“, Leitlinien für die Spielleitung, Abschnitt 5G**
+(Empfehlungen zum Inhalt der Richtlinien für die Spielgeschwindigkeit).
