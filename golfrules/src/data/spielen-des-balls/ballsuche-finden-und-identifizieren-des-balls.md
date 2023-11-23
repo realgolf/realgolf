@@ -89,3 +89,24 @@ sich **_einen Strafschlag_** zu.
 
 Ergeben sich mehrere Regelverstöße aus einer einzelnen Handlung oder von
 mehreren zusammenhängenden Handlungen, siehe Regel 1.3c(4).
+
+## 7.4 Ball versehentlich beim Versuch bewegt, ihn zu finden oder zu identifizieren
+
+Es ist straflos, wenn der Ball des Spielers versehentlich bewegt wird, während der
+Spieler, Gegner oder andere versuchen, ihn zu finden oder zu identifizieren.
+Geschieht dies, muss der Ball an seine ursprüngliche Stelle zurückgelegt werden
+(die, wenn nicht bekannt, geschätzt werden muss), siehe Regel 14.2. Hierbei gilt:
+
+- Lag der Ball auf, unter oder an einem unbeweglichen Hemmnis, einem Bestandteil
+  des Platzes, einer Ausmarkierung oder einem wachsenden oder befestigten
+  natürlichen Gegenstand, muss der Ball an seine ursprüngliche Stelle auf unter
+  oder an einen solchen Gegenstand zurückgelegt werden (siehe Regel 14.2c).
+- War der Ball mit Sand bedeckt, muss die ursprüngliche Lage wieder hergestellt
+  und der Ball in diese Lage zurückgelegt werden (siehe Regel 14.2d(1)). **Aber:** Der
+  Spieler darf einen kleinen Teil des Balls sichtbar lassen, wenn der Ball mit Sand
+  bedeckt war.
+
+Siehe auch Regel 15.1a (Einschränkung beim absichtlichen Entfernen bestimmter
+loser hinderlicher Naturstoffe vor dem Zurücklegen eines Balls).
+
+**_Strafe für Verstoß gegen Regel 7.4: Grundstrafe_**
