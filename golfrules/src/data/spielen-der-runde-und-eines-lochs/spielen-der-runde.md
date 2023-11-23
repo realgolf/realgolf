@@ -105,3 +105,18 @@ Die Runde eines Spielers endet
 
 **Siehe Regeln 21.1e, 21.2e, 21.3e und 23.3b** (Wann eine Runde in anderen Formen
 des Zählspiels und im Vierball beginnt und endet).
+
+## 5.4 Spielen in Gruppen
+
+### 5.4a Lochspiel
+
+Während einer Runde müssen der Spieler und sein Gegner jedes Loch in derselben
+Gruppe spielen.
+
+### 5.4b Zählspiel
+
+Während einer Runde muss der Spieler in der von der Spielleitung bestimmten
+Gruppe bleiben, es sei denn, die Spielleitung stimmt einem Wechsel vorher zu oder
+genehmigt ihn nachträglich.
+
+**_Strafe für Verstoß gegen Regel 5.4: Disqualifikation._**
