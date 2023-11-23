@@ -20,7 +20,7 @@
 					Dieses Regelwerk is Open-Source. Sie haben was endeckt, dass falsch oder unklar ist?
 				</p>
 				<p class="grey">Erstellen Sie eine Pull Request oder erstellen Sie ein Issue.</p>
-				<a href="https://github.com/moinjulian/golf">
+				<a href="https://github.com/moinjulian/golf" target="_blank">
 					<button><span><Fa icon={faCodePullRequest} /></span>Machen Sie ein Beitrag</button>
 				</a>
 			</div>
