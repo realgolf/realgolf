@@ -2,15 +2,15 @@
 title: Regel 3 - Das Turnier
 ---
 
-**Zweck:**
-
-Regel 3 bestimmt die drei wesentlichen Bestandteile aller Golfturniere:
-
-- Es wird entweder Lochspiel oder Zählspiel gespielt,
-- es wird als einzelner Spieler oder mit einem Partner als Teil einer Partei
-  gespielt und
-- es werden Brutto-Ergebnisse gezählt (ohne Anrechnung von Handicaps) oder
-  Netto-Ergebnisse (mit Anrechnung des Handicaps).
+> **Zweck:**
+>
+> Regel 3 bestimmt die drei wesentlichen Bestandteile aller Golfturniere:
+>
+> - Es wird entweder Lochspiel oder Zählspiel gespielt,
+> - es wird als einzelner Spieler oder mit einem Partner als Teil einer Partei
+>   gespielt und
+> - es werden Brutto-Ergebnisse gezählt (ohne Anrechnung von Handicaps) oder
+>   Netto-Ergebnisse (mit Anrechnung des Handicaps).
 
 ## 3.1 Wesentliche Bestandteile aller Turniere
 
@@ -68,14 +68,14 @@ gelten aber auch:
 
 ## 3.2 Lochspiel
 
-**Zweck:**
-
-Lochspiel hat besondere Regeln (vor allem bezüglich des Schenkens und der
-Auskunft über die Schlagzahl), da Spieler und Gegner
-
-- an jedem Loch alleine gegeneinander im Wettbewerb stehen,
-- das Spiel des anderen sehen können und
-- ihre eigenen Interessen wahren können.
+> **Zweck:**
+>
+> Lochspiel hat besondere Regeln (vor allem bezüglich des Schenkens und der
+> Auskunft über die Schlagzahl), da Spieler und Gegner
+>
+> - an jedem Loch alleine gegeneinander im Wettbewerb stehen,
+> - das Spiel des anderen sehen können und
+> - ihre eigenen Interessen wahren können.
 
 ### 3.2a Ergebnis des Lochs und des Lochspiels
 
@@ -304,16 +304,16 @@ Spieler in einem Lochspiel sollten ihre eigenen Rechte und Interessen nach den R
 
 ## 3.3 Zählspiel
 
-**Zweck:**
-Zählspiel hat besondere Regeln (vor allem bezüglich der Scorekarte und des
-Einlochens) denn:
-
-- Jeder Spieler spielt gegen alle anderen Spieler des Turniers, und
-- alle Spieler müssen nach den Regeln gleich behandelt werden.
-
-Nach der Runde müssen der Spieler und der Zähler (der das Ergebnis des Spielers
-aufschreibt) bestätigen, dass die Ergebnisse des Spielers für jedes Loch richtig
-sind und der Spieler muss die Scorekarte bei der Spielleitung einreichen.
+> **Zweck:**
+> Zählspiel hat besondere Regeln (vor allem bezüglich der Scorekarte und des
+> Einlochens) denn:
+>
+> - Jeder Spieler spielt gegen alle anderen Spieler des Turniers, und
+> - alle Spieler müssen nach den Regeln gleich behandelt werden.
+>
+> Nach der Runde müssen der Spieler und der Zähler (der das Ergebnis des Spielers
+> aufschreibt) bestätigen, dass die Ergebnisse des Spielers für jedes Loch richtig
+> sind und der Spieler muss die Scorekarte bei der Spielleitung einreichen.
 
 ### 3.3a Gewinner im Zählspiel
 

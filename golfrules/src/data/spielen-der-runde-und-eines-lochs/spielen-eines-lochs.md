@@ -2,13 +2,13 @@
 title: Regel 6 - Spielen eines Lochs
 ---
 
-**Zweck:**
-
-Regel 6 beschreibt, wie ein Loch zu spielen ist – zum Beispiel mit Sonderregeln
-für das Abschlagen, um ein Loch zu beginnen, die Anforderung, ein Loch mit
-demselben Ball zu spielen, es sei denn, das Ersetzen des Balls ist erlaubt, die
-Spielfolge (die im Lochspiel von größerer Bedeutung ist als im Zählspiel) und das
-Beenden eines Lochs.
+> **Zweck:**
+>
+> Regel 6 beschreibt, wie ein Loch zu spielen ist – zum Beispiel mit Sonderregeln
+> für das Abschlagen, um ein Loch zu beginnen, die Anforderung, ein Loch mit
+> demselben Ball zu spielen, es sei denn, das Ersetzen des Balls ist erlaubt, die
+> Spielfolge (die im Lochspiel von größerer Bedeutung ist als im Zählspiel) und das
+> Beenden eines Lochs.
 
 ## 6.1 Das Spielen eines Lochs beginnen
 

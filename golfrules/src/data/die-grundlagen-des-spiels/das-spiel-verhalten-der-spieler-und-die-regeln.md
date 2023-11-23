@@ -2,16 +2,16 @@
 title: Regel 1 - Das Spiel, Verhalten der Spieler und die Regeln
 ---
 
-**Zweck:**
-
-Regel 1 schreibt dem Spieler die zentralen Grundsätze des Spiels vor:
-
-- Spielen Sie den Platz, wie Sie ihn vorfinden und den Ball, wie er liegt.
-- Spielen Sie nach den Regeln und entsprechend des „Spirit of the Game“
-  („Der wahre Geist des Golfsports“).
-- Sie sind dafür verantwortlich, sich selbst Ihre Strafschläge zuzuschreiben,
-  wenn Sie gegen eine Regel verstoßen, damit Sie gegenüber einem Gegner im
-  Lochspiel oder anderen Spielern im Zählspiel keinen Vorteil erzielen.
+> **Zweck:**
+>
+> Regel 1 schreibt dem Spieler die zentralen Grundsätze des Spiels vor:
+>
+> - Spielen Sie den Platz, wie Sie ihn vorfinden und den Ball, wie er liegt.
+> - Spielen Sie nach den Regeln und entsprechend des „Spirit of the Game“>
+>   („Der wahre Geist des Golfsports“).
+> - Sie sind dafür verantwortlich, sich selbst Ihre Strafschläge zuzuschreiben,
+>   wenn Sie gegen eine Regel verstoßen, damit Sie gegenüber einem Gegner im
+>   Lochspiel oder anderen Spielern im Zählspiel keinen Vorteil erzielen.
 
 ## 1.1 Das Golfspiel
 

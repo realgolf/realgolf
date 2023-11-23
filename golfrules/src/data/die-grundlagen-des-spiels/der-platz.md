@@ -2,19 +2,19 @@
 title: Regel 2 - Der Platz
 ---
 
-**Zweck:**
-
-Regel 2 legt die Grundkenntnisse, die jeder Spieler über den Platz haben sollte,
-fest:
-
-- Es gibt fünf definierte Platzbereiche und
-- es gibt verschiedene Arten von Gegenständen und Gegebenheiten, die das
-  Spiel beeinträchtigen können.
-
-Es ist wichtig zu wissen, in welchem Bereich des Platzes der Ball liegt und
-welchen Status störende Gegenstände und Umstände haben, da diese häufig die
-Möglichkeiten des Spielers beim Spielen des Balls oder bei Inanspruchnahme von
-Erleichterung beeinflussen.
+> **Zweck:**
+>
+> Regel 2 legt die Grundkenntnisse, die jeder Spieler über den Platz haben sollte,
+> fest:
+>
+> - Es gibt fünf definierte Platzbereiche und
+> - es gibt verschiedene Arten von Gegenständen und Gegebenheiten, die das
+>   Spiel beeinträchtigen können.
+>
+> Es ist wichtig zu wissen, in welchem Bereich des Platzes der Ball liegt und
+> welchen Status störende Gegenstände und Umstände haben, da diese häufig die
+> Möglichkeiten des Spielers beim Spielen des Balls oder bei Inanspruchnahme von
+> Erleichterung beeinflussen.
 
 ## 2.1 Platzgrenzen und das Aus
 
