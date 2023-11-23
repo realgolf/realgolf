@@ -49,3 +49,19 @@ hinderliche Naturstoffe gemäß Regel 15.1 und bewegliche Hemmnisse gemäß Rege
   einen kleinen Teil des Balls sichtbar lassen, wenn der Ball mit Sand bedeckt war.
 - Spielt der Spieler den Ball, ohne die ursprüngliche Lage wiederhergestellt zu
   haben, zieht er sich die **_Grundstrafe_** zu.
+
+## 7.2 Identifizieren des Balls
+
+Ein ruhender Ball eines Spielers darf durch eine der folgenden Möglichkeiten
+identifiziert werden:
+
+- Durch den Spieler oder jeden, der einen Ball in Situationen zur Ruhe kommen
+  sieht, in denen es bekannt ist, dass es sich um den Ball des Spielers handelt.
+- Durch ein sichtbares Kennzeichen des Spielers auf dem Ball (siehe Regel 6.3a).
+- Indem ein Ball mit gleicher Marke, Typ, Nummer und in dem Zustand des Balls des
+  Spielers in einem Bereich gefunden wird, in dem der Ball des Spielers vermutet
+  wird (**aber** dies gilt nicht, wenn ein gleicher Ball in demselben Bereich liegt und es
+  nicht möglich ist, festzustellen, welcher der Ball des Spielers ist).
+
+Ist der provisorische Ball des Spielers nicht von seinem ursprünglichen Ball zu
+unterscheiden, siehe Regel 18.3c(2).
