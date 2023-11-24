@@ -101,7 +101,7 @@ Die Regeln 1-20 beziehen sich grundsätzlich auf das Spiel einzelner Spieler; si
      - Ein Schenken, während der Ball des Gegners nach dem vorigen Schlag noch in Bewegung ist, bezieht sich auf den nächsten Schlag, außer der Ball wird eingelocht (in welchem Fall das Schenken keine Rolle spielt).
      - Der Spieler darf den nächsten Schlag des Gegners schenken, indem er den sich bewegenden Ball ablenkt oder aufhält, wenn dies ausschließlich geschieht, den nächsten Schlag zu schenken und es unwahrscheinlich ist, dass der Ball eingelocht wird.
    - _Loch schenken._ Dies ist zu jeder Zeit erlaubt, bevor das Loch beendet ist (siehe [Regel 6.5](#)), auch vor Beginn des Lochs.
-   - _Lochspiel schenken._ Dies ist zu jeder Zeit erlaubt, bevor das Ergebnis des Lochspiels feststeht (siehe [Regel 3.2a(3)](<#(3)-lochspiel-gewinnen.>) und [(4)](<#(4)-verlängerung-eines-geteilten-lochspiels.>)), auch vor Beginn des Lochspiels.
+   - _Lochspiel schenken._ Dies ist zu jeder Zeit erlaubt, bevor das Ergebnis des Lochspiels feststeht (siehe Regel 3.2a(3) und (4)), auch vor Beginn des Lochspiels.
 
 2. **Wie geschenkt wird.** Schenken gilt nur, wenn es unmissverständlich zum Ausdruck gebracht wird:
 
@@ -124,7 +124,7 @@ Die Regeln 1-20 beziehen sich grundsätzlich auf das Spiel einzelner Spieler; si
 
 Jeder Spieler ist dafür verantwortlich, die Löcher zu kennen, an denen er auf der Grundlage der von der Spielleitung festgelegten Vorgabenverteilung (üblicherweise auf der Scorekarte zu finden) Vorgabenschläge gewährt oder erhält.
 
-Wenden Spieler die Vorgabenschläge an einem Loch fälschlicherweise an, gilt das vereinbarte Ergebnis für das Loch, es sei denn, die Spieler berichtigen den Fehler rechtzeitig (siehe [Regel 3.2d(3)](<#(3)-kenntnis-über-den-spielstand-im-lochspiel.>)).
+Wenden Spieler die Vorgabenschläge an einem Loch fälschlicherweise an, gilt das vereinbarte Ergebnis für das Loch, es sei denn, die Spieler berichtigen den Fehler rechtzeitig (siehe Regel 3.2d(3)).
 
 ### 3.2d Verantwortlichkeiten von Spieler und Gegner
 
@@ -143,7 +143,7 @@ Wenden Spieler die Vorgabenschläge an einem Loch fälschlicherweise an, gilt da
    - Falsche Schlagzahl angeben, während ein Loch gespielt wird. Der Spieler muss seine richtige Schlagzahl mitteilen, bevor der Gegner erneut schlägt oder eine ähnliche Handlung vornimmt (zum Beispiel den nächsten Schlag oder das Loch schenkt).
    - Falsche Schlagzahl mitteilen, nachdem das Loch beendet wurde. Der Spieler muss seine richtige Schlagzahl mitteilen,
      - bevor einer der beiden Spieler vom nächsten Abschlag abschlägt oder eine vergleichbare Handlung ausführt (zum Beispiel das nächste Loch oder das Lochspiel schenkt) oder
-     - am letzten Loch des Lochspiels, bevor das Ergebnis des Lochspiels feststeht (siehe [Regel 3.2a(5)](<#(5)-wann-ein-ergebnis-endgültig-ist.>)).
+     - am letzten Loch des Lochspiels, bevor das Ergebnis des Lochspiels feststeht (siehe Regel 3.2a(5)).
 
 **Ausnahme – keine Strafe, wenn ohne Einfluss auf Ergebnis des Lochs:** Es ist straflos, wenn der Spieler eine falsche Schlagzahl angibt, nachdem das Loch beendet ist und dies das Verständnis des Gegners, ob er das Loch gewonnen, geteilt oder verloren hat, nicht beeinflusst.
 
@@ -160,7 +160,7 @@ Wenden Spieler die Vorgabenschläge an einem Loch fälschlicherweise an, gilt da
 
    Wenn sich die Spieler versehentlich auf einen falschen Stand des Lochspiels geeinigt haben
 
-   - können sie den Spielstand des Lochspiels berichtigen, bevor einer der beiden Spieler schlägt, um das nächste Loch zu beginnen oder, wenn es sich um das letzte Loch handelt, bevor das Ergebnis des Lochs endgültig ist (siehe [Regel 3.2a(5)](<#(5)-wann-ein-ergebnis-endgültig-ist.>)).
+   - können sie den Spielstand des Lochspiels berichtigen, bevor einer der beiden Spieler schlägt, um das nächste Loch zu beginnen oder, wenn es sich um das letzte Loch handelt, bevor das Ergebnis des Lochs endgültig ist (siehe Regel 3.2a(5)).
    - Wird der falsche Spielstand des Lochspiels nicht in diesem Zeitraum berichtigt, wird er zum gültigen Spielstand des Lochspiels.
 
    **Ausnahme – Spieler verlangt rechtzeitig eine Regelentscheidung:** Verlangt der Spieler rechtzeitig eine Regelentscheidung (siehe Regel 20.1b) und stellt sich heraus, dass der Gegner entweder (1) eine falsche Schlagzahl angegeben oder (2) versäumt hat, den Spieler über eine Strafe zu informieren, muss der falsche Spielstand des Lochspiels berichtigt werden.
