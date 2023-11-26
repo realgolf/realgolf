@@ -1,4 +1,0 @@
-[build]
-base = "site/game"
-command = "npm run build"
-publish = "site/game/build"

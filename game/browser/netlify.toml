@@ -1,0 +1,4 @@
+[build]
+base = "game/browser"
+command = "npm run build"
+publish = "game/browser/build"
