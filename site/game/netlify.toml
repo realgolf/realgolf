@@ -1,4 +1,4 @@
 [build]
-  command = "npm run build" 
-  publish = "site/server/build"
-  base = "site/server"
+base = "site/game"
+command = "npm run build"
+publish = "site/game/build"
