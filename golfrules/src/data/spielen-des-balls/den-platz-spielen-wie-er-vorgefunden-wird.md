@@ -150,3 +150,11 @@ Bevor er einen Ball spielt, darf ein Spieler keine der in Regel 8.1a aufgeführt
 **_Strafe für Verstoß gegen Regel 8.2: Grundstrafe._**
 
 **Siehe Regel 22.2** (In Vierern darf jeder Partner für die Partei handeln und eine Handlung des Partners wird als Handlung des Spielers behandelt.); 23.5 (Im Vierball darf jeder Partner für die Partei handeln und eine Handlung des Partners, die den Ball oder die Ausrüstung des Spielers betrifft, wird als Handlung des Spielers behandelt.).
+
+## 8.3 Absichtliche Handlungen des Spielers, um äußere Bedingungen zu verändern, die den ruhenden Ball oder zu machenden Schlag eines anderen Spielers beeinflussen
+
+### 8.3a Wann Regel 8.3 gilt
+
+Diese Regel behandelt nur absichtliche Handlungen eines Spielers, um äußere Bedingungen zu verändern, die den ruhenden Ball oder zu spielenden Schlag eines anderen Spielers beeinflussen.
+
+Sie ist nicht anwendbar auf Handlungen eines Spielers, um einen sich bewegenden Ball eines anderen Spielers absichtlich abzulenken oder aufzuhalten oder absichtlich äußere Bedingungen zu verändern, die beeinflussen, wo der Ball zur Ruhe kommen könnte (dies wird durch die Regeln 11.2 und 11.3 erfasst).
