@@ -137,3 +137,16 @@ Diese Regel gilt nicht für Handlungen eines Spielers, die
 
 - seinen Ball absichtlich ablenken oder aufhalten oder absichtlich äußere Bedingungen verändern, die beeinflussen, wo der Ball zur Ruhe kommen könnte (dies wird von den Regeln 11.2 und 11.3 erfasst) oder
 - seine Bedingungen, die den Schlag beeinflussen, verändern (dies wird in Regel 8.1 erfasst).
+
+### 8.2b Unzulässige Handlungen, um andere äußere Bedingungen zu verändern
+
+Bevor er einen Ball spielt, darf ein Spieler keine der in Regel 8.1a aufgeführten Handlungen absichtlich vornehmen (es sei denn, sie sind nach den Regeln 8.1b, c oder d erlaubt), um andere äußere Bedingungen zu verändern, die beeinflussen,
+
+- wo der Ball des Spielers sich nach seinem Schlag oder einem späteren Schlag hinbewegen oder zur Ruhe kommen könnte oder
+- wo der ruhende Ball des Spielers sich hinbewegen oder zur Ruhe kommen könnte, wenn sich der Ball vor dem Schlag bewegt (zum Beispiel, wenn der Ball in einer starken Hanglage liegt und der Spieler Sorge hat, der Ball könnte in einen Busch rollen).
+
+**Ausnahme – Handlungen zur Schonung des Platzes:** Es ist nach dieser Regel straflos, wenn der Spieler zur Schonung des Platzes andere äußere Bedingungen verändert (wie das Einebnen von Fußspuren im Bunker oder das Zurücklegen eines Divots in ein Divotloch).
+
+**_Strafe für Verstoß gegen Regel 8.2: Grundstrafe._**
+
+**Siehe Regel 22.2** (In Vierern darf jeder Partner für die Partei handeln und eine Handlung des Partners wird als Handlung des Spielers behandelt.); 23.5 (Im Vierball darf jeder Partner für die Partei handeln und eine Handlung des Partners, die den Ball oder die Ausrüstung des Spielers betrifft, wird als Handlung des Spielers behandelt.).
