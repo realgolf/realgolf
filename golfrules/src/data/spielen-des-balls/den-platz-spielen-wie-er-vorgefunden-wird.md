@@ -126,3 +126,14 @@ Werden Bedingungen, die den Schlag beeinflussen, verschlechtert, nachdem der Bal
 Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder zusammenhängende Handlungen, siehe Regel 1.3c(4).
 
 **Siehe Regel 22.2** (In Vierern darf jeder Partner für die Partei handeln und eine Handlung des Partners wird als Handlung des Spielers behandelt.); 23.5 (Im Vierball darf jeder Partner für die Partei handeln und eine Handlung des Partners, die den Ball oder die Ausrüstung des Spielers betrifft, wird als Handlung des Spielers behandelt.).
+
+## 8.2 Absichtliche Handlungen des Spielers, um andere äußere Bedingungen zu verändern, die seinen eigenen ruhenden Ball oder den zu spielenden Schlag beeinflussen
+
+### 8.2a Wann Regel 8.2 gilt
+
+Diese Regel behandelt nur die absichtlichen Handlungen eines Spielers, durch die andere äußere Bedingungen verändert werden, die seinen ruhenden Ball oder den zu spielenden Schlag betreffen.
+
+Diese Regel gilt nicht für Handlungen eines Spielers, die
+
+- seinen Ball absichtlich ablenken oder aufhalten oder absichtlich äußere Bedingungen verändern, die beeinflussen, wo der Ball zur Ruhe kommen könnte (dies wird von den Regeln 11.2 und 11.3 erfasst) oder
+- seine Bedingungen, die den Schlag beeinflussen, verändern (dies wird in Regel 8.1 erfasst).
