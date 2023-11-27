@@ -106,3 +106,23 @@ Hat ein Spieler durch Bewegen, Biegen oder Brechen eines Gegenstands unter Verst
       - unter Verwendung anderen Materials, um den ursprünglichen Gegenstand wiederherzustellen (zum Beispiel durch Verwendung von Tape, um eine zerbrochene Ausmarkierung oder einen Ast zu reparieren).
 
 2.  **Wie die Bedingungen wiederherzustellen sind, die verbessert wurden, indem ein Gegenstand an eine Stelle gelegt wurde.** Bevor der Schlag gespielt wird, darf der Spieler die Strafe für Verstoß gegen Regel 8.1a(2) vermeiden, indem er den Gegenstand entfernt, der an eine Stelle bewegt wurde.
+
+### 8.1d Wiederherstellen von Bedingungen, die verschlechtert wurden, nachdem der Ball zur Ruhe kam
+
+Werden Bedingungen, die den Schlag beeinflussen, verschlechtert, nachdem der Ball eines Spielers zur Ruhe kam:
+
+1. **Wann das Wiederherstellen der verschlechterten Bedingungen erlaubt ist.** Wurden die Bedingungen, die den Schlag beeinflussen, von jemand anderem als dem Spieler oder durch ein Tier oder einen künstlichen Gegenstand verschlechtert, darf der Spieler straflos nach Regel 8.1a
+
+   - die ursprünglichen Bedingungen so gut wie möglich wiederherstellen,
+   - den Ball markieren, aufnehmen, reinigen und ihn an die ursprüngliche Stelle (siehe Regel 14.1 und 14.2) zurücklegen, wenn es vernünftig ist, die ursprünglichen Bedingungen wiederherzustellen oder auch, wenn Fremdstoff auf den Ball gelangte, als die Bedingungen verschlechtert wurden,
+   - wenn die veränderten Bedingungen nur schwer in den ursprünglichen Zustand zurückversetzt werden können, den Ball aufnehmen und an die nächstgelegene Stelle (nicht näher zum Loch) zurücklegen, die (1) möglichst ähnliche Bedingungen, die den Schlag beeinflussen, aufweist, (2) innerhalb einer Schlägerlänge zur ursprünglichen Stelle entfernt ist und (3) sich im gleichen Bereich des Platzes wie die ursprüngliche Stelle befindet.
+
+**Ausnahme – Lage des Balls verschlechtert, während oder nachdem ein Ball aufgenommen oder bewegt wurde und bevor er zurückgelegt wird:** Dies wird von Regel 14.2d erfasst, es sei denn, die Lage hat sich verschlechtert, während das Spiel unterbrochen und der Ball aufgenommen war. In diesem Fall gilt diese Regel.
+
+2. **Wann das Wiederherstellen der verschlechterten Bedingungen nicht erlaubt ist.** Wurden die Bedingungen, die den Schlag beeinflussen, durch den Spieler, durch einen äußeren Einfluss oder durch Naturkräfte wie Wind oder Wasser verschlechtert, darf der Spieler die verschlechterten Bedingungen nicht unter Verstoß gegen Regel 8.1a verbessern (ausgenommen wie in den Regeln 8.1c(1), 8.1c(2) und Regel 13.1c erlaubt).
+
+**_Strafe für das Spielen eines fälschlich neu eingesetzten Balls oder für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 8.1d: Grundstrafe nach Regel 6.3b oder 14.7a._**
+
+Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder zusammenhängende Handlungen, siehe Regel 1.3c(4).
+
+**Siehe Regel 22.2** (In Vierern darf jeder Partner für die Partei handeln und eine Handlung des Partners wird als Handlung des Spielers behandelt.); 23.5 (Im Vierball darf jeder Partner für die Partei handeln und eine Handlung des Partners, die den Ball oder die Ausrüstung des Spielers betrifft, wird als Handlung des Spielers behandelt.).
