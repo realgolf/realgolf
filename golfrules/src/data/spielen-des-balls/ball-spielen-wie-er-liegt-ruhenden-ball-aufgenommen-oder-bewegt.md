@@ -32,3 +32,35 @@ Beginnt sich der ruhende Ball des Spielers zu bewegen, nachdem er seinen Schlag 
 **_Strafe für das Spielen eines fälschlich neu eingesetzten Balls oder für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 9.1: Grundstrafe nach Regel 6.3b oder 14.7a._**
 
 Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
+
+## 9.2 Entscheiden, ob sich ein Ball bewegt hat und wodurch die Bewegung verursacht wurde
+
+### 9.2a Entscheiden, ob ein Ball sich bewegt hat
+
+Ein ruhender Ball eines Spielers wird ausschließlich dann als bewegt behandelt, wenn es bekannt oder so gut wie sicher ist, dass er sich bewegt hat.
+
+Wenn der Ball sich bewegt haben könnte, dies aber weder bekannt noch so gut wie sicher ist, gilt der Ball als nicht bewegt und muss gespielt werden, wie er liegt.
+
+### 9.2b Entscheiden, was die Bewegung eines Balls verursachte
+
+Hat sich ein ruhender Ball eines Spielers bewegt,
+
+- muss entschieden werden, was die Bewegung verursachte.
+- Davon hängt ab, ob der Spieler den Ball zurücklegen oder ihn spielen muss, wie er liegt und ob eine Strafe anfällt.
+
+1. _Vier mögliche Ursachen._ Die Regeln kennen lediglich vier Ursachen für einen ruhenden Ball, der sich bewegt, bevor der Spieler einen Schlag ausführt:
+
+   - Naturkräfte wie Wind oder Wasser (siehe Regel 9.3),
+   - den Spieler einschließlich seines Caddies (siehe Regel 9.4),
+   - den Gegner im Lochspiel einschließlich dessen Caddie (siehe Regel 9.5) oder
+   - einen äußeren Einfluss einschließlich jedes anderen Spielers im Zählspiel (siehe Regel 9.6).
+
+     **Siehe Regel 22.2** (In Vierern darf jeder Partner für die Partei handeln und eine Handlung des Partners wird als Handlung des Spielers behandelt.); 23.5 (Im Vierball darf jeder Partner für die Partei handeln und eine Handlung des Partners, die den Ball oder die Ausrüstung des Spielers betrifft, wird als Handlung des Spielers behandelt.).
+
+2. _„Bekannt oder so gut wie sicher“: Maßstab, um zu entscheiden, was die Bewegung eines Balls verursacht hat:_
+
+   - Der Spieler, der Gegner oder ein äußerer Einfluss werden nur dann als Ursache für die Bewegung des Balls behandelt, wenn es bekannt oder so gut wie sicher ist, dass dies die Ursache war.
+
+   - Ist es weder bekannt noch so gut wie sicher, dass zumindest einer dieser Gründe die Bewegung verursacht hat, wird der Ball behandelt, als wäre er von Naturkräften bewegt worden.
+
+   Um diesen Maßstab anwenden zu können, müssen alle verfügbaren Hinweise bedacht werden, das heißt, alle Hinweise, die der Spieler kennt oder mit vertretbarem Aufwand und ohne das Spiel unangemessen zu verzögern erhalten kann.
