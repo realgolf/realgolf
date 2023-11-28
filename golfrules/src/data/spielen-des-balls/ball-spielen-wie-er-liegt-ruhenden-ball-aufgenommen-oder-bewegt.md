@@ -150,3 +150,20 @@ Nimmt der Gegner den ruhenden Ball des Spielers auf oder berührt ihn absichtlic
 **_Strafe für das Spielen eines fälschlich neu eingesetzten Balls oder für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 9.5: Grundstrafe nach Regel 6.3b oder 14.7a._**
 
 Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
+
+## 9.6 Ball durch äußeren Einfluss aufgenommen oder bewegt
+
+Ist es bekannt oder so gut wie sicher, dass ein äußerer Einfluss (einschließlich eines anderen Spielers im Zählspiel oder eines anderen Balls) den Ball des Spielers aufgenommen oder bewegt hat,
+
+- ist dies straflos und
+- der Ball muss an seine ursprüngliche Stelle zurückgelegt werden (die, wenn nicht bekannt, geschätzt werden muss) (siehe Regel 14.2).
+
+Dies gilt unabhängig davon, ob der Ball des Spielers gefunden wurde oder nicht.
+
+**Aber:** Ist es nicht bekannt oder so gut wie sicher, dass der Ball von einem äußeren Einfluss aufgenommen oder bewegt wurde und der Ball ist verloren, muss der Spieler Erleichterung mit Strafe von Schlag und Distanzverlust nach Regel 18.2 in Anspruch nehmen.
+
+Wird der Ball des Spielers von einem anderen Spieler als ein falscher Ball gespielt, wird dies durch Regel 6.3c(2) behandelt und nicht durch diese Regel.
+
+**_Strafe für das Spielen eines fälschlich neu eingesetzten Balls oder für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 9.6: Grundstrafe nach Regel 6.3b oder 14.7a._**
+
+Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
