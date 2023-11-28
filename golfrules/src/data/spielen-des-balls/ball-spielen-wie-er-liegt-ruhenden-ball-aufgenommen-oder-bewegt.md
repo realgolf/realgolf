@@ -64,3 +64,20 @@ Hat sich ein ruhender Ball eines Spielers bewegt,
    - Ist es weder bekannt noch so gut wie sicher, dass zumindest einer dieser Gründe die Bewegung verursacht hat, wird der Ball behandelt, als wäre er von Naturkräften bewegt worden.
 
    Um diesen Maßstab anwenden zu können, müssen alle verfügbaren Hinweise bedacht werden, das heißt, alle Hinweise, die der Spieler kennt oder mit vertretbarem Aufwand und ohne das Spiel unangemessen zu verzögern erhalten kann.
+
+## 9.3 Ball durch Naturkräfte bewegt
+
+Wenn Naturkräfte (wie Wind oder Wasser) verursachen, dass sich der ruhende Ball des Spielers bewegt,
+
+- ist dies straflos und
+- der Ball muss von der neuen Stelle gespielt werden.
+
+**Ausnahme – Auf dem Grün muss der Ball zurückgelegt werden, wenn er sich bewegt, nachdem er bereits aufgenommen und zurückgelegt worden war (siehe Regel 13.1d):** Bewegt sich der Ball des Spielers auf dem Grün, nachdem der Spieler den Ball bereits aufgenommen und an die Stelle zurückgelegt hatte, von der er bewegt wurde,
+
+- muss der Ball an seine ursprüngliche Stelle zurückgelegt werden (die, wenn nicht bekannt, geschätzt werden muss), siehe Regel 14.2.
+- Dies gilt unabhängig davon, wodurch die Bewegung verursacht wurde (einschließlich Naturkräfte).
+
+**_Strafe für das Spielen eines fälschlich neu eingesetzten Balls oder für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 9.3: Grundstrafe nach Regel 6.3b oder 14.7a._**
+
+Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder
+miteinander verbundene Handlungen, siehe Regel 1.3c(4).
