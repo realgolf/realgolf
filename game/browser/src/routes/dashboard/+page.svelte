@@ -80,6 +80,7 @@ the game you want to play."
   main {
     max-width: 40rem;
   }
+  
   .modi {
     display: flex;
     flex-direction: row;
