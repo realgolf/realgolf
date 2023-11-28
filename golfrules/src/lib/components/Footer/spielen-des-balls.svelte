@@ -6,6 +6,9 @@
 	<a href="/spielen-des-balls/den-platz-spielen-wie-er-vorgefunden-wird"
 		>Regel 8 - Den Platz spielen, wie er vorgefunden wird</a
 	>
+	<a href="/spielen-des-balls/ball-spielen-wie-er-liegt-ruhenden-ball-aufgenommen-oder-bewegt">
+		Regel 9 - Ball spielen, wie er liegt; ruhenden Ball aufgenommen oder bewegt</a
+	>
 </div>
 
 <style lang="scss">
