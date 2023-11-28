@@ -81,3 +81,43 @@ Wenn Naturkräfte (wie Wind oder Wasser) verursachen, dass sich der ruhende Ball
 
 Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder
 miteinander verbundene Handlungen, siehe Regel 1.3c(4).
+
+## 9.4 Ball durch den Spieler aufgenommen oder bewegt
+
+Diese Regel ist nur anwendbar, wenn es bekannt oder so gut wie sicher ist, dass ein Spieler (einschließlich seines Caddies) den ruhenden Ball aufgenommen oder die Bewegung verursacht hat.
+
+### 9.4a Wann der aufgenommene oder bewegte Ball zurückgelegt werden muss
+
+Wenn der Spieler seinen ruhenden Ball aufnimmt oder verursacht, dass dieser sich bewegt, muss der Ball an seine ursprüngliche Stelle zurückgelegt werden (die, wenn nicht bekannt, geschätzt werden muss), siehe Regel 14.2, **außer**
+
+- der Spieler nimmt den Ball nach einer Regel auf, um Erleichterung in Anspruch zu nehmen oder um den Ball an eine andere Stelle zurückzulegen (siehe Regeln 14.2d und 14.2e) oder
+- der Ball bewegt sich erst, nachdem der Spieler den Schlag oder den Rückschwung für einen Schlag begonnen hat und den Schlag dann ausführt (siehe Regel 9.1b).
+
+### 9.4b Strafe für Aufnehmen oder absichtliches Berühren des Balls oder für das Verursachen, dass er sich bewegt
+
+Wenn der Spieler seinen ruhenden Ball aufnimmt oder absichtlich berührt oder
+verursacht, dass dieser sich bewegt, zieht er sich **_einen Strafschlag_** zu.
+
+**Aber** es gibt vier **Ausnahmen:**
+
+**Ausnahme 1: Spieler darf Ball aufnehmen oder bewegen:** Es ist straflos, wenn der Spieler den Ball aufnimmt oder verursacht, dass dieser sich bewegt, weil eine Regel
+
+- es erlaubt, den Ball aufzunehmen und anschließend an die ursprüngliche Stelle zurückzulegen,
+- es verlangt, einen bewegten Ball an die ursprüngliche Stelle zurückzulegen oder
+- vom Spieler verlangt oder es ihm erlaubt, einen Ball erneut zu droppen oder hinzulegen oder einen Ball von einem anderen Ort zu spielen.
+
+**Ausnahme 2: Ball versehentlich bewegt, bevor der Ball gefunden wird:** Es ist straflos, wenn der Spieler versehentlich verursacht, dass der Ball sich bewegt, während er versucht, diesen zu finden oder zu identifizieren (siehe Regel 7.4).
+
+**Ausnahme 3: Ball versehentlich auf dem Grün bewegt:** Es ist straflos, wenn der Spieler versehentlich verursacht, dass sich der Ball auf dem Grün bewegt (siehe Regel 13.1d), unabhängig davon, wie dies geschieht.
+
+**Ausnahme 4: Ball versehentlich bei der Anwendung einer Regel außerhalb des Grüns bewegt:** Es ist straflos, wenn der Spieler versehentlich verursacht, dass der Ball sich bewegt, während er außerhalb des Grüns auf angemessene Weise
+
+- die Stelle des Balls markiert oder den Ball aufnimmt oder zurücklegt, wenn dies gestattet ist (siehe Regeln 14.1 und 14.2),
+- ein bewegliches Hemmnis entfernt (siehe Regel 15.2),
+- verschlechterte Bedingungen wiederherstellt, wenn ihm dies erlaubt ist (siehe Regel 8.1d),
+- Erleichterung nach einer Regel in Anspruch nimmt, einschließlich beim Bestimmen, ob Erleichterung nach einer Regel verfügbar ist (zum Beispiel beim Schwingen eines Schlägers, um festzustellen, ob Behinderung durch einen Umstand gegeben ist) oder beim Bestimmen, wo Erleichterung genommen werden muss (zum Beispiel beim Bestimmen des nächstgelegenen Punkts der vollständigen Erleichterung) oder
+- nach einer Regel misst (zum Beispiel, um die Spielfolge nach Regel 6.4 zu bestimmen).
+
+**_Strafe für das Spielen eines fälschlich neu eingesetzten Balls oder für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 9.4: Grundstrafe nach Regel 6.3b oder 14.7a._**
+
+Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
