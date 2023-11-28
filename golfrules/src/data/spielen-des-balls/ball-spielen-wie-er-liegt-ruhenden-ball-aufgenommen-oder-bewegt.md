@@ -11,3 +11,24 @@ title: Regel 9 - Ball spielen, wie er liegt; ruhenden Ball aufgenommen oder bewe
 
 Regel 9 gilt für einen ruhenden Ball im Spiel auf dem Platz während einer Runde und
 auch, während das Spiel nach Regel 5.7a unterbrochen ist.
+
+## 9.1 Ball spielen, wie er liegt
+
+### 9.1a Ball von der Stelle spielen, an der er zur Ruhe kam
+
+Der ruhende Ball eines Spielers muss auf dem Platz gespielt werden, wie er liegt, **außer** die Regeln verlangen vom oder erlauben dem Spieler,
+
+- einen Ball von einer anderer Stelle des Platzes zu spielen oder
+- einen Ball aufzunehmen und an die ursprüngliche Stelle zurückzulegen.
+
+### 9.1b Vorgehensweise, wenn sich der Ball beim Rückschwung oder während des Schlags bewegt
+
+Beginnt sich der ruhende Ball des Spielers zu bewegen, nachdem er seinen Schlag oder den Rückschwung für einen Schlag begonnen hat und den Schlag dann ausführt,
+
+- darf der Ball nicht zurückgelegt werden, wobei es unerheblich ist, was die Bewegung verursacht hat.
+- Stattdessen muss der Spieler den Ball von der Stelle spielen, an der er nach dem Schlag zur Ruhe kommt.
+- Wenn der Spieler die Bewegung des Balls verursacht, siehe Regel 9.4 b, um festzustellen, ob eine Strafe anfällt.
+
+**_Strafe für das Spielen eines fälschlich neu eingesetzten Balls oder für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 9.1: Grundstrafe nach Regel 6.3b oder 14.7a._**
+
+Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
