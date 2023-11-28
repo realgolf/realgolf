@@ -167,3 +167,24 @@ Wird der Ball des Spielers von einem anderen Spieler als ein falscher Ball gespi
 **_Strafe für das Spielen eines fälschlich neu eingesetzten Balls oder für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 9.6: Grundstrafe nach Regel 6.3b oder 14.7a._**
 
 Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
+
+## 9.7 Ballmarker aufgenommen oder bewegt
+
+Diese Regel beschreibt, wie vorzugehen ist, wenn ein Ballmarker, der die Stelle eines aufgenommenen Balls markiert, aufgenommen oder bewegt wird, bevor der Ball zurückgelegt wird.
+
+### 9.7a Ball oder Ballmarker muss zurückgelegt werden
+
+Wird der Ballmarker eines Spielers auf irgendeine Weise aufgenommen oder bewegt (einschließlich durch Naturkräfte), bevor der Ball zurückgelegt wird, muss der Spieler entweder
+
+- den Ball an seine ursprüngliche Stelle zurücklegen (die, wenn nicht bekannt, geschätzt werden muss), siehe Regel 14.2 oder
+- einen Ballmarker hinlegen, um diese ursprüngliche Stelle zu markieren.
+
+### 9.7b Strafe für das Aufnehmen des Ballmarkers oder das Verursachen, dass er sich bewegt
+
+Nimmt der Spieler oder sein Gegner im Lochspiel den Ballmarker des Spielers auf oder verursacht, dass er sich bewegt (wenn der Ball aufgenommen und noch nicht zurückgelegt wurde) , zieht sich der Spieler oder der Gegner **_einen Strafschlag_** zu.
+
+**Ausnahme – Die Ausnahmen nach Regel 9.4 b und 9.5 b gelten für das Aufnehmen des Ballmarkers oder für das Verursachen, dass er sich bewegt:** In allen Fällen, in denen der Spieler oder Gegner sich keine Strafe für das Aufnehmen oder versehentliche Verursachen der Bewegung des ruhenden Balls des Spielers zuziehen, ist auch das Aufnehmen oder versehentliche Verursachen der Bewegung des Ballmarkers straflos.
+
+**_Strafe für das Spielen eines fälschlich neu eingesetzten Balls oder für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 9.7: Grundstrafe nach Regel 6.3b oder 14.7a._**
+
+Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
