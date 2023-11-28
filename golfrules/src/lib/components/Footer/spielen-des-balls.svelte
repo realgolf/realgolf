@@ -1,5 +1,5 @@
 <div class="column">
-	<h3>Spielen der Runde und eines Lochs</h3>
+	<h3>III. Spielen der Runde und eines Lochs</h3>
 	<a href="/spielen-des-balls/ballsuche-finden-und-identifizieren-des-balls">
 		Regel 7 - Ballsuche: Finden und Identifizieren des Balls</a
 	>

@@ -1,5 +1,5 @@
 <div class="column">
-	<h3>Die Grundlagen des Spiels</h3>
+	<h3>I. Die Grundlagen des Spiels</h3>
 	<a href="/die-grundlagen-des-spiels/das-spiel-verhalten-der-spieler-und-die-regeln">
 		Regel 1 - Das Spiel, Verhalten der Spieler und die Regeln</a
 	>
