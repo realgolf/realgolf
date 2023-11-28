@@ -121,3 +121,32 @@ verursacht, dass dieser sich bewegt, zieht er sich **_einen Strafschlag_** zu.
 **_Strafe für das Spielen eines fälschlich neu eingesetzten Balls oder für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 9.4: Grundstrafe nach Regel 6.3b oder 14.7a._**
 
 Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
+
+## 9.5 Ball durch Gegner im Lochspiel aufgenommen oder bewegt
+
+Diese Regel ist nur anwendbar, wenn es bekannt oder so gut wie sicher ist, dass der Gegner (oder sein Caddie) den ruhenden Ball des Spielers aufgenommen oder dessen Bewegung verursacht hat.
+
+Spielt der Gegner den Ball des Spielers als einen falschen Ball, wird dies durch Regel 6.3c(1) behandelt und nicht durch diese Regel.
+
+### 9.5a Wann ein aufgenommener oder bewegter Ball zurückgelegt werden muss
+
+Nimmt der Gegner den ruhenden Ball des Spielers auf oder bewegt ihn, muss der Ball an die ursprüngliche Stelle zurückgelegt werden (die, wenn nicht bekannt, geschätzt werden muss), siehe Regel 14.2, **außer**
+
+- der Gegner schenkt den nächsten Schlag, ein Loch oder das Lochspiel (siehe Regel 3.2b) oder
+- der Gegner nimmt auf Wunsch des Spielers den Ball auf oder bewegt ihn, da der Spieler eine Regel anwenden möchte, um Erleichterung in Anspruch zu nehmen oder um den Ball an eine andere Stelle zurückzulegen.
+
+### 9.5b Strafe für Aufnehmen oder absichtliches Berühren des Balls oder für das Verursachen, dass sich der Ball bewegt
+
+Nimmt der Gegner den ruhenden Ball des Spielers auf oder berührt ihn absichtlich oder verursacht, dass dieser sich bewegt, zieht sich der Gegner einen Strafschlag zu.
+
+**Aber** es gibt mehrere **Ausnahmen**:
+
+**Ausnahme 1 – Erlaubnis für den Gegner, den Ball des Spielers aufzunehmen:** Es ist straflos, wenn der Gegner den Ball aufnimmt, weil er dem Spieler einen Schlag, ein Loch oder das Lochspiel schenkt oder den Ball des Spielers auf dessen Wunsch aufnimmt.
+
+**Ausnahme 2 – Ball des Spielers auf dem Grün versehentlich markieren und aufnehmen:** Es ist straflos, wenn der Gegner den Ball des Spielers auf dem Grün markiert und versehentlich in der Annahme aufnimmt, es sei sein eigener Ball.
+
+**Ausnahme 3 – Gleiche Ausnahmen wie für den Spieler:** Es ist straflos, wenn der Gegner versehentlich verursacht, dass der Ball sich bewegt, während er in Übereinstimmung mit den Ausnahmen 2, 3 oder 4 der Regel 9.4b handelt.
+
+**_Strafe für das Spielen eines fälschlich neu eingesetzten Balls oder für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 9.5: Grundstrafe nach Regel 6.3b oder 14.7a._**
+
+Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
