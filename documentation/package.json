@@ -28,7 +28,7 @@
 	"type": "module",
 	"dependencies": {
 		"@fortawesome/free-brands-svg-icons": "^6.4.2",
-		"@fortawesome/free-regular-svg-icons": "^6.4.2",
+		"@fortawesome/free-regular-svg-icons": "^6.5.0",
 		"@fortawesome/free-solid-svg-icons": "^6.4.2",
 		"dotenv": "^16.3.1",
 		"front-matter": "^4.0.2",
