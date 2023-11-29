@@ -81,8 +81,9 @@
   </p>
 {/if}
 
-{#if form?.message}
+{#if form?.user}
   <p class="success">
-    {form?.message}
+    Welcome {form.user.name}! You can now open the
+    <a href="/dashboard">Dashboard</a>.
   </p>
 {/if}
