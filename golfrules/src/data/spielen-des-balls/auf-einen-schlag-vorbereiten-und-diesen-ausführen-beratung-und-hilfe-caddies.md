@@ -115,3 +115,66 @@ Vor dem Schlag ist solche Hilfe oder Schutz zulässig, **außer** wie nach Regel
 Diese Regel verbietet es dem Spieler nicht, sich selbst während eines Schlags gegen Wettereinflüsse zu schützen, zum Beispiel, indem er Schutzkleidung trägt oder einen Schirm über seinen Kopf hält.
 
 **_Strafe für Verstoß gegen Regel 10.2: Grundstrafe._**
+
+## 10.3 Caddies
+
+> **Zweck:**
+> Dem Spieler ist es gestattet, einen Caddie einzusetzen, der ihm seine Schläger trägt, ihn berät und ihm anderweitig während der Runde hilft, aber es gibt Einschränkungen, was dem Caddie erlaubt ist. Der Spieler ist für die Handlungen seines Caddies während der Runde verantwortlich und zieht sich bei einem Regelverstoß des Caddies eine Strafe zu.
+
+### 10.3a Caddie darf Spieler während der Runde unterstützen
+
+1. **Spieler darf zeitgleich nur einen Caddie haben.** Ein Spieler darf einen Caddie haben, der seine Schläger trägt, transportiert und handhabt, Beratung erteilt und ihm während der Runde auf andere erlaubte Weise hilft, **aber** mit diesen Einschränkungen:
+
+- Dem Spieler ist es nicht gestattet, zeitgleich mehr als einen Caddie zu haben.
+- Der Spieler darf während der Runde die Caddies wechseln, aber dies **darf** nicht vorübergehend geschehen, nur um vom neuen Caddie beraten zu werden.
+
+Gleich ob ein Spieler einen Caddie hat oder nicht, ist eine andere Person kein Caddie, die mit dem Spieler mitläuft oder mitfährt oder andere Gegenstände für den Spieler trägt (wie Regenanzug, Schirm oder Speisen und Getränke), es sei denn, sie wurde vom Spieler als solcher bezeichnet oder sie trägt, transportiert oder handhabt die Schläger des Spielers.
+
+2. **Zwei oder mehr Spieler dürfen sich einen Caddie teilen.** Gibt es eine Regelfrage zu einer bestimmten Handlung eines gemeinsam eingesetzten Caddies und ist zu entscheiden, für welchen Spieler der Caddie handelte:
+
+- Wenn die Handlung des Caddies auf bestimmte Anweisung eines der Spieler, die den Caddie beschäftigen, ausgeführt wurde, wird die Handlung diesem Spieler zugeschrieben.
+- Wenn keiner dieser Spieler die Handlung ausdrücklich verlangt hatte, wird die Handlung demjenigen Spieler zugeschrieben, dessen Ball betroffen war
+
+**Siehe „Offizielles Handbuch“, Leitlinien für die Spielleitung, Abschnitt 8; Musterplatzregel H-1** (Die Spielleitung darf eine Platzregel erlassen, die den Einsatz von Caddies untersagt oder vorschreibt oder den Spieler in der Wahl des Caddies einschränkt).
+
+**_Strafe für Verstoß gegen Regel 10.3a:_**
+
+- Der Spieler zieht sich die **_Grundstrafe_** für jedes Loch zu, an dem er zeitgleich die Unterstützung von mehr als einem Caddie hatte.
+- Wird zwischen zwei Löchern gegen die Regel verstoßen oder dauert der Verstoß zwischen dem Spiel von zwei Löchern an, zieht sich der Spieler die **_Grundstrafe_** für das nächste Loch zu.
+
+### 10.3b Erlaubte Handlungen eines Caddies
+
+Nachfolgend Beispiele, was einem Caddie erlaubt oder nicht erlaubt ist:
+
+1. **Handlungen, die stets erlaubt sind:** Ein Caddie darf stets wie folgt handeln, wenn dies nach den Regeln gestattet ist:
+
+- Schläger oder andere Ausrüstung des Spielers tragen, transportieren oder handhaben (einschließlich Cart fahren oder Trolley ziehen),
+- den Ball des Spielers suchen (Regel 7.1),
+- vor dem Schlag Auskunft, Beratung und andere Hilfe geben (Regeln 10.2a und 10.2b),
+- Bunker einebnen oder andere Handlungen zur Platzpflege durchführen (Regel 8.2 Ausnahme, 8.3 Ausnahme und Regel 12.2b(2) und (3)),
+- auf dem Grün Sand oder loses Erdreich entfernen und Schäden ausbessern (Regel 13.1c),
+- Flaggenstock entfernen oder bedienen (Regel 13.2b).
+- Lage des Balls des Spielers auf dem Grün markieren, Ball aufnehmen und zurücklegen (Regeln 14.1b Ausnahme und 14.2b).
+- Ball des Spielers reinigen (Regel 14.1c),
+- lose hinderliche Naturstoffe und bewegliche Hemmnisse entfernen (Regeln 15.1 und 15.2).
+
+2. **Handlungen, die nur mit Erlaubnis des Spielers gestattet sind:** Ein Caddie darf folgende Handlungen nur ausführen, wenn die Regeln dies dem Spieler erlauben und dieser dem Caddie es genehmigt (die Erlaubnis muss jedes Mal ausdrücklich erteilt werden und nicht im Allgemeinen für die Runde):
+
+- Bedingungen wiederherstellen, die verschlechtert wurden, nachdem der Ball des Spielers zur Ruhe kam (Regel 8.1d).
+- Ball des Spielers, der außerhalb des Grüns liegt, nach einer Regel aufnehmen, die verlangt, den Ball zurückzulegen oder nachdem der Spieler sich entschieden hat, Erleichterung in Anspruch zu nehmen (Regel 14.1b).
+
+3. **Unzulässige Handlungen:** Ein Caddie darf keine der nachfolgenden Handlungen für den Spieler vornehmen:
+
+- Dem Gegner den nächsten Schlag, ein Loch oder das Lochspiel schenken oder mit dem Gegner den Stand des Spiels bestimmen (Regel 3.2),
+- absichtlich auf oder nahe einer Verlängerung der Spiellinie hinter dem Ball des Spielers stehen, während der Spieler beginnt, seinen Stand für den Schlag einzunehmen und bis der Schlag gespielt wurde (Regel 10.2b (4)) oder andere nach Regel 10.2b unzulässige Handlungen,
+- einen Ball zurücklegen, es sei denn, der Caddie hatte ihn aufgenommen oder bewegt (Regel 14.2b),
+- einen Ball in einen Erleichterungsbereich droppen oder legen (Regel 14.3),
+- entscheiden, nach einer Regel Erleichterung in Anspruch zu nehmen (wie einen Ball nach Regel 19 für unspielbar halten oder Erleichterung von ungewöhnlichen Platzverhältnissen oder aus einer Penalty Area nach Regel 16.1 oder 17 in Anspruch zu nehmen). Der Caddie darf dem Spieler raten, dies zu tun, aber der Spieler muss entscheiden.
+
+### 10.3c. Spieler für Handlungen und Regelverstöße des Caddies verantwortlich
+
+Ein Spieler ist für die Handlungen seines Caddies sowohl auf der Runde als auch während einer Spielunterbrechung nach Regel 5.7a verantwortlich, aber nicht vor oder nach der Runde.
+
+Wenn die Handlung des Caddies gegen eine Regel verstößt oder gegen eine Regel verstoßen würde, falls die Handlung durch den Spieler vorgenommen würde, zieht der Spieler sich die Strafe nach dieser Regel zu.
+
+Hängt die Anwendung einer Regel davon ab, ob sich der Spieler bestimmter Tatsachen bewusst war, gehört zum Kenntnisstand des Spielers auch alles, was seinem Caddie bekannt ist.
