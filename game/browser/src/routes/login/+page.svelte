@@ -32,7 +32,7 @@
 
 <h1>Login</h1>
 
-<form method="POST" autocomplete="off">
+<form action="?/login" method="POST" autocomplete="off">
   <div>
     <label for="email_input">Email</label>
     <input

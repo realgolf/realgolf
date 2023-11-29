@@ -1,9 +1,9 @@
 import { login_user } from "$lib/server/login";
-import { fail, type Actions, redirect } from "@sveltejs/kit";
 import { cookie_options } from "$lib/server/utils";
+import { fail, redirect, type Actions } from "@sveltejs/kit";
 
 export const actions: Actions = {
-  default: async (event) => {
+  login: async (event) => {
     const data = await event.request.formData();
     const email = (data.get("email") as string)?.toLowerCase()?.trim();
     const password = data.get("password") as string;
