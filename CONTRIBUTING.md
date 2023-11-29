@@ -3,6 +3,8 @@
 
 Welcome to the Golf Games ⛳️ repository! We appreciate your interest in contributing to our project. Before you get started, please take a moment to review these guidelines.
 
+**Please note that only the Documentation is open source, pull request submitted which include changes in one of the [games](./game) will be closed immediately and not further reviewed. Requesting a review from MoinJulian is required.**
+
 ## Getting Started
 
 - Make sure you have a GitHub account.
