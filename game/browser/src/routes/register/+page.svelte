@@ -42,7 +42,7 @@
 
 <h1>Register</h1>
 
-<form action="?/register" method="POST" autocomplete="off">
+<form method="POST" autocomplete="off">
   <div>
     <label for="email_input">Email</label>
     <input
@@ -78,5 +78,11 @@
 {#if form?.error}
   <p class="error">
     {form?.error}
+  </p>
+{/if}
+
+{#if form?.message}
+  <p class="success">
+    {form?.message}
   </p>
 {/if}

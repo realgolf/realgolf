@@ -32,7 +32,7 @@
 
 <h1>Login</h1>
 
-<form action="?/login" method="POST" autocomplete="off">
+<form method="POST" autocomplete="off">
   <div>
     <label for="email_input">Email</label>
     <input
@@ -54,7 +54,8 @@
 
 {#if form?.user}
   <p class="success">
-    Welcome {form.user.name}! You can now open the dashboard.
+    Welcome {form.user.name}! You can now open the
+    <a href="/dashboard">Dashboard</a>.
   </p>
 {/if}
 

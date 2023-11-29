@@ -1,9 +1,9 @@
 import { login_user } from "$lib/server/login";
 import { cookie_options } from "$lib/server/utils";
-import { fail, redirect, type Actions } from "@sveltejs/kit";
+import { fail, type Actions } from "@sveltejs/kit";
 
 export const actions: Actions = {
-  login: async (event) => {
+  default: async (event) => {
     const data = await event.request.formData();
     const email = (data.get("email") as string)?.toLowerCase()?.trim();
     const password = data.get("password") as string;
@@ -19,7 +19,6 @@ export const actions: Actions = {
       event.cookies.set("email", user.email, cookie_options);
       event.cookies.set("name", user.name, cookie_options);
 
-      throw redirect(308, "/dashboard");
       return { email, user };
     }
   },
