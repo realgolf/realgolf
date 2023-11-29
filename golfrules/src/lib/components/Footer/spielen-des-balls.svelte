@@ -14,6 +14,12 @@
 	>
 		Regel 10 - Auf einen Schlag vorbereiten und diesen ausführen; Beratung und Hilfe; Caddies</a
 	>
+	<a
+		href="/spielen-des-balls/sich-bewegender-ball-trifft-versehentlich-person-tier-oder-gegenstand-absichtliche-handlungen-um-einen-sich-bewegenden-ball-zu-beeinflussen"
+	>
+		Regel 11 - Sich bewegender Ball trifft versehentlich Person, Tier oder Gegenstand; absichtliche
+		Handlungen, um einen sich bewegenden Ball zu beeinflussen</a
+	>
 </div>
 
 <style lang="scss">
