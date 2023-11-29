@@ -9,6 +9,11 @@
 	<a href="/spielen-des-balls/ball-spielen-wie-er-liegt-ruhenden-ball-aufgenommen-oder-bewegt">
 		Regel 9 - Ball spielen, wie er liegt; ruhenden Ball aufgenommen oder bewegt</a
 	>
+	<a
+		href="/spielen-des-balls/auf-einen-schlag-vorbereiten-und-diesen-ausführen-beratung-und-hilfe-caddies"
+	>
+		Regel 10 - Auf einen Schlag vorbereiten und diesen ausführen; Beratung und Hilfe; Caddies</a
+	>
 </div>
 
 <style lang="scss">
