@@ -1,10 +1,8 @@
 <script lang="ts">
-  import { enhance } from "$app/forms";
-  import { error } from "@sveltejs/kit";
-  import type { ActionData } from "./$types";
+  import { faEye } from "@fortawesome/free-solid-svg-icons";
   import { onMount } from "svelte";
   import Fa from "svelte-fa";
-  import { faEye } from "@fortawesome/free-solid-svg-icons";
+  import type { ActionData } from "./$types";
 
   export let form: ActionData;
 
@@ -34,7 +32,7 @@
 
 <h1>Login</h1>
 
-<form method="POST" autocomplete="off" use:enhance>
+<form method="POST" autocomplete="off">
   <div>
     <label for="email_input">Email</label>
     <input
@@ -56,7 +54,8 @@
 
 {#if form?.user}
   <p class="success">
-    Welcome {form.user.name}! You can now open the dashboard.
+    Welcome {form.user.name}! You can now open the
+    <a href="/dashboard">Dashboard</a>.
   </p>
 {/if}
 
