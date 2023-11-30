@@ -37,8 +37,6 @@ export const actions: Actions = {
 
         return { email, user };
       }
-      //const message = "Registration successful! You can now login.";
-      //return {user, message}
     }
   },
 };
