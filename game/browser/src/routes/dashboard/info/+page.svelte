@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>Golf Games - Info</title>
+  <title>Real Golf - Info</title>
 </svelte:head>
 
 <h1>Info</h1>

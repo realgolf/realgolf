@@ -1,13 +1,13 @@
 <svelte:head>
-  <title>Golf Games</title>
+  <title>Real Golf</title>
 </svelte:head>
 
-<h1>Golf Games</h1>
+<h1>Real Golf</h1>
 
 <main>
   <p>
     <b>
-      Welcome to "Golf Games" - your ultimate destination for golf challenges!
+      Welcome to "Real Golf" - your ultimate destination for golf challenges!
       Discover "4 Winning", "Exact", and "Precision" - captivating golf
       experiences tested with trainers.
     </b>

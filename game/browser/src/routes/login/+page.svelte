@@ -27,7 +27,7 @@
 </script>
 
 <svelte:head>
-  <title>Golf Games - Login</title>
+  <title>Real Golf - Login</title>
 </svelte:head>
 
 <h1>Login</h1>
