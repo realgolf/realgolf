@@ -59,3 +59,11 @@ Dabei ist es auch erlaubt, den Bunkersand angemessen zu berühren oder zu bewege
    Kommt **aber** der aus dem Bunker gespielte Ball zurück in den Bunker oder nimmt der Spieler Erleichterung in Anspruch, indem er einen Ball in dem Bunker droppt, gelten die Einschränkungen der Regeln 12.2b(1) und 8.1a erneut für diesen Ball im Spiel in dem Bunker.
 
 **_Strafe für Verstoß gegen Regel 12.2: Grundstrafe._**
+
+## 12.3 Sonderregeln für Erleichterung bei einem Ball im Bunker
+
+Liegt ein Ball im Bunker, können bei folgenden Situationen Sonderregeln für Erleichterung gelten:
+
+- Beeinträchtigung durch ungewöhnliche Platzverhältnisse (Regel 16.1c),
+- Beeinträchtigung durch gefährliche Tiere (Regel 16.2) und
+- Ball unspielbar (Regel 19.3).
