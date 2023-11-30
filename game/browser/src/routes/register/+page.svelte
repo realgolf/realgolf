@@ -78,6 +78,8 @@
 {#if form?.error}
   <p class="error">
     {form?.error}
+    You can still try to login here: <a href="/login">Login</a>, or open the
+    <a href="/dashboard">Dashboard</a>
   </p>
 {/if}
 
