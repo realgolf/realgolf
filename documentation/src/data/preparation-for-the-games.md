@@ -15,7 +15,7 @@ To perform the necessary measurements, you will need the following equipment:
 
 ## Procedure
 
-Follow these steps to set up and utilize the range finder to capture crucial shot parameters, including those applicable when playing at the [Silver level](https://golf.moinjulian.com/dashboard/levels) and above:
+Follow these steps to set up and utilize the range finder to capture crucial shot parameters, including those applicable when playing at the [Silver level](https://realgolf.games/dashboard/levels) and above:
 
 1. **Equipment Setup:**
 
@@ -25,4 +25,4 @@ Follow these steps to set up and utilize the range finder to capture crucial sho
 2. **Key Parameters:**
    - Pay particular attention to the following essential parameters:
      - **Total/Carry Distance:** You can decide if the total distance traveled by the ball or its carry distance is important.
-     - **Lateral Deviation:** When playing the [Silver level](https://golf.moinjulian.com/dashboard/levels) or above you need to include the lateral deviation and it will get harder to hit a Field of your choice.
+     - **Lateral Deviation:** When playing the [Silver level](https://realgolf.games/dashboard/levels) or above you need to include the lateral deviation and it will get harder to hit a Field of your choice.

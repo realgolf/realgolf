@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-  <title>Golf Games - Rules</title>
+  <title>Real Golf - Rules</title>
 </svelte:head>
 
 <h1>Rules</h1>

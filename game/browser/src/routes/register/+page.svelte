@@ -37,7 +37,7 @@
 </script>
 
 <svelte:head>
-  <title>Golf Games - Register</title>
+  <title>Real Golf - Register</title>
 </svelte:head>
 
 <h1>Register</h1>
