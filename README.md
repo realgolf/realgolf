@@ -18,7 +18,7 @@ The Documentation and any other Information about this Project can be found here
 
 ## Games
 
-The Games can be found on the doamin below:
+The Games can be found on the domain below:
 
 [Real Golf](https://realgolf.games)
 
