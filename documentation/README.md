@@ -7,3 +7,7 @@ This sub folder contains the Documentation for the Golf Games Project
 You can visit the documentation under following Domain:
 
 [Golf Games Docs](https://docs.golf.moinjulian.com)
+
+## Contributing Guide
+
+Please follow are [Contributing Guidlines](../CONTRIBUTING.md) when Contributing to this project.
