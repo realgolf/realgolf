@@ -14,4 +14,4 @@ These Documentation are Licensend under the [MIT](./LICENSE.md) License
 
 ## Contributing Guide
 
-Please follow are [Contributing Guidlines](../CONTRIBUTING.md) when Contributing to this project.
+Please follow our [Contributing Guidlines](../CONTRIBUTING.md) when Contributing to this project.
