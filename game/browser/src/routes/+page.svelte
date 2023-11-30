@@ -28,7 +28,7 @@
   <p>
     If you have any questions, please visit our <a
       target="_blank"
-      href="https://golf.moinjulian.com/faq">FAQ</a
+      href="https://realgolf.games/faq">FAQ</a
     >
     section first to see if your question has already been answered. If you cannot
     find a solution or answer to your question, please do not hesitate to contact

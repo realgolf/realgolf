@@ -5,7 +5,7 @@
 Creating an account to play Golf Games is a simple process. Follow these steps to get started:
 
 1. **Navigate to Registration Page:**
-   Open [Golf Games](https://golf.moinjulian.com) and go to the Register tab in the nav bar.
+   Open [Golf Games](https://realgolf.games) and go to the Register tab in the nav bar.
 
 2. **Fill in Registration Details:**
    Enter an email, name, and password, then click on the register button.

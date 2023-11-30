@@ -14,13 +14,13 @@ The Documentations are open source and Licensend under the [MIT](/documentation/
 ## Documentation
 
 The Documentation and any other Information about this Project can be found here:
-[Golf Games Documentation](https://docs.golf.moinjulian.com)
+[Golf Games Documentation](https://docs.realgolf.games)
 
 ## Games
 
 The Games can be found on the doamin below:
 
-[Golf Games](https://golf.moinjulian.com)
+[Golf Games](https://realgolf.games)
 
 ## Milestones
 
@@ -43,7 +43,6 @@ which is a JavaScript Framework and the full stack Verison of [Svelte](https://s
 ## Contributing Guidelines
 
 If you want to contribute to this project, please follow the guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md).
-
 
 ## Further Informations
 
