@@ -85,3 +85,24 @@ Ist es bekannt oder so gut wie sicher, dass ein sich bewegender Ball eines Spiel
 **_Strafe für das Spielen eines fälschlich neu eingesetzten Balls oder für Spielen einesBalls vom falschen Ort unter Verstoß gegen Regel 11.2: Grundstrafe nach Regel6.3b oder 14.7a._**
 
 Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
+
+## 11.3 Gegenstände absichtlich bewegen oder Bedingungen verändern, um einen sich bewegenden Ball zu beeinflussen
+
+Während ein Ball sich bewegt, darf ein Spieler nicht absichtlich durch eine der nachfolgenden Handlungen beeinflussen, an welcher Stelle dieser Ball (gleich ob sein Ball oder der Ball eines anderen Spielers) zur Ruhe kommen könnte:
+
+- Verändern äußerer Gegebenheiten durch Maßnahmen, die in Regel 8.1a genannt sind (zum Beispiel ein Divot zurücklegen oder ein hochstehendes Rasenstück niederdrücken) oder
+- Aufnehmen oder Bewegen
+  - eines losen hinderlichen Naturstoffs (siehe Regel 15.1a, Ausnahme 2) oder
+  - eines beweglichen Hemmnisses (siehe Regel 15.2a, Ausnahme 2).
+
+**Ausnahme – Flaggenstock, ruhender Ball auf dem Grün und andere Ausrüstung eines Spielers bewegen:** Diese Regel untersagt einem Spieler nicht das Aufheben oder Bewegen
+
+- eines entfernten Flaggenstocks,
+- eines ruhenden Balls auf dem Grün oder
+- anderer Ausrüstung eines Spielers (außer einem ruhenden Ball außerhalb des Grüns oder einem Ballmarker auf dem Platz).
+
+Das Entfernen des Flaggenstocks aus dem Loch (einschließlich beim Bedienen), während sich ein Ball bewegt, wird nicht von dieser Regel, sondern von Regel 13.2 erfasst.
+
+**_Strafe für Verstoß gegen Regel 11.3: Grundstrafe._**
+
+**Siehe Regel 22.2** (In Vierern darf jeder Partner für die Partei handeln und eine Handlung des Partners wird als Handlung des Spielers behandelt.); 23.5 (Im Vierball darf jeder Partner für die Partei handeln und eine Handlung des Partners, die den Ball oder die Ausrüstung des Spielers betrifft, wird als Handlung des Spielers behandelt.).
