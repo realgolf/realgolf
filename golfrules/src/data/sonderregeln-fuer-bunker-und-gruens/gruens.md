@@ -203,3 +203,27 @@ Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteina
 
 Im Zählspiel ist der Spieler **_disqualifiziert_**, wenn er es versäumt einzulochen, wie in
 Regel 3.3c vorgeschrieben.
+
+## 13.3 Ball ragt über den Lochrand hinaus
+
+### 13.3a Wartezeit, um festzustellen, ob ein über den Lochrand hinausragender Ball ins Loch fallen wird
+
+Ragt ein Ball des Spielers nach einem Schlag teilweise über den Lochrand hinaus,
+
+- ist es dem Spieler gestattet, innerhalb einer angemessenen Zeit das Loch zu erreichen und weitere zehn Sekunden zu warten, um zu sehen, ob der Ball in das Loch fällt.
+- Fällt der Ball innerhalb dieser Wartezeit ins Loch, hat der Spieler mit seinem vorherigen Schlag eingelocht.
+- Fällt der Ball nicht innerhalb dieser Wartezeit ins Loch,
+  - gilt er als in Ruhe befindlich.
+  - Fällt der Ball anschließend ins Loch, bevor er gespielt wird, hat der Spieler mit dem vorigen Schlag eingelocht, **aber** er zieht sich **_einen Strafschlag_** zum Ergebnis des Lochs hinzu.
+
+### 13.3b Was zu tun ist, wenn ein über den Lochrand hinausragender Ball aufgenommen oder bewegt wird, bevor die Wartezeit zu Ende ist
+
+Wird ein Ball, der über den Lochrand hinausragt, aufgenommen oder bewegt, bevor die Wartezeit nach Regel 13.3a zu Ende ist, wird der Ball behandelt, als ob er zur Ruhe gekommen wäre:
+
+- Der Ball muss an den Lochrand zurückgelegt werden (siehe Regel 14.2), und
+- die Wartezeit nach Regel 13.3a gilt nicht länger für den Ball (siehe Regel 9.3, was zu tun ist, wenn der zurückgelegte Ball anschließend durch Naturkräfte bewegt wird).
+
+Hebt der Gegner im Lochspiel oder ein anderer Spieler im Zählspiel den über den Lochrand hinausragenden Ball des Spielers auf oder bewegt diesen, bevor die Wartezeit zu Ende ist,
+
+- wird im Lochspiel der Ball des Spielers als mit dem vorherigen Schlag eingelocht behandelt und der Gegner zieht sich keine Strafe nach Regel 11.2b zu.
+- Im Zählspiel zieht sich der Spieler, der den Ball aufgenommen oder bewegt hat, die **_Grundstrafe (zwei Strafschläge)_** zu. Der Ball muss an den Lochrand zurückgelegt werden (siehe Regel 14.2).
