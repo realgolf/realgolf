@@ -15,7 +15,7 @@
         <ol class="faq-list">
           <li>
             <strong>Navigate to Registration Page:</strong> Open
-            <a href="https://golf.moinjulian.com">Golf Games</a> and go to the Register
+            <a href="https://realgolf.games">Golf Games</a> and go to the Register
             tab in the nav bar.
           </li>
           <li>

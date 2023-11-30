@@ -93,7 +93,7 @@
     {/if}
     <div class="external-links row border-bottom">
       <a href="/faq"><span><Fa icon={faQuestionCircle} /></span>FAQ</a>
-      <a href="https://docs.golf.moinjulian.com"
+      <a href="https://docs.realgolf.games"
         ><span><Fa icon={faBook} /></span>Documentation</a
       >
     </div>
