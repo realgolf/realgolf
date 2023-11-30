@@ -8,6 +8,10 @@ You can visit the documentation under following Domain:
 
 [Golf Games Docs](https://docs.golf.moinjulian.com)
 
+## License
+
+These Documentation are Licensend under the [MIT](./LICENSE.md) License
+
 ## Contributing Guide
 
 Please follow are [Contributing Guidlines](../CONTRIBUTING.md) when Contributing to this project.
