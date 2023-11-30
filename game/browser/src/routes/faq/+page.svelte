@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>Golf Games - FAQ</title>
+  <title>Real Golf - FAQ</title>
 </svelte:head>
 
 <main class="wrapper">
@@ -9,13 +9,13 @@
       <summary>How can I create an account to play the games?</summary>
       <div>
         <p>
-          Creating an account to play Golf Games is a simple process. Follow
+          Creating an account to play Real Golf is a simple process. Follow
           these steps to get started:
         </p>
         <ol class="faq-list">
           <li>
             <strong>Navigate to Registration Page:</strong> Open
-            <a href="https://golf.moinjulian.com">Golf Games</a> and go to the Register
+            <a href="https://realgolf.games">Real Golf</a> and go to the Register
             tab in the nav bar.
           </li>
           <li>
@@ -33,8 +33,8 @@
         </ol>
         <p>
           By following these steps, you'll create an account that allows you to
-          dive into the world of Golf Games and enjoy the various challenges
-          they provide. Have fun
+          dive into the world of Real Golf and enjoy the various challenges they
+          provide. Have fun
         </p>
       </div>
     </details>
@@ -47,7 +47,7 @@
         <p>
           Absolutely! Our games are completely free to play. All you need to do
           is create an account, and you'll have access to all the exciting
-          challenges and fun that Golf Games has to offer. Get started today and
+          challenges and fun that Real Golf has to offer. Get started today and
           enjoy the games without any cost.
         </p>
       </div>
@@ -80,7 +80,7 @@
         <p>
           For your valuable contributions, your name will be recognized in our <a
             href="/Contributors.md">Contributors.md</a
-          > file. Your ideas can shape the future of Golf Games, and we greatly appreciate
+          > file. Your ideas can shape the future of Real Golf, and we greatly appreciate
           your input. Let's create amazing experiences together!
         </p>
       </div>
