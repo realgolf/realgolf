@@ -113,3 +113,93 @@ Stattdessen muss der Spieler straflose Erleichterung in Anspruch nehmen, indem e
 **_Strafe für das Spielen eines fälschlich neu eingesetzten Balls oder für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 13.1: Grundstrafe nach Regel 6.3b oder 14.7a._**
 
 Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
+
+## 13.2 Flaggenstock
+
+> **Zweck:**
+> Diese Regel bestimmt, wie der Spieler mit dem Flaggenstock umzugehen hat. Der Spieler darf den Flaggenstock im Loch belassen oder ihn entfernen lassen (dies schließt ein, dass jemand den Flaggenstock bedient und ihn entfernt, nachdem der Ball gespielt wurde), aber er muss die entsprechende Entscheidung vor dem Schlag treffen. Der Spieler zieht sich normalerweise keine Strafe zu, wenn sein sich bewegender Ball den Flaggenstock trifft.
+
+Diese Regel gilt für einen überall auf dem Platz gespielten Ball, gleich ob auf dem Grün oder außerhalb.
+
+### 13.2a Flaggenstock im Loch belassen
+
+1. **Spieler darf den Flaggenstock im Loch belassen.** Der Spieler darf einen Schlag spielen, während sich der Flaggenstock im Loch befindet, sodass der sich bewegende Ball möglicherweise den Flaggenstock treffen kann.
+
+   Der Spieler muss vor seinem Schlag entscheiden, ob er entweder
+
+   - den Flaggenstock im Loch belässt, wo er ist, oder ihn in die Mitte des Lochs steckt und dort belässt oder
+   - einen bereits entfernten Flaggenstock in das Loch zurückstecken lässt.
+
+   In beiden Fällen
+
+   - darf der Spieler nicht versuchen, einen Vorteil durch ein absichtliches Bewegen des Flaggenstocks in eine andere Stellung als mitten im Loch zu erreichen.
+   - Handelt der Spieler so und der sich bewegende Ball trifft dann den Flaggenstock, zieht er sich die **_Grundstrafe_** zu.
+
+2. **Keine Strafe, wenn der Ball den im Loch befindlichen Flaggenstock trifft.** Macht der Spieler einen Schlag, während sich der Flaggenstock im Loch befindet und der sich bewegende Ball trifft den Flaggenstock,
+
+   - ist dies straflos (**außer** wie in (1) vorgesehen) und
+   - der Ball muss gespielt werden, wie er liegt.
+
+3. **Einschränkung für den Spieler beim Bewegen oder Entfernen des Flaggenstocks im Loch, während ein Ball sich bewegt.** Nachdem ein Schlag gespielt wurde, während sich der Flaggenstock im Loch befindet,
+
+   - darf der Spieler oder sein Caddie nicht absichtlich den Flaggenstock bewegen oder entfernen, um zu beeinflussen, wo der sich bewegende Ball des Spielers zur Ruhe kommen könnte (zum Beispiel um zu vermeiden, dass der Ball den Flaggenstock trifft). Geschieht dies, zieht der Spieler sich die **_Grundstrafe_** zu.
+   - **Aber** es ist straflos, wenn der Spieler den Flaggenstock im Loch aus anderen Gründen bewegt oder entfernt, zum Beispiel, wenn vernünftigerweise anzunehmen ist, dass der sich bewegende Ball den Flaggenstock nicht treffen wird, bevor er zur Ruhe kommt.
+
+4. **Einschränkungen für andere Spieler beim Bewegen oder Entfernen des Flaggenstocks, wenn der Spieler sich entschieden hat, diesen im Loch zu belassen.** Belässt der Spieler den Flaggenstock im Loch und hat er niemanden ermächtigt, den Flaggenstock zu bedienen (siehe Regel 13.2b(1)), darf ein anderer Spieler nicht absichtlich den Flaggenstock bewegen oder entfernen, um zu beeinflussen, wo der sich bewegende Ball des Spielers zur Ruhe kommen könnte.
+
+   - Handelt ein anderer Spieler oder sein Caddie vor oder während des Schlags so und der Spieler ist sich dessen nicht bewusst und spielt den Schlag oder handelt er so, während der Ball des Spielers nach einem Schlag in Bewegung ist, zieht sich dieser andere Spieler die **_Grundstrafe_** zu.
+   - **Aber** es ist straflos, wenn der andere Spieler oder sein Caddie den Flaggenstock aus einem anderen Grund bewegt oder entfernt, wenn er zum Beispiel
+     - begründet annehmen kann, dass der sich bewegende Ball des Spielers den Flaggenstock nicht treffen wird, bevor er zur Ruhe kommt oder
+     - sich nicht bewusst darüber ist, dass der Spieler gleich spielen wird oder dass der Ball des Spielers in Bewegung ist.q
+
+**Siehe Regel 22.2** (In Vierern darf jeder Partner für die Partei handeln und die Handlung des Partners wird als Handlung des Spielers behandelt); 23.5 (Im Vierball darf jeder Partner für die Partei handeln und die Handlung des Partners, die den Ball oder die Ausrüstung des Spielers betrifft, wird als Handlung des Spielers behandelt).
+
+### 13.2b Flaggenstock aus dem Loch entfernen
+
+1. **Spieler darf den Flaggenstock aus dem Loch entfernen lassen.** Der Spieler darf einen Schlag machen, wenn der Flaggenstock aus dem Loch entfernt wurde, damit sein sich bewegender Ball den Flaggenstock im Loch nicht trifft.
+
+Der Spieler muss sich dazu entscheiden, bevor er seinen Schlag spielt, indem er entweder:
+
+- den Flaggenstock aus dem Loch entfernen lässt, bevor er den Ball spielt oder
+- jemanden ermächtigt, den Flaggenstock zu bedienen. Dies bedeutet, ihn wie folgt zu entfernen:
+  - Zuerst wird der Flaggenstock vor und während dem Schlag im Loch, über das Loch oder in der Nähe des Lochs gehalten, um dem Spieler dessen Lage anzugeben und
+  - nachdem der Schlag gemacht wurde, wird der Flaggenstock entfernt.
+
+Das Bedienen des Flaggenstocks gilt als vom Spieler ermächtigt, wenn
+
+- der Caddie des Spielers den Flaggenstock im Loch, über dem Loch oder in die Nähe des Lochs hält oder während des Schlags unmittelbar neben dem Loch steht, selbst wenn sich der Spieler dieser Handlung des Caddie nicht bewusst ist,
+- der Spieler eine andere Person bittet, den Flaggenstock zu bedienen und diese andere Person so handelt oder
+- der Spieler eine andere Person sieht, die den Flaggenstock im Loch, über dem Loch oder in der Nähe des Lochs hält oder unmittelbar neben dem Loch steht und der Spieler den Schlag macht, ohne diese Person zu bitten, sich zu entfernen oder den Flaggenstock im Loch zu belassen.
+
+2. **Ball trifft bedienten Flaggenstock oder Person, die ihn bedient.** Trifft der sich bewegende Ball des Spielers einen Flaggenstock, den der Spieler unter (1) entfernen lassen wollte oder trifft er die Person, die den Flaggenstock bedient (oder etwas, das diese Person hält), hängt es davon ab, ob dies versehentlich oder absichtlich geschah:
+
+   - _Ball trifft versehentlich den Flaggenstock oder die Person, die ihn entfernte oder bedient._ Trifft der sich bewegende Ball des Spielers versehentlich den Flaggenstock oder die Person, die ihn entfernte oder bedient (oder etwas, das diese Person hält), ist dies straflos und der Ball muss gespielt werden wie er liegt.
+   - _Ball von der Person, die den Flaggenstock bedient, absichtlich abgelenkt oder aufgehalten._ Lenkt die Person, die den Flaggenstock bedient, absichtlich den sich bewegenden Ball des Spielers ab oder hält sie ihn auf, gilt Regel 11.2c:
+     - _Von wo der Ball gespielt wird._ Der Spieler darf den Ball nicht spielen, wie er liegt und muss stattdessen Erleichterung nach Regel 11.2c in Anspruch nehmen.
+     - _Wann eine Strafe anfällt._ War die Person, die den Ball absichtlich abgelenkt oder aufgehalten hat, ein Spieler oder dessen Caddie, zieht sich dieser Spieler die **_Grundstrafe_** für einen Verstoß gegen Regel 11.2 zu.
+
+   Nach dieser Regel bedeutet „absichtlich abgelenkt oder aufgehalten“ das Gleiche wie in Regel 11.2a und schließt ein, wenn der sich bewegende Ball des Spielers
+
+   - einen entfernten Flaggenstock trifft, der absichtlich an eine bestimmte Stelle auf den Boden gelegt oder liegen gelassen wurde, sodass er den Ball ablenken oder aufhalten könnte,
+   - einen bedienten Flaggenstock trifft, den die Person absichtlich nicht aus dem Loch entfernt oder aus der Bewegungsrichtung des Balls fortbewegt hatte oder
+   - die Person trifft, die den Flaggenstock bedient oder entfernt (oder etwas, das diese Person hält), wenn sie es absichtlich unterlässt, sich aus der Bewegungsrichtung des Balls fortzubewegen.
+
+   **Ausnahme - Gegenstände absichtlich bewegen oder Bedingungen verändern, um einen sich bewegenden Ball zu beeinflussen (siehe Regel 11.3).**
+
+**Siehe Regel 22.2** (In Vierern darf jeder Partner für die Partei handeln und die Handlung des Partners wird als Handlung des Spielers behandelt); 23.5 (Im Vierball darf jeder Partner für die Partei handeln und die Handlung des Partners, die den Ball oder die Ausrüstung des Spielers betrifft, wird als Handlung des Spielers behandelt).
+
+### 13.2c Ball ruht am Flaggenstock im Loch
+
+Kommt der Ball eines Spielers am Flaggenstock, der sich im Loch befindet, zur Ruhe,
+
+- wird der Ball als eingelocht angesehen, wenn er sich teilweise unterhalb der Oberfläche des Grüns im Loch befindet, auch wenn sich der Ball nicht vollständig unterhalb der Grünoberfläche befindet.
+- Befindet sich der Ball nicht teilweise unterhalb der Grünoberfläche im Loch,
+  - ist der Ball nicht eingelocht und muss gespielt werden, wie er liegt.
+  - Wird der Flaggenstock entfernt und der Ball bewegt sich (gleich, ob er ins Loch fällt oder sich vom Loch entfernt), ist dies straflos und der Ball muss an den Lochrand zurückgelegt werden (siehe Regel 14.2).
+
+**_Strafe für das Spielen eines fälschlich neu eingesetzten Balls oder für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 13.2c: Grundstrafe nach Regel 6.3b oder 14.7a._**
+
+Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
+
+Im Zählspiel ist der Spieler **_disqualifiziert_**, wenn er es versäumt einzulochen, wie in
+Regel 3.3c vorgeschrieben.
