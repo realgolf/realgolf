@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-  <title>Golf Games - Dashboard</title>
+  <title>Real Golf - Dashboard</title>
 </svelte:head>
 
 <main>
@@ -14,7 +14,7 @@
 
   <p>
     <b>
-      Welcome to "Golf Games" {data.name} - your ultimate destination for golf challenges!
+      Welcome to "Real Golf" {data.name} - your ultimate destination for golf challenges!
       Discover "4 Winning", "Exact", and "Precision" - captivating golf experiences
       tested with trainers.
     </b>

@@ -1,12 +1,12 @@
-# Golf Games Documentation
+# Real Golf Documentation
 
-This sub folder contains the Documentation for the Golf Games Project
+This sub folder contains the Documentation for the Real Golf Project
 
 **You are highly invited to contribute to this documentation**
 
 You can visit the documentation under following Domain:
 
-[Golf Games Docs](https://docs.realgolf.games)
+[Real Golf Docs](https://docs.realgolf.games)
 
 ## License
 

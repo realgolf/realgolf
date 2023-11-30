@@ -4,9 +4,9 @@
   "display": "fullscreen",
   "scope": "/",
   "start_url": "/",
-  "name": "Golf Games",
+  "name": "Real Golf",
   "short_name": "Golf",
-  "description": "Welcome to \"Golf Games\" - your ultimate     destination for golf challenges! Discover \"4 Winning\", \"Exact\", and     \"Precision\" - captivating golf experiences tested with trainers.",
+  "description": "Welcome to \"Real Golf\" - your ultimate     destination for golf challenges! Discover \"4 Winning\", \"Exact\", and     \"Precision\" - captivating golf experiences tested with trainers.",
   "icons": [
     {
       "src": "/manifest/icon-192x192.png",

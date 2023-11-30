@@ -1,6 +1,6 @@
-# What is Golf games about?
+# What is Real Golf about?
 
-Golf Games (Golf) is about three different Games, the first one is called 4 Winning, the second one is called
+Real Golf (Golf) is about three different Games, the first one is called 4 Winning, the second one is called
 Exact, the third and for now last game is Precision
 
 ## 4 Winning

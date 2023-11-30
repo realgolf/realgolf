@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-  <title>Golf Games - Levels</title>
+  <title>Real Golf - Levels</title>
 </svelte:head>
 
 <h1>Levels</h1>
