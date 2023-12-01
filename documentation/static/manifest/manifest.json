@@ -3,13 +3,12 @@
 	"background_color": "#131317",
 	"display": "fullscreen",
 	"scope": "/",
-	"start_url": "/",
-	"name": "Golf Games Docs",
+	"name": "Real Golf Docs",
 	"short_name": "Golf Docs",
-	"description": "This are the Documentation for the Golf Games.",
+	"description": "This are the Documentation for the Real Golf Project",
 	"icons": [
 		{
-			"src": "/manifest/icon-192x192.png",
+			"src": "/manifest/android-chrome-192x192.png",
 			"sizes": "192x192",
 			"type": "image/png"
 		},
