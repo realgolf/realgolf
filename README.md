@@ -4,9 +4,9 @@
 
 ## Licensing
 
-The Games are Licensend under the [All Rights Reserved](/LICENSE.md) License.
+The Games are licensed under the [All Rights Reserved](/LICENSE.md) license.
 
-The Documentations are open source and Licensend under the [MIT](/documentation/LICENSE.md) License.
+The Documentations are open source and licensed under the [MIT](/documentation/LICENSE.md) license.
 
 ## Documentation
 
