@@ -1,19 +1,22 @@
 {
-    "name": "Real Golf",
-    "short_name": "Golf",
-    "icons": [
-        {
-            "src": "/android-chrome-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/android-chrome-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ],
-    "theme_color": "#202028",
-    "background_color": "#131317",
-    "display": "standalone"
+  "theme_color": "#202028",
+  "background_color": "#131317",
+  "display": "fullscreen",
+  "scope": "/",
+  "start_url": "/",
+  "name": "Real Golf",
+  "short_name": "Golf",
+  "description": "Welcome to \"Real Golf\" - your ultimate     destination for golf challenges! Discover \"4 Winning\", \"Exact\", and     \"Precision\" - captivating golf experiences tested with trainers.",
+  "icons": [
+    {
+      "src": "/manifest/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/manifest/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
