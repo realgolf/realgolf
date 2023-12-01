@@ -1,9 +1,6 @@
-# Real Golf
+![Real Golf Banner](./readme/images/logo_banner.PNG)
 
-[![CodeQL](https://github.com/MoinJulian/Golf/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)](https://github.com/MoinJulian/Golf/actions/workflows/github-code-scanning/codeql)
-![GitHub Repo stars](https://img.shields.io/github/stars/MoinJulian/Golf)
-![Recent Pull Requests](https://img.shields.io/github/issues-pr/moinjulian/golf)
-![Open Issues](https://img.shields.io/github/issues-raw/moinjulian/golf)
+[![CodeQL](https://github.com/MoinJulian/Golf/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)](https://github.com/MoinJulian/Golf/actions/workflows/github-code-scanning/codeql) ![GitHub Repo stars](https://img.shields.io/github/stars/MoinJulian/Golf) ![Recent Pull Requests](https://img.shields.io/github/issues-pr/moinjulian/golf) ![Open Issues](https://img.shields.io/github/issues-raw/moinjulian/golf)
 
 ## Licensing
 
