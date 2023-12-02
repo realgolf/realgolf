@@ -230,3 +230,19 @@ Wird ein auf die richtige Weise gedroppter Ball durch eine Person absichtlich ab
 Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
 
 **Siehe Regel 22.2** (In Vierern darf jeder Partner für die Partei handeln und die Handlung des Partners wird als Handlung des Spielers behandelt); **23.5** (Im Vierball darf jeder Partner für die Partei handeln und die Handlung des Partners, die den Ball oder die Ausrüstung des Spielers betrifft, wird als Handlung des Spielers behandelt).
+
+## 14.4 Wann der Ball des Spielers wieder im Spiel ist, nachdem der ursprüngliche Ball nicht mehr im Spiel war
+
+Wurde eines Spielers Ball im Spiel auf dem Platz aufgenommen oder ist er verloren oder Aus, ist der Ball nicht länger im Spiel.
+
+Der Spieler hat erst dann wieder einen Ball im Spiel, wenn er
+
+- den ursprünglichen oder einen anderen Ball vom Abschlag spielt oder
+- den ursprünglichen oder einen anderen Ball mit der Absicht, diesen Ball ins Spiel zu bringen, auf den Platz zurücklegt, droppt oder hinlegt.
+
+Bringt der Spieler einen Ball zurück auf den Platz mit der Absicht, dass dieser der Ball im Spiel wird, ist der Ball auch dann im Spiel, wenn er
+
+- für den ursprünglichen Ball neu eingesetzt wurde, auch wenn die Regeln dies nicht zulassen oder
+- (1) an einem falschen Ort, (2) auf falsche Weise oder (3) durch ein nicht anwendbares Verfahren zurückgelegt, gedroppt oder hingelegt wurde.
+
+Ein zurückgelegter Ball ist im Spiel, selbst wenn der Ballmarker nicht entfernt wurde, der seine Stelle markierte.
