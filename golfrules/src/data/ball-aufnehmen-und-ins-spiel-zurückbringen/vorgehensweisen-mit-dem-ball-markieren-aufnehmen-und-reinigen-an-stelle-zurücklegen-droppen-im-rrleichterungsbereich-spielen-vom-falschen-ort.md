@@ -138,3 +138,95 @@ Wenn der Ball erneut nicht an dieser Stelle liegen bleibt, muss der Spieler den 
 Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
 
 **Siehe Regel 22.2** (In Vierern darf jeder Partner für die Partei handeln und die Handlung des Partners wird als Handlung des Spielers behandelt); **23.5** (Im Vierball darf jeder Partner für die Partei handeln und die Handlung des Partners, die den Ball oder die Ausrüstung des Spielers betrifft, wird als Handlung des Spielers behandelt).
+
+## 14.3 Ball im Erleichterungsbereich droppen
+
+Diese Regel gilt immer, wenn ein Spieler einen Ball droppen muss, weil er Erleichterung nach einer Regel in Anspruch nimmt, einschließlich, wenn er das Erleichterungsverfahren vollenden muss, indem er einen Ball nach Regel 14.3c(2) hinlegt.
+
+Verbessert der Spieler den Erleichterungsbereich, bevor oder während er einen Ball droppt, siehe Regel 8.1.
+
+### 14.3a Der ursprüngliche Ball oder ein anderer Ball darf verwendet werden
+
+Der Spieler darf den ursprünglichen Ball oder einen anderen Ball verwenden.
+
+Dies bedeutet, der Spieler darf einen beliebigen Ball verwenden, wenn er einen Ball nach dieser Regel droppt oder hinlegt.
+
+### 14.3b Der Ball muss richtig gedroppt werden
+
+Der Spieler muss einen Ball auf die richtige Weise droppen, wobei er die folgenden drei Anforderungen erfüllen muss:
+
+1. **Der Spieler muss den Ball droppen.** Der Ball darf nur durch den Spieler gedroppt werden. Weder der Caddie des Spielers noch eine andere Person dürfen dies tun.
+
+2. **Der Ball muss aus Kniehöhe senkrecht nach unten gedroppt werden, ohne den Spieler oder seine Ausrüstung zu berühren.** Der Spieler muss den Ball aus Kniehöhe loslassen, sodass der Ball
+
+   - gerade nach unten fällt, ohne dass der Spieler ihn wirft, dreht oder rollt oder eine andere Methode anwendet, die beeinflussen könnte, wo der Ball zur Ruhe kommen wird und
+   - weder den Spieler noch seine Ausrüstung berührt, bevor er den Boden trifft.
+
+   „Kniehöhe“ bedeutet die Höhe des Knies des Spielers, wenn er aufrecht steht.
+
+   **Ein Ball muss aus Kniehöhe gerade nach unten fallen gelassen werden. „Kniehöhe“ bedeutet Höhe des Knies eines aufrecht stehenden Spielers. Der Spieler selbst muss beim Droppen des Balls jedoch nicht aufrecht stehen.**
+
+3. **Der Ball muss im Erleichterungsbereich gedroppt werden.** Der Ball muss im Erleichterungsbereich gedroppt werden. Der Spieler darf beim Droppen des Balls innerhalb oder außerhalb des Erleichterungsbereichs stehen.
+
+   Wird ein Ball auf falsche Weise unter Verstoß gegen eine oder mehrere dieser drei Anforderungen gedroppt
+
+   - muss der Spieler einen Ball erneut auf die richtige Weise droppen und es gibt keine Einschränkung, wie oft der Spieler dies tun muss.
+   - Ein auf die falsche Weise gedroppter Ball zählt nicht als einer der beiden Drop- Vorgänge, bevor ein Ball nach Regel 14.3c(2) hingelegt werden muss. Droppt der Spieler nicht erneut und macht er stattdessen einen Schlag nach dem Ball von der Stelle aus, an der der auf falsche Weise gedroppte Ball zur Ruhe kam,
+     zieht der Spieler sich **_einen Strafschlag_** zu, wenn der Ball aus dem Erleichterungsbereich gespielt wurde (er hat **aber** nach Regel 14.7a nicht vom falschen Ort gespielt).
+   - **Aber:** Wurde der Ball von außerhalb des Erleichterungsbereichs gespielt oder nachdem er hingelegt wurde, obwohl er zu droppen war (unabhängig davon, von wo er gespielt wurde), zieht sich der Spieler die Grundstrafe zu.
+
+### 14.3c Auf die richtige Weise gedroppter Ball muss im Erleichterungsbereich zur Ruhe kommen
+
+Diese Regel gilt nur, wenn ein Ball nach Regel 14.3b auf die richtige Weise gedroppt wird.
+
+1. **Der Spieler hat das Erleichterungsverfahren abgeschlossen, wenn der auf die richtige Weise gedroppte Ball im Erleichterungsbereich zur Ruhe kommt.** Der Ball muss im Erleichterungsbereich zur Ruhe kommen.
+
+   Es spielt keine Rolle, ob der Ball, nachdem er den Boden getroffen hat, eine Person, Ausrüstung oder einen äußeren Einfluss trifft, bevor er zur Ruhe kommt:
+
+   - Kommt der Ball im Erleichterungsbereich zur Ruhe, hat der Spieler das Erleichterungsverfahren abgeschlossen und muss den Ball spielen, wie er liegt.
+   - Kommt der Ball außerhalb des Erleichterungsbereichs zur Ruhe, muss der Spieler die Verfahren der Regel 14.3c(2) anwenden.
+
+   In beiden Fällen ist es für den Spieler straflos, wenn ein auf die richtige Weise gedroppter Ball versehentlich eine Person, Ausrüstung oder einen anderen äußeren Einfluss trifft, bevor er zur Ruhe kommt.
+
+   **Ausnahme – Auf richtige Weise gedroppter Ball wird absichtlich von einer Person abgelenkt oder aufgehalten:** Wird ein gedroppter Ball von einer Person absichtlich abgelenkt oder aufgehalten, bevor er zur Ruhe kommt, siehe Regel 14.3d.
+
+2. **Was zu tun ist, wenn ein auf die richtige Weise gedroppter Ball außerhalb des Erleichterungsbereichs zur Ruhe kommt.** Kommt der Ball außerhalb des Erleichterungsbereichs zur Ruhe, muss der Spieler ein zweites Mal einen Ball auf richtige Weise droppen.
+
+   Kommt dieser Ball erneut außerhalb des Erleichterungsbereichs zur Ruhe, muss der Spieler das Erleichterungsverfahren abschließen, indem er einen Ball nach den Verfahren zum Zurücklegen eines Balls in Regeln 14.2b(2) und 14.2e wie folgt hinlegt:
+
+   - Der Spieler muss den Ball an die Stelle legen, an der der zum zweiten Mal gedroppte Ball zuerst den Boden berührte.
+   - Bleibt der hingelegte Ball nicht an dieser Stelle liegen, muss der Spieler den Ball ein zweites Mal an diese Stelle legen.
+   - Bleibt der zum zweiten Mal hingelegte Ball erneut nicht an der Stelle liegen, muss der Spieler einen Ball an die nächstgelegene Stelle hinlegen, an der der Ball liegen bleibt, vorbehaltlich der Einschränkungen nach Regel 14.2e.
+
+_Zulässig:_
+
+Der Ball wird nach Regel 14.3b auf die richtige Weise gedroppt und kommt im Er- leichterungsbereich zur Ruhe. Das Erleichterungsverfahren ist beendet.
+
+_Unzulässig:_
+
+Der Ball wird nach Regel 14.3b auf die richtige Weise gedroppt, kommt aber außer- halb des Erleichterungsbe- reichs zur Ruhe. Der Ball muss ein zweites Mal auf richtige Weise gedroppt werden.
+
+Der Ball wird auf die falsche Weise außerhalb des Erleich- terungsbereichs gedroppt. Der Ball muss erneut auf richtige Weise gedroppt werden.
+
+### 14.3d Was zu tun ist, wenn ein auf die richtige Weise gedroppter Ball von einer Person absichtlich abgelenkt oder aufgehalten wird
+
+Nach dieser Regel gilt ein gedroppter Ball als „absichtlich abgelenkt oder aufgehalten“, wenn
+
+- eine Person den sich bewegenden Ball absichtlich berührt, nachdem er den Boden getroffen hat oder
+- der sich bewegende Ball Ausrüstung, einen anderen Gegenstand oder eine Person (zum Beispiel den Caddie des Spielers) trifft, den bzw. die ein Spieler absichtlich an eine bestimmte Stelle hingestellt oder dort belassen hat, damit die Ausrüstung, der Gegenstand oder die Person den sich bewegenden Ball ablenken könnte.
+
+Wird ein auf die richtige Weise gedroppter Ball durch eine Person absichtlich abgelenkt oder aufgehalten (gleich ob innerhalb oder außerhalb des Erleichterungsbereichs), bevor er zur Ruhe kommt
+
+- muss der Spieler erneut einen Ball nach Regel 14.3b droppen (dies bedeutet, dass der absichtlich abgelenkte oder aufgehaltene Ball nicht als eines der beiden Drop- Verfahren zählt, die erforderlich sind, bevor der Ball nach Regel 14.3c(2) hingelegt werden muss).
+- Wurde der Ball durch einen Spieler oder dessen Caddie absichtlich abgelenkt oder aufgehalten, zieht der Spieler sich die Grundstrafe zu.
+
+**Ausnahme – Es ist unwahrscheinlich, dass der Ball im Erleichterungsbereich zur Ruhe kommt:** Wird ein auf die richtige Weise gedroppter Ball absichtlich abgelenkt oder aufgehalten (gleich ob innerhalb oder außerhalb des Erleichterungsbereichs), weil es unwahrscheinlich ist, dass der Ball im Erleichterungsbereich zur Ruhe kommen wird
+
+- ist dies für jeden Spieler straflos und
+- der gedroppte Ball wird behandelt, als sei er außerhalb des Erleichterungsbereichs zur Ruhe gekommen und zählt als eines der beiden Drop- Verfahren, die erforderlich sind, bevor ein Ball nach Regel 14.3c(2) gelegt werden muss.
+
+**_Strafe für das Spielen eines Balls vom falschen Ort oder für das Spielen eines Balls, der nicht gedroppt, sondern unter Verstoß gegen Regel 14.3 gelegt wurde: Grundstrafe nach Regel 14.7a._**
+
+Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
+
+**Siehe Regel 22.2** (In Vierern darf jeder Partner für die Partei handeln und die Handlung des Partners wird als Handlung des Spielers behandelt); **23.5** (Im Vierball darf jeder Partner für die Partei handeln und die Handlung des Partners, die den Ball oder die Ausrüstung des Spielers betrifft, wird als Handlung des Spielers behandelt).
