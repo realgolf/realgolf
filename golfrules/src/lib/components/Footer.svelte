@@ -1,6 +1,7 @@
 <script>
 	import { faCodePullRequest } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
+	import BallAufnehmenUndInsSpielZurckbringen from './Footer/ball-aufnehmen-und-ins-spiel-zurückbringen.svelte';
 	import DieGrundlagenDesSpieles from './Footer/die-grundlagen-des-spieles.svelte';
 	import SonderregelnFuerBunkerUndGruens from './Footer/sonderregeln-fuer-bunker-und-gruens.svelte';
 	import SpielenDerRundeUndEinesLochs from './Footer/spielen-der-runde-und-eines-lochs.svelte';
@@ -14,6 +15,7 @@
 			<SpielenDerRundeUndEinesLochs></SpielenDerRundeUndEinesLochs>
 			<SpielenDesBalls></SpielenDesBalls>
 			<SonderregelnFuerBunkerUndGruens></SonderregelnFuerBunkerUndGruens>
+			<BallAufnehmenUndInsSpielZurckbringen></BallAufnehmenUndInsSpielZurckbringen>
 		</section>
 
 		<h3>Hilfe und Support</h3>
