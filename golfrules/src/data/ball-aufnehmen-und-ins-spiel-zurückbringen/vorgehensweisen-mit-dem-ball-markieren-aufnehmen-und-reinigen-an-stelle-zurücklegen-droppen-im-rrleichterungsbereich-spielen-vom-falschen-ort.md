@@ -56,3 +56,85 @@ Reinigt der Spieler unerlaubt einen aufgenommenen Ball, zieht sich der Spieler *
 Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
 
 **Siehe Regel 22.2** (In Vierern darf jeder Partner für die Partei handeln und die Handlung des Partners wird als Handlung des Spielers behandelt); **23.5** (Im Vierball darf jeder Partner für die Partei handeln und die Handlung des Partners, die den Ball oder die Ausrüstung des Spielers betrifft, wird als Handlung des Spielers behandelt).
+
+## 14.2 Ball an eine Stelle zurücklegen
+
+Diese Regel gilt immer, wenn ein Ball bewegt oder aufgenommen wurde und eine Regel verlangt, dass er an eine Stelle zurückgelegt werden muss.
+
+### 14.2a Ursprünglicher Ball muss verwendet werden
+
+Wird ein Ball zurückgelegt, muss der ursprüngliche Ball verwendet werden.
+
+**Ausnahme – Ein anderer Ball darf verwendet werden, wenn**
+
+- der ursprüngliche Ball nur mit unangemessenem Aufwand und nicht binnen weniger Sekunden wieder zu erlangen ist, falls der Spieler nicht absichtlich verursacht hat, dass der Ball nicht wieder zu erlangen ist,
+- der ursprüngliche Ball einen Sprung oder eine Kerbe hat (siehe Regel 4.2c),
+- das Spiel nach einer Spielunterbrechung wieder aufgenommen wird (siehe Regel 5.7d) oder
+- der ursprüngliche Ball von einem anderen Spieler als falscher Ball gespielt wurde (siehe Regel 6.3c(2)).
+
+### 14.2b Wer den Ball zurücklegen muss und wie er zurückgelegt werden muss
+
+1. **Wer den Ball zurücklegen darf.** Nach den Regeln darf der Ball des Spielers nur zurückgelegt werden durch
+
+   - den Spieler oder
+   - jede Person, die den Ball aufgenommen hat oder verursachte, dass er sich bewegte (auch wenn diese Person nach den Regeln nicht dazu berechtigt war).
+
+   Wenn der Spieler einen Ball spielt, der von einer unberechtigten Person zurückgelegt wurde, zieht der Spieler sich **_einen Strafschlag_** zu.
+
+   Unterlässt es der Spieler, unter Verstoß gegen diese Regel die Lage wiederherzustellen, hat er vom falschen Ort gespielt.
+
+2. **Wie der Ball zurückzulegen ist.** Der Ball muss zurückgelegt werden, indem er an die geforderte Stelle gesetzt wird, losgelassen wird und dort liegen bleibt.
+
+   Spielt der Spieler einen Ball, der auf eine falsche Weise, aber an die richtige Stelle zurückgelegt wurde, zieht sich der Spieler **_einen Strafschlag_** zu.
+
+### 14.2c Wohin der Ball zurückzulegen ist
+
+Der Ball muss an seine ursprüngliche Stelle zurückgelegt werden (die, wenn nicht bekannt, geschätzt werden muss), **außer** wenn er nach den Regeln 14.2d(2) und 14.2e an eine andere Stelle zurückgelegt werden muss.
+
+Lag der ruhende Ball auf, unter oder an einem beweglichen Hemmnis, einem Bestandteil des Platzes, einer Ausmarkierung oder einem wachsenden oder befestigten natürlichen Gegenstand,
+
+- beinhaltet der Begriff „Stelle des Balls“ seine Position senkrecht über dem Boden.
+- Dies bedeutet, der Ball muss an die ursprüngliche Stelle auf, unter oder an einen solchen Gegenstand zurückgelegt werden.
+
+Wurden lose hinderliche Naturstoffe durch das Aufnehmen oder Bewegen des Balls oder vor dem Zurücklegen entfernt, müssen diese nicht zurückgelegt werden.
+
+Für Einschränkungen beim Entfernen von losen hinderlichen Naturstoffen vor dem Zurücklegen eines aufgenommenen oder bewegten Balls siehe Regel 15.1a, Ausnahme 1.
+
+### 14.2d Wohin der Ball zurückgelegt werden muss, wenn die ursprüngliche Lage verändert wurde
+
+Wurde die Lage eines aufgenommenen oder bewegten Balls, der zurückgelegt
+werden muss, verändert, muss der Spieler den Ball wie folgt zurücklegen:
+
+1. **Ball im Sand.** Ruhte der Ball in Sand, gleich ob in einem Bunker oder anderswo auf dem Platz:
+
+   - Beim Zurücklegen des Balls an seine ursprüngliche Stelle (die, wenn nicht bekannt, geschätzt werden muss), siehe Regel 14.2c, muss der Spieler die ursprüngliche Lage soweit wie möglich wiederherstellen.
+   - Wenn der Ball mit Sand bedeckt war, ist es dem Spieler gestattet, einen kleinen Teil des Balls sichtbar zu lassen, wenn er die Lage des Balls wiederherstellt.
+
+   Versäumt der Spieler es unter Verstoß gegen diese Regel, die ursprüngliche Lage wiederherzustellen, hat er vom falschen Ort gespielt.
+
+2. **Ball nicht im Sand.** Lag der Ball nicht in Sand, muss der Spieler den Ball zurücklegen, indem er ihn an die nächstmögliche Stelle in eine Lage zurücklegt, die der ursprünglichen bestmöglich entspricht:
+
+   - Innerhalb einer Schlägerlänge von der ursprünglichen Stelle (die, wenn nicht bekannt, geschätzt werden muss), siehe Regel 14.2c,
+   - nicht näher zum Loch und
+   - im gleichen Bereich des Platzes wie die ursprüngliche Stelle.
+
+   Wenn der Spieler weiß, dass die ursprüngliche Lage verändert wurde, ihm die ursprüngliche Lage jedoch unbekannt ist, muss er die ursprüngliche Lage schätzen und den Ball nach (1) oder (2) zurücklegen.
+
+**Ausnahme – Lage verändert, wenn der Ball während einer Spielunterbrechung aufgenommen wurde, siehe Regel 5.7d.**
+
+### 14.2e Was zu tun ist, wenn der zurückgelegte Ball nicht an der ursprünglichen Stelle liegen bleibt
+
+Wenn der Spieler versucht, einen Ball zurückzulegen, dieser aber nicht an dieser Stelle liegen bleibt, muss er ein zweites Mal versuchen, den Ball zurückzulegen.
+
+Wenn der Ball erneut nicht an dieser Stelle liegen bleibt, muss der Spieler den Ball zurücklegen, indem er ihn an die nächstgelegene Stelle legt, an der der Ball liegen bleibt, **aber** mit diesen Einschränkungen, abhängig von der Position der ursprünglichen Stelle:
+
+- Die Stelle darf nicht näher zum Loch liegen.
+- Ursprüngliche Stelle im Gelände. Die nächstgelegene Stelle muss im Gelände sein.
+- Ursprüngliche Stelle im Bunker oder einer Penalty Area. Die nächstgelegene Stelle muss entweder im selben Bunker oder in derselben Penalty Area liegen.
+- Ursprüngliche Stelle auf dem Grün. Die nächstgelegene Stelle muss entweder auf dem Grün oder im Gelände liegen.
+
+**_Strafe für das Spielen eines fälschlich neu eingesetzten Balls oder für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 14.2: Grundstrafe nach Regel 6.3b oder 14.7a._**
+
+Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
+
+**Siehe Regel 22.2** (In Vierern darf jeder Partner für die Partei handeln und die Handlung des Partners wird als Handlung des Spielers behandelt); **23.5** (Im Vierball darf jeder Partner für die Partei handeln und die Handlung des Partners, die den Ball oder die Ausrüstung des Spielers betrifft, wird als Handlung des Spielers behandelt).
