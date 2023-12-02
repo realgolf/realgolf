@@ -9,6 +9,7 @@
 		display: flex;
 		flex-direction: column;
 		padding: 2rem;
+		width: 30vw;
 
 		a {
 			font-size: 1rem;
