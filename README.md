@@ -13,6 +13,11 @@ The Documentations and Golf Rules are open source and licensed under the [MIT](/
 The Documentation and any other Information about this Project can be found here:
 [Real Golf Documentation](https://docs.realgolf.games)
 
+## Golf Rules
+
+The Golf Rules can be found here:
+[Golf Rules](https://rules.realgolf.games)
+
 ## Games
 
 The Games can be found on the domain below:

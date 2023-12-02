@@ -12,7 +12,7 @@ You can visit the golf rules under following Domain:
 
 ## License
 
-These Documentation are Licensend under the [MIT](./LICENSE.md) License
+These Golf Rules are Licensend under the [MIT](./LICENSE.md) License
 
 ## Contributing Guide
 
