@@ -246,3 +246,38 @@ Bringt der Spieler einen Ball zurück auf den Platz mit der Absicht, dass dieser
 - (1) an einem falschen Ort, (2) auf falsche Weise oder (3) durch ein nicht anwendbares Verfahren zurückgelegt, gedroppt oder hingelegt wurde.
 
 Ein zurückgelegter Ball ist im Spiel, selbst wenn der Ballmarker nicht entfernt wurde, der seine Stelle markierte.
+
+## 14.5 Fehler beim Ersetzen, Zurücklegen, Droppen oder Legen des Balls berichtigen
+
+### 14.5a Ein Spieler darf den Ball, wenn dieser noch nicht gespielt wurde, aufnehmen, um den Fehler zu berichtigen
+
+Hat ein Spieler einen anderen Ball für den ursprünglichen Ball neu eingesetzt, wenn die Regeln dies nicht zulassen oder wurde des Spielers Ball im Spiel (1) an einem falschen Ort oder kam der Ball an einem falschen Ort zur Ruhe (2) auf falsche Weise oder (3) durch ein nicht anwendbares Verfahren zurückgelegt, gedroppt oder hingelegt,
+
+- darf der Spieler den Ball straflos aufnehmen und den Fehler berichtigen.
+- **Aber:** Dies ist nur zulässig, bevor der Ball gespielt wird.
+
+### 14.5b Wann der Spieler beim Berichtigen eines Fehlers nach einer anderen Regel oder einer anderen Erleichterungsmöglichkeit Erleichterung in Anspruch nehmen darf
+
+Ob ein Spieler, der einen Fehler bei einem Erleichterungsverfahren berichtigt, dieselbe Regel und dieselbe Erleichterungsmöglichkeit anwenden muss, nach der er ursprünglich vorgegangen war oder ob er die Regel und die Erleichterungsmöglichkeit wechseln darf, hängt von der Art des Fehlers ab:
+
+1. **Der Ball wurde nach einer nicht anwendbaren Regel ins Spiel gebracht.**
+
+   - Beim Berichtigen des Fehlers darf der Spieler nach jeder Regel vorgehen, die auf seinen Fall anwendbar ist.
+   - Hat der Spieler zum Beispiel versehentlich Erleichterung für einen unspielbaren Ball in einer Penalty Area (was Regel 19.1 nicht zulässt) in Anspruch genommen, muss der Spieler diesen Fehler berichtigen, indem er entweder den Ball nach Regel 9.4 zurücklegt (wenn er aufgenommen wurde) oder Erleichterung mit Strafe nach Regel 17 in Anspruch nehmen und der Spieler darf jede Erleichterungsmöglichkeit nach dieser Regel nutzen, die auf seinen Fall anwendbar ist.
+
+2. **Der Ball wurde nach einer anwendbaren Regel ins Spiel gebracht, aber er wurde an einem falschen Ort gedroppt oder hingelegt.**
+
+   - Der Spieler muss beim Berichtigen seines Fehlers weiterhin nach derselben Regel Erleichterung in Anspruch nehmen, aber er darf jede Erleichterungsmöglichkeit nach dieser Regel verwenden, die auf seinen Fall anwendbar ist.
+   - Hatte der Spieler zum Beispiel bei Inanspruchnahme von Erleichterung für einen unspielbaren Ball die seitliche Erleichterungsmöglichkeit (Regel 19.2c) genutzt und den Ball fälschlich außerhalb des geforderten Erleichterungsbereichs gedroppt, muss der Spieler beim Berichtigen des Fehlers weiterhin nach Regel 19.2 verfahren, aber er darf jede der Erleichterungsmöglichkeiten der Regel 19.2a, b oder c anwenden.
+
+3. **Der Ball wurde nach einer anwendbaren Regel ins Spiel gebracht und wurde an der richtigen Stelle gedroppt oder gelegt, aber die Regel verlangt ein erneutes Droppen oder Legen des Balls.**
+
+   - Der Spieler muss beim Berichtigen dieses Fehlers weiterhin nach derselben Regel und derselben Erleichterungsmöglichkeit dieser Regel Erleichterung in Anspruch nehmen.
+   - Hatte der Spieler zum Beispiel bei Inanspruchnahme von Erleichterung für einen unspielbaren Ball die seitliche Erleichterungsmöglichkeit genutzt (Regel 19.2c) und der Ball wurde (1) im richtigen Erleichterungsbereich, aber (2) auf falsche Weise gedroppt (siehe Regel 14.3b) oder kam außerhalb des Erleichterungsbereichs zur Ruhe (siehe Regel 14.3c), muss der Spieler beim Berichtigen dieses Fehlers weiterhin Erleichterung nach Regel 19.2 in Anspruch nehmen und muss dieselbe Erleichterungsmöglichkeiten verwenden (seitliche Erleichterung nach Regel 19.2c).
+
+## 14.5c Keine Strafen für einen Ball, der aufgenommen wird, um einen Fehler zu berichtigen
+
+Wurde ein Ball nach Regel 14.5a aufgenommen, um einen Fehler zu berichtigen,
+
+- zieht sich der Spieler keine Strafe für Handlungen im Zusammenhang mit diesem Ball zu, die nach dem Fehler und vor dem Aufnehmen des Balls ausgeführt wurden, zum Beispiel dafür, ihn versehentlich zu bewegen (siehe Regel 9.4b).
+- **Aber:** Wenn diese Handlungen auch einen Regelverstoß für den Ball darstellen, der zur Berichtigung des Fehlers ins Spiel gebracht wurde (wie das Verbessern der Bedingungen, die den Schlag beeinflussen, sowohl für den nun im Spiel befindlichen Ball und den ursprünglichen Ball, bevor er aufgenommen wurde), gilt die Strafe für den nun im Spiel befindlichen Ball.
