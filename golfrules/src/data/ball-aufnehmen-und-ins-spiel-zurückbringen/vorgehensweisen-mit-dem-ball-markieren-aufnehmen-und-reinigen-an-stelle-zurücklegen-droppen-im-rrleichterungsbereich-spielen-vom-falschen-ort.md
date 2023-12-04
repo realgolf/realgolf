@@ -281,3 +281,34 @@ Wurde ein Ball nach Regel 14.5a aufgenommen, um einen Fehler zu berichtigen,
 
 - zieht sich der Spieler keine Strafe für Handlungen im Zusammenhang mit diesem Ball zu, die nach dem Fehler und vor dem Aufnehmen des Balls ausgeführt wurden, zum Beispiel dafür, ihn versehentlich zu bewegen (siehe Regel 9.4b).
 - **Aber:** Wenn diese Handlungen auch einen Regelverstoß für den Ball darstellen, der zur Berichtigung des Fehlers ins Spiel gebracht wurde (wie das Verbessern der Bedingungen, die den Schlag beeinflussen, sowohl für den nun im Spiel befindlichen Ball und den ursprünglichen Ball, bevor er aufgenommen wurde), gilt die Strafe für den nun im Spiel befindlichen Ball.
+
+## 14.6 Nächsten Schlag von der Stelle des vorherigen Schlags machen
+
+Diese Regel gilt immer, wenn die Regeln von einem Spieler fordern oder es ihm erlauben, seinen nächsten Schlag von der Stelle zu machen, von der ein vorheriger Schlag gemacht wurde (zum Beispiel, wenn er Erleichterung mit Strafe von Schlag und Distanzverlust in Anspruch nimmt oder nach einem annullierten oder anderweitig nicht zählenden Schlag noch einmal spielt).
+
+- Auf welche Weise der Spieler einen Ball ins Spiel bringen muss, hängt davon ab, aus welchem Bereich des Platzes der vorherige Schlag gemacht wurde.
+- In allen diesen Fällen darf der Spieler entweder den ursprünglichen oder einen anderen Ball verwenden.
+
+### 14.6a Vorherigen Schlag vom Abschlag gespielt
+
+Der ursprüngliche oder ein anderer Ball muss nach Regel 6.2b von innerhalb des Abschlags gespielt werden (und darf aufgeteet werden).
+
+### 14.6b Vorheriger Schlag vom Gelände, aus einer Penalty Area oder einem Bunker gespielt
+
+Der ursprüngliche oder ein anderer Ball muss in folgendem Erleichterungsbereich
+gedroppt werden (siehe Regel 14.3):
+
+- _Bezugspunkt_ ist die Stelle, von der der vorherige Schlag gespielt wurde (die, wenn
+  nicht bekannt, geschätzt werden muss).
+- _Größe des Erleichterungsbereichs, gemessen vom Bezugspunkt:_ eine Schlägerlänge, jedoch mit diesen Einschränkungen:
+- _Einschränkungen der Lage des Erleichterungsbereichs:_
+  - Er muss im selben Bereich des Platzes wie der Bezugspunkt und
+  - darf nicht näher zum Loch als der Bezugspunkt liegen.
+
+### 14.6c Vorheriger Schlag vom Grün gespielt
+
+Der ursprüngliche oder ein anderer Ball muss an die Stelle gelegt werden, von der der vorherige Schlag gespielt wurde (die, wenn nicht bekannt, geschätzt werden muss), siehe Regel 14.2, wobei die nach den Regeln 14.2b(2) und 14.2e für das Zurücklegen vorgeschriebenen Vorgehensweisen einzuhalten sind.
+
+**_Strafe für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 14.6: Grundstrafe nach Regel 14.7a._**
+
+Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
