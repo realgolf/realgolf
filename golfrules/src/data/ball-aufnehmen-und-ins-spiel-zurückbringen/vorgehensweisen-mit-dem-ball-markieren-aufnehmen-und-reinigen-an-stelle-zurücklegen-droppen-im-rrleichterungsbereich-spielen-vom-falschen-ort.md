@@ -312,3 +312,47 @@ Der ursprüngliche oder ein anderer Ball muss an die Stelle gelegt werden, von d
 **_Strafe für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 14.6: Grundstrafe nach Regel 14.7a._**
 
 Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
+
+## 14.7 Spielen vom falschen Ort
+
+### 14.7a Ort, von dem der Ball gespielt werden muss
+
+Nach Beginn eines Lochs
+
+- muss ein Spieler jeden Schlag von dort spielen, wo sein Ball zur Ruhe kommt, **außer,** die Regeln schreiben dem Spieler vor oder erlauben ihm, einen Ball von einem anderen Ort zu spielen (siehe Regel 9.1).
+- Ein Spieler darf seinen Ball im Spiel nicht vom falschen Ort spielen.
+
+**_Strafe für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 14.7a: Grundstrafe._**
+
+Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
+
+### 14.7b Wie ein Loch im Zählspiel zu beenden ist, nachdem vom falschen Ort gespielt wurde
+
+1. **Der Spieler muss entscheiden, ob er das Loch mit dem vom falschen Ort gespielten Ball zu Ende spielt oder ob er den Fehler berichtigt, indem er vom richtigen Ort spielt.** Was ein Spieler als nächstes macht, hängt davon ab, ob ein schwerwiegender Verstoß vorlag - das heißt, ob der Spieler einen erheblichen Vorteil hätte erlangen können, indem er vom falschen Ort spielte:
+
+   - _Kein schwerwiegender Verstoß._ Der Spieler muss das Loch mit dem vom falschen Ort gespielten Ball zu Ende spielen, ohne den Fehler zu berichtigen.
+   - _Schwerwiegender Verstoß._
+     - Der Spieler muss den Fehler, vom falschen Ort gespielt zu haben,mberichtigen, in dem er das Loch mit einem Ball zu Ende spielt, dermregelgerecht vom richtigen Ort gespielt wurde.
+     - Berichtigt der Spieler seinen Fehler nicht, bevor er einen Schlag spielt, um ein anderes Loch zu beginnen oder am letzten Loch der Runde, bevor er seine Scorekarte einreicht, ist der Spieler **_disqualifiziert_**.
+   - _Was zu tun ist, wenn es nicht sicher ist, ob ein schwerwiegender Verstoß vorliegt._ Der Spieler sollte das Loch sowohl mit dem vom falschen Ort gespielten Ball als auch mit einem zweiten Ball, der nach den Regeln vom richtigen Ort gespielt wird, beenden.
+
+2. **Ein Spieler, der versucht, einen Fehler zu berichtigen, muss dies der Spielleitung mitteilen.** Versucht der Spieler, nach Ziffer (1) einen Fehler zu berichtigen, indem er einen Ball vom richtigen Ort spielt,
+
+   - muss der Spieler die Tatsachen der Spielleitung mitteilen, bevor er seine Scorekarte einreicht.
+   - Dies gilt unabhängig davon, ob der Spieler das Loch nur mit diesem Ball oder mit zwei Bällen beendete (und sogar, wenn der Spieler mit beiden Bällen das gleiche Ergebnis erzielte).
+
+Teilt der Spieler die Tatsachen der Spielleitung nicht mit, ist er **_disqualifiziert_**.
+
+3. **Hat ein Spieler versucht, einen Fehler zu berichtigen, entscheidet die Spielleitung über das Ergebnis des Spielers für das Loch.** Das Ergebnis des Spielers für das Loch hängt davon ab, ob die Spielleitung das Spielen des ursprünglichen Balls vom falschen Ort als schwerwiegenden Verstoß ansieht:
+
+   - _Kein schwerwiegender Verstoß._
+
+     - Das Ergebnis mit dem Ball, der vom falschen Ort gespielt wurde, zählt und der Spieler zieht sich zu dem Ergebnis mit diesem Ball die **_Grundstrafe nach Regel 14.7a_** zu (dies bedeutet, dass **zwei Strafschläge** zu dem Ergebnis mit diesem Ball hinzugefügt werden).
+     - Wurde ein zweiter Ball gespielt, bleiben alle Schläge mit diesem Ball (gespielte Schläge einschließlich Strafschläge, die nur beim Spielen dieses Balls anfielen) unberücksichtigt.
+
+   - _Schwerwiegender Verstoß._
+     - Das Ergebnis mit dem Ball, der gespielt wurde, um den Fehler des Spielens vom falschen Ort zu berichtigen, zählt und der Spieler zieht sich die Grundstrafe nach Regel 14.7a zu (dies bedeutet, dass dem Ergebnis mit diesem Ball zwei Strafschläge hinzugefügt werden).
+     - Der Schlag, mit dem der ursprüngliche Ball vom falschen Ort gespielt wurde und alle weiteren Schläge mit diesem Ball (gespielte Schläge einschließlich Strafschläge, die nur beim Spielen dieses Balls anfielen) zählen nicht.
+     - Wurde der Ball, der gespielt wurde, um den Fehler zu berichtigen, ebenfalls vom falschen Ort gespielt:
+       - Wenn die Spielleitung entscheidet, es habe sich nicht um einen schwerwiegenden Verstoß gehandelt, zieht der Spieler sich die **_Grundstrafe (zwei weitere Strafschläge) nach Regel 14.7a zu, somit insgesamt vier Strafschläge,_** die dem Ergebnis mit diesem Ball hinzugerechnet werden (zwei für das Spielen des ursprünglichen Balls vom falschen Ort und zwei für das Spielen des anderen Balls vom falschen Ort).
+       - Wenn die Spielleitung entscheidet, es habe sich um einen schwerwiegenden Verstoß gehandelt, ist der Spieler disqualifiziert.
