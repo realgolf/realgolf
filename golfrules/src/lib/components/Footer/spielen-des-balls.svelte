@@ -1,3 +1,7 @@
+<script lang="ts">
+	import '$lib/scss/footer.scss';
+</script>
+
 <div class="column">
 	<h3>III. Spielen der Runde und eines Lochs</h3>
 	<a href="/spielen-des-balls/ballsuche-finden-und-identifizieren-des-balls">
@@ -21,16 +25,3 @@
 		Handlungen, um einen sich bewegenden Ball zu beeinflussen</a
 	>
 </div>
-
-<style lang="scss">
-	.column {
-		display: flex;
-		flex-direction: column;
-		padding: 2rem;
-		width: 30vw;
-
-		a {
-			font-size: 1rem;
-		}
-	}
-</style>

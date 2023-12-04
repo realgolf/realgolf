@@ -1,3 +1,7 @@
+<script lang="ts">
+	import '$lib/scss/footer.scss';
+</script>
+
 <div class="column">
 	<h3>V. Ball aufnehmen und ins Spiel zurückbringen</h3>
 
@@ -7,16 +11,3 @@
 		zurücklegen; Droppen im Erleichterungsbereich; Spielen vom falschen Ort</a
 	>
 </div>
-
-<style lang="scss">
-	.column {
-		display: flex;
-		flex-direction: column;
-		padding: 2rem;
-		width: 30vw;
-
-		a {
-			font-size: 1rem;
-		}
-	}
-</style>

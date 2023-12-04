@@ -1,3 +1,7 @@
+<script lang="ts">
+	import '$lib/scss/footer.scss';
+</script>
+
 <div class="column">
 	<h3>I. Die Grundlagen des Spiels</h3>
 	<a href="/die-grundlagen-des-spiels/das-spiel-verhalten-der-spieler-und-die-regeln">
@@ -8,16 +12,3 @@
 	<a href="/die-grundlagen-des-spiels/ausruestung-des-spielers">Regel 4 - Ausrüstung des Spielers</a
 	>
 </div>
-
-<style lang="scss">
-	.column {
-		display: flex;
-		flex-direction: column;
-		padding: 2rem;
-		width: 30vw;
-
-		a {
-			font-size: 1rem;
-		}
-	}
-</style>
