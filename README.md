@@ -31,11 +31,11 @@ You can see the Commit Milestone [here](./Commit_Milestones.md).
 
 ![Games Tab](./readme/images/games.png)
 
-## What is Real Golf
+## What is Real Golf?
 
-Real Golf are all my games I've developed in the context of golf, the first version was
-made with JavaScript, the second and currently used version was made with [SvelteKit](https://kit.svelte.dev),
-which is a JavaScript Framework and the full stack Verison of [Svelte](https://svelte.dev).
+Real Golf are all my games I've developed in the context of golf, the first version was 
+made with JavaScript, the second and currently used version was made with [SvelteKit](https://kit.svelte.dev), 
+which is a JavaScript Framework and the full stack Version of [Svelte](https://svelte.dev).
 
 ## Contributing Guidelines
 
