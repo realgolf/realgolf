@@ -6,6 +6,7 @@
 	import SonderregelnFuerBunkerUndGruens from './Footer/sonderregeln-fuer-bunker-und-gruens.svelte';
 	import SpielenDerRundeUndEinesLochs from './Footer/spielen-der-runde-und-eines-lochs.svelte';
 	import SpielenDesBalls from './Footer/spielen-des-balls.svelte';
+	import StrafloseErleichterung from './Footer/straflose-erleichterung.svelte';
 </script>
 
 <footer>
@@ -16,6 +17,7 @@
 			<SpielenDesBalls></SpielenDesBalls>
 			<SonderregelnFuerBunkerUndGruens></SonderregelnFuerBunkerUndGruens>
 			<BallAufnehmenUndInsSpielZurckbringen></BallAufnehmenUndInsSpielZurckbringen>
+			<StrafloseErleichterung></StrafloseErleichterung>
 		</section>
 
 		<h3>Hilfe und Support</h3>
