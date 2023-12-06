@@ -24,7 +24,7 @@
   <h2 id="4-winning">4 Winning</h2>
 
   <ol class="no-bullets">
-    <li><b>Bronze:</b> Only the lenght of the shot applies</li>
+    <li><b>Bronze:</b> Only the length of the shot applies</li>
     <li>
       <b>Silver:</b> The number of {measurement_unit} and the lateral deviation apply.
     </li>
