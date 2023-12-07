@@ -4,27 +4,17 @@
   "display": "fullscreen",
   "scope": "/",
   "start_url": "/",
-  "name": "Golf Games",
+  "name": "Real Golf",
   "short_name": "Golf",
-  "description": "Welcome to \"Golf Games\" - your ultimate     destination for golf challenges! Discover \"4 Winning\", \"Exact\", and     \"Precision\" - captivating golf experiences tested with trainers.",
+  "description": "Welcome to \"Real Golf\" - your ultimate     destination for golf challenges! Discover \"4 Winning\", \"Exact\", and     \"Precision\" - captivating golf experiences tested with trainers.",
   "icons": [
     {
-      "src": "/manifest/icon-192x192.png",
+      "src": "/manifest/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/manifest/icon-256x256.png",
-      "sizes": "256x256",
-      "type": "image/png"
-    },
-    {
-      "src": "/manifest/icon-384x384.png",
-      "sizes": "384x384",
-      "type": "image/png"
-    },
-    {
-      "src": "/manifest/icon-512x512.png",
+      "src": "/manifest/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }

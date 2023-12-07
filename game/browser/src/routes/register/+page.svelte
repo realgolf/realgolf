@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { enhance } from "$app/forms";
   import { faEye } from "@fortawesome/free-solid-svg-icons";
   import { onMount } from "svelte";
   import Fa from "svelte-fa";
@@ -38,58 +37,55 @@
 </script>
 
 <svelte:head>
-  <title>Golf Games - Register</title>
+  <title>Real Golf - Register</title>
 </svelte:head>
 
 <h1>Register</h1>
 
-<main>
-  <form method="POST" autocomplete="off" use:enhance>
-    <div>
-      <label for="email_input">Email</label>
-      <input
-        type="email"
-        id="email_input"
-        name="email"
-        value={form?.user?.email ?? ""}
-      />
-    </div>
-    <div>
-      <label for="password_input">Password</label>
-      <input type="password" id="password_input" name="password" />
-    </div>
-    <div>
-      <label for="password_verify_input">Verify Password</label>
-      <input
-        type="password"
-        id="password_verify_input"
-        name="password_verify"
-      />
-    </div>
-    <button id="toggle_password" type="button"
-      ><Fa id="eye_icon" icon={faEye} /></button
-    >
-    <div>
-      <label for="name_input">Name</label>
-      <input
-        type="text"
-        id="name_input"
-        name="name"
-        value={form?.user?.name ?? ""}
-      />
-    </div>
-    <button>Register</button>
-  </form>
+<form method="POST" autocomplete="off">
+  <div>
+    <label for="email_input">Email</label>
+    <input
+      type="email"
+      id="email_input"
+      name="email"
+      value={form?.user?.email ?? ""}
+    />
+  </div>
+  <div>
+    <label for="password_input">Password</label>
+    <input type="password" id="password_input" name="password" />
+  </div>
+  <div>
+    <label for="password_verify_input">Verify Password</label>
+    <input type="password" id="password_verify_input" name="password_verify" />
+  </div>
+  <button id="toggle_password" type="button"
+    ><Fa id="eye_icon" icon={faEye} /></button
+  >
+  <div>
+    <label for="name_input">Name</label>
+    <input
+      type="text"
+      id="name_input"
+      name="name"
+      value={form?.user?.name ?? ""}
+    />
+  </div>
+  <button>Register</button>
+</form>
 
-  {#if form?.error}
-    <p class="error">
-      {form?.error}
-    </p>
-  {/if}
-</main>
+{#if form?.error}
+  <p class="error">
+    {form?.error}
+    You can still try to login here: <a href="/login">Login</a>, or open the
+    <a href="/dashboard">Dashboard</a>
+  </p>
+{/if}
 
-<style lang="scss">
-  main {
-    max-width: 40rem;
-  }
-</style>
+{#if form?.user}
+  <p class="success">
+    Welcome {form.user.name}! You can now open the
+    <a href="/dashboard">Dashboard</a>.
+  </p>
+{/if}

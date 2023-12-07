@@ -49,7 +49,7 @@
 </script>
 
 <svelte:head>
-  <title>Golf Games - Settings</title>
+  <title>Real Golf - Settings</title>
 </svelte:head>
 
 <h1>Settings</h1>

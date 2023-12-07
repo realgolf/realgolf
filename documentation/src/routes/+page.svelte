@@ -2,12 +2,12 @@
 </script>
 
 <svelte:head>
-	<title>Golf Games Docs</title>
+	<title>Real Golf Docs</title>
 </svelte:head>
 
 <div class="heading">
-	<h1>Golf Games Docs</h1>
-	<p class="grey">Help for wherever you are on your Golf Games journey.</p>
+	<h1>Real Golf Docs</h1>
+	<p class="grey">Help for wherever you are on your Real Golf journey.</p>
 </div>
 
 <style lang="scss">

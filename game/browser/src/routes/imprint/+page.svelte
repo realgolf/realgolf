@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>Golf Games - Imprint</title>
+  <title>Real Golf - Imprint</title>
 </svelte:head>
 
 <h1>Imprint</h1>

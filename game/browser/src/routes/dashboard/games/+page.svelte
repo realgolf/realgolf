@@ -70,7 +70,7 @@
 </script>
 
 <svelte:head>
-  <title>Golf Games - Games</title>
+  <title>Real Golf - Games</title>
 </svelte:head>
 
 <h1>Games</h1>

@@ -87,7 +87,7 @@
 </script>
 
 <svelte:head>
-  <title>Golf Games - Modi</title>
+  <title>Real Golf - Modi</title>
 </svelte:head>
 
 <h1>Modi</h1>

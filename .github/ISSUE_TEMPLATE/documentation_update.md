@@ -17,7 +17,7 @@ Please cross the most approit box of the examples below:
 
 **Describe where the Issue is.**
 Position of the Issue:
-e.g. [In About Games](https://docs.golf.moinjulian.com/about-games)
+e.g. [In About Games](https://docs.realgolf.games/about-games)
 
 **Documentation Issue Type**
 

@@ -1,0 +1,108 @@
+body {
+    /* background-image: url(./img/background2.png); */
+    color: white;
+    background-color: rgb(84, 133, 6);
+    width: auto;
+    height: auto;
+    position: absolute;
+}
+
+.backgroundmain {
+    background-color: #242424;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+#container {
+    background-color: transparent;
+    width: 100vw;
+    height: 90vh;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+#field {
+    color: white;
+    background-color: transparent;
+    border: thin solid 1px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+    margin-bottom: 50vh;
+    font-size: 3vw;
+}
+
+.count {
+    width: 15vw;
+    color: white;
+} 
+
+th, td { 
+    border: thin solid; 
+}
+
+.count:hover {
+    cursor: pointer;
+}
+
+.headline {
+    color: royalblue;
+}
+
+.rules {
+    color: aquamarine;
+}
+
+.modi {
+    color: aquamarine;
+}
+
+summary {
+    color: lightcoral;
+    position: relative;  
+    left: 1vw;
+    }
+
+#info {
+    display: none;
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: rgba(15, 215, 4, 0.633);
+    padding: 20px 50px;
+    margin-top: 20vh;
+    /* margin-bottom: 50vh; */
+    width: 95vw;
+}
+
+.levels {
+    color: aquamarine;
+}
+
+.non-line {
+    text-decoration: none;
+}
+
+#indetails {
+    display: flex;
+    margin-left: 2.5vw;
+    position: fixed, static;
+}
+
+#currentPlayer {
+    background-color: darkgoldenrod;
+}
+
+.trackman {
+    color: orange;
+}
+
+.background {
+    color: white;
+}
