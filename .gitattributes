@@ -3,3 +3,6 @@
 *.ts linguist-language=TypeScript
 *.scss linguist-language=SCSS
 *.html linguist-language=HTML
+*.md linguist-detectable=true
+*.md linguist-language=Markdown
+*.md linguist-documentation=false
