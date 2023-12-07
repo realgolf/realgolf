@@ -105,19 +105,50 @@
     const cell = document.getElementById(cellId);
 
     if (cell) {
-      cell.style.backgroundColor = color;
-      const Id = `${outerIndex + 1}-${innerIndex}`;
-      currentTeam.data.push(Id);
-
-      // Aktualisieren der teams-Variablen im Local Storage
-      localStorage.setItem(
-        `4winning_team_${teams.length}`,
-        JSON.stringify(teams)
+      // Check if the background color is not equal to any team's color
+      const isCellClaimed = teams.some(
+        (team) => cell.style.backgroundColor === team.color
       );
 
-      FieldClickedFourTimes(outerIndex, innerIndex);
-      checkWin();
-      changeTeam();
+      console.log("cellId:", cellId);
+      console.log("isCellClaimed:", isCellClaimed);
+      console.log("currentTeam:", currentTeam);
+      console.log("teams:", teams);
+
+      if (!isCellClaimed) {
+        cell.style.backgroundColor = color;
+        const Id = `${outerIndex + 1}-${innerIndex}`;
+        currentTeam.data.push(Id);
+
+        // Update the corresponding team in the teams array
+        teams[currentTeamIndex].data = [...currentTeam.data]; // Make sure to update the data array
+
+        // Update teams in local storage
+        localStorage.setItem("teams", JSON.stringify(teams));
+
+        FieldClickedFourTimes(outerIndex, innerIndex);
+        checkWin();
+        changeTeam();
+      } else {
+        console.log("Field is already claimed by another team");
+        const info_display = document.getElementById("info_display");
+
+        if (info_display) {
+          info_display.innerHTML =
+            "<b> Oops! </b> This Field is already claimed by another Team. You can still win by hitting it four times!";
+        }
+
+        FieldClickedFourTimes(outerIndex, innerIndex);
+        checkWin();
+        changeTeam();
+
+        // Hide the text after 10 seconds
+        setTimeout(() => {
+          if (info_display) {
+            info_display.innerHTML = ""; // Empty the content to hide the text
+          }
+        }, 10000); // 10000 milliseconds (10 seconds)
+      }
     }
   }
 
@@ -135,8 +166,6 @@
     if (cell) {
       const teamColor = currentTeam.color;
       const cellKey = `${teamColor}_${cellId}`;
-
-      console.log(hitCounts[cellKey]);
 
       if (!hitCounts[cellKey]) {
         hitCounts[cellKey] = 1;
@@ -558,6 +587,7 @@
 <h1>{teams.length} Players</h1>
 
 <p id="team_turn_display">Current Team Turn: {currentTeam.color}</p>
+<p class="success" id="info_display" />
 
 <button on:click={changeTeam}>Switch Team</button>
 <button on:click={restartGame_Btn}>Restart Game</button>
