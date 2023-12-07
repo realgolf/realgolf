@@ -1,0 +1,80 @@
+{
+	"short_name": "Golf Vier Gewinnt von MoinJulian",
+	"name": "Golf Vier Gewinnt von MoinJulian",
+	"lang": "en",
+	"description": "Dies ist das Golf Vier Gewinnt von MoinJulian",
+	"start_url": "https://golfviergewinnt.netlify.app",
+	"background_color": "#242424",
+	"theme_color": "#242424",
+	"dir": "auto",
+	"display": "fullscreen",
+	"orientation": "any",
+	"icons": [
+		{
+			"src": "/android-icon-192x192-seochecker-manifest-2402.jpeg",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/apple-icon-180x180-seochecker-manifest-2402.jpeg",
+			"type": "image/png",
+			"sizes": "180x180"
+		},
+		{
+			"src": "/apple-icon-152x152-seochecker-manifest-2402.jpeg",
+			"type": "image/png",
+			"sizes": "152x152"
+		},
+		{
+			"src": "/apple-icon-144x144-seochecker-manifest-2402.jpeg",
+			"type": "image/png",
+			"sizes": "144x144"
+		},
+		{
+			"src": "/apple-icon-120x120-seochecker-manifest-2402.jpeg",
+			"type": "image/png",
+			"sizes": "120x120"
+		},
+		{
+			"src": "/apple-icon-114x114-seochecker-manifest-2402.jpeg",
+			"type": "image/png",
+			"sizes": "114x114"
+		},
+		{
+			"src": "/favicon-96x96-seochecker-manifest-2402.jpeg",
+			"type": "image/png",
+			"sizes": "96x96"
+		},
+		{
+			"src": "/apple-icon-76x76-seochecker-manifest-2402.jpeg",
+			"type": "image/png",
+			"sizes": "76x76"
+		},
+		{
+			"src": "/apple-icon-72x72-seochecker-manifest-2402.jpeg",
+			"type": "image/png",
+			"sizes": "72x72"
+		},
+		{
+			"src": "/apple-icon-60x60-seochecker-manifest-2402.jpeg",
+			"type": "image/png",
+			"sizes": "60x60"
+		},
+		{
+			"src": "/apple-icon-57x57-seochecker-manifest-2402.jpeg",
+			"type": "image/png",
+			"sizes": "57x57"
+		},
+		{
+			"src": "/favicon-32x32-seochecker-manifest-2402.jpeg",
+			"type": "image/png",
+			"sizes": "32x32"
+		},
+		{
+			"src": "/favicon-16x16-seochecker-manifest-2402.jpeg",
+			"type": "image/png",
+			"sizes": "16x16"
+		}
+	],
+	"prefer_related_applications": false
+}

@@ -16,7 +16,7 @@
 </script>
 
 <svelte:head>
-  <link rel="icon" href="/golf.PNG" />
+  <link rel="icon" href="/logo.PNG" />
 </svelte:head>
 
 <LoadProgress />
