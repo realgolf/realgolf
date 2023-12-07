@@ -42,50 +42,66 @@
 
 <h1>Register</h1>
 
-<form method="POST" autocomplete="off">
-  <div>
-    <label for="email_input">Email</label>
-    <input
-      type="email"
-      id="email_input"
-      name="email"
-      value={form?.user?.email ?? ""}
-    />
-  </div>
-  <div>
-    <label for="password_input">Password</label>
-    <input type="password" id="password_input" name="password" />
-  </div>
-  <div>
-    <label for="password_verify_input">Verify Password</label>
-    <input type="password" id="password_verify_input" name="password_verify" />
-  </div>
-  <button id="toggle_password" type="button"
-    ><Fa id="eye_icon" icon={faEye} /></button
-  >
-  <div>
-    <label for="name_input">Name</label>
-    <input
-      type="text"
-      id="name_input"
-      name="name"
-      value={form?.user?.name ?? ""}
-    />
-  </div>
-  <button>Register</button>
-</form>
+<main>
+  <form method="POST" autocomplete="off">
+    <div>
+      <label for="email_input">Email</label>
+      <input
+        type="email"
+        id="email_input"
+        name="email"
+        value={form?.user?.email ?? ""}
+      />
+    </div>
+    <div>
+      <label for="password_input">Password</label>
+      <input type="password" id="password_input" name="password" />
+    </div>
+    <div>
+      <label for="password_verify_input">Verify Password</label>
+      <input
+        type="password"
+        id="password_verify_input"
+        name="password_verify"
+      />
+    </div>
+    <button id="toggle_password" type="button"
+      ><Fa id="eye_icon" icon={faEye} /></button
+    >
+    <div>
+      <label for="name_input">Name</label>
+      <input
+        type="text"
+        id="name_input"
+        name="name"
+        value={form?.user?.name ?? ""}
+      />
+    </div>
+    <button>Register</button>
+  </form>
 
-{#if form?.error}
-  <p class="error">
-    {form?.error}
-    You can still try to login here: <a href="/login">Login</a>, or open the
-    <a href="/dashboard">Dashboard</a>
-  </p>
-{/if}
+  {#if form?.error}
+    <p class="error">
+      {form?.error}
+      You can still try to login here: <a href="/login">Login</a>, or open the
+      <a href="/dashboard">Dashboard</a>
+    </p>
+  {/if}
 
-{#if form?.user}
-  <p class="success">
-    Welcome {form.user.name}! You can now open the
-    <a href="/dashboard">Dashboard</a>.
-  </p>
-{/if}
+  {#if form?.user}
+    <p class="success">
+      Welcome {form.user.name}! You can now open the
+      <a href="/dashboard">Dashboard</a>.
+    </p>
+  {/if}
+</main>
+
+<style lang="scss">
+  main {
+    max-width: 40rem;
+  }
+
+  #toggle_password {
+    margin-top: 10px;
+  }
+</style>
