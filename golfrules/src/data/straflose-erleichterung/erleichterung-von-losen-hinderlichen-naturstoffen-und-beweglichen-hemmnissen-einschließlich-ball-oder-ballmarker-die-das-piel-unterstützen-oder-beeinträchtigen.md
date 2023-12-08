@@ -87,3 +87,59 @@ Distanzverlust in Anspruch nehmen:
 **_Strafe für Spielen eines fälschlich neu eingesetzten Balls oder für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 15.2: Grundstrafe nach Regel 6.3b oder 14.7a._**
 
 Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
+
+## 15.3 Ball oder Ballmarker unterstützen oder stören das Spiel
+
+### 15.3a Ball auf dem Grün unterstützt das Spiel
+
+Regel 15.3a betrifft nur einen ruhenden Ball auf, aber nicht außerhalb des Grüns.
+
+Wenn ein Spieler Grund zu der Annahme hat, ein Ball auf dem Grün könnte das Spiel eines anderen Spielers unterstützen, indem er möglicherweise einen Ball in der Nähe des Lochs aufhalten könnte, darf der Spieler
+
+- die Stelle seines Balls nach Regel 13.1b markieren und diesen aufnehmen, wenn es sein eigener Ball ist oder, wenn der Ball einem anderen Spieler gehört, von diesem verlangen, die Stelle des Balls zu markieren und den Ball aufzunehmen (siehe Regel 14.1).
+- Der aufgenommene Ball muss an die ursprüngliche Stelle zurückgelegt werden (siehe Regel 14.2).
+
+Ausschließlich im Zählspiel
+
+- darf ein Spieler, der aufgefordert wird, einen Ball aufzunehmen, stattdessen zuerst spielen und
+- vereinbaren zwei oder mehr Spieler, einen Ball an seiner Stelle liegen zu lassen, um damit einen Spieler zu unterstützen und dieser Spieler schlägt, während der unterstützende Ball noch an seiner Stelle liegt, zieht sich jeder an der Vereinbarung beteiligte Spieler die **_Grundstrafe (zwei Strafschläge)_** zu.
+
+### 15.3b Ball auf dem Platz stört das Spiel
+
+1. **Bedeutung von „Störung durch den Ball eines anderen Spielers“.** Eine Störung nach dieser Regel ist gegeben, wenn der ruhende Ball eines anderen Spielers
+
+   - den Raum des beabsichtigten Stands oder den Raum des beabsichtigten Schwungs des Spielers stören könnte,
+   - auf oder nahe der Spiellinie des Spielers liegt, weil es bei dem beabsichtigten Schlag unwahrscheinlich ist, dass der sich bewegende Ball des Spielers diesen Ball treffen könnte oder
+   - nahe genug liegt, um den Spieler beim Schlag abzulenken.
+
+2. **Wann Erleichterung von einem störenden Ball zulässig ist.** Wenn ein Spieler Grund zu der Annahme hat, der Ball eines anderen Spielers könnte sein eigenes Spiel beeinträchtigen,
+
+   - darf der Spieler vom anderen Spieler verlangen, die Stelle zu markieren und den Ball aufzunehmen (siehe Regel 14.1). Dabei darf der Ball nicht gereinigt werden (**außer**, wenn er auf dem Grün nach Regel 13.1b aufgenommen wird). Der Ball muss an seine ursprüngliche Stelle zurückgelegt werden (siehe Regel 14.2).
+   - Markiert der andere Spieler nicht die Stelle, bevor er den Ball aufnimmt oder reinigt er den aufgenommenen Ball, wenn dies nicht zulässig ist, zieht er sich einen **_Strafschlag_** zu.
+   - Ausschließlich im Zählspiel darf ein Spieler, der nach dieser Regel aufgefordert wird, den Ball aufzunehmen, stattdessen zuerst spielen.
+
+Ein Spieler darf seinen Ball nach dieser Regel nicht aufnehmen, wenn nur er der Ansicht ist, sein Ball könnte das Spiel eines anderen Spielers beeinträchtigen.
+
+Nimmt der Spieler den Ball auf, ohne von dem anderen Spieler hierzu aufgefordert worden zu sein (**außer** wenn er den Ball auf dem Grün nach Regel 13.1b aufnimmt), zieht der Spieler sich **_einen Strafschlag_** zu.
+
+### 15.3c Ballmarker unterstützt oder beeinträchtigt das Spiel
+
+Wenn ein Ballmarker das Spiel unterstützen oder beeinträchtigen könnte, darf ein Spieler
+
+- seinen Ballmarker zur Seite setzen oder
+- wenn der Ballmarker einem anderen Spieler gehört, von diesem Spieler aus den gleichen Gründen verlangen, den Ballmarker zur Seite zu setzen, aus denen er verlangen darf, einen Ball nach den Regeln 15.3a und 15.3b aufzunehmen.
+
+Der Ballmarker muss an eine neue Stelle versetzt werden, die von der ursprünglichen Stelle aus gemessen wird, zum Beispiel eine oder mehrere Schlägerkopflängen.
+
+Der aufgenommene Ball muss entweder an die ursprüngliche Stelle zurückgelegt werden (siehe Regel 14.2) oder der Ballmarker muss zum Markieren dieser Stelle zurückgelegt werden.
+
+**_Strafe für Verstoß gegen Regel 15.3: Grundstrafe._**
+
+Diese Strafe zieht sich der Spieler auch zu, wenn er
+
+- schlägt, ohne darauf zu warten, dass ein unterstützender Ball oder Ballmarker aufgenommen oder bewegt wird, nachdem er sich bewusst wurde, dass ein anderer Spieler (1) die Absicht hatte, diesen nach dieser Regel aufzunehmen oder zu bewegen oder (2) jemand anderen dazu aufgefordert hatte oder
+- sich weigert, seinen eigenen Ball aufzunehmen oder seinen Ballmarker zu bewegen, wenn er dazu aufgefordert wurde und ein anderer Spieler, dessen Spiel dadurch unterstützt oder gestört gewesen sein könnte, dann schlägt.
+
+**_Strafe für Spielen eines fälschlich neu eingesetzten Balls oder Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 15.3: Grundstrafe nach Regel 6.3b oder 14.7a._**
+
+Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
