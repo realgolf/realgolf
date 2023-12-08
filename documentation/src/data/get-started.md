@@ -1,5 +1,5 @@
 ---
-title:
+title: Get Started
 ---
 
 ## About Accounts
