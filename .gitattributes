@@ -6,4 +6,3 @@
 *.md linguist-detectable=true
 *.md linguist-language=Markdown
 *.md linguist-documentation=false
-original-version/** linguist-vendored
