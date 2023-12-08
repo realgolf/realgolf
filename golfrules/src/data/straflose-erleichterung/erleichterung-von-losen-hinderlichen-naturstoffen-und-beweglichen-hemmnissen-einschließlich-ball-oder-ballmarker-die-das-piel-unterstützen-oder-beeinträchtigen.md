@@ -69,3 +69,21 @@ Sie gibt keine Erleichterung von unbeweglichen Hemmnissen (dazu lässt Regel 16.
 
    - Den Ball aufnehmen und das bewegliche Hemmnis entfernen und
    - den ursprünglichen Ball oder einen anderen Ball an die geschätzte Stelle legen, genau unterhalb der Stelle, an der der Ball in oder auf dem beweglichen Hemmnis lag, wobei die Vorgehensweisen beim Zurücklegen eines Balls nach Regel 14.2b(2) und 14.2e angewendet werden müssen.
+
+### 15.2b Erleichterung für Ball, der in oder auf einem beweglichen Hemmnis liegt, aber nicht gefunden wird
+
+Ist bekannt oder so gut wie sicher, dass der Ball eines Spielers in oder auf einem
+beweglichen Hemmnis auf dem Platz liegt, der Ball aber nicht gefunden wird, darf
+der Spieler dieses Erleichterungsverfahren anstelle Erleichterung mit Schlag und
+Distanzverlust in Anspruch nehmen:
+
+- Der Spieler darf straflose Erleichterung nach Regel 15.2a(2) oder 15.2a(3) in Anspruch nehmen und als Bezugspunkt auf dem Platz den geschätzten Punkt unmittelbar unter der Stelle verwenden, an der der Ball zuletzt die Grenze des beweglichen Hemmnisses gekreuzt hatte.
+- Sobald der Spieler einen anderen Ball ins Spiel bringt, um auf diese Weise Erleichterung in Anspruch zu nehmen,
+  - ist der ursprüngliche Ball nicht länger im Spiel und darf nicht gespielt werden.
+  - Dies gilt auch, wenn er anschließend vor dem Ende der Suchzeit von drei Minuten auf dem Platz gefunden wird (siehe Regel 6.3b).
+
+**Aber:** Ist es weder bekannt noch so gut wie sicher, dass der Ball in oder auf einem beweglichen Hemmnis liegt und ist der Ball verloren, muss der Spieler Erleichterung mit Schlag und Distanzverlust nach Regel 18.2 in Anspruch nehmen.
+
+**_Strafe für Spielen eines fälschlich neu eingesetzten Balls oder für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 15.2: Grundstrafe nach Regel 6.3b oder 14.7a._**
+
+Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
