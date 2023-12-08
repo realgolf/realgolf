@@ -3,6 +3,6 @@
 </script>
 
 <div class="column">
-	<h3>Basics</h3>
-	<a href="/modi">Modi</a>
+	<a href="/basics"><h3>Basics</h3></a>
+	<a href="/basics#modi">Modi</a>
 </div>
