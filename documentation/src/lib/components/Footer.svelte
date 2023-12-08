@@ -2,12 +2,14 @@
 	import GetStarted from '$lib/components/Footer/GetStarted.svelte';
 	import { faCodePullRequest } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
+	import Basics from './Footer/Basics.svelte';
 </script>
 
 <footer>
 	<div class="content">
 		<section class="parts">
 			<GetStarted></GetStarted>
+			<Basics></Basics>
 		</section>
 
 		<h3>Help and Support</h3>
@@ -15,8 +17,8 @@
 			<div class="contribution">
 				<h4>Help us make these docs great!</h4>
 				<p class="grey">
-					This documentation are Open-Source. See something that's wrong or unclear? Submit a pull
-					request or create an Issue.
+					This documentation are Open-Source. <br /> See something that's wrong or unclear? <br /> Submit
+					a pull request or create an Issue.
 				</p>
 				<a href="https://github.com/moinjulian/golf" target="_blank">
 					<button><span><Fa icon={faCodePullRequest} /></span>Make a contribution</button>
@@ -38,21 +40,27 @@
 		flex-direction: column;
 
 		.content {
-			padding: 3rem 4rem;
+			padding: 1rem 1rem;
 
 			.parts {
-				display: flex;
-				flex-direction: row;
-			}
+				display: flex !important;
+				flex-wrap: wrap !important;
 
+				@media only screen and (max-width: 767px) {
+					margin-right: -16px;
+					margin-left: -16px;
+					display: flex;
+					flex-direction: column;
+				}
+			}
 			.info {
-				padding: 2rem;
+				padding: 0.5rem;
 				display: flex;
 				flex-direction: row;
 				border-top: 1px solid var(--border-color);
 
 				.contribution {
-					max-width: 25vw;
+					max-width: 90vw;
 				}
 
 				button {
