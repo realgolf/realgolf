@@ -20,7 +20,7 @@ To play 4Winning you need a Distance Measuring device (e.g. Trackman) to measure
 
 Additionally, you can enter the distance into a text field above the game board with the description: "You can also enter the distance you have played here." This might be useful if you are playing on a small device, where the fields are small, or the device is shaking, and you wouldn't hit the correct field by clicking on them.
 
-#### What You Need
+#### What You Need?
 
 To play 4Winning, you will need a set of clubs or at least one golf club, as well as a distance measuring device to measure the distance you have hit the ball.
 
@@ -42,3 +42,17 @@ Exact is a game which goal it is to get as many points as possible in a limited 
 To play Exact, you will need a set of clubs or at least one golf club, as well as a distance measuring device to measure the distance you have hit the ball.
 
 ### Precision
+
+#### About Precision
+
+Precision is a accuracy-focused game where the goal is to play as close to a given distance as possible. Each player starts with 100 HP (Health Points), and the player with the most remaining HP at the end wins.
+
+#### How to Play
+
+To play Precision, you need a Distance Measuring device (e.g., Trackman) to measure the correct distance you've played. Once you have the distance, enter it into the field with the placeholder "Please enter the distance you have played as a number." This means you only need to enter the distance without the unit. For example, if you played 150 meters/yards, enter "150" into the text field.
+
+The yellow number represents the target distance you need to play, which by default varies between 0 and 150 meters/yards. You can change this by increasing the number in the text field below the "Choose Range" label.
+
+#### What You Need?
+
+To play Precision, you will need a set of clubs or at least one golf club, as well as a distance measuring device to measure the distance you have hit the ball.
