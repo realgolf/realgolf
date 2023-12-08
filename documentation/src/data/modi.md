@@ -21,3 +21,20 @@ Additionally, you can enter the distance into a text field above the game board 
 ### What You Need
 
 To play 4Winning, you will need a set of clubs or at least one golf club, as well as a distance measuring device to measure the distance you have hit the ball.
+
+## Exact
+
+### About Exact
+
+Exact is a game which goal it is to get as many points as possible in a limited number of shots (normally that are 20 shots per team).
+
+### Distribution of points
+
+- Every multiple of ten (e.g., 10, 20, 30, 40, 50, 60, 70, 80, 90) scores 3 points.
+- All repeating digits (e.g., 11, 22, 33, 44, 55, 66, 77, 88, 99) score 2 points.
+- 100 scores 5 points.
+- Anything above 100 or below 5 scores -1 point, and everything else scores 1 point if hit.
+
+### What You Need
+
+To play Exact, you will need a set of clubs or at least one golf club, as well as a distance measuring device to measure the distance you have hit the ball.
