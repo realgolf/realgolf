@@ -3,7 +3,8 @@
 </script>
 
 <div class="column">
-	<h3>Get started</h3>
-	<a href="/about-accounts">About Accounts</a>
-	<a href="/preparation-for-the-games">Preparation for the Games</a>
+	<a href="/get-started"><h3>Get started</h3></a>
+
+	<a href="/get-started#about-accounts">About Accounts</a>
+	<a href="/get-started#preparation-for-the-games">Preparation for the Games</a>
 </div>
