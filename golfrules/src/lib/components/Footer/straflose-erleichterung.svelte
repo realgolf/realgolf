@@ -10,4 +10,10 @@
 		Regel 15 - Erleichterung von losen hinderlichen Naturstoffen und beweglichen Hemmnissen
 		(einschließlich Ball oder Ballmarker, die das Spiel unterstützen oder beeinträchtigen)</a
 	>
+	<a
+		href="/straflose-erleichterung/erleichterung-von-ungewöhnlichen-platzverhältnissen-einschließlich-unbeweglicher-hemmnisse-gefährdung-durch-tiere-eingebetteter-ball"
+	>
+		Regel 16 - Erleichterung von ungewöhnlichen Platzverhältnissen (einschließlich unbeweglicher
+		Hemmnisse), Gefährdung durch Tiere, eingebetteter Ball</a
+	>
 </div>
