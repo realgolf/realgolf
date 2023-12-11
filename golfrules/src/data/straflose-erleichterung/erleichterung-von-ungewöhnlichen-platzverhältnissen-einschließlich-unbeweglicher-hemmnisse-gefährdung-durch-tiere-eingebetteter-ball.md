@@ -112,3 +112,32 @@ In keinem der folgenden Fälle darf der Ball gespielt werden, wie er liegt:
 Bei Behinderung durch eine Spielverbotszone für einen Ball in einer Penalty Area, siehe Regel 17.1e.
 
 **_Strafe für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 16.1: Grundstrafe nach Regel 14.7a._**
+
+## 16.2 Gefährdung durch Tiere
+
+### 16.2a Wann Erleichterung in Anspruch genommen werden darf
+
+Eine „Gefährdung durch Tiere“ besteht, wenn ein gefährliches Tier (Giftschlange, stechende Biene, Alligator, Feuerameise oder Bär) in der Nähe eines Balls den Spieler
+ernsthaft verletzen könnte, wenn er den Ball spielen müsste, wie er liegt.
+
+Ein Spieler darf bei Gefährdung durch Tiere straflos wie folgt Erleichterung nach Regel 16.2b in Anspruch nehmen, unabhängig davon, wo sein Ball auf dem Platz liegt, **ausgenommen**, dass Erleichterung nicht gewährt wird,
+
+- wenn es aufgrund anderer Umstände als der Gefährdung durch Tiere eindeutig unvernünftig ist, den Ball zu spielen, wie er liegt (zum Beispiel, wenn ein Spieler nicht in der Lage ist, aufgrund der Balllage in einem Busch, einen Schlag durchzuführen) oder
+- wenn die Beeinträchtigung nur vorkommt, weil der Spieler einen Schläger, eine Art des Stands oder Schwungs oder eine Spielrichtung wählt, die unter den Umständen eindeutig unvernünftig ist.
+
+### 16.2b Wie Erleichterung bei Gefährdung durch Tiere in Anspruch genommen werden darf
+
+Wenn eine Gefährdung durch Tiere das Spiel beeinträchtigt:
+
+1. **Wenn Ball außerhalb einer Penalty Area liegt:** Der Spieler darf straflose Erleichterung nach Regel 16.1b, c oder d in Anspruch nehmen, jeweils abhängig davon, ob der Ball im Gelände, in einem Bunker oder auf dem Grün liegt.
+
+2. **Wenn Ball innerhalb einer Penalty Area liegt:** Der Spieler darf entweder straflose Erleichterung oder Erleichterung mit Strafschlag in Anspruch nehmen:
+
+- _Straflose Erleichterung: Spielen aus der Penalty Area._ Der Spieler darf straflose Erleichterung nach Regel 16.1b in Anspruch nehmen, **jedoch** müssen der nächstgelegene Punkt der vollständigen Erleichterung und der Erleichterungsbereich innerhalb der Penalty Area liegen.
+- _Erleichterung mit Strafschlag: Spielen von außerhalb der Penalty Area._
+  - Der Spieler darf Erleichterung mit Strafschlag nach Regel 17.1d in Anspruch nehmen.
+  - Wenn eine Beeinträchtigung durch gefährliche Tiere an der Stelle besteht, von der der Ball nach Inanspruchnahme von Erleichterung mit Strafschlag außerhalb der Penalty Area gespielt würde, ist es dem Spieler gestattet, erneut Erleichterung ohne zusätzliche Strafe nach (1) in Anspruch nehmen.
+
+Nach dieser Regel bedeutet der nächstgelegene Punkt der vollständigen Erleichterung den nächstgelegenen Punkt (nicht näher zum Loch), an der keine Gefährdung durch gefährliche Tiere besteht.
+
+**_Strafe für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 16.2: Grundstrafe nach Regel 14.7a._**
