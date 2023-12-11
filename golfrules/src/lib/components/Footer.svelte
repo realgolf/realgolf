@@ -3,6 +3,7 @@
 	import Fa from 'svelte-fa';
 	import BallAufnehmenUndInsSpielZurckbringen from './Footer/ball-aufnehmen-und-ins-spiel-zurückbringen.svelte';
 	import DieGrundlagenDesSpieles from './Footer/die-grundlagen-des-spieles.svelte';
+	import ErleichterungMitStrafe from './Footer/erleichterung-mit-strafe.svelte';
 	import SonderregelnFuerBunkerUndGruens from './Footer/sonderregeln-fuer-bunker-und-gruens.svelte';
 	import SpielenDerRundeUndEinesLochs from './Footer/spielen-der-runde-und-eines-lochs.svelte';
 	import SpielenDesBalls from './Footer/spielen-des-balls.svelte';
@@ -18,6 +19,7 @@
 			<SonderregelnFuerBunkerUndGruens></SonderregelnFuerBunkerUndGruens>
 			<BallAufnehmenUndInsSpielZurckbringen></BallAufnehmenUndInsSpielZurckbringen>
 			<StrafloseErleichterung></StrafloseErleichterung>
+			<ErleichterungMitStrafe></ErleichterungMitStrafe>
 		</section>
 
 		<h3>Hilfe und Support</h3>
