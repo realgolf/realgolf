@@ -141,3 +141,47 @@ Wenn eine Gefährdung durch Tiere das Spiel beeinträchtigt:
 Nach dieser Regel bedeutet der nächstgelegene Punkt der vollständigen Erleichterung den nächstgelegenen Punkt (nicht näher zum Loch), an der keine Gefährdung durch gefährliche Tiere besteht.
 
 **_Strafe für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 16.2: Grundstrafe nach Regel 14.7a._**
+
+## 16.3 Eingebetteter Ball
+
+### 16.3a Wann Erleichterung in Anspruch genommen werden darf
+
+1. **Ball muss im Gelände eingebettet sein.** Erleichterung nach Regel 16.3b wird nur dann gewährt, wenn der Ball im Gelände eingebettet ist.
+
+   - Es gibt keine Erleichterung nach dieser Regel, wenn der Ball nicht im Gelände eingebettet ist.
+   - **Aber:** Wenn der Ball auf dem Grün eingebettet ist, darf der Spieler die Stelle markieren, den Ball aufnehmen und reinigen, das Balleinschlagloch ausbessern und den Ball an die ursprüngliche Stelle zurücklegen (siehe Regel 13.1c(2)).
+
+   **Ausnahme – Wann Erleichterung für eingebetteten Ball im Gelände nicht gewährt wird:** Erleichterung nach Regel 16.3b ist nicht erlaubt,
+
+   - wenn der Ball in Sand an einer Stelle des Geländes, die nicht auf Fairwayhöhe oder kürzer gemäht ist, eingebettet ist oder
+   - wenn der Schlag eindeutig wegen einer Behinderung durch etwas anderes als die Lage im eigenen Einschlagloch (zum Beispiel, wenn ein Spieler nicht in der Lage ist, aufgrund der Balllage in einem Busch, einen Schlag durchzuführen) unvernünftig ist.
+
+2. **Bestimmen, ob Ball eingebettet ist.** Der Ball eines Spielers gilt nur dann als eingebettet, wenn
+
+   - der Ball in Folge des letzten Schlags des Spielers in seinem eigenen Einschlagloch liegt und
+   - teilweise unter der Oberfläche des Bodens liegt.
+
+   Kann der Spieler nicht mit Sicherheit sagen, ob sein Ball in seinem eigenen Einschlagloch oder im Einschlagloch eines anderen Balls liegt, darf der Spieler den Ball als eingebettet behandeln, wenn sich aus den verfügbaren Informationen vernünftigerweise schließen lässt, dass der Ball in seinem eigenen Einschlagloch liegt.
+
+   Ein Ball ist nicht eingebettet, wenn er sich aufgrund von etwas anderem als dem vorhergehenden Schlag des Spielers unterhalb der Bodenoberfläche befindet, zum Beispiel wenn
+
+   - er von einer Person in den Boden gedrückt wurde, die darauf getreten ist,
+   - er direkt in den Boden geschlagen wird, ohne in der Luft gewesen zu sein oder
+   - er gedroppt wurde, als Erleichterung nach einer Regel in Anspruch genommen wurde.
+
+### 16.3b Erleichterung für eingebetteten Ball
+
+Wenn der Ball eines Spielers im Gelände eingebettet ist und Erleichterung nach Regel
+16.3a zulässig ist, darf der Spieler straflose Erleichterung in Anspruch nehmen,
+indem er den ursprünglichen oder einen anderen Ball innerhalb des nachfolgenden
+Erleichterungsbereichs droppt (siehe Regel 14.3):
+
+- _Bezugspunkt_ ist die Stelle unmittelbar hinter dem eingebetteten Ball.
+- _Größe des Erleichterungsbereichs, gemessen vom Bezugspunkt:_ eine Schlägerlänge, **aber** mit diesen Einschränkungen:
+- _Einschränkungen der Lage des Erleichterungsbereichs:_
+  - Der Erleichterungsbereich muss im Gelände liegen und
+  - der Erleichterungsbereich darf nicht näher zum Loch als der Bezugspunkt liegen.
+
+**Siehe „Offizielles Handbuch“, Leitlinien für die Spielleitung, Abschnitt 8; Musterplatzregel F-2** (Die Spielleitung darf eine Platzregel erlassen, die Erleichterung für einen eingebetteten Ball nur in Bereichen gewährt, die auf Fairwayhöhe oder niedriger gemäht sind).
+
+**_Strafe für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 16.3: Grundstrafe nach Regel 14.7a._**
