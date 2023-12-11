@@ -124,3 +124,15 @@ Nimmt der Spieler Erleichterung mit Schlag und Distanzverlust in Anspruch, indem
 Der Spieler darf unmittelbar Erleichterung außerhalb der Penalty Area in Anspruch nehmen, ohne zuerst einen Ball innerhalb der Penalty Area zu droppen, zieht sich aber trotzdem **_eine Gesamtstrafe von zwei Strafschlägen_** zu.
 
 **_Strafe für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 17.2: Grundstrafe nach Regel 14.7a._**
+
+## 17.3 Keine Erleichterung nach anderen Regeln für einen Ball in der Penalty Area
+
+Liegt der Ball eines Spielers innerhalb einer Penalty Area, gibt es keine Erleichterung für
+
+- Beeinträchtigung durch ungewöhnliche Platzverhältnisse (Regel 16.1),
+- einen eingebetteten Ball (Regel 16.3) oder
+- einen unspielbaren Ball (Regel 19).
+
+Der Spieler kann nur Erleichterung mit Strafschlag nach Regel 17 in Anspruch nehmen.
+
+**Aber:** Wenn eine Gefährdung durch Tiere innerhalb einer Penalty Area das Spielen eines Balls beeinträchtigt, darf der Spieler entweder straflose Erleichterung in der Penalty Area oder Erleichterung mit Strafe außerhalb der Penalty Area in Anspruch nehmen (siehe Regel 16.2b(2)).
