@@ -185,3 +185,23 @@ Erleichterungsbereichs droppt (siehe Regel 14.3):
 **Siehe „Offizielles Handbuch“, Leitlinien für die Spielleitung, Abschnitt 8; Musterplatzregel F-2** (Die Spielleitung darf eine Platzregel erlassen, die Erleichterung für einen eingebetteten Ball nur in Bereichen gewährt, die auf Fairwayhöhe oder niedriger gemäht sind).
 
 **_Strafe für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 16.3: Grundstrafe nach Regel 14.7a._**
+
+## 16.4 Ball aufnehmen, um zu sehen, ob er sich in einer Lage befindet, aus der Erleichterung gewährt wird
+
+Hat ein Spieler einen nachvollziehbaren Grund zur Annahme, dass sich sein Ball in einer Lage befindet, aus der straflose Erleichterung nach Regel 15.2, 16.1 oder 16.3 zulässig ist, aber kann dies nicht beurteilen ohne den Ball aufzunehmen,
+
+- darf der Spieler den Ball aufnehmen, um zu prüfen, ob Erleichterung gewährt wird, **aber**
+- die Stelle des Balls muss zuerst markiert werden und der aufgenommene Ball darf nicht gereinigt werden (**außer** auf dem Grün), siehe Regel 14.1.
+
+Nimmt der Spieler seinen Ball ohne einen nachvollziehbaren Grund auf (**außer** auf dem Grün, wo der Spieler nach Regel 13.1b aufnehmen darf), zieht er sich **_einen Strafschlag_** zu.
+
+Wenn Erleichterung zulässig ist und der Spieler Erleichterung in Anspruch nimmt, fällt keine Strafe an, selbst wenn der Spieler vor dem Aufnehmen die Stelle des Balls nicht markiert oder er den aufgenommenen Ball gereinigt hat.
+
+Wenn keine Erleichterung zulässig ist oder der Spieler sich entscheidet, keine zulässige Erleichterung in Anspruch zu nehmen,
+
+- zieht der Spieler sich **_einen Strafschlag_** zu, wenn er vor dem Aufnehmen die Stelle des Balls nicht markierte oder den aufgenommenen Ball unzulässiger Weise reinigte und
+- der Ball muss an seine ursprüngliche Stelle zurückgelegt werden (siehe Regel 14.2).
+
+**_Strafe für Spielen eines falsch neu eingesetzten Balls oder das Spielen vom falschen Ort unter Verstoß gegen Regel 16.4: Grundstrafe nach Regel 6.3b oder 14.7a._**
+
+Ergeben sich mehrfache Regelverstöße durch eine einzelne Handlung oder miteinander verbundene Handlungen, siehe Regel 1.3c(4).
