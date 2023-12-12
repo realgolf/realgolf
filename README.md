@@ -12,6 +12,8 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f5cdd9bd-30e7-44b1-b891-e983d8e9f0b5/deploy-status)](https://app.netlify.com/sites/golf-games-docs/deploys)
 
+***Only alarming if failed, canceled has to be ignored***
+
 ## Licensing
 
 The Games are licensed under the [All Rights Reserved](/LICENSE.md) license.
