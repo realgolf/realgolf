@@ -5,6 +5,7 @@
 ## Deploy Status
 
 **Games**
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9f34722f-3f33-4d50-a478-f4d0bff08140/deploy-status)](https://app.netlify.com/sites/golf-games/deploys)
 
 **Docs**
