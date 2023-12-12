@@ -18,7 +18,7 @@
 
 The Games are licensed under the [All Rights Reserved](/LICENSE.md) license.
 
-The Documentations are open source and licensed under the [MIT](/documentation/LICENSE.md) license.
+The Documentations are open source and licensed under the [MIT](/docs/LICENSE.md) license.
 
 ## Documentation
 
