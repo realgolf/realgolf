@@ -63,6 +63,3 @@ If you want to contribute to this project, please follow the guidelines outlined
 ## Copyright
 
 Copyright 2023 Julian Hammer
-
-License  
-[All rights reserved](/LICENSE.md)
