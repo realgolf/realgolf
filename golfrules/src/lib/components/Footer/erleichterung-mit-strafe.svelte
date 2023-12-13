@@ -11,5 +11,5 @@
 		Regel 18 - Erleichterung mit Strafe von Schlag und Distanzverlust, Ball verloren oder Aus,
 		provisorischer Ball</a
 	>
-	<a href="/erleichterung-mit-strafe/penalty-areas"> Regel 19 - Penalty Areas</a>
+	<a href="/erleichterung-mit-strafe/ball-unspielbar"> Regel 19 - Ball Unspielbar</a>
 </div>
