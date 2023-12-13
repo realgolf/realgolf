@@ -1,8 +1,6 @@
-All Right Reserved
+# License
 
-Copyright 2023 Julian Hammer
+The **Games** are Licensed under the [All Rights Reserved License](/game/LICENSE.md)
+The **Docs** are Licensed under the [MIT](/docs/LICENSE.md)
 
-All rights reserved. This work may not be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the copyright owner, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law. For permission requests, write to the author at the address below.
-
-Julian Hammer
-jh@moinjulian.com
+**For further information please look at the License files in the Subfolder or create an Issue/Discussion with the label „License“.**
