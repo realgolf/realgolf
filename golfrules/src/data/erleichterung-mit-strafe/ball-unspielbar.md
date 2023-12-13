@@ -52,3 +52,18 @@ Der Spieler darf den ursprünglichen Ball oder einen anderen Ball in folgendem s
   - wenn mehr als ein Bereich des Platzes innerhalb von zwei Schlägerlängen des Bezugspunkts liegt, muss der Ball im Erleichterungsbereich innerhalb desselben Bereichs des Platzes zur Ruhe kommen, den der Ball beim Droppen im Erleichterungsbereich zuerst berührte.
 
 **_Strafe für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 19.2: Grundstrafe nach Regel 14.7a._**
+
+## 19.3 Erleichterungsverfahren für unspielbaren Ball im Bunker
+
+### 19.3a Normale Erleichterungsmöglichkeiten (ein Strafschlag)
+
+Ist der Ball eines Spielers in einem Bunker,
+
+- darf der Spieler Erleichterung bei einem unspielbaren Ball mit **_einem Strafschlag_** nach einer der in Regel 19.2 genannten Möglichkeiten in Anspruch nehmen, mit der **Ausnahme** dass
+- der Ball in einem Erleichterungsbereich im Bunker gedroppt und in diesem Bereich zur Ruhe kommen muss, wenn der Spieler entweder Erleichterung „auf der Linie zurück“ (siehe Regel 19.2b) oder seitliche Erleichterung (siehe Regel 19.2c) in Anspruch nimmt.
+
+### 19.3b Zusätzliche Erleichterungsmöglichkeit (zwei Strafschläge)
+
+Der Spieler darf, wenn sein Ball im Bunker liegt, als zusätzliche Erleichterungsmöglichkeit mit **_insgesamt zwei Strafschlägen_** durch Erleichterung „auf der Linie zurück“ nach Regel 19.2b von außerhalb des Bunkers spielen.
+
+**_Strafe für Spielen eines Balls vom falschen Ort unter Verstoß gegen Regel 19.3: Grundstrafe nach Regel 14.7a._**
