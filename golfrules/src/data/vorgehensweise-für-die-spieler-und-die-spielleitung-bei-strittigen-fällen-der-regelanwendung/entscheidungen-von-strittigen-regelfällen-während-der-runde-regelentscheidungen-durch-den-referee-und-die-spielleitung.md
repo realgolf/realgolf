@@ -86,3 +86,66 @@ Versäumt der Spieler dies, darf die Spielleitung den Spieler nach Regel 1.2a di
    - Alle Schläge mit dem Ball, der nach der Regelentscheidung nicht zählt (gespielte Schläge einschließlich Strafschläge, die nur beim Spielen dieses Balls anfielen), zählen nicht zu dem Ergebnis des Spielers für das Loch.
 
    „Die Regeln erlauben die gewählte Vorgehensweise“ bedeutet entweder: (a) Der ursprüngliche Ball wurde gespielt, wie er liegt und es war zulässig, von dieser Stelle zu spielen oder (b) der gespielte Ball wurde nach den Regeln mit den richtigen Verfahren, auf korrekte Weise und am richtigen Ort ins Spiel gebracht.
+
+## 20.2 Entscheidungen zu Regelfällen
+
+### 20.2a Entscheidungen des Referees
+
+Ein Referee ist ein Offizieller, der von der Spielleitung bestimmt ist, Tatfragen zu entscheiden und die Regeln anzuwenden.
+
+Der Spieler muss die Regelentscheidung eines Referees zum Sachverhalt oder zur Regelanwendung befolgen:
+
+- Ein Spieler hat kein Recht, gegen die Entscheidung eines Referees bei der Spielleitung Berufung einzulegen.
+- Der Referee darf vor einer Regelentscheidung die Spielleitung um Unterstützung bitten oder der Spielleitung eine Regelentscheidung zur Überprüfung vorlegen, **aber** er muss dies nicht tun.
+
+**Siehe „Offizielles Handbuch“, Leitlinien für die Spielleitung, Abschnitt 6C**
+(Erläuterungen zum Umfang der Befugnisse eines Referees).
+
+### 20.2b Entscheidungen durch die Spielleitung
+
+Wenn kein Referee für eine Regelentscheidung zur Verfügung steht oder wenn ein Referee eine Regelentscheidung an die Spielleitung verweist,
+
+- trifft die Spielleitung die Regelentscheidung und
+- die Regelentscheidung der Spielleitung ist endgültig.
+
+Kommt die Spielleitung nicht zu einer Entscheidung, kann sie den Sachverhalt dem R&A (in Deutschland dem Regelausschuss des Deutschen Golf Verbandes e. V.) vortragen, dessen Entscheidung endgültig ist.
+
+### 20.2c Auswertung von Videobeweisen nach dem Prinzip „mit bloßem Auge erkennbar“
+
+Stellt die Spielleitung für eine Regelentscheidung Sachverhalte fest, ist dabei die Verwendung eines Videobeweises auf das Prinzip „mit bloßem Auge erkennbar“ eingeschränkt:
+
+- Wären die in dem Video gezeigten Tatsachen mit bloßem Auge nicht hinreichend erkennbar, wird dieser Videobeweis nicht berücksichtigt, auch wenn er auf einen Regelverstoß hinweist.
+- **Aber:** Wird der Videobeweis nach dem Prinzip „mit bloßem Auge erkennbar“ nicht berücksichtigt, wird dennoch ein Regelverstoß festgestellt, wenn der Spieler sich anderweitig Tatsachen bewusst war, die einen Verstoß darstellen (zum Beispiel, wenn der Spieler fühlt, wie sein Schläger den Sand im Bunker berührt, obwohl dies mit bloßem Auge nicht zu erkennen war).
+
+### 20.2d Unter welchen Umständen falsche Regelentscheidungen berichtigt werden
+
+Wenn eine Regelentscheidung eines Referees oder der Spielleitung sich später als falsch herausstellt,
+
+- wird die Regelentscheidung berichtigt, wenn dies nach den Regeln möglich ist.
+- Ist es hierfür zu spät, hat die falsche Regelentscheidung Bestand.
+
+Begeht ein Spieler einen Regelverstoß, da er eine Anweisung eines Referees oder der Spielleitung auf der Runde oder während einer Spielunterbrechung nach Regel 5.7a glaubhaft missverstanden hat (zum Beispiel einen Ball im Spiel aufzunehmen, wenn dies nach den Regeln nicht zulässig ist), ist dies straflos und die Anweisung wird als falsche Regelentscheidung behandelt.
+
+**Siehe „Offizielles Handbuch“, Leitlinien für die Spielleitung, Abschnitt 6C** (wie die Spielleitung verfahren sollte, wenn es eine falsche Regelentscheidung gegeben hat).
+
+### 20.2e Disqualifikation von Spielern, nachdem das Ergebnis eines Lochspiels oder eines Zählspiel-Turniers feststeht
+
+1. **Lochspiel.** Es gibt keine zeitliche Begrenzung für die Disqualifikation eines Spielers nach den Regeln 1.2 (schwerwiegendes Fehlverhalten) oder Regel 1.3b(1) (absichtliches außer Acht lassen eines bekannten Verstoßes oder einer Strafe oder die Übereinkunft mit einem anderen Spieler, eine ihnen bekannte anwendbare Regel oder Strafe außer Acht zu lassen).
+
+Eine solche Disqualifikation darf auch ausgesprochen werden, nachdem das Ergebnis des Lochspiels feststeht (siehe Regel 3.2a(5)).
+
+Wann die Spielleitung eine Regelentscheidung trifft, wenn diese verlangt wird, nachdem das Ergebnis des Lochspiels feststeht, siehe Regel 20.1b(3).
+
+2. **Zählspiel.** Normalerweise darf eine Strafe nach dem Ende eines Zählspiel- Turniers nicht verhängt oder berichtigt werden, das heißt,
+
+   - das Ergebnis ist auf die von der Spielleitung bestimmte Weise endgültig oder
+   - wenn einer Zählspielqualifikation ein Lochspiel folgt, sobald der Spieler abgeschlagen hat, um sein erstes Lochspiel zu beginnen.
+
+   **Aber:** Ein Spieler muss selbst nach Beendigung des Turniers **_disqualifiziert_**, werden, wenn er
+
+   - eine Scorekarte eingereicht hat, auf der für ein Loch ein niedrigeres als das tatsächlich gespielte Ergebnis eingetragen ist, es sei denn, er hatte es versäumt, einen oder mehrere Strafschläge anzurechnen, die ihm vor Beendigung des Turniers unbekannt waren (siehe Regel 3.3b(3)),
+   - vor der Beendigung des Turniers wusste, dass er eine Scorekarte eingereicht hat, die ein höheres als das tatsächliche Handicap auswies und dies die Anzahl der Vorgabenschläge beeinflusste, um die das Ergebnis des Spielers angepasst wurde (siehe Regel 3.3b(4)),
+   - vor Beendigung des Turniers wusste, gegen eine Regel verstoßen zu haben, deren Strafe Disqualifikation ist oder
+   - absichtlich mit einem anderen Spieler vereinbart hatte, eine ihnen bekannte Golfregel außer Acht zu lassen oder auf eine fällige Strafe zu verzichten (siehe Regel 1.3b(1)).
+
+   Die Spielleitung darf einen Spieler auch nach Beendigung des Turniers nach Regel 1.2 (schwerwiegendes Fehlverhalten) disqualifizieren.
