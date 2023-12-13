@@ -60,4 +60,8 @@ article {
 	table {
 		border: 2px solid var(--font-color);
 	}
+
+	li p strong {
+		text-decoration: underline;
+	}
 }
