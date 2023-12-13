@@ -2,13 +2,26 @@
 
 [![CodeQL](https://github.com/MoinJulian/Golf/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)](https://github.com/MoinJulian/Golf/actions/workflows/github-code-scanning/codeql) ![GitHub Repo stars](https://img.shields.io/github/stars/MoinJulian/Golf) ![Recent Pull Requests](https://img.shields.io/github/issues-pr/moinjulian/golf) ![Open Issues](https://img.shields.io/github/issues-raw/moinjulian/golf) ![GitHub repo size](https://img.shields.io/github/repo-size/MoinJulian/Golf) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/moinjulian/golf)
 
+## Deploy Status
 
+**Games**
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9f34722f-3f33-4d50-a478-f4d0bff08140/deploy-status)](https://app.netlify.com/sites/golf-games/deploys)
+
+**Docs**
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f5cdd9bd-30e7-44b1-b891-e983d8e9f0b5/deploy-status)](https://app.netlify.com/sites/golf-games-docs/deploys)
+
+***Only alarming if failed, canceled has to be ignored***
 
 ## Licensing
 
-The Games are licensed under the [All Rights Reserved](/LICENSE.md) license.
+The Games are licensed under the [All Rights Reserved](/game/LICENSE.md) license.
 
-The Documentations and Golf Rules are open source and licensed under the [MIT](/documentation/LICENSE.md) license.
+The Docs are licensed under the [MIT](/docs/LICENSE.md) license.
+The Golf Rules are also licensed under the [MIT](/golfrules/LICENSE.md) license.
+
+**You can also look into the [License](LICENSE.md) file in the Root Folder for more information.**
 
 ## Documentation
 
@@ -58,6 +71,3 @@ If you want to contribute to this project, please follow the guidelines outlined
 ## Copyright
 
 Copyright 2023 Julian Hammer
-
-License  
-[All rights reserved](/LICENSE.md)
