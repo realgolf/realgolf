@@ -1,6 +1,7 @@
 <script>
 	import { faCodePullRequest } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
+	import AndereSpielformen from './Footer/andere-spielformen.svelte';
 	import BallAufnehmenUndInsSpielZurckbringen from './Footer/ball-aufnehmen-und-ins-spiel-zurückbringen.svelte';
 	import DieGrundlagenDesSpieles from './Footer/die-grundlagen-des-spieles.svelte';
 	import ErleichterungMitStrafe from './Footer/erleichterung-mit-strafe.svelte';
@@ -23,6 +24,7 @@
 			<ErleichterungMitStrafe></ErleichterungMitStrafe>
 			<VorgehensweiseFrDieSpielerUndDieSpielleitungBeiStrittigenFllenDerRegelanwendung
 			></VorgehensweiseFrDieSpielerUndDieSpielleitungBeiStrittigenFllenDerRegelanwendung>
+			<AndereSpielformen></AndereSpielformen>
 		</section>
 
 		<h3>Hilfe und Support</h3>
