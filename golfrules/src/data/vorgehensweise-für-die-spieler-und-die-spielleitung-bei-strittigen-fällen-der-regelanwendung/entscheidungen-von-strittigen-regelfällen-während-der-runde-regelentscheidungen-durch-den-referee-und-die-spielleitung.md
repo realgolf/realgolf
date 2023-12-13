@@ -149,3 +149,10 @@ Wann die Spielleitung eine Regelentscheidung trifft, wenn diese verlangt wird, n
    - absichtlich mit einem anderen Spieler vereinbart hatte, eine ihnen bekannte Golfregel außer Acht zu lassen oder auf eine fällige Strafe zu verzichten (siehe Regel 1.3b(1)).
 
    Die Spielleitung darf einen Spieler auch nach Beendigung des Turniers nach Regel 1.2 (schwerwiegendes Fehlverhalten) disqualifizieren.
+
+## 20.3 Nicht von den Regeln erfasste Fälle
+
+Jeder Fall, der von den Regeln nicht erfasst wird, sollte von der Spielleitung entschieden werden durch
+
+- die Abwägung aller Umstände und
+- indem der Fall angemessen, fair und im Einklang mit ähnlichen Fällen, die von den Regeln erfasst werden, behandelt wird.
