@@ -21,7 +21,7 @@ Es gibt fünf Bereiche des Platzes.
 
 ### 2.2a Das Gelände
 
-Das Gelände umfasst den gesamten Platz mit Ausnahme der vier besonderen Bereiche des Platzes, die in [Regel 2.2b](#2.2b-die-vier-besonderen-bereiche) beschrieben sind.
+Das Gelände umfasst den gesamten Platz mit Ausnahme der vier besonderen Bereiche des Platzes, die in Regel 2.2b beschrieben sind.
 
 Das Gelände besteht
 

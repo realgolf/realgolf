@@ -16,14 +16,14 @@ title: Regel 3 - Das Turnier
 
 1. **Lochspiel oder Zählspiel** sind sehr unterschiedliche Spielformen:
 
-   - Im Lochspiel (siehe [Regel 3.2](#3.2-lochspiel)) spielen ein Spieler und ein Gegner gegeneinander auf der Grundlage gewonnener, verlorener oder geteilter Löcher.
-   - In der Grundform des Zählspiels (siehe [Regel 3.3]()) stehen alle Spieler im Wettbewerb miteinander auf der Grundlage des Gesamtergebnisses jedes Spielers, das heißt, der Summe aller Schläge des Spielers (gespielte Schläge einschließlich Strafschläge) auf jedem Loch aller Runden.
+   - Im Lochspiel (siehe Regel 3.2) spielen ein Spieler und ein Gegner gegeneinander auf der Grundlage gewonnener, verlorener oder geteilter Löcher.
+   - In der Grundform des Zählspiels (siehe Regel 3.3) stehen alle Spieler im Wettbewerb miteinander auf der Grundlage des Gesamtergebnisses jedes Spielers, das heißt, der Summe aller Schläge des Spielers (gespielte Schläge einschließlich Strafschläge) auf jedem Loch aller Runden.
 
    Die meisten Regeln gelten für beide Spielformen; es gibt jedoch bestimmte Regeln, die nur für die eine oder die andere Spielform gelten.
 
    **Siehe „Offizielles Handbuch“, Leitlinien für die Spielleitung, Abschnitt 6C** Überlegungen für die Spielleitung, wenn sie ein Turnier ausrichtet, das diese zwei Spielformen in einer Runde kombiniert.
 
-2. **Andere Formen des Zählspiels.** [Regel 21](#) behandelt andere Spielformen des Zählspiels (Stableford, Maximum Score, Par / Bogey), bei denen die Spielergebnisse auf jeweils unterschiedliche Weise ermittelt werden. Die Regeln 1-20 gelten für diese Spielformen mit den in [Regel 21](#) genannten Änderungen.
+2. **Andere Formen des Zählspiels.** Regel 21 behandelt andere Spielformen des Zählspiels (Stableford, Maximum Score, Par / Bogey), bei denen die Spielergebnisse auf jeweils unterschiedliche Weise ermittelt werden. Die Regeln 1-20 gelten für diese Spielformen mit den in Regel 21 genannten Änderungen.
 
 ### 3.1b Wie Spieler gegeneinander antreten: einzelne Spieler oder Partner
 
@@ -31,8 +31,8 @@ Im Golf spielen entweder einzelne Spieler für sich alleine oder als Partner gem
 
 Die Regeln 1-20 beziehen sich grundsätzlich auf das Spiel einzelner Spieler; sie gelten aber auch:
 
-- in Turnieren mit Partnern (Vierer und Vierball), mit den in [Regel 22](#) und [23](#) genannten Änderungen und
-- in Mannschaftsturnieren, mit den in [Regel 24](#) genannten Änderungen.
+- in Turnieren mit Partnern (Vierer und Vierball), mit den in Regel 22 und 23 genannten Änderungen und
+- in Mannschaftsturnieren, mit den in Regel 24 genannten Änderungen.
 
 ### 3.1c Wie Spieler Ergebnisse erzielen: Brutto-Ergebnisse oder Netto-Ergebnisse
 
@@ -65,7 +65,7 @@ Die Regeln 1-20 beziehen sich grundsätzlich auf das Spiel einzelner Spieler; si
    - der Gegner das Loch schenkt oder
    - der Gegner sich die Grundstrafe (Lochverlust) zuzieht.
 
-   Muss der sich bewegende Ball des Gegners eingelocht werden, um das Loch zu teilen und wird der Ball absichtlich von einer Person zu einem Zeitpunkt abgelenkt oder aufgehalten, an dem es unwahrscheinlich ist, dass der Ball eingelocht werden kann (zum Beispiel, wenn der Ball am Loch vorbei gerollt ist und von dort nicht zurückrollen wird), ist das Loch entschieden und der Spieler gewinnt das Loch (siehe [Regel 11.2a](#), Ausnahme).
+   Muss der sich bewegende Ball des Gegners eingelocht werden, um das Loch zu teilen und wird der Ball absichtlich von einer Person zu einem Zeitpunkt abgelenkt oder aufgehalten, an dem es unwahrscheinlich ist, dass der Ball eingelocht werden kann (zum Beispiel, wenn der Ball am Loch vorbei gerollt ist und von dort nicht zurückrollen wird), ist das Loch entschieden und der Spieler gewinnt das Loch (siehe Regel 11.2a, Ausnahme).
 
 2. **Loch teilen.** Ein Loch ist geteilt (auch bekannt als „halbiert“), wenn
 
@@ -80,7 +80,7 @@ Die Regeln 1-20 beziehen sich grundsätzlich auf das Spiel einzelner Spieler; si
 
 4. **Verlängerung eines geteilten Lochspiels.** Ist das Lochspiel nach dem letzten Loch geteilt
 
-   - wird es solange um jeweils ein Loch verlängert, bis ein Gewinner feststeht. Siehe [Regel 5.1](#) (ein verlängertes Lochspiel ist die Fortsetzung derselben Runde und keine neue Runde),
+   - wird es solange um jeweils ein Loch verlängert, bis ein Gewinner feststeht. Siehe Regel 5.1 (ein verlängertes Lochspiel ist die Fortsetzung derselben Runde und keine neue Runde),
    - werden die Löcher in der gleichen Reihenfolge gespielt wie in der Runde, es sei denn, die Spielleitung legt eine andere Reihenfolge fest.
 
 **Aber:** Die Turnierbedingungen können bestimmen, dass das Lochspiel mit einem Gleichstand endet und nicht verlängert wird.
@@ -100,13 +100,13 @@ Die Regeln 1-20 beziehen sich grundsätzlich auf das Spiel einzelner Spieler; si
      - Der Gegner hat in diesem Fall das Loch mit einer Schlagzahl beendet, die den geschenkten Schlag einbezieht; der Ball darf von jedem entfernt werden.
      - Ein Schenken, während der Ball des Gegners nach dem vorigen Schlag noch in Bewegung ist, bezieht sich auf den nächsten Schlag, außer der Ball wird eingelocht (in welchem Fall das Schenken keine Rolle spielt).
      - Der Spieler darf den nächsten Schlag des Gegners schenken, indem er den sich bewegenden Ball ablenkt oder aufhält, wenn dies ausschließlich geschieht, den nächsten Schlag zu schenken und es unwahrscheinlich ist, dass der Ball eingelocht wird.
-   - _Loch schenken._ Dies ist zu jeder Zeit erlaubt, bevor das Loch beendet ist (siehe [Regel 6.5](#)), auch vor Beginn des Lochs.
+   - _Loch schenken._ Dies ist zu jeder Zeit erlaubt, bevor das Loch beendet ist (siehe Regel 6.5), auch vor Beginn des Lochs.
    - _Lochspiel schenken._ Dies ist zu jeder Zeit erlaubt, bevor das Ergebnis des Lochspiels feststeht (siehe Regel 3.2a(3) und (4)), auch vor Beginn des Lochspiels.
 
 2. **Wie geschenkt wird.** Schenken gilt nur, wenn es unmissverständlich zum Ausdruck gebracht wird:
 
    - Dies kann entweder durch Worte oder durch eine Handlung geschehen, die eindeutig die Absicht des Spielers erkennen lässt, den Schlag, das Loch oder das Lochspiel zu schenken (zum Beispiel durch eine Geste).
-   - Nimmt der Gegner seinen Ball unter Verstoß gegen eine Regel auf, da er nachvollziehbar zu der missverständlichen Annahme gekommen ist, dass die Aussage oder Handlung des Spielers das Schenken des nächsten Schlags, des Lochs oder des Lochspiels darstellte, ist dies straflos und der Ball muss an seine ursprüngliche Stelle zurückgelegt werden (die, wenn nicht bekannt, geschätzt werden muss) (siehe [Regel 14.2](#)). Schenken ist endgültig und kann weder zurückgewiesen noch widerrufen werden.
+   - Nimmt der Gegner seinen Ball unter Verstoß gegen eine Regel auf, da er nachvollziehbar zu der missverständlichen Annahme gekommen ist, dass die Aussage oder Handlung des Spielers das Schenken des nächsten Schlags, des Lochs oder des Lochspiels darstellte, ist dies straflos und der Ball muss an seine ursprüngliche Stelle zurückgelegt werden (die, wenn nicht bekannt, geschätzt werden muss) (siehe Regel 14.2). Schenken ist endgültig und kann weder zurückgewiesen noch widerrufen werden.
 
 ### 3.2c Anwendung der Handicaps in Netto-Lochspielen
 
@@ -168,7 +168,7 @@ Wenden Spieler die Vorgabenschläge an einem Loch fälschlicherweise an, gilt da
 4. **Eigene Rechte und Interessen schützen.** Spieler in einem Lochspiel sollten ihre eigenen Rechte und Interessen nach den Regeln wahren:
 
    - Glaubt oder weiß der Spieler, dass der Gegner sich für einen Regelverstoß eine Strafe zugezogen hat, kann der Spieler für sich entscheiden, auf den Verstoß zu reagieren oder ihn nicht zu beachten.
-   - **Aber:** Kommen Spieler und Gegner absichtlich überein, einen Regelverstoß oder eine ihnen bekannte anzuwendende Strafe außer acht zu lassen, sind beide Spieler nach [Regel 1.3b](das-spiel-verhalten-der-spieler-und-die-regeln#1.3b-anwendung-der-regeln) **_disqualifiziert_**.
+   - **Aber:** Kommen Spieler und Gegner absichtlich überein, einen Regelverstoß oder eine ihnen bekannte anzuwendende Strafe außer acht zu lassen, sind beide Spieler nach Regel 1.3b **_disqualifiziert_**.
    - Sind Spieler und Gegner uneinig darüber, ob einer von ihnen gegen eine Regel verstoßen hat, kann jeder der beiden seine Rechte schützen, indem er nach Regel 20.1b eine Regelentscheidung verlangt.
 
 ## 3.3 Zählspiel
