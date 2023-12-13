@@ -56,4 +56,8 @@ article {
 	em {
 		text-decoration: underline;
 	}
+
+	table {
+		border: 2px solid var(--font-color);
+	}
 }
