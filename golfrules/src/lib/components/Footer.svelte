@@ -8,6 +8,7 @@
 	import SpielenDerRundeUndEinesLochs from './Footer/spielen-der-runde-und-eines-lochs.svelte';
 	import SpielenDesBalls from './Footer/spielen-des-balls.svelte';
 	import StrafloseErleichterung from './Footer/straflose-erleichterung.svelte';
+	import VorgehensweiseFrDieSpielerUndDieSpielleitungBeiStrittigenFllenDerRegelanwendung from './Footer/vorgehensweise-für-die-spieler-und-die-spielleitung-bei-strittigen-fällen-der-regelanwendung.svelte';
 </script>
 
 <footer>
@@ -20,6 +21,8 @@
 			<BallAufnehmenUndInsSpielZurckbringen></BallAufnehmenUndInsSpielZurckbringen>
 			<StrafloseErleichterung></StrafloseErleichterung>
 			<ErleichterungMitStrafe></ErleichterungMitStrafe>
+			<VorgehensweiseFrDieSpielerUndDieSpielleitungBeiStrittigenFllenDerRegelanwendung
+			></VorgehensweiseFrDieSpielerUndDieSpielleitungBeiStrittigenFllenDerRegelanwendung>
 		</section>
 
 		<h3>Hilfe und Support</h3>
