@@ -86,3 +86,59 @@ Die Runde eines Spielers ist beendet, wenn er
 
 - auf seinem letzten Loch einlocht (einschließlich, wenn er den Fehler nach Regel 6.1 oder 14.7b berichtigt) oder
 - sich entscheidet, auf dem letzten Loch nicht einzulochen oder er keine Punkte mehr auf dem Loch erhalten kann.
+
+## 21.2 Maximum Score
+
+### 21.2a Überblick über Maximum Score
+
+Maximum Score ist eine Form des Zählspiels, bei der die Spielleitung die Schlagzahl eines Spielers oder einer Partei auf eine Höchstzahl von Schlägen begrenzt, zum Beispiel Doppel-Par, ein festes Ergebnis (6, 8, 10, usw.) oder Netto-Doppelbogey.
+
+Die Regeln 1-20 für das Zählspiel gelten wie abgewandelt durch folgende Sonderregeln. Regel 21.2 wurde geschrieben für
+
+- Brutto-Turniere, kann aber auch für Netto-Turniere angepasst werden und
+- Einzel, kann aber auch für Turniere mit Partnern, wie geändert durch die Regeln 22 (Vierer) und 23 (Vierball) und für Mannschaftsturniere, wie geändert durch Regel 24, angepasst werden.
+
+### 21.2b Ergebnis bei Maximum Score
+
+1. **Ergebnis des Spielers für ein Loch.** Das Ergebnis eines Spielers an einem Loch ergibt sich aus den tatsächlich gespielten Schlägen (gespielte Schläge einschließlich Strafschläge), mit der **Besonderheit,** dass der Spieler nur den Maximum Score erhält, auch wenn das tatsächliche Ergebnis den Maximum Score übersteigt.
+
+Ein Spieler der, gleich aus welchem Grund, nicht regelgerecht einlocht, erhält den Maximum Score für das Loch.
+
+Zur Förderung der Spielgeschwindigkeit werden Spieler aufgefordert, mit dem Spielen eines Lochs aufzuhören, sobald ihre Schlagzahl den Maximum Score erreicht hat.
+
+Das Loch ist beendet, wenn der Spieler eingelocht hat oder sich entscheidet, nicht einzulochen oder wenn sein Ergebnis den Maximum Score erreicht hat.
+
+2. **Schlagzahl für jedes Loch eintragen.** Um die Bedingungen von Regel 3.3b für das Eintragen des Ergebnisses auf der Scorekarte für jedes Loch zu erfüllen:
+
+   - _Loch durch Einlochen beendet:_
+     - _Ergebnis niedriger ist als Maximum Score._ Die Scorekarte muss das tatsächliche Ergebnis ausweisen.
+     - _Ergebnis gleich oder höher ist als Maximum Score._ Die Scorekarte darf entweder kein Ergebnis oder jedes Ergebnis, das gleich oder höher als der Maximum Score ist, ausweisen.
+   - _Loch beendet, ohne einzulochen._ Wenn der Spieler nicht regelgerecht einlocht, darf die Scorekarte entweder kein Ergebnis oder ein Ergebnis, das gleich oder höher als der Maximum Score ist, ausweisen.
+
+   Die Spielleitung ist verantwortlich, das Ergebnis des Spielers für jedes Loch auf den Maximum Score anzugleichen, auf dem die Scorekarte entweder kein Ergebnis oder ein Ergebnis über dem Maximum Score ausweist und in der Netto-Wertung für die Anwendung der Vorgabenschläge auf die für jedes Loch eingetragenen Ergebnisse.
+
+### 21.2c Strafen bei Maximum Score
+
+Alle Strafen, die im Zählspiel gelten, gelten auch beim Maximum Score, mit der **Ausnahme**, dass ein Spieler, der gegen eine der nachfolgenden vier Regeln verstößt, nicht disqualifiziert wird, **aber** den **_Maximum Score_** für das Loch erhält, an dem der Verstoß geschah
+
+- nicht nach Regel 3.3c einzulochen,
+- den Fehler nicht zu berichtigen, bei Beginn eines Lochs von außerhalb des Abschlags gespielt zu haben (siehe Regel 6.1b(2)),
+- den Fehler nicht zu berichtigen, einen falschen Ball gespielt zu haben (siehe Regel 6.3c) oder
+- den Fehler nicht zu berichtigen, bei schwerwiegendem Verstoß vom falschem Ort gespielt zu haben (siehe Regel 14.7b).
+
+Verstößt der Spieler gegen eine andere Regel, die als Strafe die Disqualifikation vorsieht, ist der Spieler **_disqualifiziert_**.
+
+Das Ergebnis des Spielers für ein Loch kann, einschließlich der Strafschläge, die er sich zugezogen hat, den von der Spielleitung festgesetzten Maximum Score nicht überschreiten.
+
+### 21.2d Ausnahme zu Regel 11.2 bei Maximum Score
+
+Regel 11.2 gilt nicht in folgendem Fall:
+
+Muss der sich bewegende Ball des Spielers eingelocht werden, um auf einem Loch ein um einen Schlag besseres Ergebnis als der Maximum Score zu erhalten, und eine Person lenkt den Ball absichtlich ab oder hält ihn auf, weil es zu dieser Zeit unwahrscheinlich ist, dass der Ball eingelocht werden kann, ist dies straflos für diese Person und der Spieler erhält an dem Loch den Maximum Score.
+
+### 21.2e Wann eine Runde bei Maximum Score beendet ist
+
+Die Runde eines Spielers ist beendet, wenn er
+
+- auf seinem letzten Loch einlocht (einschließlich, wenn er den Fehler nach Regel 6.1 oder 14.7b berichtigt) oder
+- sich dazu entscheidet, auf dem letzten Loch nicht einzulochen oder bereits den Maximum Score erhält.
