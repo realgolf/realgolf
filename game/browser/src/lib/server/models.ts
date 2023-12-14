@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import { today } from "./utils";
 
 const User_Schema = new mongoose.Schema({
   user: {
@@ -8,6 +9,7 @@ const User_Schema = new mongoose.Schema({
     measurement_units: { type: String, required: true, default: "meters" },
     theme: { type: String, required: true, default: "system" },
     handicap: { type: Number, required: true, default: 54 },
+    handicap_updated: { type: Date, required: true, default: today },
   },
   games: [
     {

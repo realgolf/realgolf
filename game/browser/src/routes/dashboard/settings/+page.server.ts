@@ -20,8 +20,10 @@ export const load: PageServerLoad = async (event) => {
   let measurement_unit = user?.user?.measurement_units as string;
   let theme = user?.user?.theme as string;
   let handicap = user?.user?.handicap as number;
+  let handicap_updated = user?.user?.handicap_updated as Date;
+  let local_handicap_updated = handicap_updated;
 
-  return { measurement_unit, theme, handicap };
+  return { measurement_unit, theme, handicap, local_handicap_updated };
 };
 
 export const actions: Actions = {

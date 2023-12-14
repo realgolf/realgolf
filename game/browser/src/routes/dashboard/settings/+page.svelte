@@ -139,8 +139,11 @@
     compete against one another.
   </p>
   <p class="underline">Your current Handicap is: {data.handicap}</p>
+  <p class="underline">
+    You've updated your handicap the last time at the {data.local_handicap_updated.toLocaleString()}
+  </p>
   <p>
-    When your Handicap has changed you can also update here, so you can keep
+    When your Handicap has changed you can also update it here, so you can keep
     track of your Handicap at all times.
   </p>
 
@@ -148,7 +151,7 @@
     <form action="?/handicap" method="POST" class="handicap-form">
       <label for="handicap">Enter your new Handicap here:</label>
       <input
-        type="number"
+        type="string"
         name="handicap"
         id="handicap"
         bind:value={data.handicap}
