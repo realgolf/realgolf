@@ -73,3 +73,16 @@ Die Runde einer Partei endet
 
 1. **Lochspiel.** Eine Partei hat ein Loch beendet, wenn beide Partner eingelocht haben oder ihre nächsten Schläge geschenkt wurden oder wenn eine der Parteien das Loch geschenkt hat.
 2. **Zählspiel.** Eine Partei hat ein Loch beendet, wenn einer der Partner eingelocht hat und der andere Partner entweder eingelocht hat oder sich entscheidet, dies nicht zu tun.
+
+## 23.4 Die Partei darf durch einen oder beide Partner vertreten werden
+
+Die Partei darf während der ganzen oder eines Teils der Runde durch einen Partner vertreten werden. Es müssen nicht beide Partner anwesend sein oder, wenn sie anwesend sind, müssen nicht beide jedes Loch spielen.
+
+Ist ein Partner nicht anwesend und trifft er dann zum Spielen ein, darf dieser Partner nur zwischen dem Spielen von zwei Löchern das Spiel für seine Partei aufnehmen, was bedeutet:
+
+- _Lochspiel – Bevor ein Spieler im Lochspiel das Loch beginnt._ Trifft der Partner erst ein, nachdem ein Spieler der beiden Parteien in dem Lochspiel das Spielen eines Lochs begonnen hat, darf der später eingetroffene Partner erst am nächsten Loch für seine Partei spielen.
+- _Zählspiel – Bevor der andere Partner das Loch beginnt._ Trifft der Partner erst ein, nachdem der andere Partner das Spielen eines Lochs begonnen hat, darf der später eingetroffene Partner erst am nächsten Loch für seine Partei spielen.
+
+Ein hinzukommender Partner, der ein Loch nicht spielen darf, darf den anderen Partner auf dem Loch beraten oder ihm helfen und andere Handlungen für den Partner auf diesem Loch vornehmen (siehe Regeln 23.5a und 23.5b).
+
+**_Strafe für Verstoß gegen Regel 23.4: Grundstrafe._**
