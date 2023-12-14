@@ -128,3 +128,70 @@ Ist ein Spieler an der Reihe, nach Regel 6.4a (Lochspiel) oder 6.4b (Zählspiel)
 ## 23.7 Partner dürfen Schläger gemeinsam benutzen
 
 Partnern ist abweichend von Regel 4.1b(2) erlaubt, Schläger gemeinsamen zu gebrauchen, wenn die Gesamtzahl ihrer Schläger 14 nicht übersteigt.
+
+## 23.8 Wann eine Strafe nur für einen Partner gilt oder für beide Partner
+
+Zieht sich ein Spieler eine Strafe für einen Regelverstoß zu, kann die Strafe entweder nur für diesen Spieler oder für beide Partner (also für die Partei) gelten. Dies hängt von der Strafe und der Spielform ab:
+
+### 23.8a Andere Strafen als die Disqualifikation
+
+1. **Eine Strafe gilt normalerweise nur für den Spieler und nicht für den Partner.** Zieht sich ein Spieler eine andere als die Strafe der Disqualifikation zu, gilt diese Strafe normalerweise nur für den Spieler und nicht auch für seinen Partner, **ausgenommen** in den unter (2) genannten Fällen.
+
+   - Alle Strafschläge werden nur dem Ergebnis des Spielers hinzugerechnet, nicht dem Ergebnis des Partners.
+   - Zieht sich ein Spieler im Lochspiel die **_Grundstrafe_** zu (**_Lochverlust_**), hat er kein für die Partei zählendes Ergebnis auf diesem Loch. **Aber:** Diese Strafe wirkt sich nicht auf den Partner aus, der weiterhin für die Partei auf diesem Loch spielen darf.
+
+2. **Drei Fälle, in denen die Strafe für den Spieler auch für den Partner gilt.**
+
+   - _Bei Verstoß des Spielers gegen Regel 4.1b (Höchstzahl von 14 Schlägern; Schläger gemeinsam benutzt, hinzugefügt oder ersetzt)._ Im Lochspiel gilt die Strafe für die Partei (**_Anpassung des Stands des Lochspiels_**) und im Zählspiel zieht sich der Partner die **_gleiche Strafe_** zu wie der Spieler.
+   - _Der Regelverstoß des Spielers unterstützt das Spiel des Partners._ Sowohl im Lochspiel wie auch im Zählspiel zieht sich der Partner die **_gleiche Strafe_** wie der Spieler zu.
+   - _Im Lochspiel benachteiligt der Regelverstoß des Spielers das Spiel des Gegners._ Der Partner des Spielers zieht sich die **_gleiche Strafe_** wie der Spieler zu.
+
+**Ausnahme – Das Spielen eines falschen Balls durch den Spieler gilt nicht als, Unterstützung des Partners oder Benachteiligung des Gegners:**
+
+- Nur der Spieler (nicht der Partner) zieht sich die **_Grundstrafe_** für Verstoß gegen Regel 6.3c zu.
+- Dies gilt sowohl für den Fall, dass der als falscher Ball gespielte Ball dem Partner, einem Gegner oder jemand anderem gehört.
+
+### 23.8b Strafen der Disqualifikation
+
+1. **Wann eine Partei wegen eines Regelverstoßes durch einen Partner disqualifiziert ist.** Eine Partei ist **_disqualifiziert_**, wenn einer der Partner nach einer dieser Regeln disqualifiziert ist:
+
+   - Regel 1.2 Richtlinien für das Verhalten von Spielern
+   - Regel 1.3 Spielen nach den Regeln
+   - Regel 4.1a Für den Schlag zugelassene Schläger
+   - Regel 4.1c Verfahren, um überzähligen Schläger als „nicht mehr im Spiel“ befindlich zu erklären
+   - Regel 4.2a Beim Spiel der Runde zugelassene Bälle
+   - Regel 4.3 Gebrauch von Ausrüstung
+   - Regel 5.6a Unangemessene Verzögerung
+   - Regel 5.7b-c Verfahren bei Spielunterbrechung und Fortsetzung durch die Spielleitung
+   - Regel 6.2b Regeln für den Abschlag
+
+   _Nur im Lochspiel:_
+
+   - Regel 3.2c Anwendung der Handicaps in Netto-Lochspielen
+
+   _Nur im Zählspiel:_
+
+   - Regel 3.3b(2) Verantwortlichkeit des Spielers: Ergebnisse der Löcher bestätigen und Einreichen der Scorekarte
+   - Regel 3.3b(3) Falsches Ergebnis für das Loch
+   - Regel 3.3b(4) Ergebnisse in Netto-Turnieren
+   - Regel 5.2b Üben auf dem Platz vor oder zwischen den Runden
+   - Regel 23.2b Scorekarte der Partei im Zählspiel.
+
+2. **Wann ein Regelverstoß durch beide Partner zur Disqualifikation führt.** Eine Partei ist **disqualifiziert**, wenn beide Partner sich eine Disqualifikation nach einer dieser Regeln zuziehen:
+
+   - Regel 5.3 Beginn und Ende einer Runde
+   - Regel 5.4 Spielen in Gruppen
+   - Regel 5.7a Wann Spieler das Spiel unterbrechen dürfen oder müssen
+
+   _Nur Zählspiel:_
+
+   Eine Partei ist **_disqualifiziert_**, wenn sich beide Partner auf dem gleichem Loch die Disqualifikation unter einer Kombination dieser Regeln zuziehen:
+
+   - Regel 3.3c Nicht eingelocht
+   - Regel 6.1b Ball muss von innerhalb des Abschlags gespielt werden
+   - Regel 6.3c Falscher Ball oder
+   - Regel 14.7 Spielen vom falschen Ort.
+
+3. **Wann der Regelverstoß eines Spielers nur bedeutet, dass der Spieler kein gültiges Ergebnis für das Loch hat.** In allen anderen Fällen, in denen ein Spieler gegen eine Regel verstößt, die die Strafe der Disqualifikation nach sich zieht, ist der Spieler nicht disqualifiziert, **aber** sein Ergebnis für das Loch, auf dem der Verstoß vorkam, zählt nicht für die Partei.
+
+   Verstoßen im Lochspiel beide Partner gegen eine solche Regel auf dem gleichen Loch, **_verliert_** die Partei **_das Loch_**.
