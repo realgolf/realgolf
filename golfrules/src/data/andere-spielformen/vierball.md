@@ -113,3 +113,14 @@ Verstößt die Handlung des Spielers gegen eine Regel, wenn sie vom Partner vorg
 Dies gilt auch für Handlungen des Caddies des Spielers, die den Ball des Partners betreffen und einen Regelverstoß darstellen würden, wenn sie vom Partner oder dessen Caddie vorgenommen würden.
 
 Für den Fall, dass die Handlungen des Spielers oder seines Caddies das Spiel beider Bälle, des eigenen und den des Partners, beeinflussen, siehe Regel 23.8a(2), um herauszufinden, wann eine Strafe für beide Partner anfällt.
+
+## 23.6 Spielfolge der Partei
+
+Partner können in der Reihenfolge spielen, die die Partei für die beste hält.
+
+Ist ein Spieler an der Reihe, nach Regel 6.4a (Lochspiel) oder 6.4b (Zählspiel) zu spielen, bedeutet dies, dass entweder der Spieler oder sein Partner als nächster spielen darf.
+
+**Ausnahme – Fortsetzen des Spiels an einem Loch nach einem geschenkten Schlag im Lochspiel:**
+
+- Wurde der nächste Schlag des Spielers geschenkt, darf der Spieler nicht mit dem Spiel eines Lochs fortfahren, wenn dies seinen Partner unterstützen würde.
+- Verfährt der Spieler so, bleibt sein Ergebnis für das Loch bestehen, **aber** das Ergebnis des Partners für das Loch kann nicht für die Partei gezählt werden.
