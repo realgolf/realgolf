@@ -142,3 +142,84 @@ Die Runde eines Spielers ist beendet, wenn er
 
 - auf seinem letzten Loch einlocht (einschließlich, wenn er den Fehler nach Regel 6.1 oder 14.7b berichtigt) oder
 - sich dazu entscheidet, auf dem letzten Loch nicht einzulochen oder bereits den Maximum Score erhält.
+
+## 21.3 Par / Bogey
+
+### 21.3a Überblick über Par / Bogey
+
+Par / Bogey ist eine Art des Zählspiels mit der Zählweise wie im Lochspiel:
+
+- Ein Spieler oder eine Partei gewinnt oder verliert ein Loch, indem er oder sie das Loch mit weniger oder mehr Schlägen als das von der Spielleitung festgesetzte Zielergebnis beendet.
+- Sieger des Turniers ist der Spieler oder die Partei mit der höchsten Summe gewonnener Löcher abzüglich verlorener Löcher (Saldo zwischen gewonnenen und verlorenen Löchern).
+
+Die Regeln 1-20 für das Zählspiel gelten abgewandelt durch folgende Sonderregeln. Regel 21.3 wurde geschrieben für
+
+- Brutto-Turniere, kann aber auch für Netto-Turniere angepasst werden und
+- Einzel, kann aber auch für Turniere mit Partnern, wie geändert durch die Regeln 22 (Vierer) und 23 (Vierball) und für Mannschaftsturniere, wie geändert durch Regel 24, angepasst werden.
+
+### 21.3b Spielergebnis im Par / Bogey
+
+1. **Wie Löcher gewonnen oder verloren werden.** Die Zählweise entspricht der im Lochspiel; Löcher werden unter Bezug auf ein von der Spielleitung festgesetztes Zielergebnis (üblicherweise Par oder Bogey) gewonnen oder verloren:
+
+   - Spielt ein Spieler besser als das festgesetzte Ergebnis, gewinnt er das Loch.
+   - Spielt ein Spieler das festgesetzte Ergebnis, ist das Loch geteilt (auch halbiert genannt).
+   - Spielt ein Spieler schlechter als das festgesetzte Ergebnis oder erzielt er kein Ergebnis für dieses Loch, verliert er das Loch.
+
+   Ein Spieler, der aus einem Grund nicht regelgerecht einlocht, verliert das Loch.
+
+   Zur Förderung der Spielgeschwindigkeit werden Spieler ermutigt, aufzuhören, ein Loch zu spielen, sobald sie dort das festgesetzte Ergebnis überschreiten (da sie das Loch verloren haben).
+
+   Das Loch ist beendet, wenn der Spieler eingelocht hat oder sich entscheidet, nicht einzulochen oder wenn sein Ergebnis das festgesetzte Ergebnis überschreitet.
+
+2. **Ergebnis für jedes Loch eintragen.** Um die Anforderungen von Regel 3.3b für den Eintrag des Ergebnisses auf der Scorekarte für jedes Loch zu erfüllen:
+
+   - _Loch durch Einlochen beendet._
+     - _Ergebnis führt dazu, dass das Loch gewonnen oder geteilt wird._ Die Scorekarte muss das tatsächliche Ergebnis ausweisen.
+     - _Ergebnis führt dazu, dass das Loch verloren wird._ Die Scorekarte muss kein Ergebnis oder ein Ergebnis ausweisen, das zum Lochverlust führt.
+   - _Loch beendet, ohne einzulochen._ Wenn der Spieler nicht regelgerecht einlocht, muss die Scorekarte kein Ergebnis oder ein Ergebnis ausweisen, das zum Lochverlust führt.
+
+   Die Spielleitung ist dafür verantwortlich zu ermitteln, ob der Spieler ein Loch gewonnen, verloren oder geteilt hat und in einem Netto-Turnier auch verantwortlich, die Vorgabenschläge auf die für jedes Loch eingetragenen Ergebnisse anzuwenden, bevor das Ergebnis des Lochs ermittelt wird.
+
+   **Ausnahme – Keine Strafe, wenn keine Auswirkung auf das Ergebnis des Lochs:** Es ist nach Regel 3.3.b straflos, wenn der Spieler eine Scorekarte mit einem niedrigeren Ergebnis als das tatsächliche Ergebnis auf einem Loch einreicht, aber dies keinen Einfluss darauf hat, ob das Loch gewonnen, verloren oder geteilt wurde.
+
+   **Siehe „Offizielles Handbuch“, Leitlinien für die Spielleitung, Abschnitt 5A(5)** (In Turnierbedingungen darf die Spielleitung Spieler dazu ermutigen, aber nicht von ihnen verlangen, das Gesamtergebnis auf der Scorekarte einzutragen).
+
+### 21.3c Strafen bei Par / Bogey
+
+1. **Strafen außer der Disqualifikation.** Alle Strafschläge werden dem Ergebnis des Spielers für das Loch, an dem sich der Verstoß ereignete, hinzugerechnet, **aber** mit drei **Ausnahmen**:
+
+   **Ausnahme 1 – Überzählige, gemeinsam benutzte, hinzugefügte oder ersetzte Schläger:** Verstößt ein Spieler gegen Regel 4.1b (maximal 14 Schläger; Schläger gemeinsam benutzen, hinzufügen und ersetzen), wird die Spielleitung nach Regel 4.1b **_ein Loch_** (wenn der Verstoß nur an einem Loch geschah) oder **_zwei Löcher_** (wenn der Verstoß an zwei oder mehr Löchern geschah) von der Gesamtsumme der gewonnenen Löcher gegenüber den verlorenen Löchern abziehen.
+
+   **Ausnahme 2 – Startzeit:** Verstößt ein Spieler gegen Regel 5.3a durch (1) zu spätes Eintreffen, jedoch noch innerhalb von fünf Minuten nach der Startzeit oder (2) zu frühes Abspielen, aber noch innerhalb von fünf Minuten vor der Startzeit (siehe Regel 5.3 Strafenvermerk, Ausnahmen 1 und 2), verringert die Spielleitung die Gesamtsumme der gewonnenen gegenüber den verlorenen Löchern um **_ein Loch_**.
+
+   **Ausnahme 3 – Unangemessene Verzögerung:** Verstößt ein Spieler gegen Regel 5.6a:
+
+   - Strafe für ersten Verstoß: Der Spieler zieht sich **_einen Strafschlag_** an dem Loch zu, an dem der Verstoß begangen wurde.
+   - Strafe für zweiten Verstoß: Die Spielleitung zieht von der Gesamtsumme der gewonnenen gegenüber den verlorenen Löchern **_ein Loch_** ab.
+   - Für dritten Verstoß gegen Regel 5.6a, siehe Regel 21.3c(2).
+
+   Für jede Ausnahme muss der Spieler der Spielleitung die Sachlage des Regelverstoßes melden, bevor er die Scorekarte zurückgibt, damit die Spielleitung die Strafe anwenden kann. Unterlässt dies der Spieler, ist er **_disqualifiziert_**.
+
+2. **Strafen der Disqualifikation.** Ein Spieler, der gegen eine dieser vier Regeln verstößt, ist nicht für das Turnier disqualifiziert, **sondern** **_verliert das Loch_**, auf dem sich der Verstoß ereignete
+
+   - nicht nach Regel 3.3c einzulochen,
+   - den Fehler nicht zu berichtigen, bei Beginn eines Lochs von außerhalb des Abschlag gespielt zu haben (siehe Regel 6.1b(2)),
+   - den Fehler nicht zu berichtigen, einen falschen Ball gespielt zu haben (siehe Regel 6.3c) oder
+   - den Fehler nicht zu berichtigen, bei schwerwiegendem Verstoß vom falschem Ort gespielt zu haben (siehe Regel 14.7b).
+
+   Verstößt der Spieler gegen eine andere Regel, für die als Strafe die Disqualifikation vorgesehen ist, ist der Spieler **_disqualifiziert_**.
+
+**Siehe „Offizielles Handbuch“, Leitlinien für die Spielleitung, Abschnitt 8; Musterplatzregel K-4** (Wie Maßnahmen zur Spielgeschwindigkeit bei Par / Bogey durch Abzug von Löchern als Strafe für Verstoß angepasst werden).
+
+### 21.3d Ausnahme zu Regel 11.2 bei Par / Bogey
+
+Regel 11.2 gilt nicht in folgendem Fall:
+
+Muss der sich bewegende Ball des Spielers eingelocht werden, um ein Loch zu teilen und eine Person lenkt den Ball absichtlich ab oder hält ihn auf, weil es zu dieser Zeit unwahrscheinlich ist, dass der Ball eingelocht werden kann, ist dies straflos für diese Person und der Spieler verliert das Loch.
+
+### 21.3e Wann eine Runde bei Par / Bogey beendet ist
+
+Die Runde eines Spielers ist beendet, wenn er
+
+- auf seinem letzten Loch einlocht (einschließlich, wenn er den Fehler nach Regel 6.1 oder 14.7b berichtigt) oder
+- sich dazu entscheidet, auf dem letzten Loch nicht einzulochen oder das Loch bereits verloren hat.
