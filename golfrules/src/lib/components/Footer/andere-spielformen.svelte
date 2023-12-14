@@ -7,4 +7,5 @@
 	<a href="/andere-spielformen/andere-formen-des-einzel-zählspiels-und-einzel-lochspiels"
 		>Regel 21 - Andere Formen des Einzel-Zählspiels und Einzel-Lochspiels</a
 	>
+	<a href="/andere-spielformen/vierer">Regel 22 - Vierer</a>
 </div>
