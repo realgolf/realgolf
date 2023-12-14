@@ -124,3 +124,7 @@ Ist ein Spieler an der Reihe, nach Regel 6.4a (Lochspiel) oder 6.4b (Zählspiel)
 
 - Wurde der nächste Schlag des Spielers geschenkt, darf der Spieler nicht mit dem Spiel eines Lochs fortfahren, wenn dies seinen Partner unterstützen würde.
 - Verfährt der Spieler so, bleibt sein Ergebnis für das Loch bestehen, **aber** das Ergebnis des Partners für das Loch kann nicht für die Partei gezählt werden.
+
+## 23.7 Partner dürfen Schläger gemeinsam benutzen
+
+Partnern ist abweichend von Regel 4.1b(2) erlaubt, Schläger gemeinsamen zu gebrauchen, wenn die Gesamtzahl ihrer Schläger 14 nicht übersteigt.
