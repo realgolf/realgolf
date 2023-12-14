@@ -41,3 +41,20 @@ Im Zählspiel muss die Partei den Fehler berichtigen:
 - Der richtige Partner muss von dort einen Schlag machen, wo die Partei den ersten Schlag in der falschen Reihenfolge machte.
 - Der erste Schlag, der in der falschen Reihenfolge gemacht wurde und alle folgenden Schläge, bis der Fehler berichtigt wurde, sowie alle Strafschläge, die nur beim Spielen dieses Balls anfielen, zählen nicht.
 - Macht eine Partei einen Schlag vom nächsten Abschlag, ohne vorher den Fehler zu berichtigen oder auf dem letzten Loch der Runde, bevor die Scorekarte abgegeben wird, ist die Partei **_disqualifiziert_**.
+
+## 22.4 Beginn der Runde
+
+### 22.4a Welcher Partner zuerst spielt
+
+Die Partei darf wählen, welcher der Partner zu Beginn der Runde vom ersten Abschlag spielt, es sei denn, dies wird von der Ausschreibung festgelegt.
+
+Die Runde der Partei beginnt, wenn dieser Partner einen Schlag macht, um das erste Loch der Partei zu beginnen.
+
+### 22.4b Startzeit und Startort
+
+Regel 5.3a gilt unterschiedlich für jeden Partner, abhängig davon, wer zuerst für die Partei spielen wird:
+
+- Der Partner, der zuerst spielen wird, muss zur Startzeit und am Startort zum Spielen bereit sein und muss zur Startzeit beginnen (und nicht vorher).
+- Der Partner, der als Zweiter spielen wird, muss zur Startzeit entweder am Startort oder auf dem Loch nahe der Stelle sein, wo erwartet wird, dass der vom Abschlag gespielte Ball zur Ruhe kommt.
+
+Ist einer der Partner nicht auf diese Weise anwesend, verstößt die Partei gegen Regel 5.3a.
