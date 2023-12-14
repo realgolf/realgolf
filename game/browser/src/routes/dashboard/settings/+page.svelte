@@ -133,7 +133,7 @@
 
 <div class="measurement">
   <h2>Measurement Unit</h2>
-  <p>
+  <p class="underline">
     Your current measurement unit is: {capitalizeFirstLetter(
       data.measurement_unit
     )}
@@ -155,7 +155,9 @@
 
 <div id="preferences">
   <h2>Appearence</h2>
-  <p>Your currently saved Theme is: {capitalizeFirstLetter(data.theme)}</p>
+  <p class="underline">
+    Your currently saved Theme is: {capitalizeFirstLetter(data.theme)}
+  </p>
   <form action="?/theme" method="POST" class="theme-form">
     <label for="theme-settings">Select your prefered Theme Setting:</label>
     <select id="theme-settings" name="theme-settings" bind:value={data.theme}>
@@ -226,5 +228,9 @@
 
   .danger-zone {
     color: red;
+  }
+
+  .underline {
+    text-decoration: underline;
   }
 </style>
