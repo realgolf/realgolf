@@ -16,14 +16,22 @@
 
 ## Licensing
 
-The Games are licensed under the [All Rights Reserved](/LICENSE.md) license.
+The Games are licensed under the [All Rights Reserved](/game/LICENSE.md) license.
 
-The Documentations are open source and licensed under the [MIT](/docs/LICENSE.md) license.
+The Docs are licensed under the [MIT](/docs/LICENSE.md) license.
+The Golf Rules are also licensed under the [MIT](/golfrules/LICENSE.md) license.
+
+**You can also look into the [License](LICENSE.md) file in the Root Folder for more information.**
 
 ## Documentation
 
 The Documentation and any other Information about this Project can be found here:
 [Real Golf Documentation](https://docs.realgolf.games)
+
+## Golf Rules
+
+The Golf Rules can be found here:
+[Golf Rules](https://rules.realgolf.games)
 
 ## Games
 
