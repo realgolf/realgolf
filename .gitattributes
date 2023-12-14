@@ -1,4 +1,4 @@
-*.js linguist-language=TypeScript
+*.js linguist-language=JavaScript
 *.svelte linguist-language=Svelte
 *.ts linguist-language=TypeScript
 *.scss linguist-language=SCSS
