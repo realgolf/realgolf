@@ -7,6 +7,11 @@
 
   export let form: ActionData;
   export let data;
+  let handicap_history: any[] | undefined = [];
+
+  onMount(() => {
+    handicap_history = data.handicap_history;
+  });
 
   onMount(() => {
     const newPasswordInput = document.getElementById(
@@ -131,8 +136,56 @@
   </form>
 </div>
 
-<div class="measurement">
+<div class="handicap">
+  <h2>Handicap</h2>
+  <p class="success">
+    The Handicap in Golf is a numerical measure of a golfer's ability, or
+    potential ability, that is used to enable players of different abilities to
+    compete against one another.
+  </p>
+  <p class="underline">Your current Handicap is: {data.handicap}</p>
+  <p class="underline">
+    You've updated your handicap the last time at the {data.local_handicap_updated.toLocaleString()}
+  </p>
   <p>
+    When your Handicap has changed you can also update it here, so you can keep
+    track of your Handicap at all times.
+  </p>
+
+  <div id="update-handicap">
+    <form action="?/handicap" method="POST" class="handicap-form">
+      <label for="handicap">Enter your new Handicap here:</label>
+      <input
+        type="string"
+        name="handicap"
+        id="handicap"
+        bind:value={data.handicap}
+      />
+      <button aria-label="Update Handicap">Update</button>
+    </form>
+  </div>
+
+  {#if handicap_history && handicap_history.length > 0}
+    <div class="handicap_history">
+      <details>
+        <summary>Handicap History</summary>
+        {#each handicap_history.slice().reverse() as handicap}
+          <div>
+            <p>Handicap: {handicap.handicap}</p>
+            <p>Updated at the: {new Date(handicap.date).toLocaleString()}</p>
+          </div>
+        {/each}
+        <form action="?/clear_handicap_history" method="POST">
+          <button>Clear History</button>
+        </form>
+      </details>
+    </div>
+  {/if}
+</div>
+
+<div class="measurement">
+  <h2>Measurement Unit</h2>
+  <p class="underline">
     Your current measurement unit is: {capitalizeFirstLetter(
       data.measurement_unit
     )}
@@ -153,7 +206,10 @@
 </div>
 
 <div id="preferences">
-  <p>Your currently saved Theme is: {capitalizeFirstLetter(data.theme)}</p>
+  <h2>Appearence</h2>
+  <p class="underline">
+    Your currently saved Theme is: {capitalizeFirstLetter(data.theme)}
+  </p>
   <form action="?/theme" method="POST" class="theme-form">
     <label for="theme-settings">Select your prefered Theme Setting:</label>
     <select id="theme-settings" name="theme-settings" bind:value={data.theme}>
@@ -167,6 +223,7 @@
 </div>
 
 <div class="delete-account">
+  <h2 class="danger-zone">Danger Zone</h2>
   <h2 class="error">Your Account will be lost forever! (a long time!)</h2>
   <form action="?/delete_account" method="POST" class="delete_account_form">
     <div>
@@ -186,7 +243,24 @@
   <button>Logout</button>
 </form>
 
-<style>
+<style lang="scss">
+  .handicap_history > details {
+    &[open] summary {
+      text-decoration: underline;
+      margin-bottom: 20px;
+    }
+
+    div {
+      background-color: var(--nav-color);
+      width: max-content;
+      padding: 50px 50px;
+      border-radius: 5px;
+      border: 3px solid var(--border-color);
+      margin-right: auto;
+      margin-bottom: 20px;
+    }
+  }
+
   .update-form {
     display: grid;
     grid-template-columns: 1fr auto;
@@ -219,5 +293,13 @@
       outline: 0.1rem solid var(--font-color);
       outline-offset: 0.2rem;
     }
+  }
+
+  .danger-zone {
+    color: red;
+  }
+
+  .underline {
+    text-decoration: underline;
   }
 </style>

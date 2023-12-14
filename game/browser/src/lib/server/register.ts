@@ -1,12 +1,14 @@
+import bcrypt from "bcrypt";
 import { User_Model } from "./models";
 import { email_regexp } from "./utils";
-import bcrypt from "bcrypt";
 
 export async function register_user(
   email: string,
   password: string,
   verified_password: string,
-  name: string
+  name: string,
+  handicap: number,
+  handicap_updated: Date
 ): Promise<{ error: string }> {
   const email_error = await verify_email(email);
 
@@ -34,6 +36,8 @@ export async function register_user(
       email,
       password: hashed_password,
       name,
+      handicap,
+      handicap_updated,
     },
   });
 

@@ -122,7 +122,7 @@ export async function change_password(
 
   try {
     await user.save();
-    return {new_password};
+    return { new_password };
   } catch (err) {
     return { error: err as string };
   }
@@ -218,5 +218,42 @@ export async function delete_account(cookies: Cookies, password: string) {
     }
   } else {
     return { error: "The passwords did not match", account_deleted: false };
+  }
+}
+
+export async function change_handicap(cookies: Cookies, handicap: number) {
+  const auth = authenticate(cookies);
+
+  if (!auth) {
+    return { error: "You are not authenticated" };
+  }
+
+  const { id } = auth;
+
+  const user = await User_Model.findOne({ _id: id });
+
+  if (!user) {
+    return { error: "User could not be found" };
+  }
+
+  if (handicap < 0) {
+    return { error: "Handicap must be greater than zero" };
+  }
+
+  let old_handicap_object = {
+    handicap: user.user?.handicap,
+    date: user.user?.handicap_updated,
+  };
+
+  user.handicap_history.push(old_handicap_object);
+
+  user.user.handicap = handicap;
+  user.user.handicap_updated = new Date();
+
+  try {
+    await user.save();
+    return { handicap };
+  } catch (err) {
+    return { error: err as string };
   }
 }

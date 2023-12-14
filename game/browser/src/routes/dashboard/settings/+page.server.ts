@@ -1,5 +1,6 @@
 import {
   change_email,
+  change_handicap,
   change_measurement,
   change_name,
   change_password,
@@ -18,8 +19,23 @@ export const load: PageServerLoad = async (event) => {
 
   let measurement_unit = user?.user?.measurement_units as string;
   let theme = user?.user?.theme as string;
+  let handicap = user?.user?.handicap as number;
+  let handicap_updated = user?.user?.handicap_updated as Date;
+  let local_handicap_updated = handicap_updated;
 
-  return { measurement_unit, theme };
+  const handicap_history = user?.handicap_history.map((history) => {
+    const historyCopy = JSON.parse(JSON.stringify(history));
+    delete historyCopy._id; // Remove the _id field
+    return historyCopy;
+  });
+
+  return {
+    measurement_unit,
+    theme,
+    handicap,
+    local_handicap_updated,
+    handicap_history,
+  };
 };
 
 export const actions: Actions = {
@@ -118,5 +134,43 @@ export const actions: Actions = {
     const message = update.message;
 
     return { message };
+  },
+  handicap: async (event) => {
+    const data = await event.request.formData();
+    const handicap = data.get("handicap") as unknown as number;
+
+    const update = await change_handicap(event.cookies, handicap);
+
+    if ("error" in update) {
+      return fail(400, { error: update.error });
+    }
+
+    const message = `Your Handicap settings got changed`;
+
+    return { message, handicap };
+  },
+  clear_handicap_history: async (event) => {
+    const email = event.cookies.get("email");
+
+    try {
+      const user = await User_Model.findOne({ "user.email": email });
+
+      if (!user) {
+        return {
+          status: 404,
+          error: "User not found",
+        };
+      }
+
+      user.handicap_history = [];
+
+      await user?.save();
+    } catch (error) {
+      console.error(error);
+      return {
+        status: 500,
+        error: "Error deleting History",
+      };
+    }
   },
 };
