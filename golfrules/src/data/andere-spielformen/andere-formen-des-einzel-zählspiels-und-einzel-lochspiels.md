@@ -223,3 +223,31 @@ Die Runde eines Spielers ist beendet, wenn er
 
 - auf seinem letzten Loch einlocht (einschließlich, wenn er den Fehler nach Regel 6.1 oder 14.7b berichtigt) oder
 - sich dazu entscheidet, auf dem letzten Loch nicht einzulochen oder das Loch bereits verloren hat.
+
+## 21.4 Dreiball-Lochspiel
+
+### 21.4a Überblick über Dreiball-Lochspiel
+
+Dreiball-Lochspiel ist eine Form des Lochspiels, in dem
+
+- jeder der drei Spieler zur gleichen Zeit ein eigenes Lochspiel gegen die zwei anderen Spieler spielt, und
+- jeder Spieler einen Ball spielt, der in seinen beiden Lochspielen zählt.
+
+Die Lochspiel-Regeln 1-20 gelten für alle drei Einzel-Lochspiele, **außer**, dass die folgenden Sonderregeln in zwei Situationen gelten, bei denen die Anwendung der allgemein gültigen Regeln in dem einem Lochspiel im Widerspruch zur Anwendung im anderen Lochspiel stehen könnten.
+
+### 21.4b Spielen außerhalb der Reihenfolge
+
+Wenn ein Spieler in einem der Lochspiele außerhalb der Reihenfolge spielt, darf der Gegner, der zuerst hätte spielen dürfen, den Schlag umgehend nach Regel 6.4a(2) für ungültig erklären.
+
+Wenn der Spieler in beiden Lochspielen außerhalb der Reihenfolge spielte, darf jeder Gegner wählen, ob er den Schlag in seinem Lochspiel mit dem Spieler für ungültig erklärt.
+
+Wenn der Schlag des Spielers nur in einem Lochspiel für ungültig erklärt wird,
+
+- muss der Spieler im anderen Lochspiel das Spiel mit dem ursprünglichen Ball fortsetzen.
+- Dies bedeutet, dass der Spieler das Loch beenden muss, indem er für jedes Lochspiel einen separaten Ball spielt.
+
+### 21.4c Ball oder Ballmarker von einem der Gegner aufgenommen oder bewegt
+
+Zieht sich ein Gegner für das Aufnehmen eines Ball oder eines Ballmarkers, oder weil er verursacht, dass der Ball oder Ballmarker eines Spielers sich bewegt, **_einen Strafschlag_** nach den Regeln 9.5b oder 9.7b zu, gilt die Strafe nur im Lochspiel mit diesem Spieler.
+
+Der Gegner zieht sich keine Strafe im Lochspiel mit dem anderen Spieler zu.
