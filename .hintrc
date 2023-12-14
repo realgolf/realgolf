@@ -10,13 +10,11 @@
           "text-underline-offset"
         ]
       }
-    ],
     "axe/text-alternatives": [
       "default",
       {
         "document-title": "off"
-      }
-    ],
+  }
     "apple-touch-icons": "off"
   }
 }
