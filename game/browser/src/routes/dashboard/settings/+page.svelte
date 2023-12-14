@@ -239,6 +239,10 @@
   </form>
 </div>
 
+<form action="/logout" method="POST" class="logout-form">
+  <button>Logout</button>
+</form>
+
 <style lang="scss">
   .handicap_history > details {
     &[open] summary {
