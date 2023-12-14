@@ -20,6 +20,12 @@ const User_Schema = new mongoose.Schema({
       data: { type: String },
     },
   ],
+  handicap_history: [
+    {
+      handicap: { type: Number },
+      date: { type: Date },
+    },
+  ],
 });
 
 export const User_Model = mongoose.model("User", User_Schema);

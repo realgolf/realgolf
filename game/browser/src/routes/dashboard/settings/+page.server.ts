@@ -23,7 +23,19 @@ export const load: PageServerLoad = async (event) => {
   let handicap_updated = user?.user?.handicap_updated as Date;
   let local_handicap_updated = handicap_updated;
 
-  return { measurement_unit, theme, handicap, local_handicap_updated };
+  const handicap_history = user?.handicap_history.map((history) => {
+    const historyCopy = JSON.parse(JSON.stringify(history));
+    delete historyCopy._id; // Remove the _id field
+    return historyCopy;
+  });
+
+  return {
+    measurement_unit,
+    theme,
+    handicap,
+    local_handicap_updated,
+    handicap_history,
+  };
 };
 
 export const actions: Actions = {

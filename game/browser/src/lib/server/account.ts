@@ -241,6 +241,13 @@ export async function change_handicap(cookies: Cookies, handicap: number) {
     return { error: "Handicap must be greater than zero" };
   }
 
+  let old_handicap_object = {
+    handicap: user.user?.handicap,
+    date: user.user?.handicap_updated,
+  };
+
+  user.handicap_history.push(old_handicap_object);
+
   user.user.handicap = handicap;
   user.user.handicap_updated = today;
 

@@ -7,6 +7,11 @@
 
   export let form: ActionData;
   export let data;
+  let handicap_history: any[] | undefined = [];
+
+  onMount(() => {
+    handicap_history = data.handicap_history;
+  });
 
   onMount(() => {
     const newPasswordInput = document.getElementById(
@@ -159,6 +164,20 @@
       <button aria-label="Update Handicap">Update</button>
     </form>
   </div>
+
+  {#if handicap_history}
+    <div class="handicap_history">
+      <details>
+        <summary>Handicap History</summary>
+        {#each handicap_history.slice().reverse() as handicap}
+          <div>
+            <p>Handicap: {handicap.handicap}</p>
+            <p>Updated at the: {new Date(handicap.date).toLocaleString()}</p>
+          </div>
+        {/each}
+      </details>
+    </div>
+  {/if}
 </div>
 
 <div class="measurement">
@@ -222,6 +241,23 @@
 </form>
 
 <style lang="scss">
+  .handicap_history > details {
+    &[open] summary {
+      text-decoration: underline;
+      margin-bottom: 20px;
+    }
+
+    div {
+      background-color: var(--nav-color);
+      width: max-content;
+      padding: 50px 50px;
+      border-radius: 5px;
+      border: 3px solid var(--border-color);
+      margin-right: auto;
+      margin-bottom: 20px;
+    }
+  }
+
   .update-form {
     display: grid;
     grid-template-columns: 1fr auto;
