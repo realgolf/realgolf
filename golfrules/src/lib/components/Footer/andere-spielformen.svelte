@@ -8,5 +8,5 @@
 		>Regel 21 - Andere Formen des Einzel-Zählspiels und Einzel-Lochspiels</a
 	>
 	<a href="/andere-spielformen/vierer">Regel 22 - Vierer</a>
-	<a href="/andere-spielformen/vierer">Regel 23 - Vierball</a>
+	<a href="/andere-spielformen/vierball">Regel 23 - Vierball</a>
 </div>
