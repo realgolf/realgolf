@@ -4,7 +4,7 @@
 
 {#if toc.length > 0}
 	<details class="toc" open>
-		<summary>In this article</summary>
+		<summary>In diesem Article</summary>
 		<ol>
 			{#each toc as h2Item}
 				<li>
