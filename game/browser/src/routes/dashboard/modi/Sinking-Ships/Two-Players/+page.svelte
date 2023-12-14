@@ -42,7 +42,29 @@
     const targetId = (event.target as HTMLElement).id;
     const match = targetId.match(/row(\d+)-(\d+)/);
 
-    console.log(targetId);
+    if (currentTeam.ship_position.length == 0) {
+      return placeShip(targetId, match);
+    } else {
+      if (match) {
+        const rowNumber = parseInt(match[1]);
+        const index = parseInt(match[2]);
+        let clickedCell: HTMLElement | null = document.getElementById(targetId);
+        if (clickedCell) clickedCell.style.backgroundColor = currentTeam.color;
+      }
+      changeTeam();
+    }
+  }
+
+  function placeShip(targetId: string, match: string[] | null) {
+    if (match) {
+      const rowNumber = parseInt(match[1]);
+      const index = parseInt(match[2]);
+      let clickedCell: HTMLElement | null = document.getElementById(targetId);
+      if (clickedCell) {
+        currentTeam.ship_position.push(targetId);
+        console.log(targetId);
+      }
+    }
   }
 </script>
 
