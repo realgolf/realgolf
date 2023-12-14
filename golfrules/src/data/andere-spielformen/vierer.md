@@ -22,3 +22,22 @@ Da beide Partner als eine Partei nur einen Ball spielen,
 - Jede Handlung oder jeder Regelverstoß eines Partners oder seines Caddies trifft die Partei.
 
 Im Zählspiel muss nur einer der Partner die Schlagzahl der Löcher für die Partei auf der Scorekarte bestätigen (siehe Regel 3.3b).
+
+## 22.3 Partei muss abwechselnd schlagen
+
+Auf jedem Loch müssen die Partner jeden Schlag für die Partei in abwechselnder Reihenfolge machen:
+
+- Ein Partner muss als erster vom Abschlag aller ungeraden Löcher spielen, während der andere Partner als erster vom Abschlag aller geraden Löcher spielen muss.
+- Nach dem ersten Schlag vom Abschlag eines Lochs müssen die Partner für den Rest des Lochs abwechselnd schlagen.
+- Wird ein Schlag annulliert oder zählt er nach einer Regel nicht (außer er wird unter Verstoß gegen diese Regel in der falschen Reihenfolge gespielt), muss derselbe Partner, der den Schlag gespielt hatte, den nächsten Schlag der Partei machen.
+- Entscheidet sich die Partei zum Spielen eines provisorischen Balls, muss dieser von dem Partner gespielt werden, der für den nächsten Schlag der Partei an der Reihe ist.
+
+Strafschläge, die sich die Partei zuzieht, wirken sich nicht auf die abwechselnde Spielfolge der beiden Partner aus.
+
+**_Strafe für das Spielen eines Schlags in der falschen Reihenfolge unter Verstoß gegen Regel 22.3: Grundstrafe._**
+
+Im Zählspiel muss die Partei den Fehler berichtigen:
+
+- Der richtige Partner muss von dort einen Schlag machen, wo die Partei den ersten Schlag in der falschen Reihenfolge machte.
+- Der erste Schlag, der in der falschen Reihenfolge gemacht wurde und alle folgenden Schläge, bis der Fehler berichtigt wurde, sowie alle Strafschläge, die nur beim Spielen dieses Balls anfielen, zählen nicht.
+- Macht eine Partei einen Schlag vom nächsten Abschlag, ohne vorher den Fehler zu berichtigen oder auf dem letzten Loch der Runde, bevor die Scorekarte abgegeben wird, ist die Partei **_disqualifiziert_**.
