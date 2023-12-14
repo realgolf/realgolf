@@ -251,3 +251,11 @@ Wenn der Schlag des Spielers nur in einem Lochspiel für ungültig erklärt wird
 Zieht sich ein Gegner für das Aufnehmen eines Ball oder eines Ballmarkers, oder weil er verursacht, dass der Ball oder Ballmarker eines Spielers sich bewegt, **_einen Strafschlag_** nach den Regeln 9.5b oder 9.7b zu, gilt die Strafe nur im Lochspiel mit diesem Spieler.
 
 Der Gegner zieht sich keine Strafe im Lochspiel mit dem anderen Spieler zu.
+
+## 21.5 Andere Spielformen
+
+Obwohl nur bestimmte Spielformen in den Regeln 3, 21, 22 und 23 besonders angesprochen werden, kann und wird Golf oft in vielen anderen Formen gespielt, wie etwa Scramble und Vierer mit Auswahldrive.
+
+Die Regeln können zur Organisation des Spiels für diese und andere Spielformen angepasst werden.
+
+**Siehe „Offizielles Handbuch“, Leitlinien für die Spielleitung, Abschnitt 9** (Empfohlene Verfahren zur Anpassung der Regeln für weitere verbreitete Spielformen).
