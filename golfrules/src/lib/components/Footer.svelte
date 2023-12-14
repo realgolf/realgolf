@@ -3,6 +3,7 @@
 	import Fa from 'svelte-fa';
 	import AndereSpielformen from './Footer/andere-spielformen.svelte';
 	import BallAufnehmenUndInsSpielZurckbringen from './Footer/ball-aufnehmen-und-ins-spiel-zurückbringen.svelte';
+	import Defenitionen from './Footer/defenitionen.svelte';
 	import DieGrundlagenDesSpieles from './Footer/die-grundlagen-des-spieles.svelte';
 	import ErleichterungMitStrafe from './Footer/erleichterung-mit-strafe.svelte';
 	import SonderregelnFuerBunkerUndGruens from './Footer/sonderregeln-fuer-bunker-und-gruens.svelte';
@@ -25,6 +26,7 @@
 			<VorgehensweiseFrDieSpielerUndDieSpielleitungBeiStrittigenFllenDerRegelanwendung
 			></VorgehensweiseFrDieSpielerUndDieSpielleitungBeiStrittigenFllenDerRegelanwendung>
 			<AndereSpielformen></AndereSpielformen>
+			<Defenitionen></Defenitionen>
 		</section>
 
 		<h3>Hilfe und Support</h3>
