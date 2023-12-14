@@ -9,4 +9,5 @@
 	>
 	<a href="/andere-spielformen/vierer">Regel 22 - Vierer</a>
 	<a href="/andere-spielformen/vierball">Regel 23 - Vierball</a>
+	<a href="/andere-spielformen/mannschaftsturniere">Regel 24 - Mannschaftsturniere</a>
 </div>
