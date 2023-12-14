@@ -165,7 +165,7 @@
     </form>
   </div>
 
-  {#if handicap_history}
+  {#if handicap_history && handicap_history.length > 0}
     <div class="handicap_history">
       <details>
         <summary>Handicap History</summary>
@@ -175,6 +175,9 @@
             <p>Updated at the: {new Date(handicap.date).toLocaleString()}</p>
           </div>
         {/each}
+        <form action="?/clear_handicap_history" method="POST">
+          <button>Clear History</button>
+        </form>
       </details>
     </div>
   {/if}

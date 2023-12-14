@@ -149,4 +149,28 @@ export const actions: Actions = {
 
     return { message, handicap };
   },
+  clear_handicap_history: async (event) => {
+    const email = event.cookies.get("email");
+
+    try {
+      const user = await User_Model.findOne({ "user.email": email });
+
+      if (!user) {
+        return {
+          status: 404,
+          error: "User not found",
+        };
+      }
+
+      user.handicap_history = [];
+
+      await user?.save();
+    } catch (error) {
+      console.error(error);
+      return {
+        status: 500,
+        error: "Error deleting History",
+      };
+    }
+  },
 };

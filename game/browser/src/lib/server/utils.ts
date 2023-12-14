@@ -9,5 +9,3 @@ export const cookie_options = {
   path: "/",
   maxAge: one_day,
 } as const;
-
-export let today = new Date();

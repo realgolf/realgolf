@@ -3,7 +3,6 @@ import bcrypt from "bcrypt";
 import { authenticate } from "./authenticate";
 import { User_Model } from "./models";
 import { verify_email, verify_name, verify_password } from "./register";
-import { today } from "./utils";
 
 export async function change_name(
   cookies: Cookies,
@@ -249,7 +248,7 @@ export async function change_handicap(cookies: Cookies, handicap: number) {
   user.handicap_history.push(old_handicap_object);
 
   user.user.handicap = handicap;
-  user.user.handicap_updated = today;
+  user.user.handicap_updated = new Date();
 
   try {
     await user.save();
