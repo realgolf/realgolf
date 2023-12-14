@@ -86,3 +86,30 @@ Ist ein Partner nicht anwesend und trifft er dann zum Spielen ein, darf dieser P
 Ein hinzukommender Partner, der ein Loch nicht spielen darf, darf den anderen Partner auf dem Loch beraten oder ihm helfen und andere Handlungen für den Partner auf diesem Loch vornehmen (siehe Regeln 23.5a und 23.5b).
 
 **_Strafe für Verstoß gegen Regel 23.4: Grundstrafe._**
+
+## 23.5 Handlungen des Spielers, die das Spiel des Partners beeinflussen
+
+### 23.5a Der Spieler darf alle Handlungen mit dem Ball des Partners vornehmen, die dem Partner erlaubt sind.
+
+Obwohl jeder Spieler in einer Partei seinen eigenen Ball spielen muss,
+
+- darf ein Spieler in Bezug auf den Ball des Partners handeln, wie es der Partner auch vor dem Schlag darf, zum Beispiel die Lage des Balls markieren, ihn aufnehmen, zurücklegen, droppen oder hinlegen.
+- Ein Spieler und sein Caddie dürfen dem Partner auf jede Weise helfen, wie es der Caddie des Partners darf (zum Beispiel Beratung erteilen oder um Beratung gebeten werden und andere Handlungen wie in Regel 10 erlaubt vornehmen), **aber** er darf nicht auf eine Weise helfen, die dem Caddie des Partners nach den Regeln nicht erlaubt ist.
+
+Im Zählspiel dürfen Partner nicht übereinkommen, einen Ball auf dem Grün liegen zu lassen, um einen von ihnen oder einen anderen Spieler dadurch zu unterstützen (siehe Regel 15.3a).
+
+### 23.5b Partner ist für die Handlungen des Spielers verantwortlich
+
+Jede Handlung des Spielers, die den Ball oder die Ausrüstung des Partners betrifft, wird behandelt, als sei sie vom Partner vorgenommen.
+
+Verstößt die Handlung des Spielers gegen eine Regel, wenn sie vom Partner vorgenommen würde,
+
+- verstößt der Partner gegen die Regel und zieht sich die sich daraus folgende Strafe zu (siehe Regel 23.8a).
+- Beispiele für einen derartigen Regelverstoß des Spielers sind:
+  - Bedingungen zu verbessern, die den nächsten Schlag des Partners beeinflussen,
+  - versehentlich zu verursachen, dass sich der Ball des Partners bewegt oder
+  - den Ball des Partners an einer Stelle nicht zu markieren, bevor der Spieler ihn aufnimmt.
+
+Dies gilt auch für Handlungen des Caddies des Spielers, die den Ball des Partners betreffen und einen Regelverstoß darstellen würden, wenn sie vom Partner oder dessen Caddie vorgenommen würden.
+
+Für den Fall, dass die Handlungen des Spielers oder seines Caddies das Spiel beider Bälle, des eigenen und den des Partners, beeinflussen, siehe Regel 23.8a(2), um herauszufinden, wann eine Strafe für beide Partner anfällt.
