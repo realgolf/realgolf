@@ -55,3 +55,21 @@ Ist das für die Partei zu zählende Ergebnis nicht eindeutig dem Partner, der e
 Regel 11.2 gilt nicht in folgender Situation:
 
 Hat der Partner des Spielers das Loch bereits beendet und der sich bewegende Ball des Spielers muss eingelocht werden, um das Ergebnis der Partei für dieses Loch zu um einen Schlag zu verbessern und eine Person lenkt den Ball absichtlich ab oder hält ihn auf, weil es zu dieser Zeit unwahrscheinlich ist, dass der Ball eingelocht werden kann, ist dies straflos für diese Person und der Ball des Spielers zählt nicht für die Partei.
+
+## 23.3 Wann die Runde beginnt und endet; wann ein Loch beendet ist
+
+### 23.3a Wann die Runde beginnt
+
+Die Runde einer Partei beginnt, wenn einer der Partner einen Schlag macht, um sein erstes Loch zu beginnen.
+
+### 23.3b Wann die Runde endet
+
+Die Runde einer Partei endet
+
+- im Lochspiel, wenn eine der beiden Parteien das Lochspiel gewonnen hat (siehe Regeln 3.2a(3) und (4)),
+- im Zählspiel, wenn eine Partei das letzte Loch beendet, wenn beide Partner eingelocht haben (einschließlich des Berichtigens eines Fehlers, zum Beispiel nach den Regeln 6.1 oder 14.7b) oder durch Einlochen eines Partners auf dem letzten Loch und dem Verzicht des anderen Partners, auch einzulochen.
+
+### 23.3c Wann ein Loch beendet ist
+
+1. **Lochspiel.** Eine Partei hat ein Loch beendet, wenn beide Partner eingelocht haben oder ihre nächsten Schläge geschenkt wurden oder wenn eine der Parteien das Loch geschenkt hat.
+2. **Zählspiel.** Eine Partei hat ein Loch beendet, wenn einer der Partner eingelocht hat und der andere Partner entweder eingelocht hat oder sich entscheidet, dies nicht zu tun.
