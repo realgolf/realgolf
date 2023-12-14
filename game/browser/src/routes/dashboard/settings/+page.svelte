@@ -131,6 +131,33 @@
   </form>
 </div>
 
+<div class="handicap">
+  <h2>Handicap</h2>
+  <p class="success">
+    The Handicap in Golf is a numerical measure of a golfer's ability, or
+    potential ability, that is used to enable players of different abilities to
+    compete against one another.
+  </p>
+  <p class="underline">Your current Handicap is: {data.handicap}</p>
+  <p>
+    When your Handicap has changed you can also update here, so you can keep
+    track of your Handicap at all times.
+  </p>
+
+  <div id="update-handicap">
+    <form action="?/handicap" method="POST" class="handicap-form">
+      <label for="handicap">Enter your new Handicap here:</label>
+      <input
+        type="number"
+        name="handicap"
+        id="handicap"
+        bind:value={data.handicap}
+      />
+      <button aria-label="Update Handicap">Update</button>
+    </form>
+  </div>
+</div>
+
 <div class="measurement">
   <h2>Measurement Unit</h2>
   <p class="underline">

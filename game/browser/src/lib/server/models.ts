@@ -7,6 +7,7 @@ const User_Schema = new mongoose.Schema({
     name: { type: String, require: true },
     measurement_units: { type: String, required: true, default: "meters" },
     theme: { type: String, required: true, default: "system" },
+    handicap: { type: Number, required: true, default: 54 },
   },
   games: [
     {

@@ -1,5 +1,6 @@
 import {
   change_email,
+  change_handicap,
   change_measurement,
   change_name,
   change_password,
@@ -18,8 +19,9 @@ export const load: PageServerLoad = async (event) => {
 
   let measurement_unit = user?.user?.measurement_units as string;
   let theme = user?.user?.theme as string;
+  let handicap = user?.user?.handicap as number;
 
-  return { measurement_unit, theme };
+  return { measurement_unit, theme, handicap };
 };
 
 export const actions: Actions = {
@@ -118,5 +120,19 @@ export const actions: Actions = {
     const message = update.message;
 
     return { message };
+  },
+  handicap: async (event) => {
+    const data = await event.request.formData();
+    const handicap = data.get("handicap") as unknown as number;
+
+    const update = await change_handicap(event.cookies, handicap);
+
+    if ("error" in update) {
+      return fail(400, { error: update.error });
+    }
+
+    const message = `Your Handicap settings got changed`;
+
+    return { message, handicap };
   },
 };
