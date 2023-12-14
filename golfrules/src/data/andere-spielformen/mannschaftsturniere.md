@@ -20,3 +20,9 @@ Die Spielleitung bestimmt die Art des Spiels, die Art der Ermittlung des Gesamte
 - die Anzahl der zu vergebenden Punkte für einen Sieg oder einen Gleichstand im Lochspiel,
 - die Anzahl der zu wertenden Ergebnisse für das Gesamtergebnis jeder Mannschaft im Zählspiel,
 - ob das Turnier mit einem Gleichstand enden darf oder, wenn nicht, wie ein Gleichstand entschieden wird.
+
+## 24.3 Mannschaftskapitän
+
+Jede Mannschaft darf einen Kapitän benennen, der die Mannschaft führt und Entscheidungen für sie trifft, zum Beispiel die Auswahl der Spieler für einzelne Runden oder Lochspiele, ihre Spielfolge und mit wem sie als Partner zusammenspielen.
+
+Der Kapitän darf als Spieler an dem Turnier teilnehmen.
