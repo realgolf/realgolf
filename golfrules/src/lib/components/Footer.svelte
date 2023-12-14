@@ -60,10 +60,16 @@
 			padding: 1rem 1rem;
 
 			.parts {
-				display: flex;
-				flex-wrap: wrap;
-			}
+				display: flex !important;
+				flex-wrap: wrap !important;
 
+				@media only screen and (max-width: 767px) {
+					margin-right: -16px;
+					margin-left: -16px;
+					display: flex;
+					flex-direction: column;
+				}
+			}
 			.info {
 				padding: 0.5rem;
 				display: flex;
