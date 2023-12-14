@@ -11,6 +11,8 @@ export const actions: Actions = {
     const password = data.get("password") as string;
     const verified_password = data.get("password_verify") as string;
     const name = (data.get("name") as string)?.trim();
+    const handicap = data.get("handicap") as unknown as number;
+    const handicap_updated = new Date();
 
     const user = { email, name };
 
@@ -18,7 +20,9 @@ export const actions: Actions = {
       email,
       password,
       verified_password,
-      name
+      name,
+      handicap,
+      handicap_updated
     );
 
     if (error) {

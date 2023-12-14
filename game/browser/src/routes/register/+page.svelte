@@ -72,6 +72,11 @@
       value={form?.user?.name ?? ""}
     />
   </div>
+
+  <div>
+    <label for="handicap">Handicap</label>
+    <input type="text" name="handicap" id="handicap" />
+  </div>
   <button>Register</button>
 </form>
 
