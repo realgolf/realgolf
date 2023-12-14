@@ -132,6 +132,7 @@
 </div>
 
 <div class="measurement">
+  <h2>Measurement Unit</h2>
   <p>
     Your current measurement unit is: {capitalizeFirstLetter(
       data.measurement_unit
@@ -153,6 +154,7 @@
 </div>
 
 <div id="preferences">
+  <h2>Appearence</h2>
   <p>Your currently saved Theme is: {capitalizeFirstLetter(data.theme)}</p>
   <form action="?/theme" method="POST" class="theme-form">
     <label for="theme-settings">Select your prefered Theme Setting:</label>
@@ -167,6 +169,7 @@
 </div>
 
 <div class="delete-account">
+  <h2 class="danger-zone">Danger Zone</h2>
   <h2 class="error">Your Account will be lost forever! (a long time!)</h2>
   <form action="?/delete_account" method="POST" class="delete_account_form">
     <div>
@@ -186,7 +189,7 @@
   <button>Logout</button>
 </form>
 
-<style>
+<style lang="scss">
   .update-form {
     display: grid;
     grid-template-columns: 1fr auto;
@@ -219,5 +222,9 @@
       outline: 0.1rem solid var(--font-color);
       outline-offset: 0.2rem;
     }
+  }
+
+  .danger-zone {
+    color: red;
   }
 </style>
