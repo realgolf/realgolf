@@ -37,6 +37,13 @@
     currentTeam = teams[currentTeamIndex];
     color = currentTeam.color;
   }
+
+  function handleClick(event: MouseEvent) {
+    const targetId = (event.target as HTMLElement).id;
+    const match = targetId.match(/row(\d+)-(\d+)/);
+
+    console.log(targetId);
+  }
 </script>
 
 <svelte:head>
@@ -47,21 +54,24 @@
 
 <button on:click={changeTeam}>Change Team</button>
 <table>
-  {#each first_row as { side, data }, i (i)}
+  {#each first_row as { side, data }, outerIndex}
     <tr>
       <td class="points" style="background-color: {color};"
         >{capitalizeFirstLetter(color)}</td
       >
-      {#each data as item, j (j)}
+      {#each data as item, innerIndex}
         <td class="points">{item}</td>
       {/each}
     </tr>
   {/each}
-  {#each rows as { side, data }, i (i)}
+  {#each rows as { side, data }, outerIndex}
     <tr>
       <td class="points">{side}</td>
-      {#each data as item, j (j)}
-        <td class="meters"
+      {#each data as item, innerIndex}
+        <td
+          class="meters"
+          id={`row${outerIndex + 1}-${innerIndex}`}
+          on:click={handleClick}
           >{item + " " + capitalizeFirstLetter(measurement_unit)}</td
         >
       {/each}
