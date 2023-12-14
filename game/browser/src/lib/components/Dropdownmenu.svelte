@@ -1,6 +1,7 @@
 <script lang="ts">
   import { faQuestionCircle } from "@fortawesome/free-regular-svg-icons";
   import {
+    faArrowRightFromBracket,
     faBars,
     faBook,
     faChartLine,
@@ -89,6 +90,11 @@
         >
         <a href="/dashboard/rules"><span><Fa icon={faBook} /></span>Rules</a>
         <a href="/dashboard/tools"><span><Fa icon={faWrench} /></span>Tools</a>
+      </div>
+      <div class="logged-out row border-bottom">
+        <a href="/logout"
+          ><span><Fa icon={faArrowRightFromBracket} /></span>Logout</a
+        >
       </div>
     {/if}
     <div class="external-links row border-bottom">
