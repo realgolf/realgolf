@@ -31,7 +31,7 @@
 		"@fortawesome/free-solid-svg-icons": "^6.5.1",
 		"front-matter": "^4.0.2",
 		"he": "^1.2.0",
-		"markdown-it": "^13.0.2",
+		"markdown-it": "^14.0.0",
 		"mathjax": "^3.2.2",
 		"shiki": "^0.14.5",
 		"svelte-fa": "^3.0.4"
