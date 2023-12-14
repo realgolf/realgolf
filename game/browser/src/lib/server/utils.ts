@@ -10,4 +10,4 @@ export const cookie_options = {
   maxAge: one_day,
 } as const;
 
-export const today = new Date();
+export let today = new Date();
