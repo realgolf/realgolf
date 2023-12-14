@@ -4,17 +4,10 @@
 
 ## Deploy Status
 
-**Games**
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9f34722f-3f33-4d50-a478-f4d0bff08140/deploy-status)](https://app.netlify.com/sites/golf-games/deploys)
-
-**Docs**
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f5cdd9bd-30e7-44b1-b891-e983d8e9f0b5/deploy-status)](https://app.netlify.com/sites/golf-games-docs/deploys)
-
-**Golf Rules**
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c1fb66d9-a304-4d67-8a0b-99566fee9cf8/deploy-status)](https://app.netlify.com/sites/golfrules/deploys)
+![Netlify](https://img.shields.io/netlify/9f34722f-3f33-4d50-a478-f4d0bff08140?style=for-the-badge&logo=netlify&label=Game%20Site)
+![Netlify](https://img.shields.io/netlify/f5cdd9bd-30e7-44b1-b891-e983d8e9f0b5?style=for-the-badge&logo=netlify&label=Docs)
+![Netlify](https://img.shields.io/netlify/c1fb66d9-a304-4d67-8a0b-99566fee9cf8?style=for-the-badge&logo=netlify&label=Golf%20Rules)
+![Netlify](https://img.shields.io/netlify/02010868-72ff-43ec-996a-2b9f93a4403d?style=for-the-badge&logo=netlify&label=Original%20Version)
 
 ***Only alarming if failed, canceled has to be ignored***
 
