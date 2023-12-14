@@ -58,3 +58,7 @@ Regel 5.3a gilt unterschiedlich für jeden Partner, abhängig davon, wer zuerst 
 - Der Partner, der als Zweiter spielen wird, muss zur Startzeit entweder am Startort oder auf dem Loch nahe der Stelle sein, wo erwartet wird, dass der vom Abschlag gespielte Ball zur Ruhe kommt.
 
 Ist einer der Partner nicht auf diese Weise anwesend, verstößt die Partei gegen Regel 5.3a.
+
+## 22.5 Partner dürfen Schläger gemeinsam benutzen
+
+Partnern ist, abweichend von Regel 4.1b(2), erlaubt, Schläger gemeinsam zu gebrauchen, wenn die Gesamtzahl ihrer Schläger 14 nicht übersteigt.
