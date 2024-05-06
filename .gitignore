@@ -7,9 +7,7 @@ node_modules
 .env.*
 !.env.example
 vite.config.js.timestamp-*
-<<<<<<< HEAD
 vite.config.ts.timestamp-*
-=======
 
 # Server Files
 
@@ -22,4 +20,3 @@ app.js
 .netlify
 
 ~$ACodingCompetition2024.docx
->>>>>>> web/main

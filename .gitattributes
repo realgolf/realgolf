@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-*.js linguist-language=JavaScript
-*.svelte linguist-language=Svelte
-*.ts linguist-language=TypeScript
-*.scss linguist-language=SCSS
-*.html linguist-language=HTML
-*.md linguist-detectable=true
-*.md linguist-language=Markdown
-*.md linguist-documentation=false
-=======
 *.json linguist-detectable=true
 *.json linguist-language=JSON
 
@@ -22,4 +12,3 @@
 
 pnpm-lock.yaml linguist-vendored
 src/locales/*.json linguist-vendored
->>>>>>> web/main

@@ -5,20 +5,6 @@
 
 version: 2
 updates:
-<<<<<<< HEAD
-  - package-ecosystem: "npm"
-    directory: "site/server/"
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "documentation"
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "golfrules"
-    schedule:
-      interval: "daily"
-=======
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
@@ -28,4 +14,3 @@ updates:
     labels:
       - 'pnpm'
       - 'dependencies'
->>>>>>> web/main
