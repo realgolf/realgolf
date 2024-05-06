@@ -39,7 +39,7 @@ O RealGolf.Games Web oferece os seguintes recursos:
 - Autenticação do usuário com MongoDB
 - Rastreador de Pontuação de Campo de Golfe **Atualmente em desenvolvimento**
 - Funcionalidade multiplayer local para usuários jogarem um contra o outro no mesmo dispositivo.
-- Problema de recurso [#160](https://github.com/realgolf/Golf/issues/160) levantado para implementar multiplayer remoto, permitindo que os usuários compitam online um contra o outro.
+- Problema de recurso [#715](https://github.com/realgolf/Golf/issues/715) levantado para implementar multiplayer remoto, permitindo que os usuários compitam online um contra o outro.
 
 ## Jogos
 
