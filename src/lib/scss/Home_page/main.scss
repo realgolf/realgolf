@@ -1,0 +1,40 @@
+section {
+	margin-top: 2rem;
+
+	&:first-child {
+		margin-top: 0;
+	}
+}
+
+.hero {
+	margin-top: 1.5rem !important;
+
+	img {
+		width: 90vw;
+
+		@media screen and (min-width: 768px) {
+			width: 30rem;
+		}
+	}
+}
+
+.btn {
+	display: inline-block;
+	padding: 0.3rem 1rem;
+	background: var(--accent-color);
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+
+	&:hover {
+		background: var(--accent-color);
+		box-shadow: 0 4px 7px var(--shadow-color);
+	}
+}
+
+.cta {
+	p {
+		color: var(--label-color) !important;
+	}
+}

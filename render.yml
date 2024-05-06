@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: realgolf
+    env: node
+    buildCommand: pnpm install && pnpm run build
+    startCommand: pnpm run server

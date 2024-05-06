@@ -1,70 +1,95 @@
-![Real Golf Banner](./readme/images/logo_banner.PNG)
+# [RealGolf.Games](https://realgolf.games)
 
-[![CodeQL](https://github.com/MoinJulian/Golf/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)](https://github.com/MoinJulian/Golf/actions/workflows/github-code-scanning/codeql) ![GitHub Repo stars](https://img.shields.io/github/stars/MoinJulian/Golf) ![Recent Pull Requests](https://img.shields.io/github/issues-pr/moinjulian/golf) ![Open Issues](https://img.shields.io/github/issues-raw/moinjulian/golf) ![GitHub repo size](https://img.shields.io/github/repo-size/MoinJulian/Golf) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/moinjulian/golf)
+![RealGolf.Games Banner](https://raw.githubusercontent.com/realgolf/web/main/img/logo_banner.PNG)
 
-## Deploy Status
+#### **Read this in [other languages](./translation/translations.md).**
 
-![Netlify](https://img.shields.io/netlify/9f34722f-3f33-4d50-a478-f4d0bff08140?style=for-the-badge&logo=netlify&label=Game%20Site)
-![Netlify](https://img.shields.io/netlify/f5cdd9bd-30e7-44b1-b891-e983d8e9f0b5?style=for-the-badge&logo=netlify&label=Docs)
-![Netlify](https://img.shields.io/netlify/c1fb66d9-a304-4d67-8a0b-99566fee9cf8?style=for-the-badge&logo=netlify&label=Golf%20Rules)
-![Netlify](https://img.shields.io/netlify/02010868-72ff-43ec-996a-2b9f93a4403d?style=for-the-badge&logo=netlify&label=Original%20Version)
+<kbd>[<img title="Deutsch" alt="Deutsch" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/de.svg" width="22">](./translation/german/German.md)</kbd> <kbd>[<img title="Español" alt="Español" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/es.svg" width="22">](./translation/spanish/Spanish.md)</kbd> <kbd>[<img title="Français" alt="Français" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/fr.svg" width="22">](./translation/french/French.md)</kbd> <kbd>[<img title="Italiano" alt="Italiano" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/it.svg" width="22">](./translation/italian/Italian.md)</kbd> <kbd>[<img title="Português" alt="Português" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/pt.svg" width="22">](./translation/portuguese/Portuguese.md)</kbd>
 
-***Only alarming if failed, canceled has to be ignored***
+## Introduction
 
-## Licensing
+Welcome to the RealGolf.Games website repository! This project serves as the hub for RealGolf's training platform. Whether you're a developer, contributor, or user, this README provides essential information to get you started.
 
-The Games are licensed under the [All Rights Reserved](/game/LICENSE.md) license.
+You can visit the live website at [realgolf.games](https://realgolf.games).
 
-The Docs are licensed under the [MIT](/docs/LICENSE.md) license.
-The Golf Rules are also licensed under the [MIT](/golfrules/LICENSE.md) license.
+|        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| CI/CD  | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Frender-deploy-status-vwj3.onrender.com%2Fsrv-cn12obocmk4c73di1vg0&query=status&style=flat-square&logo=render&label=Render) [![CodeQL](https://github.com/realgolf/web/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/realgolf/web/actions/workflows/github-code-scanning/codeql) [![Codespell](https://github.com/realgolf/web/actions/workflows/codespell.yml/badge.svg?branch=main)](https://github.com/realgolf/web/actions/workflows/codespell.yml) [![Build Kit](https://github.com/realgolf/web/actions/workflows/kit.yml/badge.svg)](https://github.com/realgolf/web/actions/workflows/kit.yml) [![Build Server](https://github.com/realgolf/web/actions/workflows/server.yml/badge.svg)](https://github.com/realgolf/web/actions/workflows/server.yml) [![Crowdin](https://badges.crowdin.net/realgolf/localized.svg)](https://crowdin.com/project/realgolf) |
+| Issues | ![GitHub issues by-label](https://img.shields.io/github/issues/realgolf/web/feature) ![GitHub issues by-label](https://img.shields.io/github/issues/realgolf/web/bug) ![GitHub issues by-label](https://img.shields.io/github/issues/realgolf/web/game)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Stats  | ![GitHub repo size](https://img.shields.io/github/repo-size/realgolf/web) [![Lines of code](https://tokei.rs/b1/github/realgolf/web)](https://github.com/XAMPPRocky/tokei) [![wakatime](https://wakatime.com/badge/github/realgolf/web.svg)](https://wakatime.com/badge/github/realgolf/web) ![GitHub package.json version](https://img.shields.io/github/package-json/v/realgolf/web)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
-**You can also look into the [License](LICENSE.md) file in the Root Folder for more information.**
+## Project Overview
 
-## Documentation
+RealGolf.Games Web is a web-based platform that enhances your golf training experience. This repository contains all the data and code for the website.
 
-The Documentation and any other Information about this Project can be found here:
-[Real Golf Documentation](https://docs.realgolf.games)
+## Production Architecture
 
-## Golf Rules
+![RealGolf server site production architecture diagram](https://raw.githubusercontent.com/realgolf/web/main/img/architecture.png)
 
-The Golf Rules can be found here:
-[Golf Rules](https://rules.realgolf.games)
+## Badges
+
+- **Render Status**: ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Frender-deploy-status-vwj3.onrender.com%2Fsrv-cn12obocmk4c73di1vg0&query=status&style=flat-square&logo=render&label=Render) - Indicates the current deployment status of the website on Render.
+- **CodeQL**: [![CodeQL](https://github.com/realgolf/web/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/realgolf/web/actions/workflows/github-code-scanning/codeql) - Code quality analysis using GitHub CodeQL.
+- **GitHub Repo Size**: ![GitHub repo size](https://img.shields.io/github/repo-size/realgolf/web) - Shows the size of the GitHub repository.
+
+## Usage and Features
+
+RealGolf.Games Web offers the following features:
+
+- 3 different Golf Games, which include
+  - 4Winning
+  - Exact
+  - Precision
+- User Authentication with MongoDB
+- Golf Course Score Tracker **Currently under development**
+- Local multiplayer functionality for users to play against each other on the same device.
+- Feature issue [#160](https://github.com/realgolf/web/issues/160) raised for implementing remote multiplayer, enabling users to compete against each other online.
 
 ## Games
 
-The Games can be found on the domain below:
+- 4Winning
+- Exact
+- Precision
 
-[Real Golf](https://realgolf.games)
+<details>
+  <summary>View information about all the games</summary>
 
-## Milestones
+### 4Winning
 
-### Commit Milestone
+In 4Winning, the objective is to strategically connect four pieces in a row. Our version of the game features a larger board than the standard 4x4 layout, with 8 columns and 9 rows. The additional columns on each side introduce a challenge: players must hit a specific distance within the lateral deviation. This aspect becomes more pronounced in Silver Mode and above, adding complexity and requiring players to carefully consider their moves.
 
-You can see the Commit Milestone [here](./Commit_Milestones.md).
+![4Winning Game](https://raw.githubusercontent.com/realgolf/web/main/img/4Winning.png)
 
-## Screenshots
+### Exact
 
-![Dashboard](./readme/images/dashboard.png)
+Exact is a game where the objective is to hit 100 or below while scoring the most points. Players earn points based on the following criteria: Achieving exactly 100 meters awards 5 points, hitting multiples of ten earns 3 points, numbers with repeating digits score 2 points. Additionally, hitting the same row doubles the points earned. However, any other number exceeding 100 or falling below 5 results in a deduction of 1 point. Every other number between 5 and 100 scores 1 point. The challenge lies in balancing accuracy with maximizing points to achieve the highest score.
 
-![Games Tab](./readme/images/games.png)
+![Exact Game](https://raw.githubusercontent.com/realgolf/web/main/img/Exact.png)
 
-## What is Real Golf?
+### Precision
 
-Real Golf are all my games I've developed in the context of golf, the first version was
-made with JavaScript, the second and currently used version was made with [SvelteKit](https://kit.svelte.dev),
-which is a JavaScript Framework and the full stack Version of [Svelte](https://svelte.dev).
+Precision is a game where the objective is to get as close to the targets as possible. For every meter you miss the target, you will receive a deduction of one point. The winner of the game is the player with the highest points at the end. The game concludes until only one player has points remaining. You can observe the distance you need to shoot and the current team, along with the remaining points for each team.
 
-## Contributing Guidelines
+![Precision Game](https://raw.githubusercontent.com/realgolf/web/main/img/Precision.png)
 
-If you want to contribute to this project, please follow the guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md).
+</details>
 
-## Further Informations
+## License
 
-[FAQ](./readme/src/FAQ.md)  
-[Why did I decide to develop Real Golf](./readme/src/why-did-I-decide-to-develop-real-golf.md)  
-[Credits](./readme/src/Credits.md)  
-[What is Real Golf About?](./readme/src/What-is-Real-Golf-about.md)
+This project is licensed under the [All Rights Reserved License](LICENSE.md).
 
-## Copyright
+## Acknowledgments
 
-Copyright 2023 Julian Hammer
+We would like to thank the following projects and libraries for their contributions:
+
+- [SvelteKit](https://github.com/sveltejs/kit)
+- [MongoDB](https://github.com/mongodb)
+- [Render](https://github.com/renderinc)
+
+## Contact
+
+For inquiries or feedback, feel free to reach out:
+
+- Email: [Support](mailto:support@realgolf.games)
+
+Thank you for being a part of the RealGolf community!

@@ -1,0 +1,35 @@
+/**
+* Styles for the FourWinning Component
+*/
+
+/**
+* Styles the meters and points classes in the FourWinning component.
+*/
+
+.meters,
+.points {
+	flex: 0 0 25%;
+	box-sizing: border-box;
+	border: 5px solid var(--border-color);
+	min-width: calc(90vw / 15);
+	height: calc(50vh / 8);
+	text-align: center;
+	background-color: transparent;
+}
+
+/**
+* Styles the meters class when hovered in the FourWinning component.
+*/
+
+.meters:hover {
+	cursor: pointer;
+}
+
+/**
+* Styles the buttons in the FourWinning component.
+*/
+
+button {
+	cursor: pointer;
+	border: 5px solid var(--border-color);
+}

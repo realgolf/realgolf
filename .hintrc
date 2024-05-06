@@ -10,11 +10,15 @@
           "text-underline-offset"
         ]
       }
+<<<<<<< HEAD
     "axe/text-alternatives": [
       "default",
       {
         "document-title": "off"
   }
     "apple-touch-icons": "off"
+=======
+    ]
+>>>>>>> web/main
   }
 }

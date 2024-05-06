@@ -1,0 +1,35 @@
+{
+	"workbench.iconTheme": "material-icon-theme",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"files.associations": {
+		"*.css": "css"
+	},
+	"git.enableSmartCommit": true,
+	"git.confirmSync": false,
+	"svelte.enable-ts-plugin": true,
+	"editor.guides.bracketPairs": true,
+	"git.autofetch": true,
+	"git.ignoreRebaseWarning": true,
+	"workbench.colorTheme": "GitHub Dark",
+	"workbench.startupEditor": "none",
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "explicit",
+		"source.organizeImports": "explicit"
+	},
+	"editor.linkedEditing": true,
+	"git.openRepositoryInParentFolders": "always",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"githubPullRequests.fileListLayout": "tree",
+	"gitlens.graph.layout": "editor",
+	"githubPullRequests.pullBranch": "never",
+	"sonarlint.focusOnNewCode": true,
+	"lldb.library": "/Library/Developer/CommandLineTools/Library/PrivateFrameworks/LLDB.framework/Versions/A/LLDB",
+	"lldb.launch.expressions": "native",
+	"window.zoomLevel": -1,
+	"gitlens.ai.experimental.provider": "openai",
+	"gitlens.ai.experimental.openai.model": "gpt-3.5-turbo-1106",
+	"explorer.expandSingleFolderWorkspaces": true,
+	"explorer.compactFolders": false
+}

@@ -1,0 +1,21 @@
+.status {
+	display: flex;
+	flex-direction: row;
+	width: max-content !important;
+	height: max-content !important;
+	margin: 0.5rem 0;
+	margin-top: -0.3rem !important;
+	padding: 0.25rem;
+
+	p {
+		margin: 0 !important;
+	}
+
+	border: 1px solid var(--border-color);
+	border-radius: var(--border-radius);
+}
+
+.status.busy {
+	border: 1px solid rgb(158, 106, 3);
+	background-color: rgba(158, 106, 3, 0.372);
+}

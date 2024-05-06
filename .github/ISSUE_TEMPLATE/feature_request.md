@@ -1,10 +1,17 @@
 ---
 name: Feature request
+<<<<<<< HEAD
 about: Suggest an idea for this project
 title: ''
 labels: feature
 assignees: MoinJulian
 
+=======
+about: Suggest an idea for the project (for game ideas use the "Game Idea Template")
+title: '[FEATURE]'
+labels: feature
+assignees: MoinJulian
+>>>>>>> web/main
 ---
 
 **Is your feature request related to a problem? Please describe.**

@@ -1,0 +1,36 @@
+name: Build Kit
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      SECRET_MONGODB_USERDB_CONNECTION: ${{ secrets.SECRET_MONGODB_USERDB_CONNECTION }}
+      SECRET_MONGODB_COURSEDB_CONNECTION: ${{ secrets.SECRET_MONGODB_COURSEDB_CONNECTION }}
+      SECRET_JWT_KEY: ${{ secrets.SECRET_JWT_KEY }}
+      SECRET_EMAIL_PASSWORD: ${{ secrets.SECRET_EMAIL_PASSWORD }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20.12.1'
+
+      - name: Install dependencies
+        run: |
+          npm install -g pnpm@8.15.5
+          pnpm install
+
+      - name: Build kit
+        run: pnpm run build:kit

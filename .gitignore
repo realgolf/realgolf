@@ -7,4 +7,19 @@ node_modules
 .env.*
 !.env.example
 vite.config.js.timestamp-*
+<<<<<<< HEAD
 vite.config.ts.timestamp-*
+=======
+
+# Server Files
+
+server.js
+sockets.js
+chat.js
+app.js
+
+# Local Netlify folder
+.netlify
+
+~$ACodingCompetition2024.docx
+>>>>>>> web/main

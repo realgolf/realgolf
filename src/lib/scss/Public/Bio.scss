@@ -1,0 +1,44 @@
+.bio {
+	padding: 0.5rem 0;
+	max-width: 296px;
+}
+
+textarea {
+	background-color: var(--background-color);
+	color: var(--font-color);
+	font-size: var(--medium-font);
+	width: 100%;
+}
+
+.checkbox {
+	display: flex;
+	flex-direction: row;
+
+	& > label {
+		height: max-content;
+		margin-bottom: 0;
+	}
+
+	input {
+		margin-top: 0.1rem;
+		margin-left: 1rem;
+	}
+}
+
+.busy {
+	margin-left: 0.7rem;
+	margin-top: 0.3rem;
+}
+
+.followers {
+	font-size: var(--tiny-font);
+}
+
+.bio-text {
+	text-decoration: none !important;
+
+	:global(.user-mention) {
+		text-decoration: none !important;
+		font-weight: 600;
+	}
+}

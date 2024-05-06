@@ -1,0 +1,17 @@
+.feature {
+	margin-top: 0.5rem;
+
+	&:last-child {
+		margin-bottom: 0.5rem;
+	}
+
+	img {
+		border: 2px solid var(--border-color);
+		box-shadow: 2px 2px 2px var(--shadow-color);
+		width: 90vw;
+
+		@media screen and (min-width: 768px) {
+			width: 30rem;
+		}
+	}
+}
