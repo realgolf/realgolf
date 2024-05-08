@@ -163,6 +163,16 @@ const User_Schema = new mongoose.Schema({
 			handicap: { type: Number },
 			date: { type: Date }
 		}
+	],
+	planners: [
+		{
+			id: { type: String },
+			title: { type: String },
+			decription: { type: String },
+			dateOfCreation: { type: Date },
+			dateOfLastEdit: { type: Date },
+			plan: { type: String }
+		}
 	]
 });
 
