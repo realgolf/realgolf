@@ -1,5 +1,5 @@
 import { User_Model } from '$lib/server/user/models';
-import { redirect, type Actions } from '@sveltejs/kit';
+import { type Actions } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async (event) => {
@@ -26,7 +26,7 @@ export const load: PageServerLoad = async (event) => {
 };
 
 export const actions: Actions = {
-	new: async (event) => {
+	default: async (event) => {
 		const email = event.cookies.get('email');
 
 		const user = await User_Model?.findOne({ 'user.email': email });
@@ -52,7 +52,5 @@ export const actions: Actions = {
 		});
 
 		await user.save();
-
-		throw redirect(308, `/dashboard/planner/${id}`);
 	}
 };

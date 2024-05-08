@@ -13,7 +13,7 @@
 
 <p>Plan what you want to train on which day, with our Golf Trainings Planner</p>
 
-<form action="?/new" method="POST">
+<form method="POST">
 	<button>Create a new Planner</button>
 </form>
 
