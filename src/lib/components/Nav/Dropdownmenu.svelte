@@ -120,7 +120,7 @@
 		<div class="copyright row border-bottom">
 			<p><a href="/support"><Fa icon={faUsers} /> {$_('support')}</a></p>
 			<p><a href="/imprint"><Fa icon={faGavel} /> {$_('imprint_heading')}</a></p>
-			<p>© 2024 RealGolf.Games</p>
+			<p>&copy; 2021 - {new Date().getFullYear()} RealGolf.Games</p>
 			<p>{$_('all_rights_reserved')}</p>
 			<p>
 				<a class="underline" target="_blank" href="https://github.com/realgolf">{$_('github')}</a>
