@@ -16,5 +16,22 @@ export const load: PageServerLoad = async (event) => {
 		};
 	}
 
-	return { id };
+	const currentPlanner = user?.planners.find((planner) => planner.id === id);
+
+	if (!currentPlanner) {
+		return {
+			status: 404,
+			body: {
+				error: 'Planner not found'
+			}
+		};
+	}
+
+	const title = currentPlanner.title;
+	const description = currentPlanner.description;
+	const dateOfCreation = currentPlanner.dateOfCreation;
+	const dateOfLastEdit = currentPlanner.dateOfLastEdit;
+	const plan = currentPlanner.plan;
+
+	return { id, title, description, dateOfCreation, dateOfLastEdit, plan };
 };
