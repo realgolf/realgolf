@@ -1,4 +1,5 @@
 import { User_Model } from '$lib/server/user/models';
+import { redirect } from '@sveltejs/kit';
 import type { Actions, PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async (event) => {
@@ -74,5 +75,6 @@ export const actions: Actions = {
 		currentPlanner.dateOfLastEdit = dateOfLastEdit;
 
 		await user.save();
+		throw redirect(303, `/dashboard/planner/${id}`);
 	}
 };

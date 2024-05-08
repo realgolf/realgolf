@@ -30,13 +30,31 @@
 	{/if}
 </div>
 
-<a href="/dashboard/planner/{data.id}/edit">
-	<button>Edit</button>
-</a>
+<div class="utils">
+	<a href="/dashboard/planner/{data.id}/edit">
+		<button>Edit</button>
+	</a>
+	<form method="POST">
+		<button type="submit" class="delete">Delete</button>
+	</form>
+</div>
 
 <style lang="scss">
 	.date {
 		font-size: 0.8em;
 		color: #666;
+	}
+
+	.delete {
+		color: red !important;
+	}
+
+	.utils {
+		display: flex;
+		flex-direction: row;
+		
+		a {
+			margin-right: 1rem;
+		}
 	}
 </style>

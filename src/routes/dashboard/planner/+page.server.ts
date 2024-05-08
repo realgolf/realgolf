@@ -1,5 +1,5 @@
 import { User_Model } from '$lib/server/user/models';
-import { type Actions } from '@sveltejs/kit';
+import { redirect, type Actions } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async (event) => {
@@ -52,5 +52,6 @@ export const actions: Actions = {
 		});
 
 		await user.save();
+		throw redirect(303, `/dashboard/planner/${id}`);
 	}
 };
