@@ -32,7 +32,7 @@ Assolutamente sì! I nostri giochi sono completamente gratuiti. Tutto quello che
 
 Il tuo contributo creativo è molto apprezzato! Se hai idee di nuovi giochi entusiasmanti, ti incoraggiamo a partecipare. Ecco come:
 
-- **Apri un Problema su GitHub:** Sentiti libero di aprire un Problema sul nostro repository [GitHub](https://github.com/realgolf/web/issues) e contrassegnalo con "gioco". La tua idea verrà esaminata e considerata dal nostro team.
+- **Apri un Problema su GitHub:** Sentiti libero di aprire un Problema sul nostro repository [GitHub](https://github.com/realgolf/Golf/issues) e contrassegnalo con "gioco". La tua idea verrà esaminata e considerata dal nostro team.
 
 - **Invia una Email:** Puoi anche condividere le tue idee via email a [Supporto](mailto:support@realgolf.games). Accogliamo con favore i tuoi suggerimenti e li esamineremo con entusiasmo.
 
@@ -40,9 +40,9 @@ Per i tuoi preziosi contributi, il tuo nome verrà riconosciuto nel nostro file 
 
 ## Come posso segnalare bug o suggerire nuove funzionalità?
 
-Per segnalare bug, puoi aprire un Problema sul nostro [repository GitHub](https://github.com/realgolf/web/issues) e contrassegnarlo con "bug". In alternativa, puoi inviare un'email a [Supporto](mailto:support@realgolf.games).
+Per segnalare bug, puoi aprire un Problema sul nostro [repository GitHub](https://github.com/realgolf/Golf/issues) e contrassegnarlo con "bug". In alternativa, puoi inviare un'email a [Supporto](mailto:support@realgolf.games).
 
-Per suggerire nuove funzionalità, puoi anche aprire un problema sul nostro [repository GitHub](https://github.com/realgolf/web/issues) e contrassegnarlo con "funzionalità". Puoi anche inviare i tuoi suggerimenti via email a [Supporto](mailto:support@realgolf.games).
+Per suggerire nuove funzionalità, puoi anche aprire un problema sul nostro [repository GitHub](https://github.com/realgolf/Golf/issues) e contrassegnarlo con "funzionalità". Puoi anche inviare i tuoi suggerimenti via email a [Supporto](mailto:support@realgolf.games).
 
 ## Il progetto è open source?
 

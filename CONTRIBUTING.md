@@ -27,7 +27,7 @@ Thank you for considering contributing to our repository by translating importan
 - Use the `git clone` command to clone the forked repository to your local machine.
 
 ```bash
-git clone https://github.com/realgolf/web.git
+git clone https://github.com/realgolf/Golf.git
 ```
 
 - Name your version of the repository "web" if possible.

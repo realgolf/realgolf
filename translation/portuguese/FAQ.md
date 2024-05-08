@@ -32,7 +32,7 @@ Absolutamente! Nossos jogos são completamente gratuitos para jogar. Tudo o que 
 
 Sua contribuição criativa é muito valorizada! Se você tiver ideias novas e emocionantes de jogos, encorajamos você a se envolver. Veja como:
 
-- **Abra uma Issue no GitHub:** Fique à vontade para abrir uma Issue em nosso [repositório GitHub](https://github.com/realgolf/web/issues) e rotulá-la com "jogo". Sua ideia será revisada e considerada por nossa equipe.
+- **Abra uma Issue no GitHub:** Fique à vontade para abrir uma Issue em nosso [repositório GitHub](https://github.com/realgolf/Golf/issues) e rotulá-la com "jogo". Sua ideia será revisada e considerada por nossa equipe.
 
 - **Nos envie um Email:** Você também pode compartilhar suas ideias por e-mail para [Suporte](mailto:support@realgolf.games). Agradecemos suas sugestões e as exploraremos com entusiasmo.
 
@@ -40,9 +40,9 @@ Para suas valiosas contribuições, seu nome será reconhecido em nosso arquivo 
 
 ## Como posso relatar bugs ou sugerir novos recursos?
 
-Para relatar bugs, você pode abrir uma Issue em nosso [repositório GitHub](https://github.com/realgolf/web/issues) e rotulá-la como "bug". Alternativamente, você pode enviar um e-mail para [Suporte](mailto:support@realgolf.games).
+Para relatar bugs, você pode abrir uma Issue em nosso [repositório GitHub](https://github.com/realgolf/Golf/issues) e rotulá-la como "bug". Alternativamente, você pode enviar um e-mail para [Suporte](mailto:support@realgolf.games).
 
-Para sugerir novos recursos, você também pode abrir uma issue em nosso [repositório GitHub](https://github.com/realgolf/web/issues) e rotulá-la como "recurso". Você também pode enviar suas sugestões por e-mail para [Suporte](mailto:support@realgolf.games).
+Para sugerir novos recursos, você também pode abrir uma issue em nosso [repositório GitHub](https://github.com/realgolf/Golf/issues) e rotulá-la como "recurso". Você também pode enviar suas sugestões por e-mail para [Suporte](mailto:support@realgolf.games).
 
 ## O projeto é de código aberto?
 

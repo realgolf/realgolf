@@ -32,7 +32,7 @@ Absolument ! Nos jeux sont totalement gratuits. Il vous suffit de créer un comp
 
 Votre contribution créative est très appréciée ! Si vous avez des idées de nouveaux jeux passionnants, nous vous encourageons à vous impliquer. Voici comment faire :
 
-- **Ouvrez un problème sur GitHub :** N'hésitez pas à ouvrir un problème sur notre [référentiel GitHub](https://github.com/realgolf/web/issues) et à le marquer avec "jeu". Votre idée sera examinée et prise en compte par notre équipe.
+- **Ouvrez un problème sur GitHub :** N'hésitez pas à ouvrir un problème sur notre [référentiel GitHub](https://github.com/realgolf/Golf/issues) et à le marquer avec "jeu". Votre idée sera examinée et prise en compte par notre équipe.
 
 - **Envoyez-nous un e-mail :** Vous pouvez également partager vos idées par e-mail à [Support](mailto:support@realgolf.games). Nous accueillons vos suggestions avec plaisir et les explorerons avec enthousiasme.
 
@@ -40,9 +40,9 @@ Pour vos précieuses contributions, votre nom sera reconnu dans notre fichier [C
 
 ## Comment puis-je signaler des bugs ou suggérer de nouvelles fonctionnalités ?
 
-Pour signaler des bugs, vous pouvez ouvrir un problème sur notre [référentiel GitHub](https://github.com/realgolf/web/issues) et le marquer avec "bug". Alternativement, vous pouvez envoyer un e-mail à [Support](mailto:support@realgolf.games).
+Pour signaler des bugs, vous pouvez ouvrir un problème sur notre [référentiel GitHub](https://github.com/realgolf/Golf/issues) et le marquer avec "bug". Alternativement, vous pouvez envoyer un e-mail à [Support](mailto:support@realgolf.games).
 
-Pour suggérer de nouvelles fonctionnalités, vous pouvez également ouvrir un problème sur notre [référentiel GitHub](https://github.com/realgolf/web/issues) et le marquer avec "fonctionnalité". Vous pouvez aussi envoyer vos suggestions par e-mail à [Support](mailto:support@realgolf.games).
+Pour suggérer de nouvelles fonctionnalités, vous pouvez également ouvrir un problème sur notre [référentiel GitHub](https://github.com/realgolf/Golf/issues) et le marquer avec "fonctionnalité". Vous pouvez aussi envoyer vos suggestions par e-mail à [Support](mailto:support@realgolf.games).
 
 ## Le projet est-il open source ?
 
