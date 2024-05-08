@@ -1,7 +1,7 @@
 ---
 name: Documentation Update
 about: Issues related to the improvment to our Documentation
-title: ""
+title: ''
 labels: documentation
 assignees: MoinJulian
 ---
