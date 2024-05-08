@@ -19,7 +19,7 @@
 
 {#if data.planners}
 	{#each data.planners as planner}
-		<a href="/dashboard/planner/${planner.id}">
+		<a href="/dashboard/planner/{planner.id}">
 			<div>
 				<p>{planner.title}</p>
 				<p>{planner.id}</p>

@@ -30,6 +30,10 @@
 	{/if}
 </div>
 
+<a href="/dashboard/planner/{data.id}/edit">
+	<button>Edit</button>
+</a>
+
 <style lang="scss">
 	.date {
 		font-size: 0.8em;
