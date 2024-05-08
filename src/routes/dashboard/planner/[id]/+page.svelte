@@ -8,7 +8,7 @@
 
 <h1>{data.title} - {data.id}</h1>
 
-<p class="date">{data.dateOfCreation?.toLocaleDateString()}</p>
+<p class="date">{data.dateOfCreation?.toLocaleDateString()} - {data.dateOfLastEdit?.toLocaleDateString()}</p>
 
 <style lang="scss">
     .date {
