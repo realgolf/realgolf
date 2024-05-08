@@ -1,10 +1,8 @@
 <script lang="ts">
-	import type { ActionData } from "./$types";
+	import type { ActionData, PageData } from './$types';
 
-
-	
-    // export let data: PageData;
-    export let form: ActionData;
+	export let data: PageData;
+	export let form: ActionData;
 </script>
 
 <svelte:head>
@@ -19,6 +17,17 @@
 	<button>Create a new Planner</button>
 </form>
 
+{#if data.planners}
+	{#each data.planners as planner}
+		<a href="/dashboard/planner/${planner.id}">
+			<div>
+				<p>{planner.title}</p>
+				<p>{planner.id}</p>
+			</div>
+		</a>
+	{/each}
+{/if}
+
 {#if form?.body.error}
-     <p class="error">{form.status} - {form.body.error}</p>
+	<p class="error">{form.status} - {form.body.error}</p>
 {/if}
