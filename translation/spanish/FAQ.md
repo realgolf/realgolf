@@ -32,7 +32,7 @@ Siguiendo estos pasos, crearás una cuenta que te permitirá sumergirte en el mu
 
 ¡Tu aporte creativo es muy valorado! Si tienes ideas emocionantes para nuevos juegos, te animamos a involucrarte. Así es cómo:
 
-- **Abrir un Issue en GitHub:** Siéntete libre de abrir un Issue en nuestro [repositorio de GitHub](https://github.com/realgolf/web/issues) y etiquétalo con "game". Tu idea será revisada y considerada por nuestro equipo.
+- **Abrir un Issue en GitHub:** Siéntete libre de abrir un Issue en nuestro [repositorio de GitHub](https://github.com/realgolf/Golf/issues) y etiquétalo con "game". Tu idea será revisada y considerada por nuestro equipo.
 
 - **Envíanos un Correo Electrónico:** También puedes compartir tus ideas por correo electrónico a [Soporte](mailto:support@realgolf.games). Apreciamos tus sugerencias y las exploraremos con entusiasmo.
 
@@ -40,9 +40,9 @@ Por tus valiosas contribuciones, tu nombre será reconocido en nuestro archivo [
 
 ## ¿Cómo puedo reportar errores o sugerir nuevas características?
 
-Para reportar errores, puedes abrir un Issue en nuestro [repositorio de GitHub](https://github.com/realgolf/web/issues) y etiquetarlo con "bug". Alternativamente, puedes enviar un correo electrónico a [Soporte](mailto:support@realgolf.games).
+Para reportar errores, puedes abrir un Issue en nuestro [repositorio de GitHub](https://github.com/realgolf/Golf/issues) y etiquetarlo con "bug". Alternativamente, puedes enviar un correo electrónico a [Soporte](mailto:support@realgolf.games).
 
-Para sugerir nuevas características, también puedes abrir un issue en nuestro [repositorio de GitHub](https://github.com/realgolf/web/issues) y etiquetarlo con "feature". También puedes enviar tus sugerencias por correo electrónico a [Soporte](mailto:support@realgolf.games).
+Para sugerir nuevas características, también puedes abrir un issue en nuestro [repositorio de GitHub](https://github.com/realgolf/Golf/issues) y etiquetarlo con "feature". También puedes enviar tus sugerencias por correo electrónico a [Soporte](mailto:support@realgolf.games).
 
 ## ¿El proyecto es de código abierto?
 

@@ -32,7 +32,7 @@ Absolutely! Our games are completely free to play. All you need to do is create 
 
 Your creative input is highly valued! If you have exciting new game ideas, we encourage you to get involved. Here's how:
 
-- **Open an Issue on GitHub:** Feel free to open an Issue on our [GitHub](https://github.com/realgolf/web/issues) repository and label it with "game". Your idea will be reviewed and considered by our team.
+- **Open an Issue on GitHub:** Feel free to open an Issue on our [GitHub](https://github.com/realgolf/Golf/issues) repository and label it with "game". Your idea will be reviewed and considered by our team.
 
 - **Email Us:** You can also share your ideas via email to [Support](mailto:support@realgolf.games). We welcome your suggestions and will eagerly explore each one.
 
@@ -40,9 +40,9 @@ For your valuable contributions, your name will be recognized in our [Contributo
 
 ## How can I report bugs or suggest new features?
 
-To report bugs, you can open an Issue on our [GitHub repository](https://github.com/realgolf/web/issues) and label it with "bug." Alternatively, you can send an email to [Support](mailto:support@realgolf.games).
+To report bugs, you can open an Issue on our [GitHub repository](https://github.com/realgolf/Golf/issues) and label it with "bug." Alternatively, you can send an email to [Support](mailto:support@realgolf.games).
 
-To suggest new features, you can also open an issue on our [GitHub repository](https://github.com/realgolf/web/issues) and label it with "feature." You can also send your suggestions via email to [Support](mailto:support@realgolf.games).
+To suggest new features, you can also open an issue on our [GitHub repository](https://github.com/realgolf/Golf/issues) and label it with "feature." You can also send your suggestions via email to [Support](mailto:support@realgolf.games).
 
 ## Is the project open source?
 

@@ -2,9 +2,9 @@
 	import sanitizeHTML from '$lib/shared/utils/sanitizeHTML';
 	import { _, isLoading } from 'svelte-i18n';
 
-	let github_link = `<a href="https://github.com/realgolf/web/issues">GitHub</a>`;
+	let github_link = `<a href="https://github.com/realgolf/Golf/issues">GitHub</a>`;
 	let support_email = `<a href="mailto:support@moinjulian.com">support@moinjulian.com</a>`;
-	let contributors = `<a href="https://github.com/realgolf/web/blob/main/Contributors.md">Contributors.md</a>`;
+	let contributors = `<a href="https://github.com/realgolf/Golf/blob/main/Contributors.md">Contributors.md</a>`;
 	let svelte_kit = `<a href="https://kit.svelte.dev">SvelteKit</a>`;
 	let mongodb = `<a href="https://www.mongodb.com">MongoDB</a>`;
 </script>

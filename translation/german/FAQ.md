@@ -32,7 +32,7 @@ Absolut! Unsere Spiele sind komplett kostenlos. Alles was Sie tun müssen, ist e
 
 Ihre kreative Mitarbeit ist sehr wertvoll! Wenn Sie aufregende neue Spielideen haben, ermutigen wir Sie, sich einzubringen. Hier ist wie:
 
-- **Öffnen Sie ein Issue auf GitHub:** Sie können gerne ein Issue in unserem [GitHub](https://github.com/realgolf/web/issues)-Repository öffnen und es mit "game" kennzeichnen. Ihr Vorschlag wird von unserem Team geprüft und in Betracht gezogen.
+- **Öffnen Sie ein Issue auf GitHub:** Sie können gerne ein Issue in unserem [GitHub](https://github.com/realgolf/Golf/issues)-Repository öffnen und es mit "game" kennzeichnen. Ihr Vorschlag wird von unserem Team geprüft und in Betracht gezogen.
 
 - **Senden Sie uns eine E-Mail:** Sie können Ihre Ideen auch per E-Mail an [Support](mailto:support@realgolf.games) senden. Wir freuen uns über Ihre Vorschläge und werden jeden einzeln prüfen.
 
@@ -40,9 +40,9 @@ Für Ihre wertvollen Beiträge wird Ihr Name in unserer [Contributors.md](/Contr
 
 ## Wie kann ich Fehler melden oder neue Funktionen vorschlagen?
 
-Um Fehler zu melden, können Sie ein Issue in unserem [GitHub-Repository](https://github.com/realgolf/web/issues) öffnen und es mit "bug" kennzeichnen. Alternativ können Sie eine E-Mail an [Support](mailto:support@realgolf.games) senden.
+Um Fehler zu melden, können Sie ein Issue in unserem [GitHub-Repository](https://github.com/realgolf/Golf/issues) öffnen und es mit "bug" kennzeichnen. Alternativ können Sie eine E-Mail an [Support](mailto:support@realgolf.games) senden.
 
-Um neue Funktionen vorzuschlagen, können Sie auch ein Issue in unserem [GitHub-Repository](https://github.com/realgolf/web/issues) öffnen und es mit "feature" kennzeichnen. Sie können auch Ihre Vorschläge per E-Mail an [Support](mailto:support@realgolf.games) senden.
+Um neue Funktionen vorzuschlagen, können Sie auch ein Issue in unserem [GitHub-Repository](https://github.com/realgolf/Golf/issues) öffnen und es mit "feature" kennzeichnen. Sie können auch Ihre Vorschläge per E-Mail an [Support](mailto:support@realgolf.games) senden.
 
 ## Ist das Projekt Open Source?
 
