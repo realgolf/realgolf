@@ -6,8 +6,6 @@
 	"private": true,
 	"main": "server/app.js",
 	"scripts": {
-		"server": "node server/app.js",
-		"server:dev": "nodemon server/app.js",
 		"dev": "vite dev",
 		"build:kit": "vite build",
 		"build:server": "tsc server/app.ts --esModuleInterop --target esnext --moduleResolution node",
@@ -21,8 +19,10 @@
 		"lint": "prettier --check . && eslint .",
 		"prepare": "husky",
 		"precommit": ".husky/pre-commit",
-		"start": "pnpm run build && pnpm run server",
-		"extract": "svelte-i18n extract \"src/**/*.svelte\" src/locales/en.json"
+		"extract": "svelte-i18n extract \"src/**/*.svelte\" src/locales/en.json",
+		"server": "node server/app.js",
+		"server:dev": "nodemon server/app.js",
+		"start": "pnpm run build && pnpm run server"
 	},
 	"hooks": {
 		"pre-commit": "pnpm run build && pnpm run format && pnpm run lint"
