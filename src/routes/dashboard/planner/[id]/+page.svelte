@@ -9,7 +9,7 @@
 <h1>{data.title} - {data.id}</h1>
 
 <p class="date">
-	{data.dateOfCreation?.toLocaleDateString()} - {data.dateOfLastEdit?.toLocaleDateString()} / {data.visits} Visits
+	{data.dateOfCreation?.toLocaleDateString()} - {data.dateOfLastEdit?.toLocaleDateString()} / {data.visits} Visits / {data.edits} Edits
 </p>
 
 <div class="description">

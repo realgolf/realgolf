@@ -73,6 +73,7 @@ export const actions: Actions = {
 		currentPlanner.description = description;
 		currentPlanner.plan = plan;
 		currentPlanner.dateOfLastEdit = dateOfLastEdit;
+		currentPlanner.edits += 1;
 
 		await user.save();
 		throw redirect(303, `/dashboard/planner/${id}`);
