@@ -12,8 +12,8 @@
 	{data.dateOfCreation?.toLocaleDateString()} - {data.dateOfLastEdit?.toLocaleDateString()}
 </p>
 
-<p>Description</p>
 <div class="description">
+	<b>Description</b>
 	{#if data.description}
 		<p>{data.description}</p>
 	{:else}
@@ -21,10 +21,10 @@
 	{/if}
 </div>
 
-<p>Plan</p>
 <div class="plan">
+	<b>Plan</b>
 	{#if data.plan}
-		<p>{data.plan}</p>
+		<pre>{data.plan}</pre>
 	{:else}
 		<p class="error">No plan available</p>
 	{/if}
@@ -45,16 +45,23 @@
 		color: #666;
 	}
 
-	.delete {
-		color: red !important;
+	.plan {
+		pre {
+			margin-left: 1rem;
+		}
 	}
 
 	.utils {
 		display: flex;
 		flex-direction: row;
-		
+		margin-top: 1rem;
+
 		a {
 			margin-right: 1rem;
+		}
+
+		.delete {
+			color: red !important;
 		}
 	}
 </style>
