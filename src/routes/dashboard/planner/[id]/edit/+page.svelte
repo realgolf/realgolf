@@ -41,5 +41,8 @@
 		background-color: var(--bg-color);
 		color: var(--font-color);
 		width: 100%;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-size: var(--medium-font);
+		padding-left: 0.2rem;
 	}
 </style>
