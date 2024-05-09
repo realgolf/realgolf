@@ -1,13 +1,15 @@
 <script lang="ts">
+	import sanitizeHTML from '$lib/shared/utils/sanitizeHTML';
+	import { _ } from 'svelte-i18n';
 	import type { PageData } from '../../../routes/[name]/$types';
 
 	export let data: PageData;
 </script>
 
 <div class="planner">
-	<p>
-		You can view all of {data.user_username} Planners
-		<a href="/{data.user_username}/planner">here</a>. You can star them to let {data.user_username} know
-		that you like his Planner and thinking aboout using it for your routine as well.
-	</p>
+	<p
+		use:sanitizeHTML={[
+			$_('public_description_of_planner', { values: { username: data.user_username } })
+		]}
+	/>
 </div>

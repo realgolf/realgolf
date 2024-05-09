@@ -306,5 +306,6 @@
 	"edit": "Edit",
 	"delete": "Delete",
 	"cancel": "Cancel",
-	"plan_edit_title": "Title"
+	"plan_edit_title": "Title",
+	"public_description_of_planner": "You can view all of {username}`s Planners <a href=\"/{username}/planner\">here</a>. You can star them to let {username} know that you like his Planner and thinking about using it for your own routine as well."
 }
