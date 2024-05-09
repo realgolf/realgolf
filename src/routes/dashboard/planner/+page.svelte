@@ -1,4 +1,7 @@
 <script lang="ts">
+	import { faEye, faStar } from '@fortawesome/free-regular-svg-icons';
+	import { faPen } from '@fortawesome/free-solid-svg-icons';
+	import Fa from 'svelte-fa';
 	import { _, isLoading } from 'svelte-i18n';
 	import type { ActionData, PageData } from './$types';
 
@@ -15,10 +18,10 @@
 {:else}
 	<h1>{$_('trainings_planner')}</h1>
 
-	<p>{$_("trainings_planner_description")}</p>
+	<p>{$_('trainings_planner_description')}</p>
 
 	<form method="POST">
-		<button>{$_("create_new_planner")}</button>
+		<button>{$_('create_new_planner')}</button>
 	</form>
 
 	{#if data.planners}
@@ -27,6 +30,14 @@
 				<div>
 					<p>{planner.title} - {planner.id}</p>
 					<p>{planner.description}</p>
+					<div class="stats">
+						<p>
+							{planner.stars.count}
+							<Fa icon={faStar} /> - {planner.visits}
+							<Fa icon={faEye} /> - {planner.edits}
+							<Fa icon={faPen} />
+						</p>
+					</div>
 				</div>
 			</a>
 		{/each}
@@ -38,5 +49,5 @@
 {/if}
 
 <style lang="scss">
-	@import "$lib/scss/Planner/Planners.scss";
+	@import '$lib/scss/Planner/Planners.scss';
 </style>
