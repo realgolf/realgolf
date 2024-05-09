@@ -168,10 +168,13 @@ const User_Schema = new mongoose.Schema({
 		{
 			id: { type: String },
 			title: { type: String },
-			decription: { type: String },
+			description: { type: String },
 			dateOfCreation: { type: Date },
 			dateOfLastEdit: { type: Date },
-			plan: { type: String }
+			plan: { type: String },
+			visits: { type: Number, default: 0 },
+			edits: { type: Number, default: 0 },
+			stars: { type: Number, default: 0 }
 		}
 	]
 });
