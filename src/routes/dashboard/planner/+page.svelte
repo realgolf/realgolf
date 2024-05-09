@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { _, isLoading } from 'svelte-i18n';
 	import type { ActionData, PageData } from './$types';
 
 	export let data: PageData;
@@ -6,30 +7,34 @@
 </script>
 
 <svelte:head>
-	<title>Real Golf - Trainings Planner</title>
+	<title>Real Golf - {$_('trainings_planner')}</title>
 </svelte:head>
 
-<h1>Trainings Planner</h1>
+{#if $isLoading}
+	<p>Loading...</p>
+{:else}
+	<h1>{$_('trainings_planner')}</h1>
 
-<p>Plan what you want to train on which day, with our Golf Trainings Planner</p>
+	<p>{$_("trainings_planner_description")}</p>
 
-<form method="POST">
-	<button>Create a new Planner</button>
-</form>
+	<form method="POST">
+		<button>{$_("create_new_planner")}</button>
+	</form>
 
-{#if data.planners}
-	{#each data.planners as planner}
-		<a href="/dashboard/planner/{planner.id}" class="planner">
-			<div>
-				<p>{planner.title} - {planner.id}</p>
-				<p>{planner.description}</p>
-			</div>
-		</a>
-	{/each}
-{/if}
+	{#if data.planners}
+		{#each data.planners as planner}
+			<a href="/dashboard/planner/{planner.id}" class="planner">
+				<div>
+					<p>{planner.title} - {planner.id}</p>
+					<p>{planner.description}</p>
+				</div>
+			</a>
+		{/each}
+	{/if}
 
-{#if form?.body.error}
-	<p class="error">{form.status} - {form.body.error}</p>
+	{#if form?.body.error}
+		<p class="error">{form.status} - {form.body.error}</p>
+	{/if}
 {/if}
 
 <style lang="scss">

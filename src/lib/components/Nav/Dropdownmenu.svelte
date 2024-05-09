@@ -103,7 +103,7 @@
 				<a href="/dashboard/levels"><span><Fa icon={faChartLine} /></span>{$_('levels')}</a>
 				<a href="/dashboard/rules"><span><Fa icon={faBook} /></span>{$_('rules')}</a>
 				<a href="/dashboard/tools"><span><Fa icon={faWrench} /></span>{$_('tools')}</a>
-				<a href="/dashboard/planner"><span><Fa icon={faList} /></span>Planner</a>
+				<a href="/dashboard/planner"><span><Fa icon={faList} /></span>{$_("planner")}</a>
 			</div>
 		{/if}
 		<div class="external-links row border-bottom">

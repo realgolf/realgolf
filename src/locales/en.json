@@ -291,5 +291,20 @@
 	"bug": "Bug",
 	"feature_request": "Feature",
 	"message": "Message",
-	"submit": "Submit"
+	"submit": "Submit",
+	"planner": "Planner",
+	"trainings_planner": "Trainings Planner",
+	"trainings_planner_description": "Plan what you want to train on which day, with our Golf Trainings Planner.",
+	"create_new_planner": "Create a new Planner",
+	"trainings_plan": "Trainings Plan",
+	"visits": "Visits",
+	"edits": "Edits",
+	"description": "Description",
+	"no_description": "No description available",
+	"plan": "Plan",
+	"no_plan": "No plan available",
+	"edit": "Edit",
+	"delete": "Delete",
+	"cancel": "Cancel",
+	"plan_edit_title": "Title"
 }
