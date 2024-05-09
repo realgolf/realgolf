@@ -174,7 +174,14 @@ const User_Schema = new mongoose.Schema({
 			plan: { type: String },
 			visits: { type: Number, default: 0 },
 			edits: { type: Number, default: 0 },
-			stars: { type: Number, default: 0 }
+			stars: {
+				count: { type: Number, default: 0 },
+				list: [
+					{
+						username: { type: String }
+					}
+				]
+			}
 		}
 	]
 });
