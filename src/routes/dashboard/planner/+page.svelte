@@ -38,16 +38,5 @@
 {/if}
 
 <style lang="scss">
-	.planner {
-		display: block;
-		padding: 1rem;
-		border: 1px solid var(--border-color);
-		margin: 1rem 0;
-		text-decoration: none;
-
-		&:hover {
-			color: var(--font-color);
-			box-shadow: 2px 2px 5px var(--shadow-color);
-		}
-	}
+	@import "$lib/scss/Planner/Planners.scss";
 </style>

@@ -1,0 +1,24 @@
+.date {
+	font-size: 0.8em;
+	color: #666;
+}
+
+.plan {
+	pre {
+		margin-left: 1rem;
+	}
+}
+
+.utils {
+	display: flex;
+	flex-direction: row;
+	margin-top: 1rem;
+
+	a {
+		margin-right: 1rem;
+	}
+
+	.delete {
+		color: red !important;
+	}
+}

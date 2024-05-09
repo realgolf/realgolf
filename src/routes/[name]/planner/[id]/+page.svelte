@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>{$_('trainings_plan')} - {data.id}</title>
+	<title>{data.username}`s {$_('trainings_plan')} - {data.id}</title>
 </svelte:head>
 
 {#if $isLoading}
@@ -35,15 +35,6 @@
 		{:else}
 			<p class="error">{$_('no_plan')}</p>
 		{/if}
-	</div>
-
-	<div class="utils">
-		<a href="/dashboard/planner/{data.id}/edit">
-			<button>{$_('edit')}</button>
-		</a>
-		<form method="POST">
-			<button type="submit" class="delete">{$_('delete')}</button>
-		</form>
 	</div>
 {/if}
 
