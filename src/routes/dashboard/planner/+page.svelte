@@ -19,10 +19,10 @@
 
 {#if data.planners}
 	{#each data.planners as planner}
-		<a href="/dashboard/planner/{planner.id}">
+		<a href="/dashboard/planner/{planner.id}" class="planner">
 			<div>
-				<p>{planner.title}</p>
-				<p>{planner.id}</p>
+				<p>{planner.title} - {planner.id}</p>
+				<p>{planner.description}</p>
 			</div>
 		</a>
 	{/each}
@@ -31,3 +31,18 @@
 {#if form?.body.error}
 	<p class="error">{form.status} - {form.body.error}</p>
 {/if}
+
+<style lang="scss">
+	.planner {
+		display: block;
+		padding: 1rem;
+		border: 1px solid var(--border-color);
+		margin: 1rem 0;
+		text-decoration: none;
+
+		&:hover {
+			color: var(--font-color);
+			box-shadow: 2px 2px 5px var(--shadow-color);
+		}
+	}
+</style>
