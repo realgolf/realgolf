@@ -48,7 +48,10 @@ export const actions: Actions = {
 			description: '',
 			dateOfCreation: new Date(),
 			dateOfLastEdit: new Date(),
-			plan: ''
+			plan: '',
+			visits: 0,
+			edits: 0,
+			stars: 0
 		});
 
 		await user.save();

@@ -1,3 +1,4 @@
+import { updateVisitCount } from '$lib/scripts/Planner/updateVisitCount';
 import { User_Model } from '$lib/server/user/models';
 import { redirect, type Actions } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
@@ -28,13 +29,16 @@ export const load: PageServerLoad = async (event) => {
 		};
 	}
 
+	await updateVisitCount(email, id);
+
 	const title = currentPlanner.title;
 	const description = currentPlanner.description;
 	const dateOfCreation = currentPlanner.dateOfCreation;
 	const dateOfLastEdit = currentPlanner.dateOfLastEdit;
 	const plan = currentPlanner.plan;
+	const visits = currentPlanner.visits;
 
-	return { id, title, description, dateOfCreation, dateOfLastEdit, plan };
+	return { id, title, description, dateOfCreation, dateOfLastEdit, plan, visits };
 };
 
 export const actions: Actions = {
