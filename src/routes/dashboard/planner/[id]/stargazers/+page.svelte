@@ -31,19 +31,21 @@
 
 <style lang="scss">
 	.stargazers {
-		max-width: max-content !important;
+		max-width: 100% !important;
 		margin: 0 auto;
 		margin-left: 2vw;
 		padding: 0 2rem;
 
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 1rem;
 
         justify-content: space-between;
 
 		.stargazer {
 			border-bottom: 2px solid var(--border-color);
 			padding: 0 1rem;
+			margin-bottom: 1rem;
 
 			a {
 				text-decoration: none !important;

@@ -1,5 +1,6 @@
 <script lang="ts">
 	export let data;
+	let href = `/dashboard/planner/${data.id}/stargazers`;
 
 	import { _, isLoading } from 'svelte-i18n';
 </script>
@@ -17,7 +18,8 @@
 		{data.dateOfCreation?.toLocaleDateString()} - {data.dateOfLastEdit?.toLocaleDateString()} / {$_(
 			'visits',
 			{ values: { visits: data.visits } }
-		)} / {$_('stars', { values: { stars: data.stars } })} / {$_('edits', {
+			// eslint-disable-next-line svelte/no-at-html-tags
+		)} / {@html $_('stars', { values: { stars: data.stars, href } })} / {$_('edits', {
 			values: { edits: data.edits }
 		})}
 	</p>
