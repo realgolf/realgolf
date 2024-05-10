@@ -14,9 +14,10 @@
 	<h1>{data.title} - {data.id}</h1>
 
 	<p class="date">
-		{data.dateOfCreation?.toLocaleDateString()} - {data.dateOfLastEdit?.toLocaleDateString()} / {data.visits}
-		{$_('visits')} / {data.edits}
-		{$_('edits')}
+		{data.dateOfCreation?.toLocaleDateString()} - {data.dateOfLastEdit?.toLocaleDateString()} / {$_(
+			'visits',
+			{ values: { visits: data.visits } }
+		)} / {$_('edits', { values: { edits: data.edits } })}
 	</p>
 
 	<div class="description">
@@ -39,5 +40,5 @@
 {/if}
 
 <style lang="scss">
-	@import "$lib/scss/Planner/Planner.scss";
+	@import '$lib/scss/Planner/Planner.scss';
 </style>
