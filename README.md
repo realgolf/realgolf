@@ -2,35 +2,21 @@
 
 ![RealGolf.Games Banner](https://raw.githubusercontent.com/realgolf/web/main/img/logo_banner.PNG)
 
+![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Frender-deploy-status-vwj3.onrender.com%2Fsrv-cn12obocmk4c73di1vg0&query=status&style=flat-square&logo=render&label=Render) [![CodeQL](https://github.com/realgolf/Golf/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/realgolf/Golf/actions/workflows/github-code-scanning/codeql) [![Codespell](https://github.com/realgolf/Golf/actions/workflows/codespell.yml/badge.svg?branch=main)](https://github.com/realgolf/Golf/actions/workflows/codespell.yml) [![Build Kit](https://github.com/realgolf/Golf/actions/workflows/kit.yml/badge.svg)](https://github.com/realgolf/Golf/actions/workflows/kit.yml) [![Build Server](https://github.com/realgolf/Golf/actions/workflows/server.yml/badge.svg)](https://github.com/realgolf/Golf/actions/workflows/server.yml) [![Crowdin](https://badges.crowdin.net/realgolf/localized.svg)](https://crowdin.com/project/realgolf) ![GitHub issues by-label](https://img.shields.io/github/issues/realgolf/Golf/feature) ![GitHub issues by-label](https://img.shields.io/github/issues/realgolf/Golf/bug) ![GitHub issues by-label](https://img.shields.io/github/issues/realgolf/Golf/game) ![GitHub repo size](https://img.shields.io/github/repo-size/realgolf/Golf) [![Lines of code](https://tokei.rs/b1/github/realgolf/Golf)](https://github.com/XAMPPRocky/tokei) [![wakatime](https://wakatime.com/badge/github/realgolf/web.svg)](https://wakatime.com/badge/github/realgolf/web) ![GitHub package.json version](https://img.shields.io/github/package-json/v/realgolf/Golf)
+
 #### **Read this in [other languages](./translation/translations.md).**
 
 <kbd>[<img title="Deutsch" alt="Deutsch" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/de.svg" width="22">](./translation/german/German.md)</kbd> <kbd>[<img title="Español" alt="Español" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/es.svg" width="22">](./translation/spanish/Spanish.md)</kbd> <kbd>[<img title="Français" alt="Français" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/fr.svg" width="22">](./translation/french/French.md)</kbd> <kbd>[<img title="Italiano" alt="Italiano" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/it.svg" width="22">](./translation/italian/Italian.md)</kbd> <kbd>[<img title="Português" alt="Português" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/pt.svg" width="22">](./translation/portuguese/Portuguese.md)</kbd>
 
-## Introduction
+RealGolf is a trainings platform for Golfers, you can play three different games to have more fun training. It is the first golf trainings platform.
 
-Welcome to the RealGolf.Games website repository! This project serves as the hub for RealGolf's training platform. Whether you're a developer, contributor, or user, this README provides essential information to get you started.
+It features three different games: 4Winning, Exact, and Precision. Each game has its own unique set of rules and objectives, providing a diverse and engaging experience for players. RealGolf also offers local multiplayer functionality, allowing users to compete against each other on the same device. The platform includes user authentication with MongoDB, enabling players to create accounts and track their progress. RealGolf is designed to be accessible and user-friendly, making it easy for golfers of all skill levels to enjoy the games and improve their skills.
 
-You can visit the live website at [realgolf.games](https://realgolf.games).
+RealGolf written in [Svelte](https://svelte.dev), relies on [SvelteKit](https://kit.svelte.dev) as well as [NodeJS](https://nodejs.org/en). [NodeJS](https:://nodejs.org/en) is used to provide a asynchronous node server for cross-client and database communication. [SvelteKit](https://kit.svelte.dev) is used as the full stack version of [Svelte](https://svelte.dev). Web Socket connections are handled by the Node server directly. [MongoDB](https://www.mongodb.com/) is used to store user accounts as well as course data. HTTP requests are handled by [Render](https://render.com). The web client is written in [TypeScript](https://www.typescriptlang.org/) and [Svelte](https://svelte.dev). The server is written in [TypeScript](https://www.typescriptlang.org/) and compiled into JavaScript. [SASS](https://sass-lang.com/) is used to generate CSS. Please help us [translate RealGolf with Crowdin](https://crowdin.com/project/realgolf).
 
-|        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| CI/CD  | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Frender-deploy-status-vwj3.onrender.com%2Fsrv-cn12obocmk4c73di1vg0&query=status&style=flat-square&logo=render&label=Render) [![CodeQL](https://github.com/realgolf/Golf/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/realgolf/Golf/actions/workflows/github-code-scanning/codeql) [![Codespell](https://github.com/realgolf/Golf/actions/workflows/codespell.yml/badge.svg?branch=main)](https://github.com/realgolf/Golf/actions/workflows/codespell.yml) [![Build Kit](https://github.com/realgolf/Golf/actions/workflows/kit.yml/badge.svg)](https://github.com/realgolf/Golf/actions/workflows/kit.yml) [![Build Server](https://github.com/realgolf/Golf/actions/workflows/server.yml/badge.svg)](https://github.com/realgolf/Golf/actions/workflows/server.yml) [![Crowdin](https://badges.crowdin.net/realgolf/localized.svg)](https://crowdin.com/project/realgolf) |
-| Issues | ![GitHub issues by-label](https://img.shields.io/github/issues/realgolf/Golf/feature) ![GitHub issues by-label](https://img.shields.io/github/issues/realgolf/Golf/bug) ![GitHub issues by-label](https://img.shields.io/github/issues/realgolf/Golf/game)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Stats  | ![GitHub repo size](https://img.shields.io/github/repo-size/realgolf/Golf) [![Lines of code](https://tokei.rs/b1/github/realgolf/Golf)](https://github.com/XAMPPRocky/tokei) [![wakatime](https://wakatime.com/badge/github/realgolf/web.svg)](https://wakatime.com/badge/github/realgolf/web) ![GitHub package.json version](https://img.shields.io/github/package-json/v/realgolf/Golf)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-
-## Project Overview
-
-RealGolf.Games Web is a web-based platform that enhances your golf training experience. This repository contains all the data and code for the website.
-
-## Production Architecture
+## Production Architecture (as of April 2024)
 
 ![RealGolf server site production architecture diagram](https://raw.githubusercontent.com/realgolf/Golf/main/img/architecture.png)
-
-## Badges
-
-- **Render Status**: ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Frender-deploy-status-vwj3.onrender.com%2Fsrv-cn12obocmk4c73di1vg0&query=status&style=flat-square&logo=render&label=Render) - Indicates the current deployment status of the website on Render.
-- **CodeQL**: [![CodeQL](https://github.com/realgolf/Golf/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/realgolf/Golf/actions/workflows/github-code-scanning/codeql) - Code quality analysis using GitHub CodeQL.
-- **GitHub Repo Size**: ![GitHub repo size](https://img.shields.io/github/repo-size/realgolf/Golf) - Shows the size of the GitHub repository.
 
 ## Usage and Features
 
@@ -40,9 +26,10 @@ RealGolf.Games Web offers the following features:
   - 4Winning
   - Exact
   - Precision
-- User Authentication with MongoDB
-- Golf Course Score Tracker **Currently under development**
 - Local multiplayer functionality for users to play against each other on the same device.
+- User Authentication with MongoDB
+- Golf Course Score Tracker **Development paused [#714](https://github.com/realgolf/Golf/issues/714)**
+- Trainings Planner **Currently under development [#718](https://github.com/realgolf/Golf/issues/718)**
 - Feature issue [#715](https://github.com/realgolf/Golf/issues/715) raised for implementing remote multiplayer, enabling users to compete against each other online.
 
 ## Games
@@ -76,15 +63,7 @@ Precision is a game where the objective is to get as close to the targets as pos
 
 ## License
 
-This project is licensed under the [All Rights Reserved License](LICENSE.md).
-
-## Acknowledgments
-
-We would like to thank the following projects and libraries for their contributions:
-
-- [SvelteKit](https://github.com/sveltejs/kit)
-- [MongoDB](https://github.com/mongodb)
-- [Render](https://github.com/renderinc)
+RealGolf is licensed under the [All Rights Reserved License](LICENSE.md).
 
 ## Contact
 
