@@ -17,7 +17,9 @@
 		{data.dateOfCreation?.toLocaleDateString()} - {data.dateOfLastEdit?.toLocaleDateString()} / {$_(
 			'visits',
 			{ values: { visits: data.visits } }
-		)} / {$_('edits', { values: { edits: data.edits } })}
+		)} / {$_('stars', { values: { stars: data.stars } })} / {$_('edits', {
+			values: { edits: data.edits }
+		})}
 	</p>
 
 	<div class="description">

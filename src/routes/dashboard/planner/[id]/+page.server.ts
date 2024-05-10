@@ -38,8 +38,9 @@ export const load: PageServerLoad = async (event) => {
 	const plan = currentPlanner.plan;
 	const visits = currentPlanner.visits;
 	const edits = currentPlanner.edits;
+	const stars = currentPlanner.stars.count;
 
-	return { id, title, description, dateOfCreation, dateOfLastEdit, plan, visits, edits };
+	return { id, title, description, dateOfCreation, dateOfLastEdit, plan, visits, edits, stars };
 };
 
 export const actions: Actions = {
