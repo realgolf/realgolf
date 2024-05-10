@@ -2,6 +2,7 @@
 	import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 	export let data;
+	let href = `/${data.username}/planner/${data.id}/stargazers`;
 
 	import Fa from 'svelte-fa';
 	import { _, isLoading } from 'svelte-i18n';
@@ -31,7 +32,8 @@
 		{data.dateOfCreation?.toLocaleDateString()} - {data.dateOfLastEdit?.toLocaleDateString()} / {$_(
 			'visits',
 			{ values: { visits: data.visits } }
-		)} / {$_('stars', { values: { stars: data.stars } })} / {$_('edits', {
+			// eslint-disable-next-line svelte/no-at-html-tags
+		)} / {@html ($_('stars', { values: { stars: data.stars, href } }))} / {$_('edits', {
 			values: { edits: data.edits }
 		})}
 		<button on:click={starPlan} class:starred={data.visitor_has_starred}
@@ -69,6 +71,10 @@
 		button {
 			margin-left: 1rem;
 			box-shadow: none;
+		}
+
+		a {
+			text-decoration: none !important;
 		}
 
 		.starred {
