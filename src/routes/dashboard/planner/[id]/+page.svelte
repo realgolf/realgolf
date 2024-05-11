@@ -59,4 +59,8 @@
 
 <style lang="scss">
 	@import '$lib/scss/Planner/Planner.scss';
+
+	.done {
+		color: green !important;
+	}
 </style>

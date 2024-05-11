@@ -90,7 +90,11 @@ export const actions: Actions = {
 			};
 		}
 
-		currentPlanner.done = true;
+		if (currentPlanner.done == true) {
+			currentPlanner.done = false;
+		} else {
+			currentPlanner.done = true;
+		}
 
 		await user.save();
 	},
