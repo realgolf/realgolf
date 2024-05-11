@@ -35,11 +35,17 @@ export const load: PageServerLoad = async (event) => {
 	const description = currentPlanner.description;
 	const dateOfCreation = currentPlanner.dateOfCreation;
 	const dateOfLastEdit = currentPlanner.dateOfLastEdit;
-	const plan = currentPlanner.plan;
+	const comment = currentPlanner.comment;
 	const visits = currentPlanner.visits;
 	const edits = currentPlanner.edits;
 	const stars = currentPlanner.stars.count;
 	const username = user.user.username;
+	const done = currentPlanner.done;
+	const todos = currentPlanner.todos.map((todo) => {
+		const todoCopy = JSON.parse(JSON.stringify(todo));
+		delete todoCopy._id;
+		return todoCopy;
+	});
 
 	return {
 		id,
@@ -47,16 +53,48 @@ export const load: PageServerLoad = async (event) => {
 		description,
 		dateOfCreation,
 		dateOfLastEdit,
-		plan,
+		comment,
 		visits,
 		edits,
 		stars,
-		username
+		username,
+		todos,
+		done
 	};
 };
 
 export const actions: Actions = {
-	default: async (event) => {
+	done: async (event) => {
+		const email = event.cookies.get('email');
+		const id = event.params.id;
+
+		const user = await User_Model?.findOne({ 'user.email': email });
+
+		if (!user) {
+			return {
+				status: 404,
+				body: {
+					error: 'User not found'
+				}
+			};
+		}
+
+		const currentPlanner = user.planners.find((planner) => planner.id === id);
+
+		if (!currentPlanner) {
+			return {
+				status: 404,
+				body: {
+					error: 'Planner not found'
+				}
+			};
+		}
+
+		currentPlanner.done = true;
+
+		await user.save();
+	},
+	delete: async (event) => {
 		const email = event.cookies.get('email');
 		const id = event.params.id;
 

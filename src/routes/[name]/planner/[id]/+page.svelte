@@ -24,8 +24,7 @@
 	<p>Loading...</p>
 {:else}
 	<div class="header">
-		<h1>{data.title} - {data.id}</h1>
-		<div class="utils" />
+		<h1 class:done={data.done == true}>{data.title} - {data.id}</h1>
 	</div>
 
 	<p class="date">
@@ -50,12 +49,12 @@
 		{/if}
 	</div>
 
-	<div class="plan">
-		<b>{$_('plan')}</b>
-		{#if data.plan}
-			<pre>{data.plan}</pre>
+	<div class="comment">
+		<b>{$_('comment')}</b>
+		{#if data.comment}
+			<pre>{data.comment}</pre>
 		{:else}
-			<p class="error">{$_('no_plan')}</p>
+			<p class="error">{$_('no_comment')}</p>
 		{/if}
 	</div>
 

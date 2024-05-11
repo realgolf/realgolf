@@ -55,7 +55,7 @@ export const load: PageServerLoad = async (event) => {
 	const description = currentPlanner.description;
 	const dateOfCreation = currentPlanner.dateOfCreation;
 	const dateOfLastEdit = currentPlanner.dateOfLastEdit;
-	const plan = currentPlanner.plan;
+	const comment = currentPlanner.comment;
 	const visits = currentPlanner.visits;
 	const edits = currentPlanner.edits;
 	const stars = currentPlanner.stars?.count;
@@ -66,7 +66,7 @@ export const load: PageServerLoad = async (event) => {
 		description,
 		dateOfCreation,
 		dateOfLastEdit,
-		plan,
+		comment,
 		visits,
 		edits,
 		username,

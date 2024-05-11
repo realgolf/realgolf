@@ -12,7 +12,7 @@
 {#if $isLoading}
 	<p>Loading...</p>
 {:else}
-	<h1>{data.title} - {data.id}</h1>
+	<h1 class:done={data.done == true}>{data.title} - {data.id}</h1>
 
 	<p class="date">
 		{data.dateOfCreation?.toLocaleDateString()} - {data.dateOfLastEdit?.toLocaleDateString()} / {$_(
@@ -33,20 +33,25 @@
 		{/if}
 	</div>
 
-	<div class="plan">
-		<b>{$_('plan')}</b>
-		{#if data.plan}
-			<pre>{data.plan}</pre>
+	<div class="comment">
+		<b>{$_('comment')}</b>
+		{#if data.comment}
+			<pre>{data.comment}</pre>
 		{:else}
-			<p class="error">{$_('no_plan')}</p>
+			<p class="error">{$_('no_comment')}</p>
 		{/if}
 	</div>
 
 	<div class="utils">
-		<a href="/dashboard/planner/{data.id}/edit">
-			<button>{$_('edit')}</button>
-		</a>
-		<form method="POST">
+		{#if data.done == false}
+			<a href="/dashboard/planner/{data.id}/edit">
+				<button>{$_('edit')}</button>
+			</a>
+		{/if}
+		<form action="?/done" method="POST">
+			<button type="submit" class="done">Done</button>
+		</form>
+		<form action="?/delete" method="POST">
 			<button type="submit" class="delete">{$_('delete')}</button>
 		</form>
 	</div>

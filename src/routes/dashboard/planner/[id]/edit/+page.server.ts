@@ -32,9 +32,9 @@ export const load: PageServerLoad = async (event) => {
 	const description = currentPlanner.description;
 	const dateOfCreation = currentPlanner.dateOfCreation;
 	const dateOfLastEdit = currentPlanner.dateOfLastEdit;
-	const plan = currentPlanner.plan;
+	const comment = currentPlanner.comment;
 
-	return { id, title, description, dateOfCreation, dateOfLastEdit, plan };
+	return { id, title, description, dateOfCreation, dateOfLastEdit, comment };
 };
 
 export const actions: Actions = {
@@ -44,7 +44,7 @@ export const actions: Actions = {
 		const data = await event.request.formData();
 		const title = data.get('title') as string;
 		const description = data.get('description') as string;
-		const plan = data.get('plan') as string;
+		const comment = data.get('comment') as string;
 		const dateOfLastEdit = new Date();
 
 		const user = await User_Model?.findOne({ 'user.email': email });
@@ -71,7 +71,7 @@ export const actions: Actions = {
 
 		currentPlanner.title = title;
 		currentPlanner.description = description;
-		currentPlanner.plan = plan;
+		currentPlanner.comment = comment;
 		currentPlanner.dateOfLastEdit = dateOfLastEdit;
 		currentPlanner.edits += 1;
 

@@ -26,8 +26,8 @@
 		<label for="title">{$_("description")}</label>
 		<textarea bind:value={data.description} id="description" name="description" rows="5" />
 
-		<label for="plan">{$_("plan")}</label>
-		<textarea bind:value={data.plan} id="plan" name="plan" rows="10" />
+		<label for="comment">{$_("comment")}</label>
+		<textarea bind:value={data.comment} id="comment" name="comment" rows="10" />
 
 		<br />
 
