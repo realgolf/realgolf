@@ -13,9 +13,8 @@
 	<p>Loading...</p>
 {:else}
 	<h1>Stargazers</h1>
-
 	<div class="stargazers">
-		{#if data.stargazers.length > 0}
+		{#if data.stargazers && data.stargazers.length > 0}
 			{#each data.stargazers as stargazer}
 				<div class="stargazer">
 					<a href="/{stargazer.username}">
@@ -38,9 +37,9 @@
 
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 1rem;
+		grid-column-gap: 1rem;
 
-        justify-content: space-between;
+		justify-content: space-between;
 
 		.stargazer {
 			border-bottom: 2px solid var(--border-color);

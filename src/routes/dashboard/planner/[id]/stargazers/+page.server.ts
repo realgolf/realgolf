@@ -1,14 +1,6 @@
 import { User_Model } from '$lib/server/user/models';
+import type { Stars } from '$lib/types/planner';
 import type { PageServerLoad } from './$types';
-
-type Stars = {
-	count: number;
-	list: [
-		{
-			username: string;
-		}
-	];
-};
 
 export const load: PageServerLoad = async (event) => {
 	const email = event.cookies.get('email');
