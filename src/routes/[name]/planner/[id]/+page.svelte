@@ -84,4 +84,8 @@
 			}
 		}
 	}
+
+	.done {
+		color: green !important;
+	}
 </style>

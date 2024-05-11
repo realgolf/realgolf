@@ -21,7 +21,7 @@
 		{#each data.planners as planner}
 			<a href="/{data.username}/planner/{planner.id}" class="planner">
 				<div>
-					<p>{planner.title} - {planner.id}</p>
+					<p class:done={planner.done == true}>{planner.title} - {planner.id}</p>
 					<p>{planner.description}</p>
 					<div class="stats">
 						<p>
@@ -39,4 +39,8 @@
 
 <style lang="scss">
 	@import '$lib/scss/Planner/Planners.scss';
+
+	.done {
+		color: green !important;
+	}
 </style>

@@ -59,6 +59,7 @@ export const load: PageServerLoad = async (event) => {
 	const visits = currentPlanner.visits;
 	const edits = currentPlanner.edits;
 	const stars = currentPlanner.stars?.count;
+	const done = currentPlanner.done;
 
 	return {
 		id,
@@ -71,7 +72,8 @@ export const load: PageServerLoad = async (event) => {
 		edits,
 		username,
 		visitor_has_starred,
-		stars
+		stars,
+		done
 	};
 };
 
