@@ -7,3 +7,9 @@ export type Stars = {
 	];
 	username?: string;
 };
+
+export type Todo = {
+	task: string;
+	done: boolean;
+	priority: number;
+};
