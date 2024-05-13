@@ -53,7 +53,14 @@
 			<div>
 				{#each todos as todo, index}
 					<div class="todo" id="task_{index}">
-						<input type="checkbox" id="done_{index}" name="done_{index}" bind:checked={todo.done} />
+						<div class="checkbox">
+							<input
+								type="checkbox"
+								id="done_{index}"
+								name="done_{index}"
+								bind:checked={todo.done}
+							/>
+						</div>
 						<input type="text" id="task_{index}" name="task_{index}" bind:value={todo.task} />
 						<input
 							type="number"
@@ -97,6 +104,12 @@
 
 		input[type='number'] {
 			width: 15%; /* Number input takes up 25% of the flexbox */
+		}
+
+		.checkbox {
+			display: flex;
+			align-items: center;
+			justify-content: center;
 		}
 	}
 </style>
