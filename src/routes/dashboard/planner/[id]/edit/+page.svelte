@@ -1,18 +1,16 @@
 <script lang="ts">
 	import type { Todo } from '$lib/types/planner';
-	import { faPlus } from '@fortawesome/free-solid-svg-icons';
-	import Fa from 'svelte-fa';
 	import { _, isLoading } from 'svelte-i18n';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
 
-	let todos: Todo[] = [];
-
 	function handleCancel(event: { preventDefault: () => void }) {
 		event.preventDefault();
 		history.back();
 	}
+
+	let todos: Todo[] = data.todos ?? [];
 
 	function addTodo(event: { preventDefault: () => void }) {
 		event.preventDefault();
@@ -47,21 +45,28 @@
 		<label for="comment">{$_('comment')}</label>
 		<textarea bind:value={data.comment} id="comment" name="comment" rows="3" />
 
-		<label for="todos">Todos</label>
+		<br />
 
-		<button on:click={addTodo}><Fa icon={faPlus} /></button>
-
-		{#each todos as todo, i}
+		{#if todos.length > 0}
+			<!-- svelte-ignore a11y-label-has-associated-control -->
+			<label>{$_('todos')}</label>
 			<div>
-				<div class="checkbox">
-					<input type="checkbox" id="done_{i}" name="done_{i}" bind:checked={todo.done} />
-					<label for="done_{i}">{$_('done')}</label>
-				</div>
-
-				<input type="text" id="task_{i}" name="task_{i}" bind:value={todo.task} />
-				<input type="number" id="priority" name="priority_{i}" bind:value={todo.priority} />
+				{#each todos as todo, index}
+					<div class="todo" id="task_{index}">
+						<input type="checkbox" id="done_{index}" name="done_{index}" bind:checked={todo.done} />
+						<input type="text" id="task_{index}" name="task_{index}" bind:value={todo.task} />
+						<input
+							type="number"
+							id="priority_{index}"
+							name="priority_{index}"
+							bind:value={todo.priority}
+						/>
+					</div>
+				{/each}
 			</div>
-		{/each}
+		{/if}
+
+		<button type="button" on:click={addTodo}>Add Todo</button>
 
 		<br />
 
@@ -80,13 +85,18 @@
 		padding-left: 0.2rem;
 	}
 
-	input[type=checkbox] {
+	.todo {
+		width: 100%;
 		display: flex;
 		flex-direction: row;
-		margin-inline: 1rem;
-	}
+		justify-content: space-between;
 
-	#priority {
-		width: 2rem !important;
+		input[type='text'] {
+			width: 85%; /* Text input takes up 50% of the flexbox */
+		}
+
+		input[type='number'] {
+			width: 15%; /* Number input takes up 25% of the flexbox */
+		}
 	}
 </style>

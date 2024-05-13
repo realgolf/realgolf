@@ -1,4 +1,5 @@
 import { User_Model } from '$lib/server/user/models';
+import type { Todo } from '$lib/types/planner';
 import { redirect } from '@sveltejs/kit';
 import type { Actions, PageServerLoad } from './$types';
 
@@ -33,8 +34,13 @@ export const load: PageServerLoad = async (event) => {
 	const dateOfCreation = currentPlanner.dateOfCreation;
 	const dateOfLastEdit = currentPlanner.dateOfLastEdit;
 	const comment = currentPlanner.comment;
+	const todos = currentPlanner.todos.map((todo) => {
+		const todoCopy = JSON.parse(JSON.stringify(todo));
+		delete todoCopy._id;
+		return todoCopy;
+	});
 
-	return { id, title, description, dateOfCreation, dateOfLastEdit, comment };
+	return { id, title, description, dateOfCreation, dateOfLastEdit, comment, todos };
 };
 
 export const actions: Actions = {
@@ -46,6 +52,21 @@ export const actions: Actions = {
 		const description = data.get('description') as string;
 		const comment = data.get('comment') as string;
 		const dateOfLastEdit = new Date();
+
+		// Extract todos from FormData
+		const todos: Todo[] = [];
+
+		data.forEach((value, key) => {
+			if (key.startsWith('task_')) {
+				const index = Number(key.split('_')[1]);
+				const task = value as string;
+				const done = data.get(`done_${index}`) === 'on';
+				const priority = Number(data.get(`priority_${index}`));
+				todos.push({ task, done, priority });
+			}
+		});
+
+		console.log(todos);
 
 		const user = await User_Model?.findOne({ 'user.email': email });
 
@@ -74,6 +95,7 @@ export const actions: Actions = {
 		currentPlanner.comment = comment;
 		currentPlanner.dateOfLastEdit = dateOfLastEdit;
 		currentPlanner.edits += 1;
+		currentPlanner.todos = todos;
 
 		await user.save();
 		throw redirect(303, `/dashboard/planner/${id}`);

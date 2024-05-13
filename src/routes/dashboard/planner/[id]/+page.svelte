@@ -42,6 +42,26 @@
 		{/if}
 	</div>
 
+	{#if data.todos && data.todos.length > 0}
+		<div class="todos">
+			<b>{$_('todos')}</b>
+			{#each data.todos as todo, index}
+				<div class="todo" id="task_{index}">
+					<div class="checkbox">
+						<input type="checkbox" id="done_{index}" name="done_{index}" bind:checked={todo.done} />
+					</div>
+					<input type="text" id="task_{index}" name="task_{index}" bind:value={todo.task} />
+					<input
+						type="number"
+						id="priority_{index}"
+						name="priority_{index}"
+						bind:value={todo.priority}
+					/>
+				</div>
+			{/each}
+		</div>
+	{/if}
+
 	<div class="utils">
 		{#if data.done == false}
 			<a href="/dashboard/planner/{data.id}/edit">
@@ -62,5 +82,32 @@
 
 	.done {
 		color: green !important;
+	}
+
+	.todos {
+		margin-top: 1.5rem;
+
+		.todo {
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			margin-top: 1.5rem;
+
+			input[type='text'] {
+				width: 85%; /* Text input takes up 50% of the flexbox */
+			}
+
+			input[type='number'] {
+				width: 15%; /* Number input takes up 25% of the flexbox */
+			}
+
+			.checkbox {
+				height: 100% !important;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+		}
 	}
 </style>
