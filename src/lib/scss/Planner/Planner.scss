@@ -44,16 +44,28 @@
 
 		input[type='text'] {
 			width: 85%; /* Text input takes up 50% of the flexbox */
+
+			&:disabled {
+				cursor: not-allowed;
+			}
 		}
 
 		input[type='number'] {
 			width: 15%; /* Number input takes up 25% of the flexbox */
+
+			&:disabled {
+				cursor: not-allowed;
+			}
 		}
 
 		.checkbox {
 			display: flex;
 			align-items: center;
 			justify-content: center;
+
+			.done {
+				color: green;
+			}
 		}
 	}
 }

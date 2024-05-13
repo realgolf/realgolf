@@ -59,6 +59,7 @@
 								id="done_{index}"
 								name="done_{index}"
 								bind:checked={todo.done}
+								class:done={todo.done}
 							/>
 						</div>
 						<input type="text" id="task_{index}" name="task_{index}" bind:value={todo.task} />
@@ -110,6 +111,10 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
+
+			.done {
+				color: green !important;
+			}
 		}
 	}
 </style>

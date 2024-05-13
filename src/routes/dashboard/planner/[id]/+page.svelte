@@ -54,6 +54,7 @@
 							name="done_{index}"
 							disabled
 							bind:checked={todo.done}
+							class:done={todo.done}
 						/>
 					</div>
 					<input
