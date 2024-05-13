@@ -83,7 +83,7 @@
 			</a>
 		{/if}
 		<form action="?/done" method="POST">
-			<button type="submit" class="done">Done</button>
+			<button type="submit" class="done">{$_('done')}</button>
 		</form>
 		<form action="?/delete" method="POST">
 			<button type="submit" class="delete">{$_('delete')}</button>

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { isLoading } from 'svelte-i18n';
+	import { _, isLoading } from 'svelte-i18n';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -23,7 +23,7 @@
 				</div>
 			{/each}
 		{:else}
-			<p>This Planner has no Stars yet.</p>
+			<p>{$_("planner_has_no_stars")}</p>
 		{/if}
 	</div>
 {/if}

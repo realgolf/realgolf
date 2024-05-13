@@ -309,5 +309,7 @@
 	"plan_edit_title": "Title",
 	"public_description_of_planner": "You can view all of {username}`s Planners <a href=\"/{username}/planner\">here</a>. You can star them to let {username} know that you like his Planner and thinking about using it for your own routine as well.",
 	"stars": "{stars, plural, =0 {0 <a href=\"{href}\">Stars</a>} one {1 <a href=\"{href}\">Star</a>} other {# <a href=\"{href}\">Stars</a>}}",
-	"todos": "Todos"
+	"todos": "Todos",
+	"done": "Done",
+	"planner_has_no_stars": "This Planner has no Stars yet."
 }
