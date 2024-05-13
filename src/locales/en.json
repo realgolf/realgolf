@@ -311,5 +311,6 @@
 	"stars": "{stars, plural, =0 {0 <a href=\"{href}\">Stars</a>} one {1 <a href=\"{href}\">Star</a>} other {# <a href=\"{href}\">Stars</a>}}",
 	"todos": "Todos",
 	"done": "Done",
-	"planner_has_no_stars": "This Planner has no Stars yet."
+	"planner_has_no_stars": "This Planner has no Stars yet.",
+	"no_todos": "No Todos"
 }

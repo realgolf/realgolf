@@ -67,8 +67,6 @@ export const actions: Actions = {
 			}
 		});
 
-		console.log(todos);
-
 		const user = await User_Model?.findOne({ 'user.email': email });
 
 		if (!user) {
@@ -100,40 +98,5 @@ export const actions: Actions = {
 
 		await user.save();
 		throw redirect(303, `/dashboard/planner/${id}`);
-	},
-	delete: async (event) => {
-		const email = event.cookies.get('email');
-		const id = event.params.id;
-		const data = await event.request.formData();
-		const todo_id = data.get('todo_id') as string;
-
-		console.log(id);
-		console.log(todo_id);
-
-		const user = await User_Model?.findOne({ 'user.email': email });
-
-		if (!user) {
-			return {
-				status: 404,
-				body: {
-					error: 'User not found'
-				}
-			};
-		}
-
-		const currentPlanner = user?.planners.find((planner) => planner.id === id);
-
-		if (!currentPlanner) {
-			return {
-				status: 404,
-				body: {
-					error: 'Planner not found'
-				}
-			};
-		}
-
-		currentPlanner.todos = currentPlanner.todos.filter((todo) => todo.id !== todo_id);
-
-		console.log(currentPlanner.todos);
 	}
 };

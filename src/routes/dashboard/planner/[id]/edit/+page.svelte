@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { enhance } from '$app/forms';
 	import type { Todo } from '$lib/types/planner';
 	import { faTrash } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
@@ -28,6 +27,14 @@
 			}
 		];
 	}
+
+	function deleteTodo(id: string) {
+		todos = todos.filter((todo) => todo.id !== id);
+	}
+
+	function deleteAllTodos() {
+		todos = [];
+	}
 </script>
 
 <svelte:head>
@@ -39,7 +46,7 @@
 {:else}
 	<h1>{$_('edit')} - {data.title} ({data.id})</h1>
 
-	<form action="?/edit" method="POST">
+	<form action="?/edit" method="POST" id="update-planner">
 		<label for="title">{$_('plan_edit_title')}</label>
 		<input type="text" id="title" name="title" bind:value={data.title} />
 
@@ -51,13 +58,13 @@
 
 		<br />
 
+		<p>{$_('todos')}</p>
+		<button type="button" on:click|preventDefault={addTodo}>Add Todo</button>
 		{#if todos.length > 0}
-			<!-- svelte-ignore a11y-label-has-associated-control -->
-			<label>{$_('todos')}</label>
+			<button type="button" on:click|preventDefault={deleteAllTodos}>Delete All </button>
 			<div>
 				{#each todos as todo, index}
 					<div class="todo" id="task_{index}">
-						<p>{todo.id}</p>
 						<div class="checkbox">
 							<input
 								type="checkbox"
@@ -74,18 +81,18 @@
 							name="priority_{index}"
 							bind:value={todo.priority}
 						/>
+						<input hidden type="text" name="id_{index}" id="id_{index}" bind:value={todo.id} />
 						<div class="delete">
-							<form action="?/delete" method="POST" use:enhance>
-								<input type="hidden" name="index" value={todo.id} />
-								<button type="submit"><Fa icon={faTrash}></Fa></button>
-							</form>
+							<button type="button" on:click|preventDefault={() => deleteTodo(todo.id)}
+								><Fa icon={faTrash} /></button
+							>
 						</div>
 					</div>
 				{/each}
 			</div>
+		{:else}
+			<p>{$_('no_todos')}</p>
 		{/if}
-
-		<button type="button" on:click={addTodo}>Add Todo</button>
 
 		<br />
 
