@@ -64,13 +64,26 @@
 			{#each data.todos as todo, index}
 				<div class="todo" id="task_{index}">
 					<div class="checkbox">
-						<input type="checkbox" id="done_{index}" name="done_{index}" bind:checked={todo.done} />
+						<input
+							type="checkbox"
+							id="done_{index}"
+							name="done_{index}"
+							disabled
+							bind:checked={todo.done}
+						/>
 					</div>
-					<input type="text" id="task_{index}" name="task_{index}" bind:value={todo.task} />
+					<input
+						type="text"
+						id="task_{index}"
+						name="task_{index}"
+						disabled
+						bind:value={todo.task}
+					/>
 					<input
 						type="number"
 						id="priority_{index}"
 						name="priority_{index}"
+						disabled
 						bind:value={todo.priority}
 					/>
 				</div>
