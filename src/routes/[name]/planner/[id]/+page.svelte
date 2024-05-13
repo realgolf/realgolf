@@ -1,5 +1,7 @@
 <script lang="ts">
+	import type { Todo } from '$lib/types/planner.js';
 	import { faStar } from '@fortawesome/free-solid-svg-icons';
+	import { onMount } from 'svelte';
 
 	export let data;
 	let href = `/${data.username}/planner/${data.id}/stargazers`;
@@ -14,6 +16,50 @@
 
 		form.submit();
 	}
+
+	// Define sorting options
+	const sortingOptions = [
+		{ label: 'Priority ↑', value: 'priority-asc' },
+		{ label: 'Priority ↓', value: 'priority-desc' },
+		{ label: 'Status ↑', value: 'status-asc' },
+		{ label: 'Status ↓', value: 'status-desc' }
+	];
+
+	// Selected sorting option
+	let selectedSortingOption = sortingOptions[0];
+
+	// Sorted todos
+	let sortedTodos: Todo[] = [];
+
+	// Function to sort todos based on selected option
+	function sortTodos() {
+		sortedTodos = [...(data.todos as Todo[])].sort((a, b) => {
+			const [field, order] = selectedSortingOption.value.split('-');
+			let result = 0;
+
+			switch (field) {
+				case 'priority':
+					result = a.priority - b.priority;
+					break;
+				case 'status':
+					result = a.done === b.done ? 0 : a.done ? 1 : -1;
+					break;
+				default:
+					break;
+			}
+
+			// Reverse the order if descending
+			if (order === 'desc') {
+				result *= -1;
+			}
+
+			return result;
+		});
+	}
+
+	// Sort todos on component mount and whenever selectedSortingOption changes
+	onMount(sortTodos);
+	$: sortTodos();
 </script>
 
 <svelte:head>
@@ -58,10 +104,17 @@
 		{/if}
 	</div>
 
-	{#if data.todos && data.todos.length > 0}
+	{#if sortedTodos && sortedTodos.length > 0}
 		<div class="todos">
 			<b>{$_('todos')}</b>
-			{#each data.todos as todo, index}
+			<!-- UI to select sorting option -->
+			<br />
+			<select bind:value={selectedSortingOption} on:change={sortTodos} class="sort">
+				{#each sortingOptions as option}
+					<option value={option}>{option.label}</option>
+				{/each}
+			</select>
+			{#each sortedTodos as todo, index}
 				<div class="todo" id="task_{index}">
 					<div class="checkbox">
 						<input
