@@ -79,35 +79,4 @@
 
 <style lang="scss">
 	@import '$lib/scss/Planner/Planner.scss';
-
-	.done {
-		color: green !important;
-	}
-
-	.todos {
-		margin-top: 1.5rem;
-
-		.todo {
-			width: 100%;
-			display: flex;
-			flex-direction: row;
-			justify-content: space-between;
-			margin-top: 1.5rem;
-
-			input[type='text'] {
-				width: 85%; /* Text input takes up 50% of the flexbox */
-			}
-
-			input[type='number'] {
-				width: 15%; /* Number input takes up 25% of the flexbox */
-			}
-
-			.checkbox {
-				height: 100% !important;
-				display: flex;
-				align-items: center;
-				justify-content: center;
-			}
-		}
-	}
 </style>

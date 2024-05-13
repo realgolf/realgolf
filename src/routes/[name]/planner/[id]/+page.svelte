@@ -32,7 +32,7 @@
 			'visits',
 			{ values: { visits: data.visits } }
 			// eslint-disable-next-line svelte/no-at-html-tags
-		)} / {@html ($_('stars', { values: { stars: data.stars, href } }))} / {$_('edits', {
+		)} / {@html $_('stars', { values: { stars: data.stars, href } })} / {$_('edits', {
 			values: { edits: data.edits }
 		})}
 		<button on:click={starPlan} class:starred={data.visitor_has_starred}
@@ -57,6 +57,26 @@
 			<p class="error">{$_('no_comment')}</p>
 		{/if}
 	</div>
+
+	{#if data.todos && data.todos.length > 0}
+		<div class="todos">
+			<b>{$_('todos')}</b>
+			{#each data.todos as todo, index}
+				<div class="todo" id="task_{index}">
+					<div class="checkbox">
+						<input type="checkbox" id="done_{index}" name="done_{index}" bind:checked={todo.done} />
+					</div>
+					<input type="text" id="task_{index}" name="task_{index}" bind:value={todo.task} />
+					<input
+						type="number"
+						id="priority_{index}"
+						name="priority_{index}"
+						bind:value={todo.priority}
+					/>
+				</div>
+			{/each}
+		</div>
+	{/if}
 
 	<form action="" method="POST" style="display: none;">
 		<input type="text" name="star" id="star" value="star" />
@@ -83,9 +103,5 @@
 				fill: yellow !important;
 			}
 		}
-	}
-
-	.done {
-		color: green !important;
 	}
 </style>

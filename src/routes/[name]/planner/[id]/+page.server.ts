@@ -60,6 +60,11 @@ export const load: PageServerLoad = async (event) => {
 	const edits = currentPlanner.edits;
 	const stars = currentPlanner.stars?.count;
 	const done = currentPlanner.done;
+	const todos = currentPlanner.todos.map((todo) => {
+		const todoCopy = JSON.parse(JSON.stringify(todo));
+		delete todoCopy._id;
+		return todoCopy;
+	});
 
 	return {
 		id,
@@ -73,7 +78,8 @@ export const load: PageServerLoad = async (event) => {
 		username,
 		visitor_has_starred,
 		stars,
-		done
+		done,
+		todos
 	};
 };
 
