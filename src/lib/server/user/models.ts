@@ -186,6 +186,7 @@ const User_Schema = new mongoose.Schema({
 			done: { type: Boolean, default: false },
 			todos: [
 				{
+					id: { type: String },
 					task: { type: String },
 					done: { type: Boolean, default: false },
 					priority: { type: Number, default: 0 }

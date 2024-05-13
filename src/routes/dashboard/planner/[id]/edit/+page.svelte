@@ -1,5 +1,8 @@
 <script lang="ts">
+	import { enhance } from '$app/forms';
 	import type { Todo } from '$lib/types/planner';
+	import { faTrash } from '@fortawesome/free-solid-svg-icons';
+	import Fa from 'svelte-fa';
 	import { _, isLoading } from 'svelte-i18n';
 	import type { PageData } from './$types';
 
@@ -18,6 +21,7 @@
 		todos = [
 			...todos,
 			{
+				id: Math.random().toString(36).slice(2),
 				task: '',
 				done: false,
 				priority: 3
@@ -35,7 +39,7 @@
 {:else}
 	<h1>{$_('edit')} - {data.title} ({data.id})</h1>
 
-	<form method="POST">
+	<form action="?/edit" method="POST">
 		<label for="title">{$_('plan_edit_title')}</label>
 		<input type="text" id="title" name="title" bind:value={data.title} />
 
@@ -53,6 +57,7 @@
 			<div>
 				{#each todos as todo, index}
 					<div class="todo" id="task_{index}">
+						<p>{todo.id}</p>
 						<div class="checkbox">
 							<input
 								type="checkbox"
@@ -69,6 +74,12 @@
 							name="priority_{index}"
 							bind:value={todo.priority}
 						/>
+						<div class="delete">
+							<form action="?/delete" method="POST" use:enhance>
+								<input type="hidden" name="index" value={todo.id} />
+								<button type="submit"><Fa icon={faTrash}></Fa></button>
+							</form>
+						</div>
 					</div>
 				{/each}
 			</div>
