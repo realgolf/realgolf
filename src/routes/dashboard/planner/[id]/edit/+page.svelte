@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { Todo } from '$lib/types/planner';
-	import { faTrash } from '@fortawesome/free-solid-svg-icons';
+	import { faPlus, faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
 	import { _, isLoading } from 'svelte-i18n';
 	import type { PageData } from './$types';
@@ -59,9 +59,13 @@
 		<br />
 
 		<p>{$_('todos')}</p>
-		<button type="button" on:click|preventDefault={addTodo}>Add Todo</button>
+		<button title="Create new todos" type="button" on:click|preventDefault={addTodo}
+			><Fa icon={faPlus} /></button
+		>
 		{#if todos.length > 0}
-			<button type="button" on:click|preventDefault={deleteAllTodos}>Delete All </button>
+			<button title="Delete All Todos" type="button" on:click|preventDefault={deleteAllTodos}
+				><Fa icon={faTrashAlt} /></button
+			>
 			<div>
 				{#each todos as todo, index}
 					<div class="todo" id="task_{index}">
@@ -83,8 +87,10 @@
 						/>
 						<input hidden type="text" name="id_{index}" id="id_{index}" bind:value={todo.id} />
 						<div class="delete">
-							<button type="button" on:click|preventDefault={() => deleteTodo(todo.id)}
-								><Fa icon={faTrash} /></button
+							<button
+								title="Delete Todo"
+								type="button"
+								on:click|preventDefault={() => deleteTodo(todo.id)}><Fa icon={faTrashAlt} /></button
 							>
 						</div>
 					</div>
