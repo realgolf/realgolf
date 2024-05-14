@@ -1,10 +1,20 @@
 <script lang="ts">
 	import type { Todo } from '$lib/types/planner.js';
+	import { faStar } from '@fortawesome/free-solid-svg-icons';
 	import { onMount } from 'svelte';
+	import Fa from 'svelte-fa';
 	import { _, isLoading } from 'svelte-i18n';
 
 	export let data;
 	let href = `/dashboard/planner/${data.id}/stargazers`;
+
+	function starPlan() {
+		const form = document.getElementById('star-form') as HTMLFormElement;
+
+		console.log(form);
+
+		form.submit();
+	}
 
 	// Define sorting options
 	const sortingOptions = [
@@ -68,6 +78,9 @@
 		)} / {@html $_('stars', { values: { stars: data.stars, href } })} / {$_('edits', {
 			values: { edits: data.edits }
 		})}
+		<button on:click={starPlan} class:starred={data.person_has_starred}
+			><Fa icon={faStar} /></button
+		>
 	</p>
 
 	<div class="description">
@@ -145,6 +158,10 @@
 			<button type="submit" class="delete">{$_('delete')}</button>
 		</form>
 	</div>
+
+	<form action="?/star" method="POST" style="display: none;" id="star-form">
+		<input type="text" name="star" id="star" value="star" />
+	</form>
 {/if}
 
 <style lang="scss">

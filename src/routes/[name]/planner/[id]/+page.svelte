@@ -152,23 +152,4 @@
 
 <style lang="scss">
 	@import '$lib/scss/Planner/Planner.scss';
-
-	.date {
-		button {
-			margin-left: 1rem;
-			box-shadow: none;
-		}
-
-		a {
-			text-decoration: none !important;
-		}
-
-		.starred {
-			color: yellow !important;
-
-			svg {
-				fill: yellow !important;
-			}
-		}
-	}
 </style>

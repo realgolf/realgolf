@@ -1,6 +1,23 @@
 .date {
 	font-size: 0.8em;
 	color: #666;
+
+	button {
+		margin-left: 1rem;
+		box-shadow: none;
+	}
+
+	a {
+		text-decoration: none !important;
+	}
+
+	.starred {
+		color: yellow !important;
+
+		svg {
+			fill: yellow !important;
+		}
+	}
 }
 
 .plan {
