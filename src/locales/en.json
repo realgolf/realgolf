@@ -312,5 +312,10 @@
 	"todos": "Todos",
 	"done": "Done",
 	"planner_has_no_stars": "This Planner has no Stars yet.",
-	"no_todos": "No Todos"
+	"no_todos": "No Todos",
+	"todo": "Todo",
+	"priority": "Priority",
+	"delete_todo": "Delete Todo",
+	"create_todo": "Create new Todo",
+	"delete_all_todos": "Delete all Todos"
 }

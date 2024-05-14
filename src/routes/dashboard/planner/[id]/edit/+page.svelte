@@ -51,19 +51,19 @@
 		<input type="text" id="title" name="title" bind:value={data.title} />
 
 		<label for="description">{$_('description')}</label>
-		<textarea bind:value={data.description} id="description" name="description" rows="2" />
+		<textarea bind:value={data.description} id="description" name="description" rows="2" title="{$_("description")}"/>
 
 		<label for="comment">{$_('comment')}</label>
-		<textarea bind:value={data.comment} id="comment" name="comment" rows="3" />
+		<textarea bind:value={data.comment} id="comment" name="comment" rows="3" title="{$_("comment")}"/>
 
 		<br />
 
 		<p>{$_('todos')}</p>
-		<button title="Create new todos" type="button" on:click|preventDefault={addTodo}
+		<button title="{$_("create_todo")}" type="button" on:click|preventDefault={addTodo}
 			><Fa icon={faPlus} /></button
 		>
 		{#if todos.length > 0}
-			<button title="Delete All Todos" type="button" on:click|preventDefault={deleteAllTodos}
+			<button title="{$_("delete_all_todos")}" type="button" on:click|preventDefault={deleteAllTodos}
 				><Fa icon={faTrashAlt} /></button
 			>
 			<div>
@@ -76,19 +76,28 @@
 								name="done_{index}"
 								bind:checked={todo.done}
 								class:done={todo.done}
+								title="{$_("done")}"
 							/>
 						</div>
-						<input type="text" id="task_{index}" name="task_{index}" bind:value={todo.task} />
+						<input
+							type="text"
+							id="task_{index}"
+							name="task_{index}"
+							bind:value={todo.task}
+							placeholder="{$_("todo")}"
+							title="{$_("todo")}"
+						/>
 						<input
 							type="number"
 							id="priority_{index}"
 							name="priority_{index}"
 							bind:value={todo.priority}
+							title="{$_("priority")}"
 						/>
 						<input hidden type="text" name="id_{index}" id="id_{index}" bind:value={todo.id} />
 						<div class="delete">
 							<button
-								title="Delete Todo"
+								title="{$_("delete_todo")}"
 								type="button"
 								on:click|preventDefault={() => deleteTodo(todo.id)}><Fa icon={faTrashAlt} /></button
 							>

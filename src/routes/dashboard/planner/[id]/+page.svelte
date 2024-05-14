@@ -108,6 +108,7 @@
 							disabled
 							bind:checked={todo.done}
 							class:done={todo.done}
+							title={$_('done')}
 						/>
 					</div>
 					<input
@@ -116,6 +117,7 @@
 						name="task_{index}"
 						disabled
 						bind:value={todo.task}
+						title={$_('todo')}
 					/>
 					<input
 						type="number"
@@ -123,6 +125,7 @@
 						name="priority_{index}"
 						disabled
 						bind:value={todo.priority}
+						title={$_('priority')}
 					/>
 				</div>
 			{/each}
