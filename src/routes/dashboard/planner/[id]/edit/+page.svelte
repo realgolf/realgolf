@@ -3,6 +3,8 @@
 	import { faPlus, faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
 	import { _, isLoading } from 'svelte-i18n';
+	import { flip } from 'svelte/animate';
+	import { fly } from 'svelte/transition';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -51,24 +53,42 @@
 		<input type="text" id="title" name="title" bind:value={data.title} />
 
 		<label for="description">{$_('description')}</label>
-		<textarea bind:value={data.description} id="description" name="description" rows="2" title="{$_("description")}"/>
+		<textarea
+			bind:value={data.description}
+			id="description"
+			name="description"
+			rows="2"
+			title={$_('description')}
+		/>
 
 		<label for="comment">{$_('comment')}</label>
-		<textarea bind:value={data.comment} id="comment" name="comment" rows="3" title="{$_("comment")}"/>
+		<textarea
+			bind:value={data.comment}
+			id="comment"
+			name="comment"
+			rows="3"
+			title={$_('comment')}
+		/>
 
 		<br />
 
 		<p>{$_('todos')}</p>
-		<button title="{$_("create_todo")}" type="button" on:click|preventDefault={addTodo}
+		<button title={$_('create_todo')} type="button" on:click|preventDefault={addTodo}
 			><Fa icon={faPlus} /></button
 		>
 		{#if todos.length > 0}
-			<button title="{$_("delete_all_todos")}" type="button" on:click|preventDefault={deleteAllTodos}
+			<button title={$_('delete_all_todos')} type="button" on:click|preventDefault={deleteAllTodos}
 				><Fa icon={faTrashAlt} /></button
 			>
 			<div>
-				{#each todos as todo, index}
-					<div class="todo" id="task_{index}">
+				{#each todos as todo, index (todo.id)}
+					<div
+						class="todo"
+						id="task_{index}"
+						animate:flip={{ duration: 200 }}
+						in:fly|local={{ x: -50, duration: 200 }}
+						out:fly|local={{ x: +50, duration: 200 }}
+					>
 						<div class="checkbox">
 							<input
 								type="checkbox"
@@ -76,7 +96,7 @@
 								name="done_{index}"
 								bind:checked={todo.done}
 								class:done={todo.done}
-								title="{$_("done")}"
+								title={$_('done')}
 							/>
 						</div>
 						<input
@@ -84,20 +104,20 @@
 							id="task_{index}"
 							name="task_{index}"
 							bind:value={todo.task}
-							placeholder="{$_("todo")}"
-							title="{$_("todo")}"
+							placeholder={$_('todo')}
+							title={$_('todo')}
 						/>
 						<input
 							type="number"
 							id="priority_{index}"
 							name="priority_{index}"
 							bind:value={todo.priority}
-							title="{$_("priority")}"
+							title={$_('priority')}
 						/>
 						<input hidden type="text" name="id_{index}" id="id_{index}" bind:value={todo.id} />
 						<div class="delete">
 							<button
-								title="{$_("delete_todo")}"
+								title={$_('delete_todo')}
 								type="button"
 								on:click|preventDefault={() => deleteTodo(todo.id)}><Fa icon={faTrashAlt} /></button
 							>
