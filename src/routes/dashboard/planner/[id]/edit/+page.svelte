@@ -152,18 +152,23 @@
 		flex-direction: row;
 		justify-content: space-between;
 
+		margin-top: 0.5rem;
+
 		input[type='text'] {
-			width: 85%; /* Text input takes up 50% of the flexbox */
+			width: 84%; /* Text input takes up 50% of the flexbox */
+			margin-right: 1%;
 		}
 
 		input[type='number'] {
-			width: 15%; /* Number input takes up 25% of the flexbox */
+			width: 14%; /* Number input takes up 25% of the flexbox */
+			margin-right: 1%;
 		}
 
 		.checkbox {
 			display: flex;
 			align-items: center;
 			justify-content: center;
+			margin-right: 1%;
 
 			.done {
 				color: green !important;

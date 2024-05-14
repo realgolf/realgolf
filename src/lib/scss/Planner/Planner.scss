@@ -44,6 +44,7 @@
 
 		input[type='text'] {
 			width: 85%; /* Text input takes up 50% of the flexbox */
+			margin-right: 1%;
 
 			&:disabled {
 				cursor: not-allowed;
@@ -52,6 +53,7 @@
 
 		input[type='number'] {
 			width: 15%; /* Number input takes up 25% of the flexbox */
+			margin-right: 1%;
 
 			&:disabled {
 				cursor: not-allowed;
@@ -62,6 +64,7 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
+			margin-right: 1%;
 
 			.done {
 				color: green;
