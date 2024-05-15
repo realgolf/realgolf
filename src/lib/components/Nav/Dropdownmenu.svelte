@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { formatNumber } from '$lib/scripts/formatNumbers';
 	import {
 		faBars,
 		faBook,
@@ -46,9 +47,9 @@
 	function setupSocket() {
 		let socket = io();
 
-		socket.on("socketNumber", (number) => {
+		socket.on('socketNumber', (number) => {
 			totalOnlineUsers = number;
-		})
+		});
 	}
 
 	setupSocket();
@@ -116,11 +117,13 @@
 				<a href="/dashboard/levels"><span><Fa icon={faChartLine} /></span>{$_('levels')}</a>
 				<a href="/dashboard/rules"><span><Fa icon={faBook} /></span>{$_('rules')}</a>
 				<a href="/dashboard/tools"><span><Fa icon={faWrench} /></span>{$_('tools')}</a>
-				<a href="/dashboard/planner"><span><Fa icon={faList} /></span>{$_("planner")}</a>
+				<a href="/dashboard/planner"><span><Fa icon={faList} /></span>{$_('planner')}</a>
 			</div>
 		{/if}
 		<div class="row border-bottom">
-			<p>{$_("total_online_users", {values: {totalOnlineUsers}})}</p>
+			<p>
+				{$_('total_online_users', { values: { totalOnlineUsers: formatNumber(totalOnlineUsers) } })}
+			</p>
 		</div>
 		<div class="external-links row border-bottom">
 			<h3>{$_('external_sites')}</h3>
