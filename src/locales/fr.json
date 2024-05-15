@@ -320,5 +320,6 @@
 	"delete_all_todos": "Delete all Todos",
 	"star_a_planner": "Star",
 	"starred_planner": "Starred",
-	"undone": "Undone"
+	"undone": "Undone",
+	"total_online_users": "{totalOnlineUsers, plural, =0 {0 Users} one {1 User} other {# Users}} online"
 }
