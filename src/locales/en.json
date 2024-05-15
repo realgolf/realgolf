@@ -308,7 +308,7 @@
 	"delete": "Delete",
 	"cancel": "Cancel",
 	"plan_edit_title": "Title",
-	"public_description_of_planner": "You can view all of {username}`s Planners <a href=\"/{username}/planner\">here</a>. You can star them to let {username} know that you like his Planner and thinking about using it for your own routine as well.",
+	"public_description_of_planner": "You can view all of {username}`s Planners <a href=\"/{username}/planner\">here</a>. You can star them to let {username} know that you like the Planner and thinking about using it for your own routine as well.",
 	"todos": "Todos",
 	"done": "Done",
 	"planner_has_no_stars": "This Planner has no Stars yet.",
@@ -319,5 +319,7 @@
 	"create_todo": "Create new Todo",
 	"delete_all_todos": "Delete all Todos",
 	"star_a_planner": "Star",
-	"starred_planner": "Starred"
+	"starred_planner": "Starred",
+	"error": "Error",
+	"user_not_found": "User not Found"
 }
