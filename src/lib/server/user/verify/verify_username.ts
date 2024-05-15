@@ -16,12 +16,20 @@ export async function verify_username(username: string): Promise<string> {
 		return 'Username has to be at least 2 characters.';
 	}
 
+	if (username.length > 20) {
+		return 'Username cannot exceed 20 characters.';
+	}
+
+	if (/\s/.test(username)) {
+		return 'Username cannot contain spaces.';
+	}
+
 	const previous_user = await User_Model?.findOne({
 		'user.username': { $regex: new RegExp(username, 'i') }
 	});
 
 	if (previous_user) {
-		return 'There is already a account with this username.';
+		return 'There is already an account with this username.';
 	}
 
 	const lowerCaseSites = sites.map((site) => site.toLowerCase());
