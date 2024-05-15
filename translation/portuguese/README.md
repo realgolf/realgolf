@@ -25,7 +25,7 @@ O RealGolf.Games Web oferece as seguintes características:
 - Funcionalidade multijogador local para os usuários jogarem entre si no mesmo dispositivo.
 - Autenticação de usuário com MongoDB
 - Rastreador de Pontuação de Campo de Golfe **Desenvolvimento pausado [#714](https://github.com/realgolf/Golf/issues/714)**
-- Planejador de Treinamentos **Atualmente em desenvolvimento [#718](https://github.com/realgolf/Golf/issues/718)**
+- Planejador de Treinamentos
 - Problema de funcionalidade [#715](https://github.com/realgolf/Golf/issues/715) levantado para implementar multijogador remoto, permitindo que os usuários compitam entre si online.
 
 ## Jogos
