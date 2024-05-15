@@ -1,0 +1,78 @@
+.plan {
+	pre {
+		margin-left: 1rem;
+	}
+}
+
+.utils {
+	display: flex;
+	flex-direction: row;
+	margin-top: 1rem;
+
+	a {
+		margin-right: 1rem;
+	}
+
+	.done {
+		color: green !important;
+		margin-right: 1rem;
+	}
+
+	.undone {
+		color: red !important;
+		margin-right: 1rem;
+	}
+
+	.delete {
+		color: red !important;
+	}
+}
+
+.done {
+	color: green !important;
+}
+
+.todos {
+	margin-top: 1.5rem;
+
+	.todo {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-top: 1.5rem;
+
+		input[type='text'] {
+			width: 85%; /* Text input takes up 50% of the flexbox */
+			margin-right: 1%;
+
+			&:disabled {
+				cursor: not-allowed;
+			}
+		}
+
+		input[type='number'] {
+			width: 15%; /* Number input takes up 25% of the flexbox */
+			margin-right: 1%;
+
+			&:disabled {
+				cursor: not-allowed;
+			}
+		}
+
+		.checkbox {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-right: 1%;
+
+			.done {
+				color: green;
+			}
+		}
+	}
+}
+
+.sort {
+	margin-top: 1rem;
+}
