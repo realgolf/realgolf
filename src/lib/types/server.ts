@@ -13,6 +13,7 @@ export type ServerToClientEvents = {
 	message: (m: message) => void;
 	users: (u: user_chat[]) => void;
 	redirect: (url: string) => void;
+	socketNumber: (n: number) => void;
 };
 
 export type ClientToServerEvents = {

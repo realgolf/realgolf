@@ -10,7 +10,7 @@
 		message,
 		ServerToClientEvents,
 		user_chat
-	} from '$lib/types/chat';
+	} from '$lib/types/server';
 	import { io, type Socket } from 'socket.io-client';
 	import { tick } from 'svelte';
 	import { _, isLoading } from 'svelte-i18n';

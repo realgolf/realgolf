@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { addCommas } from '$lib/scripts/Planner/addCommas';
 	import {
 		faBars,
 		faBook,
@@ -23,6 +24,7 @@
 		faUsers,
 		faWrench
 	} from '@fortawesome/free-solid-svg-icons';
+	import { io } from 'socket.io-client';
 	import { onDestroy, onMount } from 'svelte';
 	import Fa from 'svelte-fa';
 	import { _ } from 'svelte-i18n';
@@ -39,6 +41,18 @@
 	function closeDropdown() {
 		isOpen = false;
 	}
+
+	let totalOnlineUsers: number = 0;
+
+	function setupSocket() {
+		let socket = io();
+
+		socket.on('socketNumber', (number) => {
+			totalOnlineUsers = number;
+		});
+	}
+
+	setupSocket();
 
 	onMount(() => {
 		window.addEventListener('keypress', (e) => {
@@ -103,9 +117,18 @@
 				<a href="/dashboard/levels"><span><Fa icon={faChartLine} /></span>{$_('levels')}</a>
 				<a href="/dashboard/rules"><span><Fa icon={faBook} /></span>{$_('rules')}</a>
 				<a href="/dashboard/tools"><span><Fa icon={faWrench} /></span>{$_('tools')}</a>
-				<a href="/dashboard/planner"><span><Fa icon={faList} /></span>{$_("planner")}</a>
+				<a href="/dashboard/planner"><span><Fa icon={faList} /></span>{$_('planner')}</a>
 			</div>
 		{/if}
+		<div class="row border-bottom">
+			<p>
+				{#if addCommas(totalOnlineUsers) !== undefined}
+					{$_('total_online_users', { values: { totalOnlineUsers: addCommas(totalOnlineUsers) } })}
+				{:else}
+					{$_('total_online_users', { values: { totalOnlineUsers } })}
+				{/if}
+			</p>
+		</div>
 		<div class="external-links row border-bottom">
 			<h3>{$_('external_sites')}</h3>
 			<a href="https://blog.realgolf.games"
