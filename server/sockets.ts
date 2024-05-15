@@ -7,7 +7,7 @@ import type {
 	SocketData,
 	message,
 	user_chat
-} from '../src/lib/types/chat';
+} from '../src/lib/types/server';
 
 /**
  * Handles the sockets and events.
@@ -15,6 +15,7 @@ import type {
  */
 export function handle_sockets(server: Server<typeof IncomingMessage, typeof ServerResponse>) {
 	let chat_users: user_chat[] = [];
+	let socketNumber: number = 0;
 	const SOCKET_TIMEOUT = 1000 * 60 * 10; // 10 minutes
 
 	const io = new ioServer<
@@ -29,6 +30,9 @@ export function handle_sockets(server: Server<typeof IncomingMessage, typeof Ser
 	 */
 	io.on('connection', (socket) => {
 		let activityTimer: NodeJS.Timeout;
+		socketNumber++;
+
+		io.emit('socketNumber', socketNumber);
 
 		// Function to reset the activity timer
 		const resetActivityTimer = () => {
@@ -51,6 +55,9 @@ export function handle_sockets(server: Server<typeof IncomingMessage, typeof Ser
 		});
 
 		socket.on('disconnect', () => {
+			socketNumber--;
+			io.emit('socketNumber', socketNumber);
+
 			handle_disconnection(socket);
 			clearTimeout(activityTimer);
 		});

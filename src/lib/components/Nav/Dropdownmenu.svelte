@@ -23,6 +23,7 @@
 		faUsers,
 		faWrench
 	} from '@fortawesome/free-solid-svg-icons';
+	import { io } from 'socket.io-client';
 	import { onDestroy, onMount } from 'svelte';
 	import Fa from 'svelte-fa';
 	import { _ } from 'svelte-i18n';
@@ -39,6 +40,18 @@
 	function closeDropdown() {
 		isOpen = false;
 	}
+
+	let totalOnlineUsers: number = 0;
+
+	function setupSocket() {
+		let socket = io();
+
+		socket.on("socketNumber", (number) => {
+			totalOnlineUsers = number;
+		})
+	}
+
+	setupSocket();
 
 	onMount(() => {
 		window.addEventListener('keypress', (e) => {
@@ -106,6 +119,9 @@
 				<a href="/dashboard/planner"><span><Fa icon={faList} /></span>{$_("planner")}</a>
 			</div>
 		{/if}
+		<div class="row border-bottom">
+			<p>{$_("total_online_users", {values: {totalOnlineUsers}})}</p>
+		</div>
 		<div class="external-links row border-bottom">
 			<h3>{$_('external_sites')}</h3>
 			<a href="https://blog.realgolf.games"
