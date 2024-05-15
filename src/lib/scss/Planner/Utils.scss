@@ -1,0 +1,25 @@
+.date {
+	font-size: 0.8em;
+	color: #666;
+}
+
+.stats {
+	font-size: 0.8em;
+	color: #666;
+
+	a {
+		text-decoration: none !important;
+	}
+}
+
+.utils {
+	margin: 0.5rem 0;
+
+	.starred {
+		color: yellow !important;
+
+		svg {
+			fill: yellow !important;
+		}
+	}
+}

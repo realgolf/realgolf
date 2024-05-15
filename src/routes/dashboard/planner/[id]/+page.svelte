@@ -1,20 +1,11 @@
 <script lang="ts">
-	import type { Todo } from '$lib/types/planner.js';
-	import { faStar } from '@fortawesome/free-solid-svg-icons';
+	import Utils from '$lib/components/Planner/Utils.svelte';
+	import type { Todo } from '$lib/types/planner';
 	import { onMount } from 'svelte';
-	import Fa from 'svelte-fa';
 	import { _, isLoading } from 'svelte-i18n';
 
 	export let data;
 	let href = `/dashboard/planner/${data.id}/stargazers`;
-
-	function starPlan() {
-		const form = document.getElementById('star-form') as HTMLFormElement;
-
-		console.log(form);
-
-		form.submit();
-	}
 
 	// Define sorting options
 	const sortingOptions = [
@@ -70,18 +61,7 @@
 {:else}
 	<h1 class:done={data.done == true}>{data.title} - {data.id}</h1>
 
-	<p class="date">
-		{data.dateOfCreation?.toLocaleDateString()} - {data.dateOfLastEdit?.toLocaleDateString()} / {$_(
-			'visits',
-			{ values: { visits: data.visits } }
-			// eslint-disable-next-line svelte/no-at-html-tags
-		)} / {@html $_('stars', { values: { stars: data.stars, href } })} / {$_('edits', {
-			values: { edits: data.edits }
-		})}
-		<button on:click={starPlan} class:starred={data.person_has_starred}
-			><Fa icon={faStar} /></button
-		>
-	</p>
+	<Utils {data} {href}/>
 
 	<div class="description">
 		<b>{$_('description')}</b>
