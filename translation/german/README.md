@@ -25,7 +25,7 @@ RealGolf.Games Web bietet folgende Funktionen:
 - Lokale Mehrspielerfunktionalität für Benutzer, um auf demselben Gerät gegeneinander zu spielen.
 - Benutzerauthentifizierung mit MongoDB
 - Golfplatz-Score-Tracker **Entwicklung pausiert [#714](https://github.com/realgolf/Golf/issues/714)**
-- Trainingsplaner **Derzeit in Entwicklung [#718](https://github.com/realgolf/Golf/issues/718)**
+- Trainingsplaner
 - Feature-Anfrage [#715](https://github.com/realgolf/Golf/issues/715) gestellt für die Implementierung von Remote-Mehrspielermodus, sodass Benutzer online gegeneinander antreten können.
 
 ## Spiele

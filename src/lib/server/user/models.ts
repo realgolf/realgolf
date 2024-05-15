@@ -163,6 +163,36 @@ const User_Schema = new mongoose.Schema({
 			handicap: { type: Number },
 			date: { type: Date }
 		}
+	],
+	planners: [
+		{
+			id: { type: String },
+			title: { type: String },
+			description: { type: String },
+			dateOfCreation: { type: Date },
+			dateOfLastEdit: { type: Date },
+			due: { type: Date },
+			comment: { type: String },
+			visits: { type: Number, default: 0 },
+			edits: { type: Number, default: 0 },
+			stars: {
+				count: { type: Number, default: 0 },
+				list: [
+					{
+						username: { type: String }
+					}
+				]
+			},
+			done: { type: Boolean, default: false },
+			todos: [
+				{
+					id: { type: String },
+					task: { type: String },
+					done: { type: Boolean, default: false },
+					priority: { type: Number, default: 0 }
+				}
+			]
+		}
 	]
 });
 
