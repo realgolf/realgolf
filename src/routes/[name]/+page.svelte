@@ -20,7 +20,11 @@
 </script>
 
 <svelte:head>
-	<title>{data.user_username} ({data.user_name})</title>
+	{#if data.user_username === undefined}
+		<title>Error - 404</title>
+	{:else}
+		<title>{data.user_username} ({data.user_name})</title>
+	{/if}
 </svelte:head>
 
 {#if $isLoading}
@@ -28,8 +32,8 @@
 {:else if data.user_username === undefined}
 	<section>
 		<div>
-			<h1>{$_('error')}</h1>
-			<pre>404: {$_('user_not_found')}</pre>
+			<h1>Error</h1>
+			<pre>404: Page / User not Found</pre>
 			<br />
 			<a href="/">{$_('home')}</a>
 		</div>

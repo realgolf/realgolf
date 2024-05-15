@@ -319,7 +319,5 @@
 	"create_todo": "Create new Todo",
 	"delete_all_todos": "Delete all Todos",
 	"star_a_planner": "Star",
-	"starred_planner": "Starred",
-	"error": "Error",
-	"user_not_found": "User not Found"
+	"starred_planner": "Starred"
 }
