@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { formatNumber } from '$lib/scripts/formatNumbers';
 	import {
 		faBars,
 		faBook,
@@ -122,7 +121,7 @@
 		{/if}
 		<div class="row border-bottom">
 			<p>
-				{$_('total_online_users', { values: { totalOnlineUsers: formatNumber(totalOnlineUsers) } })}
+				{$_('total_online_users', { values: { totalOnlineUsers } })}
 			</p>
 		</div>
 		<div class="external-links row border-bottom">
