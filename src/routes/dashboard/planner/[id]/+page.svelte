@@ -61,7 +61,7 @@
 {:else}
 	<h1 class:done={data.done == true}>{data.title} - {data.id}</h1>
 
-	<Utils {data} {href}/>
+	<Utils {data} {href} />
 
 	<div class="description">
 		<b>{$_('description')}</b>
@@ -132,7 +132,13 @@
 			</a>
 		{/if}
 		<form action="?/done" method="POST">
-			<button type="submit" class="done">{$_('done')}</button>
+			<button type="submit" class:done={!data.done} class:undone={data.done}>
+				{#if data.done}
+					{$_('undone')}
+				{:else}
+					{$_('done')}
+				{/if}
+			</button>
 		</form>
 		<form action="?/delete" method="POST">
 			<button type="submit" class="delete">{$_('delete')}</button>
