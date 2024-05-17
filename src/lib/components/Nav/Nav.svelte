@@ -5,7 +5,7 @@
 	import sanitizeHTML from '$lib/shared/utils/sanitizeHTML';
 	import { faHouse, type IconDefinition } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
-	import { _ } from "svelte-i18n";
+	import { _ } from 'svelte-i18n';
 	import Dropdownmenu from './Dropdownmenu.svelte';
 	import LanguageSwitcher from './LanguageSwitcher.svelte';
 	import Search from './Search.svelte';
@@ -49,10 +49,10 @@
 			{#if isHomePage}
 				<div class="home-page">
 					<div class="sign-in">
-						<a href="/login">{$_("sign_in")}</a>
+						<a href="/login" rel="external">{$_('sign_in')}</a>
 					</div>
 					<div class="sign-up">
-						<a href="/register">{$_("sign_up")}</a>
+						<a href="/register" rel="external">{$_('sign_up')}</a>
 					</div>
 				</div>
 			{:else}
