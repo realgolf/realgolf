@@ -9,9 +9,7 @@
 	let isLanguageSwitcherOpen = false;
 
 	function toggleLanguageSelector() {
-		console.log('toggleLanguageSelector');
 		isLanguageSwitcherOpen = !isLanguageSwitcherOpen;
-		console.log('toggle success');
 	}
 
 	function closeLanguageSelector() {
