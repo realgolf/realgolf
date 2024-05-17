@@ -86,7 +86,12 @@
 			<b>{$_('todos')}</b>
 			<!-- UI to select sorting option -->
 			<br />
-			<select bind:value={selectedSortingOption} on:change={sortTodos} class="sort">
+			<select
+				aria-label="Sort by Priority or Status"
+				bind:value={selectedSortingOption}
+				on:change={sortTodos}
+				class="sort"
+			>
 				{#each sortingOptions as option}
 					<option value={option}>{option.label}</option>
 				{/each}

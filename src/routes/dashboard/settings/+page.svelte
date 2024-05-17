@@ -220,7 +220,7 @@
 		</p>
 		<form action="?/rounded_corners" method="POST" class="rounded-corners-form">
 			<div class="same-row">
-				<label for="rounded-corners-settings">{$_("select_prefered_rounded_corners")}:</label>
+				<label for="rounded-corners">{$_("select_prefered_rounded_corners")}:</label>
 				<input
 					type="checkbox"
 					name="rounded-corners"
@@ -238,7 +238,7 @@
 		</p>
 		<form action="?/animation" method="POST" class="animation-form">
 			<div class="same-row">
-				<label for="animation-settings">{$_("select_prefered_animation_setting")}:</label>
+				<label for="animation">{$_("select_prefered_animation_setting")}:</label>
 				<input type="checkbox" name="animation" id="animation" bind:checked={data.animation} />
 			</div>
 			<br />

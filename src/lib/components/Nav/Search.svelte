@@ -4,7 +4,7 @@
 	import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 	import { afterUpdate } from 'svelte';
 	import Fa from 'svelte-fa';
-	import { _ } from "svelte-i18n";
+	import { _ } from 'svelte-i18n';
 
 	export let all_users: User[];
 
@@ -27,7 +27,7 @@
 </script>
 
 <div class="search">
-	<button class="search-button" on:click={toggleSearch}>
+	<button aria-label="Search for a user" class="search-button" on:click={toggleSearch}>
 		<Fa icon={faMagnifyingGlass} />
 	</button>
 </div>
@@ -43,7 +43,7 @@
 				bind:value={search_term}
 			/>
 		</div>
-		<h3>{$_("all_users")}</h3>
+		<h3>{$_('all_users')}</h3>
 		{#if filtered_users && filtered_users.length > 0}
 			{#each filtered_users as user, index}
 				{#if index < 30}
@@ -55,8 +55,8 @@
 				{/if}
 			{/each}
 		{:else}
-			<p>{$_("no_user_found")}</p>
-			<p class="success">{$_("must_be_logged_in_to_see_other_users")}</p>
+			<p>{$_('no_user_found')}</p>
+			<p class="success">{$_('must_be_logged_in_to_see_other_users')}</p>
 		{/if}
 	</div>
 {/if}
