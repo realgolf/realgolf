@@ -27,7 +27,7 @@
 </script>
 
 <div class="search">
-	<button class="search-button" on:click={toggleSearch}>
+	<button aria-label="Search for a user" class="search-button" on:click={toggleSearch}>
 		<Fa icon={faMagnifyingGlass} />
 	</button>
 </div>

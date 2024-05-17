@@ -82,7 +82,7 @@
 </script>
 
 <div class="dropdown">
-	<button class="dropdown-button" on:click|stopPropagation={toggleDropdown}>
+	<button aria-label="Open Menu" class="dropdown-button" on:click|stopPropagation={toggleDropdown}>
 		<Fa icon={faBars} />
 	</button>
 </div>
