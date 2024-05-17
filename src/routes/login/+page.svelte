@@ -1,37 +1,20 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import { faEye } from '@fortawesome/free-solid-svg-icons';
-	import { onMount } from 'svelte';
 	import Fa from 'svelte-fa';
 	import { _, isLoading } from 'svelte-i18n';
 	import type { ActionData } from './$types';
 
 	export let form: ActionData;
 
-	onMount(() => {
-		window.addEventListener('keydown', (e) => {
-			if (e.key == 'Enter') {
-				const form = document.querySelectorAll('form') as unknown as HTMLFormElement;
-
-				form.submit();
-			}
-		});
-
+	function togglePassword() {
 		const passwordInput = document.getElementById('password_input') as HTMLInputElement;
-		const toggleButton = document.getElementById('toggle_password');
-
-		if (toggleButton && passwordInput) {
-			toggleButton.addEventListener('click', function (event) {
-				event.preventDefault(); // Prevent form submission
-
-				if (passwordInput.type === 'password') {
-					passwordInput.type = 'text';
-				} else {
-					passwordInput.type = 'password';
-				}
-			});
+		if (passwordInput.type === 'password') {
+			passwordInput.type = 'text';
+		} else {
+			passwordInput.type = 'password';
 		}
-	});
+	}
 
 	if (browser && form?.user) {
 		window.location.href = '/dashboard';
@@ -55,7 +38,9 @@
 		<div>
 			<label for="password_input">{$_('password')}</label>
 			<input type="password" id="password_input" name="password" />
-			<button id="toggle_password" type="button"><Fa id="eye_icon" icon={faEye} /></button>
+			<button on:click|preventDefault={togglePassword} id="toggle_password" type="button"
+				><Fa id="eye_icon" icon={faEye} /></button
+			>
 		</div>
 		<button>{$_('login')}</button>
 	</form>

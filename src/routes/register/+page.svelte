@@ -1,47 +1,24 @@
 <script lang="ts">
 	import sanitizeHTML from '$lib/shared/utils/sanitizeHTML';
 	import { faEye } from '@fortawesome/free-solid-svg-icons';
-	import { onMount } from 'svelte';
 	import Fa from 'svelte-fa';
 	import { _, isLoading } from 'svelte-i18n';
 	import type { ActionData } from './$types';
 
 	export let form: ActionData;
 
-	onMount(() => {
-		window.addEventListener('keydown', (e) => {
-			if (e.key == 'Enter') {
-				const form = document.querySelectorAll('form') as unknown as HTMLFormElement;
-
-				form.submit();
-			}
-		});
-
+	function togglePassword() {
 		const passwordInput = document.getElementById('password_input') as HTMLInputElement;
-		const passwordVerifyInput = document.getElementById(
-			'password_verify_input'
-		) as HTMLInputElement;
+		const passwordVerifyInput = document.getElementById('password_verify_input') as HTMLInputElement;
 
-		const toggleButton = document.getElementById('toggle_password');
-
-		if (toggleButton && passwordInput && passwordVerifyInput) {
-			toggleButton.addEventListener('click', function (event) {
-				event.preventDefault(); // Prevent form submission
-
-				if (passwordInput.type === 'password') {
-					passwordInput.type = 'text';
-				} else {
-					passwordInput.type = 'password';
-				}
-
-				if (passwordVerifyInput.type === 'password') {
-					passwordVerifyInput.type = 'text';
-				} else {
-					passwordVerifyInput.type = 'password';
-				}
-			});
+		if (passwordInput.type === 'password' && passwordVerifyInput.type === 'password') {
+			passwordInput.type = 'text';
+			passwordVerifyInput.type = 'text';
+		} else {
+			passwordInput.type = 'password';
+			passwordVerifyInput.type = 'password';
 		}
-	});
+	}
 </script>
 
 <svelte:head>
@@ -66,7 +43,7 @@
 			<label for="password_verify_input">{$_('verify_password')}</label>
 			<input type="password" id="password_verify_input" name="password_verify" />
 		</div>
-		<button id="toggle_password" type="button"><Fa id="eye_icon" icon={faEye} /></button>
+		<button on:click|preventDefault={togglePassword} id="toggle_password" type="button"><Fa id="eye_icon" icon={faEye} /></button>
 		<div>
 			<label for="name_input">{$_('name')}</label>
 			<input type="text" id="name_input" name="name" value={form?.user?.name ?? ''} />
