@@ -34,7 +34,11 @@
 </script>
 
 <div class="language-switcher">
-	<button aria-label="Language Switcher" class="language-switcher-button" on:click|stopPropagation={toggleLanguageSelector}>
+	<button
+		aria-label="Language Switcher"
+		class="language-switcher-button"
+		on:click|stopPropagation={toggleLanguageSelector}
+	>
 		<Fa icon={faGlobe} />
 	</button>
 </div>

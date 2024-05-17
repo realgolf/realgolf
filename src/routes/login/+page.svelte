@@ -38,8 +38,11 @@
 		<div>
 			<label for="password_input">{$_('password')}</label>
 			<input type="password" id="password_input" name="password" />
-			<button on:click|preventDefault={togglePassword} id="toggle_password" type="button"
-				><Fa id="eye_icon" icon={faEye} /></button
+			<button
+				on:click|preventDefault={togglePassword}
+				aria-label="Show password in clear text"
+				id="toggle_password"
+				type="button"><Fa id="eye_icon" icon={faEye} /></button
 			>
 		</div>
 		<button>{$_('login')}</button>
