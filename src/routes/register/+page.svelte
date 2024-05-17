@@ -9,7 +9,9 @@
 
 	function togglePassword() {
 		const passwordInput = document.getElementById('password_input') as HTMLInputElement;
-		const passwordVerifyInput = document.getElementById('password_verify_input') as HTMLInputElement;
+		const passwordVerifyInput = document.getElementById(
+			'password_verify_input'
+		) as HTMLInputElement;
 
 		if (passwordInput.type === 'password' && passwordVerifyInput.type === 'password') {
 			passwordInput.type = 'text';
@@ -43,7 +45,12 @@
 			<label for="password_verify_input">{$_('verify_password')}</label>
 			<input type="password" id="password_verify_input" name="password_verify" />
 		</div>
-		<button on:click|preventDefault={togglePassword} id="toggle_password" type="button"><Fa id="eye_icon" icon={faEye} /></button>
+		<button
+			on:click|preventDefault={togglePassword}
+			aria-label="Show password in clear text"
+			id="toggle_password"
+			type="button"><Fa id="eye_icon" icon={faEye} /></button
+		>
 		<div>
 			<label for="name_input">{$_('name')}</label>
 			<input type="text" id="name_input" name="name" value={form?.user?.name ?? ''} />
