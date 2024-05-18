@@ -1,6 +1,6 @@
 {
-	"name": "golfrules",
-	"version": "0.0.1",
+	"name": "docs",
+	"version": "1.0.0",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
@@ -14,6 +14,7 @@
 	"devDependencies": {
 		"@sveltejs/adapter-node": "^5.0.1",
 		"@sveltejs/kit": "^2.5.9",
+		"@sveltejs/vite-plugin-svelte": "^3.1.0",
 		"@types/he": "^1.2.3",
 		"@types/markdown-it": "^14.1.1",
 		"@types/mathjax": "^0.0.40",
@@ -29,11 +30,15 @@
 	"type": "module",
 	"dependencies": {
 		"@fortawesome/free-solid-svg-icons": "^6.5.2",
+		"autoprefixer": "^10.4.19",
 		"front-matter": "^4.0.2",
 		"he": "^1.2.0",
 		"markdown-it": "^14.1.0",
 		"mathjax": "^3.2.2",
+		"postcss": "^8.4.38",
+		"postcss-safe-parser": "^7.0.0",
 		"shiki": "^0.14.2",
-		"svelte-fa": "^4.0.2"
+		"svelte-fa": "^4.0.2",
+		"tailwindcss": "^3.4.3"
 	}
 }

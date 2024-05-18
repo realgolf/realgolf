@@ -2,5 +2,5 @@ services:
   - type: docs
     name: realgolf
     env: node
-    buildCommand: npm install && npm run build
+    buildCommand: pnpm install && pnpm run build
     startCommand: node build/index.js
