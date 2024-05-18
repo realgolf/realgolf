@@ -1,0 +1,21 @@
+*.json linguist-detectable=true
+*.json linguist-language=JSON
+
+*.md linguist-detectable=true
+*.md linguist-language=Markdown
+*.md linguist-documentation=false
+
+*.js linguist-detectable=true
+*.js linguist-language=JavaScript
+
+*.ts linguist-detectable=true
+*.ts linguist-language=TypeScript
+
+*.scss linguist-detectable=true
+*.scss linguist-language=SCSS
+
+*.yml linguist-detectable=false
+*.yml linguist-language=YAML
+
+*.yaml linguist-detectable=false
+*.yaml linguist-language=YAML
