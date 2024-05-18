@@ -6,13 +6,13 @@
 </script>
 
 <svelte:head>
-	<title>{($_('users_followers'), { values: { user_name: data.username } })}</title>
+	<title>{$_('users_followers', { values: { user_name: data.username } })}</title>
 </svelte:head>
 
 {#if $isLoading}
 	<p>Loading...</p>
 {:else}
-	<h1>{($_('users_followers'), { values: { user_name: data.username } })}</h1>
+	<h1>{$_('users_followers', { values: { user_name: data.username } })}</h1>
 
 	<div class="followers">
 		{#if data.followerDetails.length > 0}
@@ -26,7 +26,7 @@
 				</div>
 			{/each}
 		{:else}
-			<p>{($_('user_has_no_followers'), { values: { user_name: data.username } })}</p>
+			<p>{$_('user_has_no_followers', { values: { user_name: data.username } })}</p>
 		{/if}
 	</div>
 {/if}
