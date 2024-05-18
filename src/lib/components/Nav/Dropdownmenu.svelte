@@ -135,9 +135,6 @@
 				><span><Fa icon={faBookOpenReader} /></span>{$_('blog')}</a
 			>
 			<a href="/faq"><span><Fa icon={faQuestionCircle} /></span>{$_('faq')}</a>
-			<a href="https://docs.realgolf.games"
-				><span><Fa icon={faBook} /></span>{$_('documentation')}</a
-			>
 			<a href="https://rules.realgolf.games"
 				><span><Fa icon={faBookBookmark} /></span>{$_('golfrules')}</a
 			>

@@ -215,7 +215,6 @@
 	"follow_us": "Síguenos",
 	"explore_more": "Explorar más",
 	"blog": "Blog",
-	"documentation": "Documentación",
 	"golfrules": "Golfrules",
 	"public_games_link": "{username} ha guardado {games_length, plural, =0 {0 juegos} one {1 juego} other {# juegos}}Puedes encontrar todos sus juegos <a href=\"/{username}/games\">aquí</a>.",
 	"registration_date": "{username} se unió a RealGolf.Games en {date}.",
