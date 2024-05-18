@@ -30,7 +30,6 @@ Make sure all items on the checklist below are completed before submitting the p
 
 - [ ] My code follows the project's coding conventions.
 - [ ] My changes have been tested locally and pass all necessary tests.
-- [ ] I have updated the documentation if applicable.
 - [ ] I have added appropriate comments to my code.
 - [ ] My changes do not introduce any breaking changes.
 - [ ] I have tested the changes on different devices/browsers (if applicable).

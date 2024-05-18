@@ -1,6 +1,0 @@
-services:
-  - type: docs
-    name: realgolf
-    env: node
-    buildCommand: pnpm install && pnpm run build
-    startCommand: node build/index.js

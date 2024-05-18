@@ -14,11 +14,3 @@ updates:
     labels:
       - 'pnpm'
       - 'dependencies'
-  - package-ecosystem: 'npm'
-    directory: '/docs'
-    schedule:
-      interval: 'daily'
-    reviewers:
-      - '@MoinJulian'
-    ignore:
-      - dependency-name: 'shiki'

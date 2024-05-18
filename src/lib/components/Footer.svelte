@@ -1,7 +1,6 @@
-<script>
+<script lang="ts">
 	import { faInstagram, faXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 	import {
-		faBook,
 		faBookBookmark,
 		faBookOpenReader,
 		faEnvelope,
@@ -48,7 +47,6 @@
 					<div class="col-md-6 first-row">
 						<h3>{$_("explore_more")}</h3>
 						<p><Fa icon={faBookOpenReader} /> <a href="https://blog.realgolf.games">{$_("blog")}</a></p>
-						<p><Fa icon={faBook} /> <a href="https://docs.realgolf.games">{$_("documentation")}</a></p>
 						<p><Fa icon={faBookBookmark} /> <a href="https://rules.realgolf.games">{$_("golfrules")}</a></p>
 					</div>
 				</div>
