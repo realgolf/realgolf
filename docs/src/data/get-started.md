@@ -49,3 +49,14 @@ Your full name should be at least 2 characters long.
 ## Handicap Information
 
 Your golf handicap must be a number between 0 and 54. If you do not specify a handicap during registration, it will default to 54.
+
+---
+
+## Things You Need
+
+In addition to signing up and having an account on RealGolf, you'll need the following:
+
+- Trackman or any kind of simulator
+- A range or indoor golf simulator
+- Golf clubs
+- Golf balls
