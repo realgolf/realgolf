@@ -17,7 +17,11 @@
 	}
 
 	if (browser && form?.user) {
-		window.location.href = '/dashboard';
+		const queryString = window.location.search;
+		console.log(queryString);
+		const urlParams = new URLSearchParams(queryString);
+		const redirect = urlParams.get('redirect');
+		window.location.href = redirect || '/dashboard';
 	}
 </script>
 
