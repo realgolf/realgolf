@@ -11,13 +11,19 @@
 		"games",
 		"mongodb",
 		"svelte",
-		"rowdin",
+		"crowdin",
 		"golf",
 		"sveltekit",
 		"realgolf",
-		"realgolfgames"
+		"realgolfgames",
+		"training",
+		"trainingsplatform"
 	],
-	"author": "Julian Hammer and RealGolf.Games",
+	"author": {
+		"name": "Julian Hammer and RealGolf.Games",
+		"email": "info@realgolf.games",
+		"url": "https://realgolf.games"
+	},
 	"homepage": "https://realgolf.games",
 	"l10n": "src/locales",
 	"license": "All-Rights-Reserved",
@@ -25,27 +31,28 @@
 		"url": "https://github.com/realgolf/Golf/issues"
 	},
 	"main": "server/app.js",
+	"type": "module",
+	"hooks": {
+		"pre-commit": "pnpm run build && pnpm run format && pnpm run lint"
+	},
 	"scripts": {
-		"dev": "vite dev",
-		"build:kit": "vite build",
-		"build:server": "tsc server/app.ts --esModuleInterop --target esnext --moduleResolution node",
 		"build": "pnpm run build:kit && pnpm run build:server",
+		"build:kit": "vite build",
 		"build:kit:dev": "vite build --watch",
+		"build:server": "tsc server/app.ts --esModuleInterop --target esnext --moduleResolution node",
 		"build:server:dev": "tsc server/app.ts --esModuleInterop --target esnext --moduleResolution node --watch",
-		"format": "prettier --write .",
-		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"dev": "vite dev",
+		"extract": "svelte-i18n extract \"src/**/*.svelte\" src/locales/en.json",
+		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint .",
 		"prepare": "husky",
 		"precommit": ".husky/pre-commit",
-		"extract": "svelte-i18n extract \"src/**/*.svelte\" src/locales/en.json",
+		"preview": "vite preview",
 		"server": "node server/app.js",
 		"server:dev": "nodemon server/app.js",
 		"start": "pnpm run build && pnpm run server"
-	},
-	"hooks": {
-		"pre-commit": "pnpm run build && pnpm run format && pnpm run lint"
 	},
 	"devDependencies": {
 		"@sveltejs/kit": "^2.5.9",
@@ -75,13 +82,11 @@
 		"typescript": "^5.4.5",
 		"vite": "^5.2.11"
 	},
-	"type": "module",
 	"dependencies": {
 		"@fortawesome/free-brands-svg-icons": "^6.5.2",
 		"@fortawesome/free-regular-svg-icons": "^6.5.2",
 		"@fortawesome/free-solid-svg-icons": "^6.5.2",
 		"@sveltejs/adapter-node": "^5.0.1",
-		"@types/jsonwebtoken": "^9.0.6",
 		"autoprefixer": "^10.4.19",
 		"bcrypt": "^5.1.1",
 		"dompurify": "^3.1.2",
