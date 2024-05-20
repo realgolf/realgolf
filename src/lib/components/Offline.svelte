@@ -28,7 +28,8 @@
 		const controlY = startY - 100; // Adjust this value to change the curve height
 
 		// Define the path for the trace line
-		traceLine.setAttribute('d', `M${startX},${startY} Q${controlX},${controlY} ${endX},${endY}`);
+		const pathData = `M${startX},${startY} Q${controlX},${controlY} ${endX},${endY}`;
+		traceLine.setAttribute('d', pathData);
 
 		// Set up the animation properties for the trace line
 		const pathLength = traceLine.getTotalLength();
@@ -36,19 +37,17 @@
 		traceLine.style.strokeDashoffset = pathLength.toString();
 
 		// Apply offsetPath to the golf ball
-		golfBall.style.offsetPath = `path('M${startX},${startY} Q${controlX},${controlY} ${endX},${endY}')`;
+		golfBall.style.offsetPath = `path('${pathData}')`;
 
-		// Ensure the styles are applied before starting the animations
+		// Start the animations after ensuring styles are applied
 		requestAnimationFrame(() => {
-			golfBall.style.offsetDistance = '0%';
-			requestAnimationFrame(() => {
-				console.log('start');
-				// Start the animations
-				traceLine.style.animation = 'trace 2s linear infinite';
-				golfBall.style.animation = 'moveBall 2s linear infinite';
-				golfBall.style.animationPlayState = 'running';
-				traceLine.style.animationPlayState = 'running';
-			});
+			console.log('requestAnimationFrame');
+			traceLine.style.animation = 'trace 2s linear infinite';
+			golfBall.style.animation = 'moveBall 2s linear infinite';
+
+			// Ensure animations start
+			traceLine.style.animationPlayState = 'running';
+			golfBall.style.animationPlayState = 'running';
 		});
 	});
 </script>
@@ -110,8 +109,6 @@
 				background-color: white;
 				border-radius: 50%;
 				transform-origin: center;
-				offset-path: path('M0,0 Q0,0 0,0'); /* This path should be dynamically set in the script */
-				offset-distance: 0;
 			}
 
 			#hole {

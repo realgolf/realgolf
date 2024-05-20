@@ -4,36 +4,38 @@
 # Debugging: Output message to terminal
 echo "Running pre-commit hook..."
 
-# Install dependencies only if needed
-pnpm install --frozen-lockfile
+# Install dependencies
+pnpm install
 
 # Run build command
-if ! pnpm run build; then
+pnpm run build
+
+# Check if build command was successful
+if [ $? -ne 0 ]; then
   echo "Build failed. Aborting commit."
   exit 1
 fi
 
-# Run formatting checks and automatically fix issues
-if ! pnpm run format; then
+# Run formatting checks
+pnpm run format
+
+# Check if formatting checks passed
+if [ $? -ne 0 ]; then
   echo "Formatting failed. Aborting commit."
   exit 1
 fi
 
-# Stage any formatting changes
-git add .
+# Run linting checks
+pnpm run lint
 
-# Run linting checks and automatically fix issues
-if ! pnpm run lint; then
+# Check if linting checks passed
+if [ $? -ne 0 ]; then
   echo "Linting failed. Aborting commit."
   exit 1
 fi
 
-# Stage any linting changes
-git add .
-
+echo "All checks passed. Committing..."
 # If all checks pass, allow the commit to proceed
-echo "All checks passed. Proceeding with commit..."
-
-# Allow the user to enter the commit message
-# Note: This will not modify the commit message you've already entered
+git push origin HEAD
+echo "Pushed to origin HEAD"
 exit 0
