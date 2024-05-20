@@ -18,6 +18,7 @@
 
 	onMount(() => {
 		window.addEventListener('online', () => {
+			location.reload();
 			online = true;
 		});
 
