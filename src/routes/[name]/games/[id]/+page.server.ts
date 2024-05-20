@@ -21,8 +21,6 @@ function removeIdFromGame(
 export const load: PageServerLoad = async (event: any) => {
 	const param_name: string = event.params.name;
 	const param_id: string = event.params.id;
-	console.log(param_name);
-	console.log(param_id);
 
 	const user = await User_Model?.findOne({
 		'user.username': { $regex: new RegExp(param_name, 'i') }
@@ -36,8 +34,6 @@ export const load: PageServerLoad = async (event: any) => {
 
 	// Check if any game has the same id as param_id
 	const gameWithId = user_games.find((game) => game.id === param_id);
-
-	console.log(gameWithId);
 
 	if (!gameWithId) {
 		return { status: 404, error: 'Game with specified ID not found' };
