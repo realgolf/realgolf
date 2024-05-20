@@ -15,9 +15,11 @@ export const handle: Handle = async ({ event, resolve }) => {
 	const auth = authenticate(event.cookies);
 
 	if (is_protected && !auth) {
+		const url = event.url.pathname;
+		console.log('url', url);
 		event.cookies.delete('email', cookie_options);
 		event.cookies.delete('name', cookie_options);
-		throw redirect(307, '/login');
+		throw redirect(307, '/login?redirect=' + url);
 	}
 
 	const response = await resolve(event);

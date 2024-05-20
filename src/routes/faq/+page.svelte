@@ -20,6 +20,18 @@
 		<h1>{$_('faq')}</h1>
 		<main class="question">
 			<details>
+				<summary>{$_('faq_question_0_title')}</summary>
+				<div>
+					<p>{$_("faq_question_0_answer_by")}</p>
+					<p>
+						{$_('faq_answer_0_content')}
+					</p>
+				</div>
+			</details>
+		</main>
+
+		<main class="question">
+			<details>
 				<summary>{$_('faq_question_1_title')}</summary>
 				<div>
 					<p>
