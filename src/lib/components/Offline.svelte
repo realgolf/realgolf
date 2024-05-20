@@ -38,14 +38,14 @@
 		// Apply offsetPath to the golf ball
 		golfBall.style.offsetPath = `path('M${startX},${startY} Q${controlX},${controlY} ${endX},${endY}')`;
 
-		// Start the animations
-		traceLine.style.animation = 'trace 2s linear infinite';
-		golfBall.style.animation = 'moveBall 2s linear infinite';
-
 		// Ensure the styles are applied before starting the animations
 		requestAnimationFrame(() => {
 			golfBall.style.offsetDistance = '0%';
 			requestAnimationFrame(() => {
+				console.log('start');
+				// Start the animations
+				traceLine.style.animation = 'trace 2s linear infinite';
+				golfBall.style.animation = 'moveBall 2s linear infinite';
 				golfBall.style.animationPlayState = 'running';
 				traceLine.style.animationPlayState = 'running';
 			});
@@ -112,7 +112,6 @@
 				transform-origin: center;
 				offset-path: path('M0,0 Q0,0 0,0'); /* This path should be dynamically set in the script */
 				offset-distance: 0;
-				animation: moveBall 2s linear infinite paused;
 			}
 
 			#hole {
@@ -137,9 +136,5 @@
 		to {
 			offset-distance: 100%;
 		}
-	}
-
-	#trace-line {
-		animation: trace 2s linear infinite paused;
 	}
 </style>
