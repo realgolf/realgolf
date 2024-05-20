@@ -35,10 +35,21 @@
 		traceLine.style.strokeDasharray = pathLength.toString();
 		traceLine.style.strokeDashoffset = pathLength.toString();
 
+		// Apply offsetPath to the golf ball
+		golfBall.style.offsetPath = `path('M${startX},${startY} Q${controlX},${controlY} ${endX},${endY}')`;
+
 		// Start the animations
 		traceLine.style.animation = 'trace 2s linear infinite';
-		golfBall.style.offsetPath = `path('M${startX},${startY} Q${controlX},${controlY} ${endX},${endY}')`;
 		golfBall.style.animation = 'moveBall 2s linear infinite';
+
+		// Ensure the styles are applied before starting the animations
+		requestAnimationFrame(() => {
+			golfBall.style.offsetDistance = '0%';
+			requestAnimationFrame(() => {
+				golfBall.style.animationPlayState = 'running';
+				traceLine.style.animationPlayState = 'running';
+			});
+		});
 	});
 </script>
 
@@ -99,6 +110,9 @@
 				background-color: white;
 				border-radius: 50%;
 				transform-origin: center;
+				offset-path: path('M0,0 Q0,0 0,0'); /* This path should be dynamically set in the script */
+				offset-distance: 0;
+				animation: moveBall 2s linear infinite paused;
 			}
 
 			#hole {
@@ -126,12 +140,6 @@
 	}
 
 	#trace-line {
-		animation: trace 2s linear infinite;
-	}
-
-	#golf-ball {
-		offset-path: path('M0,0 Q0,0 0,0'); /* This path should be dynamically set in the script */
-		offset-distance: 0;
-		animation: moveBall 2s linear infinite;
+		animation: trace 2s linear infinite paused;
 	}
 </style>
