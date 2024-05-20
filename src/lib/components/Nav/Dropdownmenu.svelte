@@ -32,6 +32,7 @@
 	export let auth: string | undefined;
 	export let username: string | undefined;
 
+	let url: string;
 	let isOpen = false;
 
 	function toggleDropdown() {
@@ -55,6 +56,8 @@
 	setupSocket();
 
 	onMount(() => {
+		url = window.location.pathname;
+
 		window.addEventListener('keypress', (e) => {
 			if (e.key === 'm' && e.ctrlKey) {
 				toggleDropdown();
@@ -98,7 +101,7 @@
 			<div class="logged-out row border-bottom">
 				<h3>{$_('sign_in')}</h3>
 				<a href="/register"><span><Fa icon={faUserPlus} /></span>{$_('register')}</a>
-				<a href="/login"><span><Fa icon={faSignInAlt} /></span>{$_('login')}</a>
+				<a href="/login?redirect={url}"><span><Fa icon={faSignInAlt} /></span>{$_('login')}</a>
 			</div>
 		{/if}
 		{#if auth}
