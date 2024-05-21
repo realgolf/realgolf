@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Footer from '$lib/components/Footer.svelte';
 	import Nav from '$lib/components/Nav/Nav.svelte';
+	import Offline from '$lib/components/Offline.svelte';
 	import ScrollUp from '$lib/components/ScrollUp.svelte';
 	import '$lib/scss/app.scss';
 	import Cookies from 'js-cookie';
@@ -14,7 +15,18 @@
 
 	const all_users: User[] = data.all_users as User[];
 
+	let online: boolean = true;
+
 	onMount(() => {
+		window.addEventListener('online', () => {
+			location.reload();
+			online = true;
+		});
+
+		window.addEventListener('offline', () => {
+			online = false;
+		});
+
 		const selectedLanguage = Cookies.get('selectedLanguage');
 
 		if (selectedLanguage) {
@@ -58,17 +70,25 @@
 
 <svelte:head>
 	<link rel="icon" href="/logo.PNG" />
+
+	{#if online == false}
+		<h1>Offline</h1>
+	{/if}
 </svelte:head>
 
-<ScrollUp />
+{#if online == true}
+	<ScrollUp />
 
-<Nav auth={data.auth} username={data.username} {all_users} />
+	<Nav auth={data.auth} username={data.username} {all_users} />
 
-<main>
-	<slot />
-</main>
+	<main>
+		<slot />
+	</main>
 
-<Footer />
+	<Footer />
+{:else}
+	<Offline />
+{/if}
 
 <style lang="scss">
 	main {
