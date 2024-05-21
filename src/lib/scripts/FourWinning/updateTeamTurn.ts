@@ -5,10 +5,11 @@
  * @returns The updated innerHTML of the team turn display element.
  */
 export function updateTeamTurn(color: string) {
-	const teamTurnDisplay = document.getElementById('team_turn_display');
+	const teamTurnDisplay = document.getElementById('team_turn_display') as HTMLParagraphElement;
 	if (teamTurnDisplay) {
 		teamTurnDisplay.innerHTML = `Current Team Turn: ${color}`;
+		return teamTurnDisplay.innerHTML;
 	}
 
-	return teamTurnDisplay?.innerHTML;
+	return undefined;
 }
