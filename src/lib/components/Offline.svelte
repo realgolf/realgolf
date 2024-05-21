@@ -1,8 +1,6 @@
 <div class="center">
-	<img src="/logo.PNG" alt="Real Golf Games Logo" />
-	<h1>Offline</h1>
-	<p>We think you are offline</p>
-	<p>Please check your network connection</p>
+	<img src="/logo.PNG" alt="Real Golf Games Logo" class="logo" />
+	<h4>You're Offline</h4>
 </div>
 
 <style lang="scss">
@@ -14,7 +12,7 @@
 		height: 100vh;
 		flex-direction: column;
 
-		img {
+		.logo {
 			width: 256px;
 			height: 256px;
 		}
