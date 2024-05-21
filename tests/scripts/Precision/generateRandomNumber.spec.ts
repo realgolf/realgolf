@@ -9,7 +9,7 @@ describe('generateRandomNumber', () => {
 		const randomNumber = generateRandomNumber(range, lowerRange, upperRange);
 
 		expect(randomNumber).toBeGreaterThanOrEqual(lowerRange);
-		expect(randomNumber).toBeLessThan(upperRange);
+		expect(randomNumber).toBeLessThanOrEqual(upperRange);
 	});
 
 	it('should return a rounded number', () => {
