@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { addCommas } from '$lib/scripts/Planner/addCommas';
 	import { starPlan } from '$lib/scripts/Planner/starPlanner';
 	import { faStar } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
@@ -14,18 +13,10 @@
 </p>
 
 <div class="stats">
-	{#if addCommas(data.visits) !== undefined}
-		{$_('visits', { values: { visits: addCommas(data.visits) } })}
-	{:else}
-		{$_('visits', { values: { visits: data.visits } })}
-	{/if}
+	{$_('visits', { values: { visits: data.visits } })}
 	<!--eslint-disable-next-line-->
 	/ {@html $_('stars', { values: { stars: data.stars, href } })} /
-	{#if addCommas(data.edits) !== undefined}
-		{$_('edits', { values: { edits: addCommas(data.edits) } })}
-	{:else}
-		{$_('edits', { values: { edits: data.edits } })}
-	{/if}
+	{$_('edits', { values: { edits: data.edits } })}
 </div>
 
 <div class="utils">
