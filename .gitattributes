@@ -12,3 +12,4 @@
 
 pnpm-lock.yaml linguist-vendored
 src/locales/*.json linguist-vendored
+tests/** linguist-vendored
