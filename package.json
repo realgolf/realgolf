@@ -52,7 +52,10 @@
 		"preview": "vite preview",
 		"server": "node server/app.js",
 		"server:dev": "nodemon server/app.js",
-		"start": "pnpm run build && pnpm run server"
+		"start": "pnpm run build && pnpm run server",
+		"test": "jest",
+		"test:watch": "jest --watchAll",
+		"test:coverage": "jest --coverage"
 	},
 	"devDependencies": {
 		"@sveltejs/kit": "^2.5.9",
@@ -73,6 +76,7 @@
 		"eslint-plugin-svelte": "^2.39.0",
 		"husky": "^9.0.11",
 		"jest": "^29.7.0",
+		"jest-environment-jsdom": "^29.7.0",
 		"nodemon": "^3.1.0",
 		"prettier": "^2.8.8",
 		"prettier-plugin-svelte": "^2.10.1",
