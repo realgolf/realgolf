@@ -1,36 +1,56 @@
 import { saveLocalStorageGameInDB } from '../../../src/lib/scripts/Archive/saveLocalStorageGameInDB';
 
 describe('saveLocalStorageGameInDB', () => {
-	it('should populate the input fields with the correct values', () => {
+	let nameInput: HTMLInputElement,
+		teamInput: HTMLInputElement,
+		localStorageDataInput: HTMLInputElement,
+		saveLocalStorageToDB: HTMLFormElement;
+
+	beforeEach(() => {
 		// Mock the required elements
-		const nameInput = document.createElement('input');
+		nameInput = document.createElement('input');
 		nameInput.id = 'name_LStoDB';
-		const teamInput = document.createElement('input');
+		document.body.appendChild(nameInput);
+
+		teamInput = document.createElement('input');
 		teamInput.id = 'team_LStoDB';
-		const localStorageDataInput = document.createElement('input');
+		document.body.appendChild(teamInput);
+
+		localStorageDataInput = document.createElement('input');
 		localStorageDataInput.id = 'localStorageData_LStoDB';
+		document.body.appendChild(localStorageDataInput);
+
+		saveLocalStorageToDB = document.createElement('form');
+		saveLocalStorageToDB.id = 'saveLocalStorageToDB';
+		document.body.appendChild(saveLocalStorageToDB);
 
 		// Mock the localStorage getItem method
-		const localStorageMock = jest.spyOn(localStorage, 'getItem');
-		localStorageMock.mockReturnValue('{"key": "value"}');
+		jest.spyOn(localStorage, 'getItem');
 
 		// Mock the form submit method
-		const formMock = jest.spyOn(HTMLFormElement.prototype, 'submit');
-		formMock.mockImplementation(() => {});
+		jest.spyOn(HTMLFormElement.prototype, 'submit').mockImplementationOnce(() => {});
+	});
 
+	afterEach(() => {
+		// Clean up the DOM
+		document.body.removeChild(nameInput);
+		document.body.removeChild(teamInput);
+		document.body.removeChild(localStorageDataInput);
+		document.body.removeChild(saveLocalStorageToDB);
+
+		// Restore the mocks
+		jest.restoreAllMocks();
+	});
+
+	it('should populate the input fields with the correct values', () => {
 		// Call the function
-		saveLocalStorageGameInDB('team1');
+		saveLocalStorageGameInDB('4winning_2_teams');
 
 		// Assert the values of the input fields
-		expect(nameInput.value).toBe('team1');
-		expect(teamInput.value).toBe('team1');
-		expect(localStorageDataInput.value).toBe('{"key": "value"}');
+		expect(nameInput.value).toBe('4 Winning 2 Players');
+		expect(teamInput.value).toBe('4winning_2_teams');
 
 		// Assert that the form submit method was called
-		expect(formMock).toHaveBeenCalled();
-
-		// Clean up the mocks
-		localStorageMock.mockRestore();
-		formMock.mockRestore();
+		expect(HTMLFormElement.prototype.submit).toHaveBeenCalled();
 	});
 });
