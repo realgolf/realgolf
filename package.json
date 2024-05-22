@@ -55,7 +55,7 @@
 		"start": "pnpm run build && pnpm run server"
 	},
 	"devDependencies": {
-		"@sveltejs/kit": "^2.5.9",
+		"@sveltejs/kit": "^2.5.10",
 		"@sveltejs/vite-plugin-svelte": "^3.1.0",
 		"@types/bcrypt": "^5.0.2",
 		"@types/dompurify": "^3.0.5",
