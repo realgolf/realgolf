@@ -31,7 +31,7 @@ RealGolf.Games Web offers the following features:
 - Trainings Planner
 - Golf Course Score Tracker **Development paused [#714](https://github.com/realgolf/realgolf/issues/714)**
 - Feature issue [#715](https://github.com/realgolf/realgolf/issues/715) raised for implementing remote multiplayer, enabling users to compete against each other online.
-- Feature issue [#802(https://github.com/realgolf/realgolf/issues/802)] raised for implemening a swing analyzer tool, allowing users to analyze their swings and improve their technique.
+- Feature issue [#802](https://github.com/realgolf/realgolf/issues/802) raised for implemening a swing analyzer tool, allowing users to analyze their swings and improve their technique.
 - Feature issue [#726](https://github.com/realgolf/realgolf/issues/726) raised for implementing a Quiz App about Golfrules, allowing users to improve their knowledge of the rules.
 - Feature issue [#719](https://github.com/realgolf/realgolf/issues/719) raised for implementing a global leberboard for Precision.
 
