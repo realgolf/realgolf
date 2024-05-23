@@ -2,7 +2,7 @@
  * Get the current timestamp in the format HH:MM:SS
  * @returns {string} The current timestamp
  */
-export function get_timestamp() {
+export function get_timestamp(): string {
 	const date = new Date();
 
 	// Get hours, minutes, and seconds from the date object
