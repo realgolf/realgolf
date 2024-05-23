@@ -1,14 +1,13 @@
-import type { PageData } from '../../../routes/[name]/$types';
 import type { matchedSocials } from '../../types/matched_socials';
 import { social_links } from '../social_links';
+export type Social = string;
 
 /**
  * Modify the social links to only display the username and logo and not the full URL
  * @param {PageData} data
  * @returns {matchedSocials[]} matchedSocials
  */
-export function modify_social(data: PageData) {
-	const socials = data.socials;
+export function modify_social(socials: Social[]): matchedSocials[] {
 	const matchedSocials: matchedSocials[] = [];
 
 	if (socials) {

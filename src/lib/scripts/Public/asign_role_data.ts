@@ -9,7 +9,9 @@ import {
 	user_role
 } from '../roles';
 
-export function asign_role_data(role: string | undefined) {
+export function asign_role_data(
+	role: string | undefined
+): { title: string; permissions: string[]; color: string } | undefined {
 	let user_role_data;
 
 	if (role == 'Founder') {

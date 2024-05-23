@@ -1,4 +1,5 @@
 <script lang="ts">
+	import type { Social } from "$lib/scripts/Public/modify_socials";
 	import { modify_social } from '$lib/scripts/Public/modify_socials';
 	import sanitizeHTML from '$lib/shared/utils/sanitizeHTML';
 	import type { matchedSocials } from '$lib/types/matched_socials';
@@ -16,6 +17,7 @@
 	export let data: PageData;
 
 	let editing = false;
+	let socials: Social[] = data.socials as Social[]
 
 	function handleCancel(event: { preventDefault: () => void }) {
 		event.preventDefault();
@@ -29,7 +31,7 @@
 	let socials_render: socialsRender = [];
 
 	// Call modify_social() and assign the result to socials_render
-	socials_render = modify_social(data);
+	socials_render = modify_social(socials);
 </script>
 
 <div class="bio">
