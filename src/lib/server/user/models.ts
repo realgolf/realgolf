@@ -29,7 +29,6 @@ const User_Schema = new mongoose.Schema({
 		badges: [
 			{
 				title: { type: String },
-				description: { type: String },
 				color: { type: String }
 			}
 		],
