@@ -4,7 +4,7 @@ export default {
 	moduleNameMapper: {
 		'^\\$lib/(.*)$': '<rootDir>/src/lib/$1'
 	},
-	transformer: {
+	transform: {
 		'^.+\\.svelte$': 'svelte-jester',
 		'^.+\\.ts$': 'ts-jest'
 	}
