@@ -5,7 +5,7 @@
 	"description": "realgolf.games: The first and only trainings platform for golfers",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/realgolf/Golf"
+		"url": "https://github.com/realgolf/realgolf"
 	},
 	"keywords": [
 		"games",
@@ -28,7 +28,7 @@
 	"l10n": "src/locales",
 	"license": "All-Rights-Reserved",
 	"bugs": {
-		"url": "https://github.com/realgolf/Golf/issues"
+		"url": "https://github.com/realgolf/realgolf/issues"
 	},
 	"main": "server/app.js",
 	"type": "module",
