@@ -13,7 +13,7 @@ export function applyFilters(
 	filteredGames: filteredGames,
 	data: Data,
 	selectedTeam: string
-) {
+): filteredGames {
 	if (searchTerm !== '') {
 		filteredGames = data.games.filter((game) => {
 			if (game.name) {
