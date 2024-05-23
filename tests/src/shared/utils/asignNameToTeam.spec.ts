@@ -1,4 +1,4 @@
-import { asignNameToTeam } from '../../../src/lib/shared/utils/asignNameToTeam';
+import { asignNameToTeam } from '../../../../src/lib/shared/utils/asignNameToTeam';
 
 describe('asignNameToTeam', () => {
 	it('should return "4 Winning 2 Players" for input "4winning_2_teams"', () => {

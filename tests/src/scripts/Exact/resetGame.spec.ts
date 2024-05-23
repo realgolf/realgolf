@@ -1,4 +1,4 @@
-import { resetGame } from '../../../src/lib/scripts/Exact/resetGame';
+import { resetGame } from '../../../../src/lib/scripts/Exact/resetGame';
 
 describe('resetGame', () => {
 	it('should reset the game', () => {

@@ -1,4 +1,4 @@
-import { showNumberofClicks } from '../../../src/lib/scripts/FourWinning/showNumberOfClicks';
+import { showNumberofClicks } from '../../../../src/lib/scripts/FourWinning/showNumberOfClicks';
 
 describe('showNumberofClicks', () => {
 	it('should return the number of clicks as a string', () => {

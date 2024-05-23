@@ -1,4 +1,4 @@
-import sanitizeHTML from '../../../src/lib/shared/utils/sanitizeHTML';
+import sanitizeHTML from '../../../../src/lib/shared/utils/sanitizeHTML';
 
 describe('sanitizeHTML', () => {
 	it('should sanitize HTML', () => {

@@ -1,5 +1,5 @@
-import { Team } from '../../../src/lib/scripts/Exact/types';
-import { updatePointsDisplay } from '../../../src/lib/scripts/Exact/updatePointsDisplay';
+import { Team } from '../../../../src/lib/scripts/Exact/types';
+import { updatePointsDisplay } from '../../../../src/lib/scripts/Exact/updatePointsDisplay';
 
 describe('updatePointsDisplay', () => {
 	let mockDisplayElement: HTMLElement;

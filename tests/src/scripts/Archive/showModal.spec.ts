@@ -1,4 +1,4 @@
-import { showModal } from '../../../src/lib/scripts/Archive/showModal';
+import { showModal } from '../../../../src/lib/scripts/Archive/showModal';
 
 describe('showModal', () => {
 	let modal: HTMLElement;

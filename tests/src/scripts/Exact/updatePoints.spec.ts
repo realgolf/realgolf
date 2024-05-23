@@ -1,5 +1,5 @@
 import { Team } from '$lib/scripts/Exact/types';
-import { updatePoints } from '../../../src/lib/scripts/Exact/updatePoints';
+import { updatePoints } from '../../../../src/lib/scripts/Exact/updatePoints';
 
 describe('updatePoints', () => {
 	it('should update the points of each team based on the stored data', () => {

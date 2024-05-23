@@ -1,4 +1,4 @@
-import { togglePreview } from '../../../src/lib/scripts/Archive/togglePreview';
+import { togglePreview } from '../../../../src/lib/scripts/Archive/togglePreview';
 
 describe('togglePreview', () => {
 	beforeEach(() => {

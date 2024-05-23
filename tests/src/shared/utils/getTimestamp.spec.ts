@@ -1,4 +1,4 @@
-import { get_timestamp } from '../../../src/lib/shared/utils/getTimestamp';
+import { get_timestamp } from '../../../../src/lib/shared/utils/getTimestamp';
 
 describe('get_timestamp', () => {
 	it('should return a formatted timestamp', () => {

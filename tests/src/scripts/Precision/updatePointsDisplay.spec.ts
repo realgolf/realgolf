@@ -1,6 +1,6 @@
 // Import the function to test
-import type { Team } from '../../../src/lib/scripts/Precision/types'; // Adjust the import path as needed
-import { updatePointsDisplay } from '../../../src/lib/scripts/Precision/updatePointsDisplay';
+import type { Team } from '../../../../src/lib/scripts/Precision/types'; // Adjust the import path as needed
+import { updatePointsDisplay } from '../../../../src/lib/scripts/Precision/updatePointsDisplay';
 
 describe('updatePointsDisplay', () => {
 	let mockDisplayElement: HTMLElement;

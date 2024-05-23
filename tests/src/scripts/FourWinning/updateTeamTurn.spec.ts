@@ -1,4 +1,4 @@
-import { updateTeamTurn } from '../../../src/lib/scripts/Exact/updateTeamTurn';
+import { updateTeamTurn } from '../../../../src/lib/scripts/FourWinning/updateTeamTurn';
 
 describe('updateTeamTurn', () => {
 	let teamTurnDisplay: HTMLParagraphElement;

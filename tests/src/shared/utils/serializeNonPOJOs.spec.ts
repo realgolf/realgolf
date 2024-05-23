@@ -1,4 +1,4 @@
-import { serializeNonPOJOs } from '../../../src/lib/shared/utils/serializeNonPOJOs';
+import { serializeNonPOJOs } from '../../../../src/lib/shared/utils/serializeNonPOJOs';
 
 describe('serializeNonPOJOs', () => {
 	it('should serialize non-POJO objects', () => {

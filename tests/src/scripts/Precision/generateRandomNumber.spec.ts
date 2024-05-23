@@ -1,4 +1,4 @@
-import { generateRandomNumber } from '../../../src/lib/scripts/Precision/generateRandomNumber';
+import { generateRandomNumber } from '../../../../src/lib/scripts/Precision/generateRandomNumber';
 
 describe('generateRandomNumber', () => {
 	it('should generate a random number within the specified range', () => {

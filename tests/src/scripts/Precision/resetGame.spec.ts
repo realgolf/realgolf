@@ -1,4 +1,4 @@
-import { resetGame } from '../../../src/lib/scripts/Precision/resetGame';
+import { resetGame } from '../../../../src/lib/scripts/Precision/resetGame';
 
 describe('resetGame', () => {
 	it('should reset the game', () => {

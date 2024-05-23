@@ -1,5 +1,5 @@
 import { Team } from '$lib/scripts/FourWinning/types';
-import { restartGame_Btn } from '../../../src/lib/scripts/FourWinning/restartGameBtn';
+import { restartGame_Btn } from '../../../../src/lib/scripts/FourWinning/restartGameBtn';
 
 describe('restartGame_Btn', () => {
 	it('should reset the game state', () => {

@@ -1,5 +1,5 @@
 import { Team } from '$lib/scripts/Exact/types';
-import { findWinner } from '../../../src/lib/scripts/Exact/findWinner';
+import { findWinner } from '../../../../src/lib/scripts/Exact/findWinner';
 
 describe('findWinner', () => {
 	it('should return the color of the team with the highest points', () => {

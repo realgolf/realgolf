@@ -1,5 +1,5 @@
-import { deductPoints } from '../../../src/lib/scripts/Precision/deductPoints';
-import { Team } from '../../../src/lib/scripts/Precision/types';
+import { deductPoints } from '../../../../src/lib/scripts/Precision/deductPoints';
+import { Team } from '../../../../src/lib/scripts/Precision/types';
 
 describe('deductPoints', () => {
 	it('should deduct points from the current team and call changeTeam', () => {

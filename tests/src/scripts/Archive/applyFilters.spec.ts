@@ -1,6 +1,6 @@
 import { Data } from '$lib/scripts/Archive/types';
-import { applyFilters } from '../../../src/lib/scripts/Archive/applyFilters';
-import { filteredGames } from '../../../src/lib/scripts/Archive/types';
+import { applyFilters } from '../../../../src/lib/scripts/Archive/applyFilters';
+import { filteredGames } from '../../../../src/lib/scripts/Archive/types';
 
 describe('applyFilters', () => {
 	let filteredGames: filteredGames;

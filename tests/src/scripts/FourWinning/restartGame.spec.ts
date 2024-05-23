@@ -1,5 +1,5 @@
 import { Team } from '$lib/scripts/FourWinning/types';
-import { restartGame } from '../../../src/lib/scripts/FourWinning/restartGame';
+import { restartGame } from '../../../../src/lib/scripts/FourWinning/restartGame';
 
 describe('restartGame', () => {
 	it('should restart the game', () => {

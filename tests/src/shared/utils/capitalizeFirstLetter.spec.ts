@@ -1,4 +1,4 @@
-import { capitalizeFirstLetter } from '../../../src/lib/shared/utils/capitalizeFirstLetter';
+import { capitalizeFirstLetter } from '../../../../src/lib/shared/utils/capitalizeFirstLetter';
 
 describe('capitalizeFirstLetter', () => {
 	it('should capitalize the first letter of a valid string', () => {

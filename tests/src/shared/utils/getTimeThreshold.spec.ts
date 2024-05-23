@@ -1,4 +1,4 @@
-import { getTimeThreshold } from '../../../src/lib/shared/utils/getTimeThreshold';
+import { getTimeThreshold } from '../../../../src/lib/shared/utils/getTimeThreshold';
 
 describe('getTimeThreshold', () => {
 	it('should return the correct time threshold for daily period', () => {

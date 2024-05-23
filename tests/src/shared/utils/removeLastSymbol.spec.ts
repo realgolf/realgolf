@@ -1,4 +1,4 @@
-import { removeLastSymbol } from '../../../src/lib/shared/utils/removeLastSymbol';
+import { removeLastSymbol } from '../../../../src/lib/shared/utils/removeLastSymbol';
 
 describe('removeLastSymbol', () => {
 	it('should remove the last symbol from a string', () => {

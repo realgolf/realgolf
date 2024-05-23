@@ -1,4 +1,4 @@
-import { saveLocalStorageGameInDB } from '../../../src/lib/scripts/Archive/saveLocalStorageGameInDB';
+import { saveLocalStorageGameInDB } from '../../../../src/lib/scripts/Archive/saveLocalStorageGameInDB';
 
 describe('saveLocalStorageGameInDB', () => {
 	let nameInput: HTMLInputElement,
