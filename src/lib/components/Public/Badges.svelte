@@ -18,12 +18,13 @@
 			{#each data.badges as badge, index}
 				<!-- svelte-ignore a11y-click-events-have-key-events -->
 				<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-				<p
-					style="border: 1px solid {badge.color}; width: max-content; border-radius: 24px; padding: 3px 5px; color: {badge.color}; margin: 3px 5px; font-size: var(--tiny-font);"
+				<!-- svelte-ignore a11y-no-static-element-interactions -->
+				<span
+					style="border: 1px solid {badge.color}; width: max-content; border-radius: 2em; padding: 0 7px; color: {badge.color}; margin: 3px 5px; font-size: var(--tiny-font);"
 					on:click={() => handleBadgeClick(index)}
 				>
 					{badge.title.toUpperCase()}
-				</p>
+				</span>
 			{/each}
 		</div>
 	</div>
