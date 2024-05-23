@@ -1,0 +1,15 @@
+*.json linguist-detectable=true
+*.json linguist-language=JSON
+
+*.js linguist-detectable=true
+*.js linguist-language=JavaScript
+
+*.ts linguist-detectable=true
+*.ts linguist-language=TypeScript
+
+*.scss linguist-detectable=true
+*.scss linguist-language=SCSS
+
+pnpm-lock.yaml linguist-vendored
+src/locales/*.json linguist-vendored
+tests/** linguist-vendored
