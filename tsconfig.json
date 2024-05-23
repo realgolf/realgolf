@@ -1,7 +1,7 @@
 {
 	"extends": "./.svelte-kit/tsconfig.json",
 	"compilerOptions": {
-		"target": "ES2021",
+		"target": "ES6",
 		"allowJs": true,
 		"checkJs": false,
 		"esModuleInterop": true,
@@ -10,9 +10,21 @@
 		"skipLibCheck": true,
 		"sourceMap": true,
 		"strict": true,
-		"moduleResolution": "Node"
+		"moduleResolution": "Node",
+		"types": [
+			"@types/jest",
+			"@types/bcrypt",
+			"@types/dompurify",
+			"@types/express",
+			"@types/js-cookie",
+			"@types/jsonwebtoken",
+			"@types/node",
+			"@types/nodemailer",
+			"@types/uuid"
+		],
+		"verbatimModuleSyntax": false
 	},
-	"exclude": ["node_modules", "dist", ".svelte-kit", "build", "**/*.js"]
+	"exclude": ["node_modules", "dist", ".svelte-kit", "build", "**/*.js", "**/*.spec.ts"]
 	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias
 	//
 	// If you want to overwrite includes/excludes, make sure to copy over the relevant includes/excludes

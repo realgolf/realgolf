@@ -3,7 +3,7 @@
  *
  * @returns {HTMLCollectionOf<Element>} The collection of table previews.
  */
-export function togglePreview() {
+export function togglePreview(): HTMLCollectionOf<Element> {
 	const tablePreviews = document.getElementsByClassName('table_previews');
 
 	for (const tablePreview of tablePreviews) {

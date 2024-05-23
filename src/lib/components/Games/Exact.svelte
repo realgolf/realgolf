@@ -7,7 +7,7 @@
 	import { updatePointsDisplay } from '$lib/scripts/Exact/updatePointsDisplay';
 	import { updateTeamTurn } from '$lib/scripts/Exact/updateTeamTurn';
 	import { afterUpdate, onMount } from 'svelte';
-	import { _ } from "svelte-i18n";
+	import { _ } from 'svelte-i18n';
 	import { writable, type Writable } from 'svelte/store';
 	import Dialog, { open_dialog } from '../Global/Dialog.svelte';
 
@@ -57,13 +57,13 @@
 	let lastRowNumbers: Record<string, number | null> = {};
 
 	/**
-	 * Handles the click event on the field. 
-	 * Colors the clicked cell in the color of the current Team and updates the points. 
-	 * Also doubles the points if the last row number is the same as the current row number. 
-	 * Updates the points in the localStorage. 
-	 * Updates the pointsByTeam and the points display. 
-	 * Increases the clickedCellsCount. 
-	 * Changes the current team. 
+	 * Handles the click event on the field.
+	 * Colors the clicked cell in the color of the current Team and updates the points.
+	 * Also doubles the points if the last row number is the same as the current row number.
+	 * Updates the points in the localStorage.
+	 * Updates the pointsByTeam and the points display.
+	 * Increases the clickedCellsCount.
+	 * Changes the current team.
 	 * Checks if the game ended and opens a dialog if it did.
 	 * @returns {number} newPoints
 	 * @param {MouseEvent} event - The mouse event
@@ -217,13 +217,14 @@
 </script>
 
 <svelte:head>
-	<title>{$_("exact_players", {values: {teams_length: teams.length}})}</title>
+	<title>{$_('exact_players', { values: { teams_length: teams.length } })}</title>
 </svelte:head>
 
-<h1>{$_("exact_players", {values: {teams_length: teams.length}})}</h1>
+<h1>{$_('exact_players', { values: { teams_length: teams.length } })}</h1>
 
 <p>
-	{$_("number_of_shots_per_teams")} <input
+	{$_('number_of_shots_per_teams')}
+	<input
 		aria-label="Number of shots per Team"
 		bind:value={userInput}
 		type="number"
@@ -233,12 +234,20 @@
 </p>
 
 <p>
-	{$_("exact_shots_left", {values: {shots_left: userInput * teams.length - clickedCellsCount, clickedCellsCount, total_shots: userInput * teams.length}})}
+	{$_('exact_shots_left', {
+		values: {
+			shots_left: userInput * teams.length - clickedCellsCount,
+			clickedCellsCount,
+			total_shots: userInput * teams.length
+		}
+	})}
 </p>
 
-<p id="team_turn_display">{$_("current_team_turn", {values: {currentTeam_color: currentTeam.color}})}</p>
-<button on:click={changeTeam}>{$_("switch_team")}</button>
-<button on:click={request_restart_confirmation}>{$_("reset_game")}</button>
+<p id="team_turn_display">
+	{$_('current_team_turn', { values: { currentTeam_color: currentTeam.color } })}
+</p>
+<button on:click={changeTeam}>{$_('switch_team')}</button>
+<button on:click={request_restart_confirmation}>{$_('reset_game')}</button>
 
 <div id="points_display" />
 

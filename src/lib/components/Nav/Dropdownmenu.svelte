@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { addCommas } from '$lib/scripts/Planner/addCommas';
 	import {
 		faBars,
 		faBook,
@@ -125,11 +124,7 @@
 		{/if}
 		<div class="row border-bottom">
 			<p>
-				{#if addCommas(totalOnlineUsers) !== undefined}
-					{$_('total_online_users', { values: { totalOnlineUsers: addCommas(totalOnlineUsers) } })}
-				{:else}
-					{$_('total_online_users', { values: { totalOnlineUsers } })}
-				{/if}
+				{$_('total_online_users', { values: { totalOnlineUsers } })}
 			</p>
 		</div>
 		<div class="external-links row border-bottom">
