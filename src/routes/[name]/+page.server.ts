@@ -1,3 +1,4 @@
+import { asign_role_data } from '$lib/scripts/Public/asign_role_data';
 import { displayEmailPublic } from '$lib/scripts/Public/display_email_public';
 import { editStatus } from '$lib/scripts/Public/edit_status';
 import { extractMentions } from '$lib/scripts/Public/extract_mentions';
@@ -127,6 +128,8 @@ export const load: PageServerLoad = async (event) => {
 	const followers: Followers = serializeNonPOJOs(user.user?.followers as object);
 	const following: Following = serializeNonPOJOs(user.user?.following as object);
 	const serialiezed_cookie_user: User = serializeNonPOJOs(cookie_user as object);
+	const role = user.user?.role;
+	const user_role_data = asign_role_data(role);
 
 	return {
 		param_name,
@@ -155,7 +158,8 @@ export const load: PageServerLoad = async (event) => {
 		user_status,
 		followers,
 		following,
-		serialiezed_cookie_user
+		serialiezed_cookie_user,
+		user_role_data
 	};
 };
 

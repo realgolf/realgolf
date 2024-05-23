@@ -10,7 +10,7 @@
 </script>
 
 <div class="vcard-names">
-	<span class="vcard-nickname">{data.user_username}</span>
+	<span class="vcard-nickname" style="color: {data.user_role_data?.color};">{data.user_username}</span>
 	<br />
 	<span class="vcard-fullname"
 		>{data.user_name}
