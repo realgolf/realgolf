@@ -6,13 +6,14 @@
 	import { flip } from 'svelte/animate';
 	import { fade } from 'svelte/transition';
 	export let chat_users: user_chat[] = [];
+	export let role_color: string;
 </script>
 
 <aside>
 	<ul>
 		<span>{$_('users')} </span>
 		{#each chat_users as user (user.id)}
-			<li animate:flip transition:fade>
+			<li animate:flip transition:fade style="color: {role_color};">
 				{user.name}
 			</li>
 		{/each}

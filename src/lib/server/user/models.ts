@@ -26,6 +26,7 @@ const User_Schema = new mongoose.Schema({
 		email_public: { type: Boolean, required: true, default: false },
 		pronoun: { type: String },
 		custom_pronoun: { type: String },
+		role: { type: String, required: true, default: 'User' },
 		badges: [
 			{
 				title: { type: String },
