@@ -19,6 +19,8 @@
 	export let data: PageData;
 
 	let username: string = data.username as string;
+	let role_color: string = data.role_data.color as string;
+	let role_title: string = data.role_data.title as string;
 	let messages: message[] = [];
 	let messages_element: HTMLElement;
 	let chat_users: user_chat[] = [];
@@ -78,8 +80,8 @@
 	<h1>{$_('chat')}</h1>
 
 	{#if username}
-		<Status {chat_users} {username} />
-		<Messages bind:messages bind:messages_element />
+		<Status {chat_users} {username} {role_color}/>
+		<Messages bind:messages bind:messages_element {role_color} {role_title}/>
 		<SendForm bind:text {send_message} />
 	{:else}
 		<p>{$_('you_are_not_loged_in')}</p>
