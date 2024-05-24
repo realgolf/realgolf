@@ -1,5 +1,5 @@
-import { ClientToServerEvents, ServerToClientEvents, SocketData } from '$lib/types/server';
 import { Socket } from 'socket.io';
+import { ClientToServerEvents, ServerToClientEvents, SocketData } from '../../src/lib/types/server';
 
 // Function to reset the activity timer
 export const resetActivityTimer = (
