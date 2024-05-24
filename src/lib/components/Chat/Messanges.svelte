@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { get_timestamp } from '$lib/shared/utils/getTimestamp';
-	import type { message } from '$lib/types/chat';
+	import type { message } from '$lib/types/server';
 	export let messages: message[] = [];
 	export let messages_element: HTMLElement;
 	export let role_color: string;
@@ -14,7 +14,7 @@
 				{#if !message.bot}
 					<span class="author" style="color: {role_color};">[{role_title}] {message.author} <small id="grey">- {get_timestamp()}</small>:</span>
 				{/if}
-				<span>{message.text}</span>
+				<span>[BOT] ChatBot: {message.text}</span>
 			</li>
 		{/each}
 	</ol>
@@ -40,7 +40,7 @@
 	}
 
 	.bot {
-		font-weight: bold;
+		color: #52d869;
 	}
 
 	small#grey {

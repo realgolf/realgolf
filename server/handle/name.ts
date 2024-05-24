@@ -21,7 +21,7 @@ export function handle_name(
 	socket.data.name = name;
 	io.emit('message', {
 		author: '',
-		text: `👋 ${name} has entered the chat`,
+		text: `${name} has entered the chat`,
 		bot: true
 	});
 	chat_users.push({ id: socket.id, name: name });

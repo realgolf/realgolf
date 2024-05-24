@@ -19,7 +19,7 @@ export function handle_disconnection(
 	io.emit('users', chat_users);
 	io.emit('message', {
 		author: '',
-		text: `🏃‍♀️ ${socket.data.name} has left the chat`,
+		text: `${socket.data.name} has left the chat`,
 		bot: true
 	});
 }

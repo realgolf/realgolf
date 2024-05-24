@@ -43,7 +43,7 @@ export function handle_sockets(server: Server<typeof IncomingMessage, typeof Ser
 		});
 
 		socket.on('message', (message) => {
-			handle_message(message, io);
+			handle_message(message, io, socket);
 			resetActivityTimer(activityTimer, socket, SOCKET_TIMEOUT);
 		});
 
