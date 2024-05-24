@@ -64,7 +64,7 @@
 		} else {
 			socket?.emit('message', {
 				author: username,
-				text: `You can't send an empty message.`,
+				text: `you can't send an empty message.`,
 				bot: true
 			});
 		}

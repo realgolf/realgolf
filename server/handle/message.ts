@@ -16,11 +16,10 @@ export function handle_message(
 	socket: Socket<ClientToServerEvents, ServerToClientEvents, object, SocketData>
 ) {
 	console.log('message:', message);
-	if (message.bot && message.text.includes("You can't send an empty message.")) {
-		console.log('message.bot:', message.bot);
+	if (message.bot && message.text.includes("you can't send an empty message.")) {
 		socket.emit('message', {
 			author: '',
-			text: `${message.author} You can't send an empty message.`,
+			text: `${message.author} you can't send an empty message.`,
 			bot: true
 		});
 	} else {
