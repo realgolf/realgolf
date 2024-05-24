@@ -1,20 +1,23 @@
 import type { IncomingMessage, Server, ServerResponse } from 'http';
-import { Server as ioServer, type Socket } from 'socket.io';
+import { Server as ioServer } from 'socket.io';
 import type {
 	ClientToServerEvents,
 	InterServerEvents,
 	ServerToClientEvents,
 	SocketData,
-	message,
 	user_chat
 } from '../src/lib/types/server';
+import { handle_disconnection } from './handle/disconnection';
+import { handle_message } from './handle/message';
+import { handle_name } from './handle/name';
+import { resetActivityTimer } from './utils/activityTimer';
 
 /**
  * Handles the sockets and events.
  * @param server
  */
 export function handle_sockets(server: Server<typeof IncomingMessage, typeof ServerResponse>) {
-	let chat_users: user_chat[] = [];
+	const chat_users: user_chat[] = [];
 	let socketNumber: number = 0;
 	const SOCKET_TIMEOUT = 1000 * 60 * 10; // 10 minutes
 
@@ -34,72 +37,22 @@ export function handle_sockets(server: Server<typeof IncomingMessage, typeof Ser
 
 		io.emit('socketNumber', socketNumber);
 
-		// Function to reset the activity timer
-		const resetActivityTimer = () => {
-			clearTimeout(activityTimer);
-			activityTimer = setTimeout(() => {
-				const redirectUrl = '/dashboard';
-				socket.emit('redirect', redirectUrl);
-				socket.disconnect(true); // Disconnect socket after timeout
-			}, SOCKET_TIMEOUT);
-		};
-
 		socket.on('name', async (name) => {
-			handle_name(socket, name);
-			resetActivityTimer();
+			handle_name(socket, name, io, chat_users);
+			resetActivityTimer(activityTimer, socket, SOCKET_TIMEOUT);
 		});
 
 		socket.on('message', (message) => {
-			handle_message(message);
-			resetActivityTimer();
+			handle_message(message, io);
+			resetActivityTimer(activityTimer, socket, SOCKET_TIMEOUT);
 		});
 
 		socket.on('disconnect', () => {
 			socketNumber--;
 			io.emit('socketNumber', socketNumber);
 
-			handle_disconnection(socket);
+			handle_disconnection(socket, chat_users, io);
 			clearTimeout(activityTimer);
 		});
 	});
-
-	/**
-	 * Handles the event if a new user joins the chat.
-	 * Sends a message to all users and adds the user to the chat_users array.
-	 * @param socket
-	 * @param name
-	 */
-	function handle_name(socket: Socket<ClientToServerEvents, ServerToClientEvents>, name: string) {
-		socket.data.name = name;
-		io.emit('message', {
-			author: '',
-			text: `👋 ${name} has entered the chat`,
-			bot: true
-		});
-		chat_users.push({ id: socket.id, name: name });
-		io.emit('users', chat_users);
-	}
-
-	/**
-	 * Handles the event if a user sends a message.
-	 * @param message
-	 */
-	function handle_message(message: message) {
-		console.log('message:', message);
-		io.emit('message', { ...message, bot: false });
-	}
-
-	/**
-	 * Handles the event if a user disconnects.
-	 * @param socket
-	 */
-	function handle_disconnection(socket: Socket<ClientToServerEvents, ServerToClientEvents>) {
-		chat_users = chat_users.filter((user) => user.id != socket.id);
-		io.emit('users', chat_users);
-		io.emit('message', {
-			author: '',
-			text: `🏃‍♀️ ${socket.data.name} has left the chat`,
-			bot: true
-		});
-	}
 }
