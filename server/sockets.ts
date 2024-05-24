@@ -7,10 +7,10 @@ import type {
 	SocketData,
 	user_chat
 } from '../src/lib/types/server';
-import { handle_disconnection } from './handle/disconnection';
-import { handle_message } from './handle/message';
-import { handle_name } from './handle/name';
-import { resetActivityTimer } from './utils/activityTimer';
+import { handle_disconnection } from './handle/disconnection.js';
+import { handle_message } from './handle/message.js';
+import { handle_name } from './handle/name.js';
+import { resetActivityTimer } from './utils/activityTimer.js';
 
 /**
  * Handles the sockets and events.
