@@ -25,6 +25,7 @@
 	let messages_element: HTMLElement;
 	let chat_users: user_chat[] = [];
 	let text = '';
+	let id: string;
 	let socket: undefined | Socket<ServerToClientEvents, ClientToServerEvents>;
 
 	if (browser && !username) {
@@ -37,6 +38,10 @@
 		socket = io();
 
 		socket.emit('name', username);
+
+		socket.on('id', (_id: string) => {
+			id = _id;
+		});
 
 		socket.on('message', async (message: message) => {
 			messages = [...messages, message];
@@ -86,6 +91,7 @@
 	<p>Loading...</p>
 {:else}
 	<h1>{$_('chat')}</h1>
+	<p>{id}</p>
 
 	{#if username}
 		<Status {chat_users} {username} {role_color} />

@@ -16,7 +16,8 @@ export function handle_name(
 	socket: Socket<ClientToServerEvents, ServerToClientEvents>,
 	name: string,
 	io: ioServer<ClientToServerEvents, ServerToClientEvents, object, SocketData>,
-	chat_users: user_chat[]
+	chat_users: user_chat[],
+	id: string
 ) {
 	socket.data.name = name;
 	io.emit('message', {
@@ -24,6 +25,6 @@ export function handle_name(
 		text: `${name} has entered the chat`,
 		bot: true
 	});
-	chat_users.push({ id: socket.id, name: name });
+	chat_users.push({ id, name: name });
 	io.emit('users', chat_users);
 }

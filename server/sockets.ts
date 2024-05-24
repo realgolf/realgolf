@@ -33,12 +33,15 @@ export function handle_sockets(server: Server<typeof IncomingMessage, typeof Ser
 	 */
 	io.on('connection', (socket) => {
 		let activityTimer: NodeJS.Timeout;
+		const id: string = socket.id;
 		socketNumber++;
 
 		io.emit('socketNumber', socketNumber);
 
+		socket.emit('id', id);
+
 		socket.on('name', async (name) => {
-			handle_name(socket, name, io, chat_users);
+			handle_name(socket, name, io, chat_users, id);
 			resetActivityTimer(activityTimer, socket, SOCKET_TIMEOUT);
 		});
 
