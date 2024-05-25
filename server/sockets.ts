@@ -52,6 +52,7 @@ export function handle_sockets(server: Server<typeof IncomingMessage, typeof Ser
 
 		socket.on('private_message', (private_message) => {
 			handle_private_message(private_message, io);
+			resetActivityTimer(activityTimer, socket, SOCKET_TIMEOUT);
 		});
 
 		socket.on('disconnect', () => {
