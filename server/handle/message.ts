@@ -33,6 +33,6 @@ export function handle_private_message(
 	private_message: private_message,
 	io: ioServer<ClientToServerEvents, ServerToClientEvents, object, SocketData>
 ) {
-	console.log('private_message:', private_message);
+	console.log('private_message:', private_message.text);
 	io.to(private_message.to).emit('message', { ...private_message });
 }
