@@ -16,6 +16,7 @@ export function handle_disconnection(
 	io: ioServer<ClientToServerEvents, ServerToClientEvents, object, SocketData>
 ) {
 	chat_users = chat_users.filter((user) => user.id != socket.id);
+	console.log('chat_users:', chat_users);
 	io.emit('users', chat_users);
 	io.emit('message', {
 		author: '',

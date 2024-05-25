@@ -8,7 +8,7 @@ import type {
 	user_chat
 } from '../src/lib/types/server';
 import { handle_disconnection } from './handle/disconnection.js';
-import { handle_message } from './handle/message.js';
+import { handle_message, handle_private_message } from './handle/message.js';
 import { handle_name } from './handle/name.js';
 import { resetActivityTimer } from './utils/activityTimer.js';
 
@@ -48,6 +48,10 @@ export function handle_sockets(server: Server<typeof IncomingMessage, typeof Ser
 		socket.on('message', (message) => {
 			handle_message(message, io, socket);
 			resetActivityTimer(activityTimer, socket, SOCKET_TIMEOUT);
+		});
+
+		socket.on('private_message', (private_message) => {
+			handle_private_message(private_message, io);
 		});
 
 		socket.on('disconnect', () => {

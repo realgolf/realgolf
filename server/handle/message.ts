@@ -3,7 +3,8 @@ import type {
 	ClientToServerEvents,
 	ServerToClientEvents,
 	SocketData,
-	message
+	message,
+	private_message
 } from '../../src/lib/types/server';
 
 /**
@@ -25,4 +26,12 @@ export function handle_message(
 	} else {
 		io.emit('message', { ...message });
 	}
+}
+
+export function handle_private_message(
+	private_message: private_message,
+	io: ioServer<ClientToServerEvents, ServerToClientEvents, object, SocketData>
+) {
+	console.log('private_message:', private_message);
+	io.to(private_message.to).emit('message', { ...private_message });
 }

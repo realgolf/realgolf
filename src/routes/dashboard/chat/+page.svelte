@@ -39,6 +39,10 @@
 
 		socket.emit('name', username);
 
+		socket.on('id', (_id: string) => {
+			id = _id;
+		});
+
 		socket.on('message', async (message: message) => {
 			messages = [...messages, message];
 			scroll_to_bottom();
@@ -59,14 +63,17 @@
 			const parts = text.split(' ');
 			if (parts.length > 2) {
 				const reciever = parts[1];
+				const reciever_id = chat_users.find((user) => user.name === reciever)?.id ?? '';
 				const message = parts.slice(2).join(' ');
 				socket?.emit('private_message', {
 					author: username,
-					to: reciever,
+					to: reciever_id,
 					text: message,
 					bot: false
 				});
+				text = '';
 			}
+			text = '';
 		} else if (text !== '') {
 			socket?.emit('message', {
 				author: username,
@@ -99,7 +106,6 @@
 	<p>Loading...</p>
 {:else}
 	<h1>{$_('chat')}</h1>
-	<p>{id}</p>
 
 	{#if username}
 		<Status {chat_users} {username} {role_color} />
