@@ -56,7 +56,6 @@ export function handle_sockets(server: Server<typeof IncomingMessage, typeof Ser
 		});
 
 		socket.on('help_info', () => {
-			console.log('help_info');
 			handle_help_info(socket);
 			resetActivityTimer(activityTimer, socket, SOCKET_TIMEOUT);
 		});
