@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { get_timestamp } from '$lib/shared/utils/getTimestamp';
+	import sanitizeHTML from '$lib/shared/utils/sanitizeHTML';
 	import type { message } from '$lib/types/server';
 	export let messages: message[] = [];
 	export let messages_element: HTMLElement;
@@ -20,7 +21,7 @@
 						> <span>{message.text}</span>
 					{/if}
 				{:else}
-					<span class="author">Chat Bot</span>: <span>{message.text}</span>
+					<span class="author">Chat Bot</span>: <span use:sanitizeHTML={[message.text]} />
 				{/if}
 			</li>
 		{/each}

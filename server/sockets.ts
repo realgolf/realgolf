@@ -8,7 +8,7 @@ import type {
 	user_chat
 } from '../src/lib/types/server';
 import { handle_disconnection } from './handle/disconnection.js';
-import { handle_message, handle_private_message } from './handle/message.js';
+import { handle_help_info, handle_message, handle_private_message } from './handle/message.js';
 import { handle_name } from './handle/name.js';
 import { resetActivityTimer } from './utils/activityTimer.js';
 
@@ -52,6 +52,12 @@ export function handle_sockets(server: Server<typeof IncomingMessage, typeof Ser
 
 		socket.on('private_message', (private_message) => {
 			handle_private_message(private_message, io);
+			resetActivityTimer(activityTimer, socket, SOCKET_TIMEOUT);
+		});
+
+		socket.on('help_info', () => {
+			console.log('help_info');
+			handle_help_info(socket);
 			resetActivityTimer(activityTimer, socket, SOCKET_TIMEOUT);
 		});
 

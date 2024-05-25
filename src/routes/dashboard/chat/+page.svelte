@@ -75,6 +75,13 @@
 				text = '';
 			}
 			text = '';
+		} else if (typeof text === 'string' && text.trim() === '/help') {
+			socket?.emit('help_info', {
+				message_type: 'bot',
+				back_to: socket.id ?? '',
+				author: '',
+				bot: true
+			});
 		} else if (text !== '') {
 			socket?.emit('message', {
 				message_type: 'message',
@@ -85,7 +92,7 @@
 			text = '';
 		} else {
 			socket?.emit('message', {
-				message_type: 'message',
+				message_type: 'bot',
 				author: username,
 				text: `you can't send an empty message.`,
 				bot: true

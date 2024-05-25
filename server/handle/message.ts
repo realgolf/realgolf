@@ -36,3 +36,20 @@ export function handle_private_message(
 	console.log('private_message:', private_message.text);
 	io.to(private_message.to).emit('message', { ...private_message });
 }
+
+export function handle_help_info(
+	socket: Socket<ClientToServerEvents, ServerToClientEvents, object, SocketData>
+) {
+	const info = `
+		Shortcuts: <br>
+		/help - Shows this message <br>
+		/pm [user] [message] - Sends a private message to a user <br>
+		`;
+
+	socket.emit('message', {
+		message_type: 'bot',
+		author: '',
+		text: info,
+		bot: true
+	});
+}
