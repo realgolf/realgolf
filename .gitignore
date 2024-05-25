@@ -12,10 +12,8 @@ coverage
 
 # Server Files
 
-server.js
-sockets.js
-chat.js
-app.js
+server/**/*.js
+src/lib/types/*.js
 
 # Local Netlify folder
 .netlify

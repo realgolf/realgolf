@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import { goto } from '$app/navigation';
-	import Messages from '$lib/components/Chat/Messanges.svelte';
+	import Messages from '$lib/components/Chat/Messages.svelte';
 	import SendForm from '$lib/components/Chat/SendForm.svelte';
 	import Status from '$lib/components/Chat/Status.svelte';
 	import { redirect } from '$lib/scripts/Archive/redirect';
@@ -19,12 +19,13 @@
 	export let data: PageData;
 
 	let username: string = data.username as string;
-	let role_color: string = data.role_data.color as string;
-	let role_title: string = data.role_data.title as string;
+	let role_color: string = data.role_data?.color as string;
+	let role_title: string = data.role_data?.title as string;
 	let messages: message[] = [];
 	let messages_element: HTMLElement;
 	let chat_users: user_chat[] = [];
 	let text = '';
+	let id: string;
 	let socket: undefined | Socket<ServerToClientEvents, ClientToServerEvents>;
 
 	if (browser && !username) {
@@ -37,6 +38,10 @@
 		socket = io();
 
 		socket.emit('name', username);
+
+		socket.on('id', (_id: string) => {
+			id = _id;
+		});
 
 		socket.on('message', async (message: message) => {
 			messages = [...messages, message];
@@ -54,12 +59,46 @@
 	}
 
 	function send_message() {
-		socket?.emit('message', {
-			author: username,
-			text: text,
-			bot: false
-		});
-		text = '';
+		if (text.includes('/pm')) {
+			const parts = text.split(' ');
+			if (parts.length > 2) {
+				const reciever = parts[1];
+				const reciever_id = chat_users.find((user) => user.name === reciever)?.id ?? '';
+				const message = parts.slice(2).join(' ');
+				socket?.emit('private_message', {
+					message_type: 'private_message',
+					author: username,
+					from: id,
+					to: reciever_id,
+					text: message,
+					bot: false
+				});
+				text = '';
+			}
+			text = '';
+		} else if (typeof text === 'string' && text.trim() === '/help') {
+			socket?.emit('help_info', {
+				message_type: 'bot',
+				back_to: socket.id ?? '',
+				author: '',
+				bot: true
+			});
+		} else if (text !== '') {
+			socket?.emit('message', {
+				message_type: 'message',
+				author: username,
+				text: text,
+				bot: false
+			});
+			text = '';
+		} else {
+			socket?.emit('message', {
+				message_type: 'bot',
+				author: username,
+				text: `you can't send an empty message.`,
+				bot: true
+			});
+		}
 	}
 
 	async function scroll_to_bottom() {
@@ -80,8 +119,8 @@
 	<h1>{$_('chat')}</h1>
 
 	{#if username}
-		<Status {chat_users} {username} {role_color}/>
-		<Messages bind:messages bind:messages_element {role_color} {role_title}/>
+		<Status {chat_users} {username} />
+		<Messages bind:messages bind:messages_element {username}/>
 		<SendForm bind:text {send_message} />
 	{:else}
 		<p>{$_('you_are_not_loged_in')}</p>
