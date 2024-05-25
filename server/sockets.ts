@@ -4,8 +4,7 @@ import type {
 	ClientToServerEvents,
 	InterServerEvents,
 	ServerToClientEvents,
-	SocketData,
-	user_chat
+	SocketData
 } from '../src/lib/types/server';
 import { handle_disconnection } from './handle/disconnection.js';
 import { handle_message, handle_private_message } from './handle/message.js';
@@ -17,7 +16,6 @@ import { resetActivityTimer } from './utils/activityTimer.js';
  * @param server
  */
 export function handle_sockets(server: Server<typeof IncomingMessage, typeof ServerResponse>) {
-	const chat_users: user_chat[] = [];
 	let socketNumber: number = 0;
 	const SOCKET_TIMEOUT = 1000 * 60 * 10; // 10 minutes
 
@@ -41,7 +39,7 @@ export function handle_sockets(server: Server<typeof IncomingMessage, typeof Ser
 		socket.emit('id', id);
 
 		socket.on('name', async (name) => {
-			handle_name(socket, name, io, chat_users, id);
+			handle_name(socket, name, io);
 			resetActivityTimer(activityTimer, socket, SOCKET_TIMEOUT);
 		});
 
@@ -58,7 +56,7 @@ export function handle_sockets(server: Server<typeof IncomingMessage, typeof Ser
 			socketNumber--;
 			io.emit('socketNumber', socketNumber);
 
-			handle_disconnection(socket, chat_users, io);
+			handle_disconnection(socket, io);
 			clearTimeout(activityTimer);
 		});
 	});

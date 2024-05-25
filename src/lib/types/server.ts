@@ -11,14 +11,8 @@ export type private_message = {
 	bot: boolean;
 };
 
-export type user_chat = {
-	id: string;
-	name: string;
-};
-
 export type ServerToClientEvents = {
 	message: (m: message) => void;
-	users: (u: user_chat[]) => void;
 	redirect: (url: string) => void;
 	socketNumber: (n: number) => void;
 	id: (i: string) => void;

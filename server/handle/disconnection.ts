@@ -2,8 +2,7 @@ import { Server as ioServer, type Socket } from 'socket.io';
 import type {
 	ClientToServerEvents,
 	ServerToClientEvents,
-	SocketData,
-	user_chat
+	SocketData
 } from '../../src/lib/types/server';
 
 /**
@@ -12,15 +11,13 @@ import type {
  */
 export function handle_disconnection(
 	socket: Socket<ClientToServerEvents, ServerToClientEvents>,
-	chat_users: user_chat[],
 	io: ioServer<ClientToServerEvents, ServerToClientEvents, object, SocketData>
 ) {
-	chat_users = chat_users.filter((user) => user.id != socket.id);
-	console.log('chat_users:', chat_users);
-	io.emit('users', chat_users);
+	const userName = socket.data.name;
+
 	io.emit('message', {
 		author: '',
-		text: `${socket.data.name} has left the chat`,
+		text: `${userName} has left the chat`,
 		bot: true
 	});
 }
