@@ -66,6 +66,7 @@
 				const reciever_id = chat_users.find((user) => user.name === reciever)?.id ?? '';
 				const message = parts.slice(2).join(' ');
 				socket?.emit('private_message', {
+					message_type: 'private_message',
 					author: username,
 					to: reciever_id,
 					text: message,
@@ -76,6 +77,7 @@
 			text = '';
 		} else if (text !== '') {
 			socket?.emit('message', {
+				message_type: 'message',
 				author: username,
 				text: text,
 				bot: false
@@ -83,6 +85,7 @@
 			text = '';
 		} else {
 			socket?.emit('message', {
+				message_type: 'message',
 				author: username,
 				text: `you can't send an empty message.`,
 				bot: true

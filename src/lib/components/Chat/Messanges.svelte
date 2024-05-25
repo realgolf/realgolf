@@ -10,9 +10,15 @@
 		{#each messages as message}
 			<li class:bot={message.bot}>
 				{#if !message.bot}
-					<span class="author">
-						{message.author} <small id="grey">- {get_timestamp()}</small>:
-					</span> <span>{message.text}</span>
+					{#if message.message_type !== 'private_message'}
+						<span class="author">
+							{message.author} <small id="grey">- {get_timestamp()}</small>:
+						</span> <span>{message.text}</span>
+					{:else if message.message_type === 'private_message'}
+						<span class="author"
+							>Private <small class="grey">{get_timestamp()}</small>: {message.author} whispers:</span
+						> <span>{message.text}</span>
+					{/if}
 				{:else}
 					<span class="author">Chat Bot</span>: <span>{message.text}</span>
 				{/if}

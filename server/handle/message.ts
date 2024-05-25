@@ -19,6 +19,7 @@ export function handle_message(
 	console.log('message:', message);
 	if (message.bot && message.text.includes("you can't send an empty message.")) {
 		socket.emit('message', {
+			message_type: 'bot',
 			author: '',
 			text: `${message.author} you can't send an empty message.`,
 			bot: true

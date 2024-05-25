@@ -1,4 +1,5 @@
 export type message = {
+	message_type: string;
 	author: string;
 	text: string;
 	bot: boolean;
@@ -10,6 +11,7 @@ export type user_chat = {
 };
 
 export type private_message = {
+	message_type: string;
 	author: string;
 	to: string;
 	text: string;

@@ -18,6 +18,7 @@ export function handle_disconnection(
 	const userName = socket.data.name;
 
 	io.emit('message', {
+		message_type: 'bot',
 		author: '',
 		text: `${userName} has left the chat`,
 		bot: true

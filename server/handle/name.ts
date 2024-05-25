@@ -17,6 +17,7 @@ export function handle_name(
 
 	// Emit a message to all clients that a new user has joined
 	io.emit('message', {
+		message_type: 'bot',
 		author: '',
 		text: `${name} has entered the chat`,
 		bot: true
