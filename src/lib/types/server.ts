@@ -4,6 +4,11 @@ export type message = {
 	bot: boolean;
 };
 
+export type user_chat = {
+	id: string;
+	name: string;
+};
+
 export type private_message = {
 	author: string;
 	to: string;
@@ -15,6 +20,7 @@ export type ServerToClientEvents = {
 	message: (m: message) => void;
 	redirect: (url: string) => void;
 	socketNumber: (n: number) => void;
+	users: (u: user_chat[]) => void;
 	id: (i: string) => void;
 };
 
