@@ -3,8 +3,6 @@
 	import type { message } from '$lib/types/server';
 	export let messages: message[] = [];
 	export let messages_element: HTMLElement;
-	export let role_color: string;
-	export let role_title: string;
 </script>
 
 <section bind:this={messages_element}>
@@ -12,9 +10,12 @@
 		{#each messages as message}
 			<li class:bot={message.bot}>
 				{#if !message.bot}
-					<span class="author" style="color: {role_color};">[{role_title}] {message.author} <small id="grey">- {get_timestamp()}</small>:</span>
+					<span class="author">
+						{message.author} <small id="grey">- {get_timestamp()}</small>:
+					</span> <span>{message.text}</span>
+				{:else}
+					<span class="author">Chat Bot</span>: <span>{message.text}</span>
 				{/if}
-				<span>[BOT] ChatBot: {message.text}</span>
 			</li>
 		{/each}
 	</ol>

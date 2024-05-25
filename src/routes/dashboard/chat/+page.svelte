@@ -108,8 +108,8 @@
 	<h1>{$_('chat')}</h1>
 
 	{#if username}
-		<Status {chat_users} {username} {role_color} />
-		<Messanges bind:messages bind:messages_element {role_color} {role_title} />
+		<Status {chat_users} {username} />
+		<Messanges bind:messages bind:messages_element />
 		<SendForm bind:text {send_message} />
 	{:else}
 		<p>{$_('you_are_not_loged_in')}</p>
