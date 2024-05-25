@@ -33,8 +33,18 @@ export function handle_private_message(
 	private_message: private_message,
 	io: ioServer<ClientToServerEvents, ServerToClientEvents, object, SocketData>
 ) {
-	console.log('private_message:', private_message.text);
+	console.log('private_message:', private_message);
+
+	const target_socket = io.sockets.sockets.get(private_message.to);
+	let target_name = 'unknown user';
+	if (target_socket) {
+		target_name = target_socket.data.name;
+	}
+
+	private_message.target_name = target_name;
+
 	io.to(private_message.to).emit('message', { ...private_message });
+	io.to(private_message.from).emit('message', { ...private_message });
 }
 
 export function handle_help_info(

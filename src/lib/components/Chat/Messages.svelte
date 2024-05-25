@@ -4,6 +4,15 @@
 	import type { message } from '$lib/types/server';
 	export let messages: message[] = [];
 	export let messages_element: HTMLElement;
+	export let username: string;
+
+	function displayAuthorAndTarget(message: message) {
+		const author = message.author === username ? 'You' : message.author;
+		const target = message.target_name === username ? 'You' : message.target_name;
+		const whisperText = author === 'You' ? 'whisper' : 'whispers';
+
+		return `${author} ${whisperText} to ${target}`;
+	}
 </script>
 
 <section bind:this={messages_element}>
@@ -17,7 +26,7 @@
 						</span> <span>{message.text}</span>
 					{:else if message.message_type === 'private_message'}
 						<span class="author"
-							>Private <small class="grey">{get_timestamp()}</small>: {message.author} whispers:</span
+							><span class="private">[Private]</span> <small id="grey">{get_timestamp()}</small>: {displayAuthorAndTarget(message)}:</span
 						> <span>{message.text}</span>
 					{/if}
 				{:else}
@@ -49,6 +58,10 @@
 
 	.bot {
 		color: #52d869;
+	}
+
+	.private {
+		color: #ff0000;
 	}
 
 	small#grey {

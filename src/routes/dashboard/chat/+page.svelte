@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import { goto } from '$app/navigation';
-	import Messanges from '$lib/components/Chat/Messanges.svelte';
+	import Messages from '$lib/components/Chat/Messages.svelte';
 	import SendForm from '$lib/components/Chat/SendForm.svelte';
 	import Status from '$lib/components/Chat/Status.svelte';
 	import { redirect } from '$lib/scripts/Archive/redirect';
@@ -68,6 +68,7 @@
 				socket?.emit('private_message', {
 					message_type: 'private_message',
 					author: username,
+					from: id,
 					to: reciever_id,
 					text: message,
 					bot: false
@@ -119,7 +120,7 @@
 
 	{#if username}
 		<Status {chat_users} {username} />
-		<Messanges bind:messages bind:messages_element />
+		<Messages bind:messages bind:messages_element {username}/>
 		<SendForm bind:text {send_message} />
 	{:else}
 		<p>{$_('you_are_not_loged_in')}</p>

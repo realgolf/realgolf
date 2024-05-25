@@ -1,8 +1,12 @@
 export type message = {
 	message_type: string;
 	author: string;
+	to?: string;
+	from?: string;
+	back_to?: string;
 	text: string;
 	bot: boolean;
+	target_name?: string;
 };
 
 export type help_info = {
@@ -22,8 +26,10 @@ export type private_message = {
 	message_type: string;
 	author: string;
 	to: string;
+	from: string;
 	text: string;
 	bot: boolean;
+	target_name?: string;
 };
 
 export type ServerToClientEvents = {
