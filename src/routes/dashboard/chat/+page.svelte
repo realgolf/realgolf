@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import { goto } from '$app/navigation';
-	import Messages from '$lib/components/Chat/Messanges.svelte';
+	import Messanges from '$lib/components/Chat/Messanges.svelte';
 	import SendForm from '$lib/components/Chat/SendForm.svelte';
 	import Status from '$lib/components/Chat/Status.svelte';
 	import { redirect } from '$lib/scripts/Archive/redirect';
@@ -39,10 +39,6 @@
 
 		socket.emit('name', username);
 
-		socket.on('id', (_id: string) => {
-			id = _id;
-		});
-
 		socket.on('message', async (message: message) => {
 			messages = [...messages, message];
 			scroll_to_bottom();
@@ -59,7 +55,19 @@
 	}
 
 	function send_message() {
-		if (text !== '') {
+		if (text.includes('/pm')) {
+			const parts = text.split(' ');
+			if (parts.length > 2) {
+				const reciever = parts[1];
+				const message = parts.slice(2).join(' ');
+				socket?.emit('private_message', {
+					author: username,
+					to: reciever,
+					text: message,
+					bot: false
+				});
+			}
+		} else if (text !== '') {
 			socket?.emit('message', {
 				author: username,
 				text: text,
@@ -95,7 +103,7 @@
 
 	{#if username}
 		<Status {chat_users} {username} {role_color} />
-		<Messages bind:messages bind:messages_element {role_color} {role_title} />
+		<Messanges bind:messages bind:messages_element {role_color} {role_title} />
 		<SendForm bind:text {send_message} />
 	{:else}
 		<p>{$_('you_are_not_loged_in')}</p>
