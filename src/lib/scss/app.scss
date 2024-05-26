@@ -27,30 +27,28 @@
 
 body[data-theme='light'] {
 	/* LIGHT COLORS */
-	--accent-color: #40c057;
-	--background-color: #fff;
-	--nav-color: #f0f0f0;
-	--highlight-color: #d4a300;
+	--accent-color: rgb(47, 158, 68);
+	--background-color: rgb(255, 255, 255);
+	--nav-color: rgb(240, 240, 240);
+	--highlight-color: rgb(212, 163, 0);
 	--error-color: rgb(230, 20, 20);
-	--font-color: #333;
-	--label-color: #777;
-	--border-color: #ccc;
+	--font-color: rgb(26, 27, 30);
+	--label-color: rgb(119, 119, 119);
+	--border-color: rgb(204, 204, 204);
 	--h2-color: var(--accent-color);
-	--button-color: var(--border-color);
 }
 
 body[data-theme='dark'] {
 	/* DARK COLORS  */
-	--accent-color: #40c057;
-	--background-color: #1e1e1e;
-	--nav-color: #333333;
-	--highlight-color: yellow;
+	--accent-color: rgb(47, 158, 68);
+	--background-color: rgb(26, 27, 30);
+	--nav-color: rgb(26, 27, 30);
+	--highlight-color: rgb(255, 255, 0);
 	--error-color: rgb(230, 20, 20);
-	--font-color: #fff;
-	--label-color: #aaa;
-	--border-color: #333;
-	--h2-color: skyblue;
-	--button-color: var(--border-color);
+	--font-color: rgb(255, 255, 255);
+	--label-color: rgb(170, 170, 170);
+	--border-color: rgb(26, 27, 30);
+	--h2-color: rgb(135, 206, 235);
 }
 
 /**
@@ -60,32 +58,28 @@ body[data-theme='dark'] {
 body[data-theme='system'] {
 	@media (prefers-color-scheme: dark) {
 		/* DARK COLORS  */
-		--accent-color: #40c057;
-		--background-color: #1e1e1e;
-		--nav-color: #333333;
-		--highlight-color: yellow;
+		--accent-color: rgb(47, 158, 68);
+		--background-color: rgb(26, 27, 30);
+		--nav-color: rgb(26, 27, 30);
+		--highlight-color: rgb(255, 255, 0);
 		--error-color: rgb(230, 20, 20);
-		--font-color: #fff;
-		--label-color: #aaa;
-		--border-color: #333;
-		--h2-color: skyblue;
-		--shadow-color: #ffffff7c;
-		--button-color: var(--border-color);
+		--font-color: rgb(255, 255, 255);
+		--label-color: rgb(170, 170, 170);
+		--border-color: rgb(26, 27, 30);
+		--h2-color: rgb(135, 206, 235);
 	}
 
 	@media (prefers-color-scheme: light) {
 		/* LIGHT COLORS */
-		--accent-color: #40c057;
-		--background-color: #fff;
-		--nav-color: #f0f0f0;
-		--highlight-color: #d4a300;
+		--accent-color: rgb(47, 158, 68);
+		--background-color: rgb(255, 255, 255);
+		--nav-color: rgb(240, 240, 240);
+		--highlight-color: rgb(212, 163, 0);
 		--error-color: rgb(230, 20, 20);
-		--font-color: #333;
-		--label-color: #777;
-		--border-color: #ccc;
+		--font-color: rgb(26, 27, 30);
+		--label-color: rgb(119, 119, 119);
+		--border-color: rgb(204, 204, 204);
 		--h2-color: var(--accent-color);
-		--shadow-color: #33333362;
-		--button-color: var(--border-color);
 	}
 }
 
@@ -174,10 +168,9 @@ button {
 	height: max-content;
 	width: max-content;
 	padding: 0.1rem 0.5rem;
-	background-color: var(--button-color);
+	background-color: var(--accent-color);
 	color: var(--font-color) !important;
-	border: 2px solid var(--border-color) !important;
-	box-shadow: 1px 1px 1px 1px var(--shadow-color);
+	border: 2px solid var(--accent-color) !important;
 }
 
 button:focus {

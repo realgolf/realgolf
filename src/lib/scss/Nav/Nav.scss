@@ -1,6 +1,7 @@
 nav {
 	padding-block: 1.25rem;
 	background-color: var(--nav-color);
+	border-bottom: 1px solid rgb(44, 46, 51);
 
 	@media (max-width: 38rem) {
 		padding-block: 0.5rem;
