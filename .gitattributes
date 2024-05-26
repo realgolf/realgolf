@@ -10,6 +10,9 @@
 *.scss linguist-detectable=true
 *.scss linguist-language=SCSS
 
+*.sh linguist-detectable=true
+*.sh linguist-language=Shell
+
 pnpm-lock.yaml linguist-vendored
 src/locales/*.json linguist-vendored
 tests/**/*.ts linguist-vendored
