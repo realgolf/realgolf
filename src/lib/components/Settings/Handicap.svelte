@@ -30,7 +30,7 @@
 		<form action="?/handicap" method="POST" class="handicap-form">
 			<label for="handicap">{$_('enter_new_handicap')}</label>
 			<input type="string" name="handicap" id="handicap" bind:value={data.handicap} />
-			<button aria-label="Update Handicap">{$_('update')}</button>
+			<button class="update" aria-label="Update Handicap">{$_('update')}</button>
 		</form>
 	</div>
 
@@ -51,3 +51,7 @@
 		</div>
 	{/if}
 </div>
+
+<style lang="scss">
+	@import "$lib/scss/Settings/update.scss";
+</style>

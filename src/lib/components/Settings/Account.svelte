@@ -120,4 +120,5 @@
 
 <style lang="scss">
 	@import '$lib/scss/Settings/Account.scss';
+	@import '$lib/scss/Settings/update.scss';
 </style>

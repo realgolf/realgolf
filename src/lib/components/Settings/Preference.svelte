@@ -1,8 +1,8 @@
 <script lang="ts">
-    import { capitalizeFirstLetter } from '$lib/shared/utils/capitalizeFirstLetter';
-    import { _ } from 'svelte-i18n';
+	import { capitalizeFirstLetter } from '$lib/shared/utils/capitalizeFirstLetter';
+	import { _ } from 'svelte-i18n';
 
-    export let data;
+	export let data;
 </script>
 
 <div id="preferences">
@@ -18,7 +18,7 @@
 			<option value="system">{$_('system')}</option>
 		</select>
 		<br />
-		<button aria-label="update Theme">{$_('update')}</button>
+		<button class="update" aria-label="update Theme">{$_('update')}</button>
 	</form>
 
 	<h2>{$_('rounded_corners')}</h2>
@@ -36,7 +36,7 @@
 			/>
 		</div>
 		<br />
-		<button aria-label="update Rounded Corners">{$_('update')}</button>
+		<button class="update" aria-label="update Rounded Corners">{$_('update')}</button>
 	</form>
 
 	<h2>{$_('animations')}</h2>
@@ -49,6 +49,10 @@
 			<input type="checkbox" name="animation" id="animation" bind:checked={data.animation} />
 		</div>
 		<br />
-		<button aria-label="update Animation">{$_('update')}</button>
+		<button class="update" aria-label="update Animation">{$_('update')}</button>
 	</form>
 </div>
+
+<style lang="scss">
+	@import '$lib/scss/Settings/update.scss';
+</style>
