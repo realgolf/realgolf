@@ -79,5 +79,5 @@
 {/if}
 
 <style lang="scss">
-	@import '$lib/scss/settings.scss';
+	@import '$lib/scss/Settings.scss';
 </style>
