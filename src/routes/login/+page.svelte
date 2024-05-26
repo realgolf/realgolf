@@ -1,18 +1,21 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
-	import { faEye } from '@fortawesome/free-solid-svg-icons';
+	import { faEye, faEyeSlash } from '@fortawesome/free-regular-svg-icons';
 	import Fa from 'svelte-fa';
 	import { _, isLoading } from 'svelte-i18n';
 	import type { ActionData } from './$types';
 
 	export let form: ActionData;
+	let eye_icon = faEye;
 
 	function togglePassword() {
 		const passwordInput = document.getElementById('password_input') as HTMLInputElement;
 		if (passwordInput.type === 'password') {
 			passwordInput.type = 'text';
+			eye_icon = faEyeSlash;
 		} else {
 			passwordInput.type = 'password';
+			eye_icon = faEye;
 		}
 	}
 
@@ -48,7 +51,7 @@
 					aria-label="Show password in clear text"
 					id="toggle_password"
 					type="button"
-					tabindex="-1"><Fa id="eye_icon" icon={faEye} /></button
+					tabindex="-1"><Fa id="eye_icon" icon={eye_icon} /></button
 				>
 			</div>
 		</div>
