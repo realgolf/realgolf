@@ -74,56 +74,5 @@
 {/if}
 
 <style lang="scss">
-	.full-screen {
-		width: 90vw;
-
-		.sign-in {
-			max-width: 400px;
-			margin: 0 auto;
-		}
-
-		.password-input {
-			position: relative;
-			/*border: 0.1rem solid #555 !important; */
-			border-radius: var(--border-radius) !important;
-			display: flex;
-			align-items: right;
-
-			/* &:focus-within {
-			border: 0.1rem solid var(--accent-color) !important;
-		} */
-
-			input {
-				width: 100%;
-				padding-right: 2.5rem;
-			}
-
-			button {
-				position: absolute;
-				right: 0.5rem;
-				background-color: transparent;
-				border: none !important;
-				cursor: pointer;
-				padding: 0;
-				margin: 0 !important;
-				display: flex;
-				align-items: center;
-				justify-content: right;
-				height: 100%;
-
-				&:focus {
-					outline: none !important;
-					outline-offset: 0 !important;
-				}
-			}
-
-			#eye_icon {
-				font-size: 1rem;
-			}
-		}
-
-		.login {
-			width: 100% !important;
-		}
-	}
+	@import "$lib/scss/login.scss";
 </style>
