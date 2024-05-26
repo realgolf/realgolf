@@ -33,12 +33,6 @@ section {
 	}
 }
 
-.cta {
-	p {
-		color: var(--label-color) !important;
-	}
-}
-
 .feature-elements {
 	display: flex;
 	flex-wrap: wrap;
@@ -74,5 +68,31 @@ section {
 		box-shadow: 2px 2px 2px var(--shadow-color);
 		width: 100% !important;
 		height: auto;
+	}
+}
+
+.bottom {
+	display: flex;
+	flex-direction: row;
+	width: 90vw !important;
+
+	@media screen and (max-width: 853px) {
+		flex-direction: column;
+		width: 100% !important;
+	}
+
+	section {
+		&:first-child {
+			margin-top: 2rem;
+		}
+
+		&:last-child {
+			margin-left: 2rem !important;
+
+			@media screen and (max-width: 853px) {
+				margin-left: 0 !important;
+				margin-top: 2rem !important;
+			}
+		}
 	}
 }

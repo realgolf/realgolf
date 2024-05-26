@@ -27,7 +27,6 @@
 
 		<section class="features">
 			<h2 id="features_heading_homepage">{$_('features_heading_homepage')}</h2>
-			<br />
 			<div class="feature-elements">
 				<FourWinning />
 				<Exact />
@@ -35,21 +34,23 @@
 			</div>
 		</section>
 
-		<section class="testimonial">
-			<h2 id="what_our_user_say">{$_('what_our_user_say')}</h2>
-			<blockquote id="user_quote">
-				"{$_('user_quote')}"
-			</blockquote>
-			<cite>- <a href="/Thorsten">Thorsten Hammer</a>, {$_('first_user')}</cite>
-		</section>
+		<div class="bottom">
+			<section class="testimonial">
+				<h2 id="what_our_user_say">{$_('what_our_user_say')}</h2>
+				<blockquote id="user_quote">
+					"{$_('user_quote')}"
+				</blockquote>
+				<cite>- <a href="/Thorsten">Thorsten Hammer</a>, {$_('first_user')}</cite>
+			</section>
 
-		<section class="cta">
-			<h2>{$_('ready_to_take_your_golf_game')}</h2>
-			<p>
-				{$_('challenge_during_training')}
-			</p>
-			<a href="/register" class="btn">{$_('sign_up_button_homepage')}</a>
-		</section>
+			<section class="cta">
+				<h2>{$_('ready_to_take_your_golf_game')}</h2>
+				<p>
+					{$_('challenge_during_training')}
+				</p>
+				<a href="/register" class="btn">{$_('sign_up_button_homepage')}</a>
+			</section>
+		</div>
 	</main>
 {/if}
 
