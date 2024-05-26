@@ -13,7 +13,7 @@
 
 	export let data;
 
-	const all_users: User[] = data.all_users as User[];
+	const all_users: User[] = (data as { all_users: User[] }).all_users;
 
 	let online: boolean = true;
 
@@ -36,13 +36,13 @@
 
 		const body = document.querySelector('body') as HTMLBodyElement;
 
-		let theme = data.theme as string;
+		let theme = (data as { theme?: string }).theme as string;
 		if (theme === undefined) {
 			theme = 'system';
 		}
 		localStorage.setItem('theme', theme);
 
-		let rounded_corners = data.rounded_corners as boolean;
+		let rounded_corners = (data as { rounded_corners?: boolean }).rounded_corners as boolean;
 		if (rounded_corners === undefined) {
 			rounded_corners = true;
 		}
@@ -54,7 +54,7 @@
 			body.setAttribute('data-rounded-corners', JSON.stringify(rounded_corners));
 		}
 
-		let animation = data.animation as boolean;
+		let animation = (data as { animation?: boolean }).animation as boolean;
 		if (animation === undefined) {
 			animation = true;
 		}

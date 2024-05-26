@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { search_by_term } from '$lib/scripts/Nav/search_by_term';
+	import { asign_role_data } from '$lib/scripts/Public/asign_role_data';
 	import type { User } from '$lib/server/user/types';
 	import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 	import { afterUpdate } from 'svelte';
@@ -48,7 +49,10 @@
 			{#each filtered_users as user, index}
 				{#if index < 30}
 					<div class="search-result">
-						<a href="/{user.user.username}">
+						<a
+							href="/{user.user.username}"
+							style="color: {asign_role_data(user.user.role)?.color};"
+						>
 							<span>{user.user.username}</span>
 						</a>
 					</div>
