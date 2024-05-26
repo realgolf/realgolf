@@ -16,6 +16,7 @@ export type User = {
 		handicap: number;
 		handicap_updated: Date;
 		bio?: string;
+		role: string;
 		badges?: { title: string; description: string; color: string }[];
 		socials: string[];
 		status: {
