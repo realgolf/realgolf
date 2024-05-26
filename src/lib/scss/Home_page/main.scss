@@ -43,12 +43,23 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 	width: 90vw !important;
+
+	@media screen and (max-width: 853px) {
+		flex-direction: column;
+		flex-wrap: nowrap;
+		width: 100% !important;
+	}
 }
 
 .feature {
 	margin-top: 0.5rem;
 	width: 30% !important;
 	margin-left: 2rem;
+
+	@media screen and (max-width: 853px) {
+		width: 100% !important;
+		margin-left: 0;
+	}
 
 	&:first-child {
 		margin-left: 0;
