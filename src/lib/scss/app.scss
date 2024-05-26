@@ -171,11 +171,15 @@ button {
 	background-color: var(--accent-color);
 	color: var(--font-color) !important;
 	border: 2px solid var(--accent-color) !important;
-}
 
-button:focus {
-	outline: 0.1rem solid var(--accent-color);
-	outline-offset: 0.2rem;
+	&:hover {
+		cursor: pointer;
+	}
+
+	&:focus {
+		outline: 0.1rem solid var(--accent-color);
+		outline-offset: 0.2rem;
+	}
 }
 
 input {
