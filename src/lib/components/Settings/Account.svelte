@@ -1,11 +1,20 @@
 <script lang="ts">
-	import { copy_to_clipboard } from '$lib/scripts/copy_to_clipboard';
 	import { faEye } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
 	import { _ } from 'svelte-i18n';
 
 	export let data;
 	let show_copy_info = false;
+
+	function copy_to_clipboard(id: string) {
+		if (window) {
+			window.navigator.clipboard.writeText(id);
+			show_copy_info = true;
+			setTimeout(() => {
+				show_copy_info = false;
+			}, 3000);
+		}
+	}
 </script>
 
 {#if show_copy_info}
