@@ -35,79 +35,95 @@
 {#if $isLoading}
 	<p>Loading...</p>
 {:else}
-	<h1>{$_('login')}</h1>
+	<div class="full-screen">
+		<div class="sign-in">
+			<h1>{$_('login')}</h1>
 
-	<form method="POST" autocomplete="off">
-		<div>
-			<label for="email_input">{$_('email')}</label>
-			<input type="email" id="email_input" name="email" value={form?.email ?? ''} />
+			<form method="POST" autocomplete="off">
+				<div>
+					<label for="email_input">{$_('email')}</label>
+					<input type="email" id="email_input" name="email" value={form?.email ?? ''} />
+				</div>
+				<div>
+					<label for="password_input">{$_('password')}</label>
+					<div class="password-input">
+						<input type="password" id="password_input" name="password" />
+						<button
+							on:click|preventDefault={togglePassword}
+							aria-label="Show password in clear text"
+							id="toggle_password"
+							type="button"
+							tabindex="-1"><Fa id="eye_icon" icon={eye_icon} /></button
+						>
+					</div>
+				</div>
+				<button class="login">{$_('login')}</button>
+			</form>
+
+			{#if form?.user}
+				<p class="success">{$_('redirecting')}...</p>
+			{/if}
+
+			{#if form?.error}
+				<p class="error">
+					{form.error}
+				</p>
+			{/if}
 		</div>
-		<div>
-			<label for="password_input">{$_('password')}</label>
-			<div class="password-input">
-				<input type="password" id="password_input" name="password" />
-				<button
-					on:click|preventDefault={togglePassword}
-					aria-label="Show password in clear text"
-					id="toggle_password"
-					type="button"
-					tabindex="-1"><Fa id="eye_icon" icon={eye_icon} /></button
-				>
-			</div>
-		</div>
-		<button>{$_('login')}</button>
-	</form>
-
-	{#if form?.user}
-		<p class="success">{$_('redirecting')}...</p>
-	{/if}
-
-	{#if form?.error}
-		<p class="error">
-			{form.error}
-		</p>
-	{/if}
+	</div>
 {/if}
 
 <style lang="scss">
-	.password-input {
-		position: relative;
-		/*border: 0.1rem solid #555 !important; */
-		border-radius: var(--border-radius) !important;
-		display: flex;
-		align-items: center;
+	.full-screen {
+		width: 90vw;
 
-		/* &:focus-within {
+		.sign-in {
+			max-width: 400px;
+			margin: 0 auto;
+		}
+
+		.password-input {
+			position: relative;
+			/*border: 0.1rem solid #555 !important; */
+			border-radius: var(--border-radius) !important;
+			display: flex;
+			align-items: right;
+
+			/* &:focus-within {
 			border: 0.1rem solid var(--accent-color) !important;
 		} */
 
-		input {
-			width: 100%;
-			padding-right: 2.5rem;
-		}
+			input {
+				width: 100%;
+				padding-right: 2.5rem;
+			}
 
-		button {
-			position: absolute;
-			right: 0.5rem;
-			background-color: transparent;
-			border: none !important;
-			cursor: pointer;
-			padding: 0;
-			margin: 0 !important;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			width: 2rem;
-			height: 100%;
+			button {
+				position: absolute;
+				right: 0.5rem;
+				background-color: transparent;
+				border: none !important;
+				cursor: pointer;
+				padding: 0;
+				margin: 0 !important;
+				display: flex;
+				align-items: center;
+				justify-content: right;
+				height: 100%;
 
-			&:focus {
-				outline: none !important;
-				outline-offset: 0 !important;
+				&:focus {
+					outline: none !important;
+					outline-offset: 0 !important;
+				}
+			}
+
+			#eye_icon {
+				font-size: 1rem;
 			}
 		}
 
-		#eye_icon {
-			font-size: 1rem;
+		.login {
+			width: 100% !important;
 		}
 	}
 </style>
