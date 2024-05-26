@@ -8,22 +8,51 @@
 	export let form: ActionData;
 
 	let eye_icon = faEye;
+	let currentStep = 1;
+
+	let email = '';
+	let password = '';
+	let passwordVerify = '';
+
+	let name = '';
+	let username = '';
+	let handicap = '';
 
 	function togglePassword() {
+		toggleInputType();
+		toggleIcon();
+	}
+
+	function toggleInputType() {
 		const passwordInput = document.getElementById('password_input') as HTMLInputElement;
 		const passwordVerifyInput = document.getElementById(
 			'password_verify_input'
 		) as HTMLInputElement;
 
-		if (passwordInput.type === 'password' && passwordVerifyInput.type === 'password') {
-			passwordInput.type = 'text';
-			passwordVerifyInput.type = 'text';
-			eye_icon = faEyeSlash;
-		} else {
-			passwordInput.type = 'password';
-			passwordVerifyInput.type = 'password';
-			eye_icon = faEye;
+		const newType = passwordInput.type === 'password' ? 'text' : 'password';
+		passwordInput.type = newType;
+		passwordVerifyInput.type = newType;
+	}
+
+	function toggleIcon() {
+		eye_icon = eye_icon === faEye ? faEyeSlash : faEye;
+	}
+
+	function nextStep() {
+		if (currentStep === 1) {
+			email = (document.getElementById('email_input') as HTMLInputElement).value;
+			password = (document.getElementById('password_input') as HTMLInputElement).value;
+			passwordVerify = (document.getElementById('password_verify_input') as HTMLInputElement).value;
+		} else if (currentStep === 2) {
+			name = (document.getElementById('name_input') as HTMLInputElement).value;
+			username = (document.getElementById('username_input') as HTMLInputElement).value;
+			handicap = (document.getElementById('handicap') as HTMLInputElement).value;
 		}
+		currentStep = 2;
+	}
+
+	function previousStep() {
+		currentStep = 1;
 	}
 </script>
 
@@ -39,55 +68,74 @@
 			<h1>{$_('register')}</h1>
 
 			<form method="POST" autocomplete="off">
-				<div>
-					<label for="email_input">{$_('email')}</label>
-					<input type="email" id="email_input" name="email" value={form?.user?.email ?? ''} />
-				</div>
+				{#if currentStep === 1}
+					<div>
+						<label for="email_input">{$_('email')}</label>
+						<input type="email" id="email_input" name="email" value={email} />
+					</div>
 
-				<label for="password_input">{$_('password')}</label>
-				<div class="password-input">
-					<input type="password" id="password_input" name="password" />
-					<button
-						on:click|preventDefault={togglePassword}
-						aria-label="Show password in clear text"
-						id="toggle_password"
-						type="button"
-						tabindex="-1"><Fa id="eye_icon" icon={eye_icon} /></button
-					>
-				</div>
+					<label for="password_input">{$_('password')}</label>
+					<div class="password-input">
+						<input type="password" id="password_input" name="password" value={password} />
+						<button
+							on:click|preventDefault={togglePassword}
+							aria-label="Show password in clear text"
+							id="toggle_password"
+							type="button"
+							tabindex="-1"><Fa id="eye_icon" icon={eye_icon} /></button
+						>
+					</div>
 
-				<label for="password_verify_input">{$_('verify_password')}</label>
-				<div class="password-input">
-					<input type="password" id="password_verify_input" name="password_verify" />
-					<button
-						on:click|preventDefault={togglePassword}
-						aria-label="Show password in clear text"
-						id="toggle_password"
-						type="button"
-						tabindex="-1"><Fa id="eye_icon" icon={eye_icon} /></button
-					>
-				</div>
+					<label for="password_verify_input">{$_('verify_password')}</label>
+					<div class="password-input">
+						<input
+							type="password"
+							id="password_verify_input"
+							name="password_verify"
+							value={passwordVerify}
+						/>
+						<button
+							on:click|preventDefault={togglePassword}
+							aria-label="Show password in clear text"
+							id="toggle_password"
+							type="button"
+							tabindex="-1"><Fa id="eye_icon" icon={eye_icon} /></button
+						>
+					</div>
 
-				<div>
-					<label for="name_input">{$_('name')}</label>
-					<input type="text" id="name_input" name="name" value={form?.user?.name ?? ''} />
-				</div>
+					<button type="button" on:click={nextStep}>{$_('next')}</button>
+				{:else if currentStep === 2}
+					<div style="display: none;">
+						<input type="text" id="email" name="email" value={email} />
+						<input type="password" id="password" name="password" value={password} />
+						<input
+							type="password"
+							id="password_verify"
+							name="password_verify"
+							value={passwordVerify}
+						/>
+					</div>
 
-				<div>
-					<label for="username_input">{$_('username')}</label>
-					<input
-						type="text"
-						name="username"
-						id="username_input"
-						value={form?.user?.username ?? ''}
-					/>
-				</div>
+					<div>
+						<label for="name_input">{$_('name')}</label>
+						<input type="text" id="name_input" name="name" value={name} />
+					</div>
 
-				<div>
-					<label for="handicap">{$_('handicap')}</label>
-					<input type="text" name="handicap" id="handicap" />
-				</div>
-				<button class="register">{$_('register')}</button>
+					<div>
+						<label for="username_input">{$_('username')}</label>
+						<input type="text" name="username" id="username_input" value={username} />
+					</div>
+
+					<div>
+						<label for="handicap">{$_('handicap')}</label>
+						<input type="text" name="handicap" id="handicap" value={handicap} />
+					</div>
+
+					<div class="buttons">
+						<button type="button" on:click={previousStep} class="button">{$_('previous')}</button>
+						<button type="submit" class="register button">{$_('register')}</button>
+					</div>
+				{/if}
 			</form>
 
 			{#if form?.error}
@@ -150,6 +198,19 @@
 
 			#eye_icon {
 				font-size: 1rem;
+			}
+		}
+
+		.buttons {
+			display: flex;
+			justify-content: space-between;
+
+			.button {
+				margin-right: 10%;
+
+				&:last-child {
+					margin-right: 0 !important;
+				}
 			}
 		}
 
