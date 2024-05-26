@@ -101,7 +101,6 @@
 	"game_associated_with": "Team the game is associated with",
 	"see_all_games": "You can see all your games in the <a href=\"/dashboard/archive\">Archive</a>.",
 	"error_loading_latest_game": "You don't have any games saved, play a <a href=\"/dashboard/games\">Game</a> and save it in the Database to see it here",
-	"register": "Register",
 	"email": "Email",
 	"password": "Password",
 	"verify_password": "Verify Password",
@@ -110,7 +109,6 @@
 	"handicap": "Handicap",
 	"might_have_successfully_registered": "You can still try to login here: <a href=\"/login\">Login</a>, or open the <a href=\"/dashboard\">Dashboard</a>",
 	"successfully_registered": "Welcome {name}! You can now open the <a href=\"/dashboard\">Dashboard</a>.",
-	"login": "Login",
 	"redirecting": "Redirecting",
 	"games": "Games",
 	"public_profile_games_by": "Games played by {username}",
@@ -323,5 +321,7 @@
 	"star_a_planner": "Star",
 	"starred_planner": "Starred",
 	"undone": "Undone",
-	"total_online_users": "{totalOnlineUsers, plural, =0 {0 Users} one {1 User} other {# Users}} online"
+	"total_online_users": "{totalOnlineUsers, plural, =0 {0 Users} one {1 User} other {# Users}} online",
+	"next": "Next",
+	"previous": "Previous"
 }
