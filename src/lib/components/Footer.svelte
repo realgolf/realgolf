@@ -65,7 +65,7 @@
 
 <style lang="scss">
 	footer {
-		border-top: 1px solid rgb(44, 46, 51);
+		border-top: 0.1rem solid rgb(44, 46, 51);
 		height: max-content;
 		margin-top: 5vh;
 		padding: 2vh 3vw;
