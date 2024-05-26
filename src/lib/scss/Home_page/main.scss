@@ -38,3 +38,33 @@ section {
 		color: var(--label-color) !important;
 	}
 }
+
+.feature-elements {
+	display: flex;
+	flex-wrap: wrap;
+	width: 90vw !important;
+}
+
+.feature {
+	margin-top: 0.5rem;
+	width: 30% !important;
+	margin-left: 2rem;
+
+	&:first-child {
+		margin-left: 0;
+	}
+
+	&:last-child {
+		margin-bottom: 0.5rem;
+	}
+
+	img {
+		border: 2px solid var(--border-color);
+		box-shadow: 2px 2px 2px var(--shadow-color);
+		width: 30%;
+
+		@media screen and (min-width: 768px) {
+			width: 30rem;
+		}
+	}
+}
