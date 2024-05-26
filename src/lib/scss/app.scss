@@ -27,11 +27,11 @@
 
 body[data-theme='light'] {
 	/* LIGHT COLORS */
-	--accent-color: linear-gradient(#008000, #40e0d0);
-	--highlight-color: #d4a300;
-	--error-color: rgb(230, 20, 20);
+	--accent-color: #40c057;
 	--background-color: #fff;
 	--nav-color: #f0f0f0;
+	--highlight-color: #d4a300;
+	--error-color: rgb(230, 20, 20);
 	--font-color: #333;
 	--label-color: #777;
 	--border-color: #ccc;
@@ -41,11 +41,11 @@ body[data-theme='light'] {
 
 body[data-theme='dark'] {
 	/* DARK COLORS  */
-	--accent-color: linear-gradient(#008000, #40e0d0);
+	--accent-color: #40c057;
+	--background-color: #1e1e1e;
+	--nav-color: #333333;
 	--highlight-color: yellow;
 	--error-color: rgb(230, 20, 20);
-	--background-color: #131317;
-	--nav-color: #202028;
 	--font-color: #fff;
 	--label-color: #aaa;
 	--border-color: #333;
@@ -60,11 +60,11 @@ body[data-theme='dark'] {
 body[data-theme='system'] {
 	@media (prefers-color-scheme: dark) {
 		/* DARK COLORS  */
-		--accent-color: linear-gradient(#008000, #40e0d0);
+		--accent-color: #40c057;
+		--background-color: #1e1e1e;
+		--nav-color: #333333;
 		--highlight-color: yellow;
 		--error-color: rgb(230, 20, 20);
-		--background-color: #131317;
-		--nav-color: #202028;
 		--font-color: #fff;
 		--label-color: #aaa;
 		--border-color: #333;
@@ -75,11 +75,11 @@ body[data-theme='system'] {
 
 	@media (prefers-color-scheme: light) {
 		/* LIGHT COLORS */
-		--accent-color: linear-gradient(#008000, #40e0d0);
-		--highlight-color: #d4a300;
-		--error-color: rgb(230, 20, 20);
+		--accent-color: #40c057;
 		--background-color: #fff;
 		--nav-color: #f0f0f0;
+		--highlight-color: #d4a300;
+		--error-color: rgb(230, 20, 20);
 		--font-color: #333;
 		--label-color: #777;
 		--border-color: #ccc;
