@@ -41,13 +41,16 @@
 		</div>
 		<div>
 			<label for="password_input">{$_('password')}</label>
-			<input type="password" id="password_input" name="password" />
-			<button
-				on:click|preventDefault={togglePassword}
-				aria-label="Show password in clear text"
-				id="toggle_password"
-				type="button"><Fa id="eye_icon" icon={faEye} /></button
-			>
+			<div class="password-input">
+				<input type="password" id="password_input" name="password" />
+				<button
+					on:click|preventDefault={togglePassword}
+					aria-label="Show password in clear text"
+					id="toggle_password"
+					type="button"
+					tabindex="-1"><Fa id="eye_icon" icon={faEye} /></button
+				>
+			</div>
 		</div>
 		<button>{$_('login')}</button>
 	</form>
@@ -63,8 +66,45 @@
 	{/if}
 {/if}
 
-<style>
-	#toggle_password {
-		margin-top: 10px;
+<style lang="scss">
+	.password-input {
+		position: relative;
+		/*border: 0.1rem solid #555 !important; */
+		border-radius: var(--border-radius) !important;
+		display: flex;
+		align-items: center;
+
+		/* &:focus-within {
+			border: 0.1rem solid var(--accent-color) !important;
+		} */
+
+		input {
+			width: 100%;
+			padding-right: 2.5rem;
+		}
+
+		button {
+			position: absolute;
+			right: 0.5rem;
+			background-color: transparent;
+			border: none !important;
+			cursor: pointer;
+			padding: 0;
+			margin: 0 !important;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 2rem;
+			height: 100%;
+
+			&:focus {
+				outline: none !important;
+				outline-offset: 0 !important;
+			}
+		}
+
+		#eye_icon {
+			font-size: 1rem;
+		}
 	}
 </style>
