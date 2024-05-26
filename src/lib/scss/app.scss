@@ -41,7 +41,7 @@ body[data-theme='light'] {
 body[data-theme='dark'] {
 	/* DARK COLORS  */
 	--accent-color: rgb(47, 158, 68);
-	--background-color: rgb(26, 27, 30);
+	--background-color: rgb(20, 21, 23);
 	--nav-color: rgb(26, 27, 30);
 	--highlight-color: rgb(255, 255, 0);
 	--error-color: rgb(230, 20, 20);
@@ -59,7 +59,7 @@ body[data-theme='system'] {
 	@media (prefers-color-scheme: dark) {
 		/* DARK COLORS  */
 		--accent-color: rgb(47, 158, 68);
-		--background-color: rgb(26, 27, 30);
+		--background-color: rgb(20, 21, 23);
 		--nav-color: rgb(26, 27, 30);
 		--highlight-color: rgb(255, 255, 0);
 		--error-color: rgb(230, 20, 20);
