@@ -78,7 +78,11 @@ button :global(svg) {
 	border-bottom-left-radius: calc(var(--border-radius) * 3);
 
 	a {
-		text-decoration: underline;
+		text-decoration: none !important;
+
+		&:hover {
+			text-decoration: underline;
+		}
 
 		span {
 			margin-right: 0.5rem;

@@ -45,3 +45,15 @@ export const user_role = {
 	permissions: ['read'],
 	color: '#FFFFFF'
 };
+
+// Define the rank order
+export const rankOrder = [
+	'Founder',
+	'Admin',
+	'Developer',
+	'Moderator',
+	'Trainer',
+	'Pro',
+	'Super',
+	'User'
+];
