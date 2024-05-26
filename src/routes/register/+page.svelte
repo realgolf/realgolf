@@ -57,7 +57,7 @@
 </script>
 
 <svelte:head>
-	<title>Real Golf - {$_('register')}</title>
+	<title>Real Golf - {$_('sign_up')}</title>
 </svelte:head>
 
 {#if $isLoading}
@@ -65,7 +65,7 @@
 {:else}
 	<div class="full-screen">
 		<div class="register">
-			<h1>{$_('register')}</h1>
+			<h1>{$_('sign_up')}</h1>
 
 			<form method="POST" autocomplete="off">
 				{#if currentStep === 1}
@@ -133,7 +133,7 @@
 
 					<div class="buttons">
 						<button type="button" on:click={previousStep} class="button">{$_('previous')}</button>
-						<button type="submit" class="register button">{$_('register')}</button>
+						<button type="submit" class="register button">{$_('sign_up')}</button>
 					</div>
 				{/if}
 			</form>

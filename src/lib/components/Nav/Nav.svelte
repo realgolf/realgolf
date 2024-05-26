@@ -34,7 +34,7 @@
 	<ul>
 		{#each links as { path, icon, title }}
 			<li>
-				<a translate="no" href="https://realgolf.games"
+				<a translate="no" href="/"
 					><span style="font-weight: bold; color: green;">Real</span><span
 						style="font-weight: bold; color: grey;">Golf.</span
 					><span style="font-weight: bold; color: green;">Games</span>

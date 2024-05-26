@@ -29,7 +29,7 @@
 </script>
 
 <svelte:head>
-	<title>Real Golf - {$_('login')}</title>
+	<title>Real Golf - {$_('sign_in')}</title>
 </svelte:head>
 
 {#if $isLoading}
@@ -37,7 +37,7 @@
 {:else}
 	<div class="full-screen">
 		<div class="sign-in">
-			<h1>{$_('login')}</h1>
+			<h1>{$_('sign_in')}</h1>
 
 			<form method="POST" autocomplete="off">
 				<div>
@@ -57,7 +57,7 @@
 						>
 					</div>
 				</div>
-				<button class="login">{$_('login')}</button>
+				<button class="login">{$_('sign_in')}</button>
 			</form>
 
 			{#if form?.user}
@@ -74,5 +74,5 @@
 {/if}
 
 <style lang="scss">
-	@import "$lib/scss/login.scss";
+	@import '$lib/scss/login.scss';
 </style>
