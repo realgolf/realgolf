@@ -26,7 +26,7 @@
 
 	<div class="id">
 		<p>{$_('your_id')}: {data.id}</p>
-		<button on:click={() => copy_to_clipboard(data.id)}>{$_('copy_id')}</button>
+		<button on:click={() => copy_to_clipboard(data.id)} class="user_id">{$_('copy_id')}</button>
 		<p>
 			{$_('your_id_info')}
 		</p>
@@ -76,3 +76,9 @@
 		</div>
 	</form>
 </div>
+
+<style lang="scss">
+	.user_id {
+		margin: 1rem 0;
+	}
+</style>
