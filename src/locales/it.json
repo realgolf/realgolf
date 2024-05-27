@@ -101,7 +101,6 @@
 	"game_associated_with": "Squadra con cui il gioco è associato",
 	"see_all_games": "Puoi vedere tutti i tuoi giochi nell'Archivio <a href=\"/dashboard/archive\"></a>.",
 	"error_loading_latest_game": "Non hai nessun gioco salvato, gioca a <a href=\"/dashboard/games\">Game</a> e salvalo nel database per vederlo qui",
-	"register": "Registrati",
 	"email": "E-Mail",
 	"password": "Password",
 	"verify_password": "Verifica Password",
@@ -110,7 +109,6 @@
 	"handicap": "Handicap",
 	"might_have_successfully_registered": "Puoi ancora provare ad effettuare il login qui: <a href=\"/login\">Login</a>o aprire la Dashboard <a href=\"/dashboard\"></a>",
 	"successfully_registered": "Benvenuto {name}! Ora puoi aprire la Dashboard <a href=\"/dashboard\"></a>.",
-	"login": "Accedi",
 	"redirecting": "Reindirizzamento",
 	"games": "Giochi",
 	"public_profile_games_by": "Giochi giocati da {username}",
@@ -323,5 +321,7 @@
 	"star_a_planner": "Stella",
 	"starred_planner": "Preferiti",
 	"undone": "Annullato",
-	"total_online_users": "{totalOnlineUsers, plural, =0 {0 Utenti} one {1 Utente} other {# Utenti}} online"
+	"total_online_users": "{totalOnlineUsers, plural, =0 {0 Utenti} one {1 Utente} other {# Utenti}} online",
+	"next": "Next",
+	"previous": "Previous"
 }
