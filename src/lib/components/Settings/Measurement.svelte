@@ -12,6 +12,7 @@
 	</p>
 	<form action="?/measurement" method="POST" class="measurement-form">
 		<label for="measurement-unit">{$_('select_measurement_unit')}:</label>
+		<br />
 		<select id="measurement-unit" name="measurement-unit" bind:value={data.measurement_unit}>
 			<option value="yards">Yards</option>
 			<option value="meters">Meters</option>
@@ -20,7 +21,3 @@
 		<button class="update" aria-label="update Measurement Unit">{$_('update')}</button>
 	</form>
 </div>
-
-<style lang="scss">
-	@import '$lib/scss/Settings/update.scss';
-</style>

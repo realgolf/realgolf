@@ -51,7 +51,3 @@
 		</div>
 	{/if}
 </div>
-
-<style lang="scss">
-	@import "$lib/scss/Settings/update.scss";
-</style>

@@ -12,6 +12,7 @@
 	</p>
 	<form action="?/theme" method="POST" class="theme-form">
 		<label for="theme-settings">{$_('select_your_theme')}:</label>
+		<br />
 		<select id="theme-settings" name="theme-settings" bind:value={data.theme}>
 			<option value="dark">{$_('dark')}</option>
 			<option value="light">{$_('light')}</option>
@@ -54,5 +55,14 @@
 </div>
 
 <style lang="scss">
-	@import '$lib/scss/Settings/update.scss';
+	.same-row {
+		display: flex;
+		flex-direction: row;
+		justify-content: left;
+
+		input[type='checkbox'] {
+			margin-left: 1rem;
+			height: 1rem;
+		}
+	}
 </style>

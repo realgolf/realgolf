@@ -4,7 +4,7 @@
 
 <div class="delete-account">
 	<h2 class="danger-zone">{$_('danger_zone')}</h2>
-	<h2 class="error">{$_('account_will_be_gone')}</h2>
+	<h4 class="error">{$_('account_will_be_gone')}</h4>
 	<form action="?/delete_account" method="POST" class="delete_account_form">
 		<div>
 			<label for="delete_account_password_input">{$_('password')}</label>
@@ -18,7 +18,3 @@
 		<button class="update" aria-label="delete Account">{$_('delete_account')}</button>
 	</form>
 </div>
-
-<style lang="scss">
-	@import '$lib/scss/Settings/update.scss';
-</style>
