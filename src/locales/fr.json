@@ -101,7 +101,6 @@
 	"game_associated_with": "Équipe avec laquelle le jeu est associé",
 	"see_all_games": "Vous pouvez voir tous vos jeux dans l' <a href=\"/dashboard/archive\">Archive</a>.",
 	"error_loading_latest_game": "You don't have any games saved, play a <a href=\"/dashboard/games\">Game</a> and save it in the Database to see it here",
-	"register": "Inscription",
 	"email": "Courriel",
 	"password": "Mot de passe",
 	"verify_password": "Vérifier le mot de passe",
@@ -110,7 +109,6 @@
 	"handicap": "Handicap",
 	"might_have_successfully_registered": "Vous pouvez toujours essayer de vous connecter ici : <a href=\"/login\">Connectez-vous</a>, ou ouvrez le tableau de bord <a href=\"/dashboard\"></a>",
 	"successfully_registered": "Bienvenue {name}! Vous pouvez maintenant ouvrir le tableau de bord <a href=\"/dashboard\"></a>.",
-	"login": "Se connecter",
 	"redirecting": "Redirection en cours",
 	"games": "Jeu",
 	"public_profile_games_by": "Jeux joués par {username}",
@@ -323,5 +321,7 @@
 	"star_a_planner": "Étoiles",
 	"starred_planner": "Favoris",
 	"undone": "Annulé",
-	"total_online_users": "{totalOnlineUsers, plural, =0 {0 utilisateurs} one {1 utilisateur} other {# Utilisateurs}} en ligne"
+	"total_online_users": "{totalOnlineUsers, plural, =0 {0 utilisateurs} one {1 utilisateur} other {# Utilisateurs}} en ligne",
+	"next": "Next",
+	"previous": "Previous"
 }
