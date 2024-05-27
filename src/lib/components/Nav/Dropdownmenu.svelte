@@ -147,7 +147,7 @@
 			</p>
 		</div>
 		{#if auth}
-			<div class="border-bottom logout row">
+			<div class="logout row">
 				<form action="/logout" method="POST" class="logout-form">
 					<button class="link"
 						><span><Fa class="Fa" icon={faSignOutAlt} /></span>{$_('sign_out')}</button
