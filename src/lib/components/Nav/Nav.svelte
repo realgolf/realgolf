@@ -47,8 +47,8 @@
 					<div class="sign-in">
 						<a href="/login" rel="external">{$_('sign_in')}</a>
 					</div>
-					<div class="sign-up">
-						<a href="/register" rel="external">{$_('sign_up')}</a>
+					<div class="dropdown-menu">
+						<Dropdownmenu {auth} {username} />
 					</div>
 				</div>
 			{:else}
