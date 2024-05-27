@@ -19,18 +19,18 @@
 			<div class="row">
 				<div class="same-line">
 					<div class="col-md-6 first-row">
-						<h3>{$_("contact_us")}</h3>
+						<h3>{$_('contact_us')}</h3>
 						<p>
-							<Fa icon={faEnvelope} /> {$_("email")}:
+							<Fa icon={faEnvelope} />
+							{$_('email')}:
 							<a href="mailto:info@realgolf.games">info@realgolf.games</a>
 						</p>
 						<p>
-							<Fa icon={faUsers} /> <a href="/support">{$_("support")}</a>
-							
+							<Fa icon={faUsers} /> <a href="/support">{$_('support')}</a>
 						</p>
 					</div>
 					<div class="col-md-6 first-row">
-						<h3>{$_("follow_us")}</h3>
+						<h3>{$_('follow_us')}</h3>
 						<p>
 							<Fa icon={faXTwitter} /> Twitter:
 							<a href="https://twitter.com/realgolfgames">@RealGolfGames</a>
@@ -45,9 +45,14 @@
 						</p>
 					</div>
 					<div class="col-md-6 first-row">
-						<h3>{$_("explore_more")}</h3>
-						<p><Fa icon={faBookOpenReader} /> <a href="https://blog.realgolf.games">{$_("blog")}</a></p>
-						<p><Fa icon={faBookBookmark} /> <a href="https://rules.realgolf.games">{$_("golfrules")}</a></p>
+						<h3>{$_('explore_more')}</h3>
+						<p>
+							<Fa icon={faBookOpenReader} /> <a href="https://blog.realgolf.games">{$_('blog')}</a>
+						</p>
+						<p>
+							<Fa icon={faBookBookmark} />
+							<a href="https://rules.realgolf.games">{$_('golfrules')}</a>
+						</p>
 					</div>
 				</div>
 				<div class="col-md-6 second-row">
@@ -60,7 +65,7 @@
 
 <style lang="scss">
 	footer {
-		border-top: 2px solid var(--border-color);
+		border-top: 0.1rem solid rgb(44, 46, 51);
 		height: max-content;
 		margin-top: 5vh;
 		padding: 2vh 3vw;

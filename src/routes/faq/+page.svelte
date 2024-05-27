@@ -222,10 +222,16 @@
 	}
 
 	.wrapper {
+		width: 90vw;
+		margin: 0 auto;
+
 		.question {
 			border-top: 1px solid var(--border-color);
 			padding: 1rem 0;
 			transition: background-color 0.3s ease;
+			max-width: 40rem;
+			margin: 0 auto;
+			padding-inline: 1rem;
 
 			details {
 				summary {

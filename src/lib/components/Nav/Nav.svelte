@@ -1,10 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import { getPagePath } from '$lib/scripts/Nav/get_page_path';
 	import type { User } from '$lib/server/user/types';
-	import sanitizeHTML from '$lib/shared/utils/sanitizeHTML';
 	import { faHouse, type IconDefinition } from '@fortawesome/free-solid-svg-icons';
-	import Fa from 'svelte-fa';
 	import { _ } from 'svelte-i18n';
 	import Dropdownmenu from './Dropdownmenu.svelte';
 	import LanguageSwitcher from './LanguageSwitcher.svelte';
@@ -37,12 +34,11 @@
 	<ul>
 		{#each links as { path, icon, title }}
 			<li>
-				<a href={path} aria-label={title}>
-					<Fa {icon} />
+				<a translate="no" href="/"
+					><span style="font-weight: bold; color: green;">Real</span><span
+						style="font-weight: bold; color: grey;">Golf.</span
+					><span style="font-weight: bold; color: green;">Games</span>
 				</a>
-				<div class="path">
-					<span class="no-line" use:sanitizeHTML={[getPagePath(currentPagePath)]} />
-				</div>
 			</li>
 		{/each}
 		<li>
@@ -72,4 +68,26 @@
 
 <style lang="scss">
 	@import '$lib/scss/Nav/Nav.scss';
+
+	li {
+		a {
+			text-decoration: none !important;
+
+			&:hover {
+				text-decoration: none !important;
+			}
+
+			&:hover::before {
+				width: 0% !important;
+			}
+		}
+
+		span {
+			margin-left: 0 !important;
+
+			&:first-child {
+				margin-left: 0.5rem !important;
+			}
+		}
+	}
 </style>

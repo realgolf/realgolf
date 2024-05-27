@@ -99,8 +99,8 @@
 		{#if !auth}
 			<div class="logged-out row border-bottom">
 				<h3>{$_('sign_in')}</h3>
-				<a href="/register"><span><Fa icon={faUserPlus} /></span>{$_('register')}</a>
-				<a href="/login?redirect={url}"><span><Fa icon={faSignInAlt} /></span>{$_('login')}</a>
+				<a href="/register"><span><Fa icon={faUserPlus} /></span>{$_('sign_up')}</a>
+				<a href="/login?redirect={url}"><span><Fa icon={faSignInAlt} /></span>{$_('sign_in')}</a>
 			</div>
 		{/if}
 		{#if auth}
@@ -147,7 +147,7 @@
 			</p>
 		</div>
 		{#if auth}
-			<div class="border-bottom logout row">
+			<div class="logout row">
 				<form action="/logout" method="POST" class="logout-form">
 					<button class="link"
 						><span><Fa class="Fa" icon={faSignOutAlt} /></span>{$_('sign_out')}</button

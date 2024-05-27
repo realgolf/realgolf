@@ -12,5 +12,5 @@
 </div>
 
 <style lang="scss">
-	@import '$lib/scss/Home_page/feature.scss';
+	@import '$lib/scss/Home_page/main.scss';
 </style>
