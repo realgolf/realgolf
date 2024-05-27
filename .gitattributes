@@ -10,6 +10,10 @@
 *.scss linguist-detectable=true
 *.scss linguist-language=SCSS
 
+# Markdown
+*.md linguist-detectable=true
+*.md linguist-language=Markdown
+
 # Docker
 dockerfile linguist-detectable=true
 dockerfile linguist-language=Docker
