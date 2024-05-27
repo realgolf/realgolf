@@ -12,3 +12,5 @@
 
 *.html linguist-detectable=true
 *.html linguist-language=HTML
+
+test/**/*.ts linguist-vendored
