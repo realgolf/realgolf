@@ -1,25 +1,14 @@
-# TypeScript
 *.ts linguist-detectable=true
 *.ts linguist-language=TypeScript
 
-# Svelte
 *.svelte linguist-detectable=true
 *.svelte linguist-language=Svelte
 
-# SCSS
 *.scss linguist-detectable=true
 *.scss linguist-language=SCSS
 
-# JSON
-*.json linguist-detectable=true
-*.json linguist-language=JSON
-
-# JavaScript
 *.js linguist-detectable=true
 *.js linguist-language=JavaScript
 
-# HTML
 *.html linguist-detectable=true
 *.html linguist-language=HTML
-
-src/locales/*.json linguist-vendored
