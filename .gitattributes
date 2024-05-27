@@ -10,20 +10,13 @@
 *.scss linguist-detectable=true
 *.scss linguist-language=SCSS
 
-# YAML
-*.yml linguist-detectable=true
-*.yml linguist-language=YAML
-
-.yaml linguist-detectable=true
-.yaml linguist-language=YAML
-
 # Markdown
 *.md linguist-detectable=true
 *.md linguist-language=Markdown
 
 # Docker
-Dockerfile linguist-detectable=true
-Dockerfile linguist-language=Docker
+dockerfile linguist-detectable=true
+dockerfile linguist-language=Docker
 
 # JSON
 *.json linguist-detectable=true
