@@ -1,16 +1,42 @@
+# TypeScript
 *.ts linguist-detectable=true
 *.ts linguist-language=TypeScript
 
+# Svelte
 *.svelte linguist-detectable=true
 *.svelte linguist-language=Svelte
 
+# SCSS
 *.scss linguist-detectable=true
 *.scss linguist-language=SCSS
 
+# YAML
+*.yml linguist-detectable=true
+*.yml linguist-language=YAML
+
+.yaml linguist-detectable=true
+.yaml linguist-language=YAML
+
+# Markdown
+*.md linguist-detectable=true
+*.md linguist-language=Markdown
+
+# Docker
+Dockerfile linguist-detectable=true
+Dockerfile linguist-language=Docker
+
+# JSON
+*.json linguist-detectable=true
+*.json linguist-language=JSON
+
+# JavaScript
 *.js linguist-detectable=true
 *.js linguist-language=JavaScript
 
+# HTML
 *.html linguist-detectable=true
 *.html linguist-language=HTML
 
-test/**/*.ts linguist-vendored
+pnpm-lock.yaml linguist-vendored
+src/locales/*.json linguist-vendored
+tests/**/*.ts linguist-vendored
