@@ -22,4 +22,4 @@
 *.html linguist-detectable=true
 *.html linguist-language=HTML
 
-src/locales/*.js linguist-vendored
+src/locales/*.json linguist-vendored
