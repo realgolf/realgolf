@@ -1,6 +1,6 @@
 {
 	"name": "@realgolf/realgolf",
-	"version": "3.11.10",
+	"version": "3.12.0",
 	"private": true,
 	"description": "realgolf.games: The first and only trainings platform for golfers",
 	"repository": {
@@ -45,6 +45,7 @@
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint .",
 		"preview": "vite preview",
+		"release": "standard-version",
 		"server": "node server/app.js",
 		"server:dev": "nodemon server/app.js",
 		"start": "pnpm run build && pnpm run server",
@@ -74,6 +75,7 @@
 		"nodemon": "^3.1.1",
 		"prettier": "^3.2.5",
 		"prettier-plugin-svelte": "^3.2.3",
+		"standard-version": "^9.5.0",
 		"svelte": "^4.2.17",
 		"svelte-check": "^3.7.1",
 		"svelte-eslint-parser": "^0.36.0",
