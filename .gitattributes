@@ -21,7 +21,3 @@
 # HTML
 *.html linguist-detectable=true
 *.html linguist-language=HTML
-
-pnpm-lock.yaml linguist-vendored
-src/locales/*.json linguist-vendored
-tests/**/*.ts linguist-vendored
