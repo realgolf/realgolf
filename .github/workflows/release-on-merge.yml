@@ -1,0 +1,35 @@
+name: Release on PR Merge
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  release:
+    if: github.event.pull_request.merged == true && github.event.pull_request.user.login != 'dependabot[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: true # This is the default value, so this line can be omitted
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16' # Use the version of Node.js your project requires
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run release script
+        run: pnpm run release
+
+      - name: Push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m "chore(release): $(node -p \"require('./package.json').version\")"
+          git push origin HEAD:main
