@@ -34,4 +34,4 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
           git commit -m "chore(release): $(node -p \"require('./package.json').version\")"
-          git push origin HEAD:main
+          git push --follow-tags origin HEAD:main
