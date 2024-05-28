@@ -30,6 +30,7 @@ dockerfile linguist-language=Docker
 *.html linguist-detectable=true
 *.html linguist-language=HTML
 
+translation linguist-vendored
 pnpm-lock.yaml linguist-vendored
 src/locales/*.json linguist-vendored
 tests/**/*.ts linguist-vendored
