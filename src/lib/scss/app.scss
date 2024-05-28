@@ -254,7 +254,9 @@ input[type='checkbox']:before {
 	scale: 0;
 	opacity: 0;
 	translate: -50% -50%;
-	transition: scale 100ms ease-out, opacity 100ms ease-out;
+	transition:
+		scale 100ms ease-out,
+		opacity 100ms ease-out;
 }
 
 input[type='checkbox']:checked:before {
