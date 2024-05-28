@@ -21,7 +21,9 @@ jobs:
           node-version: '16' # Use the version of Node.js your project requires
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install -g pnpm@8.15.5
+          pnpm install
 
       - name: Run release script
         run: pnpm run release
