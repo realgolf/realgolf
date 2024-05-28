@@ -1,0 +1,35 @@
+{
+	"name": "RealGolf",
+	"short_name": "RealGolf",
+	"start_url": "https://realgolf.games/",
+	"display": "standalone",
+	"description": "The first and only trainings platform for golfers",
+	"lang": "en",
+	"dir": "auto",
+	"theme_color": "#1a1b1e",
+	"background_color": "#141517",
+	"orientation": "any",
+	"icons": [
+		{
+			"src": "/static/manifest/android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "maskable"
+		},
+		{
+			"src": "/static/manifest/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "any"
+		}
+	],
+	"screenshots": [
+		{
+			"src": "/static/screenshots/start_page.png",
+			"sizes": "2880x1800",
+			"type": "image/png",
+			"description": "A screenshot of the home page"
+		}
+	],
+	"prefer_related_applications": false
+}
