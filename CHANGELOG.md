@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.15.1](https://github.com/realgolf/realgolf/compare/v3.15.0...v3.15.1) (2024-05-29)
+
+
+### Bug Fixes
+
+* **service-worker.js:** delete service worker ([1752b14](https://github.com/realgolf/realgolf/commit/1752b14a279d66900d0d2ad601b74cd52aea2658))
+* **service-worker.js:** delete service worker ([#826](https://github.com/realgolf/realgolf/issues/826)) ([35e589a](https://github.com/realgolf/realgolf/commit/35e589a5a779aed831d0972adc09482afb9845e7))
+
 ## [3.15.0](https://github.com/realgolf/realgolf/compare/v3.12.0...v3.15.0) (2024-05-28)
 
 
