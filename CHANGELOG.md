@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.15.2](https://github.com/realgolf/realgolf/compare/v3.15.1...v3.15.2) (2024-05-29)
+
+
+### Bug Fixes
+
+* **manifest.json:** change source of icons in the manifest.json ([99a47df](https://github.com/realgolf/realgolf/commit/99a47df2032461143bce6bef7e49d5ccaf541d82)), closes [#827](https://github.com/realgolf/realgolf/issues/827)
+* **manifest.json:** change source of icons in the manifest.json ([#828](https://github.com/realgolf/realgolf/issues/828)) ([d0540b3](https://github.com/realgolf/realgolf/commit/d0540b318994559276b1d1d47e31e39df8f4b783))
+
 ### [3.15.1](https://github.com/realgolf/realgolf/compare/v3.15.0...v3.15.1) (2024-05-29)
 
 
