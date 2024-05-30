@@ -98,21 +98,18 @@
 		</div>
 		{#if !auth}
 			<div class="logged-out row border-bottom">
-				<h3>{$_('sign_in')}</h3>
 				<a href="/register"><span><Fa icon={faUserPlus} /></span>{$_('sign_up')}</a>
 				<a href="/login?redirect={url}"><span><Fa icon={faSignInAlt} /></span>{$_('sign_in')}</a>
 			</div>
 		{/if}
 		{#if auth}
 			<div class="logged-in row border-bottom">
-				<h3>{$_('account')}</h3>
 				<a href="/{username}"><span><Fa icon={faUser} /></span>{username}</a>
 				<a href="/dashboard"><span><Fa icon={faTh} /></span>{$_('dashboard')}</a>
 				<a href="/dashboard/settings"><span><Fa icon={faGear} /></span>{$_('settings')}</a>
 				<a href="/dashboard/chat"><span><Fa icon={faMessage} /></span>{$_('chat')}</a>
 			</div>
 			<div class="internal-links row border-bottom">
-				<h3>{$_('internal_links')}</h3>
 				<a href="/dashboard/games"><span><Fa icon={faGamepad} /></span>{$_('games')}</a>
 				<a href="/dashboard/archive"><span><Fa icon={faSave} /></span>{$_('archive')}</a>
 				<a href="/dashboard/info"><span><Fa icon={faInfoCircle} /></span>{$_('info')}</a>
@@ -128,7 +125,6 @@
 			</p>
 		</div>
 		<div class="external-links row border-bottom">
-			<h3>{$_('external_sites')}</h3>
 			<a href="https://blog.realgolf.games"
 				><span><Fa icon={faBookOpenReader} /></span>{$_('blog')}</a
 			>
@@ -156,7 +152,6 @@
 			</div>
 		{/if}
 		<div class="version row">
-			<!-- svelte-ignore missing-declaration -->
 			<small>{PKG.version}</small>
 		</div>
 	</div>
