@@ -134,13 +134,11 @@
 			>
 		</div>
 		<div class="copyright row border-bottom">
-			<p><a href="/support"><Fa icon={faUsers} /> {$_('support')}</a></p>
-			<p><a href="/imprint"><Fa icon={faGavel} /> {$_('imprint_heading')}</a></p>
-			<p>&copy; 2021 - {new Date().getFullYear()} RealGolf.Games</p>
+			<a href="/support"><Fa icon={faUsers} /> {$_('support')}</a>
+			<a href="/imprint"><Fa icon={faGavel} /> {$_('imprint_heading')}</a>
+			<p class="copyright_text">&copy; 2021 - {new Date().getFullYear()} RealGolf.Games</p>
 			<p>{$_('all_rights_reserved')}</p>
-			<p>
-				<a class="underline" target="_blank" href="https://github.com/realgolf">{$_('github')}</a>
-			</p>
+			<a class="underline" target="_blank" href="https://github.com/realgolf">{$_('github')}</a>
 		</div>
 		{#if auth}
 			<div class="logout row">
@@ -159,4 +157,8 @@
 
 <style lang="scss">
 	@import '$lib/scss/Nav/Dropdownmenu.scss';
+
+	.copyright_text {
+		text-wrap: nowrap !important;
+	}
 </style>
