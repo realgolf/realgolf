@@ -155,6 +155,10 @@
 				</form>
 			</div>
 		{/if}
+		<div class="version row">
+			<!-- svelte-ignore missing-declaration -->
+			<small>{PKG.version}</small>
+		</div>
 	</div>
 {/if}
 
