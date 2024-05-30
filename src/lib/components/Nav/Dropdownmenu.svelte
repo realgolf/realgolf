@@ -98,21 +98,18 @@
 		</div>
 		{#if !auth}
 			<div class="logged-out row border-bottom">
-				<h3>{$_('sign_in')}</h3>
 				<a href="/register"><span><Fa icon={faUserPlus} /></span>{$_('sign_up')}</a>
 				<a href="/login?redirect={url}"><span><Fa icon={faSignInAlt} /></span>{$_('sign_in')}</a>
 			</div>
 		{/if}
 		{#if auth}
 			<div class="logged-in row border-bottom">
-				<h3>{$_('account')}</h3>
 				<a href="/{username}"><span><Fa icon={faUser} /></span>{username}</a>
 				<a href="/dashboard"><span><Fa icon={faTh} /></span>{$_('dashboard')}</a>
 				<a href="/dashboard/settings"><span><Fa icon={faGear} /></span>{$_('settings')}</a>
 				<a href="/dashboard/chat"><span><Fa icon={faMessage} /></span>{$_('chat')}</a>
 			</div>
 			<div class="internal-links row border-bottom">
-				<h3>{$_('internal_links')}</h3>
 				<a href="/dashboard/games"><span><Fa icon={faGamepad} /></span>{$_('games')}</a>
 				<a href="/dashboard/archive"><span><Fa icon={faSave} /></span>{$_('archive')}</a>
 				<a href="/dashboard/info"><span><Fa icon={faInfoCircle} /></span>{$_('info')}</a>
@@ -128,7 +125,6 @@
 			</p>
 		</div>
 		<div class="external-links row border-bottom">
-			<h3>{$_('external_sites')}</h3>
 			<a href="https://blog.realgolf.games"
 				><span><Fa icon={faBookOpenReader} /></span>{$_('blog')}</a
 			>
@@ -138,13 +134,11 @@
 			>
 		</div>
 		<div class="copyright row border-bottom">
-			<p><a href="/support"><Fa icon={faUsers} /> {$_('support')}</a></p>
-			<p><a href="/imprint"><Fa icon={faGavel} /> {$_('imprint_heading')}</a></p>
-			<p>&copy; 2021 - {new Date().getFullYear()} RealGolf.Games</p>
+			<a href="/support"><Fa icon={faUsers} /> {$_('support')}</a>
+			<a href="/imprint"><Fa icon={faGavel} /> {$_('imprint_heading')}</a>
+			<p class="copyright_text">&copy; 2021 - {new Date().getFullYear()} RealGolf.Games</p>
 			<p>{$_('all_rights_reserved')}</p>
-			<p>
-				<a class="underline" target="_blank" href="https://github.com/realgolf">{$_('github')}</a>
-			</p>
+			<a class="underline" target="_blank" href="https://github.com/realgolf">{$_('github')}</a>
 		</div>
 		{#if auth}
 			<div class="logout row">
@@ -156,7 +150,6 @@
 			</div>
 		{/if}
 		<div class="version row">
-			<!-- svelte-ignore missing-declaration -->
 			<small>{PKG.version}</small>
 		</div>
 	</div>
@@ -164,4 +157,8 @@
 
 <style lang="scss">
 	@import '$lib/scss/Nav/Dropdownmenu.scss';
+
+	.copyright_text {
+		text-wrap: nowrap !important;
+	}
 </style>
