@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.16.0](https://github.com/realgolf/realgolf/compare/v3.15.2...v3.16.0) (2024-05-31)
+
+
+### Features
+
+* display package version to user ([b1805e3](https://github.com/realgolf/realgolf/commit/b1805e3a7aeb0bf317cb4736d68d34b34f5a9f94)), closes [#837](https://github.com/realgolf/realgolf/issues/837)
+* display package version to user ([#838](https://github.com/realgolf/realgolf/issues/838)) ([3f8a249](https://github.com/realgolf/realgolf/commit/3f8a249698e3270f9061ad2b0b6ad28e7e0a068c)), closes [#837](https://github.com/realgolf/realgolf/issues/837)
+* **dropdownmenu.svelte:** remove headings for topics from Dropdownmenu ([269d858](https://github.com/realgolf/realgolf/commit/269d85809eef71ec4fa20e6b5434c3bf8869ebf7))
+* set paragraph margin to 0 in the Dropdownmenu ([bfbab41](https://github.com/realgolf/realgolf/commit/bfbab417e6d5b8acbc716aa6c5430101d2e7b19d))
+* Update Dropdown Menu Design ([#840](https://github.com/realgolf/realgolf/issues/840)) ([90cb153](https://github.com/realgolf/realgolf/commit/90cb153182aac5a9b9bbd5a024bbf93518b79110))
+* update Dropdown width to 320px ([fe857f6](https://github.com/realgolf/realgolf/commit/fe857f695662c0b253853af9c1a0d24d4e0aacea))
+
+
+### Bug Fixes
+
+* 829 bug update render link on readme ([#830](https://github.com/realgolf/realgolf/issues/830)) ([7d5590e](https://github.com/realgolf/realgolf/commit/7d5590e4330008282f0aab584b664645c925acf0)), closes [#829](https://github.com/realgolf/realgolf/issues/829)
+
 ### [3.15.2](https://github.com/realgolf/realgolf/compare/v3.15.1...v3.15.2) (2024-05-29)
 
 
