@@ -1,77 +1,80 @@
+<script lang="ts">
+	import { _, isLoading } from 'svelte-i18n';
+</script>
+
 <svelte:head>
-	<title>RealGolf - Privacy Policy</title>
+	<title>RealGolf - {$_('privacy_policy')}</title>
 </svelte:head>
 
-<h1>Privacy Policy</h1>
+{#if $isLoading}
+	<p>Loading...</p>
+{:else}
+	<h1>{$_('privacy_policy')}</h1>
 
-<h2>1. Introduction</h2>
-<p>
-	This Privacy Policy describes how RealGolf collects, processes, stores, and protects personal data
-	of users. It is based on the requirements of the General Data Protection Regulation (GDPR).
-</p>
+	<h2>1. {$_('introduction')}</h2>
+	<p>
+		{$_('introduction_text')}
+	</p>
 
-<h2>2. Controller</h2>
-<p>The controller, as defined by the GDPR, is:</p>
-<p>RealGolf<br />info@realgolf.games</p>
+	<h2>2. {$_('controller')}</h2>
+	<p>{$_('controller_text')}</p>
+	<p>RealGolf<br /><a href="mailto:info@realgolf.games">info@realgolf.games</a></p>
 
-<h2>3. Collection and Processing of Personal Data</h2>
-<p>
-	RealGolf collects and stores personal data only to enable the use of our services. Processing is
-	done lawfully, fairly, and in a transparent manner.
-</p>
+	<h2>{$_('collection_and_processing_of_personal_data')}</h2>
+	<p>
+		{$_('collection_and_processing_of_personal_data_text')}
+	</p>
 
-<h2>4. Categories of Personal Data</h2>
-<p>We process the following categories of personal data:</p>
-<ul>
-	<li>Contact details (e.g., name, email address)</li>
-	<li>Authentication data (e.g., password hashed with a long-standing proven software)</li>
-</ul>
+	<h2>4. {$_('categories_of_personal_data')}</h2>
+	<p>{$_('we_procces_the_following_personal_data')}</p>
+	<ul>
+		<li>{$_('personal_data_contact_details')}</li>
+		<li>{$_('personal_data_authentication_data')}</li>
+	</ul>
 
-<h2>5. Legal Basis for Data Processing</h2>
-<p>Data processing is based on the following legal grounds:</p>
-<ul>
-	<li>Consent (Art. 6 para. 1 lit. a GDPR)</li>
-	<li>Performance of a contract or pre-contractual measures (Art. 6 para. 1 lit. b GDPR)</li>
-</ul>
+	<h2>{$_('legal_basis_for_data_processing')}</h2>
+	<p>{$_('legal_basis_for_data_processing_text')}</p>
+	<ul>
+		<li>{$_('legal_basis_for_data_procesing_consent')}</li>
+		<li>{$_('legal_basis_for_data_processing_performance')}</li>
+	</ul>
 
-<h2>6. Rights of Data Subjects</h2>
-<p>Individuals have the following rights regarding their personal data:</p>
-<ul>
-	<li>Right to information (Art. 15 GDPR)</li>
-	<li>Right to rectification (Art. 16 GDPR)</li>
-	<li>Right to erasure (Art. 17 GDPR)</li>
-	<li>Right to restriction of processing (Art. 18 GDPR)</li>
-	<li>Right to data portability (Art. 20 GDPR)</li>
-	<li>Right to object (Art. 21 GDPR)</li>
-</ul>
-<p>Requests to exercise these rights can be directed to info@realgolf.games.</p>
+	<h2>{$_('rights_of_data_subject')}</h2>
+	<p>{$_('rights_data_subject_personal_rights')}</p>
+	<ul>
+		<li>{$_('right_to_information')}</li>
+		<li>{$_('right_to_rectification')}</li>
+		<li>{$_('right_to_erasure')}</li>
+		<li>{$_('right_to_restriction_of_processing')}</li>
+		<li>{$_('right_to_data_portability')}</li>
+		<li>{$_('right_to_object')}</li>
+	</ul>
+	<p>{$_('request_to_exercise_data')}</p>
 
-<h2>7. Data Security</h2>
-<p>
-	RealGolf has implemented technical and organizational measures to ensure the security of personal
-	data and protect it from unauthorized access, loss, or destruction. These measures include:
-</p>
-<ul>
-	<li>Encryption of passwords using a long-standing proven software</li>
-	<li>Access controls and authentication measures</li>
-	<li>Regular review and update of our security measures</li>
-</ul>
+	<h2>{$_('data_security')}</h2>
+	<p>
+		{$_('data_security_text')}
+	</p>
+	<ul>
+		<li>{$_('data_security_encryption_of_passwords')}</li>
+		<li>{$_('access_control')}</li>
+		<li>{$_('regular_update_and_review_of_security_measures')}</li>
+	</ul>
 
-<h2>8. Data Retention Period</h2>
-<p>
-	Personal data will be retained only for as long as necessary for the fulfillment of the purposes
-	mentioned above or as required by legal retention obligations.
-</p>
+	<h2>{$_('data_retention_period')}</h2>
+	<p>
+		{$_('data_retention_period_text')}
+	</p>
 
-<h2>9. Changes to the Privacy Policy</h2>
-<p>
-	RealGolf reserves the right to change this Privacy Policy as needed. The current version will be
-	published on our website.
-</p>
+	<h2>{$_('changes_to_data_privacy_policy')}</h2>
+	<p>
+		{$_('changes_to_data_privacy_policy_text')}
+	</p>
 
-<h2>10. Contact</h2>
-<p>For questions or concerns regarding privacy, please contact:</p>
-<p>RealGolf<br />info@realgolf.games</p>
+	<h2>{$_('data_privacy_policy_contact')}</h2>
+	<p>{$_('questions_about_data_privacy')}</p>
+	<p>RealGolf<br /><a href="mailto:info@realgolf.games">info@realgolf.games</a></p>
+{/if}
 
 <style lang="scss">
 	ul {
