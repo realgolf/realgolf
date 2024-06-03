@@ -105,7 +105,7 @@
 		"js-cookie": "^3.0.5",
 		"jsonwebtoken": "^9.0.2",
 		"lint": "^1.1.2",
-		"mongoose": "^8.4.0",
+		"mongoose": "^8.4.1",
 		"nanoid": "^5.0.7",
 		"nodemailer": "^6.9.13",
 		"postcss": "^8.4.38",
