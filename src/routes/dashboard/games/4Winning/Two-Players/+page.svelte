@@ -4,24 +4,24 @@
 	import Dialog, { open_dialog } from '$lib/components/Global/Dialog.svelte';
 	import { _, isLoading } from 'svelte-i18n';
 
-	// eslint-disable-next-line
-	export let data: any;
-
-	let measurement_unit = data.measurement_unit;
-	let team = '4winning_2_teams';
 	interface Team {
 		color: string;
 		data: string[];
 	}
 
+	// eslint-disable-next-line
+	export let data: any;
+
 	let teams: Team[] = [
 		{ color: 'red', data: [] },
 		{ color: 'blue', data: [] }
 	];
+	let measurement_unit = data.measurement_unit;
+	let team = `4winning_${teams.length}_teams`;
 
 	function saveToDatabaseAndSubmitForm(event: { preventDefault: () => void }) {
 		event.preventDefault();
-		let localStorageData = localStorage.getItem('4winning_2_teams');
+		let localStorageData = localStorage.getItem(`4winning_${teams.length}_teams`);
 
 		if (localStorageData) {
 			const parsedData = JSON.parse(localStorageData);
@@ -55,7 +55,7 @@
 					team_data.value = JSON.stringify(new_teams);
 				}
 
-				localStorage.removeItem('4winning_2_teams');
+				localStorage.removeItem(`4winning_${teams.length}_teams`);
 
 				// Das Formular absenden
 				const form = document.querySelector('form') as HTMLFormElement;
