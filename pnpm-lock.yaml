@@ -139,8 +139,8 @@ importers:
         specifier: ^9.1.0
         version: 9.1.0(eslint@9.4.0)
       eslint-plugin-svelte:
-        specifier: ^2.39.0
-        version: 2.39.0(eslint@9.4.0)(svelte@4.2.18)
+        specifier: ^2.39.2
+        version: 2.39.2(eslint@9.4.0)(svelte@4.2.18)
       jest:
         specifier: ^29.7.0
         version: 29.7.0(@types/node@20.14.2)
@@ -1997,8 +1997,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-plugin-svelte@2.39.0:
-    resolution: {integrity: sha512-FXktBLXsrxbA+6ZvJK2z/sQOrUKyzSg3fNWK5h0reSCjr2fjAsc9ai/s/JvSl4Hgvz3nYVtTIMwarZH5RcB7BA==}
+  eslint-plugin-svelte@2.39.2:
+    resolution: {integrity: sha512-liJMHhWnNqnimPpw0lSKiG/fQXla+ySp0NjXirB6l9A9LrBY2AjUfL0HMKkBEil5PaFn5F2rp6EqW85NDjRdSA==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0-0 || ^9.0.0-0
@@ -6337,11 +6337,10 @@ snapshots:
     dependencies:
       eslint: 9.4.0
 
-  eslint-plugin-svelte@2.39.0(eslint@9.4.0)(svelte@4.2.18):
+  eslint-plugin-svelte@2.39.2(eslint@9.4.0)(svelte@4.2.18):
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@9.4.0)
       '@jridgewell/sourcemap-codec': 1.4.15
-      debug: 4.3.4(supports-color@5.5.0)
       eslint: 9.4.0
       eslint-compat-utils: 0.5.0(eslint@9.4.0)
       esutils: 2.0.3
@@ -6355,7 +6354,6 @@ snapshots:
     optionalDependencies:
       svelte: 4.2.18
     transitivePeerDependencies:
-      - supports-color
       - ts-node
 
   eslint-scope@7.2.2:
