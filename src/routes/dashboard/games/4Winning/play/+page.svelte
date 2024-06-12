@@ -2,37 +2,48 @@
 	import { enhance } from '$app/forms';
 	import FourWinning from '$lib/components/Games/FourWinning.svelte';
 	import Dialog, { open_dialog } from '$lib/components/Global/Dialog.svelte';
+	import { onMount } from 'svelte';
 	import { _, isLoading } from 'svelte-i18n';
 
 	// eslint-disable-next-line
 	export let data: any;
 
 	let teams: Array<{ pos: number; name: string; color: string; data: string[] }> = [
-		{ pos: 1, name: '', color: 'red', data: [] },
-		{ pos: 2, name: '', color: 'blue', data: [] },
-		{ pos: 3, name: '', color: 'green', data: [] },
-		{ pos: 4, name: '', color: 'orange', data: [] },
-		{ pos: 5, name: '', color: 'pink', data: [] },
-		{ pos: 6, name: '', color: 'yellow', data: [] }
+		{ pos: 1, name: 'Red', color: 'red', data: [] },
+		{ pos: 2, name: 'Blue', color: 'blue', data: [] },
+		{ pos: 3, name: 'Green', color: 'green', data: [] },
+		{ pos: 4, name: 'Orange', color: 'orange', data: [] },
+		{ pos: 5, name: 'Pink', color: 'pink', data: [] },
+		{ pos: 6, name: 'Yellow', color: 'yellow', data: [] }
 	];
+
+	let team_length: number = teams.length;
 
 	// Function to load the teams array from localStorage
 	function loadTeams() {
-		const storedTeams = localStorage.getItem(`4winning_${teams.length}_teams`);
+		if (window) {
+			const params = new URLSearchParams(window.location.search);
+			const teamLengthParam = params.get('team_length');
+			team_length = parseInt(teamLengthParam as string) ?? teams.length;
+		}
+
+		const storedTeams = localStorage.getItem(`4winning_${team_length}_teams`);
 		if (storedTeams) {
-			teams = JSON.parse(storedTeams);
+			teams = JSON.parse(storedTeams) ?? teams;
 		}
 	}
 
 	// Call the function to load the teams when the component is initialized
-	loadTeams();
+	onMount(() => {
+		loadTeams();
+	});
 
 	let measurement_unit = data.measurement_unit;
-	let team = `4winning_${teams.length}_teams`;
+	let team = `4winning_${team_length}_teams`;
 
 	function saveToDatabaseAndSubmitForm(event: { preventDefault: () => void }) {
 		event.preventDefault();
-		let localStorageData = localStorage.getItem(`4winning_${teams.length}_teams`);
+		let localStorageData = localStorage.getItem(`4winning_${team_length}_teams`);
 
 		if (localStorageData) {
 			const parsedData = JSON.parse(localStorageData);
@@ -66,7 +77,7 @@
 					team_data.value = JSON.stringify(new_teams);
 				}
 
-				localStorage.removeItem(`4winning_${teams.length}_teams`);
+				localStorage.removeItem(`4winning_${team_length}_teams`);
 
 				// Das Formular absenden
 				const form = document.querySelector('form') as HTMLFormElement;

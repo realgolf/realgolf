@@ -11,14 +11,22 @@
 	];
 
 	function play() {
-		const teamData = teams.map((team) => ({
-			name: team.name,
-			color: team.color
-		}));
+		if (localStorage) {
+			// Filter out teams with empty names
+			const validTeams = teams.filter((team) => team.name.trim() !== '');
 
-		localStorage.setItem(`4winning_${teams.length}_teams`, JSON.stringify(teamData));
+			// Create an array of team data with only name and color properties
+			const teamData = validTeams.map((team) => ({
+				name: team.name,
+				color: team.color.toLowerCase()
+			}));
 
-		location.href = '/dashboard/games/4Winning/play';
+			// Store the filtered team data in localStorage
+			localStorage.setItem(`4winning_${validTeams.length}_teams`, JSON.stringify(teamData));
+
+			// Navigate to the play page
+			location.href = '/dashboard/games/4Winning/play?team_length=' + validTeams.length;
+		}
 	}
 </script>
 
@@ -52,3 +60,24 @@
 
 	<button on:click={play}>{$_('play')}</button>
 {/if}
+
+<style>
+	.choose {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+	}
+	.team_member {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+	label {
+		font-weight: bold;
+	}
+	input {
+		padding: 0.5rem;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+	}
+</style>
