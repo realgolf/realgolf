@@ -2,12 +2,12 @@
 	import { _, isLoading } from 'svelte-i18n';
 
 	const teams: Array<{ pos: number; name: string; color: string; data: string[] }> = [
-		{ pos: 1, name: '', color: '', data: [] },
-		{ pos: 2, name: '', color: '', data: [] },
-		{ pos: 3, name: '', color: '', data: [] },
-		{ pos: 4, name: '', color: '', data: [] },
-		{ pos: 5, name: '', color: '', data: [] },
-		{ pos: 6, name: '', color: '', data: [] }
+		{ pos: 1, name: '', color: 'red', data: [] },
+		{ pos: 2, name: '', color: 'blue', data: [] },
+		{ pos: 3, name: '', color: 'green', data: [] },
+		{ pos: 4, name: '', color: 'orange', data: [] },
+		{ pos: 5, name: '', color: 'pink', data: [] },
+		{ pos: 6, name: '', color: 'yellow', data: [] }
 	];
 </script>
 
@@ -28,7 +28,13 @@
 				<label for="name">Enter the name for the Player</label>
 				<input type="text" name="name" id="name" bind:value={teamMember.name} />
 				<label for="color">Enter the color for the Player:</label>
-				<input type="text" name="color" id="color" bind:value={teamMember.color} />
+				<input
+					type="text"
+					name="color"
+					id="color"
+					bind:value={teamMember.color}
+					style="color: {teamMember.color};"
+				/>
 			</div>
 		{/each}
 	</div>
