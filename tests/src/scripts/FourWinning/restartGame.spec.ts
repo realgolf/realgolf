@@ -1,12 +1,12 @@
-import { Team } from '$lib/scripts/FourWinning/types';
 import { restartGame } from '../../../../src/lib/scripts/FourWinning/restartGame';
+import type { Team } from '../../../../src/lib/scripts/FourWinning/types';
 
 describe('restartGame', () => {
 	it('should restart the game', () => {
 		// Define the input values
 		const teams: Team[] = [
-			{ data: [], color: 'red' },
-			{ data: [], color: 'blue' }
+			{ pos: 1, name: '', color: 'red', data: [] },
+			{ pos: 2, name: '', color: 'blue', data: [] }
 		];
 		const hitCounts = { red: 5, blue: 3 };
 		const numberOfClicks = '10';

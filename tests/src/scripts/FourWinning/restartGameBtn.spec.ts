@@ -1,12 +1,12 @@
-import { Team } from '$lib/scripts/FourWinning/types';
 import { restartGame_Btn } from '../../../../src/lib/scripts/FourWinning/restartGameBtn';
+import type { Team } from '../../../../src/lib/scripts/FourWinning/types';
 
 describe('restartGame_Btn', () => {
 	it('should reset the game state', () => {
 		// Arrange
 		const teams: Team[] = [
-			{ color: 'red', data: [] },
-			{ color: 'blue', data: [] }
+			{ pos: 1, name: '', color: 'red', data: [] },
+			{ pos: 2, name: '', color: 'blue', data: [] }
 		];
 		const hitCounts = { red: 5, blue: 3 };
 		const numberOfClicks = '10';
@@ -35,8 +35,8 @@ describe('restartGame_Btn', () => {
 	it('should clear the input field', () => {
 		// Arrange
 		const teams: Team[] = [
-			{ color: 'red', data: [] },
-			{ color: 'blue', data: [] }
+			{ pos: 1, name: '', color: 'red', data: [] },
+			{ pos: 2, name: '', color: 'blue', data: [] }
 		];
 		const hitCounts = { red: 5, blue: 3 };
 		const numberOfClicks = '10';
