@@ -17,8 +17,10 @@
 
 			// Create an array of team data with only name and color properties
 			const teamData = validTeams.map((team) => ({
+				pos: team.pos,
 				name: team.name,
-				color: team.color.toLowerCase()
+				color: team.color.toLowerCase(),
+				data: team.data ?? []
 			}));
 
 			// Store the filtered team data in localStorage
