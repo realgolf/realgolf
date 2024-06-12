@@ -2,6 +2,8 @@
  * Represents a team in the game.
  */
 export type Team = {
+	pos: number;
+	name: string;
 	color: string;
 	data: string[];
 };
