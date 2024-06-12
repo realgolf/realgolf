@@ -9,6 +9,17 @@
 		{ pos: 5, name: '', color: 'pink', data: [] },
 		{ pos: 6, name: '', color: 'yellow', data: [] }
 	];
+
+	function play() {
+		const teamData = teams.map((team) => ({
+			name: team.name,
+			color: team.color
+		}));
+
+		localStorage.setItem(`4winning_${teams.length}_teams`, JSON.stringify(teamData));
+
+		location.href = '/dashboard/games/4Winning/play';
+	}
 </script>
 
 <svelte:head>
@@ -38,4 +49,6 @@
 			</div>
 		{/each}
 	</div>
+
+	<button on:click={play}>{$_('play')}</button>
 {/if}

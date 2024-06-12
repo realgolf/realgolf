@@ -4,18 +4,29 @@
 	import Dialog, { open_dialog } from '$lib/components/Global/Dialog.svelte';
 	import { _, isLoading } from 'svelte-i18n';
 
-	interface Team {
-		color: string;
-		data: string[];
-	}
-
 	// eslint-disable-next-line
 	export let data: any;
 
-	let teams: Team[] = [
-		{ color: 'red', data: [] },
-		{ color: 'blue', data: [] }
+	let teams: Array<{ pos: number; name: string; color: string; data: string[] }> = [
+		{ pos: 1, name: '', color: 'red', data: [] },
+		{ pos: 2, name: '', color: 'blue', data: [] },
+		{ pos: 3, name: '', color: 'green', data: [] },
+		{ pos: 4, name: '', color: 'orange', data: [] },
+		{ pos: 5, name: '', color: 'pink', data: [] },
+		{ pos: 6, name: '', color: 'yellow', data: [] }
 	];
+
+	// Function to load the teams array from localStorage
+	function loadTeams() {
+		const storedTeams = localStorage.getItem(`4winning_${teams.length}_teams`);
+		if (storedTeams) {
+			teams = JSON.parse(storedTeams);
+		}
+	}
+
+	// Call the function to load the teams when the component is initialized
+	loadTeams();
+
 	let measurement_unit = data.measurement_unit;
 	let team = `4winning_${teams.length}_teams`;
 
