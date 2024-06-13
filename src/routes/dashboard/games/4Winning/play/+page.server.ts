@@ -1,6 +1,7 @@
 import { check_achievement } from '$lib/server/user/achievements/achievements';
 import { User_Model } from '$lib/server/user/models';
 import type { User } from '$lib/server/user/types';
+import { redirect } from '@sveltejs/kit';
 import { v4 as uuidv4 } from 'uuid';
 import type { Actions, PageServerLoad } from './$types';
 
@@ -80,11 +81,6 @@ export const actions: Actions = {
 			await user.save();
 
 			event.cookies.delete(`game_over_4winning_${team_length}_teams`, { path: '/' });
-
-			return {
-				status: 200,
-				body: JSON.stringify({ message: 'Game saved successfully' })
-			};
 		} catch (error) {
 			console.error(error);
 			return {
@@ -92,5 +88,7 @@ export const actions: Actions = {
 				body: JSON.stringify({ error: 'Error saving game' })
 			};
 		}
+
+		throw redirect(303, '/dashboard/archive');
 	}
 };
