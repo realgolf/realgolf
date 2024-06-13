@@ -17,7 +17,9 @@
 		{ pos: 6, name: 'Yellow', color: 'yellow', data: [] }
 	];
 
+	let measurement_unit = data.measurement_unit;
 	let team_length: number = teams.length;
+	let team = `4winning_${team_length}_teams`;
 
 	// Function to load the teams array from localStorage
 	function loadTeams() {
@@ -31,15 +33,17 @@
 		if (storedTeams) {
 			teams = JSON.parse(storedTeams) ?? teams;
 		}
+
+		teams = teams.filter((team) => team !== null && team !== undefined);
+		localStorage.setItem(`4winning_${team_length}_teams`, JSON.stringify(teams));
+		team_length = teams.length;
+		team = `4winning_${team_length}_teams`;
 	}
 
 	// Call the function to load the teams when the component is initialized
 	onMount(() => {
 		loadTeams();
 	});
-
-	let measurement_unit = data.measurement_unit;
-	let team = `4winning_${team_length}_teams`;
 
 	function saveToDatabaseAndSubmitForm(event: { preventDefault: () => void }) {
 		event.preventDefault();
@@ -51,6 +55,10 @@
 			if (Array.isArray(parsedData)) {
 				const redTeam = parsedData.find((team) => team.color === 'red');
 				const blueTeam = parsedData.find((team) => team.color === 'blue');
+				const greenTeam = parsedData.find((team) => team.color === 'green');
+				const orangeTeam = parsedData.find((team) => team.color === 'orange');
+				const pinkTeam = parsedData.find((team) => team.color === 'pink');
+				const yellowTeam = parsedData.find((team) => team.color === 'yellow');
 
 				if (redTeam) {
 					const existingRedTeam = teams.find((t) => t.color === 'red');
@@ -66,15 +74,44 @@
 					}
 				}
 
-				let new_teams = [redTeam, blueTeam];
+				if (greenTeam) {
+					const existingGreenTeam = teams.find((t) => t.color === 'green');
+					if (existingGreenTeam) {
+						existingGreenTeam.data = greenTeam.data;
+					}
+				}
+
+				if (orangeTeam) {
+					const existingOrangeTeam = teams.find((t) => t.color === 'orange');
+					if (existingOrangeTeam) {
+						existingOrangeTeam.data = orangeTeam.data;
+					}
+				}
+
+				if (pinkTeam) {
+					const existingPinkTeam = teams.find((t) => t.color === 'pink');
+					if (existingPinkTeam) {
+						existingPinkTeam.data = pinkTeam.data;
+					}
+				}
+
+				if (yellowTeam) {
+					const existingYellowTeam = teams.find((t) => t.color === 'yellow');
+					if (existingYellowTeam) {
+						existingYellowTeam.data = yellowTeam.data;
+					}
+				}
+
+				let new_teams = [redTeam, blueTeam, greenTeam, orangeTeam, pinkTeam, yellowTeam];
 
 				// Hier aktualisiere den Wert von teams, wenn du das möchtest
 				teams = new_teams;
+				teams = teams.filter((team) => team !== null && team !== undefined);
 
 				// Daten in das Eingabefeld setzen
 				const team_data = document.getElementById('team_data') as HTMLInputElement;
 				if (team_data) {
-					team_data.value = JSON.stringify(new_teams);
+					team_data.value = JSON.stringify(teams);
 				}
 
 				localStorage.removeItem(`4winning_${team_length}_teams`);
@@ -97,7 +134,7 @@
 {#if $isLoading}
 	<p>Loading...</p>
 {:else}
-	<FourWinning {teams} {team} {measurement_unit} />
+	<FourWinning bind:teams bind:team bind:measurement_unit bind:team_length />
 
 	<div class="database">
 		<br />
