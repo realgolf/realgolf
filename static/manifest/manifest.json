@@ -23,13 +23,5 @@
 			"purpose": "any"
 		}
 	],
-	"screenshots": [
-		{
-			"src": "./screenshots/start_page.png",
-			"sizes": "2880x1800",
-			"type": "image/png",
-			"description": "A screenshot of the home page"
-		}
-	],
 	"prefer_related_applications": false
 }
