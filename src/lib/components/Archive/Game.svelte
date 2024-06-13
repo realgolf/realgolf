@@ -21,11 +21,19 @@
 		// Separate data arrays for each color
 		const redData = dataObj.find((obj: { color: string }) => obj.color === 'red')?.data || [];
 		const blueData = dataObj.find((obj: { color: string }) => obj.color === 'blue')?.data || [];
+		const greenData = dataObj.find((obj: { color: string }) => obj.color === 'green')?.data || [];
+		const orangeData = dataObj.find((obj: { color: string }) => obj.color === 'orange')?.data || [];
+		const pinkData = dataObj.find((obj: { color: string }) => obj.color === 'pink')?.data || [];
+		const yellowData = dataObj.find((obj: { color: string }) => obj.color === 'yellow')?.data || [];
 
 		// Interleave the data arrays
 		for (let i = 0; i < Math.max(redData.length, blueData.length); i++) {
 			if (i < redData.length) interleavedData.push({ color: 'red', value: redData[i] });
 			if (i < blueData.length) interleavedData.push({ color: 'blue', value: blueData[i] });
+			if (i < greenData.length) interleavedData.push({ color: 'green', value: greenData[i] });
+			if (i < orangeData.length) interleavedData.push({ color: 'orange', value: orangeData[i] });
+			if (i < pinkData.length) interleavedData.push({ color: 'pink', value: pinkData[i] });
+			if (i < yellowData.length) interleavedData.push({ color: 'yellow', value: yellowData[i] });
 		}
 
 		console.log(interleavedData);
