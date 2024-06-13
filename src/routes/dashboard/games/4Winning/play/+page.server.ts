@@ -23,6 +23,7 @@ export const actions: Actions = {
 
 		const game_over_cookie = event.cookies.get('game_over_4winning_2_teams');
 		const gameIsOver = game_over_cookie === 'true' ? true : false;
+		const team_length = event.url.searchParams.get('team_length') as string;
 
 		const raw_team_data = data.get('team_data') as string;
 
@@ -63,8 +64,8 @@ export const actions: Actions = {
 			if (user.games) {
 				user.games.push({
 					id: gameId,
-					name: '4 Winning 2 Teams',
-					teams: '4winning_2_teams',
+					name: `4 Winning ${team_length} Teams`,
+					teams: `4winning_${team_length}_teams`,
 					date: formattedDate,
 					data: JSON.stringify(team_data),
 					is_over: gameIsOver
@@ -78,7 +79,7 @@ export const actions: Actions = {
 			// Save the user with the new game
 			await user.save();
 
-			event.cookies.delete('game_over_4winning_2_teams', { path: '/' });
+			event.cookies.delete(`game_over_4winning_${team_length}_teams`, { path: '/' });
 
 			return {
 				status: 200,
