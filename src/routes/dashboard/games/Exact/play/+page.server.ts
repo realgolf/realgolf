@@ -1,6 +1,7 @@
 import { check_achievement } from '$lib/server/user/achievements/achievements';
 import { User_Model } from '$lib/server/user/models';
 import type { User } from '$lib/server/user/types';
+import { redirect } from '@sveltejs/kit';
 import Cookies from 'js-cookie';
 import { v4 as uuidv4 } from 'uuid';
 import type { Actions } from './$types';
@@ -69,11 +70,6 @@ export const actions: Actions = {
 			await user.save();
 
 			Cookies.remove(`game_over_exact_${team_length}_teams`);
-
-			return {
-				status: 200,
-				body: JSON.stringify({ message: 'Game saved successfully' })
-			};
 		} catch (error) {
 			console.error(error);
 			return {
