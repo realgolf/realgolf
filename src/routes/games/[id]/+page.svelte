@@ -25,6 +25,16 @@
 		{/if}
 	</h1>
 
+	{#if data.game.owner}
+		<h2>Owner</h2>
+		<p>{data.game.owner}</p>
+	{/if}
+
+	{#if data.game.type}
+		<h2>Type</h2>
+		<p>{data.game.type}</p>
+	{/if}
+
 	{#if data.game}
 		<p class="data">{data.game.data}</p>
 
