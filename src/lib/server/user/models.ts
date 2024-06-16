@@ -84,6 +84,9 @@ const User_Schema = new mongoose.Schema({
 	games: [
 		{
 			id: { type: String },
+			type: { type: String },
+			owner: { type: String },
+			site: { type: String },
 			name: { type: String },
 			teams: { type: String },
 			date: { type: String },
