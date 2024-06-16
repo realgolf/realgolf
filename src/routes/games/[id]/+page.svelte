@@ -1,8 +1,14 @@
 <script lang="ts">
 	import FourWinningTable from '$lib/components/Archive/FourWinning_table.svelte';
+	import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+	import Fa from 'svelte-fa';
 	import { _, isLoading } from 'svelte-i18n';
 
 	export let data;
+
+	function go_back() {
+		location.href = '/games';
+	}
 </script>
 
 <svelte:head>
@@ -12,6 +18,8 @@
 {#if $isLoading}
 	<p>Loading...</p>
 {:else}
+	<button on:click={go_back}><Fa icon={faArrowLeft}></Fa></button>
+
 	<h1>
 		{#if data.game}
 			{$_('public_game', {
@@ -43,3 +51,11 @@
 		{/if}
 	{/if}
 {/if}
+
+<style>
+	button {
+		background-color: transparent;
+		border: none !important;
+		outline: none !important;
+	}
+</style>
