@@ -1,13 +1,13 @@
-import { Team } from '$lib/scripts/Exact/types';
+import type { Team } from '$lib/scripts/Exact/types';
 import { updatePoints } from '../../../../src/lib/scripts/Exact/updatePoints';
 
 describe('updatePoints', () => {
 	it('should update the points of each team based on the stored data', () => {
 		// Arrange
 		const teams: Team[] = [
-			{ color: 'red', data: [], points: 0 },
-			{ color: 'blue', data: [], points: 0 },
-			{ color: 'green', data: [], points: 0 }
+			{ pos: 1, name: 'Red', color: 'red', data: [], points: 0, shots: 0 },
+			{ pos: 2, name: 'Blue', color: 'blue', data: [], points: 0, shots: 0 },
+			{ pos: 3, name: 'Green', color: 'green', data: [], points: 0, shots: 0 }
 		];
 		const storedData = {
 			red: { data: [], points: 10 },
@@ -15,9 +15,9 @@ describe('updatePoints', () => {
 			green: { data: [], points: 8 }
 		};
 		const expectedTeams: Team[] = [
-			{ color: 'red', data: [], points: 10 },
-			{ color: 'blue', data: [], points: 5 },
-			{ color: 'green', data: [], points: 8 }
+			{ pos: 1, name: 'Red', color: 'red', data: [], points: 10, shots: 0 },
+			{ pos: 2, name: 'Blue', color: 'blue', data: [], points: 5, shots: 0 },
+			{ pos: 3, name: 'Green', color: 'green', data: [], points: 8, shots: 0 }
 		];
 
 		teams.map((team) => {
@@ -37,14 +37,15 @@ describe('updatePoints', () => {
 	it('should not update the points if no stored data is available', () => {
 		// Arrange
 		const teams: Team[] = [
-			{ color: 'red', data: [], points: 0 },
-			{ color: 'blue', data: [], points: 0 },
-			{ color: 'green', data: [], points: 0 }
+			{ pos: 1, name: 'Red', color: 'red', data: [], points: 0, shots: 0 },
+			{ pos: 2, name: 'Blue', color: 'blue', data: [], points: 0, shots: 0 },
+			{ pos: 3, name: 'Green', color: 'green', data: [], points: 0, shots: 0 }
 		];
+
 		const expectedTeams: Team[] = [
-			{ color: 'red', data: [], points: 0 },
-			{ color: 'blue', data: [], points: 0 },
-			{ color: 'green', data: [], points: 0 }
+			{ pos: 1, name: 'Red', color: 'red', data: [], points: 0, shots: 0 },
+			{ pos: 2, name: 'Blue', color: 'blue', data: [], points: 0, shots: 0 },
+			{ pos: 3, name: 'Green', color: 'green', data: [], points: 0, shots: 0 }
 		];
 
 		teams.map((team) => {

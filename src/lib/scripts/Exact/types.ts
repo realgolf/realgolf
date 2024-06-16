@@ -16,16 +16,10 @@ export type Row = {
  * Represents a team.
  */
 export type Team = {
-	/**
-	 * The color of the team.
-	 */
+	pos: number;
+	name: string;
 	color: string;
-	/**
-	 * The data values associated with the team.
-	 */
-	data: number[];
-	/**
-	 * The total points of the team.
-	 */
+	data: string[];
 	points: number;
+	shots: number;
 };

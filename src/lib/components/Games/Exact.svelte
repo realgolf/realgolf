@@ -20,28 +20,30 @@
 		pointsByTeam[team.color] = writable(team.points);
 	});
 
-	onMount(() => {
-		const storedData = localStorage.getItem(`exact_${teams.length}_teams`);
-		if (storedData !== null) {
-			const parsedData = JSON.parse(storedData);
-			teams.forEach((team) => {
-				if (parsedData[team.color]) {
-					pointsByTeam[team.color].set(parsedData[team.color].points);
-				}
-			});
-			shotsPlayed = parsedData['red'].shots;
-			clickedCellsCount = shotsPlayed; // Update clickedCellsCount as well
-		}
-
-		updatePointsDisplay(teams);
-		updateTeamTurn(color);
-	});
-
 	let userInput: number = 20;
 	let clickedCellsCount: number = 0; // Initialize clickedCellsCount
 	let currentTeamIndex = 0;
 	let currentTeam = teams[currentTeamIndex];
 	let color = currentTeam.color;
+
+	onMount(() => {
+		const storedData = localStorage.getItem(`exact_${teams.length}_teams`);
+		if (storedData) {
+			const parsedData = JSON.parse(storedData);
+			if (parsedData && typeof parsedData === 'object') {
+				teams.forEach((team) => {
+					if (parsedData[team.color]) {
+						pointsByTeam[team.color].set(parsedData[team.color].points);
+					}
+				});
+				shotsPlayed = parsedData[teams[0].color]?.shots || 0;
+				clickedCellsCount = shotsPlayed; // Update clickedCellsCount as well
+			}
+		}
+
+		updatePointsDisplay(teams);
+		updateTeamTurn(color);
+	});
 
 	/**
 	 * Changes the current team to the next team in the list
@@ -114,7 +116,17 @@
 						const storedData = localStorage.getItem(`exact_${teams.length}_teams`); // Get data from localStorage
 						let parsedData = storedData ? JSON.parse(storedData) : {}; // Parse data from localStorage
 
-						parsedData[color] = { points: newPoints, shots: clickedCellsCount };
+						if (typeof parsedData !== 'object' || Array.isArray(parsedData)) {
+							parsedData = {};
+						}
+
+						if (!parsedData[color]) {
+							parsedData[color] = { points: 0, shots: 0 };
+						}
+
+						parsedData[color].points = newPoints;
+						parsedData[color].shots = clickedCellsCount + 1; // Update shots count
+
 						localStorage.setItem(`exact_${teams.length}_teams`, JSON.stringify(parsedData)); // Save data to localStorage
 						return newPoints; // Update pointsByTeam
 					});
@@ -139,15 +151,7 @@
 					confirm: {
 						text: 'Restart Game',
 						action: () => {
-							resetGame(
-								teams,
-								pointsByTeam,
-								userInput,
-								clickedCellsCount,
-								currentTeamIndex,
-								currentTeam,
-								color
-							);
+							resetGame(teams);
 						}
 					},
 					cancel: null
@@ -160,15 +164,7 @@
 					confirm: {
 						text: 'Restart Game',
 						action: () => {
-							resetGame(
-								teams,
-								pointsByTeam,
-								userInput,
-								clickedCellsCount,
-								currentTeamIndex,
-								currentTeam,
-								color
-							);
+							resetGame(teams);
 						}
 					},
 					cancel: null
@@ -188,15 +184,7 @@
 			confirm: {
 				text: "Yes, I'm sure",
 				action: () => {
-					resetGame(
-						teams,
-						pointsByTeam,
-						userInput,
-						clickedCellsCount,
-						currentTeamIndex,
-						currentTeam,
-						color
-					);
+					resetGame(teams);
 				}
 			},
 			cancel: {

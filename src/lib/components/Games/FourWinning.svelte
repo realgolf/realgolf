@@ -9,7 +9,6 @@
 	import { updateTeamTurn } from '$lib/scripts/FourWinning/updateTeamTurn';
 	import { winCombinations } from '$lib/scripts/FourWinning/winCombinations';
 	import { _ } from 'svelte-i18n';
-// Import the capitalizeFirstLetter function from the shared folder
 	// Import onMount from Svelte
 	import { onMount } from 'svelte';
 	// Import the Dialog component and the open_dialog function from the Global folder
@@ -20,6 +19,7 @@
 	export let teams: Team[];
 	export let measurement_unit: string;
 	export let team: string;
+	export let team_length: number;
 
 	// Define Variables
 	const capitalizedMeasurementUnit = capitalizeFirstLetter(measurement_unit);
@@ -265,10 +265,10 @@
 </script>
 
 <svelte:head>
-	<title>{$_('4_winning_players', { values: { teams_length: teams.length } })}</title>
+	<title>{$_('4_winning_players', { values: { teams_length: team_length } })}</title>
 </svelte:head>
 
-<h1>{$_('4_winning_players', { values: { teams_length: teams.length } })}</h1>
+<h1>{$_('4_winning_players', { values: { teams_length: team_length } })}</h1>
 
 <p id="team_turn_display">
 	{$_('current_team_turn', { values: { currentTeam_color: currentTeam.color } })}

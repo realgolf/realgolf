@@ -1,13 +1,13 @@
-import { Team } from '$lib/scripts/Exact/types';
+import type { Team } from '$lib/scripts/Exact/types';
 import { findWinner } from '../../../../src/lib/scripts/Exact/findWinner';
 
 describe('findWinner', () => {
 	it('should return the color of the team with the highest points', () => {
 		// Arrange
 		const teams: Team[] = [
-			{ color: 'red', data: [], points: 10 },
-			{ color: 'blue', data: [], points: 15 },
-			{ color: 'green', data: [], points: 8 }
+			{ pos: 1, name: 'Red', color: 'red', data: [], points: 10, shots: 0 },
+			{ pos: 2, name: 'Blue', color: 'blue', data: [], points: 15, shots: 0 },
+			{ pos: 3, name: 'Green', color: 'green', data: [], points: 8, shots: 0 }
 		];
 
 		// Act
@@ -20,9 +20,9 @@ describe('findWinner', () => {
 	it('should handle tie condition and return "Tie"', () => {
 		// Arrange
 		const teams: Team[] = [
-			{ color: 'red', data: [], points: 10 },
-			{ color: 'blue', data: [], points: 15 },
-			{ color: 'green', data: [], points: 15 }
+			{ pos: 1, name: 'Red', color: 'red', data: [], points: 10, shots: 0 },
+			{ pos: 2, name: 'Blue', color: 'blue', data: [], points: 15, shots: 0 },
+			{ pos: 3, name: 'Green', color: 'green', data: [], points: 15, shots: 0 }
 		];
 
 		// Act
@@ -35,9 +35,9 @@ describe('findWinner', () => {
 	it('should return "Tie" if no team has any points', () => {
 		// Arrange
 		const teams: Team[] = [
-			{ color: 'red', data: [], points: 0 },
-			{ color: 'blue', data: [], points: 0 },
-			{ color: 'green', data: [], points: 0 }
+			{ pos: 1, name: 'Red', color: 'red', data: [], points: 0, shots: 0 },
+			{ pos: 2, name: 'Blue', color: 'blue', data: [], points: 0, shots: 0 },
+			{ pos: 3, name: 'Green', color: 'green', data: [], points: 0, shots: 0 }
 		];
 
 		// Act

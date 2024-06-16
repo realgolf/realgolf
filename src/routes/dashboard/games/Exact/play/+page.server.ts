@@ -1,32 +1,23 @@
 import { check_achievement } from '$lib/server/user/achievements/achievements';
-import { User_Model } from '$lib/server/user/models'; // Assuming you have a User model
+import { User_Model } from '$lib/server/user/models';
 import type { User } from '$lib/server/user/types';
+import { redirect } from '@sveltejs/kit';
+import Cookies from 'js-cookie';
 import { v4 as uuidv4 } from 'uuid';
-import type { Actions, PageServerLoad } from './$types';
-
-export const load: PageServerLoad = async (event) => {
-	const email = event.cookies.get('email');
-
-	const user = await User_Model?.findOne({ 'user.email': email });
-
-	if (!user) {
-		return { status: 400, error: new Error('User could not be found') };
-	} else {
-		const measurement_unit = user.user?.measurement_units;
-		return { measurement_unit };
-	}
-};
+import type { Actions } from './$types';
 
 export const actions: Actions = {
 	default: async (event) => {
 		const data = await event.request.formData();
 
-		const game_over_cookie = event.cookies.get('game_over_4winning_4_teams');
+		const game_over_cookie = event.cookies.get('game_over_exact_2_teams');
 		const gameIsOver = game_over_cookie === 'true' ? true : false;
+		const team_length = event.url.searchParams.get('team_length') as string;
 
 		const raw_team_data = data.get('team_data') as string;
 
 		let team_data;
+
 		try {
 			team_data = JSON.parse(raw_team_data);
 		} catch (jsonParseError) {
@@ -36,6 +27,7 @@ export const actions: Actions = {
 				body: JSON.stringify({ error: 'Invalid team_data JSON' })
 			};
 		}
+
 		const email = event.cookies.get('email');
 
 		try {
@@ -62,8 +54,8 @@ export const actions: Actions = {
 			if (user.games) {
 				user.games.push({
 					id: gameId,
-					name: '4 Winning 4 Teams',
-					teams: '4winning_4_teams',
+					name: `Exact ${team_length} Teams`,
+					teams: `exact_${team_length}_teams`,
 					date: formattedDate,
 					data: JSON.stringify(team_data),
 					is_over: gameIsOver
@@ -77,12 +69,7 @@ export const actions: Actions = {
 			// Save the user with the new game
 			await user.save();
 
-			event.cookies.delete('game_over_4winning_4_teams', { path: '/' });
-
-			return {
-				status: 200,
-				body: JSON.stringify({ message: 'Game saved successfully' })
-			};
+			Cookies.remove(`game_over_exact_${team_length}_teams`);
 		} catch (error) {
 			console.error(error);
 			return {
@@ -90,5 +77,7 @@ export const actions: Actions = {
 				body: JSON.stringify({ error: 'Error saving game' })
 			};
 		}
+
+		throw redirect(303, '/dashboard/archive');
 	}
 };
