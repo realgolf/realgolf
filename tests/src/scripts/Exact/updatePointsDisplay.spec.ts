@@ -16,14 +16,14 @@ describe('updatePointsDisplay', () => {
 
 	it('should update the points display with the points of each team', () => {
 		const teams: Team[] = [
-			{ color: 'Red', data: [], points: 10 },
-			{ color: 'Blue', data: [], points: 20 }
+			{ pos: 1, name: 'Red', color: 'red', data: [], points: 10, shots: 0 },
+			{ pos: 2, name: 'Blue', color: 'blue', data: [], points: 20, shots: 0 }
 		];
 
 		const result = updatePointsDisplay(teams);
 
-		expect(mockDisplayElement.innerHTML).toBe('Red team points: 10<br>Blue team points: 20');
-		expect(result).toBe('Red team points: 10<br>Blue team points: 20');
+		expect(mockDisplayElement.innerHTML).toBe('red team points: 10<br>blue team points: 20');
+		expect(result).toBe('red team points: 10<br>blue team points: 20');
 	});
 
 	it('should handle an empty teams array', () => {
@@ -38,7 +38,7 @@ describe('updatePointsDisplay', () => {
 	it('should do nothing if the points display element is not found', () => {
 		jest.spyOn(document, 'querySelector').mockReturnValue(null);
 
-		const teams = [{ color: 'Red', data: [], points: 10 }];
+		const teams = [{ pos: 1, name: 'Red', color: 'red', data: [], points: 10, shots: 0 }];
 
 		const result = updatePointsDisplay(teams);
 

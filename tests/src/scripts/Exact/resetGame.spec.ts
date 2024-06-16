@@ -4,8 +4,8 @@ describe('resetGame', () => {
 	it('should reset the game', () => {
 		// Define the input values
 		const teams = [
-			{ data: [], points: 0, color: 'red' },
-			{ data: [], points: 0, color: 'blue' }
+			{ pos: 1, name: 'Red', color: 'red', data: [], points: 0, shots: 0 },
+			{ pos: 2, name: 'Blue', color: 'blue', data: [], points: 0, shots: 0 }
 		];
 		const pointsByTeam = {
 			red: { set: jest.fn(), update: jest.fn(), subscribe: jest.fn() },

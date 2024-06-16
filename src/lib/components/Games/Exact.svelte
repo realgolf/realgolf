@@ -29,7 +29,7 @@
 					pointsByTeam[team.color].set(parsedData[team.color].points);
 				}
 			});
-			shotsPlayed = parsedData['red'].shots;
+			shotsPlayed = parsedData[teams[0].color].shots;
 			clickedCellsCount = shotsPlayed; // Update clickedCellsCount as well
 		}
 
@@ -114,12 +114,11 @@
 						const storedData = localStorage.getItem(`exact_${teams.length}_teams`); // Get data from localStorage
 						let parsedData = storedData ? JSON.parse(storedData) : {}; // Parse data from localStorage
 
-						parsedData.forEach((team: Team) => {
-							if (team.color === color) {
-								team.points = newPoints;
-								team.shots = clickedCellsCount;
-							}
-						});
+						let teamData = parsedData.find((t: Team) => t.color === color);
+						if (teamData) {
+							teamData.points = newPoints;
+							teamData.shots = clickedCellsCount + 1; // Update shots count
+						}
 
 						localStorage.setItem(`exact_${teams.length}_teams`, JSON.stringify(parsedData)); // Save data to localStorage
 						return newPoints; // Update pointsByTeam
