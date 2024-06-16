@@ -54,6 +54,9 @@ export const actions: Actions = {
 			if (user.games) {
 				user.games.push({
 					id: gameId,
+					type: 'local',
+					owner: user.user.username,
+					site: `https://realgolf.games/game/${gameId}`,
 					name: `Exact ${team_length} Teams`,
 					teams: `exact_${team_length}_teams`,
 					date: formattedDate,
