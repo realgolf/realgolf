@@ -12,7 +12,8 @@ export function updatePointsDisplay(teams: Team[]) {
 			.map((team) => {
 				const storedData = localStorage.getItem(`exact_${teams.length}_teams`);
 				const parsedData = storedData ? JSON.parse(storedData) : {};
-				const points = parsedData[team.color] ? parsedData[team.color].points : team.points;
+				const points =
+					parsedData.find((t: { color: string }) => t.color === team.color)?.points ?? team.points;
 				return `${team.color} team points: ${points}`;
 			})
 			.join('<br>');

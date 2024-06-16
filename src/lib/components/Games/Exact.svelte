@@ -114,7 +114,13 @@
 						const storedData = localStorage.getItem(`exact_${teams.length}_teams`); // Get data from localStorage
 						let parsedData = storedData ? JSON.parse(storedData) : {}; // Parse data from localStorage
 
-						parsedData[color] = { points: newPoints, shots: clickedCellsCount };
+						parsedData.forEach((team: Team) => {
+							if (team.color === color) {
+								team.points = newPoints;
+								team.shots = clickedCellsCount;
+							}
+						});
+
 						localStorage.setItem(`exact_${teams.length}_teams`, JSON.stringify(parsedData)); // Save data to localStorage
 						return newPoints; // Update pointsByTeam
 					});

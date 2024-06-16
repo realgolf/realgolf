@@ -32,38 +32,10 @@
 						</div>
 					</a>
 				</div>
-			</div>
-
-			<h2 id="exact">{$_('exact')}</h2>
-
-			<div class="gamess">
 				<div class="card">
-					<a href="/dashboard/games/Exact/Two-Players" class="card_normal">
+					<a href="/dashboard/games/Exact" class="card_normal">
 						<div>
-							<h3>{$_('two_players')}</h3>
-							<p class="description">
-								{$_('two_players_description', { values: { game_name: 'Exact' } })}
-							</p>
-						</div>
-					</a>
-				</div>
-				<div class="card">
-					<a href="/dashboard/games/Exact/Three-Players" class="card_normal">
-						<div>
-							<h3>{$_('three_players')}</h3>
-							<p class="description">
-								{$_('three_players_description', { values: { game_name: 'Exact' } })}
-							</p>
-						</div>
-					</a>
-				</div>
-				<div class="card">
-					<a href="/dashboard/games/Exact/Four-Players" class="card_normal">
-						<div>
-							<h3>{$_('four_players')}</h3>
-							<p class="description">
-								{$_('four_players_description', { values: { game_name: 'Exact' } })}
-							</p>
+							<h3 id="exact">{$_('exact')}</h3>
 						</div>
 					</a>
 				</div>

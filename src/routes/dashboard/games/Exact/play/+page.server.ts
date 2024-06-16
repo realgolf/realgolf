@@ -11,6 +11,7 @@ export const actions: Actions = {
 
 		const game_over_cookie = event.cookies.get('game_over_exact_2_teams');
 		const gameIsOver = game_over_cookie === 'true' ? true : false;
+		const team_length = event.url.searchParams.get('team_length') as string;
 
 		const raw_team_data = data.get('team_data') as string;
 
@@ -52,8 +53,8 @@ export const actions: Actions = {
 			if (user.games) {
 				user.games.push({
 					id: gameId,
-					name: 'Exact 2 Teams',
-					teams: 'exact_2_teams',
+					name: `Exact ${team_length} Teams`,
+					teams: `exact_${team_length}_teams`,
 					date: formattedDate,
 					data: JSON.stringify(team_data),
 					is_over: gameIsOver
@@ -67,7 +68,7 @@ export const actions: Actions = {
 			// Save the user with the new game
 			await user.save();
 
-			Cookies.remove(`game_over_exact_2_teams`);
+			Cookies.remove(`game_over_exact_${team_length}_teams`);
 
 			return {
 				status: 200,
@@ -80,5 +81,7 @@ export const actions: Actions = {
 				body: JSON.stringify({ error: 'Error saving game' })
 			};
 		}
+
+		throw redirect(303, '/dashboard/archive');
 	}
 };

@@ -27,11 +27,12 @@ export function resetGame(
 ) {
 	Cookies.remove(`game_over_exact_${teams.length}_teams`);
 	localStorage.removeItem(`exact_${teams.length}_teams`);
-	for (const team of teams) {
-		team.data = [];
+
+	teams.forEach((team) => {
 		team.points = 0;
-		pointsByTeam[team.color].set(0); // Setzen Sie die Punkte für jedes Team auf 0 im Store
-	}
+		team.data = [];
+		pointsByTeam[team.color].set(0);
+	});
 
 	userInput = 20;
 	clickedCellsCount = 0;
