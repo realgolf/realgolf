@@ -84,7 +84,7 @@
 		"svelte-eslint-parser": "^0.38.0",
 		"svelte-fa": "^4.0.2",
 		"svelte-jester": "^5.0.0",
-		"ts-jest": "^29.1.4",
+		"ts-jest": "^29.1.5",
 		"tslib": "^2.6.3",
 		"typescript": "^5.4.5",
 		"vite": "^5.3.1"
