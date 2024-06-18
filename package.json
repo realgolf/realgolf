@@ -93,7 +93,7 @@
 		"@fortawesome/free-brands-svg-icons": "^6.5.2",
 		"@fortawesome/free-regular-svg-icons": "^6.5.2",
 		"@fortawesome/free-solid-svg-icons": "^6.5.2",
-		"@sveltejs/adapter-node": "^5.1.0",
+		"@sveltejs/adapter-node": "^5.1.1",
 		"@typescript-eslint/parser": "^7.13.0",
 		"@typescript-eslint/type-utils": "^7.13.0",
 		"@typescript-eslint/utils": "^7.13.0",
