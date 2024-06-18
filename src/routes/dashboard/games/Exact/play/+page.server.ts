@@ -1,3 +1,4 @@
+import { Game_Model } from '$lib/server/games/model';
 import { check_achievement } from '$lib/server/user/achievements/achievements';
 import { User_Model } from '$lib/server/user/models';
 import type { User } from '$lib/server/user/types';
@@ -73,6 +74,22 @@ export const actions: Actions = {
 			await user.save();
 
 			Cookies.remove(`game_over_exact_${team_length}_teams`);
+
+			if (Game_Model) {
+				const game = new Game_Model({
+					id: gameId,
+					type: 'local',
+					owner: user.user.username,
+					site: `https://realgolf.games/game/${gameId}`,
+					name: `Exact ${team_length} Teams`,
+					teams: `exact_${team_length}_teams`,
+					date: formattedDate,
+					data: JSON.stringify(team_data),
+					is_over: gameIsOver
+				});
+
+				await game.save();
+			}
 		} catch (error) {
 			console.error(error);
 			return {
