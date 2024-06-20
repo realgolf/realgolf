@@ -7,6 +7,10 @@ const Course_Schema = new mongoose.Schema({
 	id: { type: String, require: true, unique: true },
 	name: { type: String, require: true, unique: true },
 	location: { type: String, require: true },
+	geolocation: {
+		latitude: { type: Number, require: true },
+		longitude: { type: Number, require: true }
+	},
 	in_par: { type: Number, require: true },
 	out_par: { type: Number, require: true },
 	total_par: { type: Number, require: true },
