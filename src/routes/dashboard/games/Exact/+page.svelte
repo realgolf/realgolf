@@ -44,14 +44,14 @@
 {:else}
 	<h1>{$_('exact')}</h1>
 
-	<p>Choose the size of the team and the color and name for each player.</p>
+	<p>{$_('choose_the_size_of_the_game')}</p>
 
 	<div class="choose">
 		{#each teams as teamMember}
 			<div class="team_member">
-				<label for="name">Enter the name for the Player</label>
+				<label for="name">{$_('enter_name_for_player')}</label>
 				<input type="text" name="name" id="name" bind:value={teamMember.name} />
-				<label for="color">Enter the color for the Player:</label>
+				<label for="color">{$_('enter_color_for_player')}</label>
 				<input
 					type="text"
 					name="color"
