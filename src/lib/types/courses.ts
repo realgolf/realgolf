@@ -3,6 +3,10 @@ export type Course_Data = {
 		id: string;
 		name: string;
 		location: string;
+		geolocation: {
+			latitude: number;
+			longitude: number;
+		};
 		total_par: number;
 		tees: {
 			color: string;
@@ -16,5 +20,6 @@ export type Course_Data = {
 		}[];
 		rating: number;
 		slope: number;
+		distance?: number;
 	}[];
 };
