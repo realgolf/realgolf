@@ -107,7 +107,7 @@
 		"lint": "^1.1.2",
 		"mongoose": "^8.4.3",
 		"nanoid": "^5.0.7",
-		"nodemailer": "^6.9.13",
+		"nodemailer": "^6.9.14",
 		"postcss": "^8.4.38",
 		"postcss-safe-parser": "^7.0.0",
 		"sass": "^1.77.6",
