@@ -1,19 +1,25 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { _, isLoading } from 'svelte-i18n';
 </script>
 
 <svelte:head>
 	<title>{$page.status} - {$page?.error?.message}</title>
 </svelte:head>
 
-<section>
-	<div>
-		<h1>Error</h1>
-		<pre>{$page.status}: {$page?.error?.message}</pre>
-		<br />
-		<a href="/">Home</a>
-	</div>
-</section>
+{#if $isLoading}
+	<p>Loading...</p>
+{:else}
+	<section>
+		<div>
+			<h1>{$page.status} - Error</h1>
+			<pre>{$page?.error?.message}</pre>
+			<p>{$_('contact_support_think_error')}</p>
+			<br />
+			<a href="/">Home</a>
+		</div>
+	</section>
+{/if}
 
 <style lang="scss">
 	section {
