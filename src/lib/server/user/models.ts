@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-import { connect_to_db } from './db';
 
 /**
  * Defines the Mongoose schema for the User model.
@@ -199,6 +198,4 @@ const User_Schema = new mongoose.Schema({
 	]
 });
 
-const user_model = await connect_to_db();
-
-export const User_Model = user_model?.model('User', User_Schema);
+export const User_Model = mongoose.model('User', User_Schema);
