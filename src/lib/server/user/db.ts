@@ -1,7 +1,7 @@
-import { SECRET_MONGODB_USERDB_CONNECTION } from '$env/static/private';
+import { SECRET_MONGODB_CONNECTION } from '$env/static/private';
 import mongoose from 'mongoose';
 
-const database_URI = SECRET_MONGODB_USERDB_CONNECTION;
+const database_URI = SECRET_MONGODB_CONNECTION;
 
 const connection_options = {
 	maxIdleTimeMS: 60000,
