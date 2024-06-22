@@ -12,7 +12,7 @@
 </script>
 
 <svelte:head>
-	<title>Game - {data.game.id}</title>
+	<title>{$_('game')} - {data.game.id}</title>
 </svelte:head>
 
 {#if $isLoading}
@@ -34,12 +34,12 @@
 	</h1>
 
 	{#if data.game.owner}
-		<h2>Owner</h2>
+		<h2>{$_('owner')}</h2>
 		<p>{data.game.owner}</p>
 	{/if}
 
 	{#if data.game.type}
-		<h2>Type</h2>
+		<h2>{$_('type')}</h2>
 		<p>{data.game.type}</p>
 	{/if}
 
