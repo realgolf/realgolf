@@ -363,5 +363,8 @@
 	"contact_support_think_error": "Contact the support if you think this is an error, and you haven't expected this to happen.",
 	"choose_the_size_of_the_game": "Choose the size of the team and the color and name for each player.",
 	"enter_name_for_player": "Enter the name for the Player",
-	"enter_color_for_player": "Enter the color for the Player:"
+	"enter_color_for_player": "Enter the color for the Player:",
+	"game": "Game",
+	"owner": "Owner",
+	"type": "Type"
 }
