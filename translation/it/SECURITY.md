@@ -2,7 +2,7 @@
 
 ## Segnalazione di una Vulnerabilità
 
-Se scopri una vulnerabilità di sicurezza all'interno di questo progetto, per favore invia un'email al nostro Responsabile [Julian Hammer](mailto:jh@moinjulian.com). La tua segnalazione sarà esaminata e risposta il più rapidamente possibile. Si prega di includere i seguenti dettagli nella tua segnalazione:
+Se scopri una vulnerabilità di sicurezza all'interno di questo progetto, per favore invia un'email al [Support](mailo:support@realgolf.games). La tua segnalazione sarà esaminata e risposta il più rapidamente possibile. Si prega di includere i seguenti dettagli nella tua segnalazione:
 
 - Una descrizione chiara della vulnerabilità e dell'impatto potenziale.
 - Passaggi per riprodurre la vulnerabilità.
@@ -12,7 +12,7 @@ Si prega di astenersi dal divulgare pubblicamente il problema finché non abbiam
 
 ### Passaggi di Escalation
 
-1. Se hai inviato un'email a [Julian Hammer](mailto:jh@moinjulian.com) e non hai ricevuto una risposta entro 24 ore, invia la stessa email a [jh.hammer@icloud.com](mailto:jh.hammer@icloud.com).
+1. Se hai inviato un'email a [Support](mailo:support@realgolf.games) e non hai ricevuto una risposta entro 24 ore, invia la stessa email a [jh.hammer@icloud.com](mailto:jh.hammer@icloud.com).
 2. Se non ricevi ancora una risposta entro 24 ore, apri una issue su GitHub con il titolo: "Vulnerabilità di Sicurezza" e l'etichetta "security". Si prega inoltre di includere un metodo di contatto, preferibilmente un'email. Si prega **non** includere dettagli in quella issue. Un membro del team di sicurezza esaminerà la tua issue e ti contatterà.
 
 ## Tempo di Risposta

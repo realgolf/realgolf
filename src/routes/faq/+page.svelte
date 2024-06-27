@@ -3,7 +3,7 @@
 	import { _, isLoading } from 'svelte-i18n';
 
 	let github_link = `<a href="https://github.com/realgolf/realgolf/issues">GitHub</a>`;
-	let support_email = `<a href="mailto:support@moinjulian.com">support@moinjulian.com</a>`;
+	let support_email = `<a href="mailto:support@realgolf.games">support@realgolf.games</a>`;
 	let contributors = `<a href="https://github.com/realgolf/realgolf/blob/main/Contributors.md">Contributors.md</a>`;
 	let svelte_kit = `<a href="https://kit.svelte.dev">SvelteKit</a>`;
 	let mongodb = `<a href="https://www.mongodb.com">MongoDB</a>`;
@@ -22,7 +22,7 @@
 			<details>
 				<summary>{$_('faq_question_0_title')}</summary>
 				<div>
-					<p>{$_("faq_question_0_answer_by")}</p>
+					<p>{$_('faq_question_0_answer_by')}</p>
 					<p>
 						{$_('faq_answer_0_content')}
 					</p>

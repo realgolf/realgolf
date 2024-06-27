@@ -2,7 +2,7 @@
 
 ## Melden einer Sicherheitslücke
 
-Wenn Sie eine Sicherheitslücke in diesem Projekt entdecken, senden Sie bitte eine E-Mail an unseren Betreuer [Julian Hammer](mailto:jh@moinjulian.com). Ihr Bericht wird so schnell wie möglich geprüft und beantwortet. Bitte geben Sie in Ihrem Bericht folgende Details an:
+Wenn Sie eine Sicherheitslücke in diesem Projekt entdecken, senden Sie bitte eine E-Mail an [Support](mailo:support@realgolf.games). Ihr Bericht wird so schnell wie möglich geprüft und beantwortet. Bitte geben Sie in Ihrem Bericht folgende Details an:
 
 - Eine klare Beschreibung der Sicherheitslücke und der potenziellen Auswirkungen.
 - Schritte zur Reproduktion der Sicherheitslücke.
@@ -12,7 +12,7 @@ Bitte veröffentlichen Sie das Problem nicht öffentlich, bevor wir die Möglich
 
 ### Eskalationsschritte
 
-1. Wenn Sie eine E-Mail an [Julian Hammer](mailto:jh@moinjulian.com) gesendet haben und innerhalb von 24 Stunden keine Antwort erhalten haben, senden Sie bitte dieselbe E-Mail an [jh.hammer@icloud.com](mailto:jh.hammer@icloud.com).
+1. Wenn Sie eine E-Mail an [Support](mailo:support@realgolf.games) gesendet haben und innerhalb von 24 Stunden keine Antwort erhalten haben, senden Sie bitte dieselbe E-Mail an [jh.hammer@icloud.com](mailto:jh.hammer@icloud.com).
 2. Wenn Sie innerhalb von 24 Stunden keine Antwort erhalten, öffnen Sie ein Problem auf GitHub mit dem Titel: "Sicherheitslücke" und dem Label "Sicherheit". Bitte geben Sie auch eine Kontaktmethode an, vorzugsweise eine E-Mail. Bitte geben Sie **keine** Details in diesem Issue an. Ein Teammitglied des Sicherheitsteams wird sich Ihr Problem ansehen und Sie kontaktieren.
 
 ## Reaktionszeit
