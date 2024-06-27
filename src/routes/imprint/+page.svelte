@@ -11,55 +11,55 @@
 {:else}
 	<h1>{$_('imprint_heading')}</h1>
 
-	<h2>{$_("responsible_according_tmg")}</h2>
+	<h2>{$_('responsible_according_tmg')}</h2>
 
 	<p translate="no">RealGolf.Games</p>
 	<p>c/o Julian Hammer</p>
 	<p>Katrepeler Landstraße 59a</p>
 	<p>28357 Bremen</p>
 
-	<h2>{$_("contact")}</h2>
+	<h2>{$_('contact')}</h2>
 
-	<p>E-Mail: jh@moinjulian.com</p>
+	<p>E-Mail: support@realgolf.games</p>
 
-	<h2>{$_("responsible_according_rstv")}</h2>
+	<h2>{$_('responsible_according_rstv')}</h2>
 
 	<p translate="no">RealGolf.Games</p>
 	<p>c/o Julian Hammer</p>
 	<p>Katrepeler Landstraße 59a</p>
 	<p>28357 Bremen</p>
 
-	<h2>{$_("liability_for_content")}</h2>
+	<h2>{$_('liability_for_content')}</h2>
 	<p>
-		{$_("content_for_liability_for_content")}
+		{$_('content_for_liability_for_content')}
 	</p>
 
 	<p>
-		{$_("content_for_liability_for_content_2")}
+		{$_('content_for_liability_for_content_2')}
 	</p>
 
-	<h2>{$_("liability_for_links")}</h2>
+	<h2>{$_('liability_for_links')}</h2>
 
 	<p>
-		{$_("content_for_liability_for_links")}
-	</p>
-
-	<p>
-		{$_("content_for_liability_for_links_2")}
-	</p>
-
-	<h2>{$_("copyright_imprint")}</h2>
-
-	<p>
-		{$_("content_for_copyright_imprint")}
+		{$_('content_for_liability_for_links')}
 	</p>
 
 	<p>
-		{$_("content_for_copyright_imprint_2")}
+		{$_('content_for_liability_for_links_2')}
+	</p>
+
+	<h2>{$_('copyright_imprint')}</h2>
+
+	<p>
+		{$_('content_for_copyright_imprint')}
+	</p>
+
+	<p>
+		{$_('content_for_copyright_imprint_2')}
 	</p>
 
 	<p>Copyright © 2024 RealGolf.Games</p>
-	<p>{$_("license")}</p>
+	<p>{$_('license')}</p>
 
-	<p>{$_("country")} 04.07.23</p>
+	<p>{$_('country')} 04.07.23</p>
 {/if}
