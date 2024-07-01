@@ -108,7 +108,7 @@
 		"mongoose": "^8.4.4",
 		"nanoid": "^5.0.7",
 		"nodemailer": "^6.9.14",
-		"postcss": "^8.4.38",
+		"postcss": "^8.4.39",
 		"postcss-safe-parser": "^7.0.0",
 		"sass": "^1.77.6",
 		"socket.io": "^4.7.5",
