@@ -45,6 +45,8 @@
 
 		socket.on('message', async (message: message) => {
 			messages = [...messages, message];
+			console.log(message);
+			// save_messages_in_db(message);
 			scroll_to_bottom();
 		});
 
@@ -107,6 +109,14 @@
 			messages_element.scrollTop = messages_element.scrollHeight;
 		}
 	}
+
+	function save_messages_in_db(message: message) {
+		const message_string = JSON.stringify(message);
+		const form = document.getElementById('message_form') as HTMLFormElement;
+		const input = form.querySelector('input') as HTMLInputElement;
+		input.value = message_string;
+		form.submit();
+	}
 </script>
 
 <svelte:head>
@@ -120,12 +130,16 @@
 
 	{#if username}
 		<Status {chat_users} {username} />
-		<Messages bind:messages bind:messages_element {username}/>
+		<Messages bind:messages bind:messages_element {username} />
 		<SendForm bind:text {send_message} />
 	{:else}
 		<p>{$_('you_are_not_loged_in')}</p>
 	{/if}
 {/if}
+
+<form action="" style="display: none;" id="message_form">
+	<input type="text" name="message" id="message" />
+</form>
 
 <style>
 	p {
