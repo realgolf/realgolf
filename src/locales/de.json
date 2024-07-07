@@ -366,5 +366,8 @@
 	"enter_color_for_player": "Enter the color for the Player:",
 	"game": "Game",
 	"owner": "Owner",
-	"type": "Type"
+	"type": "Type",
+	"verify": "Verify",
+	"verified": "Verified",
+	"not_verified": "Not Verified"
 }
