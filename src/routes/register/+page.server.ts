@@ -80,7 +80,7 @@ export const actions: Actions = {
 				}
 
 				await sendVerificationEmail();
-				throw redirect(303, '/register/verify');
+				throw redirect(303, '/verify');
 			}
 		}
 	}
