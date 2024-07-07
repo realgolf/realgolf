@@ -40,6 +40,7 @@ export async function get_user(
 	const id = user._id.toString();
 	const name = user?.user?.name ?? '';
 	const username = user.user?.username ?? '';
+	const verification_code = user?.user?.verification_code ?? 0;
 
-	return { id, email, name, username };
+	return { id, email, name, username, verification_code };
 }

@@ -1,4 +1,4 @@
-import { SECRET_EMAIL_PASSWORD } from '$env/static/private';
+import { transporter } from '$lib/scripts/email/transporter';
 import { checkEmailExists } from '$lib/server/user/email_exists';
 import type { Actions } from '@sveltejs/kit';
 import nodemailer from 'nodemailer';
@@ -31,16 +31,6 @@ export const actions: Actions = {
 				error: emailExistsError
 			};
 		}
-
-		const transporter = nodemailer.createTransport({
-			host: 'mail.privateemail.com',
-			port: 465,
-			secure: true,
-			auth: {
-				user: 'support@realgolf.games',
-				pass: `${SECRET_EMAIL_PASSWORD}`
-			}
-		});
 
 		async function sendEmail() {
 			try {

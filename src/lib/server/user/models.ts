@@ -14,6 +14,7 @@ const User_Schema = new mongoose.Schema({
 		name: { type: String, require: true },
 		username: { type: String, require: true, unique: true },
 		registration_date: { type: Date, require: true },
+		verification_code: { type: Number, require: true },
 		last_login_date: { type: Date, require: true },
 		measurement_units: { type: String, required: true, default: 'meters' },
 		theme: { type: String, required: true, default: 'system' },
