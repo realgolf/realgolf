@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { _ } from 'svelte-i18n';
 	import type { PageData } from '../../../routes/[name]/$types';
 
 	export let data: PageData;
@@ -10,7 +11,15 @@
 </script>
 
 <div class="vcard-names">
-	<span class="vcard-nickname" style="color: {data.user_role_data?.color};">[{data.user_role_data?.title}] {data.user_username}</span>
+	<span class="vcard-nickname"
+		><span style="color: {data.user_role_data?.color};">
+			[{data.user_role_data?.title}]
+		</span>
+		{data.user_username} -
+		<span class:verified={data.verified} class:not_verified={!data.verified}>
+			{data.verified ? $_('verified') : $_('not_verified')}
+		</span></span
+	>
 	<br />
 	<span class="vcard-fullname"
 		>{data.user_name}
@@ -38,6 +47,14 @@
 			font-size: 2rem;
 			font-weight: 400;
 			line-height: 1.25;
+
+			.verified {
+				color: green;
+			}
+
+			.not_verified {
+				color: red;
+			}
 		}
 	}
 </style>

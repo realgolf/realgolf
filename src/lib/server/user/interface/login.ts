@@ -13,4 +13,5 @@ export interface SuccessResponse {
 	id: string;
 	email: string;
 	name: string;
+	verification_code: number;
 }
