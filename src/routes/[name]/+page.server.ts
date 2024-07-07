@@ -130,6 +130,7 @@ export const load: PageServerLoad = async (event) => {
 	const serialiezed_cookie_user: User = serializeNonPOJOs(cookie_user as object);
 	const role = user.user?.role;
 	const user_role_data = asign_role_data(role);
+	const verified = user.user?.verified;
 
 	return {
 		param_name,
@@ -159,7 +160,8 @@ export const load: PageServerLoad = async (event) => {
 		followers,
 		following,
 		serialiezed_cookie_user,
-		user_role_data
+		user_role_data,
+		verified
 	};
 };
 
