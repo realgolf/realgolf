@@ -1,6 +1,7 @@
 <script lang="ts">
 	import FourWinningTable from '$lib/components/Archive/FourWinning_table.svelte';
 	import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+	import { afterUpdate, onMount } from 'svelte';
 	import Fa from 'svelte-fa';
 	import { _, isLoading } from 'svelte-i18n';
 
@@ -9,6 +10,24 @@
 	function go_back() {
 		location.href = '/games';
 	}
+
+	onMount(() => {
+		const textarea = document.getElementById('new_comment');
+
+		textarea?.addEventListener('input', function () {
+			this.style.height = 'auto'; // Reset height to auto to calculate new height
+			this.style.height = this.scrollHeight + 'px'; // Set height to scrollHeight
+		});
+	});
+
+	afterUpdate(() => {
+		const textarea = document.getElementById('new_comment');
+
+		textarea?.addEventListener('input', function () {
+			this.style.height = 'auto'; // Reset height to auto to calculate new height
+			this.style.height = this.scrollHeight + 'px'; // Set height to scrollHeight
+		});
+	});
 </script>
 
 <svelte:head>
@@ -58,13 +77,17 @@
 		{:else}
 			{#each data?.game.comments as comment}
 				<div class="comment">
+					<small>
+						<b>{comment.username}</b> commented on {new Date(
+							comment.date?.toString()
+						).toLocaleDateString()}
+					</small>
 					<p>{comment.content}</p>
-					<p>{comment.date}</p>
 				</div>
 			{/each}
 		{/if}
 		<form method="POST" autocomplete="off" autocorrect="on" id="add_new_comment_form">
-			<textarea name="comment" placeholder={$_('comment')}></textarea>
+			<textarea name="comment" placeholder={$_('comment')} id="new_comment"></textarea>
 			<br />
 			<button type="submit">{$_('submit')}</button>
 		</form>
@@ -85,6 +108,10 @@
 			border: 1px solid var(--border-color);
 			margin: 10px 0;
 			padding: 10px;
+
+			small {
+				color: #666;
+			}
 		}
 
 		#add_new_comment_form {
@@ -96,8 +123,13 @@
 			textarea {
 				margin-top: 10px;
 				margin-bottom: 10px;
-				height: 3rem;
-				padding-left: 5px;
+				min-height: 3rem;
+				width: 100%;
+				min-width: 100%;
+				max-width: 100%;
+				padding: 10px;
+				overflow: hidden; /* Hides scrollbars */
+				box-sizing: border-box; /* Ensures padding is included in width/height */
 			}
 		}
 	}
