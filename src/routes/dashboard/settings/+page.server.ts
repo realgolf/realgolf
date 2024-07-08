@@ -5,6 +5,7 @@ import { change_name } from '$lib/server/user/account/change_name';
 import { change_password } from '$lib/server/user/account/change_password';
 import { change_rounded_corners } from '$lib/server/user/account/change_rounded_corners';
 import { change_theme } from '$lib/server/user/account/change_theme';
+import { change_two_factor_auth } from '$lib/server/user/account/change_two_factor_auth';
 import { delete_account } from '$lib/server/user/account/delete_account';
 import { change_measurement } from '$lib/server/user/account/hange_measurement';
 import { User_Model } from '$lib/server/user/models';
@@ -29,6 +30,7 @@ export const load: PageServerLoad = async (event) => {
 	const handicap = user?.user?.handicap as number;
 	const handicap_updated = user?.user?.handicap_updated as Date;
 	const id = user?.id as string;
+	const two_factor_auth = user?.user?.two_factor_auth as boolean;
 
 	const handicap_history = user?.handicap_history.map((history) => {
 		const historyCopy = JSON.parse(JSON.stringify(history));
@@ -43,7 +45,8 @@ export const load: PageServerLoad = async (event) => {
 		rounded_corners,
 		handicap,
 		handicap_updated,
-		handicap_history
+		handicap_history,
+		two_factor_auth
 	};
 };
 
@@ -211,5 +214,21 @@ export const actions: Actions = {
 		const message = `Your animation settings got changed`;
 
 		return { message, animation };
+	},
+	two_factor: async (event) => {
+		const data = await event.request.formData();
+		const two_factor_auth = !data.get('two-factor-auth');
+
+		console.log(two_factor_auth);
+
+		const update = await change_two_factor_auth(event.cookies, two_factor_auth);
+
+		if ('error' in update) {
+			return fail(400, { error: update.error });
+		}
+
+		const message = `Your two factor authentication settings got changed`;
+
+		return { message, two_factor_auth };
 	}
 };
