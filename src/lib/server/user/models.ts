@@ -99,7 +99,36 @@ const User_Schema = new mongoose.Schema({
 			teams: { type: String },
 			date: { type: String },
 			data: { type: String },
-			is_over: { type: Boolean, default: false }
+			is_over: { type: Boolean, default: false },
+			comments: [
+				{
+					id: { type: String },
+					username: { type: String },
+					date: { type: Date },
+					content: { type: String },
+					reactions: [
+						{
+							emoji: { type: String },
+							username: { type: String }
+						}
+					],
+					replies: [
+						{
+							id: { type: String },
+							username: { type: String },
+							date: { type: Date },
+							content: { type: String },
+							reactions: [
+								{
+									emoji: { type: String },
+									username: { type: String }
+								}
+							]
+						}
+					],
+					edited: { type: Boolean, default: false }
+				}
+			]
 		}
 	],
 	total_games: { type: Number, default: 0 },
