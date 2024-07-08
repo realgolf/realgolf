@@ -36,8 +36,8 @@ importers:
         specifier: ^5.1.1
         version: 5.1.1
       dompurify:
-        specifier: ^3.1.5
-        version: 3.1.5
+        specifier: ^3.1.6
+        version: 3.1.6
       dotenv:
         specifier: ^16.4.5
         version: 16.4.5
@@ -1868,8 +1868,8 @@ packages:
     engines: {node: '>=12'}
     deprecated: Use your platform's native DOMException instead
 
-  dompurify@3.1.5:
-    resolution: {integrity: sha512-lwG+n5h8QNpxtyrJW/gJWckL+1/DQiYMX8f7t8Z2AZTPw1esVrqjI63i7Zc2Gz0aKzLVMYC1V1PL/ky+aY/NgA==}
+  dompurify@3.1.6:
+    resolution: {integrity: sha512-cTOAhc36AalkjtBpfG6O8JimdTMWNXjiePT2xQH/ppBGi/4uIpmj8eKyIkMJErXWARyINV/sB38yf8JCLF5pbQ==}
 
   dot-prop@5.3.0:
     resolution: {integrity: sha512-QM8q3zDe58hqUqjraQOmzZ1LIH9SWQJTlEKCH4kJ2oQvLZk7RbQXvtDM2XEq3fwkV9CCvvH4LA0AV+ogFsBM2Q==}
@@ -6160,7 +6160,7 @@ snapshots:
     dependencies:
       webidl-conversions: 7.0.0
 
-  dompurify@3.1.5: {}
+  dompurify@3.1.6: {}
 
   dot-prop@5.3.0:
     dependencies:
