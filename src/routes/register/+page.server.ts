@@ -2,13 +2,10 @@ import { transporter } from '$lib/scripts/email/transporter';
 import { login_user } from '$lib/server/user/login';
 import { register_user } from '$lib/server/user/register';
 import { cookie_options } from '$lib/server/user/utils';
+import { generate_verification_code } from '$lib/shared/utils/generateVerificationCode';
 import { fail, redirect } from '@sveltejs/kit';
 import nodemailer from 'nodemailer';
 import type { Actions } from './$types';
-
-function generate_verification_code() {
-	return Math.floor(100000 + Math.random() * 900000);
-}
 
 export const actions: Actions = {
 	default: async (event) => {
@@ -48,7 +45,7 @@ export const actions: Actions = {
 		if (error) {
 			return fail(400, { error, user });
 		} else {
-			const user_data = await login_user(email, password);
+			const user_data = await login_user(email, password, event);
 
 			if ('error' in user_data) {
 				return fail(400, { email, error: user_data.error });
@@ -60,8 +57,6 @@ export const actions: Actions = {
 				event.cookies.set('name', user.name, cookie_options);
 				event.cookies.set('username', user.username, cookie_options);
 
-				// add email send for verification code
-
 				async function sendVerificationEmail() {
 					try {
 						// send mail with defined transport object
@@ -69,7 +64,21 @@ export const actions: Actions = {
 							from: `"Support RealGolf" <support@realgolf.games>`,
 							to: `"${user.name}" <${user.email}>`,
 							subject: `Verification code for RealGolf registration: ${user.username}`,
-							html: `<p>Thank you for registering with RealGolf. Please use the following code to verify your email address:</p></br><p><b>${user.verification_code}</b></p>`
+							html: `
+									<p>Welcome, ${user.name}!</p>
+									<p>Thank you for registering with RealGolf, we are excited to have you on board.</p>
+									<br> 
+									<p>Please use the following code to verify your email address:</p>
+									</br>
+									<p><b>${user.verification_code}</b></p>
+									<br>
+									<p>If you have any questions or concerns please reply directly to this email.</p>
+									<br>
+									<p>Kind regards,</p>
+									<p>RealGolf Team</p>
+									<br>
+									<small>© 2024 RealGolf. All rights reserved.</small>
+								`
 						});
 
 						console.log('Message sent: %s', info.messageId);

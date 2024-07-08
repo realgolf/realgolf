@@ -38,6 +38,15 @@
 			eye_icon = faEye;
 		}
 	}
+
+	function submitTwoFactorForm() {
+		const twoFactorForm = document.getElementById('two_factor_form') as HTMLFormElement;
+		if (twoFactorForm) {
+			setTimeout(() => {
+				twoFactorForm.submit();
+			}, 100);
+		}
+	}
 </script>
 
 {#if show_copy_info}
@@ -116,8 +125,33 @@
 			<button class="update" aria-label="update password">{$_('update')}</button>
 		</div>
 	</form>
+
+	<h2>Two Factor Authentication (2FA)</h2>
+	<form action="?/two_factor" method="POST" id="two_factor_form">
+		<div class="same-row">
+			<label for="two_factor">Activate Two Factor Authentication</label>
+			<input
+				type="checkbox"
+				name="two_factor"
+				id="two_factor"
+				bind:checked={data.two_factor_auth}
+				on:change={submitTwoFactorForm}
+			/>
+		</div>
+	</form>
 </div>
 
 <style lang="scss">
 	@import '$lib/scss/Settings/Account.scss';
+
+	.same-row {
+		display: flex;
+		flex-direction: row;
+		justify-content: left;
+
+		input[type='checkbox'] {
+			margin-left: 1rem;
+			height: 1rem;
+		}
+	}
 </style>

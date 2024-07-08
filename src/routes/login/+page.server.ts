@@ -8,7 +8,7 @@ export const actions: Actions = {
 		const email = (data.get('email') as string)?.toLowerCase()?.trim();
 		const password = data.get('password') as string;
 
-		const user_data = await login_user(email, password);
+		const user_data = await login_user(email, password, event);
 
 		if ('error' in user_data) {
 			return fail(400, { email, error: user_data.error });
