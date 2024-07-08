@@ -217,9 +217,9 @@ export const actions: Actions = {
 	},
 	two_factor: async (event) => {
 		const data = await event.request.formData();
-		const two_factor_auth = !data.get('two-factor-auth');
+		const two_factor_auth = !!data.get('two_factor');
 
-		console.log(two_factor_auth);
+		console.log('two_factor_auth', two_factor_auth);
 
 		const update = await change_two_factor_auth(event.cookies, two_factor_auth);
 

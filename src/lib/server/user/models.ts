@@ -56,7 +56,7 @@ const User_Schema = new mongoose.Schema({
 				}
 			]
 		},
-		two_factor_auth: { type: Boolean, default: false },
+		two_factor_auth: { type: Boolean, required: true, default: false },
 		two_factor_auth_codes: [
 			{
 				code: { type: String },
