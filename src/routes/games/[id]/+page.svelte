@@ -4,8 +4,10 @@
 	import { afterUpdate, onMount } from 'svelte';
 	import Fa from 'svelte-fa';
 	import { _, isLoading } from 'svelte-i18n';
+	import type { FormData } from './$types';
 
 	export let data;
+	export let form: FormData;
 
 	function go_back() {
 		location.href = '/games';
@@ -38,6 +40,14 @@
 	<p>Loading...</p>
 {:else}
 	<button class="back" on:click={go_back}><Fa icon={faArrowLeft}></Fa></button>
+
+	{#if form?.error}
+		<p class="error">{form.status} - {form.error}</p>
+	{/if}
+
+	{#if form?.message}
+		<p class="success">{form.status} - {form.message}</p>
+	{/if}
 
 	<h1>
 		{#if data.game}
@@ -84,25 +94,87 @@
 							).toLocaleDateString()}
 						</span>
 						<span class="menu">
-							<form action="?/edit_comment" method="POST">
+							<!-- <form action="?/edit_comment" method="POST">
+								<input
+									type="text"
+									name="id"
+									id="id"
+									style="display: none;"
+									bind:value={comment.id}
+								/>
 								<button>{$_('edit')}</button>
-							</form>
+							</form> -->
 							<form action="?/delete_comment" method="POST">
+								<input
+									type="text"
+									name="id"
+									id="id"
+									style="display: none;"
+									bind:value={comment.id}
+								/>
 								<button>{$_('delete')}</button>
 							</form>
 						</span>
 					</small>
 					<p>{comment.content}</p>
+					<div class="replies">
+						{#each comment.replies as reply}
+							<div class="comment">
+								<small>
+									<span class="user">
+										<b>{reply.username}</b> replied on {new Date(
+											reply.date?.toString()
+										).toLocaleDateString()}
+									</span>
+									<span class="menu">
+										<!-- <form action="?/edit_reply" method="POST">
+											<input
+												type="text"
+												name="id"
+												id="id"
+												style="display: none;"
+												bind:value={reply.id}
+											/>
+											<button>{$_('edit')}</button>
+										</form> -->
+										<form action="?/delete_reply" method="POST">
+											<input
+												type="text"
+												name="reply_id"
+												id="reply_id"
+												style="display: none;"
+												bind:value={reply.id}
+											/>
+											<input
+												type="text"
+												id="comment_id"
+												name="comment_id"
+												style="display: none;"
+												bind:value={comment.id}
+											/>
+											<button>{$_('delete')}</button>
+										</form>
+									</span>
+								</small>
+								<p>{reply.content}</p>
+							</div>
+						{/each}
+						<form action="?/add_reply" method="POST" class="add_new">
+							<input
+								type="text"
+								name="comment_id"
+								id="comment_id"
+								style="display: none;"
+								bind:value={comment.id}
+							/>
+							<textarea name="reply" placeholder={$_('reply')} id="new_reply"></textarea>
+							<button type="submit">{$_('submit')}</button>
+						</form>
+					</div>
 				</div>
 			{/each}
 		{/if}
-		<form
-			action="?/add_comment"
-			method="POST"
-			autocomplete="off"
-			autocorrect="on"
-			id="add_new_comment_form"
-		>
+		<form action="?/add_comment" method="POST" autocomplete="off" autocorrect="on" class="add_new">
 			<textarea name="comment" placeholder={$_('comment')} id="new_comment"></textarea>
 			<button type="submit">{$_('submit')}</button>
 		</form>
@@ -146,7 +218,7 @@
 			}
 		}
 
-		#add_new_comment_form {
+		.add_new {
 			border-top: 2px solid var(--border-color);
 			display: flex;
 			flex-direction: column;
