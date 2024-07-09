@@ -1,5 +1,6 @@
 <script lang="ts">
 	import FourWinningTable from '$lib/components/Archive/FourWinning_table.svelte';
+	import sanitizeHTML from '$lib/shared/utils/sanitizeHTML';
 	import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 	import { afterUpdate, onMount } from 'svelte';
 	import Fa from 'svelte-fa';
@@ -88,10 +89,17 @@
 			{#each data?.game.comments as comment}
 				<div class="comment">
 					<small>
-						<span class="user">
-							<b>{comment.username}</b> commented on {new Date(
-								comment.date?.toString()
-							).toLocaleDateString()}
+						<span
+							class="user"
+							use:sanitizeHTML={[
+								$_('user_commented_at', {
+									values: {
+										username: comment.username,
+										date: new Date(comment.date?.toString()).toLocaleDateString()
+									}
+								})
+							]}
+						>
 						</span>
 						<span class="menu">
 							<!-- <form action="?/edit_comment" method="POST">
@@ -121,10 +129,17 @@
 						{#each comment.replies as reply}
 							<div class="comment">
 								<small>
-									<span class="user">
-										<b>{reply.username}</b> replied on {new Date(
-											reply.date?.toString()
-										).toLocaleDateString()}
+									<span
+										class="user"
+										use:sanitizeHTML={[
+											$_('user_replied_on', {
+												values: {
+													username: reply.username,
+													date: new Date(reply.date?.toString()).toLocaleDateString()
+												}
+											})
+										]}
+									>
 									</span>
 									<span class="menu">
 										<!-- <form action="?/edit_reply" method="POST">
