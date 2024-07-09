@@ -28,7 +28,7 @@ export const load: PageServerLoad = async (event: any) => {
 };
 
 export const actions: Actions = {
-	default: async (event) => {
+	add_comment: async (event) => {
 		const email = event.cookies.get('email');
 		const formData = await event.request.formData();
 		const comment = formData.get('comment') as string;
@@ -45,8 +45,10 @@ export const actions: Actions = {
 		}
 
 		try {
+			const id = game.comments.length + 1;
+
 			game.comments.push({
-				id: user.id,
+				id: id,
 				username: user?.user.username,
 				date: new Date(),
 				content: comment,
@@ -58,7 +60,7 @@ export const actions: Actions = {
 			await game.save();
 
 			user_game?.comments.push({
-				id: user.id,
+				id: id,
 				username: user?.user.username,
 				date: new Date(),
 				content: comment,
@@ -71,5 +73,7 @@ export const actions: Actions = {
 		} catch (error) {
 			return { status: 500, error: new Error('An unexpected error occurred') };
 		}
-	}
+	},
+	edit_comment: async (event) => {},
+	delete_comment: async (event) => {}
 };

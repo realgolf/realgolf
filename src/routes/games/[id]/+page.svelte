@@ -78,17 +78,32 @@
 			{#each data?.game.comments as comment}
 				<div class="comment">
 					<small>
-						<b>{comment.username}</b> commented on {new Date(
-							comment.date?.toString()
-						).toLocaleDateString()}
+						<span class="user">
+							<b>{comment.username}</b> commented on {new Date(
+								comment.date?.toString()
+							).toLocaleDateString()}
+						</span>
+						<span class="menu">
+							<form action="?/edit_comment" method="POST">
+								<button>{$_('edit')}</button>
+							</form>
+							<form action="?/delete_comment" method="POST">
+								<button>{$_('delete')}</button>
+							</form>
+						</span>
 					</small>
 					<p>{comment.content}</p>
 				</div>
 			{/each}
 		{/if}
-		<form method="POST" autocomplete="off" autocorrect="on" id="add_new_comment_form">
+		<form
+			action="?/add_comment"
+			method="POST"
+			autocomplete="off"
+			autocorrect="on"
+			id="add_new_comment_form"
+		>
 			<textarea name="comment" placeholder={$_('comment')} id="new_comment"></textarea>
-			<br />
 			<button type="submit">{$_('submit')}</button>
 		</form>
 	</div>
@@ -111,6 +126,23 @@
 
 			small {
 				color: #666;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+
+				.menu {
+					display: flex;
+					flex-direction: row;
+
+					button {
+						background-color: transparent;
+						border: none;
+						color: var(--primary-color);
+						cursor: pointer;
+						margin-left: 10px;
+						outline: none;
+					}
+				}
 			}
 		}
 
