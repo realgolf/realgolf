@@ -166,8 +166,8 @@ importers:
         specifier: ^3.8.4
         version: 3.8.4(@babel/core@7.24.6)(postcss-load-config@5.1.0(postcss@8.4.39))(postcss@8.4.39)(sass@1.77.7)(svelte@4.2.18)
       svelte-eslint-parser:
-        specifier: ^0.39.2
-        version: 0.39.2(svelte@4.2.18)
+        specifier: ^0.40.0
+        version: 0.40.0(svelte@4.2.18)
       svelte-fa:
         specifier: ^4.0.2
         version: 4.0.2(svelte@4.2.18)
@@ -3890,6 +3890,15 @@ packages:
       svelte:
         optional: true
 
+  svelte-eslint-parser@0.40.0:
+    resolution: {integrity: sha512-M+v1HhC5T1WKYVxWexUCS4o6oIBS88XKzOZuhl2ew+eGxol7eC21e+VE8TC4rXJ3iT3iXT0qlZsZcpKjVo5/zQ==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      svelte: ^3.37.0 || ^4.0.0 || ^5.0.0-next.181
+    peerDependenciesMeta:
+      svelte:
+        optional: true
+
   svelte-fa@4.0.2:
     resolution: {integrity: sha512-lza8Jfii6jcpMQB73mBStONxaLfZsUS+rKJ/hH6WxsHUd+g68+oHIL9yQTk4a0uY9HQk78T/CPvQnED0msqJfg==}
     peerDependencies:
@@ -5465,12 +5474,8 @@ snapshots:
 
   acorn-globals@7.0.1:
     dependencies:
-      acorn: 8.11.3
+      acorn: 8.12.0
       acorn-walk: 8.3.2
-
-  acorn-jsx@5.3.2(acorn@8.11.3):
-    dependencies:
-      acorn: 8.11.3
 
   acorn-jsx@5.3.2(acorn@8.12.0):
     dependencies:
@@ -6458,8 +6463,8 @@ snapshots:
 
   espree@9.6.1:
     dependencies:
-      acorn: 8.11.3
-      acorn-jsx: 5.3.2(acorn@8.11.3)
+      acorn: 8.12.0
+      acorn-jsx: 5.3.2(acorn@8.12.0)
       eslint-visitor-keys: 3.4.3
 
   esprima@4.0.1: {}
@@ -8554,6 +8559,16 @@ snapshots:
       - sugarss
 
   svelte-eslint-parser@0.39.2(svelte@4.2.18):
+    dependencies:
+      eslint-scope: 7.2.2
+      eslint-visitor-keys: 3.4.3
+      espree: 9.6.1
+      postcss: 8.4.39
+      postcss-scss: 4.0.9(postcss@8.4.39)
+    optionalDependencies:
+      svelte: 4.2.18
+
+  svelte-eslint-parser@0.40.0(svelte@4.2.18):
     dependencies:
       eslint-scope: 7.2.2
       eslint-visitor-keys: 3.4.3
