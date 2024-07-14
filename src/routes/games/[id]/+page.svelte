@@ -14,7 +14,29 @@
 		location.href = '/games';
 	}
 
+	function modify_mentions() {
+		const comments = data.game?.comments;
+
+		if (comments) {
+			comments.forEach((comment) => {
+				if (comment.content) {
+					comment.content = comment?.content.replace(/@(\w+)/g, '<b><a href="/$1">@$1</a></b>');
+					comment.replies.forEach((reply) => {
+						if (reply.content) {
+							reply.content = reply?.content.replace(/@(\w+)/g, '<b><a href="/$1">@$1</a></b>');
+						}
+					});
+				}
+			});
+		}
+
+		console.log(comments);
+		return comments;
+	}
+
 	onMount(() => {
+		modify_mentions();
+
 		const textarea = document.getElementById('new_comment');
 
 		textarea?.addEventListener('input', function () {
@@ -87,22 +109,23 @@
 			<p>{$_('no_comments')}</p>
 		{:else}
 			{#each data?.game.comments as comment}
-				<div class="comment">
-					<small>
-						<span
-							class="user"
-							use:sanitizeHTML={[
-								$_('user_commented_at', {
-									values: {
-										username: comment.username,
-										date: new Date(comment.date?.toString()).toLocaleDateString()
-									}
-								})
-							]}
-						>
-						</span>
-						<span class="menu">
-							<!-- <form action="?/edit_comment" method="POST">
+				{#if comment.content && comment.replies && comment.username && comment.date && comment.id && comment.replies.length >= 0}
+					<div class="comment">
+						<small>
+							<span
+								class="user"
+								use:sanitizeHTML={[
+									$_('user_commented_at', {
+										values: {
+											username: comment.username,
+											date: new Date(comment.date?.toString()).toLocaleDateString()
+										}
+									})
+								]}
+							>
+							</span>
+							<span class="menu">
+								<!-- <form action="?/edit_comment" method="POST">
 								<input
 									type="text"
 									name="id"
@@ -112,37 +135,38 @@
 								/>
 								<button>{$_('edit')}</button>
 							</form> -->
-							<form action="?/delete_comment" method="POST">
-								<input
-									type="text"
-									name="id"
-									id="id"
-									style="display: none;"
-									bind:value={comment.id}
-								/>
-								<button>{$_('delete')}</button>
-							</form>
-						</span>
-					</small>
-					<p>{comment.content}</p>
-					<div class="replies">
-						{#each comment.replies as reply}
-							<div class="comment">
-								<small>
-									<span
-										class="user"
-										use:sanitizeHTML={[
-											$_('user_replied_on', {
-												values: {
-													username: reply.username,
-													date: new Date(reply.date?.toString()).toLocaleDateString()
-												}
-											})
-										]}
-									>
-									</span>
-									<span class="menu">
-										<!-- <form action="?/edit_reply" method="POST">
+								<form action="?/delete_comment" method="POST">
+									<input
+										type="text"
+										name="id"
+										id="id"
+										style="display: none;"
+										bind:value={comment.id}
+									/>
+									<button>{$_('delete')}</button>
+								</form>
+							</span>
+						</small>
+						<p use:sanitizeHTML={[comment.content]}></p>
+						<div class="replies">
+							{#each comment.replies as reply}
+								{#if reply && reply.content && reply.username && reply.date}
+									<div class="comment">
+										<small>
+											<span
+												class="user"
+												use:sanitizeHTML={[
+													$_('user_replied_on', {
+														values: {
+															username: reply.username,
+															date: new Date(reply.date?.toString()).toLocaleDateString()
+														}
+													})
+												]}
+											>
+											</span>
+											<span class="menu">
+												<!-- <form action="?/edit_reply" method="POST">
 											<input
 												type="text"
 												name="id"
@@ -152,41 +176,45 @@
 											/>
 											<button>{$_('edit')}</button>
 										</form> -->
-										<form action="?/delete_reply" method="POST">
-											<input
-												type="text"
-												name="reply_id"
-												id="reply_id"
-												style="display: none;"
-												bind:value={reply.id}
-											/>
-											<input
-												type="text"
-												id="comment_id"
-												name="comment_id"
-												style="display: none;"
-												bind:value={comment.id}
-											/>
-											<button>{$_('delete')}</button>
-										</form>
-									</span>
-								</small>
-								<p>{reply.content}</p>
-							</div>
-						{/each}
-						<form action="?/add_reply" method="POST" class="add_new">
-							<input
-								type="text"
-								name="comment_id"
-								id="comment_id"
-								style="display: none;"
-								bind:value={comment.id}
-							/>
-							<textarea name="reply" placeholder={$_('reply')} id="new_reply"></textarea>
-							<button type="submit">{$_('submit')}</button>
-						</form>
+												<form action="?/delete_reply" method="POST">
+													<input
+														type="text"
+														name="reply_id"
+														id="reply_id"
+														style="display: none;"
+														bind:value={reply.id}
+													/>
+													<input
+														type="text"
+														id="comment_id"
+														name="comment_id"
+														style="display: none;"
+														bind:value={comment.id}
+													/>
+													<button>{$_('delete')}</button>
+												</form>
+											</span>
+										</small>
+										<p use:sanitizeHTML={[reply.content]}></p>
+									</div>
+								{/if}
+							{/each}
+							<form action="?/add_reply" method="POST" class="add_new">
+								<input
+									type="text"
+									name="comment_id"
+									id="comment_id"
+									style="display: none;"
+									bind:value={comment.id}
+								/>
+								<textarea name="reply" placeholder={$_('reply')} id="new_reply"></textarea>
+								<button type="submit">{$_('submit')}</button>
+							</form>
+						</div>
 					</div>
-				</div>
+				{:else}
+					<p class="error">500 - Internal Error</p>
+				{/if}
 			{/each}
 		{/if}
 		<form action="?/add_comment" method="POST" autocomplete="off" autocorrect="on" class="add_new">
