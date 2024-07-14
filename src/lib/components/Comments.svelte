@@ -1,9 +1,10 @@
-<script>
+<script lang="ts">
 	import sanitizeHTML from '$lib/shared/utils/sanitizeHTML';
 	import { afterUpdate, onMount } from 'svelte';
 	import { _ } from 'svelte-i18n';
 
-	export let comments;
+	export let comments: any[];
+	export let username: string;
 
 	function modify_mentions() {
 		if (comments) {
@@ -25,7 +26,6 @@
 
 	onMount(() => {
 		modify_mentions();
-		console.log(comment);
 
 		const textarea = document.getElementById('new_comment');
 
@@ -67,7 +67,8 @@
 						>
 						</span>
 						<span class="menu">
-							<!-- <form action="?/edit_comment" method="POST">
+							{#if comment.username === username}
+								<form action="?/edit_comment" method="POST">
 									<input
 										type="text"
 										name="id"
@@ -76,7 +77,8 @@
 										bind:value={comment.id}
 									/>
 									<button>{$_('edit')}</button>
-								</form> -->
+								</form>
+							{/if}
 							<form action="?/delete_comment" method="POST">
 								<input
 									type="text"
@@ -108,16 +110,18 @@
 										>
 										</span>
 										<span class="menu">
-											<!-- <form action="?/edit_reply" method="POST">
-												<input
-													type="text"
-													name="id"
-													id="id"
-													style="display: none;"
-													bind:value={reply.id}
-												/>
-												<button>{$_('edit')}</button>
-											</form> -->
+											{#if reply.username === username}
+												<form action="?/edit_reply" method="POST">
+													<input
+														type="text"
+														name="id"
+														id="id"
+														style="display: none;"
+														bind:value={reply.id}
+													/>
+													<button>{$_('edit')}</button>
+												</form>
+											{/if}
 											<form action="?/delete_reply" method="POST">
 												<input
 													type="text"

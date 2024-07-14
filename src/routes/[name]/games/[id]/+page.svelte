@@ -70,7 +70,7 @@
 			{/if}
 		{/if}
 
-		<Comments comments={data.game?.comments}></Comments>
+		<Comments comments={data.game?.comments} username={data.param_name ?? ''}></Comments>
 	{/if}
 {/if}
 

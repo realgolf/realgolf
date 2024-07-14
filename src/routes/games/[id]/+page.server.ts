@@ -12,6 +12,7 @@ export const load: PageServerLoad = async (event: any) => {
 	try {
 		let games = await Game_Model.find();
 		const param_id: string = event.params.id;
+		const username = event.cookies.get('username');
 
 		if (!games) {
 			return { status: 404, error: 'Games could not be found' };
@@ -25,7 +26,7 @@ export const load: PageServerLoad = async (event: any) => {
 
 		const game = games.find((game) => game.id === param_id);
 
-		return { param_id, game };
+		return { param_id, game, username };
 	} catch (error) {
 		return { status: 500, error: 'An unexpected error occurred' };
 	}

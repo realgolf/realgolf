@@ -62,7 +62,7 @@
 		{/if}
 	{/if}
 
-	<Comments comments={data.game?.comments}></Comments>
+	<Comments comments={data.game?.comments} username={data.username}></Comments>
 {/if}
 
 <style lang="scss">
