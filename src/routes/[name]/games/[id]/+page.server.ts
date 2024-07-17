@@ -59,7 +59,6 @@ export const actions: Actions = {
 
 		await add_comments(user, game, comment, user_game);
 	},
-	edit_comment: async (event) => {},
 	delete_comment: async (event) => {
 		const email = event.cookies.get('email') as string;
 		const formData = await event.request.formData();
@@ -75,7 +74,6 @@ export const actions: Actions = {
 
 		await add_reply(event, email, comment_id, reply);
 	},
-	edit_reply: async (event) => {},
 	delete_reply: async (event) => {
 		const email = event.cookies.get('email') as string;
 		const formData = await event.request.formData();

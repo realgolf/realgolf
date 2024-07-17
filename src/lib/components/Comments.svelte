@@ -4,7 +4,6 @@
 	import { _ } from 'svelte-i18n';
 
 	export let comments: any[];
-	export let username: string;
 
 	function modify_mentions() {
 		if (comments) {
@@ -67,18 +66,6 @@
 						>
 						</span>
 						<span class="menu">
-							{#if comment.username === username}
-								<form action="?/edit_comment" method="POST">
-									<input
-										type="text"
-										name="id"
-										id="id"
-										style="display: none;"
-										bind:value={comment.id}
-									/>
-									<button>{$_('edit')}</button>
-								</form>
-							{/if}
 							<form action="?/delete_comment" method="POST">
 								<input
 									type="text"
@@ -110,18 +97,6 @@
 										>
 										</span>
 										<span class="menu">
-											{#if reply.username === username}
-												<form action="?/edit_reply" method="POST">
-													<input
-														type="text"
-														name="id"
-														id="id"
-														style="display: none;"
-														bind:value={reply.id}
-													/>
-													<button>{$_('edit')}</button>
-												</form>
-											{/if}
 											<form action="?/delete_reply" method="POST">
 												<input
 													type="text"
