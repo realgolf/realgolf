@@ -54,8 +54,8 @@ importers:
         specifier: ^1.1.2
         version: 1.1.2
       mongoose:
-        specifier: ^8.5.0
-        version: 8.5.0
+        specifier: ^8.5.1
+        version: 8.5.1
       nanoid:
         specifier: ^5.0.7
         version: 5.0.7
@@ -3103,8 +3103,8 @@ packages:
       socks:
         optional: true
 
-  mongoose@8.5.0:
-    resolution: {integrity: sha512-iGgZvgO+fIgX1AQMehkG+Wj8qrWc9it8vUZrSKWjrebgfwHTqUcIdTgWK8mT1us1xd83NOQxiuGbg9ZJtLxs2Q==}
+  mongoose@8.5.1:
+    resolution: {integrity: sha512-OhVcwVl91A1G6+XpjDcpkGP7l7ikZkxa0DylX7NT/lcEqAjggzSdqDxb48A+xsDxqNAr0ntSJ1yiE3+KJTOd5Q==}
     engines: {node: '>=16.20.1'}
 
   mpath@0.9.0:
@@ -7735,7 +7735,7 @@ snapshots:
       bson: 6.7.0
       mongodb-connection-string-url: 3.0.1
 
-  mongoose@8.5.0:
+  mongoose@8.5.1:
     dependencies:
       bson: 6.7.0
       kareem: 2.6.3
