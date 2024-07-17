@@ -40,7 +40,7 @@
 		"build:server:dev": "tsc server/app.ts --esModuleInterop --target esnext --moduleResolution node --watch",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"commit": "git-cz",
+		"commit": "git add . && git-cz && git push",
 		"dev": "vite dev",
 		"extract": "svelte-i18n extract \"src/**/*.svelte\" src/locales/en.json",
 		"format": "prettier --write .",
