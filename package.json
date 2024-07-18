@@ -92,7 +92,7 @@
 	"dependencies": {
 		"@fortawesome/free-brands-svg-icons": "^6.5.2",
 		"@fortawesome/free-regular-svg-icons": "^6.5.2",
-		"@fortawesome/free-solid-svg-icons": "^6.5.2",
+		"@fortawesome/free-solid-svg-icons": "^6.6.0",
 		"@sveltejs/adapter-node": "^5.2.0",
 		"@typescript-eslint/parser": "^7.16.1",
 		"@typescript-eslint/type-utils": "^7.16.0",
