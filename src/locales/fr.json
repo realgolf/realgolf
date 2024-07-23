@@ -369,5 +369,10 @@
 	"type": "Type",
 	"verify": "Verify",
 	"verified": "Verified",
-	"not_verified": "Not Verified"
+	"not_verified": "Not Verified",
+	"comments": "Comments",
+	"no_comments": "No comments",
+	"reply": "Reply",
+	"user_commented_at": "<b>{username}</b> commented on {date}",
+	"user_replied_on": "<b>{username}</b> replied on {date}"
 }
