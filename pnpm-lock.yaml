@@ -27,8 +27,8 @@ importers:
         specifier: ^7.16.1
         version: 7.16.1(eslint@9.7.0)(typescript@5.5.3)
       '@typescript-eslint/utils':
-        specifier: ^7.16.1
-        version: 7.16.1(eslint@9.7.0)(typescript@5.5.3)
+        specifier: ^7.17.0
+        version: 7.17.0(eslint@9.7.0)(typescript@5.5.3)
       autoprefixer:
         specifier: ^10.4.19
         version: 10.4.19(postcss@8.4.39)
