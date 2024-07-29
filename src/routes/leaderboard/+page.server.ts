@@ -3,9 +3,7 @@ import { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async (event: any) => {
 	try {
-		let users = await User_Model.find({
-			'one_player_precision_highscore.all_time.value': { $gt: 0 }
-		})
+		let users = await User_Model.find()
 			.sort({ 'one_player_precision_highscore.all_time.value': -1 })
 			.exec();
 
