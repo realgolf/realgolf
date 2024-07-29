@@ -12,6 +12,7 @@
 		faHouse,
 		faInfoCircle,
 		faList,
+		faListNumeric,
 		faMessage,
 		faQuestionCircle,
 		faSave,
@@ -96,6 +97,7 @@
 			<a href="/"><span><Fa icon={faHouse} /></span>{$_('home')}</a>
 			<a href="/download"><span><Fa icon={faDownload} /></span>{$_('download')}</a>
 			<a href="/games"><span><Fa icon={faGamepad} /></span>{$_('games')}</a>
+			<a href="/leaderboard"><span><Fa icon={faListNumeric}></Fa></span>{$_('leaderboard')}</a>
 		</div>
 		{#if !auth}
 			<div class="logged-out row border-bottom">
