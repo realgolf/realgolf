@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.18.1](https://github.com/realgolf/realgolf/compare/v3.18.0...v3.18.1) (2024-07-31)
+
+
+### Bug Fixes
+
+* delete 4winning table from dashboard ([f3837ae](https://github.com/realgolf/realgolf/commit/f3837aed64ddd945aa85860a1b14889132119f16))
+* delete 4winning table from dashboard ([#1018](https://github.com/realgolf/realgolf/issues/1018)) ([78d7345](https://github.com/realgolf/realgolf/commit/78d734564425bb187bedaab64efce084f54d7528))
+
 ## [3.18.0](https://github.com/realgolf/realgolf/compare/v3.17.0...v3.18.0) (2024-07-31)
 
 
