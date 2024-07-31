@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.18.0](https://github.com/realgolf/realgolf/compare/v3.17.0...v3.18.0) (2024-07-31)
+
+
+### Features
+
+* add a leaderboard for one player precision ([#1000](https://github.com/realgolf/realgolf/issues/1000)) ([e0511e2](https://github.com/realgolf/realgolf/commit/e0511e28c4ac27bb706ec1cd46b4beffb3fda643))
+* add email verification ([#952](https://github.com/realgolf/realgolf/issues/952)) ([3e208af](https://github.com/realgolf/realgolf/commit/3e208afd27762259a6e43212c1ea74fa284a7e7f))
+* add two factor authentication ([#957](https://github.com/realgolf/realgolf/issues/957)) ([b9e125a](https://github.com/realgolf/realgolf/commit/b9e125ad934f02e8a3e1c80ebcb4e11d3545c68b))
+* user should be able to add comments to other users games ([#958](https://github.com/realgolf/realgolf/issues/958)) ([75a3371](https://github.com/realgolf/realgolf/commit/75a3371788bad3c128a1dbe888b01c38c28d8eb9))
+
+
+### Bug Fixes
+
+* add link to leaderboard to the menu ([85933d0](https://github.com/realgolf/realgolf/commit/85933d0b931e156f55d6cc7cc61e3f4fc1919360))
+* delete modify_social test ([fdea2ee](https://github.com/realgolf/realgolf/commit/fdea2ee453fd704a9db716ef278fbfeb578ae0f4))
+* delete modify_social test ([#988](https://github.com/realgolf/realgolf/issues/988)) ([61a2bcb](https://github.com/realgolf/realgolf/commit/61a2bcbac010a5590f46089b516f77ce47f804aa))
+* fix open game for 4winning ([9730c2c](https://github.com/realgolf/realgolf/commit/9730c2c1de0bee539d8207385a48051d2e1eb321))
+* update forbidden usernames list ([bc88cab](https://github.com/realgolf/realgolf/commit/bc88cab8d72920aac81ad706cde6b8a4390abf6e))
+* update how exact data is stored in the localStorage and therefor in the Database ([79e9d20](https://github.com/realgolf/realgolf/commit/79e9d20773942be4925474995c89685ac29bfeb0))
+
 ## [3.17.0](https://github.com/realgolf/realgolf/compare/v3.16.0...v3.17.0) (2024-06-30)
 
 
