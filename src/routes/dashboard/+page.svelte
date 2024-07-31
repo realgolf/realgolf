@@ -1,5 +1,4 @@
 <script lang="ts">
-	import FourWinningTable from '$lib/components/Archive/FourWinning_table.svelte';
 	import { asignNameToTeam } from '$lib/shared/utils/asignNameToTeam';
 	import sanitizeHTML from '$lib/shared/utils/sanitizeHTML';
 	import { _, isLoading } from 'svelte-i18n';
@@ -91,11 +90,12 @@
 		<div class="card">
 			<h2>{$_('latest_game_saved')}</h2>
 			{#if !data?.error}
-				{#if data?.game?.teams.includes('4winning')}
+				<!-- {#if data?.game?.teams.includes('4winning')}
 					<FourWinningTable measurement_units={data?.measurement_units} data={data?.game?.data} />
 				{:else}
 					<p>{data.game.data}</p>
-				{/if}
+				{/if} -->
+				<p>{data.game.data}</p>
 				<p>{$_('name_of_game')}: {data?.game?.name}</p>
 				{#if data.game.is_over == true}
 					<p>{$_('game_has_finished', { values: { name: data.game.name } })}</p>
