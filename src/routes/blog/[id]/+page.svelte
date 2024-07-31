@@ -36,6 +36,8 @@
 	}
 
 	article {
+		margin-top: 1rem;
+
 		:global(h2) {
 			padding-top: 5rem;
 			margin-top: -3.5rem;
