@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.18.2](https://github.com/realgolf/realgolf/compare/v3.18.1...v3.18.2) (2024-07-31)
+
+
+### Bug Fixes
+
+* delete game data field ([83a120d](https://github.com/realgolf/realgolf/commit/83a120dd7bcce6a527147418cf4945f953dec359))
+
 ### [3.18.1](https://github.com/realgolf/realgolf/compare/v3.18.0...v3.18.1) (2024-07-31)
 
 
