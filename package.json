@@ -95,7 +95,7 @@
 		"@fortawesome/free-solid-svg-icons": "^6.6.0",
 		"@sveltejs/adapter-node": "^5.2.0",
 		"@typescript-eslint/parser": "^7.17.0",
-		"@typescript-eslint/type-utils": "^7.17.0",
+		"@typescript-eslint/type-utils": "^7.18.0",
 		"@typescript-eslint/utils": "^7.18.0",
 		"autoprefixer": "^10.4.19",
 		"bcrypt": "^5.1.1",
