@@ -95,7 +95,6 @@
 				{:else}
 					<p>{data.game.data}</p>
 				{/if} -->
-				<p>{data.game.data}</p>
 				<p>{$_('name_of_game')}: {data?.game?.name}</p>
 				{#if data.game.is_over == true}
 					<p>{$_('game_has_finished', { values: { name: data.game.name } })}</p>
