@@ -116,16 +116,16 @@
 						const storedData = localStorage.getItem(`exact_${teams.length}_teams`); // Get data from localStorage
 						let parsedData = storedData ? JSON.parse(storedData) : {}; // Parse data from localStorage
 
-						if (typeof parsedData !== 'object' || Array.isArray(parsedData)) {
-							parsedData = {};
+						const currentTeam = parsedData.find((team: Team) => team.color === color);
+						const newTargetId = targetId.replace('row', '');
+
+						if (currentTeam) {
+							currentTeam.points = newPoints;
+							currentTeam.shots = clickedCellsCount;
+							currentTeam.data.push(newTargetId);
 						}
 
-						if (!parsedData[color]) {
-							parsedData[color] = { points: 0, shots: 0 };
-						}
-
-						parsedData[color].points = newPoints;
-						parsedData[color].shots = clickedCellsCount + 1; // Update shots count
+						console.log(parsedData);
 
 						localStorage.setItem(`exact_${teams.length}_teams`, JSON.stringify(parsedData)); // Save data to localStorage
 						return newPoints; // Update pointsByTeam
