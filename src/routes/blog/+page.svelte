@@ -6,16 +6,18 @@
 </script>
 
 <svelte:head>
-	<title>RealGolf.Games Blog - Updates and insides</title>
+	<title>Real Golf Blog - Updates and insides</title>
 </svelte:head>
 
 <main>
-	<h1>RealGolf.Games Blog</h1>
+	<h1>Real Golf Blog</h1>
 
 	<p>
 		Here you can find Blog Posts about new features of RealGolf Games or feature we are currently
-		developing, as well as server or database outages so you are always up to date.
+		developing. After am incident has been resolved you might find a post about it here.
 	</p>
+
+	<p>This blog is currently only available in English.</p>
 
 	<ol class="no-bullets">
 		{#each posts as post (post.id)}
