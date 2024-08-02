@@ -128,9 +128,7 @@
 			</p>
 		</div>
 		<div class="external-links row border-bottom">
-			<a href="https://blog.realgolf.games"
-				><span><Fa icon={faBookOpenReader} /></span>{$_('blog')}</a
-			>
+			<a href="/blog"><span><Fa icon={faBookOpenReader} /></span>{$_('blog')}</a>
 			<a href="/faq"><span><Fa icon={faQuestionCircle} /></span>{$_('faq')}</a>
 			<a href="https://rules.realgolf.games"
 				><span><Fa icon={faBookBookmark} /></span>{$_('golfrules')}</a
