@@ -5,10 +5,8 @@
 </script>
 
 <main>
-	{#each data.rules as rule}
-		<h1>{rule.title}</h1>
-		<article use:sanitizeHTML={[rule.content]}></article>
-	{/each}
+	<h1>{data.rule.title}</h1>
+	<article use:sanitizeHTML={[data.rule.content]}></article>
 </main>
 
 <style lang="scss">
