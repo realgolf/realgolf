@@ -90,7 +90,14 @@ export const actions: Actions = {
 
 						event.cookies.set('auth-token', token, cookie_options);
 
-						const redirectURL = event.url.searchParams.get('redirect') ?? '/dashboard';
+						let redirectURL: string = event.url.searchParams.get('redirect') ?? '/dashboard';
+
+						if (redirectURL == 'null' || redirectURL == null) {
+							redirectURL = '/dashboard';
+						} else {
+							redirectURL = event.url.searchParams.get('redirect') ?? '/dashboard';
+						}
+
 						throw redirect(303, redirectURL);
 					}
 				} else {
