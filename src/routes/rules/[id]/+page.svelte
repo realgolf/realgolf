@@ -1,19 +1,18 @@
 <script lang="ts">
+	import GoBack from '$lib/components/GoBack.svelte';
 	import sanitizeHTML from '$lib/shared/utils/sanitizeHTML.js';
 
 	export let data;
 </script>
 
 <main>
+	<GoBack />
 	<h1>{data.rule.title}</h1>
 	<article use:sanitizeHTML={[data.rule.content]}></article>
 </main>
 
 <style lang="scss">
 	main {
-		width: 80vw;
-		margin: 0 auto;
-
 		h3 {
 			color: var(--h3-color) !important;
 		}
@@ -91,6 +90,10 @@
 				margin-left: 2rem;
 				margin-top: 1rem;
 				margin-bottom: 1rem;
+			}
+
+			:global(h3) {
+				color: var(--accent-color);
 			}
 		}
 	}

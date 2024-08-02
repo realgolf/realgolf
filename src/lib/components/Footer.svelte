@@ -51,7 +51,7 @@
 						</p>
 						<p>
 							<Fa icon={faBookBookmark} />
-							<a href="https://rules.realgolf.games">{$_('golfrules')}</a>
+							<a href="/rules">{$_('golfrules')}</a>
 						</p>
 					</div>
 				</div>
