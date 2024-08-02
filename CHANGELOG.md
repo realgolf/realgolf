@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.18.3](https://github.com/realgolf/realgolf/compare/v3.18.2...v3.18.3) (2024-08-02)
+
+
+### Bug Fixes
+
+* user did not got redirected correctly when logging in without a redirect ([a762e46](https://github.com/realgolf/realgolf/commit/a762e4609ada8b8b22d6661d981da63c611c65a5))
+* user did not got redirected correctly when logging in without a redirect ([#1032](https://github.com/realgolf/realgolf/issues/1032)) ([66cef32](https://github.com/realgolf/realgolf/commit/66cef32c3283fe77579cfd63eb8d52c3475c9434))
+
 ### [3.18.2](https://github.com/realgolf/realgolf/compare/v3.18.1...v3.18.2) (2024-07-31)
 
 
