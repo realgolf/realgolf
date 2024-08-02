@@ -15,7 +15,4 @@ const BlogSchema = new mongoose.Schema({
 	]
 });
 
-/**
- * The Mongoose model for the Course collection.
- */
 export const Blog_Model = mongoose.model('Blog', BlogSchema);
