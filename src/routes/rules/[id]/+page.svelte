@@ -17,6 +17,9 @@
 
 <style lang="scss">
 	main {
+		width: 80vw;
+		margin: 0 auto;
+
 		h3 {
 			color: var(--h3-color) !important;
 		}
