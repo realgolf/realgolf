@@ -161,7 +161,7 @@ export const andere_spielformen: RuleSet = {
 		},
 		{
 			id: '66acf4bfed621b4220e86248',
-			title: '23 - Vierball'
+			title: 'Regel 23 - Vierball'
 		},
 		{
 			id: '66acf4e4a5eccaef83d35de5',
