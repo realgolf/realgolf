@@ -11,8 +11,32 @@
 
 <main>
 	<GoBack />
-	<h1>{data.rule.title}</h1>
-	<article use:sanitizeHTML={[data.rule.content]}></article>
+	{#if data.rule}
+		<h1>{data.rule.title}</h1>
+		<details class="toc" open>
+			<summary>In dieser Regel</summary>
+
+			{#if data.rule.toc && data.rule.toc.h2}
+				<ol>
+					{#each data.rule.toc.h2 as h2}
+						<li>
+							<a tabindex="-1" href={`#${h2.id}`}>{h2.text}</a>
+							{#if h2.h3}
+								<ol>
+									{#each h2.h3 as h3}
+										<li>
+											<a tabindex="-1" href={`#${h3.id}`}>{h3.text}</a>
+										</li>
+									{/each}
+								</ol>
+							{/if}
+						</li>
+					{/each}
+				</ol>
+			{/if}
+		</details>
+		<article use:sanitizeHTML={[data.rule.content]}></article>
+	{/if}
 </main>
 
 <style lang="scss">
@@ -20,8 +44,25 @@
 		width: 80vw;
 		margin: 0 auto;
 
-		h3 {
-			color: var(--h3-color) !important;
+		.toc {
+			margin-top: 1rem;
+			margin-bottom: 1rem;
+
+			ol {
+				margin-top: 0.5rem;
+			}
+		}
+
+		:is(ol, ul):not(.no-bullets) {
+			margin-left: 2rem;
+		}
+
+		:is(ol, ul):not(.no-bullets) li + li {
+			margin-block: 0.5rem;
+		}
+
+		:is(ol, ul).no-bullets {
+			list-style-type: none;
 		}
 
 		article {
