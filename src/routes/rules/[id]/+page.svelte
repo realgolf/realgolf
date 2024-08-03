@@ -5,6 +5,10 @@
 	export let data;
 </script>
 
+<svelte:head>
+	<title>{data.rule.title}</title>
+</svelte:head>
+
 <main>
 	<GoBack />
 	<h1>{data.rule.title}</h1>
