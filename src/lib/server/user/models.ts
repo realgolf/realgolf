@@ -8,6 +8,7 @@ import mongoose from 'mongoose';
  */
 const User_Schema = new mongoose.Schema({
 	id: { type: String, require: true, unique: true },
+	deleted: { type: Boolean, default: false },
 	user: {
 		email: { type: String, require: true, unique: true },
 		password: { type: String, require: true },
@@ -92,6 +93,7 @@ const User_Schema = new mongoose.Schema({
 	games: [
 		{
 			id: { type: String },
+			deleted: { type: Boolean, default: false },
 			type: { type: String },
 			owner: { type: String },
 			site: { type: String },
@@ -103,6 +105,7 @@ const User_Schema = new mongoose.Schema({
 			comments: [
 				{
 					id: { type: String },
+					deleted: { type: Boolean, default: false },
 					username: { type: String },
 					date: { type: Date },
 					content: { type: String },
@@ -115,6 +118,7 @@ const User_Schema = new mongoose.Schema({
 					replies: [
 						{
 							id: { type: String },
+							deleted: { type: Boolean, default: false },
 							username: { type: String },
 							date: { type: Date },
 							content: { type: String },
@@ -163,6 +167,7 @@ const User_Schema = new mongoose.Schema({
 	golf_round: [
 		{
 			id: { type: String },
+			deleted: { type: Boolean, default: false },
 			course: {
 				name: { type: String, required: true },
 				location: { type: String },
@@ -207,6 +212,7 @@ const User_Schema = new mongoose.Schema({
 	planners: [
 		{
 			id: { type: String },
+			deleted: { type: Boolean, default: false },
 			title: { type: String },
 			description: { type: String },
 			dateOfCreation: { type: Date },

@@ -2,6 +2,7 @@ import mongoose from 'mongoose';
 
 const Game_Schema = new mongoose.Schema({
 	id: { type: String },
+	deleted: { type: Boolean, default: false },
 	type: { type: String },
 	owner: { type: String },
 	site: { type: String },
@@ -13,6 +14,7 @@ const Game_Schema = new mongoose.Schema({
 	comments: [
 		{
 			id: { type: String },
+			deleted: { type: Boolean, default: false },
 			username: { type: String },
 			date: { type: Date },
 			content: { type: String },
@@ -25,6 +27,7 @@ const Game_Schema = new mongoose.Schema({
 			replies: [
 				{
 					id: { type: String },
+					deleted: { type: Boolean, default: false },
 					username: { type: String },
 					date: { type: Date },
 					content: { type: String },
