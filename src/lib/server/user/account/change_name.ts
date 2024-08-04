@@ -28,7 +28,7 @@ export async function change_name(
 		return { error: name_error };
 	}
 
-	const user = await User_Model?.findOne({ _id: id });
+	const user = await User_Model?.findOne({ id });
 
 	if (!user) {
 		return { error: 'User could not found' };

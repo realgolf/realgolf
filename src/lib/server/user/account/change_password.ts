@@ -27,7 +27,7 @@ export async function change_password(
 
 	const { id } = auth;
 
-	const user = await User_Model?.findOne({ _id: id });
+	const user = await User_Model?.findOne({ id });
 
 	const valid_current_password = (await bcrypt.compare(
 		current_password,
