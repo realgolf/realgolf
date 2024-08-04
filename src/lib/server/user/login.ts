@@ -30,6 +30,10 @@ export async function login_user(email: string, password: string, event: any) {
 		return { error: 'User could not be found' };
 	}
 
+	if (email_user?.deleted) {
+		return { error: 'User account is deleted' };
+	}
+
 	if (email_user?.user?.two_factor_auth == true) {
 		email_user.user.last_login_date = new Date();
 		email_user.user.two_factor_auth_codes.push({
