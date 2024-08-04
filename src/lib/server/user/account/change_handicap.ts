@@ -18,7 +18,7 @@ export async function change_handicap(cookies: Cookies, handicap: number) {
 
 	const { id } = auth;
 
-	const user = await User_Model?.findOne({ _id: id });
+	const user = await User_Model?.findOne({ id });
 
 	if (!user) {
 		return { error: 'User could not be found' };

@@ -11,7 +11,7 @@ export async function change_two_factor_auth(cookies: Cookies, two_factor_auth: 
 
 	const { id } = auth;
 
-	const user = await User_Model.findOne({ _id: id });
+	const user = await User_Model.findOne({ id });
 
 	if (!user) {
 		return { error: 'User could not be found' };

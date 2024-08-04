@@ -38,15 +38,6 @@
 			eye_icon = faEye;
 		}
 	}
-
-	function submitTwoFactorForm() {
-		const twoFactorForm = document.getElementById('two_factor_form') as HTMLFormElement;
-		if (twoFactorForm) {
-			setTimeout(() => {
-				twoFactorForm.submit();
-			}, 100);
-		}
-	}
 </script>
 
 {#if show_copy_info}
@@ -126,18 +117,19 @@
 		</div>
 	</form>
 
-	<h2>Two Factor Authentication (2FA)</h2>
+	<h2>{$_('two_factor_auth_description')}</h2>
 	<form action="?/two_factor" method="POST" id="two_factor_form">
 		<div class="same-row">
-			<label for="two_factor">Activate Two Factor Authentication</label>
+			<label for="two_factor">{$_('activate_two_factor_auth')}</label>
 			<input
 				type="checkbox"
 				name="two_factor"
 				id="two_factor"
 				bind:checked={data.two_factor_auth}
-				on:change={submitTwoFactorForm}
 			/>
 		</div>
+		<br />
+		<button type="submit">{$_('update')}</button>
 	</form>
 </div>
 

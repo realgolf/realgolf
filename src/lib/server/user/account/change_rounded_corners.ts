@@ -18,7 +18,7 @@ export async function change_rounded_corners(cookies: Cookies, rounded_corners: 
 
 	const { id } = auth;
 
-	const user = await User_Model?.findOne({ _id: id });
+	const user = await User_Model?.findOne({ id });
 
 	if (!user) {
 		return { error: 'User could not be found' };
