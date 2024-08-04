@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { _, isLoading } from 'svelte-i18n';
+	import Error from '../Error.svelte';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -11,6 +12,8 @@
 
 {#if $isLoading}
 	<p>Loading...</p>
+{:else if data.deleted}
+	<Error />
 {:else}
 	<h1>{$_('users_followers', { values: { user_name: data.username } })}</h1>
 

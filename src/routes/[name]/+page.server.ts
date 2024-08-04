@@ -17,6 +17,10 @@ export const load: PageServerLoad = async (event) => {
 		'user.username': { $regex: new RegExp(param_name, 'i') }
 	});
 
+	if (!user) {
+		return { status: 404, error: 'User could not be found' };
+	}
+
 	const cookie_username = event.cookies.get('username');
 
 	const cookie_user = await User_Model?.findOne({ 'user.username': cookie_username });
@@ -161,7 +165,8 @@ export const load: PageServerLoad = async (event) => {
 		following,
 		serialiezed_cookie_user,
 		user_role_data,
-		verified
+		verified,
+		deleted: user.deleted
 	};
 };
 

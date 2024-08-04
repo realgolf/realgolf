@@ -79,7 +79,8 @@ export const load: PageServerLoad = async (event) => {
 		visitor_has_starred,
 		stars,
 		done,
-		todos
+		todos,
+		deleted: owner.deleted
 	};
 };
 

@@ -3,6 +3,7 @@
 	import { faPen } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
 	import { _, isLoading } from 'svelte-i18n';
+	import Error from '../Error.svelte';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -14,6 +15,8 @@
 
 {#if $isLoading}
 	<p>Loading...</p>
+{:else if data.username === undefined || data.deleted}
+	<Error />
 {:else}
 	<h1>{data.username}`s {$_('trainings_planner')}</h1>
 

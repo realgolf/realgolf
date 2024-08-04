@@ -4,6 +4,7 @@
 	import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
 	import { _, isLoading } from 'svelte-i18n';
+	import Error from '../../Error.svelte';
 
 	export let data;
 	export let form: FormData;
@@ -27,6 +28,8 @@
 
 {#if $isLoading}
 	<p>Loading...</p>
+{:else if data.deleted}
+	<Error />
 {:else}
 	<button class="back" on:click={go_back}><Fa icon={faArrowLeft}></Fa></button>
 
