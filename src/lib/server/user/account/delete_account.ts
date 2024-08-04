@@ -21,7 +21,7 @@ export async function delete_account(cookies: Cookies, password: string) {
 
 	const { id } = auth;
 
-	const user = await User_Model?.findOne({ id });
+	const user = await User_Model?.findOne({ _id: id });
 
 	if (!user) {
 		return { error: 'User could not be found' };
@@ -37,7 +37,8 @@ export async function delete_account(cookies: Cookies, password: string) {
 
 	if (password_is_correct) {
 		try {
-			await User_Model?.deleteOne({ id });
+			user.deleted = true;
+			await user.save();
 			return { message: 'The user got deleted', account_deleted: true };
 		} catch (err) {
 			return { error: err as string, account_deleted: false };
