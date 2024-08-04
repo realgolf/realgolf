@@ -130,9 +130,7 @@
 		<div class="external-links row border-bottom">
 			<a href="/blog"><span><Fa icon={faBookOpenReader} /></span>{$_('blog')}</a>
 			<a href="/faq"><span><Fa icon={faQuestionCircle} /></span>{$_('faq')}</a>
-			<a href="https://rules.realgolf.games"
-				><span><Fa icon={faBookBookmark} /></span>{$_('golfrules')}</a
-			>
+			<a href="/rules"><span><Fa icon={faBookBookmark} /></span>{$_('golfrules')}</a>
 		</div>
 		<div class="copyright row border-bottom">
 			<a href="/support"><Fa icon={faUsers} /> {$_('support')}</a>
