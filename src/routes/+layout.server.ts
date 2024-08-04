@@ -30,6 +30,8 @@ export const load: LayoutServerLoad = async (event: {
 			delete usersCopy._id; // Remove the _id field
 			return usersCopy;
 		});
+
+		all_users = all_users.filter((user) => !user.deleted);
 	}
 
 	if (!user) {
