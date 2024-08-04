@@ -34,5 +34,5 @@ export const load: PageServerLoad = async (event) => {
 		followingDetails.push({ name: followingName, bio: followingBio, username: followingUsername });
 	}
 
-	return { username, bio, name, followings, followingDetails };
+	return { username, bio, name, followings, followingDetails, deleted: user?.deleted };
 };

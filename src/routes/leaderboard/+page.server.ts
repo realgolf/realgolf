@@ -17,6 +17,8 @@ export const load: PageServerLoad = async (event: any) => {
 			return { status: 404, error: new Error('Users could not be found') };
 		}
 
+		users = users.filter((user) => user.deleted !== true);
+
 		return { users };
 	} catch (error) {
 		return { status: 500, error: new Error('An unexpected error occurred') };

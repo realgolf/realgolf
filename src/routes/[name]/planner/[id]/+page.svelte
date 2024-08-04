@@ -2,6 +2,7 @@
 	import Utils from '$lib/components/Planner/Utils.svelte';
 	import type { Todo } from '$lib/types/planner';
 	import { onMount } from 'svelte';
+	import Error from '../../Error.svelte';
 
 	export let data;
 	let href = `/${data.username}/planner/${data.id}/stargazers`;
@@ -59,6 +60,8 @@
 
 {#if $isLoading}
 	<p>Loading...</p>
+{:else if data.deleted}
+	<Error />
 {:else}
 	<div class="header">
 		<h1 class:done={data.done == true}>{data.title} - {data.id}</h1>

@@ -3,6 +3,7 @@
 	import { onMount } from 'svelte';
 	import { _, isLoading } from 'svelte-i18n';
 	import { slide } from 'svelte/transition';
+	import Error from '../Error.svelte';
 	import type { PageData } from './$types';
 	export let data: PageData;
 
@@ -27,6 +28,8 @@
 
 {#if $isLoading}
 	<p>Loading...</p>
+{:else if data.user_username === undefined || data.deleted}
+	<Error />
 {:else}
 	<h2>
 		{$_('public_profile_games_by', {

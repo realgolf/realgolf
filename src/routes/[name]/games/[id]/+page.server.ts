@@ -45,7 +45,7 @@ export const load: PageServerLoad = async (event: any) => {
 
 	const game = removeIdFromGame(gameWithId);
 
-	return { param_name, param_id, game };
+	return { param_name, param_id, game, deleted: user.deleted };
 };
 
 export const actions: Actions = {

@@ -38,5 +38,5 @@ export const load: PageServerLoad = async (event) => {
 
 	const title = currentPlanner.title;
 
-	return { stargazers, title };
+	return { stargazers, title, deleted: user.deleted };
 };

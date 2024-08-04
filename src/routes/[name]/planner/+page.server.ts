@@ -20,5 +20,5 @@ export const load: PageServerLoad = async (event: { params: { name: string } }) 
 		return plannerCopy;
 	});
 
-	return { username, planners };
+	return { username, planners, deleted: user.deleted };
 };

@@ -21,5 +21,5 @@ export const load: PageServerLoad = async (event: { params: { name: string } }) 
 		return gameCopy;
 	});
 
-	return { user_username, games };
+	return { user_username, games, deleted: user.deleted };
 };
