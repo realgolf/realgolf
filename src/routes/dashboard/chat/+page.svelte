@@ -110,7 +110,7 @@
 </script>
 
 <svelte:head>
-	<title>Real Golf - {$_('chat')}</title>
+	<title>RealGolf.Games - {$_('chat')}</title>
 </svelte:head>
 
 {#if $isLoading}
@@ -120,7 +120,7 @@
 
 	{#if username}
 		<Status {chat_users} {username} />
-		<Messages bind:messages bind:messages_element {username}/>
+		<Messages bind:messages bind:messages_element {username} />
 		<SendForm bind:text {send_message} />
 	{:else}
 		<p>{$_('you_are_not_loged_in')}</p>

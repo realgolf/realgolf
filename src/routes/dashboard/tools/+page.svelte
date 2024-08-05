@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Real Golf - {$_('tools')}</title>
+	<title>RealGolf.Games - {$_('tools')}</title>
 </svelte:head>
 
 {#if $isLoading}
@@ -12,13 +12,13 @@
 	<h1>{$_('tools')}</h1>
 
 	<p class="success">
-		{$_("tools_description")}
+		{$_('tools_description')}
 	</p>
 
 	<ol class="no-bullets">
 		<li>Trackman</li>
 		<li>Arccos Smart Sensors</li>
 		<li>Garmin Apprach R10</li>
-		<li>{$_("any_simulator")}</li>
+		<li>{$_('any_simulator')}</li>
 	</ol>
 {/if}

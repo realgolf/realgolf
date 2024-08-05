@@ -1,5 +1,5 @@
 <div class="center">
-	<img src="/logo.PNG" alt="Real Golf Games Logo" class="logo" />
+	<img src="/logo.PNG" alt="RealGolf.Games Games Logo" class="logo" />
 	<h4>You're Offline</h4>
 </div>
 

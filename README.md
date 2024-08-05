@@ -12,15 +12,15 @@
 | Issues | ![GitHub issues by-label](https://img.shields.io/github/issues/realgolf/realgolf/feature) ![GitHub issues by-label](https://img.shields.io/github/issues/realgolf/realgolf/bug) ![GitHub issues by-label](https://img.shields.io/github/issues/realgolf/realgolf/game)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Stats  | [![Crowdin](https://badges.crowdin.net/realgolf/localized.svg)](https://crowdin.com/project/realgolf) ![GitHub repo size](https://img.shields.io/github/repo-size/realgolf/realgolf) [![Lines of code](https://tokei.rs/b1/github/realgolf/realgolf)](https://github.com/XAMPPRocky/tokei) [![wakatime](https://wakatime.com/badge/github/realgolf/web.svg)](https://wakatime.com/badge/github/realgolf/web) ![GitHub package.json version](https://img.shields.io/github/package-json/v/realgolf/realgolf)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
-RealGolf is a trainings platform for Golfers, you can play three different games to have more fun training. It is the first golf trainings platform.
+RealGolf.Games is a trainings platform for Golfers, you can play three different games to have more fun training. It is the first golf trainings platform.
 
-It features three different games: 4Winning, Exact, and Precision. Each game has its own unique set of rules and objectives, providing a diverse and engaging experience for players. RealGolf also offers local multiplayer functionality, allowing users to compete against each other on the same device. The platform includes user authentication with MongoDB, enabling players to create accounts and track their progress. RealGolf is designed to be accessible and user-friendly, making it easy for golfers of all skill levels to enjoy the games and improve their skills.
+It features three different games: 4Winning, Exact, and Precision. Each game has its own unique set of rules and objectives, providing a diverse and engaging experience for players. RealGolf.Games also offers local multiplayer functionality, allowing users to compete against each other on the same device. The platform includes user authentication with MongoDB, enabling players to create accounts and track their progress. RealGolf.Games is designed to be accessible and user-friendly, making it easy for golfers of all skill levels to enjoy the games and improve their skills.
 
-RealGolf written in [Svelte](https://svelte.dev), relies on [SvelteKit](https://kit.svelte.dev) as well as [NodeJS](https://nodejs.org/en). [NodeJS](https:://nodejs.org/en) is used to provide a asynchronous node server for cross-client and database communication. [SvelteKit](https://kit.svelte.dev) is used as the full stack version of [Svelte](https://svelte.dev). Web Socket connections are handled by the Node server directly. [MongoDB](https://www.mongodb.com/) is used to store user accounts as well as course data. HTTP requests are handled by [Render](https://render.com). The web client is written in [TypeScript](https://www.typescriptlang.org/) and [Svelte](https://svelte.dev). The server is written in [TypeScript](https://www.typescriptlang.org/) and compiled into JavaScript. [SASS](https://sass-lang.com/) is used to generate CSS. Please help us [translate RealGolf with Crowdin](https://crowdin.com/project/realgolf).
+RealGolf.Games written in [Svelte](https://svelte.dev), relies on [SvelteKit](https://kit.svelte.dev) as well as [NodeJS](https://nodejs.org/en). [NodeJS](https:://nodejs.org/en) is used to provide a asynchronous node server for cross-client and database communication. [SvelteKit](https://kit.svelte.dev) is used as the full stack version of [Svelte](https://svelte.dev). Web Socket connections are handled by the Node server directly. [MongoDB](https://www.mongodb.com/) is used to store user accounts as well as course data. HTTP requests are handled by [Render](https://render.com). The web client is written in [TypeScript](https://www.typescriptlang.org/) and [Svelte](https://svelte.dev). The server is written in [TypeScript](https://www.typescriptlang.org/) and compiled into JavaScript. [SASS](https://sass-lang.com/) is used to generate CSS. Please help us [translate RealGolf.Games with Crowdin](https://crowdin.com/project/realgolf).
 
 ## Production Architecture (as of April 2024)
 
-![RealGolf server site production architecture diagram](https://raw.githubusercontent.com/realgolf/realgolf/main/img/architecture.png)
+![RealGolf.Games server site production architecture diagram](https://raw.githubusercontent.com/realgolf/realgolf/main/img/architecture.png)
 
 ## Usage and Features
 
@@ -70,7 +70,7 @@ Precision is a game where the objective is to get as close to the targets as pos
 
 ## License
 
-RealGolf is licensed under the [All Rights Reserved License](LICENSE.md).
+RealGolf.Games is licensed under the [All Rights Reserved License](LICENSE.md).
 
 ## Contact
 
@@ -78,4 +78,4 @@ For inquiries or feedback, feel free to reach out:
 
 - Email: [Support](mailto:support@realgolf.games)
 
-Thank you for being a part of the RealGolf community!
+Thank you for being a part of the RealGolf.Games community!

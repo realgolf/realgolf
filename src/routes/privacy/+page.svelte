@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>RealGolf - {$_('privacy_policy')}</title>
+	<title>RealGolf.Games - {$_('privacy_policy')}</title>
 </svelte:head>
 
 {#if $isLoading}
@@ -18,7 +18,7 @@
 
 	<h2>2. {$_('controller')}</h2>
 	<p>{$_('controller_text')}</p>
-	<p>RealGolf<br /><a href="mailto:info@realgolf.games">info@realgolf.games</a></p>
+	<p>RealGolf.Games<br /><a href="mailto:info@realgolf.games">info@realgolf.games</a></p>
 
 	<h2>{$_('collection_and_processing_of_personal_data')}</h2>
 	<p>
@@ -73,7 +73,7 @@
 
 	<h2>{$_('data_privacy_policy_contact')}</h2>
 	<p>{$_('questions_about_data_privacy')}</p>
-	<p>RealGolf<br /><a href="mailto:info@realgolf.games">info@realgolf.games</a></p>
+	<p>RealGolf.Games<br /><a href="mailto:info@realgolf.games">info@realgolf.games</a></p>
 {/if}
 
 <style lang="scss">

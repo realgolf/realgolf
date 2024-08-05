@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-	<title>Real Golf - {$_('dashboard')}</title>
+	<title>RealGolf.Games - {$_('dashboard')}</title>
 </svelte:head>
 
 {#if $isLoading}

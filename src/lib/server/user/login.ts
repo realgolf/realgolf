@@ -47,13 +47,13 @@ export async function login_user(email: string, password: string, event: any) {
 			try {
 				// send mail with defined transport object
 				const info = await transporter.sendMail({
-					from: `"Support RealGolf" <support@realgolf.games>`,
+					from: `"Support RealGolf.Games" <support@realgolf.games>`,
 					to: `"${email_user?.user?.name}" <${email}>`,
-					subject: `Verification code for RealGolf login: ${email_user?.user?.username}`,
+					subject: `Verification code for RealGolf.Games login: ${email_user?.user?.username}`,
 					html: `
 							<p>Hello ${email_user?.user?.name}</p>
 							</br>
-							<p>You are trying to login into your RealGolf Account</p>
+							<p>You are trying to login into your RealGolf.Games Account</p>
 							<p>Please use the following verification code to complete your login:</p>
 							<p><b>${verification_code}</b></p>
 							<br>
@@ -62,9 +62,9 @@ export async function login_user(email: string, password: string, event: any) {
 							<p>If you dind't initiate this login, we recommend securing your account by changing your password.</p>
 							<br>
 							<p>Kind regards,</p>
-							<p>RealGolf Team</p>
+							<p>RealGolf.Games Team</p>
 							<br>
-							<small>© 2024 RealGolf. All rights reserved.</small>
+							<small>© 2024 RealGolf.Games. All rights reserved.</small>
 						`
 				});
 

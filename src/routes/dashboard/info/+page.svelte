@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Real Golf - {$_('info')}</title>
+	<title>RealGolf.Games - {$_('info')}</title>
 </svelte:head>
 
 {#if $isLoading}
@@ -13,6 +13,6 @@
 	<h1>{$_('info')}</h1>
 
 	<p use:sanitizeHTML={[$_('info_text')]} />
-	
+
 	<p use:sanitizeHTML={[$_('link_to_tools')]} />
 {/if}

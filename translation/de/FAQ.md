@@ -1,6 +1,6 @@
 # FAQ
 
-## Warum/wie haben Sie begonnen, RealGolf.games zu entwickeln?
+## Warum/wie haben Sie begonnen, RealGolf.Games zu entwickeln?
 
 (Beantwortet von Julian Hammer)
 
@@ -8,10 +8,10 @@ Ich spiele gerne Golf, und mein Trainer hat während des Unterrichts einige Spie
 
 ## Wie kann ich ein Konto erstellen, um die Spiele zu spielen?
 
-Die Erstellung eines Kontos, um Real Golf zu spielen, ist ein einfacher Prozess. Befolgen Sie diese Schritte, um loszulegen:
+Die Erstellung eines Kontos, um RealGolf.Games zu spielen, ist ein einfacher Prozess. Befolgen Sie diese Schritte, um loszulegen:
 
 1. **Navigieren Sie zur Registrierungsseite:**
-   Öffnen Sie [Real Golf](https://realgolf.games) und gehen Sie zum Register-Tab in der Navigationsleiste.
+   Öffnen Sie [RealGolf.Games](https://realgolf.games) und gehen Sie zum Register-Tab in der Navigationsleiste.
 
 2. **Füllen Sie die Registrierungsdetails aus:**
    Geben Sie eine E-Mail-Adresse, einen Namen und ein Passwort ein und klicken Sie dann auf die Schaltfläche "Registrieren".
@@ -22,11 +22,11 @@ Die Erstellung eines Kontos, um Real Golf zu spielen, ist ein einfacher Prozess.
 4. **Beginnen Sie mit dem Spielen:**
    Nach dem Anmelden können Sie alle drei Spiele spielen und Ihren Fortschritt in der Datenbank speichern.
 
-Durch Befolgen dieser Schritte erstellen Sie ein Konto, das es Ihnen ermöglicht, in die Welt von Real Golf einzutauchen und die verschiedenen Herausforderungen zu genießen, die sie bieten. Viel Spaß!
+Durch Befolgen dieser Schritte erstellen Sie ein Konto, das es Ihnen ermöglicht, in die Welt von RealGolf.Games einzutauchen und die verschiedenen Herausforderungen zu genießen, die sie bieten. Viel Spaß!
 
 ## Sind die Spiele kostenlos?
 
-Absolut! Unsere Spiele sind komplett kostenlos. Alles was Sie tun müssen, ist ein Konto zu erstellen, und schon haben Sie Zugang zu all den aufregenden Herausforderungen und dem Spaß, den Real Golf zu bieten hat. Legen Sie noch heute los und genießen Sie die Spiele ohne Kosten.
+Absolut! Unsere Spiele sind komplett kostenlos. Alles was Sie tun müssen, ist ein Konto zu erstellen, und schon haben Sie Zugang zu all den aufregenden Herausforderungen und dem Spaß, den RealGolf.Games zu bieten hat. Legen Sie noch heute los und genießen Sie die Spiele ohne Kosten.
 
 ## Kann ich neue Spiele zum Projekt beitragen?
 
@@ -36,7 +36,7 @@ Ihre kreative Mitarbeit ist sehr wertvoll! Wenn Sie aufregende neue Spielideen h
 
 - **Senden Sie uns eine E-Mail:** Sie können Ihre Ideen auch per E-Mail an [Support](mailto:support@realgolf.games) senden. Wir freuen uns über Ihre Vorschläge und werden jeden einzeln prüfen.
 
-Für Ihre wertvollen Beiträge wird Ihr Name in unserer [Contributors.md](/Contributors.md)-Datei anerkannt. Ihre Ideen können die Zukunft von Real Golf formen, und wir schätzen Ihre Eingaben sehr. Lassen Sie uns gemeinsam großartige Erfahrungen schaffen!
+Für Ihre wertvollen Beiträge wird Ihr Name in unserer [Contributors.md](/Contributors.md)-Datei anerkannt. Ihre Ideen können die Zukunft von RealGolf.Games formen, und wir schätzen Ihre Eingaben sehr. Lassen Sie uns gemeinsam großartige Erfahrungen schaffen!
 
 ## Wie kann ich Fehler melden oder neue Funktionen vorschlagen?
 

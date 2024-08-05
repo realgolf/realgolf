@@ -14,7 +14,7 @@
 </script>
 
 <svelte:head>
-	<title>Real Golf - Golfregelwerk</title>
+	<title>RealGolf.Games - Golfregelwerk</title>
 </svelte:head>
 
 <main>

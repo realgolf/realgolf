@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Real Golf - {$_('imprint_heading')}</title>
+	<title>RealGolf.Games - {$_('imprint_heading')}</title>
 </svelte:head>
 
 {#if $isLoading}

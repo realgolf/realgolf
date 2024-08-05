@@ -36,8 +36,8 @@ export const actions: Actions = {
 			try {
 				// send mail with defined transport object
 				const info = await transporter.sendMail({
-					from: `"Support RealGolf" <support@realgolf.games>`,
-					to: '"Support RealGolf" <support@realgolf.games>',
+					from: `"Support RealGolf.Games" <support@realgolf.games>`,
+					to: '"Support RealGolf.Games" <support@realgolf.games>',
 					subject: `${subject}`,
 					html: `<p>${message}</p></br><p>From: ${name} (${email})</p>`
 				});
