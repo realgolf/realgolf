@@ -87,6 +87,8 @@
 	it, the previous distance is saved in a history log, which you can view to track your progress.
 </p>
 
+<a href="/dashboard/length_tracker/history">History Log</a>
+
 <table>
 	<thead>
 		<tr>
