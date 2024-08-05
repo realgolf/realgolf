@@ -55,7 +55,7 @@
 		"test:coverage": "jest --coverage"
 	},
 	"devDependencies": {
-		"@sveltejs/kit": "^2.5.19",
+		"@sveltejs/kit": "^2.5.20",
 		"@sveltejs/vite-plugin-svelte": "^3.1.1",
 		"@types/bcrypt": "^5.0.2",
 		"@types/dompurify": "^3.0.5",
@@ -63,7 +63,7 @@
 		"@types/jest": "^29.5.12",
 		"@types/js-cookie": "^3.0.6",
 		"@types/jsonwebtoken": "^9.0.6",
-		"@types/node": "^22.0.2",
+		"@types/node": "^22.1.0",
 		"@types/nodemailer": "^6.4.15",
 		"@types/uuid": "^10.0.0",
 		"@typescript-eslint/eslint-plugin": "^8.0.0",
@@ -97,7 +97,7 @@
 		"@typescript-eslint/parser": "^8.0.0",
 		"@typescript-eslint/type-utils": "^8.0.0",
 		"@typescript-eslint/utils": "^8.0.0",
-		"autoprefixer": "^10.4.19",
+		"autoprefixer": "^10.4.20",
 		"bcrypt": "^5.1.1",
 		"dompurify": "^3.1.6",
 		"dotenv": "^16.4.5",
