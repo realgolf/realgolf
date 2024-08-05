@@ -61,12 +61,12 @@ export const actions: Actions = {
 					try {
 						// send mail with defined transport object
 						const info = await transporter.sendMail({
-							from: `"Support RealGolf" <support@realgolf.games>`,
+							from: `"Support RealGolf.Games" <support@realgolf.games>`,
 							to: `"${user.name}" <${user.email}>`,
-							subject: `Verification code for RealGolf registration: ${user.username}`,
+							subject: `Verification code for RealGolf.Games registration: ${user.username}`,
 							html: `
 									<p>Welcome, ${user.name}!</p>
-									<p>Thank you for registering with RealGolf, we are excited to have you on board.</p>
+									<p>Thank you for registering with RealGolf.Games, we are excited to have you on board.</p>
 									<br> 
 									<p>Please use the following code to verify your email address:</p>
 									</br>
@@ -75,9 +75,9 @@ export const actions: Actions = {
 									<p>If you have any questions or concerns please reply directly to this email.</p>
 									<br>
 									<p>Kind regards,</p>
-									<p>RealGolf Team</p>
+									<p>RealGolf.Games Team</p>
 									<br>
-									<small>© 2024 RealGolf. All rights reserved.</small>
+									<small>© 2024 RealGolf.Games. All rights reserved.</small>
 								`
 						});
 

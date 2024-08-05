@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-	<title>Real Golf - {$_('faq')}</title>
+	<title>RealGolf.Games - {$_('faq')}</title>
 </svelte:head>
 
 {#if $isLoading}

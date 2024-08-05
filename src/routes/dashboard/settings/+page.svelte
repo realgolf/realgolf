@@ -12,7 +12,7 @@
 </script>
 
 <svelte:head>
-	<title>Real Golf - {$_('settings')}</title>
+	<title>RealGolf.Games - {$_('settings')}</title>
 </svelte:head>
 
 {#if $isLoading}

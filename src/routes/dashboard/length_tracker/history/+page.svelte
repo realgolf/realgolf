@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-	<title>Real Golf - Length Tracker History</title>
+	<title>RealGolf.Games - Length Tracker History</title>
 </svelte:head>
 
 <h1>Length Tracker History</h1>

@@ -6,14 +6,14 @@
 </script>
 
 <svelte:head>
-	<title>Real Golf Blog - Updates and insides</title>
+	<title>RealGolf.Games Blog - Updates and insides</title>
 </svelte:head>
 
 <main>
-	<h1>Real Golf Blog</h1>
+	<h1>RealGolf.Games Blog</h1>
 
 	<p>
-		Here you can find Blog Posts about new features of RealGolf Games or feature we are currently
+		Here you can find Blog Posts about new features of RealGolf.Games or feature we are currently
 		developing. After am incident has been resolved you might find a post about it here.
 	</p>
 

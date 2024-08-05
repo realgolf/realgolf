@@ -29,7 +29,7 @@
 </script>
 
 <svelte:head>
-	<title>Real Golf - {$_('sign_in')}</title>
+	<title>RealGolf.Games - {$_('sign_in')}</title>
 </svelte:head>
 
 {#if $isLoading}

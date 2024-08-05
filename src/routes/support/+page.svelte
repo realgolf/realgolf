@@ -1,33 +1,33 @@
 <script lang="ts">
-    import { _ } from "svelte-i18n";
+	import { _ } from 'svelte-i18n';
 </script>
 
 <svelte:head>
-	<title>Real Golf - {$_("support")}</title>
+	<title>RealGolf.Games - {$_('support')}</title>
 </svelte:head>
 
-<h1>{$_("support")}</h1>
+<h1>{$_('support')}</h1>
 
 <form method="POST" autocomplete="off">
-	<label for="name">{$_("name")}</label>
+	<label for="name">{$_('name')}</label>
 	<input type="text" id="name" name="name" />
-	<label for="email">{$_("your_email")}</label>
+	<label for="email">{$_('your_email')}</label>
 	<input type="text" id="email" name="email" />
 	<!--Honeypot Field-->
-	<input type="text" name="honeypot" style="display:none">
-	<label for="subject">{$_("subject")}</label>
+	<input type="text" name="honeypot" style="display:none" />
+	<label for="subject">{$_('subject')}</label>
 	<select name="subject" id="subject">
-		<option value="other">{$_("other")}</option>
-		<option value="account">{$_("account")}</option>
+		<option value="other">{$_('other')}</option>
+		<option value="account">{$_('account')}</option>
 		<!-- <option value="payment">Payment</option> -->
-		<option value="technical">{$_("technical")}</option>
-		<option value="bug">{$_("bug")}</option>
-		<option value="feature">{$_("feature_request")}</option>
+		<option value="technical">{$_('technical')}</option>
+		<option value="bug">{$_('bug')}</option>
+		<option value="feature">{$_('feature_request')}</option>
 	</select>
-	<label for="message">{$_("message")}</label>
+	<label for="message">{$_('message')}</label>
 	<textarea name="message" id="message" cols="30" rows="10" />
 	<br />
-	<button type="submit">{$_("submit")}</button>
+	<button type="submit">{$_('submit')}</button>
 </form>
 
 <style lang="scss">

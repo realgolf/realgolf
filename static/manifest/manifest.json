@@ -1,6 +1,6 @@
 {
-	"name": "RealGolf",
-	"short_name": "RealGolf",
+	"name": "RealGolf.Games",
+	"short_name": "RealGolf.Games",
 	"start_url": "https://realgolf.games/",
 	"display": "standalone",
 	"description": "The first and only trainings platform for golfers",

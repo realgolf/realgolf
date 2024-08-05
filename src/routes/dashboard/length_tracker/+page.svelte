@@ -77,7 +77,7 @@
 </script>
 
 <svelte:head>
-	<title>Real Golf - Length Tracker</title>
+	<title>RealGolf.Games - Length Tracker</title>
 </svelte:head>
 
 <h1>Length Tracker</h1>

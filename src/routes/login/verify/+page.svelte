@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Real Golf - {$_('verify')}</title>
+	<title>RealGolf.Games - {$_('verify')}</title>
 </svelte:head>
 
 {#if $isLoading}

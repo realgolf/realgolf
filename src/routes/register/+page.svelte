@@ -57,7 +57,7 @@
 </script>
 
 <svelte:head>
-	<title>Real Golf - {$_('sign_up')}</title>
+	<title>RealGolf.Games - {$_('sign_up')}</title>
 </svelte:head>
 
 {#if $isLoading}

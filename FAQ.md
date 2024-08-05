@@ -1,6 +1,6 @@
 # FAQ
 
-## Why/how did you start building RealGolf.games?
+## Why/how did you start building RealGolf.Games?
 
 (Answered by Julian Hammer)
 
@@ -8,10 +8,10 @@ I enjoy playing golf, and my trainer introduced some games during lessons. I wan
 
 ## How can I create an account to play the games?
 
-Creating an account to play Real Golf is a simple process. Follow these steps to get started:
+Creating an account to play RealGolf.Games is a simple process. Follow these steps to get started:
 
 1. **Navigate to Registration Page:**
-   Open [Real Golf](https://realgolf.games) and go to the Register tab in the nav bar.
+   Open [RealGolf.Games](https://realgolf.games) and go to the Register tab in the nav bar.
 
 2. **Fill in Registration Details:**
    Enter an email, name, and password, then click on the register button.
@@ -22,11 +22,11 @@ Creating an account to play Real Golf is a simple process. Follow these steps to
 4. **Start Playing:**
    After logging in, you can play all three games and save your progress in the database.
 
-By following these steps, you'll create an account that allows you to dive into the world of Real Golf and enjoy the various challenges they provide. Have fun!
+By following these steps, you'll create an account that allows you to dive into the world of RealGolf.Games and enjoy the various challenges they provide. Have fun!
 
 ## Are the games free to play?
 
-Absolutely! Our games are completely free to play. All you need to do is create an account, and you'll have access to all the exciting challenges and fun that Real Golf has to offer. Get started today and enjoy the games without any cost.
+Absolutely! Our games are completely free to play. All you need to do is create an account, and you'll have access to all the exciting challenges and fun that RealGolf.Games has to offer. Get started today and enjoy the games without any cost.
 
 ## Can I contribute new Games to the project?
 
@@ -36,7 +36,7 @@ Your creative input is highly valued! If you have exciting new game ideas, we en
 
 - **Email Us:** You can also share your ideas via email to [Support](mailto:support@realgolf.games). We welcome your suggestions and will eagerly explore each one.
 
-For your valuable contributions, your name will be recognized in our [Contributors.md](/Contributors.md) file. Your ideas can shape the future of Real Golf, and we greatly appreciate your input. Let's create amazing experiences together!
+For your valuable contributions, your name will be recognized in our [Contributors.md](/Contributors.md) file. Your ideas can shape the future of RealGolf.Games, and we greatly appreciate your input. Let's create amazing experiences together!
 
 ## How can I report bugs or suggest new features?
 

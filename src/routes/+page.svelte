@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>Real Golf</title>
+	<title>RealGolf.Games</title>
 </svelte:head>
 
 {#if $isLoading}

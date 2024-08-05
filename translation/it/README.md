@@ -8,15 +8,15 @@
 | Problemi    | ![Problemi GitHub per etichetta](https://img.shields.io/github/issues/realgolf/realgolf/feature) ![Problemi GitHub per etichetta](https://img.shields.io/github/issues/realgolf/realgolf/bug) ![Problemi GitHub per etichetta](https://img.shields.io/github/issues/realgolf/realgolf/game)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | Statistiche | [![Crowdin](https://badges.crowdin.net/realgolf/localized.svg)](https://crowdin.com/project/realgolf) ![Dimensione repository GitHub](https://img.shields.io/github/repo-size/realgolf/realgolf) [![Linee di codice](https://tokei.rs/b1/github/realgolf/realgolf)](https://github.com/XAMPPRocky/tokei) [![wakatime](https://wakatime.com/badge/github/realgolf/web.svg)](https://wakatime.com/badge/github/realgolf/web) ![Versione GitHub package.json](https://img.shields.io/github/package-json/v/realgolf/realgolf)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
-RealGolf è una piattaforma di allenamento per golfisti, puoi giocare a tre giochi diversi per divertirti di più durante l'allenamento. È la prima piattaforma di allenamento per il golf.
+RealGolf.Games è una piattaforma di allenamento per golfisti, puoi giocare a tre giochi diversi per divertirti di più durante l'allenamento. È la prima piattaforma di allenamento per il golf.
 
-Offre tre giochi diversi: 4Winning, Exact e Precision. Ogni gioco ha il proprio set unico di regole e obiettivi, offrendo un'esperienza diversificata e coinvolgente per i giocatori. RealGolf offre anche una funzionalità multiplayer locale, permettendo agli utenti di competere tra loro sullo stesso dispositivo. La piattaforma include l'autenticazione degli utenti con MongoDB, consentendo ai giocatori di creare account e monitorare i loro progressi. RealGolf è progettato per essere accessibile e facile da usare, rendendo semplice per i golfisti di tutti i livelli godersi i giochi e migliorare le loro abilità.
+Offre tre giochi diversi: 4Winning, Exact e Precision. Ogni gioco ha il proprio set unico di regole e obiettivi, offrendo un'esperienza diversificata e coinvolgente per i giocatori. RealGolf.Games offre anche una funzionalità multiplayer locale, permettendo agli utenti di competere tra loro sullo stesso dispositivo. La piattaforma include l'autenticazione degli utenti con MongoDB, consentendo ai giocatori di creare account e monitorare i loro progressi. RealGolf.Games è progettato per essere accessibile e facile da usare, rendendo semplice per i golfisti di tutti i livelli godersi i giochi e migliorare le loro abilità.
 
-RealGolf scritto in [Svelte](https://svelte.dev), si basa su [SvelteKit](https://kit.svelte.dev) così come [NodeJS](https://nodejs.org/en). [NodeJS](https:://nodejs.org/en) è utilizzato per fornire un server Node asincrono per la comunicazione tra client e database. [SvelteKit](https://kit.svelte.dev) è utilizzato come la versione full stack di [Svelte](https://svelte.dev). Le connessioni WebSocket sono gestite direttamente dal server Node. [MongoDB](https://www.mongodb.com/) è utilizzato per memorizzare gli account degli utenti così come i dati dei percorsi. Le richieste HTTP sono gestite da [Render](https://render.com). Il client web è scritto in [TypeScript](https://www.typescriptlang.org/) e [Svelte](https://svelte.dev). Il server è scritto in [TypeScript](https://www.typescriptlang.org/) e compilato in JavaScript. [SASS](https://sass-lang.com/) è utilizzato per generare il CSS. Per favore aiutaci a [tradurre RealGolf con Crowdin](https://crowdin.com/project/realgolf).
+RealGolf.Games scritto in [Svelte](https://svelte.dev), si basa su [SvelteKit](https://kit.svelte.dev) così come [NodeJS](https://nodejs.org/en). [NodeJS](https:://nodejs.org/en) è utilizzato per fornire un server Node asincrono per la comunicazione tra client e database. [SvelteKit](https://kit.svelte.dev) è utilizzato come la versione full stack di [Svelte](https://svelte.dev). Le connessioni WebSocket sono gestite direttamente dal server Node. [MongoDB](https://www.mongodb.com/) è utilizzato per memorizzare gli account degli utenti così come i dati dei percorsi. Le richieste HTTP sono gestite da [Render](https://render.com). Il client web è scritto in [TypeScript](https://www.typescriptlang.org/) e [Svelte](https://svelte.dev). Il server è scritto in [TypeScript](https://www.typescriptlang.org/) e compilato in JavaScript. [SASS](https://sass-lang.com/) è utilizzato per generare il CSS. Per favore aiutaci a [tradurre RealGolf.Games con Crowdin](https://crowdin.com/project/realgolf).
 
 ## Architettura di Produzione (ad aprile 2024)
 
-![Diagramma di architettura di produzione del sito server RealGolf](https://raw.githubusercontent.com/realgolf/realgolf/main/img/architecture.png)
+![Diagramma di architettura di produzione del sito server RealGolf.Games](https://raw.githubusercontent.com/realgolf/realgolf/main/img/architecture.png)
 
 ## Utilizzo e Funzionalità
 
@@ -66,7 +66,7 @@ Precision è un gioco in cui l'obiettivo è avvicinarsi il più possibile ai ber
 
 ## Licenza
 
-RealGolf è concessa in licenza con la [Licenza Tutti i Diritti Riservati](LICENSE.md).
+RealGolf.Games è concessa in licenza con la [Licenza Tutti i Diritti Riservati](LICENSE.md).
 
 ## Contatto
 
@@ -74,4 +74,4 @@ Per domande o feedback, non esitare a contattarci:
 
 - Email: [Supporto](mailto:support@realgolf.games)
 
-Grazie per far parte della comunità RealGolf!
+Grazie per far parte della comunità RealGolf.Games!
