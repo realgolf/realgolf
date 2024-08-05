@@ -69,6 +69,8 @@ export const actions: Actions = {
 			};
 		}
 
+		user.clubs_history.push({ clubs: user.clubs });
+
 		user.clubs = clubsArray;
 
 		try {

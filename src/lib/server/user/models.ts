@@ -240,6 +240,16 @@ const User_Schema = new mongoose.Schema({
 			name: { type: String },
 			distance: { type: Number }
 		}
+	],
+	clubs_history: [
+		{
+			clubs: [
+				{
+					name: { type: String },
+					distance: { type: Number }
+				}
+			]
+		}
 	]
 });
 
