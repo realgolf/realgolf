@@ -234,6 +234,12 @@ const User_Schema = new mongoose.Schema({
 				}
 			]
 		}
+	],
+	clubs: [
+		{
+			name: { type: String },
+			distance: { type: Number }
+		}
 	]
 });
 
