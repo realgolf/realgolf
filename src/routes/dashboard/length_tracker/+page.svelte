@@ -104,7 +104,8 @@
 					<input type="number" bind:value={club.distance} />
 				</td>
 				<td>
-					<button type="button" on:click={() => delete_club(index)}><Fa icon={faTrashAlt} /></button
+					<button type="button" class="trash" on:click={() => delete_club(index)}
+						><Fa icon={faTrashAlt} /></button
 					>
 				</td>
 			</tr>
@@ -112,9 +113,23 @@
 	</tbody>
 </table>
 
-<button type="button" on:click={add_club}>Add Club</button>
+<button type="button" class="utils" on:click={add_club}>Add Club</button>
 
 <form action="" method="POST">
 	<input type="text" name="clubs" id="clubs" bind:value={clubs} hidden />
-	<button type="button" on:click={submit_form}>Save</button>
+	<button type="button" class="utils" on:click={submit_form}>Save</button>
 </form>
+
+<style lang="scss">
+	.trash {
+		background: none;
+		border: none;
+		color: red;
+		cursor: pointer;
+		margin-left: 1rem;
+	}
+
+	.utils {
+		margin-top: 1rem;
+	}
+</style>
