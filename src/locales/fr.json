@@ -379,5 +379,6 @@
 	"score": "Score",
 	"date": "Date",
 	"two_factor_auth_description": "Two Factor Authentication (2FA)",
-	"activate_two_factor_auth": "Activate Two Factor Authentication"
+	"activate_two_factor_auth": "Activate Two Factor Authentication",
+	"length_tracker": "Length Tracker"
 }
