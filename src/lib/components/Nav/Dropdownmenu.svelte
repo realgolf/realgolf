@@ -13,7 +13,6 @@
 		faInfoCircle,
 		faList,
 		faListNumeric,
-		faMessage,
 		faQuestionCircle,
 		faSave,
 		faSignInAlt,
@@ -110,7 +109,6 @@
 				<a href="/{username}"><span><Fa icon={faUser} /></span>{username}</a>
 				<a href="/dashboard"><span><Fa icon={faTh} /></span>{$_('dashboard')}</a>
 				<a href="/dashboard/settings"><span><Fa icon={faGear} /></span>{$_('settings')}</a>
-				<a href="/dashboard/chat"><span><Fa icon={faMessage} /></span>{$_('chat')}</a>
 			</div>
 			<div class="internal-links row border-bottom">
 				<a href="/dashboard/games"><span><Fa icon={faGamepad} /></span>{$_('games')}</a>
