@@ -118,13 +118,11 @@
 				<a href="/dashboard/rules"><span><Fa icon={faBook} /></span>{$_('rules')}</a>
 				<a href="/dashboard/tools"><span><Fa icon={faWrench} /></span>{$_('tools')}</a>
 				<a href="/dashboard/planner"><span><Fa icon={faList} /></span>{$_('planner')}</a>
+				<a href="/dashboard/length_tracker"
+					><span><Fa icon={faListNumeric} /></span>{$_('length_tracker')}</a
+				>
 			</div>
 		{/if}
-		<div class="row border-bottom">
-			<p>
-				{$_('total_online_users', { values: { totalOnlineUsers } })}
-			</p>
-		</div>
 		<div class="external-links row border-bottom">
 			<a href="/blog"><span><Fa icon={faBookOpenReader} /></span>{$_('blog')}</a>
 			<a href="/faq"><span><Fa icon={faQuestionCircle} /></span>{$_('faq')}</a>
@@ -148,6 +146,7 @@
 			</div>
 		{/if}
 		<div class="version row">
+			<!-- svelte-ignore missing-declaration -->
 			<small>{PKG.version}</small>
 		</div>
 	</div>
